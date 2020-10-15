@@ -2,26 +2,26 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/associaties-met-carets> <https://duet.dev-vlaanderen.be/shacl/associaties-met-caretsshapes> <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K01BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K03AShape>,
+<https://duet.dev-vlaanderen.be/shacl/associaties-met-carets> <https://duet.dev-vlaanderen.be/shacl/associaties-met-caretsshapes> <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K03BShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K02AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K03BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K01BShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K01AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K03AShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K02BShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-carets#K01AShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K01B>;
+    sh:description "Definitie Heeft01 etc.";
+    sh:minCount 1;
+    sh:name "^Heeft01"
+  ], [
     sh:datatype xsd:string;
     sh:description "Definitie a01a etc.";
     sh:maxCount 1;
     sh:minCount 1;
     sh:name "^a01a"
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K01B>;
-    sh:description "Definitie Heeft01 etc.";
-    sh:minCount 1;
-    sh:name "^Heeft01"
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#K01A> .
 

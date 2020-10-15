@@ -2,18 +2,18 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/roles> <https://duet.dev-vlaanderen.be/shacl/rolesshapes> <https://duet.dev-vlaanderen.be/shacl/roles#D1Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/roles#DShape>,
-    <https://duet.dev-vlaanderen.be/shacl/roles#C1Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/roles#JShape>,
+<https://duet.dev-vlaanderen.be/shacl/roles> <https://duet.dev-vlaanderen.be/shacl/rolesshapes> <https://duet.dev-vlaanderen.be/shacl/roles#C1Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/roles#I1Shape>,
     <https://duet.dev-vlaanderen.be/shacl/roles#J1Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/roles#E1Shape>,
     <https://duet.dev-vlaanderen.be/shacl/roles#EShape>,
     <https://duet.dev-vlaanderen.be/shacl/roles#CShape>,
     <https://duet.dev-vlaanderen.be/shacl/roles#IShape>,
+    <https://duet.dev-vlaanderen.be/shacl/roles#F1Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/roles#D1Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/roles#E1Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/roles#DShape>,
     <https://duet.dev-vlaanderen.be/shacl/roles#FShape>,
-    <https://duet.dev-vlaanderen.be/shacl/roles#I1Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/roles#F1Shape> .
+    <https://duet.dev-vlaanderen.be/shacl/roles#JShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/roles#C1Shape> a sh:NodeShape;
   sh:closed false;
