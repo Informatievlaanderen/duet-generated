@@ -2,14 +2,14 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags> <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tagsshapes> <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#Heeft27baseShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07AbaseShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07BShape>,
+<https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags> <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tagsshapes> <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07BbaseShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K27Shape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#Heeft07baseShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07BbaseShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K27baseShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K27Shape> .
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#Heeft27baseShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07AbaseShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#K07AShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#Heeft07baseShape> a sh:NodeShape;
   sh:closed false;
@@ -40,6 +40,13 @@
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-afdaal-tags#Heeft27baseShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:datatype xsd:string;
+    sh:description "Definitie a27 etc.";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "a27";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#a27>
+  ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
     sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
@@ -53,13 +60,6 @@
     sh:minCount 1;
     sh:name "K27";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27base.k27.source>
-  ], [
-    sh:datatype xsd:string;
-    sh:description "Definitie a27 etc.";
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "a27";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#a27>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27base> .
 

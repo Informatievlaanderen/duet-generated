@@ -2,32 +2,32 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags> <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tagsshapes> <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft05Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K05AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K07BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K02AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K01AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K02BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft25Shape>,
+<https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags> <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tagsshapes> <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft06Shape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K25Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K26Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft06Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft07bShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft07Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K03BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft27Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K01BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K03AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K01AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K02AShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft27bShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K22Shape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft26Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K05BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K06AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K23Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft25Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft05Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K02BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K27Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft27Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft07bShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K03BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft07Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K01BShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K07AShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K06BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K27Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K22Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K23Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K06AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K21Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K03AShape> .
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K07BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K26Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K05BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K05AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#K21Shape> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft05Shape> a sh:NodeShape;
   sh:closed false;
@@ -58,6 +58,13 @@
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft06Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:datatype xsd:string;
+    sh:description "Definitie a06 etc.";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "a06";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#a06>
+  ], [
     sh:class <https://extern.domein#K06A>;
     sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
@@ -71,32 +78,25 @@
     sh:minCount 1;
     sh:name "K06B";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B>
-  ], [
-    sh:datatype xsd:string;
-    sh:description "Definitie a06 etc.";
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "a06";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#a06>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft07Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://extern.domein#K07A>;
-    sh:description "Referentie naar verbonden klasse.";
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "K07A";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A>
-  ], [
     sh:class <https://extern.domein#K07B>;
     sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
     sh:minCount 1;
     sh:name "K07B";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B>
+  ], [
+    sh:class <https://extern.domein#K07A>;
+    sh:description "Referentie naar verbonden klasse.";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "K07A";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A>
   ], [
     sh:datatype xsd:string;
     sh:description "Definitie a07 etc.";
@@ -110,12 +110,12 @@
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft07bShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://extern.domein#K07B>;
+    sh:class <https://extern.domein#K07A>;
     sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
     sh:minCount 1;
-    sh:name "K07B";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B>
+    sh:name "K07A";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A>
   ], [
     sh:datatype xsd:string;
     sh:description "Definitie a07b etc.";
@@ -124,25 +124,18 @@
     sh:name "a07b";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#a07b>
   ], [
-    sh:class <https://extern.domein#K07A>;
+    sh:class <https://extern.domein#K07B>;
     sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
     sh:minCount 1;
-    sh:name "K07A";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A>
+    sh:name "K07B";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07b> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft25Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:datatype xsd:string;
-    sh:description "Definitie a25 etc.";
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "a25";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#a25>
-  ], [
     sh:class <https://extern.domein#K25>;
     sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
@@ -156,6 +149,13 @@
     sh:minCount 1;
     sh:name "K25";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source>
+  ], [
+    sh:datatype xsd:string;
+    sh:description "Definitie a25 etc.";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "a25";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#a25>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#heeft25> .
 
@@ -188,12 +188,12 @@
 <https://duet.dev-vlaanderen.be/shacl/associaties-met-uri-tags#Heeft27Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:datatype xsd:string;
-    sh:description "Definitie a27 etc.";
+    sh:class <https://extern.domein#K27>;
+    sh:description "Referentie naar verbonden klasse.";
     sh:maxCount 1;
     sh:minCount 1;
-    sh:name "a27";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#a27>
+    sh:name "K27";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target>
   ], [
     sh:class <https://extern.domein#K27>;
     sh:description "Referentie naar verbonden klasse.";
@@ -202,12 +202,12 @@
     sh:name "K27";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source>
   ], [
-    sh:class <https://extern.domein#K27>;
-    sh:description "Referentie naar verbonden klasse.";
+    sh:datatype xsd:string;
+    sh:description "Definitie a27 etc.";
     sh:maxCount 1;
     sh:minCount 1;
-    sh:name "K27";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target>
+    sh:name "a27";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#a27>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27> .
 
@@ -405,16 +405,16 @@
   sh:closed false;
   sh:property [
     sh:class <https://extern.domein#K23>;
-    sh:description "Definitie k23BrolTweede etc.";
-    sh:minCount 1;
-    sh:name "k23BrolTweede";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede>
-  ], [
-    sh:class <https://extern.domein#K23>;
     sh:description "Definitie k23ArolTweede etc.";
     sh:maxCount 1;
     sh:name "k23ArolTweede";
     sh:path <https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede>
+  ], [
+    sh:class <https://extern.domein#K23>;
+    sh:description "Definitie k23BrolTweede etc.";
+    sh:minCount 1;
+    sh:name "k23BrolTweede";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede>
   ], [
     sh:class <https://extern.domein#K23>;
     sh:description "Definitie k23Brol etc.";
@@ -462,10 +462,10 @@
   sh:closed false;
   sh:property [
     sh:class <https://extern.domein#K27>;
-    sh:description "Definitie k27Arol etc.";
-    sh:maxCount 1;
-    sh:name "k27Arol";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Arol>
+    sh:description "Definitie k27Brol etc.";
+    sh:minCount 1;
+    sh:name "k27Brol";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Brol>
   ], [
     sh:class <https://extern.domein#K27>;
     sh:description "Definitie k27BrolTweede etc.";
@@ -474,9 +474,9 @@
     sh:path <https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede>
   ], [
     sh:class <https://extern.domein#K27>;
-    sh:description "Definitie k27Brol etc.";
-    sh:minCount 1;
-    sh:name "k27Brol";
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Brol>
+    sh:description "Definitie k27Arol etc.";
+    sh:maxCount 1;
+    sh:name "k27Arol";
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Arol>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target> .
