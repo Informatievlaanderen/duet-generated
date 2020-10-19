@@ -153,13 +153,21 @@
   "site": "site-skeleton/mijn-applicatieprofiel-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+  "translation": [
+    {
+      "language": "en",
+      "template": "mijn-applicatieprofiel-ap_en.j2",
+      "title": "My Application Profile",
+      "contributors-column": "MijnKolom"
+    }
+  ],
   "config": "config/config-ap.json",
   "urlref": "/doc/applicatieprofiel/translation",
   "repository": "https://github.com/AnnemarieWittig/duetworkspace",
   "branchtag": "main",
   "filename": "config/mijn-applicatieprofiel-ap.json",
   "navigation": {},
-  "documentcommit": "ae559e6c516e1484144ebb7c937895ebc43afd56",
-  "toolchaincommit": "9557d6c8aa6a38e5c3b46d605c703bdc625953cb",
+  "documentcommit": "d6c1bdfb54acb201103df5a47390c235be78d229",
+  "toolchaincommit": "c6fbcac4fee58a6728e73ca9889535de906f75a3",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
