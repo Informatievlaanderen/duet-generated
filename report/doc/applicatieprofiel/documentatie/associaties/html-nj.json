@@ -13,8 +13,8 @@
     "license": "TODO",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "statuslabel": "Ontwerpdocument",
-    "repositoryurl": "https://github.com/bertvannuffelen/demo_oslodoc/tree/492454f1df7352e3a9147029e5d27438e96a23b1",
-    "changelogurl": "https://github.com/bertvannuffelen/demo_oslodoc/blob/492454f1df7352e3a9147029e5d27438e96a23b1/CHANGELOG",
+    "repositoryurl": "https://github.com/bertvannuffelen/demo_oslodoc/tree/0320a10b6a8e600846c263e8fe366350a3060015",
+    "changelogurl": "https://github.com/bertvannuffelen/demo_oslodoc/blob/0320a10b6a8e600846c263e8fe366350a3060015/CHANGELOG",
     "feedbackurl": "https://github.com/bertvannuffelen/demo_oslodoc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "usesVocs": [],
@@ -24,31 +24,27 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 04"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 04",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft04 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft04 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 04A"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 04A",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k04A etc."
           },
-          "usage": {
-            "en": "Enter your translation here"
-          },
+          "usage": {},
           "domain": [
             {
               "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
@@ -66,8 +62,7 @@
               "range_uri": "#K 04A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K04A",
               "range_label": {
-                "nl": "K 04A",
-                "en": "Enter your translation here"
+                "nl": "K 04A"
               }
             }
           ],
@@ -77,17 +72,13 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 04B"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 04B",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k04B etc."
           },
-          "usage": {
-            "en": "Enter your translation here"
-          },
+          "usage": {},
           "domain": [
             {
               "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
@@ -105,8 +96,7 @@
               "range_uri": "#K 04B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K04B",
               "range_label": {
-                "nl": "K 04B",
-                "en": "Enter your translation here"
+                "nl": "K 04B"
               }
             }
           ],
@@ -116,16 +106,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a04",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 04"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 04",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a04 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a04 etc."
           },
           "domain": [
             {
@@ -156,30 +144,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 05"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 05",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft05 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft05 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 05A"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 05A",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -198,8 +184,7 @@
               "range_uri": "#K 05A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K05A",
               "range_label": {
-                "nl": "K 05A",
-                "en": "Enter your translation here"
+                "nl": "K 05A"
               }
             }
           ],
@@ -209,16 +194,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 05B"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 05B",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -237,8 +220,7 @@
               "range_uri": "#K 05B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K05B",
               "range_label": {
-                "nl": "K 05B",
-                "en": "Enter your translation here"
+                "nl": "K 05B"
               }
             }
           ],
@@ -248,16 +230,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a05",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 05"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 05",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a05 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a05 etc."
           },
           "domain": [
             {
@@ -288,30 +268,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 06"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 06",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft06 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft06 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 06A"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 06A",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -330,8 +308,7 @@
               "range_uri": "#K 06A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
               "range_label": {
-                "nl": "K 06A",
-                "en": "Enter your translation here"
+                "nl": "K 06A"
               }
             }
           ],
@@ -341,16 +318,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 06B"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 06B",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -369,8 +344,7 @@
               "range_uri": "#K 06B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06B",
               "range_label": {
-                "nl": "K 06B",
-                "en": "Enter your translation here"
+                "nl": "K 06B"
               }
             }
           ],
@@ -380,16 +354,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a06",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 06"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 06",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a06 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a06 etc."
           },
           "domain": [
             {
@@ -420,30 +392,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 07"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 07",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft07 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft07 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07A"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07A",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -462,8 +432,7 @@
               "range_uri": "#K 07A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
               "range_label": {
-                "nl": "K 07A",
-                "en": "Enter your translation here"
+                "nl": "K 07A"
               }
             }
           ],
@@ -473,16 +442,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07B"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07B",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -501,8 +468,7 @@
               "range_uri": "#K 07B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
               "range_label": {
-                "nl": "K 07B",
-                "en": "Enter your translation here"
+                "nl": "K 07B"
               }
             }
           ],
@@ -512,16 +478,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a07",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 07"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 07",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a07 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a07 etc."
           },
           "domain": [
             {
@@ -552,30 +516,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 07b"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 07b",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft07b (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft07b (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07A"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07A",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -594,8 +556,7 @@
               "range_uri": "#K 07A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
               "range_label": {
-                "nl": "K 07A",
-                "en": "Enter your translation here"
+                "nl": "K 07A"
               }
             }
           ],
@@ -605,16 +566,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07B"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07B",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -633,8 +592,7 @@
               "range_uri": "#K 07B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
               "range_label": {
-                "nl": "K 07B",
-                "en": "Enter your translation here"
+                "nl": "K 07B"
               }
             }
           ],
@@ -644,16 +602,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a07b",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 07b"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 07b",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a07b etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a07b etc."
           },
           "domain": [
             {
@@ -684,30 +640,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 25"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 25",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft25 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft25 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 25 (source)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 25 (source)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -726,8 +680,7 @@
               "range_uri": "#K 25",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K25",
               "range_label": {
-                "nl": "K 25",
-                "en": "Enter your translation here"
+                "nl": "K 25"
               }
             }
           ],
@@ -737,16 +690,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 25 (target)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 25 (target)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -765,8 +716,7 @@
               "range_uri": "#K 25",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K25",
               "range_label": {
-                "nl": "K 25",
-                "en": "Enter your translation here"
+                "nl": "K 25"
               }
             }
           ],
@@ -776,16 +726,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a25",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 25"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 25",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a25 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a25 etc."
           },
           "domain": [
             {
@@ -816,30 +764,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 26"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 26",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft26 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft26 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 26 (source)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 26 (source)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -858,8 +804,7 @@
               "range_uri": "#K 26",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
               "range_label": {
-                "nl": "K 26",
-                "en": "Enter your translation here"
+                "nl": "K 26"
               }
             }
           ],
@@ -869,16 +814,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 26 (target)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 26 (target)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -897,8 +840,7 @@
               "range_uri": "#K 26",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
               "range_label": {
-                "nl": "K 26",
-                "en": "Enter your translation here"
+                "nl": "K 26"
               }
             }
           ],
@@ -908,16 +850,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a26",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 26"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 26",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a26 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a26 etc."
           },
           "domain": [
             {
@@ -948,30 +888,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 27"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 27",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft27 (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft27 (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27 (source)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27 (source)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -990,8 +928,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -1001,16 +938,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27 (target)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27 (target)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -1029,8 +964,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -1040,16 +974,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a27",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 27"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 27",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a27 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a27 etc."
           },
           "domain": [
             {
@@ -1080,30 +1012,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "Heeft 27b"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "Heeft 27b",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie Heeft27b (associatieklasse) etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik Heeft27b (associatieklasse) etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27 (source)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27 (source)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -1122,8 +1052,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -1133,16 +1062,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27 (target)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27 (target)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Referentie naar verbonden klasse."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": ""
           },
           "domain": [
             {
@@ -1161,8 +1088,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -1172,16 +1098,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#a27b",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "a 27b"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "a 27b",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie a27b etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik a27b etc."
           },
           "domain": [
             {
@@ -1212,30 +1136,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K01A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 01A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 01A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K01A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K01A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft01",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 01"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 01",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft01 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft01 etc."
           },
           "domain": [
             {
@@ -1254,8 +1176,7 @@
               "range_uri": "#K 01B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K01B",
               "range_label": {
-                "nl": "K 01B",
-                "en": "Enter your translation here"
+                "nl": "K 01B"
               }
             }
           ],
@@ -1267,45 +1188,43 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K01B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 01B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 01B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K01B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K01B etc."
+      },
       "parents": [],
       "properties": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K02A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 02A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 02A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K02A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K02A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K02A.heeft02",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 02"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 02",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft02 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft02 etc."
           },
           "domain": [
             {
@@ -1324,8 +1243,7 @@
               "range_uri": "#K 02B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K02B",
               "range_label": {
-                "nl": "K 02B",
-                "en": "Enter your translation here"
+                "nl": "K 02B"
               }
             }
           ],
@@ -1337,30 +1255,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 02B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 02B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K02B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K02B etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 02"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 02",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft02 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft02 etc."
           },
           "domain": [
             {
@@ -1379,8 +1295,7 @@
               "range_uri": "#K 02A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K02A",
               "range_label": {
-                "nl": "K 02A",
-                "en": "Enter your translation here"
+                "nl": "K 02A"
               }
             }
           ],
@@ -1392,30 +1307,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 03A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 03A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K03A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K03A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Brol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 03B rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 03B rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k03Brol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k03Brol etc."
           },
           "domain": [
             {
@@ -1434,8 +1347,7 @@
               "range_uri": "#K 03B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03B",
               "range_label": {
-                "nl": "K 03B",
-                "en": "Enter your translation here"
+                "nl": "K 03B"
               }
             }
           ],
@@ -1445,16 +1357,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 03B rol Tweede"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 03B rol Tweede",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k03BrolTweede etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k03BrolTweede etc."
           },
           "domain": [
             {
@@ -1473,8 +1383,7 @@
               "range_uri": "#K 03B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03B",
               "range_label": {
-                "nl": "K 03B",
-                "en": "Enter your translation here"
+                "nl": "K 03B"
               }
             }
           ],
@@ -1486,30 +1395,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 03B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 03B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K03B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K03B etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Arol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 03A rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 03A rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k03Arol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k03Arol etc."
           },
           "domain": [
             {
@@ -1528,8 +1435,7 @@
               "range_uri": "#K 03A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03A",
               "range_label": {
-                "nl": "K 03A",
-                "en": "Enter your translation here"
+                "nl": "K 03A"
               }
             }
           ],
@@ -1539,16 +1445,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 03A rol Tweede"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 03A rol Tweede",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k03ArolTweede etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k03ArolTweede etc."
           },
           "domain": [
             {
@@ -1567,8 +1471,7 @@
               "range_uri": "#K 03A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03A",
               "range_label": {
-                "nl": "K 03A",
-                "en": "Enter your translation here"
+                "nl": "K 03A"
               }
             }
           ],
@@ -1580,30 +1483,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K04A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 04A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 04A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K04A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K04A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K04A.heeft04",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 04"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 04",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie heeft04 (inK04A) etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik heeft04 (in K04A) etc."
           },
           "domain": [
             {
@@ -1622,8 +1523,7 @@
               "range_uri": "#Heeft 04",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
               "range_label": {
-                "nl": "Heeft 04",
-                "en": "Enter your translation here"
+                "nl": "Heeft 04"
               }
             }
           ],
@@ -1635,30 +1535,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 04B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 04B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K04B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K04B etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 04"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 04",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie heeft04 (in K04B) etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik heeft04 (in K04B) etc."
           },
           "domain": [
             {
@@ -1677,8 +1575,7 @@
               "range_uri": "#Heeft 04",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
               "range_label": {
-                "nl": "Heeft 04",
-                "en": "Enter your translation here"
+                "nl": "Heeft 04"
               }
             }
           ],
@@ -1690,30 +1587,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K05A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 05A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 05A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K05A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K05A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft05",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 05"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 05",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft05 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft05 etc."
           },
           "domain": [
             {
@@ -1732,8 +1627,7 @@
               "range_uri": "#K 05B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K05B",
               "range_label": {
-                "nl": "K 05B",
-                "en": "Enter your translation here"
+                "nl": "K 05B"
               }
             }
           ],
@@ -1745,45 +1639,43 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K05B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 05B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 05B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K05B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K05B etc."
+      },
       "parents": [],
       "properties": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 06A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 06A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K06A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K06A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A.heeft06",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 06"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 06",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft06 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft06 etc."
           },
           "domain": [
             {
@@ -1802,8 +1694,7 @@
               "range_uri": "#K 06B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06B",
               "range_label": {
-                "nl": "K 06B",
-                "en": "Enter your translation here"
+                "nl": "K 06B"
               }
             }
           ],
@@ -1815,30 +1706,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 06B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 06B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K06B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K06B etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 06"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 06",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft06 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft06 etc."
           },
           "domain": [
             {
@@ -1857,8 +1746,7 @@
               "range_uri": "#K 06A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
               "range_label": {
-                "nl": "K 06A",
-                "en": "Enter your translation here"
+                "nl": "K 06A"
               }
             }
           ],
@@ -1870,30 +1758,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 07A"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 07A",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K07A etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K07A etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Brol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07B rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07B rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k07Brol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k07Brol etc."
           },
           "domain": [
             {
@@ -1912,8 +1798,7 @@
               "range_uri": "#K 07B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
               "range_label": {
-                "nl": "K 07B",
-                "en": "Enter your translation here"
+                "nl": "K 07B"
               }
             }
           ],
@@ -1923,16 +1808,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07B rol Tweede"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07B rol Tweede",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k07BrolTweede etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k07BrolTweede etc."
           },
           "domain": [
             {
@@ -1951,8 +1834,7 @@
               "range_uri": "#K 07B",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
               "range_label": {
-                "nl": "K 07B",
-                "en": "Enter your translation here"
+                "nl": "K 07B"
               }
             }
           ],
@@ -1964,30 +1846,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 07B"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 07B",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K07B etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K07B etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Arol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 07A rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 07A rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k07Arol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k07Arol etc."
           },
           "domain": [
             {
@@ -2006,8 +1886,7 @@
               "range_uri": "#K 07A",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
               "range_label": {
-                "nl": "K 07A",
-                "en": "Enter your translation here"
+                "nl": "K 07A"
               }
             }
           ],
@@ -2019,30 +1898,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K21",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 21"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 21",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K21 etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K21 etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft21",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 21"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 21",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft21 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft21 etc."
           },
           "domain": [
             {
@@ -2061,8 +1938,7 @@
               "range_uri": "#K 21",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K21",
               "range_label": {
-                "nl": "K 21",
-                "en": "Enter your translation here"
+                "nl": "K 21"
               }
             }
           ],
@@ -2074,30 +1950,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K22",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 22"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 22",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K22 etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K22 etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 22 (source)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 22 (source)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft22 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft22 etc."
           },
           "domain": [
             {
@@ -2116,8 +1990,7 @@
               "range_uri": "#K 22",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K22",
               "range_label": {
-                "nl": "K 22",
-                "en": "Enter your translation here"
+                "nl": "K 22"
               }
             }
           ],
@@ -2127,16 +2000,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 22 (target)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 22 (target)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft22 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft22 etc."
           },
           "domain": [
             {
@@ -2155,8 +2026,7 @@
               "range_uri": "#K 22",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K22",
               "range_label": {
-                "nl": "K 22",
-                "en": "Enter your translation here"
+                "nl": "K 22"
               }
             }
           ],
@@ -2168,30 +2038,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K23",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 23"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 23",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K23 etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K23 etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Arol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 23A rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 23A rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k23Arol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k23Arol etc."
           },
           "domain": [
             {
@@ -2210,8 +2078,7 @@
               "range_uri": "#K 23",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
               "range_label": {
-                "nl": "K 23",
-                "en": "Enter your translation here"
+                "nl": "K 23"
               }
             }
           ],
@@ -2221,16 +2088,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 23A rol Tweede"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 23A rol Tweede",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k23ArolTweede etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k23ArolTweede etc."
           },
           "domain": [
             {
@@ -2249,8 +2114,7 @@
               "range_uri": "#K 23",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
               "range_label": {
-                "nl": "K 23",
-                "en": "Enter your translation here"
+                "nl": "K 23"
               }
             }
           ],
@@ -2260,16 +2124,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Brol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 23B rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 23B rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k23Brol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k23Brol etc."
           },
           "domain": [
             {
@@ -2288,8 +2150,7 @@
               "range_uri": "#K 23",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
               "range_label": {
-                "nl": "K 23",
-                "en": "Enter your translation here"
+                "nl": "K 23"
               }
             }
           ],
@@ -2299,16 +2160,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 23B rol Tweede"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 23B rol Tweede",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k23BrolTweede etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k23BrolTweede etc."
           },
           "domain": [
             {
@@ -2327,8 +2186,7 @@
               "range_uri": "#K 23",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
               "range_label": {
-                "nl": "K 23",
-                "en": "Enter your translation here"
+                "nl": "K 23"
               }
             }
           ],
@@ -2340,30 +2198,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K25",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 25"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 25",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K25 etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K25 etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft25",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 25"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 25",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft25 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft25 etc."
           },
           "domain": [
             {
@@ -2382,8 +2238,7 @@
               "range_uri": "#K 25",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K25",
               "range_label": {
-                "nl": "K 25",
-                "en": "Enter your translation here"
+                "nl": "K 25"
               }
             }
           ],
@@ -2395,30 +2250,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K26",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 26"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 26",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K26 etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K26 etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 26 (source)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 26 (source)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft26 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft26 etc."
           },
           "domain": [
             {
@@ -2437,8 +2290,7 @@
               "range_uri": "#K 26",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
               "range_label": {
-                "nl": "K 26",
-                "en": "Enter your translation here"
+                "nl": "K 26"
               }
             }
           ],
@@ -2448,16 +2300,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "heeft 26 (target)"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "heeft 26 (target)",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie Heeft26 etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik Heeft26 etc."
           },
           "domain": [
             {
@@ -2476,8 +2326,7 @@
               "range_uri": "#K 26",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
               "range_label": {
-                "nl": "K 26",
-                "en": "Enter your translation here"
+                "nl": "K 26"
               }
             }
           ],
@@ -2489,30 +2338,28 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K27",
       "name": {
-        "en": "Enter your translation here"
+        "nl": "K 27"
       },
-      "sort": {
-        "en": "Enter your translation here"
-      },
+      "sort_nl": "K 27",
       "description": {
-        "en": "Enter your translation here"
+        "nl": "Definitie K27 etc."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Gebruik K27 etc."
+      },
       "parents": [],
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Arol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27A rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27A rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k27Arol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k27Arol etc."
           },
           "domain": [
             {
@@ -2531,8 +2378,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -2542,16 +2388,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Brol",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27B rol"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27B rol",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k27Brol etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k27Brol etc."
           },
           "domain": [
             {
@@ -2570,8 +2414,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -2581,16 +2424,14 @@
         {
           "uri": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede",
           "name": {
-            "en": "Enter your translation here"
+            "nl": "k 27B rol Tweede"
           },
-          "sort": {
-            "en": "Enter your translation here"
-          },
+          "sort_nl": "k 27B rol Tweede",
           "description": {
-            "en": "Enter your translation here"
+            "nl": "Definitie k27BrolTweede etc."
           },
           "usage": {
-            "en": "Enter your translation here"
+            "nl": "Gebruik k27BrolTweede etc."
           },
           "domain": [
             {
@@ -2609,8 +2450,7 @@
               "range_uri": "#K 27",
               "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
               "range_label": {
-                "nl": "K 27",
-                "en": "Enter your translation here"
+                "nl": "K 27"
               }
             }
           ],
@@ -2624,11 +2464,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 04A"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k04A etc."
       },
       "domain": [
@@ -2637,20 +2475,15 @@
       "range": [
         null
       ],
-      "usage": {
-        "en": "Enter your translation here",
-        "nl": ""
-      },
+      "usage": {},
       "parents": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 04B"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k04B etc."
       },
       "domain": [
@@ -2659,20 +2492,15 @@
       "range": [
         null
       ],
-      "usage": {
-        "en": "Enter your translation here",
-        "nl": ""
-      },
+      "usage": {},
       "parents": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 05A"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2682,7 +2510,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2690,11 +2517,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 05B"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2704,7 +2529,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2712,11 +2536,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 06A"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2726,7 +2548,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2734,11 +2555,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 06B"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2748,7 +2567,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2756,11 +2574,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07A"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2770,7 +2586,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2778,11 +2593,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07B"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2792,7 +2605,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2800,11 +2612,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07A"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2814,7 +2624,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2822,11 +2631,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07B"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2836,7 +2643,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2844,11 +2650,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 25 (source)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2858,7 +2662,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2866,11 +2669,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 25 (target)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2880,7 +2681,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2888,11 +2688,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 26 (source)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2902,7 +2700,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2910,11 +2707,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 26 (target)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2924,7 +2719,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2932,11 +2726,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27 (source)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2946,7 +2738,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2954,11 +2745,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27 (target)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2968,7 +2757,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2976,11 +2764,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27 (source)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -2990,7 +2776,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -2998,11 +2783,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27 (target)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Referentie naar verbonden klasse."
       },
       "domain": [
@@ -3012,7 +2795,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": ""
       },
       "parents": []
@@ -3020,11 +2802,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K02A.heeft02",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 02"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft02 etc."
       },
       "domain": [
@@ -3034,7 +2814,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft02 etc."
       },
       "parents": []
@@ -3042,11 +2821,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 02"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft02 etc."
       },
       "domain": [
@@ -3056,7 +2833,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft02 etc."
       },
       "parents": []
@@ -3064,11 +2840,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K04A.heeft04",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 04"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie heeft04 (inK04A) etc."
       },
       "domain": [
@@ -3078,7 +2852,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik heeft04 (in K04A) etc."
       },
       "parents": []
@@ -3086,11 +2859,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 04"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie heeft04 (in K04B) etc."
       },
       "domain": [
@@ -3100,7 +2871,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik heeft04 (in K04B) etc."
       },
       "parents": []
@@ -3108,11 +2878,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A.heeft06",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 06"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft06 etc."
       },
       "domain": [
@@ -3122,7 +2890,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft06 etc."
       },
       "parents": []
@@ -3130,11 +2897,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 06"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft06 etc."
       },
       "domain": [
@@ -3144,7 +2909,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft06 etc."
       },
       "parents": []
@@ -3152,11 +2916,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 22 (source)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft22 etc."
       },
       "domain": [
@@ -3166,7 +2928,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft22 etc."
       },
       "parents": []
@@ -3174,11 +2935,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 22 (target)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft22 etc."
       },
       "domain": [
@@ -3188,7 +2947,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft22 etc."
       },
       "parents": []
@@ -3196,11 +2954,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 26 (source)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft26 etc."
       },
       "domain": [
@@ -3210,7 +2966,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft26 etc."
       },
       "parents": []
@@ -3218,11 +2973,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 26 (target)"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft26 etc."
       },
       "domain": [
@@ -3232,7 +2985,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft26 etc."
       },
       "parents": []
@@ -3240,11 +2992,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft01",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 01"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft01 etc."
       },
       "domain": [
@@ -3254,7 +3004,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft01 etc."
       },
       "parents": []
@@ -3262,11 +3011,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft05",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 05"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft05 etc."
       },
       "domain": [
@@ -3276,7 +3023,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft05 etc."
       },
       "parents": []
@@ -3284,11 +3030,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft21",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 21"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft21 etc."
       },
       "domain": [
@@ -3298,7 +3042,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft21 etc."
       },
       "parents": []
@@ -3306,11 +3049,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft25",
       "name": {
-        "en": "Enter your translation here",
         "nl": "heeft 25"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie Heeft25 etc."
       },
       "domain": [
@@ -3320,7 +3061,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik Heeft25 etc."
       },
       "parents": []
@@ -3328,11 +3068,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Arol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 03A rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k03Arol etc."
       },
       "domain": [
@@ -3342,7 +3080,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k03Arol etc."
       },
       "parents": []
@@ -3350,11 +3087,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 03A rol Tweede"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k03ArolTweede etc."
       },
       "domain": [
@@ -3364,7 +3099,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k03ArolTweede etc."
       },
       "parents": []
@@ -3372,11 +3106,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Brol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 03B rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k03Brol etc."
       },
       "domain": [
@@ -3386,7 +3118,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k03Brol etc."
       },
       "parents": []
@@ -3394,11 +3125,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 03B rol Tweede"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k03BrolTweede etc."
       },
       "domain": [
@@ -3408,7 +3137,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k03BrolTweede etc."
       },
       "parents": []
@@ -3416,11 +3144,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Arol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07A rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k07Arol etc."
       },
       "domain": [
@@ -3430,7 +3156,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k07Arol etc."
       },
       "parents": []
@@ -3438,11 +3163,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Brol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07B rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k07Brol etc."
       },
       "domain": [
@@ -3452,7 +3175,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k07Brol etc."
       },
       "parents": []
@@ -3460,11 +3182,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 07B rol Tweede"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k07BrolTweede etc."
       },
       "domain": [
@@ -3474,7 +3194,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k07BrolTweede etc."
       },
       "parents": []
@@ -3482,11 +3201,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Arol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 23A rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k23Arol etc."
       },
       "domain": [
@@ -3496,7 +3213,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k23Arol etc."
       },
       "parents": []
@@ -3504,11 +3220,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 23A rol Tweede"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k23ArolTweede etc."
       },
       "domain": [
@@ -3518,7 +3232,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k23ArolTweede etc."
       },
       "parents": []
@@ -3526,11 +3239,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Brol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 23B rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k23Brol etc."
       },
       "domain": [
@@ -3540,7 +3251,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k23Brol etc."
       },
       "parents": []
@@ -3548,11 +3258,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 23B rol Tweede"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k23BrolTweede etc."
       },
       "domain": [
@@ -3562,7 +3270,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k23BrolTweede etc."
       },
       "parents": []
@@ -3570,11 +3277,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Arol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27A rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k27Arol etc."
       },
       "domain": [
@@ -3584,7 +3289,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k27Arol etc."
       },
       "parents": []
@@ -3592,11 +3296,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Brol",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27B rol"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k27Brol etc."
       },
       "domain": [
@@ -3606,7 +3308,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k27Brol etc."
       },
       "parents": []
@@ -3614,11 +3315,9 @@
     {
       "uri": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede",
       "name": {
-        "en": "Enter your translation here",
         "nl": "k 27B rol Tweede"
       },
       "description": {
-        "en": "Enter your translation here",
         "nl": "Definitie k27BrolTweede etc."
       },
       "domain": [
@@ -3628,7 +3327,6 @@
         null
       ],
       "usage": {
-        "en": "Enter your translation here",
         "nl": "Gebruik k27BrolTweede etc."
       },
       "parents": []
@@ -3637,5 +3335,5 @@
   "contributors": [],
   "datatypes": [],
   "parents": [],
-  "documentroot": "doc/applicatieprofiel/documentatie/associaties"
+  "documentroot": "/doc/applicatieprofiel/documentatie/associaties"
 }
