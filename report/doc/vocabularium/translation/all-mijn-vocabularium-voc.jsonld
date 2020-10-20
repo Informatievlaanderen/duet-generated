@@ -156,13 +156,21 @@
   "contributors-column": "MijnKolom",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+  "translation": [
+    {
+      "language": "en",
+      "template": "mijn-vocabularium-voc_en.j2",
+      "title": "mein-Vokabular-Voc",
+      "translationjson": "mijn-vocabularium-voc_en.json"
+    }
+  ],
   "config": "config/config-voc.json",
   "urlref": "/doc/vocabularium/translation",
   "repository": "https://github.com/AnnemarieWittig/duetworkspace",
   "branchtag": "main",
   "filename": "config/mijn-vocabularium-voc.json",
   "navigation": {},
-  "documentcommit": "8969eb478594ef99bc20a8458a1e7b6e2296e485",
-  "toolchaincommit": "9e7de935aec602acadc7044cc802068769985172",
+  "documentcommit": "8b1cb5f9e77bd2ae824654bb183bb118e69de996",
+  "toolchaincommit": "93284f40884942fdace2050394f9722a3ebac023",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

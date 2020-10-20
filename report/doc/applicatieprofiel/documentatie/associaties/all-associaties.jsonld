@@ -8254,13 +8254,21 @@
   "feedbackurl": "https://github.com/bertvannuffelen/demo_oslodoc/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
   "site": "site-skeleton/associaties",
+  "translation": [
+    {
+      "language": "en",
+      "template": "testassociaties-ap_en.j2 ",
+      "title": "Associations",
+      "translationjson": "associaties_en.json"
+    }
+  ],
   "config": "config/config-ap.json",
   "dummy": "associaties058",
   "urlref": "/doc/applicatieprofiel/documentatie/associaties",
   "repository": "https://github.com/bertvannuffelen/demo_oslodoc",
   "branchtag": "master",
   "navigation": {},
-  "documentcommit": "0320a10b6a8e600846c263e8fe366350a3060015",
-  "toolchaincommit": "9e7de935aec602acadc7044cc802068769985172",
+  "documentcommit": "e88e5bcfdda24d218ab83f33af07a04c2d73b55b",
+  "toolchaincommit": "93284f40884942fdace2050394f9722a3ebac023",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
