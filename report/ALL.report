@@ -3,271 +3,271 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-18:53:19 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-18:53:19 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model".
-18:53:19 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Domain Model, Model
-18:53:19 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.MijnDomein".
-18:53:19 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.MijnDomein".
-18:53:19 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.MijnDomein".
-18:53:19 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.MijnDomein".
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K01A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K01B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K02A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K02B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K03A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K03B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K05A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K05B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft05" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K04A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K04B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft04" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K06A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K06B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft06" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K07A" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K07B" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft07" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K25" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft25" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K26" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft26" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K21" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K22" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K23" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K27" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft27" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft07b" .
-18:53:19 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft27b" .
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K07B:k07Arol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K07A:k07Brol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B" does not start with a lowercase "K 07B".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A" does not start with a lowercase "K 07A".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K06A:Heeft06" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K06A.heeft06" does not start with a lowercase "Heeft 06".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K06B:Heeft06" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06" does not start with a lowercase "Heeft 06".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B" does not start with a lowercase "K 06B".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A" does not start with a lowercase "K 06A".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K04A:Heeft04" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:Heeft04:Heeft04" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:Heeft04:Heeft04" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K04B:Heeft04" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K25:Heeft25" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft25" does not start with a lowercase "Heeft 25".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target" does not start with a lowercase "K 25 (target)".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source" does not start with a lowercase "K 25 (source)".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03B:k03Arol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K26:Heeft26" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source" does not start with a lowercase "Heeft 26".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source" does not start with a lowercase "Heeft 26 (source)".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K26:Heeft26" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target" does not start with a lowercase "Heeft 26".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target" does not start with a lowercase "Heeft 26 (target)".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target" does not start with a lowercase "K 26 (target)".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source" does not start with a lowercase "K 26 (source)".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23Arol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23Brol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K05A:Heeft05" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft05" does not start with a lowercase "Heeft 05".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B" does not start with a lowercase "K 05B".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A" does not start with a lowercase "K 05A".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K27:k27BrolTweede" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target" does not start with a lowercase "K 27 (target)".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source" does not start with a lowercase "K 27 (source)".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K21:Heeft21" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft21" does not start with a lowercase "Heeft 21".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K07A:k07BrolTweede" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B" does not start with a lowercase "K 07B".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A" does not start with a lowercase "K 07A".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K27:k27Arol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K27:k27Brol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target" does not start with a lowercase "K 27 (target)".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source" does not start with a lowercase "K 27 (source)".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03B:k03ArolTweede" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03A:k03BrolTweede" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23ArolTweede" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23BrolTweede" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K02B:Heeft02" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K02A:Heeft02" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02" does not start with a lowercase "Heeft 02".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K02A.heeft02" does not start with a lowercase "Heeft 02".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03A:k03Brol" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K01A:Heeft01" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft01" does not start with a lowercase "Heeft 01".
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K22:Heeft22" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K22:Heeft22" belongs to package "MijnDomein" based on source and target definition.
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target" does not start with a lowercase "Heeft 22".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target" does not start with a lowercase "Heeft 22 (target)".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source" does not start with a lowercase "Heeft 22".
-18:53:19 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source" does not start with a lowercase "Heeft 22 (source)".
+19:00:30 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+19:00:30 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model".
+19:00:30 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.Domain Model
+19:00:30 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.MijnDomein".
+19:00:30 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.MijnDomein".
+19:00:30 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.MijnDomein".
+19:00:30 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.MijnDomein".
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K01A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K01B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K02A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K02B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K03A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K03B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K05A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K05B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft05" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K04A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K04B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft04" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K06A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K06B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft06" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K07A" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K07B" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft07" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K25" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft25" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K26" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft26" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K21" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K22" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K23" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "K27" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft27" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft07b" .
+19:00:30 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Heeft27b" .
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K04A:Heeft04" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:Heeft04:Heeft04" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:Heeft04:Heeft04" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K04B:Heeft04" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K21:Heeft21" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft21" does not start with a lowercase "Heeft 21".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K27:k27Arol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K27:k27Brol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target" does not start with a lowercase "K 27 (target)".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source" does not start with a lowercase "K 27 (source)".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K26:Heeft26" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source" does not start with a lowercase "Heeft 26".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source" does not start with a lowercase "Heeft 26 (source)".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K26:Heeft26" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target" does not start with a lowercase "Heeft 26".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target" does not start with a lowercase "Heeft 26 (target)".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target" does not start with a lowercase "K 26 (target)".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source" does not start with a lowercase "K 26 (source)".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K27:k27BrolTweede" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target" does not start with a lowercase "K 27 (target)".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source" does not start with a lowercase "K 27 (source)".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K05A:Heeft05" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft05" does not start with a lowercase "Heeft 05".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B" does not start with a lowercase "K 05B".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A" does not start with a lowercase "K 05A".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23Brol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K07B:k07Arol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K07A:k07Brol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B" does not start with a lowercase "K 07B".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A" does not start with a lowercase "K 07A".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K07A:k07BrolTweede" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B" does not start with a lowercase "K 07B".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A" does not start with a lowercase "K 07A".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K02B:Heeft02" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K02A:Heeft02" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02" does not start with a lowercase "Heeft 02".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K02A.heeft02" does not start with a lowercase "Heeft 02".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K01A:Heeft01" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft01" does not start with a lowercase "Heeft 01".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K22:Heeft22" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K22:Heeft22" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target" does not start with a lowercase "Heeft 22".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target" does not start with a lowercase "Heeft 22 (target)".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source" does not start with a lowercase "Heeft 22".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source" does not start with a lowercase "Heeft 22 (source)".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03B:k03ArolTweede" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03A:k03BrolTweede" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03A:k03Brol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K25:Heeft25" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#heeft25" does not start with a lowercase "Heeft 25".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target" does not start with a lowercase "K 25 (target)".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source" does not start with a lowercase "K 25 (source)".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23Arol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K06A:Heeft06" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K06A.heeft06" does not start with a lowercase "Heeft 06".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K06B:Heeft06" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06" does not start with a lowercase "Heeft 06".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B" does not start with a lowercase "K 06B".
+19:00:30 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A" does not start with a lowercase "K 06A".
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K03B:k03Arol" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23ArolTweede" belongs to package "MijnDomein" based on source and target definition.
+19:00:30 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.MijnDomein:K23:k23BrolTweede" belongs to package "MijnDomein" based on source and target definition.
 /tmp/workspace/src/doc/vocabularium/translation
 Load mapping config:config/config-voc.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_vocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.OSLO²_vocabularium.OSLO-MijnVocabularium, Model, Model.OSLO²_vocabularium
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
-18:53:21 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_vocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.OSLO²_vocabularium, Model.OSLO²_vocabularium.OSLO-MijnVocabularium, Model
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "title-nl" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
+19:00:32 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_vocabularium.OSLO-MijnVocabularium".
 /tmp/workspace/src/doc/persoon-basis/translation
 Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon.OSLO²_usecase_Persoon_identificatiePersoon".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Placeholder".
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Placeholder, Model, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon.OSLO²_usecase_Persoon_identificatiePersoon, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Plaatscode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:ParticipatieRol, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatienaamtype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ELI_status, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:BewijsType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:NAL_type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:COFOG, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:NAL_currency, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatieaanduidingtype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:NUTS, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Geslacht, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:OutputType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatorniveauwaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Afstammingstype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:ADMSStatusVocabularium, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeometrieSpecificatieWaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:AdministratiefNiveau, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:KanaalType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:NACE, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:CriteriumVereisteType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:GebeurtenisType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:StopzettingType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Taalcode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Statuswaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Eurovoc, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeometrieMethodeWaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:BurgerlijkeStaatType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezinsrelatietype
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeografischeNaam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:TaalString
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:CriteriumVereiste:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Richtlijn:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Gebeurtenis:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Output:naam
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/org#role): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Positie:rol, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Lidmaatschap:rol
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:taal, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Richtlijn:taal, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:taal
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geldigheidsperiode): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouw:geldigheidsperiode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouweenheid:geldigheidsperiode
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Output:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:CriteriumVereiste:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Kanaal:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Gebeurtenis:type
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#status): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:status, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:status
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#adres): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouw:adres, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouweenheid:adres
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#activity): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Invalidatie:activiteit, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Generatie:activiteit
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://www.w3.org/2000/01/rdf-schema#label): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adreslocator:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatienaam:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Straatnaam:straatnaam
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Kost:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Gebeurtenis:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Output:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Participatie:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Richtlijn:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:beschrijving
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geometrie): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouweenheid:geometrie, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouw:geometrie
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:toepassingsgebied, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:PubliekeOrganisatie:werkingsgebied
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Plaats:geometrie, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeografischePositie:geometrie
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#atTime): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Generatie:tijdstip, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Invalidatie:tijdstip
-18:53:24 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Plaats:plaatsnaam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Gemeentenaam:gemeentenaam
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
-18:53:24 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nationaliteitscode" .
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
-18:53:24 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Nationaliteitscode without label in dutch, further processing this class will be incoherent
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plaats" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactInfo" .
-18:53:24 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:BurgerlijkeStaatType".
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BurgerlijkeStaatType" .
-18:53:24 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class BurgerlijkeStaatType without label in dutch, further processing this class will be incoherent
-18:53:24 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezinsrelatietype".
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gezinsrelatietype" .
-18:53:24 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Gezinsrelatietype without label in dutch, further processing this class will be incoherent
-18:53:24 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Afstammingstype".
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Afstammingstype" .
-18:53:24 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Afstammingstype without label in dutch, further processing this class will be incoherent
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Persoonsgebeurtenis" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Organisatie" .
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Object".
-18:53:24 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Geslacht".
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geslacht" .
-18:53:24 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Geslacht without label in dutch, further processing this class will be incoherent
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gezinsrelatie" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BurgerlijkeStaat" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Voogdij" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Samenwonen" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Huwelijk" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Persoonsrelatie" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nationaliteit" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Overlijden" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geboorte" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Domicilie" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Verblijfplaats" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeenInwoner" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inwonerschap" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Staatsburger" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Vreemdeling" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Staatsburgerschap" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Jurisdictie" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gezin" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Afstamming" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TijdelijkInwoner" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PermanentInwoner" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inwoner" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeregistreerdPersoon" .
-18:53:24 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Persoon" .
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Object".
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftOverlijden" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftBurgerlijkeStaat" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftNationaliteit" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftGeboorte" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftRelatieMet" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoonsrelatie:heeftRelatieMet" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:inwonerschap" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Inwonerschap:heeftVerblijfplaats" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:isHoofdVan" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd".
-18:53:24 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gezinshoofd without name in dutch, further processing this property will be incoherent
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:isLidVan" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid".
-18:53:24 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid".
-18:53:24 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gezinslid without name in dutch, further processing this property will be incoherent
-18:53:24 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:staatsburgerschap" belongs to package "OSLO-Persoon" based on source and target definition.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:adresgebied" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:busnummer" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:gemeentenaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:huisnummer" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:land" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:locatieaanduiding" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:locatienaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:postbus" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:postcode" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:postnaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:straatnaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:volledigAdres" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:aanschrijfvorm" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:adres" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:beschikbaarheid" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:contactnaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:email" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:fax" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:openingsuren" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:telefoon" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:website" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:activiteit" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:alternatieveNaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:beschrijving" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:classificatie" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:doel" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:homepage" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:isTeBereikenOp" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:logo" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:status" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:type" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:voorkeursnaam" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Inwoner:afwezigheid" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Inwoner:voorlopigIngeschreven" since it is marked as ignored.
-18:53:24 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:adellijke titel" since it is marked as ignored.
-18:53:24 ERROR c.g.i.o.c.JSONLDOutputHandler - The header with name: Persoon was not found in the contributors.csv file
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon.OSLO²_usecase_Persoon_identificatiePersoon".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Placeholder".
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon.OSLO²_usecase_Persoon_identificatiePersoon, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Placeholder
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Statuswaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeometrieMethodeWaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Plaatscode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:NACE, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Taalcode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:StopzettingType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:CriteriumVereisteType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:OutputType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:BurgerlijkeStaatType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatienaamtype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ELI_status, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:NUTS, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:BewijsType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:GebeurtenisType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatieaanduidingtype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatorniveauwaarde, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:KanaalType, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:ParticipatieRol, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:NAL_currency, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Geslacht, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezinsrelatietype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:NAL_type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:COFOG, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Eurovoc, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Afstammingstype, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:AdministratiefNiveau, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:ADMSStatusVocabularium, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeometrieSpecificatieWaarde
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeografischeNaam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:TaalString
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:taal, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:taal, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Richtlijn:taal
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://www.w3.org/2000/01/rdf-schema#label): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adreslocator:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Straatnaam:straatnaam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Locatienaam:naam
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#adres): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouweenheid:adres, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouw:adres
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Gebeurtenis:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Richtlijn:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Output:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:CriteriumVereiste:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:naam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:naam
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#atTime): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Invalidatie:tijdstip, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Generatie:tijdstip
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Gebeurtenis:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Participatie:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Richtlijn:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Output:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Kost:beschrijving, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:beschrijving
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geometrie): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouweenheid:geometrie, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouw:geometrie
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/org#role): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Positie:rol, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Lidmaatschap:rol
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Gebeurtenis:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Kanaal:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:CriteriumVereiste:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Output:type, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:Bewijs:type
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Gemeentenaam:gemeentenaam, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Plaats:plaatsnaam
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:PubliekeOrganisatie:werkingsgebied, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:toepassingsgebied
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#status): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Dienst:PubliekeDienstverlening:status, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:FormeelKader:status
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Plaats:geometrie, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:GeografischePositie:geometrie
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geldigheidsperiode): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouw:geldigheidsperiode, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Gebouw:Gebouweenheid:geldigheidsperiode
+19:00:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#activity): Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Invalidatie:activiteit, Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Generatie:activiteit
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon".
+19:00:34 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nationaliteitscode" .
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Nationaliteitscode".
+19:00:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Nationaliteitscode without label in dutch, further processing this class will be incoherent
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plaats" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactInfo" .
+19:00:34 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:BurgerlijkeStaatType".
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BurgerlijkeStaatType" .
+19:00:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class BurgerlijkeStaatType without label in dutch, further processing this class will be incoherent
+19:00:34 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezinsrelatietype".
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gezinsrelatietype" .
+19:00:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Gezinsrelatietype without label in dutch, further processing this class will be incoherent
+19:00:34 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Afstammingstype".
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Afstammingstype" .
+19:00:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Afstammingstype without label in dutch, further processing this class will be incoherent
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Persoonsgebeurtenis" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Organisatie" .
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Object".
+19:00:34 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Geslacht".
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geslacht" .
+19:00:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Geslacht without label in dutch, further processing this class will be incoherent
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gezinsrelatie" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BurgerlijkeStaat" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Voogdij" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Samenwonen" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Huwelijk" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Persoonsrelatie" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nationaliteit" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Overlijden" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geboorte" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Domicilie" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Verblijfplaats" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeenInwoner" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inwonerschap" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Staatsburger" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Vreemdeling" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Staatsburgerschap" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Jurisdictie" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gezin" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Afstamming" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TijdelijkInwoner" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PermanentInwoner" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inwoner" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeregistreerdPersoon" .
+19:00:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Persoon" .
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:Object".
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Inwonerschap:heeftVerblijfplaats" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:isHoofdVan" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinshoofd".
+19:00:34 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gezinshoofd without name in dutch, further processing this property will be incoherent
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftOverlijden" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftNationaliteit" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftGeboorte" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftBurgerlijkeStaat" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:heeftRelatieMet" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoonsrelatie:heeftRelatieMet" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:inwonerschap" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:staatsburgerschap" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:isLidVan" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid" belongs to package "OSLO-Persoon" based on source and target definition.
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid".
+19:00:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Gezin:gezinslid".
+19:00:34 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gezinslid without name in dutch, further processing this property will be incoherent
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:adresgebied" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:busnummer" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:gemeentenaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:huisnummer" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:land" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:locatieaanduiding" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:locatienaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:postbus" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:postcode" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:postnaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:straatnaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Adres:Adresvoorstelling:volledigAdres" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:aanschrijfvorm" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:adres" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:beschikbaarheid" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:contactnaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:email" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:fax" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:openingsuren" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:telefoon" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Generiek:ContactInfo:website" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:activiteit" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:alternatieveNaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:beschrijving" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:classificatie" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:doel" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:homepage" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:isTeBereikenOp" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:logo" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:status" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:type" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Organisatie:Organisatie:voorkeursnaam" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Inwoner:afwezigheid" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Inwoner:voorlopigIngeschreven" since it is marked as ignored.
+19:00:34 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Persoon_basisprofiel.OSLO-Persoon:Persoon:adellijke titel" since it is marked as ignored.
+19:00:34 ERROR c.g.i.o.c.JSONLDOutputHandler - The header with name: Persoon was not found in the contributors.csv file
 /tmp/workspace/src/doc/applicatieprofiel/translation
 Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.applicatieprofiel_MijnApplicatieprofiel".
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:53:26 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium, Model.applicatieprofiel_MijnApplicatieprofiel, Model
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:53:26 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.applicatieprofiel_MijnApplicatieprofiel".
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+19:00:37 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.applicatieprofiel_MijnApplicatieprofiel, Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+19:00:37 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
