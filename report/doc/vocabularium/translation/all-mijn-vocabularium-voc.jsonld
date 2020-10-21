@@ -161,7 +161,8 @@
       "language": "en",
       "template": "mijn-vocabularium-voc_en.j2",
       "title": "mein-Vokabular-Voc",
-      "translationjson": "mijn-vocabularium-voc_en.json"
+      "translationjson": "mijn-vocabularium-voc_en.json",
+      "mergefile": "mijn-vocabularium-voc_merged.jsonld"
     }
   ],
   "config": "config/config-voc.json",
@@ -170,7 +171,7 @@
   "branchtag": "main",
   "filename": "config/mijn-vocabularium-voc.json",
   "navigation": {},
-  "documentcommit": "8b1cb5f9e77bd2ae824654bb183bb118e69de996",
-  "toolchaincommit": "93284f40884942fdace2050394f9722a3ebac023",
+  "documentcommit": "ebd2c455e12e4364ea3848f451d21caee6a1c3e7",
+  "toolchaincommit": "7efdb1d4be7bde471a99bc2467107ee85ed3b8a2",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

@@ -7,8 +7,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://fixme.com> a owl:Ontology;
-  rdfs:label "mijn-vocabularium-voc"@en,
-    "mijn-vocabularium-voc"@nl;
+  rdfs:label "mijn-vocabularium-voc"@nl,
+    "mijn-vocabularium-voc"@en;
   dc:contributor [
     a foaf:Person;
     schema:affiliation [

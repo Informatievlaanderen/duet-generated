@@ -8259,7 +8259,8 @@
       "language": "en",
       "template": "testassociaties-ap_en.j2 ",
       "title": "Associations",
-      "translationjson": "associaties_en.json"
+      "translationjson": "associaties_en.json",
+      "mergefile": "associaties_merged.jsonld"
     }
   ],
   "config": "config/config-ap.json",
@@ -8268,7 +8269,7 @@
   "repository": "https://github.com/bertvannuffelen/demo_oslodoc",
   "branchtag": "master",
   "navigation": {},
-  "documentcommit": "e88e5bcfdda24d218ab83f33af07a04c2d73b55b",
-  "toolchaincommit": "93284f40884942fdace2050394f9722a3ebac023",
+  "documentcommit": "fa2a4ccabff399d18c3a7f23ff218238f0957302",
+  "toolchaincommit": "7efdb1d4be7bde471a99bc2467107ee85ed3b8a2",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
