@@ -9,41 +9,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl> <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlshapes> <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AfstammingstypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AfstammingShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonsgebeurtenisShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PermanentInwonerShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#NationaliteitscodeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#JurisdictieShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeenInwonerShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AgentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#BurgerlijkeStaatShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#HuwelijkShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PlaatsShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#StaatsburgerShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#ContactInfoShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinsrelatieShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#InwonerschapShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#DomicilieShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#InwonerShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#StaatsburgerschapShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#OrganisatieShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#VreemdelingShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeregistreerdPersoonShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#TijdelijkInwonerShape>,
+<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl> <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlshapes> <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinsrelatieShape>,
     <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#VerblijfplaatsShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#BurgerlijkeStaatTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#VoogdijShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AdresvoorstellingShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#OverlijdenShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeslachtShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#NationaliteitShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinsrelatietypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#NationaliteitscodeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#HuwelijkShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#DomicilieShape>,
     <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#SamenwonenShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AgentShape>,
     <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeboorteShape>,
-    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonsrelatieShape> .
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeregistreerdPersoonShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#BurgerlijkeStaatShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#BurgerlijkeStaatTypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeenInwonerShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonsrelatieShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#NationaliteitShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#TijdelijkInwonerShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#InwonerShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#OverlijdenShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AfstammingShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#VoogdijShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AfstammingstypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonsgebeurtenisShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinsrelatietypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#OrganisatieShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PlaatsShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#InwonerschapShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#VreemdelingShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PermanentInwonerShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#StaatsburgerShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#JurisdictieShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GeslachtShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#StaatsburgerschapShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AdresvoorstellingShape>,
+    <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#ContactInfoShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AdresvoorstellingShape> a sh:NodeShape;
   sh:closed false;
@@ -52,19 +52,19 @@
 <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#AfstammingShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:datatype xsd:dateTime;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "De datum waarop de afstamming wordt vastgesteld."];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "datum van afstamming"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#datumVanAfstamming>
-  ], [
     sh:class skos:Concept;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Aard vd afstamming."];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "afstammingstype"];
     sh:path <https://data.vlaanderen.be/ns/persoon#afstammingsType>
+  ], [
+    sh:datatype xsd:dateTime;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "De datum waarop de afstamming wordt vastgesteld."];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "datum van afstamming"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#datumVanAfstamming>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/persoon#Afstamming> .
 
@@ -127,16 +127,16 @@
 <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#GezinShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class <http://www.w3.org/ns/person#Person>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> ""];
+    sh:minCount 1;
+    sh:path <https://data.vlaanderen.be/ns/persoon#gezinslid>
+  ], [
     sh:class <http://www.w3.org/ns/locn#Address>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Verblijfplaats vh gezin."];
     sh:maxCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "gezinsadres"];
     sh:path <https://data.vlaanderen.be/ns/persoon#gezinsadres>
-  ], [
-    sh:class <http://www.w3.org/ns/person#Person>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> ""];
-    sh:minCount 1;
-    sh:path <https://data.vlaanderen.be/ns/persoon#gezinslid>
   ], [
     sh:class <http://www.w3.org/ns/person#Person>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> ""];
@@ -230,30 +230,11 @@
 <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:datatype xsd:string;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "De volledige naam vd persoon, doorgaans de combinatie van voornamen en achternaam."];
+    sh:class <https://data.vlaanderen.be/ns/persoon#Overlijden>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Verwijst naar de overlijdensgegevens vd persoon."];
     sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "volledige naam"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#volledigeNaam>
-  ], [
-    sh:datatype xsd:string;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Naam die een kind bij geboorte wordt gegeven. Onderscheidt het kind van de andere kinderen in de familie."];
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "voornaam"];
-    sh:path foaf:givenName
-  ], [
-    sh:datatype xsd:string;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Volledige naam vd persoon bij geboorte."];
-    sh:maxCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "geboortenaam"];
-    sh:path <http://www.w3.org/ns/person#birthName>
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/persoon#BurgerlijkeStaat>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Burgerlijke staat vd Persoon."];
-    sh:maxCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft burgerlijke staat"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#heeftBurgerlijkeStaat>
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft overlijden"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#heeftOverlijden>
   ], [
     sh:class schemas:ContactPoint;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Informatie zoals email, telefoon... die toelaat de Persoon te contacteren."];
@@ -265,6 +246,41 @@
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Relatie van een persoon (met een ander persoon)."];
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeftPersoonsrelatie"];
     sh:path <https://data.vlaanderen.be/ns/persoon#heeftPersoonsrelatie>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/persoon#Nationaliteit>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Nationaliteit vd persoon."];
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft nationaliteit"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#heeftNationaliteit>
+  ], [
+    sh:datatype xsd:string;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Belangrijkste vd voornamen ve persoon."];
+    sh:maxCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "gebruikte voornaam"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam>
+  ], [
+    sh:datatype xsd:string;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "De volledige naam vd persoon, doorgaans de combinatie van voornamen en achternaam."];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "volledige naam"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#volledigeNaam>
+  ], [
+    sh:class dc:Jurisdiction;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Jurisdictie waarbinnen het Inwonerschap vd persoon is gedefinieerd."];
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "inwonerschap"];
+    sh:path <http://www.w3.org/ns/person#residency>
+  ], [
+    sh:class skos:Concept;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Het feit of de persoon een man of een vrouw is."];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "geslacht"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#geslacht>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/persoon#Gezin>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Persoon die tot een gezin behoort."];
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "is lid van"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#isLidVan>
   ], [
     sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Achternaam gebaseerd op de voornaam vd vader ve persoon."];
@@ -279,44 +295,15 @@
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft geboorte"];
     sh:path <https://data.vlaanderen.be/ns/persoon#heeftGeboorte>
   ], [
-    sh:class <https://data.vlaanderen.be/ns/persoon#Overlijden>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Verwijst naar de overlijdensgegevens vd persoon."];
-    sh:maxCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft overlijden"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#heeftOverlijden>
-  ], [
-    sh:class dc:Jurisdiction;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Jurisdictie waarbinnen het Inwonerschap vd persoon is gedefinieerd."];
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "inwonerschap"];
-    sh:path <http://www.w3.org/ns/person#residency>
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/persoon#Inwonerschap>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Inwonerschap vd persoon."];
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft inwonerschap"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#heeftInwonerschap>
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/persoon#Nationaliteit>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Nationaliteit vd persoon."];
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft nationaliteit"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#heeftNationaliteit>
-  ], [
-    sh:datatype xsd:string;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Belangrijkste vd voornamen ve persoon."];
-    sh:maxCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "gebruikte voornaam"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam>
-  ], [
     sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Alternatief voor de volledige naam vd persoon."];
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "alternatieve naam"];
     sh:path <https://data.vlaanderen.be/ns/persoon#alternatieveNaam>
   ], [
-    sh:class skos:Concept;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Het feit of de persoon een man of een vrouw is."];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "geslacht"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#geslacht>
+    sh:class <https://data.vlaanderen.be/ns/persoon#Inwonerschap>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Inwonerschap vd persoon."];
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft inwonerschap"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#heeftInwonerschap>
   ], [
     sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Gedeelte van de volledige naam vd persoon ontvangen van de vorige generatie."];
@@ -325,15 +312,23 @@
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "achternaam"];
     sh:path foaf:familyName
   ], [
-    sh:class dc:Jurisdiction;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Jurisdictie waarbinnen het staatsburgerschap vd persoon is gedefinieerd."];
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "staatsburgerschap"];
-    sh:path <http://www.w3.org/ns/person#citizenship>
+    sh:class <https://data.vlaanderen.be/ns/persoon#BurgerlijkeStaat>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Burgerlijke staat vd Persoon."];
+    sh:maxCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "heeft burgerlijke staat"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#heeftBurgerlijkeStaat>
   ], [
-    sh:class <https://data.vlaanderen.be/ns/persoon#Gezin>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Persoon die tot een gezin behoort."];
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "is lid van"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#isLidVan>
+    sh:datatype xsd:string;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Volledige naam vd persoon bij geboorte."];
+    sh:maxCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "geboortenaam"];
+    sh:path <http://www.w3.org/ns/person#birthName>
+  ], [
+    sh:datatype xsd:string;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Naam die een kind bij geboorte wordt gegeven. Onderscheidt het kind van de andere kinderen in de familie."];
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "voornaam"];
+    sh:path foaf:givenName
   ], [
     sh:class <https://data.vlaanderen.be/ns/persoon#Staatsburgerschap>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Staatsburgerschap vd persoon."];
@@ -345,25 +340,30 @@
     sh:maxCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "is hoofd van"];
     sh:path <https://data.vlaanderen.be/ns/persoon#isHoofdVan>
+  ], [
+    sh:class dc:Jurisdiction;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Jurisdictie waarbinnen het staatsburgerschap vd persoon is gedefinieerd."];
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "staatsburgerschap"];
+    sh:path <http://www.w3.org/ns/person#citizenship>
   ];
   sh:targetClass <http://www.w3.org/ns/person#Person> .
 
 <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PersoonsgebeurtenisShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class dc:Location;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Plaats in het land waar de gebeurtenis plaatsvond."];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "plaats"];
-    sh:path <https://data.vlaanderen.be/ns/persoon#plaats>
-  ], [
     sh:datatype xsd:dateTime;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Datum waarop de gebeurtenis plaatsvond."];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "datum"];
     sh:path <https://data.vlaanderen.be/ns/persoon#datum>
+  ], [
+    sh:class dc:Location;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Plaats in het land waar de gebeurtenis plaatsvond."];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "plaats"];
+    sh:path <https://data.vlaanderen.be/ns/persoon#plaats>
   ], [
     sh:class dc:Location;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Land waar de gebeurtenis plaatsvond."];
@@ -389,18 +389,18 @@
 <https://duet.dev-vlaanderen.be/shacl/persoon-basis_nl#PlaatsShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <http://www.w3.org/ns/locn#Geometry>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Geometrie van de plaats of het gebied."];
-    sh:maxCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "geometrie"];
-    sh:path <http://www.w3.org/ns/locn#geometry>
-  ], [
     sh:datatype rdf:langString;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Naam van de plaats of van het gebied."];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "plaatsnaam"];
     sh:path rdfs:label
+  ], [
+    sh:class <http://www.w3.org/ns/locn#Geometry>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "Geometrie van de plaats of het gebied."];
+    sh:maxCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/persoon-basis_nlnl> "geometrie"];
+    sh:path <http://www.w3.org/ns/locn#geometry>
   ];
   sh:targetClass dc:Location .
 
