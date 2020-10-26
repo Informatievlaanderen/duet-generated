@@ -5,6 +5,57 @@
     "foaf:mbox": "mailto:oslo@kb.vlaanderen.be",
     "foaf:name": "Data Vlaanderen"
   },
+  "@id": "http://fixme.com",
+  "@type": "http://www.w3.org/2002/07/owl#Ontology",
+  "label": {
+    "nl": "mijn-applicatieprofiel-ap",
+    "en": "mijn-applicatieprofiel-ap"
+  },
+  "authors": [
+    {
+      "foaf:firstName": "AuteurVoornaam",
+      "foaf:lastName": "AuteurNaam",
+      "affiliation": {
+        "foaf:name": "AuteurAffiliatie",
+        "foaf:homepage": "https://auteurwebsiteurl"
+      },
+      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein",
+      "@type": "foaf:Person"
+    }
+  ],
+  "editors": [
+    {
+      "foaf:firstName": "EditorVoornaam",
+      "foaf:lastName": "EditorNaam",
+      "affiliation": {
+        "foaf:name": "EditorAffiliatie",
+        "foaf:homepage": "https://editorwebsiteurl"
+      },
+      "foaf:mbox": "editorvoornaam.editornaam@editordomein",
+      "@type": "foaf:Person"
+    }
+  ],
+  "contributors": [
+    {
+      "foaf:firstName": "MedewerkerVoornaam",
+      "foaf:lastName": "MedewerkerNaam",
+      "affiliation": {
+        "foaf:name": "MedewerkerAffiliatie",
+        "foaf:homepage": "https://medewerkerwebsiteurl"
+      },
+      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein",
+      "@type": "foaf:Person"
+    }
+  ],
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "issued": "TODO",
+  "navigation": {},
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2020-01-31",
+  "classes": [],
+  "externals": [],
+  "properties": [],
+  "externalproperties": [],
   "@context": {
     "vlaanderen": "http://data.vlaanderen.be/ns/",
     "owl": "http://www.w3.org/2002/07/owl#",
