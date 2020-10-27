@@ -94,7 +94,7 @@
   "baseURI": "https://data.vlaanderen.be/ns/persoon#",
   "baseURIabbrev": "vl-pers",
   "issued": "TODO",
-  "license": "TODO",
+  "license": "TBD",
   "extra": {
     "EA-Name": "OSLO-Persoon",
     "EA-Guid": "{9DA9BC7B-A502-4280-BBED-CF2E7C842776}",
@@ -115,9 +115,42 @@
       }
     ]
   },
-  "authors": [],
-  "editors": [],
-  "contributors": [],
+  "authors": [
+    {
+      "foaf:firstName": "AuteurVoornaam",
+      "foaf:lastName": "AuteurNaam",
+      "affiliation": {
+        "foaf:name": "AuteurAffiliatie",
+        "foaf:homepage": "https://auteurwebsiteurl"
+      },
+      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein",
+      "@type": "foaf:Person"
+    }
+  ],
+  "editors": [
+    {
+      "foaf:firstName": "EditorVoornaam",
+      "foaf:lastName": "EditorNaam",
+      "affiliation": {
+        "foaf:name": "EditorAffiliatie",
+        "foaf:homepage": "https://editorwebsiteurl"
+      },
+      "foaf:mbox": "editorvoornaam.editornaam@editordomein",
+      "@type": "foaf:Person"
+    }
+  ],
+  "contributors": [
+    {
+      "foaf:firstName": "MedewerkerVoornaam",
+      "foaf:lastName": "MedewerkerNaam",
+      "affiliation": {
+        "foaf:name": "MedewerkerAffiliatie",
+        "foaf:homepage": "https://medewerkerwebsiteurl"
+      },
+      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein",
+      "@type": "foaf:Person"
+    }
+  ],
   "classes": [
     {
       "@id": "https://data.vlaanderen.be/ns/persoon#Afstamming",
@@ -7333,8 +7366,8 @@
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
   "publication-date": "TBD",
   "contributors-file": "stakeholders.csv",
-  "contributors-column": "Persoon",
-  "site": "site-skeleton",
+  "contributors-column": "MijnKolom",
+  "site": "site-skeleton/persoon-basis",
   "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
   "translation": [
@@ -7359,7 +7392,7 @@
   "branchtag": "main",
   "filename": "config/persoon-basis.json",
   "navigation": {},
-  "documentcommit": "1bf3fcf2beb50cdb0a8dad611a47d5e2769b14b5",
-  "toolchaincommit": "1b25a3abd2d139d78877adae17068a8c5fc0a82b",
+  "documentcommit": "04087ddf3d871a700859df43886b2c98e7d3edad",
+  "toolchaincommit": "2df519edd57b180b5e014497b3ab8285dec1456e",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
