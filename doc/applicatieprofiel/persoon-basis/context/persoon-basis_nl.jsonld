@@ -2,7 +2,7 @@
   "@context": {
     "Adresvoorstelling": "http://www.w3.org/ns/locn#Address",
     "Afstamming": "https://data.vlaanderen.be/ns/persoon#Afstamming",
-    "Afstamming.afstammingsType": {
+    "Afstamming.afstammingstype": {
       "@id": "https://data.vlaanderen.be/ns/persoon#afstammingsType",
       "@type": "@id"
     },
@@ -18,7 +18,7 @@
       "@type": "@id"
     },
     "BurgerlijkeStaatType": "http://www.w3.org/2004/02/skos/core#Concept",
-    "ContactInfo": "https://schema.org/ContactPoint",
+    "Contactinfo": "https://schema.org/ContactPoint",
     "Domicilie": "https://data.vlaanderen.be/ns/persoon#Domicilie",
     "Geboorte": "https://data.vlaanderen.be/ns/persoon#Geboorte",
     "GeenInwoner": "https://data.vlaanderen.be/ns/persoon#GeenInwoner",
@@ -51,13 +51,13 @@
     "Huwelijk": "https://data.vlaanderen.be/ns/persoon#Huwelijk",
     "Inwoner": "https://data.vlaanderen.be/ns/persoon#Inwoner",
     "Inwonerschap": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
+    "Inwonerschap.binnenJurisdictie": {
+      "@id": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.binnenJurisdictie",
+      "@type": "@id"
+    },
     "Inwonerschap.heeftVerblijfplaats": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
-      "@type": "@id"
-    },
-    "Inwonerschap.inwonerschap": {
-      "@id": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.binnenJurisdictie",
       "@type": "@id"
     },
     "Jurisdictie": "http://purl.org/dc/terms/Jurisdiction",
@@ -108,6 +108,11 @@
       "@id": "https://data.vlaanderen.be/ns/persoon#heeftGeboorte",
       "@type": "@id"
     },
+    "Persoon.heeftInwonerschap": {
+      "@container": "@set",
+      "@id": "https://data.vlaanderen.be/ns/persoon#heeftInwonerschap",
+      "@type": "@id"
+    },
     "Persoon.heeftNationaliteit": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/persoon#heeftNationaliteit",
@@ -117,9 +122,14 @@
       "@id": "https://data.vlaanderen.be/ns/persoon#heeftOverlijden",
       "@type": "@id"
     },
-    "Persoon.heeftRelatieMet": {
+    "Persoon.heeftPersoonsrelatie": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/persoon#heeftPersoonsrelatie",
+      "@type": "@id"
+    },
+    "Persoon.heeftStaatsburgerschap": {
+      "@container": "@set",
+      "@id": "https://data.vlaanderen.be/ns/persoon#heeftStaatsburgerschap",
       "@type": "@id"
     },
     "Persoon.inwonerschap": {
@@ -140,14 +150,9 @@
       "@id": "http://www.w3.org/ns/person#patronymicName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "Persoon.staatburgerschap": {
-      "@container": "@set",
-      "@id": "http://www.w3.org/ns/person#citizenship",
-      "@type": "@id"
-    },
     "Persoon.staatsburgerschap": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/persoon#heeftStaatsburgerschap",
+      "@id": "http://www.w3.org/ns/person#citizenship",
       "@type": "@id"
     },
     "Persoon.volledigeNaam": {
@@ -173,7 +178,7 @@
       "@type": "@id"
     },
     "Persoonsrelatie": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
-    "Persoonsrelatie.heeftRelatieMet": {
+    "Persoonsrelatie.isRelatieMet": {
       "@id": "https://data.vlaanderen.be/ns/persoon#isRelatieMet",
       "@type": "@id"
     },
@@ -187,12 +192,12 @@
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "Samenwonen": "https://data.vlaanderen.be/ns/persoon#Samenwonen",
-    "Staatsburger": "https://data.vlaanderen.be/ns/persoon#Staatsburger",
-    "Staatsburgerschap": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap",
-    "Staatsburgerschap.staatsburgerschap": {
+    "Staatburgerschap": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap",
+    "Staatburgerschap.binnenJurisdictie": {
       "@id": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.binnenJurisdictie",
       "@type": "@id"
     },
+    "Staatsburger": "https://data.vlaanderen.be/ns/persoon#Staatsburger",
     "TijdelijkInwoner": "https://data.vlaanderen.be/ns/persoon#TijdelijkInwoner",
     "Verblijfplaats": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
     "Verblijfplaats.verblijfsadres": {
