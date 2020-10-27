@@ -2,45 +2,45 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/associaties_en> <https://duet.dev-vlaanderen.be/shacl/associaties_enshapes> <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft26Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K03BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K26Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K06BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K04BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K27Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft07bShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K02AShape>,
+<https://duet.dev-vlaanderen.be/shacl/associaties_en> <https://duet.dev-vlaanderen.be/shacl/associaties_enshapes> <https://duet.dev-vlaanderen.be/shacl/associaties_en#K25Shape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties_en#K07AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K04AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft04Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft25Shape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties_en#K01BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K05AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K22Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft07Shape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft05Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft06Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K01AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K21Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft27bShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K23Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K25Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft07Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft26Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft25Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft04Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft07bShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft27Shape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K07BShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K05BShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties_en#K02BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft06Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K22Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K23Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K26Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft27bShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K07BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K01AShape>,
     <https://duet.dev-vlaanderen.be/shacl/associaties_en#K03AShape>,
-    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K06AShape> .
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K21Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K02AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K06BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K03BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K04AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K06AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K27Shape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K05AShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K05BShape>,
+    <https://duet.dev-vlaanderen.be/shacl/associaties_en#K04BShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft04Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K04A>;
+    sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#a04>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K04B>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
@@ -49,18 +49,25 @@
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B>
   ], [
-    sh:datatype xsd:string;
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K04A>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#a04>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft05Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K05B>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B>
+  ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K05A>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
@@ -74,32 +81,25 @@
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#a05>
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K05B>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#heeft05> .
 
 <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft06Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K06A>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A>
-  ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K06B>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K06A>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A>
   ], [
     sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
@@ -113,12 +113,12 @@
 <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft07Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
+    sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#a07>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K07A>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
@@ -127,12 +127,12 @@
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A>
   ], [
-    sh:datatype xsd:string;
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#a07>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07> .
 
@@ -165,19 +165,19 @@
 <https://duet.dev-vlaanderen.be/shacl/associaties_en#Heeft25Shape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K25>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target>
-  ], [
     sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#a25>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K25>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K25>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
@@ -196,13 +196,6 @@
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source>
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K26>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target>
   ], [
     sh:datatype xsd:string;
@@ -211,6 +204,13 @@
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#a26>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K26>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target> .
 
@@ -224,19 +224,19 @@
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source>
   ], [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target>
-  ], [
     sh:datatype xsd:string;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#a27>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27> .
 
@@ -255,14 +255,14 @@
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27b> .
 
@@ -327,13 +327,13 @@
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k03Arol>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K03A>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k03Arol>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#K03B> .
 
@@ -403,13 +403,13 @@
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k07Brol>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k07Brol>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A> .
 
@@ -457,15 +457,15 @@
   sh:property [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:minCount 1;
+    sh:maxCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
+    sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23Arol>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
@@ -477,7 +477,7 @@
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:maxCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede>
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k23Arol>
   ];
   sh:targetClass <https://data.vlaanderen.be/ns/mijndomein#K23> .
 
@@ -514,15 +514,15 @@
   sh:property [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:maxCount 1;
-    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
-    sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Arol>
-  ], [
-    sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
-    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:minCount 1;
     sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
     sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Brol>
+  ], [
+    sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:maxCount 1;
+    sh:name [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
+    sh:path <https://data.vlaanderen.be/ns/mijndomein#k27Arol>
   ], [
     sh:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
     sh:description [<https://duet.dev-vlaanderen.be/shacl/associaties_enen> "Enter your translation here"];
