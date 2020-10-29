@@ -1,0 +1,2120 @@
+{
+  "dcterms:license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "dcterms:mediator": {
+    "foaf:homepage": "https://data.vlaanderen.be",
+    "foaf:mbox": "mailto:oslo@kb.vlaanderen.be",
+    "foaf:name": "Data Vlaanderen"
+  },
+  "@id": "https://data.vlaanderen.be/ns/mijndomein",
+  "@type": "http://www.w3.org/2002/07/owl#Ontology",
+  "label": {
+    "nl": "associaties",
+    "en": "associaties"
+  },
+  "authors": [],
+  "editors": [],
+  "contributors": [],
+  "baseURI": "https://data.vlaanderen.be/ns/mijndomein#",
+  "license": "TODO",
+  "issued": "TODO",
+  "navigation": {},
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+  "publication-date": "2019-10-09",
+  "classes": [
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 04"
+      },
+      "description": {
+        "nl": "Definitie Heeft04 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft05",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 05"
+      },
+      "description": {
+        "nl": "Definitie Heeft05 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft06",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 06"
+      },
+      "description": {
+        "nl": "Definitie Heeft06 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 07"
+      },
+      "description": {
+        "nl": "Definitie Heeft07 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 07b"
+      },
+      "description": {
+        "nl": "Definitie Heeft07b (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft25",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 25"
+      },
+      "description": {
+        "nl": "Definitie Heeft25 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft26",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 26"
+      },
+      "description": {
+        "nl": "Definitie Heeft26 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 27"
+      },
+      "description": {
+        "nl": "Definitie Heeft27 (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "Heeft 27b"
+      },
+      "description": {
+        "nl": "Definitie Heeft27b (associatieklasse) etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K01A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 01A"
+      },
+      "description": {
+        "nl": "Definitie K01A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K01B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 01B"
+      },
+      "description": {
+        "nl": "Definitie K01B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 02A"
+      },
+      "description": {
+        "nl": "Definitie K02A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 02B"
+      },
+      "description": {
+        "nl": "Definitie K02B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 03A"
+      },
+      "description": {
+        "nl": "Definitie K03A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 03B"
+      },
+      "description": {
+        "nl": "Definitie K03B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 04A"
+      },
+      "description": {
+        "nl": "Definitie K04A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 04B"
+      },
+      "description": {
+        "nl": "Definitie K04B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K05A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 05A"
+      },
+      "description": {
+        "nl": "Definitie K05A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 05B"
+      },
+      "description": {
+        "nl": "Definitie K05B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 06A"
+      },
+      "description": {
+        "nl": "Definitie K06A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 06B"
+      },
+      "description": {
+        "nl": "Definitie K06B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 07A"
+      },
+      "description": {
+        "nl": "Definitie K07A etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 07B"
+      },
+      "description": {
+        "nl": "Definitie K07B etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K21",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 21"
+      },
+      "description": {
+        "nl": "Definitie K21 etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K22",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 22"
+      },
+      "description": {
+        "nl": "Definitie K22 etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K23",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 23"
+      },
+      "description": {
+        "nl": "Definitie K23 etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K25",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 25"
+      },
+      "description": {
+        "nl": "Definitie K25 etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K26",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 26"
+      },
+      "description": {
+        "nl": "Definitie K26 etc."
+      },
+      "usage": {},
+      "parents": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K27",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "name": {
+        "nl": "K 27"
+      },
+      "description": {
+        "nl": "Definitie K27 etc."
+      },
+      "usage": {},
+      "parents": []
+    }
+  ],
+  "externals": [
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft05",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft06",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft25",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft26",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K01A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K01B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K05A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K21",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K22",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K23",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K25",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K26",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K27",
+      "@type": "rdfs:Class"
+    }
+  ],
+  "properties": [
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 04A"
+      },
+      "description": {
+        "nl": "Definitie k04A etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K04A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 04B"
+      },
+      "description": {
+        "nl": "Definitie k04B etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 05A"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K05A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 05B"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K05B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 06A"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 06B"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07A"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07B"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07A"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07B"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 25 (source)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 25 (target)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 26 (source)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 26 (target)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27 (source)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27 (target)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27 (source)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27 (target)"
+      },
+      "description": {
+        "nl": "Referentie naar verbonden klasse."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02A.heeft02",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 02"
+      },
+      "description": {
+        "nl": "Definitie Heeft02 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K02A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 02"
+      },
+      "description": {
+        "nl": "Definitie Heeft02 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K02A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04A.heeft04",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 04"
+      },
+      "description": {
+        "nl": "Definitie heeft04 (inK04A) etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K04A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 04"
+      },
+      "description": {
+        "nl": "Definitie heeft04 (in K04B) etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06A.heeft06",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 06"
+      },
+      "description": {
+        "nl": "Definitie Heeft06 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 06"
+      },
+      "description": {
+        "nl": "Definitie Heeft06 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 22 (source)"
+      },
+      "description": {
+        "nl": "Definitie Heeft22 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 22 (target)"
+      },
+      "description": {
+        "nl": "Definitie Heeft22 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 26 (source)"
+      },
+      "description": {
+        "nl": "Definitie Heeft26 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 26 (target)"
+      },
+      "description": {
+        "nl": "Definitie Heeft26 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a04",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 04"
+      },
+      "description": {
+        "nl": "Definitie a04 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a05",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 05"
+      },
+      "description": {
+        "nl": "Definitie a05 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a06",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 06"
+      },
+      "description": {
+        "nl": "Definitie a06 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a07",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 07"
+      },
+      "description": {
+        "nl": "Definitie a07 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a07b",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 07b"
+      },
+      "description": {
+        "nl": "Definitie a07b etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a25",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 25"
+      },
+      "description": {
+        "nl": "Definitie a25 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a26",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 26"
+      },
+      "description": {
+        "nl": "Definitie a26 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a27",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 27"
+      },
+      "description": {
+        "nl": "Definitie a27 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a27b",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "a 27b"
+      },
+      "description": {
+        "nl": "Definitie a27b etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft01",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 01"
+      },
+      "description": {
+        "nl": "Definitie Heeft01 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K01A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K01B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft05",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 05"
+      },
+      "description": {
+        "nl": "Definitie Heeft05 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K05A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K05B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft21",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 21"
+      },
+      "description": {
+        "nl": "Definitie Heeft21 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K21"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K21"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft25",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "heeft 25"
+      },
+      "description": {
+        "nl": "Definitie Heeft25 etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03Arol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 03A rol"
+      },
+      "description": {
+        "nl": "Definitie k03Arol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 03A rol Tweede"
+      },
+      "description": {
+        "nl": "Definitie k03ArolTweede etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03Brol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 03B rol"
+      },
+      "description": {
+        "nl": "Definitie k03Brol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 03B rol Tweede"
+      },
+      "description": {
+        "nl": "Definitie k03BrolTweede etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k07Arol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07A rol"
+      },
+      "description": {
+        "nl": "Definitie k07Arol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k07Brol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07B rol"
+      },
+      "description": {
+        "nl": "Definitie k07Brol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 07B rol Tweede"
+      },
+      "description": {
+        "nl": "Definitie k07BrolTweede etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23Arol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 23A rol"
+      },
+      "description": {
+        "nl": "Definitie k23Arol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 23A rol Tweede"
+      },
+      "description": {
+        "nl": "Definitie k23ArolTweede etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23Brol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 23B rol"
+      },
+      "description": {
+        "nl": "Definitie k23Brol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 23B rol Tweede"
+      },
+      "description": {
+        "nl": "Definitie k23BrolTweede etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k27Arol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27A rol"
+      },
+      "description": {
+        "nl": "Definitie k27Arol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k27Brol",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27B rol"
+      },
+      "description": {
+        "nl": "Definitie k27Brol etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "k 27B rol Tweede"
+      },
+      "description": {
+        "nl": "Definitie k27BrolTweede etc."
+      },
+      "usage": {},
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+        }
+      ],
+      "generalization": []
+    }
+  ],
+  "externalproperties": [
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02A.heeft02",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04A.heeft04",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06A.heeft06",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a04",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a05",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a06",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a07",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a07b",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a25",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a26",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a27",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#a27b",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft01",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft05",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft21",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#heeft25",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03Arol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03Brol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k07Arol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k07Brol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23Arol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23Brol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k27Arol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k27Brol",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede",
+      "@type": "rdf:Property"
+    }
+  ],
+  "@context": {
+    "vlaanderen": "http://data.vlaanderen.be/ns/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "void": "http://rdfs.org/ns/void#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "person": "http://www.w3.org/ns/person#",
+    "rec": "http://www.w3.org/2001/02pd/rec54#",
+    "vann": "http://purl.org/vocab/vann/",
+    "sh": "http://w3.org/ns/shacl#",
+    "label": {
+      "@id": "rdfs:label",
+      "@container": "@language"
+    },
+    "modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:date"
+    },
+    "license": {
+      "@id": "dcterms:license",
+      "@type": "@id"
+    },
+    "issued": {
+      "@id": "dcterms:issued"
+    },
+    "authors": {
+      "@type": "person:Person",
+      "@id": "foaf:maker"
+    },
+    "editors": {
+      "@type": "person:Person",
+      "@id": "rec:editor"
+    },
+    "contributors": {
+      "@type": "person:Person",
+      "@id": "dcterms:contributor"
+    },
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "classes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "datatypes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "name": {
+      "@id": "rdfs:label",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "rdfs:comment",
+      "@container": "@language"
+    },
+    "properties": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "minCardinality": {
+      "@id": "sh:minCount"
+    },
+    "maxCardinality": {
+      "@id": "sh:maxCount"
+    },
+    "generalization": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "externals": {
+      "@id": "rdfs:seeAlso"
+    },
+    "externalproperties": {
+      "@id": "rdfs:seeAlso"
+    },
+    "usage": {
+      "@id": "vann:usageNote",
+      "@container": "@language"
+    },
+    "parents": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "foaf:homepage": {
+      "@id": "foaf:homepage",
+      "@type": "@id"
+    },
+    "foaf:mbox": {
+      "@id": "foaf:mbox",
+      "@type": "@id"
+    },
+    "equivalent": {
+      "@id": "owl:equivalentClass",
+      "@type": "@id"
+    }
+  }
+}
