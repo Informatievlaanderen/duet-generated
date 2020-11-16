@@ -8260,14 +8260,14 @@
       "template": "testassociaties-ap_en.j2 ",
       "title": "Associations",
       "translationjson": "associaties_en.json",
-      "mergefile": "associaties_merged.jsonld"
+      "mergefile": "associaties_en_merged.jsonld"
     },
     {
       "language": "nl",
       "template": "testassociaties-ap.j2 ",
       "title": "Associaties",
-      "translationjson": "associaties.jsonld",
-      "mergefile": "associaties_merged.jsonld"
+      "translationjson": "associaties_nl.json",
+      "mergefile": "associaties_nl_merged.jsonld"
     }
   ],
   "config": "config/config-ap.json",
@@ -8276,7 +8276,7 @@
   "repository": "https://github.com/bertvannuffelen/demo_oslodoc",
   "branchtag": "master",
   "navigation": {},
-  "documentcommit": "fa3714c6e2b8297565a4e19ac7cf13aa72931abd",
-  "toolchaincommit": "1d8eb32b8f74cbab5f3ad7cbe5052e83f2b76c48",
+  "documentcommit": "2ea8d6f9dd526aa0657a9a40a6d919b4b5f441b9",
+  "toolchaincommit": "f78e311c84d768cb42e752c89f4b953daec914fb",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
