@@ -159,14 +159,14 @@
       "template": "mijn-applicatieprofiel-ap_en.j2",
       "title": "My Application Profile",
       "translationjson": "mijn-applicatieprofiel-ap_en.json",
-      "mergefile": "mijn-applicatieprofiel-ap_merged.jsonld"
+      "mergefile": "mijn-applicatieprofiel-ap_en_merged.jsonld"
     },
     {
       "language": "nl",
       "template": "mijn-applicatieprofiel-ap.j2",
       "title": "Mijn Applicatieprofiel",
-      "translationjson": "mijn-applicatieprofiel-ap.jsonld",
-      "mergefile": "mijn-applicatieprofiel-ap_merged.jsonld"
+      "translationjson": "mijn-applicatieprofiel-ap_nl.json",
+      "mergefile": "mijn-applicatieprofiel-ap_nl_merged.jsonld"
     }
   ],
   "config": "config/config-ap.json",
@@ -175,7 +175,7 @@
   "branchtag": "main",
   "filename": "config/mijn-applicatieprofiel-ap.json",
   "navigation": {},
-  "documentcommit": "04087ddf3d871a700859df43886b2c98e7d3edad",
-  "toolchaincommit": "eff4f72c13bde35c3d077582eb556c741eb425e3",
+  "documentcommit": "654509cbe0eaa09bf6d564dc2c579439cef5861e",
+  "toolchaincommit": "57005a18615e85739258e2c0cd77643a9849836e",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

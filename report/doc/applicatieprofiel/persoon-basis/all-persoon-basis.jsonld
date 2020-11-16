@@ -7376,14 +7376,14 @@
       "template": "persoon-basis-ap_en.j2",
       "title": "Person Basis",
       "translationjson": "persoon-basis_en.json",
-      "mergefile": "persoon-basis_merged.jsonld"
+      "mergefile": "persoon-basis_en_merged.jsonld"
     },
     {
       "language": "nl",
       "template": "persoon-basis-ap.j2",
       "title": "Persoon Basis",
-      "translationjson": "persoon-basis.jsonld",
-      "mergefile": "persoon-basis_merged.jsonld"
+      "translationjson": "persoon-basis_nl.json",
+      "mergefile": "persoon-basis_nl_merged.jsonld"
     }
   ],
   "config": "config/config-ap.json",
@@ -7392,7 +7392,7 @@
   "branchtag": "main",
   "filename": "config/persoon-basis.json",
   "navigation": {},
-  "documentcommit": "04087ddf3d871a700859df43886b2c98e7d3edad",
-  "toolchaincommit": "eff4f72c13bde35c3d077582eb556c741eb425e3",
+  "documentcommit": "654509cbe0eaa09bf6d564dc2c579439cef5861e",
+  "toolchaincommit": "57005a18615e85739258e2c0cd77643a9849836e",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
