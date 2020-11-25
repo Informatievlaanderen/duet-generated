@@ -1,27 +1,27 @@
 {
   "@context": {
-    "Address": "https://sdg.semic.euAddress",
-    "Address.address": {
+    "Adresse": "https://sdg.semic.euAddress",
+    "Adresse.address": {
       "@container": "@set",
       "@id": "https://sdg.semic.euAddress.address",
       "@type": "@id"
     },
-    "Address.adminUnitL1": {
-      "@id": "https://sdg.semic.euadminUnitL1",
-      "@type": "@id"
-    },
-    "Address.adminUnitL2": {
-      "@id": "https://sdg.semic.euadminUnitL2",
-      "@type": ""
-    },
-    "Address.fullAddress": {
-      "@id": "https://sdg.semic.eufullAddress",
-      "@type": ""
-    },
-    "Address.registeredAddress": {
+    "Adresse.registeredAddress": {
       "@container": "@set",
       "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "@id"
+    },
+    "Adresse.verwaltungseinheitEbene1": {
+      "@id": "https://sdg.semic.euadminUnitL1",
+      "@type": "@id"
+    },
+    "Adresse.verwaltungseinheitEbene2": {
+      "@id": "https://sdg.semic.euadminUnitL2",
+      "@type": ""
+    },
+    "Adresse.vollständigeAdresse": {
+      "@id": "https://sdg.semic.eufullAddress",
+      "@type": ""
     },
     "CourseResult": "https://sdg.semic.euCourseResult",
     "CourseResult.courseAcademicPeriod": {
