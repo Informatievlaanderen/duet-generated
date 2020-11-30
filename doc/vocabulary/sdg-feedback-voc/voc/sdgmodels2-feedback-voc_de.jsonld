@@ -57,7 +57,7 @@
       "@id": "https://sdg.semic.euAddress",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "definition": {
-        "de": "A translation has yet to be added"
+        "de": "Eine \"Adressdarstellung\", wie sie konzeptionell durch den Datentyp INSPIRE Address Representation definiert wird."
       },
       "usage": {},
       "parents": []
@@ -458,7 +458,7 @@
       "@id": "https://sdg.semic.euadminUnitL1",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "definition": {
-        "de": "A translation has yet to be added"
+        "de": "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."
       },
       "usage": {},
       "domain": [
@@ -661,7 +661,7 @@
       "@id": "https://sdg.semic.eufullAddress",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "definition": {
-        "de": "A translation has yet to be added"
+        "de": " \tDie vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
       },
       "usage": {},
       "domain": [
