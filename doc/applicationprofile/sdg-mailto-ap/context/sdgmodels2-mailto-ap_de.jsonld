@@ -1,5 +1,28 @@
 {
   "@context": {
+    "Adresse": "https://sdg.semic.euAddress",
+    "Adresse.address": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euAddress.address",
+      "@type": "@id"
+    },
+    "Adresse.registeredAddress": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@type": "@id"
+    },
+    "Adresse.verwaltungseinheitEbene1": {
+      "@id": "https://sdg.semic.euadminUnitL1",
+      "@type": "@id"
+    },
+    "Adresse.verwaltungseinheitEbene2": {
+      "@id": "https://sdg.semic.euadminUnitL2",
+      "@type": ""
+    },
+    "Adresse.vollständigeAdresse": {
+      "@id": "https://sdg.semic.eufullAddress",
+      "@type": ""
+    },
     "CourseResult": "https://sdg.semic.euCourseResult",
     "CourseResult.courseAcademicPeriod": {
       "@id": "https://sdg.semic.eucourseAcademicPeriod",
@@ -34,21 +57,6 @@
     "EducationInstitution.obtainedAt": {
       "@container": "@set",
       "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
-      "@type": "@id"
-    },
-    "EnterYourTranslationHere": "https://sdg.semic.euAddress",
-    "EnterYourTranslationHere.address": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euAddress.address",
-      "@type": "@id"
-    },
-    "EnterYourTranslationHere.enterYourTranslationHere": {
-      "@id": "https://sdg.semic.eufullAddress",
-      "@type": ""
-    },
-    "EnterYourTranslationHere.registeredAddress": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "@id"
     },
     "Grade": "https://sdg.semic.euGrade",
