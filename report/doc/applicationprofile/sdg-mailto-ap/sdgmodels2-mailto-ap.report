@@ -2,415 +2,415 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model.OSLO²_vocabularium".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model.OSLO²_vocabularium.External".
-10:39:00 WARN  c.g.i.o.c.UriAssigner - Specified package "OSLO-Mandaat" for attribute "Model.Domain Model.OSLO²_vocabularium.External:Positie:aantalHouders" was not found.
-10:39:00 WARN  c.g.i.o.c.UriAssigner - Specified package "Besluit" for attribute "Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Activiteit:geplandeStart" was not found.
-10:39:00 WARN  c.g.i.o.c.UriAssigner - Specified package "OSLO-Mandaat" for attribute "Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Positie:aantalHouders" was not found.
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://data.vlaanderen.be/ns/dcatapvl#): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAP
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Domain Model.OSLO²_vocabularium, Model, Model.Domain Model.OSLO²_vocabularium.External, Model.Domain Model
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Post): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Positie, Model.Domain Model.OSLO²_vocabularium.External:Positie
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/dcat#Distribution): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Distributie, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:AdministratiefNiveau, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rechtspersoonlijkheidtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Bewerkingstype, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:BurgerlijkeStaatType, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatieaanduidingtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieActiviteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:NAL_type, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:ELI_status, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatienaamtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Statuswaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:StopzettingType, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeometrieSpecificatieWaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:NUTS, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Afstammingstype, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieClassificatie, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Geslacht, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatorniveauwaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Eurovoc, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Taalcode, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieType, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieStatus, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rechtstoestandtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeometrieMethodeWaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rechtsvormtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Gezinsrelatietype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Code, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:NAL_currency
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/PublicOrganisation): Model.Domain Model.OSLO²_vocabularium.External:Publieke Organisatie, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:PubliekeOrganisatie
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/LicenseDocument): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:LicentieDocument, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:LicentieDocument
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/dcat#Dataset): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/prov#Entity): Model.Domain Model.OSLO²_vocabularium.External:Entiteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Object, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstentiteit
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://xmlns.com/foaf/0.1/Agent): Model.Domain Model.OSLO²_vocabularium.External:Agent, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Agent
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2006/vcard/ns#Kind): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactpunt, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactinfo , Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Contactinfo 
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:TaalString, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeografischeNaam
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/dcat#Catalog): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:DatasetCatalogus
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/prov#Activity): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Activiteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstactiviteit
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Membership): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Lidmaatschap, Model.Domain Model.OSLO²_vocabularium.External:Lidmaatschap
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/adms#Identifier): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Identificator, Model.Domain Model.OSLO²_vocabularium.External:Identificator
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Organization): Model.Domain Model.OSLO²_vocabularium.External:Organisatie, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Organisatie
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Role): Model.Domain Model.OSLO²_vocabularium.External:Rol, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rol
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/person#Person): Model.Domain Model.OSLO²_vocabularium.External:Persoon, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#accessURL): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Distributie:toegangsURL, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie:toegangsURL
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/contactPoint): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Organisatie:contactinfo, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:contactinfo
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Organisatie:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:DatasetCatalogus:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:FormeelKader:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:beschrijving
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:CatalogusRecord:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie:identificator
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.vlaanderen.be/ns/persoon#gebruikteVoornaam): Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:gebruikteVoornaam, Model.Domain Model.OSLO²_vocabularium.External:Persoon:gebruikte voornaam
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.vlaanderen.be/ns/persoon#geslacht): Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:geslacht, Model.Domain Model.OSLO²_vocabularium.External:Persoon:geslacht
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/name): Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:alternatieveNaam, Model.Domain Model.OSLO²_vocabularium.External:Persoon:alternatieve naam, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Agent:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:ContactInfo:contactnaam
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Straatnaam:straatnaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstagent:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstentiteit:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Gemeentenaam:gemeentenaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatienaam:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Plaats:plaatsnaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Adreslocator:naam
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Plaats:geometrie, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeografischePositie:geometrie
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/org#role): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Lidmaatschap:rol, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Positie:rol
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://sdg.semic.eutotalCredits): Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/familyName): Model.Domain Model.OSLO²_vocabularium.External:Persoon:achternaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:achternaam
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:FormeelKader:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Distributie:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:CatalogusRecord:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:DatasetCatalogus:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie:titel
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#contactPoint): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:contactinformatie, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:contactinfo, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:contactinformatie, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:contactinformatie
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#activity): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Generatie:activiteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Invalidatie:activiteit
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://sdg.semic.euidentifier): Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:FormeelKader:type, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:DocumentOnderdeel:type
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://sdg.semic.euacademicYear): Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#theme): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:thema, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:thema
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/issued): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Identificator:toegekendOp, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:CatalogusRecord:aanmaakdatum
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2006/vcard/ns#hasEmail): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactpunt:e-mail, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactinfo :e-mail, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Contactinfo :email
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#identifier): Model.Domain Model.OSLO²_vocabularium.External:Persoon:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Object:identificator
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#atTime): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Generatie:tijdstip, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Invalidatie:tijdstip
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.vlaanderen.be/ns/metadata-voor-servicesl#rol): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Attributie:rol, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Relatie:rol
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#landingPage): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:landingspagina, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:landingspagina
-10:39:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/accessRights): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:toegankelijkheid, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:toegankelijkheid
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Address" .
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Organisation" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Organisation without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Person" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Person without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Student" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Student without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TertiaryEducationDiplomaEvidence" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class TertiaryEducationDiplomaEvidence without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TertiaryEducationEvidence" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class TertiaryEducationEvidence without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EducationInstitution" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class EducationInstitution without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CourseResult" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class CourseResult without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Grade" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Grade without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "RecordOfResultsEvidence" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class RecordOfResultsEvidence without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TertiaryEducationDiplomaSupplementEvidence" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class TertiaryEducationDiplomaSupplementEvidence without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Location" .
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Location without label in dutch, further processing this class will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property contains without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property placeOfBirth without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property registeredLocation without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property registeredAddress without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property registeredAddress without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property belongsTo without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property issuingPlace without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property obtainedAt without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property obtainedAt without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property address without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property address without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property issuingAuthority without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasSupplement without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasSupplement without name in dutch, further processing this property will be incoherent
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasRecordofResults without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasRecordofResults without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:fullAddress".
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property prefLabel without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:dateOfBirth".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:dateOfBirth".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:dateOfBirth".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property dateOfBirth without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property familyName without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property givenName without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:sex".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:sex".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:sex".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property sex without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property studentID without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicProgramme without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToFurtherStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToFurtherStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToFurtherStudy".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property accessToFurtherStudy without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property accessToRegulatedProfession without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:levelOfDistinction".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:levelOfDistinction".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:levelOfDistinction".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property levelOfDistinction without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:overallGrade".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:overallGrade".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:overallGrade".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property overallGrade without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property thesisTitle without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingDate".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingDate".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingDate".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property issuingDate without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:language".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:language".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:language".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property language without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property qualificationName without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseAcademicPeriod without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicYear".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseAcademicYear without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseCreditsAmount without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseFieldOfStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseFieldOfStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseFieldOfStudy".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseFieldOfStudy without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseGrade".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseGrade".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseGrade".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseGrade without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseLanguage".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseLanguage".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseLanguage".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseLanguage without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseName without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property distribution without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:gradingScheme".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:gradingScheme".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:gradingScheme".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gradingScheme without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:status".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:status".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:status".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property status without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:value".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:value".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:value".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property value without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicYear without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property totalCredits without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicProgrammeLanguage".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicProgrammeLanguage".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicProgrammeLanguage".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicProgrammeLanguage without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicYear without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:accessRequirement".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:accessRequirement".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:accessRequirement".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property accessRequirement without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:gradePointAverage".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:gradePointAverage".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:gradePointAverage".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gradePointAverage without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:languageOfInstruction".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:languageOfInstruction".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:languageOfInstruction".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property languageOfInstruction without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:mainFieldOfStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:mainFieldOfStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:mainFieldOfStudy".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property mainFieldOfStudy without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:modeOfStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:modeOfStudy".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:modeOfStudy".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property modeOfStudy without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property programmeLearningOutcomes without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:qualificationLevel".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:qualificationLevel".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:qualificationLevel".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property qualificationLevel without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property studyDuration without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property totalCredits without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicIdentifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicIdentifier".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicIdentifier".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property geographicIdentifier without name in dutch, further processing this property will be incoherent
-10:39:00 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
-10:39:00 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
-10:39:00 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property geographicName without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model.OSLO²_vocabularium".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Domain Model.OSLO²_vocabularium.External".
+08:19:10 WARN  c.g.i.o.c.UriAssigner - Specified package "OSLO-Mandaat" for attribute "Model.Domain Model.OSLO²_vocabularium.External:Positie:aantalHouders" was not found.
+08:19:10 WARN  c.g.i.o.c.UriAssigner - Specified package "Besluit" for attribute "Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Activiteit:geplandeStart" was not found.
+08:19:10 WARN  c.g.i.o.c.UriAssigner - Specified package "OSLO-Mandaat" for attribute "Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Positie:aantalHouders" was not found.
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://data.vlaanderen.be/ns/dcatapvl#): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAP, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.Domain Model.OSLO²_vocabularium.External, Model.Domain Model, Model.Domain Model.OSLO²_vocabularium
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2006/vcard/ns#Kind): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactinfo , Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactpunt, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Contactinfo 
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/PublicOrganisation): Model.Domain Model.OSLO²_vocabularium.External:Publieke Organisatie, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:PubliekeOrganisatie
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Taalcode, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieActiviteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeometrieMethodeWaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rechtsvormtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Geslacht, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rechtspersoonlijkheidtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Bewerkingstype, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:StopzettingType, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rechtstoestandtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Code, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeometrieSpecificatieWaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:AdministratiefNiveau, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieClassificatie, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Afstammingstype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:NUTS, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Statuswaarde, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Eurovoc, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieType, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatieaanduidingtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatienaamtype, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:ELI_status, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:OrganisatieStatus, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:NAL_type, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:NAL_currency, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Gezinsrelatietype, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:BurgerlijkeStaatType, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatorniveauwaarde
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/dcat#Catalog): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:DatasetCatalogus, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/prov#Activity): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstactiviteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Activiteit
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/dcat#Dataset): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Post): Model.Domain Model.OSLO²_vocabularium.External:Positie, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Positie
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/LicenseDocument): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:LicentieDocument, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:LicentieDocument
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/adms#Identifier): Model.Domain Model.OSLO²_vocabularium.External:Identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Identificator
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeografischeNaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:TaalString
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://xmlns.com/foaf/0.1/Agent): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Agent, Model.Domain Model.OSLO²_vocabularium.External:Agent
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Membership): Model.Domain Model.OSLO²_vocabularium.External:Lidmaatschap, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Lidmaatschap
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Organization): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Organisatie, Model.Domain Model.OSLO²_vocabularium.External:Organisatie
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/dcat#Distribution): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Distributie
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/prov#Entity): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Object, Model.Domain Model.OSLO²_vocabularium.External:Entiteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstentiteit
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/person#Person): Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon, Model.Domain Model.OSLO²_vocabularium.External:Persoon
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/org#Role): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Rol, Model.Domain Model.OSLO²_vocabularium.External:Rol
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://sdg.semic.eutotalCredits): Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#identifier): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Object:identificator, Model.Domain Model.OSLO²_vocabularium.External:Persoon:identificator
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/contactPoint): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Organisatie:contactinfo, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:contactinfo
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Distributie:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:FormeelKader:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:DatasetCatalogus:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:CatalogusRecord:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:titel, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:titel
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/org#role): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Lidmaatschap:rol, Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Positie:rol
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.Domain Model.OSLO²_vocabularium.OSLO-Organisatie:Organisatie:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:DatasetCatalogus:beschrijving, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:FormeelKader:beschrijving
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#contactPoint): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:contactinformatie, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:contactinformatie, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:contactinformatie, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:contactinfo
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Catalogus:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:CatalogusRecord:identificator, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:identificator
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Plaats:plaatsnaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstentiteit:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Straatnaam:straatnaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Herkomstagent:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Locatienaam:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Adreslocator:naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Adres:Gemeentenaam:gemeentenaam
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.vlaanderen.be/ns/metadata-voor-servicesl#rol): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Attributie:rol, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Relatie:rol
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/name): Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:alternatieveNaam, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Agent:naam, Model.Domain Model.OSLO²_vocabularium.External:Persoon:alternatieve naam, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:ContactInfo:contactnaam
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/familyName): Model.Domain Model.OSLO²_vocabularium.External:Persoon:achternaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:achternaam
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#atTime): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Invalidatie:tijdstip, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Generatie:tijdstip
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Plaats:geometrie, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:GeografischePositie:geometrie
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#landingPage): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:DataService:landingspagina, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:landingspagina
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.vlaanderen.be/ns/persoon#gebruikteVoornaam): Model.Domain Model.OSLO²_vocabularium.External:Persoon:gebruikte voornaam, Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:gebruikteVoornaam
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#theme): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:thema, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:thema
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:DocumentOnderdeel:type, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:FormeelKader:type
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/issued): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Identificator:toegekendOp, Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:CatalogusRecord:aanmaakdatum
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#activity): Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Generatie:activiteit, Model.Domain Model.OSLO²_vocabularium.OSLO-Generiek:Invalidatie:activiteit
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://sdg.semic.euacademicYear): Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://sdg.semic.euidentifier): Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier, Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2006/vcard/ns#hasEmail): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Contactinfo :email, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactinfo :e-mail, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Contactpunt:e-mail
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/accessRights): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Dataset:toegankelijkheid, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Dataset:toegankelijkheid
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#accessURL): Model.Domain Model.OSLO²_vocabularium.OSLO-metadataVoorServices:Distributie:toegangsURL, Model.Domain Model.OSLO²_vocabularium.OSLO-DCATAPVL:Distributie:toegangsURL
+08:19:10 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.vlaanderen.be/ns/persoon#geslacht): Model.Domain Model.OSLO²_vocabularium.OSLO-Persoon:Persoon:geslacht, Model.Domain Model.OSLO²_vocabularium.External:Persoon:geslacht
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence".
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Address" .
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Organisation" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Organisation without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Person" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Person without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Student" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Student without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TertiaryEducationDiplomaEvidence" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class TertiaryEducationDiplomaEvidence without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TertiaryEducationEvidence" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class TertiaryEducationEvidence without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EducationInstitution" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class EducationInstitution without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CourseResult" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class CourseResult without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Grade" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Grade without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "RecordOfResultsEvidence" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class RecordOfResultsEvidence without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TertiaryEducationDiplomaSupplementEvidence" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class TertiaryEducationDiplomaSupplementEvidence without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Location" .
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Class Location without label in dutch, further processing this class will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution:obtainedAt".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property obtainedAt without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:EducationInstitution".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:obtainedAt".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property obtainedAt without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:registeredAddress".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property registeredAddress without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:registeredAddress".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property registeredAddress without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:hasRecordofResults".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasRecordofResults without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasRecordofResults".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasRecordofResults without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:hasSupplement".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasSupplement without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:hasSupplement".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property hasSupplement without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingAuthority".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property issuingAuthority without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:placeOfBirth".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property placeOfBirth without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingPlace".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property issuingPlace without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:contains".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property contains without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:address".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property address without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:address".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property address without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:belongsTo".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property belongsTo without name in dutch, further processing this property will be incoherent
+08:19:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation" belongs to package "TertiaryEducationDiplomaEvidence" based on source and target definition.
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:registeredLocation".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property registeredLocation without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:adminUnitL2".
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Address:fullAddress".
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:identifier".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Organisation:prefLabel".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property prefLabel without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:dateOfBirth".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:dateOfBirth".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:dateOfBirth".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property dateOfBirth without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:familyName".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property familyName without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:givenName".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property givenName without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:identifier".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:sex".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:sex".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Person:sex".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property sex without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Student:studentID".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property studentID without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:academicProgramme".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicProgramme without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToFurtherStudy".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToFurtherStudy".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToFurtherStudy".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property accessToFurtherStudy without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:accessToRegulatedProfession".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property accessToRegulatedProfession without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:levelOfDistinction".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:levelOfDistinction".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:levelOfDistinction".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property levelOfDistinction without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:overallGrade".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:overallGrade".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:overallGrade".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property overallGrade without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaEvidence:thesisTitle".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property thesisTitle without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:identifier".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingDate".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingDate".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:issuingDate".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property issuingDate without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:language".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:language".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:language".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property language without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationEvidence:qualificationName".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property qualificationName without name in dutch, further processing this property will be incoherent
+08:19:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
+08:19:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicPeriod".
+08:19:10 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseAcademicPeriod without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseAcademicYear".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseAcademicYear without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseCreditsAmount".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseCreditsAmount without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseFieldOfStudy".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseFieldOfStudy".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseFieldOfStudy".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseFieldOfStudy without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseGrade".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseGrade".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseGrade".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseGrade without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseLanguage".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseLanguage".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseLanguage".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseLanguage without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:CourseResult:courseName".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property courseName without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:distribution".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property distribution without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:gradingScheme".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:gradingScheme".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:gradingScheme".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gradingScheme without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:status".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:status".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:status".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property status without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:value".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:value".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Grade:value".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property value without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:academicYear".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicYear without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:RecordOfResultsEvidence:totalCredits".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property totalCredits without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicProgrammeLanguage".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicProgrammeLanguage".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicProgrammeLanguage".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicProgrammeLanguage without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:academicYear".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property academicYear without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:accessRequirement".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:accessRequirement".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:accessRequirement".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property accessRequirement without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:gradePointAverage".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:gradePointAverage".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:gradePointAverage".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property gradePointAverage without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:languageOfInstruction".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:languageOfInstruction".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:languageOfInstruction".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property languageOfInstruction without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:mainFieldOfStudy".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:mainFieldOfStudy".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:mainFieldOfStudy".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property mainFieldOfStudy without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:modeOfStudy".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:modeOfStudy".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:modeOfStudy".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property modeOfStudy without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:programmeLearningOutcomes".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property programmeLearningOutcomes without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:qualificationLevel".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:qualificationLevel".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:qualificationLevel".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property qualificationLevel without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:studyDuration".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property studyDuration without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:TertiaryEducationDiplomaSupplementEvidence:totalCredits".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property totalCredits without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicIdentifier".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicIdentifier".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicIdentifier".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property geographicIdentifier without name in dutch, further processing this property will be incoherent
+08:19:11 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
+08:19:11 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Domain Model.OSLO²_vocabularium.TertiaryEducationDiplomaEvidence:Location:geographicName".
+08:19:11 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property geographicName without name in dutch, further processing this property will be incoherent
