@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "EnterYourTranslationHere": "https://sdg.semic.euTertiaryEducationEvidence",
+    "EnterYourTranslationHere.academicProgrammeLanguage": {
+      "@id": "https://sdg.semic.euacademicProgrammeLanguage",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.address": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euLocation.address",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.belongsTo": {
+      "@id": "https://sdg.semic.eubelongsTo",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.contains": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eucontains",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.enterYourTranslationHere": {
+      "@id": "https://sdg.semic.euvalue",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "EnterYourTranslationHere.hasRecordofResults": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.hasSupplement": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.issuingAuthority": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euissuingAuthority",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.issuingPlace": {
+      "@id": "https://sdg.semic.euissuingPlace",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.obtainedAt": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.placeOfBirth": {
+      "@id": "https://sdg.semic.euplaceOfBirth",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.registeredAddress": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.euPerson.registeredAddress",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.registeredLocation": {
+      "@id": "https://sdg.semic.euregisteredLocation",
+      "@type": "@id"
+    }
+  }
+}
