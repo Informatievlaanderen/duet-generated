@@ -1,0 +1,435 @@
+{
+  "@context": {
+    "@vocab": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:definition": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en",
+  "shapes": [
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#Agent"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:definition": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+          },
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://fixme.com#cbc:description"
+        },
+        {
+          "sh:definition": {
+            "en": "An unambiguous reference to RequirementConcept"
+          },
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://fixme.com#cbc:id"
+        },
+        {
+          "sh:definition": {
+            "en": "A name to identify in common language the RequirementConcept"
+          },
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://fixme.com#cbc:name"
+        },
+        {
+          "sh:definition": {
+            "en": "a classification of the RequirementConcept"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://fixme.com#cbc:type"
+        },
+        {
+          "sh:class": "http://fixme.com#Constraint",
+          "sh:definition": {
+            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
+          },
+          "sh:name": {
+            "en": "has Constraint"
+          },
+          "sh:path": "http://fixme.com#cccev:hasConstraint"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#Constraint"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CriterionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:definition": {
+            "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+          },
+          "sh:name": {
+            "en": "bias"
+          },
+          "sh:path": "http://fixme.com#cccev:bias"
+        },
+        {
+          "sh:definition": {
+            "en": "Relative importance assigned to a given criterion."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "weight"
+          },
+          "sh:path": "http://fixme.com#cccev:weight"
+        },
+        {
+          "sh:definition": {
+            "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+          },
+          "sh:name": {
+            "en": "weighting consideration description"
+          },
+          "sh:path": "http://fixme.com#cccev:weightingConsiderationDescription"
+        },
+        {
+          "sh:definition": {
+            "en": "The numeric form used to weight."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "weighting type"
+          },
+          "sh:path": "http://fixme.com#cccev:weightingType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Criterion"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Distribution",
+          "sh:path": "http://fixme.com#dcat:distribution"
+        },
+        {
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#dct:description"
+        },
+        {
+          "sh:path": "http://fixme.com#dct:identifier"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#dct:issued"
+        },
+        {
+          "sh:path": "http://fixme.com#dct:modified"
+        },
+        {
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#dct:title"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#dct:type"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Dataset"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DistributionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#dcat:downloadURL"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#dct:issued"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Distribution"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:definition": {
+            "en": "The security classification assigned to an Evidence or, in general, to a content."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "confidentiality level type"
+          },
+          "sh:path": "http://fixme.com#cccev:confidentialityLevelType"
+        },
+        {
+          "sh:class": "http://fixme.com#EvidenceType",
+          "sh:path": "http://fixme.com#cccev:isConformantTo"
+        },
+        {
+          "sh:class": "http://fixme.com#Requirement",
+          "sh:path": "http://fixme.com#cccev:supports"
+        },
+        {
+          "sh:class": "http://fixme.com#Concept",
+          "sh:path": "http://fixme.com#cccev:supports"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Evidence"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:definition": {
+            "en": "A classification code use to specify the machine-readability of a content."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "dataset type"
+          },
+          "sh:path": "http://fixme.com#cccev:datasetType"
+        },
+        {
+          "sh:definition": {
+            "en": "A classification code to specify the layout and content expected for an evidence."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "evidence type classification"
+          },
+          "sh:path": "http://fixme.com#cccev:evidenceTypeClassification"
+        },
+        {
+          "sh:class": "http://fixme.com#EvidenceTypeList",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "is specified in"
+          },
+          "sh:path": "http://fixme.com#cccev:isSpecifiedIn"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#EvidenceType"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeListShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:definition": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
+          },
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://fixme.com#cbc:description"
+        },
+        {
+          "sh:definition": {
+            "en": "An unambiguous reference to an Evidence Type List"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://fixme.com#cbc:id"
+        },
+        {
+          "sh:definition": {
+            "en": "A name to identify in common language the Evidence Type List"
+          },
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://fixme.com#cbc:name"
+        },
+        {
+          "sh:class": "http://fixme.com#EvidenceType",
+          "sh:name": {
+            "en": "specifies evidence type"
+          },
+          "sh:path": "http://fixme.com#cccev:specifiesEvidenceType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#EvidenceTypeList"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#InformationRequirementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#InformationRequirement"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#ReferenceFramework"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://fixme.com#cbc:description"
+        },
+        {
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://fixme.com#cbc:id"
+        },
+        {
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://fixme.com#cbc:name"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://fixme.com#cbc:type"
+        },
+        {
+          "sh:class": "http://fixme.com#Concept",
+          "sh:name": {
+            "en": "has concept"
+          },
+          "sh:path": "http://fixme.com#cccev:hasConcept"
+        },
+        {
+          "sh:class": "http://fixme.com#EvidenceTypeList",
+          "sh:name": {
+            "en": "has evidence type combination"
+          },
+          "sh:path": "http://fixme.com#cccev:hasEvidenceTypeCombinationList"
+        },
+        {
+          "sh:class": "http://fixme.com#Requirement",
+          "sh:name": {
+            "en": "has requirement"
+          },
+          "sh:path": "http://fixme.com#cccev:hasRequirement"
+        },
+        {
+          "sh:class": "http://fixme.com#Evidence",
+          "sh:name": {
+            "en": "has supporting evidence"
+          },
+          "sh:path": "http://fixme.com#cccev:hasSupportingEvidence"
+        },
+        {
+          "sh:class": "http://fixme.com#ReferenceFramework",
+          "sh:name": {
+            "en": "is derived from"
+          },
+          "sh:path": "http://fixme.com#cccev:isDerivedFrom"
+        },
+        {
+          "sh:class": "http://fixme.com#Requirement",
+          "sh:name": {
+            "en": "is requirement of"
+          },
+          "sh:path": "http://fixme.com#cccev:isRequirementOf"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Requirement"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#StandardShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#Standard"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#custom-data-typeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#custom-data-type"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#dataset-typeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#dataset-type"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#evidence-typesShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#evidence-types"
+    }
+  ]
+}

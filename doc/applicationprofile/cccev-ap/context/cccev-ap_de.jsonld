@@ -1,0 +1,198 @@
+{
+  "@context": {
+    "Agent": "http://fixme.com#Agent",
+    "Concept": "http://fixme.com#Concept",
+    "Concept.cbc:description": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:description",
+      "@type": ""
+    },
+    "Concept.cbc:id": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:id",
+      "@type": ""
+    },
+    "Concept.cbc:name": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:name",
+      "@type": ""
+    },
+    "Concept.cbc:type": {
+      "@id": "http://fixme.com#cbc:type",
+      "@type": ""
+    },
+    "Concept.cccev:hasConstraint": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:hasConstraint",
+      "@type": "@id"
+    },
+    "Constraint": "http://fixme.com#Constraint",
+    "Criterion": "http://fixme.com#Criterion",
+    "Criterion.cccev:bias": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:bias",
+      "@type": ""
+    },
+    "Criterion.cccev:weight": {
+      "@id": "http://fixme.com#cccev:weight",
+      "@type": ""
+    },
+    "Criterion.cccev:weightingConsiderationDescription": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:weightingConsiderationDescription",
+      "@type": ""
+    },
+    "Criterion.cccev:weightingType": {
+      "@id": "http://fixme.com#cccev:weightingType",
+      "@type": ""
+    },
+    "Custom-data-type": "http://fixme.com#custom-data-type",
+    "Dataset": "http://fixme.com#Dataset",
+    "Dataset-type": "http://fixme.com#dataset-type",
+    "Dataset.dcat:distribution": {
+      "@container": "@set",
+      "@id": "http://fixme.com#dcat:distribution",
+      "@type": "@id"
+    },
+    "Dataset.dct:description": {
+      "@container": "@set",
+      "@id": "http://fixme.com#dct:description",
+      "@type": ""
+    },
+    "Dataset.dct:identifier": {
+      "@container": "@set",
+      "@id": "http://fixme.com#dct:identifier",
+      "@type": ""
+    },
+    "Dataset.dct:issued": {
+      "@id": "http://fixme.com#dct:issued",
+      "@type": ""
+    },
+    "Dataset.dct:modified": {
+      "@container": "@set",
+      "@id": "http://fixme.com#dct:modified",
+      "@type": ""
+    },
+    "Dataset.dct:title": {
+      "@container": "@set",
+      "@id": "http://fixme.com#dct:title",
+      "@type": ""
+    },
+    "Dataset.dct:type": {
+      "@id": "http://fixme.com#dct:type",
+      "@type": ""
+    },
+    "Distribution": "http://fixme.com#Distribution",
+    "Distribution.dcat:downloadURL": {
+      "@id": "http://fixme.com#dcat:downloadURL",
+      "@type": ""
+    },
+    "Distribution.dct:issued": {
+      "@id": "http://fixme.com#dct:issued",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "Evidence": "http://fixme.com#Evidence",
+    "Evidence-types": "http://fixme.com#evidence-types",
+    "Evidence.cccev:confidentialityLevelType": {
+      "@id": "http://fixme.com#cccev:confidentialityLevelType",
+      "@type": ""
+    },
+    "Evidence.cccev:isConformantTo": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:isConformantTo",
+      "@type": "@id"
+    },
+    "Evidence.cccev:supports": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "@id"
+    },
+    "EvidenceType": "http://fixme.com#EvidenceType",
+    "EvidenceType.cccev:datasetType": {
+      "@id": "http://fixme.com#cccev:datasetType",
+      "@type": ""
+    },
+    "EvidenceType.cccev:evidenceTypeClassification": {
+      "@id": "http://fixme.com#cccev:evidenceTypeClassification",
+      "@type": ""
+    },
+    "EvidenceType.cccev:isSpecifiedIn": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:isSpecifiedIn",
+      "@type": "@id"
+    },
+    "EvidenceTypeList": "http://fixme.com#EvidenceTypeList",
+    "EvidenceTypeList.cbc:description": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:description",
+      "@type": ""
+    },
+    "EvidenceTypeList.cbc:id": {
+      "@id": "http://fixme.com#cbc:id",
+      "@type": ""
+    },
+    "EvidenceTypeList.cbc:name": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:name",
+      "@type": ""
+    },
+    "EvidenceTypeList.cccev:specifiesEvidenceType": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:specifiesEvidenceType",
+      "@type": "@id"
+    },
+    "InformationRequirement": "http://fixme.com#InformationRequirement",
+    "ReferenceFramework": "http://fixme.com#ReferenceFramework",
+    "Requirement": "http://fixme.com#Requirement",
+    "Requirement.cbc:description": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:description",
+      "@type": ""
+    },
+    "Requirement.cbc:id": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:id",
+      "@type": ""
+    },
+    "Requirement.cbc:name": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cbc:name",
+      "@type": ""
+    },
+    "Requirement.cbc:type": {
+      "@id": "http://fixme.com#cbc:type",
+      "@type": ""
+    },
+    "Requirement.cccev:hasConcept": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:hasConcept",
+      "@type": "@id"
+    },
+    "Requirement.cccev:hasEvidenceTypeCombinationList": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
+      "@type": "@id"
+    },
+    "Requirement.cccev:hasRequirement": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:hasRequirement",
+      "@type": "@id"
+    },
+    "Requirement.cccev:hasSupportingEvidence": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:hasSupportingEvidence",
+      "@type": "@id"
+    },
+    "Requirement.cccev:isDerivedFrom": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:isDerivedFrom",
+      "@type": "@id"
+    },
+    "Requirement.cccev:isRequirementOf": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:isRequirementOf",
+      "@type": "@id"
+    },
+    "Standard": "http://fixme.com#Standard"
+  }
+}

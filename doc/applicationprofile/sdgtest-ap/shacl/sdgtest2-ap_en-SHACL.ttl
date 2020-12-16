@@ -4,26 +4,22 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#EducationInstitutionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationDiplomaSupplementEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#CourseResultShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#StudentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#PersonShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#GradeShape>,
+<https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#StudentShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#EducationInstitutionShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#RecordOfResultsEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#AddressShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationDiplomaEvidenceShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#LocationShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#OrganisationShape> .
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#OrganisationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#GradeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#AddressShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#PersonShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationDiplomaEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationDiplomaSupplementEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#CourseResultShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#AddressShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:maxCount 1;
-    sh:name "admin unit Level 2"@en;
-    sh:path <https://sdg.semic.euadminUnitL2>
-  ], [
     sh:class <https://sdg.semic.euPerson>;
     sh:path <https://sdg.semic.euAddress.registeredAddress>
   ], [
@@ -42,28 +38,45 @@
     sh:minCount 1;
     sh:name "Admin unit Level 1"@en;
     sh:path <https://sdg.semic.euadminUnitL1>
+  ], [
+    sh:maxCount 1;
+    sh:name "admin unit Level 2"@en;
+    sh:path <https://sdg.semic.euadminUnitL2>
   ];
   sh:targetClass <https://sdg.semic.euAddress> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#CourseResultShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:definition """ 	The number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."""@en;
+    sh:class skos:Concept;
+    sh:definition "Main language in which the course was taught."@en;
     sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "course credits amount"@en;
-    sh:path <https://sdg.semic.eucourseCreditsAmount>
+    sh:name "course language"@en;
+    sh:path <https://sdg.semic.eucourseLanguage>
   ], [
     sh:class skos:Concept;
     sh:definition "The discipline or subject area of a course."@en;
     sh:name "course field of study"@en;
     sh:path <https://sdg.semic.eucourseFieldOfStudy>
   ], [
-    sh:class skos:Concept;
-    sh:definition "Main language in which the course was taught."@en;
+    sh:definition """ 	The number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."""@en;
     sh:maxCount 1;
-    sh:name "course language"@en;
-    sh:path <https://sdg.semic.eucourseLanguage>
+    sh:minCount 1;
+    sh:name "course credits amount"@en;
+    sh:path <https://sdg.semic.eucourseCreditsAmount>
+  ], [
+    sh:definition """ 	Name given to a number of lectures or other matters dealing with a subject, i.e. the course."""@en;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "course name"@en;
+    sh:path <https://sdg.semic.eucourseName>
+  ], [
+    sh:class <https://sdg.semic.euGrade>;
+    sh:definition """ 	A mark indicating a degree of accomplishment for a particular course."""@en;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "course grade"@en;
+    sh:path <https://sdg.semic.eucourseGrade>
   ], [
     sh:definition "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."@en;
     sh:maxCount 1;
@@ -75,19 +88,6 @@
     sh:maxCount 1;
     sh:name "course academic period"@en;
     sh:path <https://sdg.semic.eucourseAcademicYear>
-  ], [
-    sh:class <https://sdg.semic.euGrade>;
-    sh:definition """ 	A mark indicating a degree of accomplishment for a particular course."""@en;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "course grade"@en;
-    sh:path <https://sdg.semic.eucourseGrade>
-  ], [
-    sh:definition """ 	Name given to a number of lectures or other matters dealing with a subject, i.e. the course."""@en;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "course name"@en;
-    sh:path <https://sdg.semic.eucourseName>
   ];
   sh:targetClass <https://sdg.semic.euCourseResult> .
 
@@ -102,22 +102,10 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#GradeShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:datatype xsd:anyURI;
-    sh:definition "Dereferenceable identifier to the grading system that was used to give the grade."@en;
-    sh:maxCount 1;
-    sh:name "grading scheme"@en;
-    sh:path <https://sdg.semic.eugradingScheme>
-  ], [
     sh:definition "Statistical distribution of grades over the number of students that obtained the respective grade."@en;
     sh:maxCount 1;
     sh:name "distribution"@en;
     sh:path <https://sdg.semic.eudistribution>
-  ], [
-    sh:datatype rdfs:Literal;
-    sh:definition "A (quantitative or qualitative) value according to the definition in the grading scheme."@en;
-    sh:maxCount 1;
-    sh:name "value"@en;
-    sh:path <https://sdg.semic.euvalue>
   ], [
     sh:class skos:Concept;
     sh:definition """ 	An indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."""@en;
@@ -125,20 +113,32 @@
     sh:minCount 1;
     sh:name "status"@en;
     sh:path <https://sdg.semic.eustatus>
+  ], [
+    sh:datatype rdfs:Literal;
+    sh:definition "A (quantitative or qualitative) value according to the definition in the grading scheme."@en;
+    sh:maxCount 1;
+    sh:name "value"@en;
+    sh:path <https://sdg.semic.euvalue>
+  ], [
+    sh:datatype xsd:anyURI;
+    sh:definition "Dereferenceable identifier to the grading system that was used to give the grade."@en;
+    sh:maxCount 1;
+    sh:name "grading scheme"@en;
+    sh:path <https://sdg.semic.eugradingScheme>
   ];
   sh:targetClass <https://sdg.semic.euGrade> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#LocationShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class <https://sdg.semic.euAddress>;
+    sh:path <https://sdg.semic.euLocation.address>
+  ], [
     sh:datatype xsd:anyURI;
     sh:definition """ 	A geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."""@en;
     sh:maxCount 1;
     sh:name "geographic name"@en;
     sh:path <https://sdg.semic.eugeographicIdentifier>
-  ], [
-    sh:class <https://sdg.semic.euAddress>;
-    sh:path <https://sdg.semic.euLocation.address>
   ], [
     sh:definition "A URI that identifies the Location."@en;
     sh:maxCount 1;
@@ -155,19 +155,19 @@
     sh:name "identifier"@en;
     sh:path <https://sdg.semic.euidentifier>
   ], [
-    sh:definition "An unambiguous reference to the Tertiary Education Evidence."@en;
+    sh:definition "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"@en;
     sh:minCount 1;
-    sh:name "identifier"@en;
-    sh:path <https://sdg.semic.euidentifier>
+    sh:name "preferred label"@en;
+    sh:path <https://sdg.semic.euprefLabel>
   ], [
     sh:class <https://sdg.semic.euLocation>;
     sh:maxCount 1;
     sh:path <https://sdg.semic.euregisteredLocation>
   ], [
-    sh:definition "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"@en;
+    sh:definition "An unambiguous reference to the Tertiary Education Evidence."@en;
     sh:minCount 1;
-    sh:name "preferred label"@en;
-    sh:path <https://sdg.semic.euprefLabel>
+    sh:name "identifier"@en;
+    sh:path <https://sdg.semic.euidentifier>
   ], [
     sh:definition "An unambiguous reference to the Tertiary Education Evidence."@en;
     sh:minCount 1;
@@ -179,21 +179,6 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#PersonShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class skos:Concept;
-    sh:definition "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."@en;
-    sh:maxCount 1;
-    sh:name "sex"@en;
-    sh:path <https://sdg.semic.eusex>
-  ], [
-    sh:definition "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"@en;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "family name"@en;
-    sh:path <https://sdg.semic.eufamilyName>
-  ], [
-    sh:class <https://sdg.semic.euAddress>;
-    sh:path <https://sdg.semic.euPerson.registeredAddress>
-  ], [
     sh:datatype xsd:date;
     sh:definition "A date that specifies the birth date of a Person."@en;
     sh:maxCount 1;
@@ -206,6 +191,21 @@
     sh:minCount 1;
     sh:name "given name"@en;
     sh:path <https://sdg.semic.eugivenName>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."@en;
+    sh:maxCount 1;
+    sh:name "sex"@en;
+    sh:path <https://sdg.semic.eusex>
+  ], [
+    sh:class <https://sdg.semic.euAddress>;
+    sh:path <https://sdg.semic.euPerson.registeredAddress>
+  ], [
+    sh:definition "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"@en;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "family name"@en;
+    sh:path <https://sdg.semic.eufamilyName>
   ], [
     sh:class <https://sdg.semic.euLocation>;
     sh:maxCount 1;
@@ -222,11 +222,11 @@
     sh:name "academic year"@en;
     sh:path <https://sdg.semic.euacademicYear>
   ], [
-    sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    sh:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
-  ], [
-    sh:class <https://sdg.semic.euCourseResult>;
-    sh:path <https://sdg.semic.eucontains>
+    sh:definition """ 	The period during which the courses and exams took place."""@en;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "academic year"@en;
+    sh:path <https://sdg.semic.euacademicYear>
   ], [
     sh:definition "Total student workload required, described in terms of ECTS credits."@en;
     sh:maxCount 1;
@@ -234,11 +234,11 @@
     sh:name "total credits"@en;
     sh:path <https://sdg.semic.eutotalCredits>
   ], [
-    sh:definition """ 	The period during which the courses and exams took place."""@en;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "academic year"@en;
-    sh:path <https://sdg.semic.euacademicYear>
+    sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    sh:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
+  ], [
+    sh:class <https://sdg.semic.euCourseResult>;
+    sh:path <https://sdg.semic.eucontains>
   ], [
     sh:definition "Total student workload required, described in terms of ECTS credits."@en;
     sh:maxCount 1;
@@ -261,24 +261,14 @@
   sh:closed false;
   sh:property [
     sh:class skos:Concept;
-    sh:definition "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."@en;
-    sh:name "access to further study"@en;
-    sh:path <https://sdg.semic.euaccessToFurtherStudy>
-  ], [
-    sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    sh:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
-  ], [
-    sh:class skos:Concept;
     sh:definition """ 	Indication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."""@en;
     sh:maxCount 1;
     sh:name "level of distinction"@en;
     sh:path <https://sdg.semic.eulevelOfDistinction>
   ], [
-    sh:definition "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."@en;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "academic programme"@en;
-    sh:path <https://sdg.semic.euacademicProgramme>
+    sh:definition "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."@en;
+    sh:name "access to regulated profession"@en;
+    sh:path <https://sdg.semic.euaccessToRegulatedProfession>
   ], [
     sh:class <https://sdg.semic.euGrade>;
     sh:definition "A mark indicating a degree of accomplishment."@en;
@@ -292,24 +282,29 @@
     sh:name "thesis title"@en;
     sh:path <https://sdg.semic.euthesisTitle>
   ], [
-    sh:definition "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."@en;
-    sh:name "access to regulated profession"@en;
-    sh:path <https://sdg.semic.euaccessToRegulatedProfession>
+    sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    sh:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
+  ], [
+    sh:definition "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."@en;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "academic programme"@en;
+    sh:path <https://sdg.semic.euacademicProgramme>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."@en;
+    sh:name "access to further study"@en;
+    sh:path <https://sdg.semic.euaccessToFurtherStudy>
   ];
   sh:targetClass <https://sdg.semic.euTertiaryEducationDiplomaEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationDiplomaSupplementEvidenceShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://sdg.semic.euTertiaryEducationDiplomaEvidence>;
-    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement>
-  ], [
-    sh:class <https://sdg.semic.euRecordOfResultsEvidence>;
-    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults>
-  ], [
-    sh:class skos:Concept;
+    sh:definition "Official duration of the programme in years of full-time study."@en;
     sh:maxCount 1;
-    sh:path <https://sdg.semic.euacademicProgrammeLanguage>
+    sh:name "study duration"@en;
+    sh:path <https://sdg.semic.eustudyDuration>
   ], [
     sh:class <https://sdg.semic.euGrade>;
     sh:definition "The grade point average of the course results, i.e. grades weighted based on the number of credits."@en;
@@ -318,30 +313,9 @@
     sh:path <https://sdg.semic.eugradePointAverage>
   ], [
     sh:class skos:Concept;
-    sh:definition "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."@en;
-    sh:maxCount 1;
-    sh:name "mode of study"@en;
-    sh:path <https://sdg.semic.eumodeOfStudy>
-  ], [
-    sh:class skos:Concept;
-    sh:definition """ 	Qualification(s) or periods of study required for access to the programme."""@en;
-    sh:name "access requirement"@en;
-    sh:path <https://sdg.semic.euaccessRequirement>
-  ], [
-    sh:class skos:Concept;
     sh:definition "The different languages in which the programme was given."@en;
     sh:name "language of instruction"@en;
     sh:path <https://sdg.semic.eulanguageOfInstruction>
-  ], [
-    sh:definition "Official duration of the programme in years of full-time study."@en;
-    sh:maxCount 1;
-    sh:name "study duration"@en;
-    sh:path <https://sdg.semic.eustudyDuration>
-  ], [
-    sh:class skos:Concept;
-    sh:definition "The main disciplines or subject areas of a qualification."@en;
-    sh:name "main field of study"@en;
-    sh:path <https://sdg.semic.eumainFieldOfStudy>
   ], [
     sh:class skos:Concept;
     sh:definition """ 	Level of the obtained qualification."""@en;
@@ -349,40 +323,52 @@
     sh:name "qualification level"@en;
     sh:path <https://sdg.semic.euqualificationLevel>
   ], [
+    sh:class skos:Concept;
+    sh:definition """ 	Qualification(s) or periods of study required for access to the programme."""@en;
+    sh:name "access requirement"@en;
+    sh:path <https://sdg.semic.euaccessRequirement>
+  ], [
     sh:definition """ 	Statements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"""@en;
     sh:maxCount 1;
     sh:name "programme learning outcomes"@en;
     sh:path <https://sdg.semic.euprogrammeLearningOutcomes>
+  ], [
+    sh:class <https://sdg.semic.euTertiaryEducationDiplomaEvidence>;
+    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement>
+  ], [
+    sh:class <https://sdg.semic.euRecordOfResultsEvidence>;
+    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "The main disciplines or subject areas of a qualification."@en;
+    sh:name "main field of study"@en;
+    sh:path <https://sdg.semic.eumainFieldOfStudy>
+  ], [
+    sh:class skos:Concept;
+    sh:maxCount 1;
+    sh:path <https://sdg.semic.euacademicProgrammeLanguage>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."@en;
+    sh:maxCount 1;
+    sh:name "mode of study"@en;
+    sh:path <https://sdg.semic.eumodeOfStudy>
   ];
   sh:targetClass <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_en#TertiaryEducationEvidenceShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:definition "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."@en;
-    sh:minCount 1;
-    sh:name "qualification name"@en;
-    sh:path <https://sdg.semic.euqualificationName>
-  ], [
-    sh:class <https://sdg.semic.euStudent>;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:path <https://sdg.semic.eubelongsTo>
-  ], [
     sh:class skos:Concept;
     sh:definition """The language in which the Tertiary Education Evidence is issued. 	"""@en;
     sh:minCount 1;
     sh:name "language"@en;
     sh:path <https://sdg.semic.eulanguage>
   ], [
-    sh:class <https://sdg.semic.euOrganisation>;
-    sh:minCount 1;
-    sh:path <https://sdg.semic.euissuingAuthority>
-  ], [
-    sh:class <https://sdg.semic.euLocation>;
+    sh:class <https://sdg.semic.euStudent>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:path <https://sdg.semic.euissuingPlace>
+    sh:path <https://sdg.semic.eubelongsTo>
   ], [
     sh:class <https://sdg.semic.euEducationInstitution>;
     sh:path <https://sdg.semic.euTertiaryEducationEvidence.obtainedAt>
@@ -393,5 +379,19 @@
     sh:minCount 1;
     sh:name "issuing date"@en;
     sh:path <https://sdg.semic.euissuingDate>
+  ], [
+    sh:class <https://sdg.semic.euOrganisation>;
+    sh:minCount 1;
+    sh:path <https://sdg.semic.euissuingAuthority>
+  ], [
+    sh:definition "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."@en;
+    sh:minCount 1;
+    sh:name "qualification name"@en;
+    sh:path <https://sdg.semic.euqualificationName>
+  ], [
+    sh:class <https://sdg.semic.euLocation>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:path <https://sdg.semic.euissuingPlace>
   ];
   sh:targetClass <https://sdg.semic.euTertiaryEducationEvidence> .
