@@ -2,21 +2,21 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
+<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape> a sh:NodeShape;
@@ -34,6 +34,11 @@
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:name>
   ], [
+    sh:definition ""@de;
+    sh:maxCount 1;
+    sh:name ""@de;
+    sh:path <http://fixme.com#cbc:type>
+  ], [
     sh:class <http://fixme.com#Constraint>;
     sh:definition ""@de;
     sh:name ""@de;
@@ -42,11 +47,6 @@
     sh:definition ""@de;
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:description>
-  ], [
-    sh:definition ""@de;
-    sh:maxCount 1;
-    sh:name ""@de;
-    sh:path <http://fixme.com#cbc:type>
   ];
   sh:targetClass <http://fixme.com#Concept> .
 
@@ -57,6 +57,10 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:definition ""@de;
+    sh:name ""@de;
+    sh:path <http://fixme.com#cccev:weightingConsiderationDescription>
+  ], [
     sh:definition ""@de;
     sh:maxCount 1;
     sh:name ""@de;
@@ -70,10 +74,6 @@
     sh:definition ""@de;
     sh:name ""@de;
     sh:path <http://fixme.com#cccev:bias>
-  ], [
-    sh:definition ""@de;
-    sh:name ""@de;
-    sh:path <http://fixme.com#cccev:weightingConsiderationDescription>
   ];
   sh:targetClass <http://fixme.com#Criterion> .
 
@@ -83,29 +83,29 @@
     sh:minCount 1;
     sh:path <http://fixme.com#dct:title>
   ], [
-    sh:maxCount 1;
-    sh:path <http://fixme.com#dct:issued>
-  ], [
     sh:class <http://fixme.com#Distribution>;
     sh:path <http://fixme.com#dcat:distribution>
   ], [sh:path <http://fixme.com#dct:identifier>], [
     sh:maxCount 1;
-    sh:path <http://fixme.com#dct:type>
-  ], [sh:path <http://fixme.com#dct:modified>], [
+    sh:path <http://fixme.com#dct:issued>
+  ], [
     sh:minCount 1;
     sh:path <http://fixme.com#dct:description>
-  ];
+  ], [
+    sh:maxCount 1;
+    sh:path <http://fixme.com#dct:type>
+  ], [sh:path <http://fixme.com#dct:modified>];
   sh:targetClass <http://fixme.com#Dataset> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:maxCount 1;
+    sh:path <http://fixme.com#dcat:downloadURL>
+  ], [
     sh:datatype xsd:date;
     sh:maxCount 1;
     sh:path <http://fixme.com#dct:issued>
-  ], [
-    sh:maxCount 1;
-    sh:path <http://fixme.com#dcat:downloadURL>
   ];
   sh:targetClass <http://fixme.com#Distribution> .
 
@@ -117,20 +117,28 @@
     sh:name ""@de;
     sh:path <http://fixme.com#cccev:confidentialityLevelType>
   ], [
-    sh:class <http://fixme.com#Concept>;
-    sh:path <http://fixme.com#cccev:supports>
-  ], [
     sh:class <http://fixme.com#Requirement>;
     sh:path <http://fixme.com#cccev:supports>
   ], [
     sh:class <http://fixme.com#EvidenceType>;
     sh:path <http://fixme.com#cccev:isConformantTo>
+  ], [
+    sh:class <http://fixme.com#Concept>;
+    sh:path <http://fixme.com#cccev:supports>
   ];
   sh:targetClass <http://fixme.com#Evidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class <http://fixme.com#EvidenceType>;
+    sh:name ""@de;
+    sh:path <http://fixme.com#cccev:specifiesEvidenceType>
+  ], [
+    sh:definition ""@de;
+    sh:name ""@de;
+    sh:path <http://fixme.com#cbc:description>
+  ], [
     sh:definition ""@de;
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:name>
@@ -139,14 +147,6 @@
     sh:maxCount 1;
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:id>
-  ], [
-    sh:definition ""@de;
-    sh:name ""@de;
-    sh:path <http://fixme.com#cbc:description>
-  ], [
-    sh:class <http://fixme.com#EvidenceType>;
-    sh:name ""@de;
-    sh:path <http://fixme.com#cccev:specifiesEvidenceType>
   ];
   sh:targetClass <http://fixme.com#EvidenceTypeList> .
 
@@ -161,12 +161,12 @@
     sh:definition ""@de;
     sh:maxCount 1;
     sh:name ""@de;
-    sh:path <http://fixme.com#cccev:datasetType>
+    sh:path <http://fixme.com#cccev:evidenceTypeClassification>
   ], [
     sh:definition ""@de;
     sh:maxCount 1;
     sh:name ""@de;
-    sh:path <http://fixme.com#cccev:evidenceTypeClassification>
+    sh:path <http://fixme.com#cccev:datasetType>
   ];
   sh:targetClass <http://fixme.com#EvidenceType> .
 
@@ -181,24 +181,28 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <http://fixme.com#EvidenceTypeList>;
+    sh:class <http://fixme.com#Requirement>;
     sh:name ""@de;
-    sh:path <http://fixme.com#cccev:hasEvidenceTypeCombinationList>
+    sh:path <http://fixme.com#cccev:isRequirementOf>
   ], [
     sh:class <http://fixme.com#Requirement>;
     sh:name ""@de;
     sh:path <http://fixme.com#cccev:hasRequirement>
   ], [
-    sh:name ""@de;
-    sh:path <http://fixme.com#cbc:name>
-  ], [
     sh:maxCount 1;
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:type>
   ], [
-    sh:class <http://fixme.com#ReferenceFramework>;
+    sh:class <http://fixme.com#Evidence>;
     sh:name ""@de;
-    sh:path <http://fixme.com#cccev:isDerivedFrom>
+    sh:path <http://fixme.com#cccev:hasSupportingEvidence>
+  ], [
+    sh:name ""@de;
+    sh:path <http://fixme.com#cbc:name>
+  ], [
+    sh:class <http://fixme.com#Concept>;
+    sh:name ""@de;
+    sh:path <http://fixme.com#cccev:hasConcept>
   ], [
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:description>
@@ -206,17 +210,13 @@
     sh:name ""@de;
     sh:path <http://fixme.com#cbc:id>
   ], [
-    sh:class <http://fixme.com#Requirement>;
+    sh:class <http://fixme.com#ReferenceFramework>;
     sh:name ""@de;
-    sh:path <http://fixme.com#cccev:isRequirementOf>
+    sh:path <http://fixme.com#cccev:isDerivedFrom>
   ], [
-    sh:class <http://fixme.com#Evidence>;
+    sh:class <http://fixme.com#EvidenceTypeList>;
     sh:name ""@de;
-    sh:path <http://fixme.com#cccev:hasSupportingEvidence>
-  ], [
-    sh:class <http://fixme.com#Concept>;
-    sh:name ""@de;
-    sh:path <http://fixme.com#cccev:hasConcept>
+    sh:path <http://fixme.com#cccev:hasEvidenceTypeCombinationList>
   ];
   sh:targetClass <http://fixme.com#Requirement> .
 
