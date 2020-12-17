@@ -514,16 +514,16 @@
           ],
           "range": [
             {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
+              "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "Requirement"
+                "en": "RequirementConcept"
               }
             }
           ],
@@ -544,16 +544,16 @@
           ],
           "range": [
             {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
+              "range_label": "Requirement",
+              "range_uri": "http://fixme.com#Requirement"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
+              "range_puri": "http://fixme.com#Requirement",
               "range_label": {
-                "en": "RequirementConcept"
+                "en": "Requirement"
               }
             }
           ],
