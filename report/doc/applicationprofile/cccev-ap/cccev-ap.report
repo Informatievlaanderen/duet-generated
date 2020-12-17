@@ -2,350 +2,350 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-16:38:40 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - load another package UseCases with id 61 and objectid 61
-16:38:40 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - This package will be ignored
-16:38:40 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - load another package ExternalVocabularies with id 179 and objectid 179
-16:38:40 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - This package will be ignored
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.DCAT-AP.dcat".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.foaf.foaf".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cav.cav".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.rov.rov".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.org.org".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.foaf".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.org".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.rov".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.Location.lcn".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.TOOP-EDM".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.TOOP-EDM.toop-ap".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.RPaM".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.RPaM.rpam.rpam".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.Location".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.DCAT-AP".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cav".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.cac".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.dct".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.dt".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.eurostat".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.rdf".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.ccts".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.ubl".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.udt".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.xsd".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.skos".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.RPaM.rpam".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV.CCCEV_v2".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.dct".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.ubl".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.euvoc".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.rdfs".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.EBSI-Notarisation".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.EBSI-Notarisation.Competency questions".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV.CCCEV_v1".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV.CCCEV_v3".
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): ExternalVocabularies.foaf.foaf, UseCases, CCCEV.CCCEV_v2, UseCases.EBSI-Notarisation, ExternalVocabularies.org.org, ExternalVocabularies.cv-common.euvoc, ExternalVocabularies.rov.rov, ExternalVocabularies.Location.lcn, ExternalVocabularies.dct, ExternalVocabularies.cav.cav, CCCEV, ExternalVocabularies.DCAT-AP, ExternalVocabularies.rov, ExternalVocabularies.rdfs, ExternalVocabularies.cv-common, ExternalVocabularies.cv-common.dct, CCCEV.CCCEV_v3, ExternalVocabularies, ExternalVocabularies.cv-common.ccts, CCCEV.CCCEV_v1, ExternalVocabularies.DCAT-AP.dcat, ExternalVocabularies.cv-common.rdf, ExternalVocabularies.RPaM.rpam, UseCases.EBSI-Notarisation.Competency questions, ExternalVocabularies.ubl, ExternalVocabularies.cv-common.eurostat, ExternalVocabularies.RPaM, ExternalVocabularies.cv-common.cac, ExternalVocabularies.cv-common.dt, ExternalVocabularies.cv-common.ubl, ExternalVocabularies.RPaM.rpam.rpam, UseCases.TOOP-EDM.toop-ap, ExternalVocabularies.foaf, ExternalVocabularies.org, ExternalVocabularies.cv-common.skos, ExternalVocabularies.cv-common.udt, ExternalVocabularies.cav, ExternalVocabularies.Location, UseCases.TOOP-EDM, ExternalVocabularies.cv-common.xsd
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Period): ExternalVocabularies.cv-common.ubl:Period, ExternalVocabularies.cv-common.cac:Period
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Measure): ExternalVocabularies.cv-common.dt:Measure, ExternalVocabularies.cv-common.udt:Measure, ExternalVocabularies.cv-common.ccts:Measure
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Identifier): ExternalVocabularies.cv-common.dt:Identifier, ExternalVocabularies.cv-common.ccts:Identifier, ExternalVocabularies.cv-common.dt:Identifier, ExternalVocabularies.cv-common.udt:Identifier
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PeriodOfTime): CCCEV.CCCEV_v1:PeriodOfTime, ExternalVocabularies.dct:PeriodOfTime
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Quantity): ExternalVocabularies.cv-common.dt:Quantity, ExternalVocabularies.cv-common.ccts:Quantity, ExternalVocabularies.cv-common.udt:Quantity
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Code): ExternalVocabularies.cv-common.ccts:Code, ExternalVocabularies.cv-common.udt:Code, ExternalVocabularies.cv-common.dt:Code
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DocumentReference): CCCEV.CCCEV_v2:DocumentReference, CCCEV.CCCEV_v1:DocumentReference, ExternalVocabularies.cv-common.ubl:DocumentReference
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Evidence): CCCEV.CCCEV_v2:Evidence, CCCEV.CCCEV_v1:Evidence
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Concept): CCCEV.CCCEV_v2:Concept, ExternalVocabularies.cv-common.skos:Concept
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Person): CCCEV.CCCEV_v1:Person, ExternalVocabularies.foaf.foaf:Person
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Description): ExternalVocabularies.cv-common.dt:Description, ExternalVocabularies.cv-common.dt:Description
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Organization): ExternalVocabularies.foaf.foaf:Organization, ExternalVocabularies.org.org:Organization
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Date): ExternalVocabularies.cv-common.udt:Date, ExternalVocabularies.cv-common.dt:Date
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Address): ExternalVocabularies.cv-common.cac:Address, ExternalVocabularies.Location.lcn:Address
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Percent): ExternalVocabularies.cv-common.udt:Percent, ExternalVocabularies.cv-common.dt:Percent
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Text): ExternalVocabularies.cv-common.udt:Text, ExternalVocabularies.cv-common.ccts:Text, ExternalVocabularies.cv-common.dt:Text
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Amount): ExternalVocabularies.cv-common.udt:Amount, ExternalVocabularies.cv-common.dt:Amount, ExternalVocabularies.cv-common.ccts:Amount, ExternalVocabularies.cv-common.dt:Amount
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Criterion): CCCEV.CCCEV_v1:Criterion, CCCEV.CCCEV_v2:Criterion
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Resource): ExternalVocabularies.DCAT-AP.dcat:Resource, ExternalVocabularies.rdfs:Resource
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Numeric): ExternalVocabularies.cv-common.dt:Numeric, ExternalVocabularies.cv-common.ccts:Numeric
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Indicator): ExternalVocabularies.cv-common.udt:Indicator, ExternalVocabularies.cv-common.ccts:Indicator, ExternalVocabularies.cv-common.dt:Indicator
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Time): ExternalVocabularies.cv-common.dt:Time, ExternalVocabularies.cv-common.udt:Time
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Agent): CCCEV.CCCEV_v1:Agent, ExternalVocabularies.foaf.foaf:Agent
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListAgencyName): ExternalVocabularies.cv-common.ccts:Quantity:unitCodeListAgencyName, ExternalVocabularies.cv-common.udt:Quantity:unitCodeListAgencyName
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ErrorIndicator): UseCases.TOOP-EDM.toop-ap:EvidenceResponse:ErrorIndicator, UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ErrorIndicator
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#identifier): CCCEV.CCCEV_v1:RequirementResponse:identifier, CCCEV.CCCEV_v1:CriterionRequirement:identifier, CCCEV.CCCEV_v1:Evidence:identifier, CCCEV.CCCEV_v1:DocumentReference:identifier, CCCEV.CCCEV_v1:RequirementGroup:identifier, CCCEV.CCCEV_v1:Criterion:identifier
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listID): ExternalVocabularies.cv-common.ccts:Code:listID, ExternalVocabularies.cv-common.udt:Code:listID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:type): CCCEV.CCCEV_v2:Requirement:cbc:type, CCCEV.CCCEV_v2:Concept:cbc:type
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#name): CCCEV.CCCEV_v1:Evidence:name, CCCEV.CCCEV_v1:RequirementResponse:name, CCCEV.CCCEV_v1:CriterionRequirement:name, ExternalVocabularies.cv-common.ccts:Code:name, CCCEV.CCCEV_v1:Criterion:name, ExternalVocabularies.cv-common.udt:Code:name
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#description): CCCEV.CCCEV_v1:RequirementResponse:description, CCCEV.CCCEV_v1:Criterion:description, ExternalVocabularies.cv-common.ubl:Period:description, CCCEV.CCCEV_v1:DocumentReference:description, CCCEV.CCCEV_v1:CriterionRequirement:description, CCCEV.CCCEV_v1:Evidence:description, CCCEV.CCCEV_v1:RequirementGroup:description
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCode): ExternalVocabularies.cv-common.ccts:Measure:unitCode, ExternalVocabularies.cv-common.udt:Quantity:unitCode, ExternalVocabularies.cv-common.udt:Measure:unitCode, ExternalVocabularies.cv-common.ccts:Quantity:unitCode
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#currencyCodeListVersionID): ExternalVocabularies.cv-common.ccts:Amount:currencyCodeListVersionID, ExternalVocabularies.cv-common.udt:Amount:currencyCodeListVersionID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListVersionID): ExternalVocabularies.cv-common.udt:Measure:unitCodeListVersionID, ExternalVocabularies.cv-common.ccts:Measure:unitCodeListVersionID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumerRequestPurpose): UseCases.TOOP-EDM.toop-ap:Request:DataConsumerRequestPurpose, UseCases.TOOP-EDM.toop-ap:Response:DataConsumerRequestPurpose
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listSchemeURI): ExternalVocabularies.cv-common.ccts:Code:listSchemeURI, ExternalVocabularies.cv-common.udt:Code:listSchemeURI
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeID): ExternalVocabularies.cv-common.ccts:Identifier:schemeID, ExternalVocabularies.cv-common.udt:Identifier:schemeID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ID): UseCases.TOOP-EDM.toop-ap:NaturalPerson:ID, UseCases.TOOP-EDM.toop-ap:DataProvider:ID, UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ID, UseCases.TOOP-EDM.toop-ap:DataElementRequest:ID, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:ID, UseCases.TOOP-EDM.toop-ap:LegalPerson:ID, ExternalVocabularies.cv-common.ubl:Postal Address:ID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#currencyID): ExternalVocabularies.cv-common.ccts:Amount:currencyID, ExternalVocabularies.cv-common.udt:Amount:currencyID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#amountValue): ExternalVocabularies.cv-common.ccts:Amount:amountValue, ExternalVocabularies.cv-common.udt:Amount:amountValue
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:name): CCCEV.CCCEV_v2:Concept:cbc:name, CCCEV.CCCEV_v2:Requirement:cbc:name, CCCEV.CCCEV_v2:EvidenceTypeList:cbc:name
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#IssueDate): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:IssueDate, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:IssueDate
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#language): CCCEV.CCCEV_v1:Evidence:language, ExternalVocabularies.cv-common.ccts:Text:language
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumerGlobalSession): UseCases.TOOP-EDM.toop-ap:Response:DataConsumerGlobalSession, UseCases.TOOP-EDM.toop-ap:Request:DataConsumerGlobalSession
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListAgencyID): ExternalVocabularies.cv-common.udt:Quantity:unitCodeListAgencyID, ExternalVocabularies.cv-common.ccts:Quantity:unitCodeListAgencyID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Specification): UseCases.TOOP-EDM.toop-ap:Response:Specification, UseCases.TOOP-EDM.toop-ap:Request:Specification
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listAgencyID): ExternalVocabularies.cv-common.ccts:Code:listAgencyID, ExternalVocabularies.cv-common.udt:Code:listAgencyID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeDataURI): ExternalVocabularies.cv-common.ccts:Identifier:schemeDataURI, ExternalVocabularies.cv-common.udt:Identifier:schemeDataURI
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Copy): UseCases.TOOP-EDM.toop-ap:Request:Copy, UseCases.TOOP-EDM.toop-ap:Response:Copy
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumerDocument): UseCases.TOOP-EDM.toop-ap:Response:DataConsumerDocument, UseCases.TOOP-EDM.toop-ap:Request:DataConsumerDocument
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:description): CCCEV.CCCEV_v2:Concept:cbc:description, CCCEV.CCCEV_v2:Requirement:cbc:description, CCCEV.CCCEV_v2:EvidenceTypeList:cbc:description, ExternalVocabularies.cv-common.cac:Period:cbc:description
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Name): UseCases.TOOP-EDM.toop-ap:DataProvider:Name, UseCases.TOOP-EDM.toop-ap:DataConsumer:Name, ExternalVocabularies.cv-common.ubl:Country:Name
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeVersionID): ExternalVocabularies.cv-common.ccts:Identifier:schemeVersionID, ExternalVocabularies.cv-common.udt:Identifier:schemeVersionID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:description): ExternalVocabularies.DCAT-AP.dcat:DataService:dct:description, ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:id): CCCEV.CCCEV_v2:Concept:cbc:id, CCCEV.CCCEV_v2:Requirement:cbc:id, CCCEV.CCCEV_v2:EvidenceTypeList:cbc:id, ExternalVocabularies.cv-common.cac:Address:cbc:id
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeAgencyID): ExternalVocabularies.cv-common.ccts:Identifier:schemeAgencyID, ExternalVocabularies.cv-common.udt:Identifier:schemeAgencyID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeName): ExternalVocabularies.cv-common.udt:Identifier:schemeName, ExternalVocabularies.cv-common.ccts:Identifier:schemeName
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeURI): ExternalVocabularies.cv-common.ccts:Identifier:schemeURI, ExternalVocabularies.cv-common.udt:Identifier:schemeURI
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listURI): ExternalVocabularies.cv-common.ccts:Code:listURI, ExternalVocabularies.cv-common.udt:Code:listURI
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ValidityPeriod): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ValidityPeriod, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:ValidityPeriod
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listAgencyName): ExternalVocabularies.cv-common.ccts:Code:listAgencyName, ExternalVocabularies.cv-common.udt:Code:listAgencyName
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#UUID): UseCases.TOOP-EDM.toop-ap:DataConsumer:UUID, UseCases.TOOP-EDM.toop-ap:LegalPerson:UUID, UseCases.TOOP-EDM.toop-ap:Response:UUID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Remarks): UseCases.TOOP-EDM.toop-ap:EvidenceResponse:Remarks, UseCases.TOOP-EDM.toop-ap:EvidenceRequest:Remarks
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listName): ExternalVocabularies.cv-common.udt:Code:listName, ExternalVocabularies.cv-common.ccts:Code:listName
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#IssuePlace): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:IssuePlace, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:IssuePlace
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:issued): ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued, ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#identifierValue): ExternalVocabularies.cv-common.udt:Identifier:identifierValue, ExternalVocabularies.cv-common.ccts:Identifier:identifierValue
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#measureValue): ExternalVocabularies.cv-common.ccts:Measure:measureValue, ExternalVocabularies.cv-common.udt:Measure:measureValue
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listVersionID): ExternalVocabularies.cv-common.ccts:Code:listVersionID, ExternalVocabularies.cv-common.udt:Code:listVersionID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ErrorCode): UseCases.TOOP-EDM.toop-ap:Error:ErrorCode, UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ErrorCode
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeAgencyName): ExternalVocabularies.cv-common.udt:Identifier:schemeAgencyName, ExternalVocabularies.cv-common.ccts:Identifier:schemeAgencyName
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#languageID): ExternalVocabularies.cv-common.ccts:Code:languageID, ExternalVocabularies.cv-common.udt:Code:languageID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumer): UseCases.TOOP-EDM.toop-ap:Response:DataConsumer, UseCases.TOOP-EDM.toop-ap:Request:DataConsumer
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataRequest): UseCases.TOOP-EDM.toop-ap:Response:DataRequest, UseCases.TOOP-EDM.toop-ap:Request:DataRequest
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:title): ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title, ExternalVocabularies.DCAT-AP.dcat:DataService:dct:title
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#quantityValue): ExternalVocabularies.cv-common.udt:Quantity:quantityValue, ExternalVocabularies.cv-common.ccts:Quantity:quantityValue
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListID): ExternalVocabularies.cv-common.ccts:Quantity:unitCodeListID, ExternalVocabularies.cv-common.udt:Quantity:unitCodeListID
-16:38:40 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:identifier): ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier, ExternalVocabularies.DCAT-AP.dcat:DataService:dct:identifier
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "CCCEV.CCCEV_v3".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "CCCEV.CCCEV_v3".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "CCCEV.CCCEV_v3".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "CCCEV.CCCEV_v3".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EvidenceTypeList" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Constraint" .
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Criterion" .
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InformationRequirement" .
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EvidenceType" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Concept" .
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "evidence-types" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:evidence-types".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:evidence-types".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:evidence-types".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class evidence-types without label in dutch, further processing this class will be incoherent
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "dataset-type" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:dataset-type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:dataset-type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:dataset-type".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class dataset-type without label in dutch, further processing this class will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "CCCEV.CCCEV_v2:custom-data-type".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "custom-data-type" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:custom-data-type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:custom-data-type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:custom-data-type".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class custom-data-type without label in dutch, further processing this class will be incoherent
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ReferenceFramework" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Evidence" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Requirement" .
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Dataset" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Distribution" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.foaf.foaf:Agent".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.foaf.foaf:Agent".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.foaf.foaf:Agent".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Agent without label in dutch, further processing this class will be incoherent
-16:38:40 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Standard" .
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.dct:Standard".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.dct:Standard".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.dct:Standard".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Standard without label in dutch, further processing this class will be incoherent
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Constraint:(Constraint -> InformationRequirement)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Constraint:(Constraint -> InformationRequirement)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Constraint)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Constraint)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Concept:(Concept -> Constraint)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Concept:(Concept -> Constraint)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Concept:cccev:hasConstraint" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn".
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType".
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> evidence-types)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> evidence-types)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:cccev:evidenceTypology" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 ERROR c.g.i.o.c.Converter - Unsupported connector type for "CCCEV.CCCEV_v2:EvidenceType:cccev:evidenceTypology" - skipping.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> Concept)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> Concept)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:cccev:supports" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property cccev:supports without name in dutch, further processing this property will be incoherent
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> EvidenceTypeList)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> EvidenceTypeList)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList".
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> EvidenceType)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> EvidenceType)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property cccev:isConformantTo without name in dutch, further processing this property will be incoherent
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:cccev:supports" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property cccev:supports without name in dutch, further processing this property will be incoherent
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence".
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> dataset-type)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> dataset-type)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:cccev:datasetType" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 ERROR c.g.i.o.c.Converter - Unsupported connector type for "CCCEV.CCCEV_v2:EvidenceType:cccev:datasetType" - skipping.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:(Dataset -> Distribution)" belongs to package "dcat" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:(Dataset -> Distribution)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution" belongs to package "dcat" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dcat:distribution without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> Agent)" since it lacks a defining package.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "CCCEV.CCCEV_v2:Evidence:cccev:isAbout" since it lacks a defining package.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf".
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement".
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> ReferenceFramework)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> ReferenceFramework)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom".
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Distribution:(Distribution -> Standard)" since it lacks a defining package.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Distribution:conformsTo" since it lacks a defining package.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Criterion)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Criterion)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Criterion:(Criterion -> InformationRequirement)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Criterion:(Criterion -> InformationRequirement)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> Concept)" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> Concept)" does not have a name, it will be ignored.
-16:38:40 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept" belongs to package "CCCEV_v2" based on source and target definition.
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept".
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:(Dataset -> Standard)" since it lacks a defining package.
-16:38:40 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:conformsTo" since it lacks a defining package.
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceTypeList:cbc:id".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceTypeList:cbc:name".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceTypeList:cbc:description".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:weight".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:weightingConsiderationDescription".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:weightingType".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:bias".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceType:cccev:evidenceTypeClassification".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceType:cccev:datasetType".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:id".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:type".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:name".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:description".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Evidence:cccev:confidentialityLevelType".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:id".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:id".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:id".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:id".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:name".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:name".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:name".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:name".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:type".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:description".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:description".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:description".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:description".
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:type without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:title without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:description without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:issued without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:modified without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:identifier without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dcat:downloadURL without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued".
-16:38:40 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued".
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:issued without name in dutch, further processing this property will be incoherent
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: self-declaration - {B87F4417-6ACC-4d9a-A54A-17DC98C70E47}
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: declaration-of-oath - {90FD8314-F522-406d-8D57-3E584048808A}
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: tax-certificate - {CDA17F1F-87AC-4e93-8DE9-2F2DFD820133}
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: trusted-identification-akwnoledgment - {2BD175F7-A323-45a1-B674-71E1C27938B1}
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: etc. - {F2C8963C-4D4E-4a3a-B6CD-25417567326E}
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: document - {F67B3B86-7CDF-4615-B412-B9663452A030}
-16:38:40 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: structured-data - {8FC8C8EA-9C1F-4d70-930A-6484E9101AA5}
+16:43:58 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - load another package UseCases with id 61 and objectid 61
+16:43:58 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - This package will be ignored
+16:43:58 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - load another package ExternalVocabularies with id 179 and objectid 179
+16:43:58 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - This package will be ignored
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.DCAT-AP.dcat".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.foaf.foaf".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cav.cav".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.rov.rov".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.org.org".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.foaf".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.org".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.rov".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.Location.lcn".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.TOOP-EDM".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.TOOP-EDM.toop-ap".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.RPaM".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.RPaM.rpam.rpam".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.Location".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.DCAT-AP".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cav".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.cac".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.dct".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.dt".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.eurostat".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.rdf".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.ccts".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.ubl".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.udt".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.xsd".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.skos".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.RPaM.rpam".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV.CCCEV_v2".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.dct".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.ubl".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.cv-common.euvoc".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies.rdfs".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.EBSI-Notarisation".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "UseCases.EBSI-Notarisation.Competency questions".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV.CCCEV_v1".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "ExternalVocabularies".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "CCCEV.CCCEV_v3".
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): ExternalVocabularies.cv-common.xsd, UseCases, CCCEV.CCCEV_v1, ExternalVocabularies.rov.rov, ExternalVocabularies.cv-common.rdf, CCCEV.CCCEV_v3, ExternalVocabularies.ubl, ExternalVocabularies.cv-common.udt, ExternalVocabularies.DCAT-AP, UseCases.EBSI-Notarisation, ExternalVocabularies.cv-common, ExternalVocabularies.cv-common.dt, UseCases.EBSI-Notarisation.Competency questions, ExternalVocabularies.org.org, ExternalVocabularies.foaf, ExternalVocabularies.rdfs, ExternalVocabularies.cv-common.cac, ExternalVocabularies.rov, ExternalVocabularies.foaf.foaf, ExternalVocabularies.DCAT-AP.dcat, ExternalVocabularies.RPaM, ExternalVocabularies.cav.cav, ExternalVocabularies.cv-common.ubl, UseCases.TOOP-EDM.toop-ap, ExternalVocabularies.cv-common.skos, ExternalVocabularies.cv-common.ccts, ExternalVocabularies.cav, UseCases.TOOP-EDM, ExternalVocabularies.Location, ExternalVocabularies.cv-common.euvoc, ExternalVocabularies.dct, ExternalVocabularies.cv-common.dct, CCCEV, CCCEV.CCCEV_v2, ExternalVocabularies, ExternalVocabularies.RPaM.rpam, ExternalVocabularies.org, ExternalVocabularies.cv-common.eurostat, ExternalVocabularies.Location.lcn, ExternalVocabularies.RPaM.rpam.rpam
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Amount): ExternalVocabularies.cv-common.dt:Amount, ExternalVocabularies.cv-common.dt:Amount, ExternalVocabularies.cv-common.udt:Amount, ExternalVocabularies.cv-common.ccts:Amount
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Period): ExternalVocabularies.cv-common.cac:Period, ExternalVocabularies.cv-common.ubl:Period
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Code): ExternalVocabularies.cv-common.udt:Code, ExternalVocabularies.cv-common.ccts:Code, ExternalVocabularies.cv-common.dt:Code
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Resource): ExternalVocabularies.DCAT-AP.dcat:Resource, ExternalVocabularies.rdfs:Resource
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Percent): ExternalVocabularies.cv-common.udt:Percent, ExternalVocabularies.cv-common.dt:Percent
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Date): ExternalVocabularies.cv-common.udt:Date, ExternalVocabularies.cv-common.dt:Date
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Criterion): CCCEV.CCCEV_v2:Criterion, CCCEV.CCCEV_v1:Criterion
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Identifier): ExternalVocabularies.cv-common.dt:Identifier, ExternalVocabularies.cv-common.ccts:Identifier, ExternalVocabularies.cv-common.udt:Identifier, ExternalVocabularies.cv-common.dt:Identifier
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Person): CCCEV.CCCEV_v1:Person, ExternalVocabularies.foaf.foaf:Person
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Address): ExternalVocabularies.cv-common.cac:Address, ExternalVocabularies.Location.lcn:Address
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DocumentReference): CCCEV.CCCEV_v1:DocumentReference, CCCEV.CCCEV_v2:DocumentReference, ExternalVocabularies.cv-common.ubl:DocumentReference
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PeriodOfTime): ExternalVocabularies.dct:PeriodOfTime, CCCEV.CCCEV_v1:PeriodOfTime
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Evidence): CCCEV.CCCEV_v2:Evidence, CCCEV.CCCEV_v1:Evidence
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Organization): ExternalVocabularies.foaf.foaf:Organization, ExternalVocabularies.org.org:Organization
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Time): ExternalVocabularies.cv-common.udt:Time, ExternalVocabularies.cv-common.dt:Time
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Agent): CCCEV.CCCEV_v1:Agent, ExternalVocabularies.foaf.foaf:Agent
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Measure): ExternalVocabularies.cv-common.ccts:Measure, ExternalVocabularies.cv-common.udt:Measure, ExternalVocabularies.cv-common.dt:Measure
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Indicator): ExternalVocabularies.cv-common.udt:Indicator, ExternalVocabularies.cv-common.dt:Indicator, ExternalVocabularies.cv-common.ccts:Indicator
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Concept): ExternalVocabularies.cv-common.skos:Concept, CCCEV.CCCEV_v2:Concept
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Quantity): ExternalVocabularies.cv-common.ccts:Quantity, ExternalVocabularies.cv-common.udt:Quantity, ExternalVocabularies.cv-common.dt:Quantity
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Text): ExternalVocabularies.cv-common.dt:Text, ExternalVocabularies.cv-common.ccts:Text, ExternalVocabularies.cv-common.udt:Text
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Description): ExternalVocabularies.cv-common.dt:Description, ExternalVocabularies.cv-common.dt:Description
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Numeric): ExternalVocabularies.cv-common.ccts:Numeric, ExternalVocabularies.cv-common.dt:Numeric
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Name): UseCases.TOOP-EDM.toop-ap:DataConsumer:Name, ExternalVocabularies.cv-common.ubl:Country:Name, UseCases.TOOP-EDM.toop-ap:DataProvider:Name
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#currencyCodeListVersionID): ExternalVocabularies.cv-common.udt:Amount:currencyCodeListVersionID, ExternalVocabularies.cv-common.ccts:Amount:currencyCodeListVersionID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeName): ExternalVocabularies.cv-common.ccts:Identifier:schemeName, ExternalVocabularies.cv-common.udt:Identifier:schemeName
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ErrorIndicator): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ErrorIndicator, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:ErrorIndicator
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCode): ExternalVocabularies.cv-common.ccts:Measure:unitCode, ExternalVocabularies.cv-common.ccts:Quantity:unitCode, ExternalVocabularies.cv-common.udt:Quantity:unitCode, ExternalVocabularies.cv-common.udt:Measure:unitCode
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeURI): ExternalVocabularies.cv-common.udt:Identifier:schemeURI, ExternalVocabularies.cv-common.ccts:Identifier:schemeURI
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ValidityPeriod): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ValidityPeriod, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:ValidityPeriod
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#description): CCCEV.CCCEV_v1:DocumentReference:description, CCCEV.CCCEV_v1:RequirementGroup:description, CCCEV.CCCEV_v1:CriterionRequirement:description, CCCEV.CCCEV_v1:Criterion:description, CCCEV.CCCEV_v1:RequirementResponse:description, CCCEV.CCCEV_v1:Evidence:description, ExternalVocabularies.cv-common.ubl:Period:description
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:description): ExternalVocabularies.DCAT-AP.dcat:DataService:dct:description, ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#name): ExternalVocabularies.cv-common.udt:Code:name, CCCEV.CCCEV_v1:Criterion:name, CCCEV.CCCEV_v1:Evidence:name, CCCEV.CCCEV_v1:RequirementResponse:name, ExternalVocabularies.cv-common.ccts:Code:name, CCCEV.CCCEV_v1:CriterionRequirement:name
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeVersionID): ExternalVocabularies.cv-common.ccts:Identifier:schemeVersionID, ExternalVocabularies.cv-common.udt:Identifier:schemeVersionID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#quantityValue): ExternalVocabularies.cv-common.udt:Quantity:quantityValue, ExternalVocabularies.cv-common.ccts:Quantity:quantityValue
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListID): ExternalVocabularies.cv-common.udt:Quantity:unitCodeListID, ExternalVocabularies.cv-common.ccts:Quantity:unitCodeListID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:description): ExternalVocabularies.cv-common.cac:Period:cbc:description, CCCEV.CCCEV_v2:Requirement:cbc:description, CCCEV.CCCEV_v2:Concept:cbc:description, CCCEV.CCCEV_v2:EvidenceTypeList:cbc:description
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumer): UseCases.TOOP-EDM.toop-ap:Request:DataConsumer, UseCases.TOOP-EDM.toop-ap:Response:DataConsumer
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#identifier): CCCEV.CCCEV_v1:DocumentReference:identifier, CCCEV.CCCEV_v1:CriterionRequirement:identifier, CCCEV.CCCEV_v1:Evidence:identifier, CCCEV.CCCEV_v1:Criterion:identifier, CCCEV.CCCEV_v1:RequirementGroup:identifier, CCCEV.CCCEV_v1:RequirementResponse:identifier
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#measureValue): ExternalVocabularies.cv-common.ccts:Measure:measureValue, ExternalVocabularies.cv-common.udt:Measure:measureValue
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:name): CCCEV.CCCEV_v2:Requirement:cbc:name, CCCEV.CCCEV_v2:EvidenceTypeList:cbc:name, CCCEV.CCCEV_v2:Concept:cbc:name
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listAgencyName): ExternalVocabularies.cv-common.ccts:Code:listAgencyName, ExternalVocabularies.cv-common.udt:Code:listAgencyName
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ErrorCode): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ErrorCode, UseCases.TOOP-EDM.toop-ap:Error:ErrorCode
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeAgencyName): ExternalVocabularies.cv-common.ccts:Identifier:schemeAgencyName, ExternalVocabularies.cv-common.udt:Identifier:schemeAgencyName
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListAgencyID): ExternalVocabularies.cv-common.ccts:Quantity:unitCodeListAgencyID, ExternalVocabularies.cv-common.udt:Quantity:unitCodeListAgencyID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:issued): ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued, ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Specification): UseCases.TOOP-EDM.toop-ap:Request:Specification, UseCases.TOOP-EDM.toop-ap:Response:Specification
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listID): ExternalVocabularies.cv-common.ccts:Code:listID, ExternalVocabularies.cv-common.udt:Code:listID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListAgencyName): ExternalVocabularies.cv-common.ccts:Quantity:unitCodeListAgencyName, ExternalVocabularies.cv-common.udt:Quantity:unitCodeListAgencyName
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumerRequestPurpose): UseCases.TOOP-EDM.toop-ap:Request:DataConsumerRequestPurpose, UseCases.TOOP-EDM.toop-ap:Response:DataConsumerRequestPurpose
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listName): ExternalVocabularies.cv-common.ccts:Code:listName, ExternalVocabularies.cv-common.udt:Code:listName
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#language): CCCEV.CCCEV_v1:Evidence:language, ExternalVocabularies.cv-common.ccts:Text:language
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#ID): UseCases.TOOP-EDM.toop-ap:DataElementRequest:ID, UseCases.TOOP-EDM.toop-ap:EvidenceRequest:ID, UseCases.TOOP-EDM.toop-ap:NaturalPerson:ID, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:ID, UseCases.TOOP-EDM.toop-ap:DataProvider:ID, UseCases.TOOP-EDM.toop-ap:LegalPerson:ID, ExternalVocabularies.cv-common.ubl:Postal Address:ID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:id): ExternalVocabularies.cv-common.cac:Address:cbc:id, CCCEV.CCCEV_v2:Requirement:cbc:id, CCCEV.CCCEV_v2:Concept:cbc:id, CCCEV.CCCEV_v2:EvidenceTypeList:cbc:id
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#identifierValue): ExternalVocabularies.cv-common.udt:Identifier:identifierValue, ExternalVocabularies.cv-common.ccts:Identifier:identifierValue
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:title): ExternalVocabularies.DCAT-AP.dcat:DataService:dct:title, ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listURI): ExternalVocabularies.cv-common.udt:Code:listURI, ExternalVocabularies.cv-common.ccts:Code:listURI
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitCodeListVersionID): ExternalVocabularies.cv-common.ccts:Measure:unitCodeListVersionID, ExternalVocabularies.cv-common.udt:Measure:unitCodeListVersionID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#IssuePlace): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:IssuePlace, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:IssuePlace
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#amountValue): ExternalVocabularies.cv-common.udt:Amount:amountValue, ExternalVocabularies.cv-common.ccts:Amount:amountValue
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listAgencyID): ExternalVocabularies.cv-common.ccts:Code:listAgencyID, ExternalVocabularies.cv-common.udt:Code:listAgencyID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dct:identifier): ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier, ExternalVocabularies.DCAT-AP.dcat:DataService:dct:identifier
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#languageID): ExternalVocabularies.cv-common.udt:Code:languageID, ExternalVocabularies.cv-common.ccts:Code:languageID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataRequest): UseCases.TOOP-EDM.toop-ap:Request:DataRequest, UseCases.TOOP-EDM.toop-ap:Response:DataRequest
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumerDocument): UseCases.TOOP-EDM.toop-ap:Request:DataConsumerDocument, UseCases.TOOP-EDM.toop-ap:Response:DataConsumerDocument
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeAgencyID): ExternalVocabularies.cv-common.ccts:Identifier:schemeAgencyID, ExternalVocabularies.cv-common.udt:Identifier:schemeAgencyID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#cbc:type): CCCEV.CCCEV_v2:Requirement:cbc:type, CCCEV.CCCEV_v2:Concept:cbc:type
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#IssueDate): UseCases.TOOP-EDM.toop-ap:EvidenceRequest:IssueDate, UseCases.TOOP-EDM.toop-ap:EvidenceResponse:IssueDate
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listSchemeURI): ExternalVocabularies.cv-common.udt:Code:listSchemeURI, ExternalVocabularies.cv-common.ccts:Code:listSchemeURI
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#UUID): UseCases.TOOP-EDM.toop-ap:Response:UUID, UseCases.TOOP-EDM.toop-ap:LegalPerson:UUID, UseCases.TOOP-EDM.toop-ap:DataConsumer:UUID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeID): ExternalVocabularies.cv-common.udt:Identifier:schemeID, ExternalVocabularies.cv-common.ccts:Identifier:schemeID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Remarks): UseCases.TOOP-EDM.toop-ap:EvidenceResponse:Remarks, UseCases.TOOP-EDM.toop-ap:EvidenceRequest:Remarks
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#schemeDataURI): ExternalVocabularies.cv-common.ccts:Identifier:schemeDataURI, ExternalVocabularies.cv-common.udt:Identifier:schemeDataURI
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#listVersionID): ExternalVocabularies.cv-common.ccts:Code:listVersionID, ExternalVocabularies.cv-common.udt:Code:listVersionID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#currencyID): ExternalVocabularies.cv-common.ccts:Amount:currencyID, ExternalVocabularies.cv-common.udt:Amount:currencyID
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#DataConsumerGlobalSession): UseCases.TOOP-EDM.toop-ap:Response:DataConsumerGlobalSession, UseCases.TOOP-EDM.toop-ap:Request:DataConsumerGlobalSession
+16:43:58 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#Copy): UseCases.TOOP-EDM.toop-ap:Request:Copy, UseCases.TOOP-EDM.toop-ap:Response:Copy
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "CCCEV.CCCEV_v3".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "CCCEV.CCCEV_v3".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "CCCEV.CCCEV_v3".
+16:43:58 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "CCCEV.CCCEV_v3".
+16:43:58 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EvidenceTypeList" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Constraint" .
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Criterion" .
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InformationRequirement" .
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EvidenceType" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Concept" .
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "evidence-types" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:evidence-types".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:evidence-types".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:evidence-types".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class evidence-types without label in dutch, further processing this class will be incoherent
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "dataset-type" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:dataset-type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:dataset-type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:dataset-type".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class dataset-type without label in dutch, further processing this class will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "CCCEV.CCCEV_v2:custom-data-type".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "custom-data-type" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:custom-data-type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:custom-data-type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:custom-data-type".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class custom-data-type without label in dutch, further processing this class will be incoherent
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ReferenceFramework" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Evidence" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Requirement" .
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Dataset" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Distribution" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.foaf.foaf:Agent".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.foaf.foaf:Agent".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.foaf.foaf:Agent".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Agent without label in dutch, further processing this class will be incoherent
+16:43:59 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Standard" .
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.dct:Standard".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.dct:Standard".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.dct:Standard".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Standard without label in dutch, further processing this class will be incoherent
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> Agent)" since it lacks a defining package.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "CCCEV.CCCEV_v2:Evidence:cccev:isAbout" since it lacks a defining package.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Criterion)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Criterion)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Criterion:(Criterion -> InformationRequirement)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Criterion:(Criterion -> InformationRequirement)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> EvidenceType)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> EvidenceType)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:isConformantTo".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property cccev:isConformantTo without name in dutch, further processing this property will be incoherent
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> Concept)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> Concept)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasConcept".
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:(Dataset -> Standard)" since it lacks a defining package.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:conformsTo" since it lacks a defining package.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> ReferenceFramework)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> ReferenceFramework)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:ReferenceFramework".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isDerivedFrom".
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Constraint:(Constraint -> InformationRequirement)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Constraint:(Constraint -> InformationRequirement)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Constraint)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:InformationRequirement:(InformationRequirement -> Constraint)" does not have a name, it will be ignored.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Distribution:(Distribution -> Standard)" since it lacks a defining package.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "ExternalVocabularies.DCAT-AP.dcat:Distribution:conformsTo" since it lacks a defining package.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> dataset-type)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> dataset-type)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:cccev:datasetType" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 ERROR c.g.i.o.c.Converter - Unsupported connector type for "CCCEV.CCCEV_v2:EvidenceType:cccev:datasetType" - skipping.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> EvidenceTypeList)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Requirement:(Requirement -> EvidenceTypeList)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasEvidenceTypeCombinationList".
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:(Dataset -> Distribution)" belongs to package "dcat" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:(Dataset -> Distribution)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution" belongs to package "dcat" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dcat:distribution".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dcat:distribution without name in dutch, further processing this property will be incoherent
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> Concept)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Evidence:(Evidence -> Concept)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:cccev:supports" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property cccev:supports without name in dutch, further processing this property will be incoherent
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> evidence-types)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:EvidenceType:(EvidenceType -> evidence-types)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:cccev:evidenceTypology" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 ERROR c.g.i.o.c.Converter - Unsupported connector type for "CCCEV.CCCEV_v2:EvidenceType:cccev:evidenceTypology" - skipping.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Concept:(Concept -> Constraint)" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.UriAssigner - Connector "CCCEV.CCCEV_v2:Concept:(Concept -> Constraint)" does not have a name, it will be ignored.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Concept:cccev:hasConstraint" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Evidence:cccev:supports" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Evidence:cccev:supports".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property cccev:supports without name in dutch, further processing this property will be incoherent
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasSupportingEvidence".
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:isRequirementOf".
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cccev:hasRequirement".
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceType:cccev:isSpecifiedIn".
+16:43:59 INFO  c.g.i.o.c.UriAssigner - Assuming connector "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType" belongs to package "CCCEV_v2" based on source and target definition.
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:EvidenceTypeList:cccev:specifiesEvidenceType".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceTypeList:cbc:id".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceTypeList:cbc:name".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceTypeList:cbc:description".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:weight".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:weightingConsiderationDescription".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:weightingType".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Criterion:cccev:bias".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceType:cccev:evidenceTypeClassification".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:EvidenceType:cccev:datasetType".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:id".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:type".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:name".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Concept:cbc:description".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Evidence:cccev:confidentialityLevelType".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:id".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:id".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:id".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:id".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:name".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:name".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:name".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:name".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:type".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "CCCEV.CCCEV_v2:Requirement:cbc:description".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:description".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:description".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "CCCEV.CCCEV_v2:Requirement:cbc:description".
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:type".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:type without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:title".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:title without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:description".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:description without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:issued".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:issued without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:modified".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:modified without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Dataset:dct:identifier".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:identifier without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.Converter - Missing data type for attribute "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dcat:downloadURL".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dcat:downloadURL without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued".
+16:43:59 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "ExternalVocabularies.DCAT-AP.dcat:Distribution:dct:issued".
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property dct:issued without name in dutch, further processing this property will be incoherent
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: self-declaration - {B87F4417-6ACC-4d9a-A54A-17DC98C70E47}
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: declaration-of-oath - {90FD8314-F522-406d-8D57-3E584048808A}
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: tax-certificate - {CDA17F1F-87AC-4e93-8DE9-2F2DFD820133}
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: trusted-identification-akwnoledgment - {2BD175F7-A323-45a1-B674-71E1C27938B1}
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: etc. - {F2C8963C-4D4E-4a3a-B6CD-25417567326E}
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: document - {F67B3B86-7CDF-4615-B412-B9663452A030}
+16:43:59 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: structured-data - {8FC8C8EA-9C1F-4d70-930A-6484E9101AA5}
