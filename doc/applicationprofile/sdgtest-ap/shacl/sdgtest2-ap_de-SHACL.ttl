@@ -4,31 +4,24 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#RecordOfResultsEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#GradeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#LocationShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#OrganisationShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationDiplomaEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#PersonShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#CourseResultShape>,
+<https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#LocationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#RecordOfResultsEvidenceShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#EducationInstitutionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#AddressShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#CourseResultShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#GradeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#PersonShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#StudentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationEvidenceShape> .
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#OrganisationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#AddressShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationDiplomaEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#StudentShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#AddressShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euadminUnitL2>
-  ], [
     sh:class <https://sdg.semic.euLocation>;
     sh:path <https://sdg.semic.euAddress.address>
-  ], [
-    sh:class <https://sdg.semic.euPerson>;
-    sh:path <https://sdg.semic.euAddress.registeredAddress>
   ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -42,6 +35,13 @@
     sh:minCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euadminUnitL1>
+  ], [
+    sh:class <https://sdg.semic.euPerson>;
+    sh:path <https://sdg.semic.euAddress.registeredAddress>
+  ], [
+    sh:maxCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euadminUnitL2>
   ];
   sh:targetClass <https://sdg.semic.euAddress> .
 
@@ -53,12 +53,11 @@
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eucourseFieldOfStudy>
   ], [
-    sh:class <https://sdg.semic.euGrade>;
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
     sh:minCount 1;
     sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eucourseGrade>
+    sh:path <https://sdg.semic.eucourseCreditsAmount>
   ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -71,23 +70,24 @@
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eucourseAcademicYear>
   ], [
-    sh:class skos:Concept;
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eucourseLanguage>
-  ], [
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eucourseCreditsAmount>
-  ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
     sh:minCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eucourseName>
+  ], [
+    sh:class <https://sdg.semic.euGrade>;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eucourseGrade>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eucourseLanguage>
   ];
   sh:targetClass <https://sdg.semic.euCourseResult> .
 
@@ -102,16 +102,18 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#GradeShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class skos:Concept;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eustatus>
+  ], [
     sh:datatype rdfs:Literal;
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euvalue>
-  ], [
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eudistribution>
   ], [
     sh:datatype xsd:anyURI;
     sh:definition "Enter your translation here"@de;
@@ -119,25 +121,23 @@
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eugradingScheme>
   ], [
-    sh:class skos:Concept;
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
-    sh:minCount 1;
     sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eustatus>
+    sh:path <https://sdg.semic.eudistribution>
   ];
   sh:targetClass <https://sdg.semic.euGrade> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#LocationShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:class <https://sdg.semic.euAddress>;
+    sh:path <https://sdg.semic.euLocation.address>
+  ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eugeographicName>
-  ], [
-    sh:class <https://sdg.semic.euAddress>;
-    sh:path <https://sdg.semic.euLocation.address>
   ], [
     sh:datatype xsd:anyURI;
     sh:definition "Enter your translation here"@de;
@@ -158,27 +158,34 @@
     sh:definition "Enter your translation here"@de;
     sh:minCount 1;
     sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euprefLabel>
+  ], [
+    sh:definition "Enter your translation here"@de;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euidentifier>
+  ], [
+    sh:definition "Enter your translation here"@de;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euidentifier>
   ], [
     sh:class <https://sdg.semic.euLocation>;
     sh:maxCount 1;
     sh:path <https://sdg.semic.euregisteredLocation>
-  ], [
-    sh:definition "Enter your translation here"@de;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euidentifier>
-  ], [
-    sh:definition "Enter your translation here"@de;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euprefLabel>
   ];
   sh:targetClass <https://sdg.semic.euOrganisation> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#PersonShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:datatype xsd:date;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eudateOfBirth>
+  ], [
     sh:class skos:Concept;
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -188,9 +195,11 @@
     sh:class <https://sdg.semic.euAddress>;
     sh:path <https://sdg.semic.euPerson.registeredAddress>
   ], [
-    sh:class <https://sdg.semic.euLocation>;
+    sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
-    sh:path <https://sdg.semic.euplaceOfBirth>
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eufamilyName>
   ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -198,41 +207,23 @@
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eugivenName>
   ], [
-    sh:definition "Enter your translation here"@de;
+    sh:class <https://sdg.semic.euLocation>;
     sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eufamilyName>
-  ], [
-    sh:datatype xsd:date;
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eudateOfBirth>
+    sh:path <https://sdg.semic.euplaceOfBirth>
   ];
   sh:targetClass <https://sdg.semic.euPerson> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#RecordOfResultsEvidenceShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euacademicYear>
-  ], [
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eutotalCredits>
-  ], [
     sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
     sh:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
   ], [
-    sh:class <https://sdg.semic.euCourseResult>;
-    sh:path <https://sdg.semic.eucontains>
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euacademicYear>
   ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -245,6 +236,15 @@
     sh:minCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euacademicYear>
+  ], [
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eutotalCredits>
+  ], [
+    sh:class <https://sdg.semic.euCourseResult>;
+    sh:path <https://sdg.semic.eucontains>
   ];
   sh:targetClass <https://sdg.semic.euRecordOfResultsEvidence> .
 
@@ -260,6 +260,18 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationDiplomaEvidenceShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euthesisTitle>
+  ], [
+    sh:definition "Enter your translation here"@de;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euaccessToRegulatedProfession>
+  ], [
+    sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    sh:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
+  ], [
     sh:class <https://sdg.semic.euGrade>;
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -272,17 +284,6 @@
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euaccessToFurtherStudy>
   ], [
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euthesisTitle>
-  ], [
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euacademicProgramme>
-  ], [
     sh:class skos:Concept;
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
@@ -290,52 +291,16 @@
     sh:path <https://sdg.semic.eulevelOfDistinction>
   ], [
     sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:minCount 1;
     sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euaccessToRegulatedProfession>
-  ], [
-    sh:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    sh:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
+    sh:path <https://sdg.semic.euacademicProgramme>
   ];
   sh:targetClass <https://sdg.semic.euTertiaryEducationDiplomaEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class skos:Concept;
-    sh:definition "Enter your translation here"@de;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euaccessRequirement>
-  ], [
-    sh:class skos:Concept;
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euqualificationLevel>
-  ], [
-    sh:class <https://sdg.semic.euRecordOfResultsEvidence>;
-    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults>
-  ], [
-    sh:class skos:Concept;
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eumodeOfStudy>
-  ], [
-    sh:class skos:Concept;
-    sh:definition "Enter your translation here"@de;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eulanguageOfInstruction>
-  ], [
-    sh:class skos:Concept;
-    sh:maxCount 1;
-    sh:path <https://sdg.semic.euacademicProgrammeLanguage>
-  ], [
-    sh:class <https://sdg.semic.euGrade>;
-    sh:definition "Enter your translation here"@de;
-    sh:maxCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eugradePointAverage>
-  ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
     sh:name "Enter your translation here"@de;
@@ -344,37 +309,67 @@
     sh:class skos:Concept;
     sh:definition "Enter your translation here"@de;
     sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.eumainFieldOfStudy>
+    sh:path <https://sdg.semic.euaccessRequirement>
   ], [
-    sh:class <https://sdg.semic.euTertiaryEducationDiplomaEvidence>;
-    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement>
+    sh:class skos:Concept;
+    sh:maxCount 1;
+    sh:path <https://sdg.semic.euacademicProgrammeLanguage>
   ], [
     sh:definition "Enter your translation here"@de;
     sh:maxCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euprogrammeLearningOutcomes>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eumodeOfStudy>
+  ], [
+    sh:class <https://sdg.semic.euRecordOfResultsEvidence>;
+    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euqualificationLevel>
+  ], [
+    sh:class <https://sdg.semic.euGrade>;
+    sh:definition "Enter your translation here"@de;
+    sh:maxCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eugradePointAverage>
+  ], [
+    sh:class <https://sdg.semic.euTertiaryEducationDiplomaEvidence>;
+    sh:path <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "Enter your translation here"@de;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eumainFieldOfStudy>
+  ], [
+    sh:class skos:Concept;
+    sh:definition "Enter your translation here"@de;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.eulanguageOfInstruction>
   ];
   sh:targetClass <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgtest2-ap_de#TertiaryEducationEvidenceShape> a sh:NodeShape;
   sh:closed false;
   sh:property [
-    sh:class <https://sdg.semic.euEducationInstitution>;
-    sh:path <https://sdg.semic.euTertiaryEducationEvidence.obtainedAt>
-  ], [
-    sh:class <https://sdg.semic.euLocation>;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:path <https://sdg.semic.euissuingPlace>
-  ], [
-    sh:class <https://sdg.semic.euStudent>;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:path <https://sdg.semic.eubelongsTo>
-  ], [
     sh:class <https://sdg.semic.euOrganisation>;
     sh:minCount 1;
     sh:path <https://sdg.semic.euissuingAuthority>
+  ], [
+    sh:class <https://sdg.semic.euEducationInstitution>;
+    sh:path <https://sdg.semic.euTertiaryEducationEvidence.obtainedAt>
+  ], [
+    sh:definition "Enter your translation here"@de;
+    sh:minCount 1;
+    sh:name "Enter your translation here"@de;
+    sh:path <https://sdg.semic.euqualificationName>
   ], [
     sh:datatype xsd:date;
     sh:definition "Enter your translation here"@de;
@@ -383,15 +378,20 @@
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.euissuingDate>
   ], [
+    sh:class <https://sdg.semic.euLocation>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:path <https://sdg.semic.euissuingPlace>
+  ], [
     sh:class skos:Concept;
     sh:definition "Enter your translation here"@de;
     sh:minCount 1;
     sh:name "Enter your translation here"@de;
     sh:path <https://sdg.semic.eulanguage>
   ], [
-    sh:definition "Enter your translation here"@de;
+    sh:class <https://sdg.semic.euStudent>;
+    sh:maxCount 1;
     sh:minCount 1;
-    sh:name "Enter your translation here"@de;
-    sh:path <https://sdg.semic.euqualificationName>
+    sh:path <https://sdg.semic.eubelongsTo>
   ];
   sh:targetClass <https://sdg.semic.euTertiaryEducationEvidence> .
