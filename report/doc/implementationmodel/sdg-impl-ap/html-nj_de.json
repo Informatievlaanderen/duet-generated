@@ -21,9 +21,16 @@
   "classes": [
     {
       "uri": "https://sdg.semic.euAddress",
-      "name": {},
+      "name": {
+        "nl": "Address"
+      },
+      "label": {
+        "en": "Address",
+        "de": "Adresse"
+      },
       "sort": "undefined name",
       "description": {
+        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.",
         "de": "Eine \"Adressdarstellung\", wie sie konzeptionell durch den Datentyp INSPIRE Address Representation definiert wird."
       },
       "usage": {},
@@ -91,9 +98,12 @@
         },
         {
           "uri": "https://sdg.semic.euadminUnitL1",
-          "name": {},
+          "name": {
+            "nl": "Admin unit Level 1"
+          },
           "sort": "undefined name",
           "description": {
+            "en": "The uppermost administrative unit for the address, almost always a country.",
             "de": "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."
           },
           "usage": {},
@@ -123,7 +133,9 @@
         },
         {
           "uri": "https://sdg.semic.euadminUnitL2",
-          "name": {},
+          "name": {
+            "nl": "admin unit Level 2"
+          },
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -140,9 +152,12 @@
         },
         {
           "uri": "https://sdg.semic.eufullAddress",
-          "name": {},
+          "name": {
+            "nl": "full address"
+          },
           "sort": "undefined name",
           "description": {
+            "en": " \tThe complete address written as a string, with or without formatting.",
             "de": " \tDie vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
           },
           "usage": {},
@@ -162,6 +177,7 @@
     {
       "uri": "https://sdg.semic.euCourseResult",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -343,6 +359,7 @@
     {
       "uri": "https://sdg.semic.euEducationInstitution",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -391,6 +408,7 @@
     {
       "uri": "https://sdg.semic.euLocation",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -479,6 +497,7 @@
     {
       "uri": "https://sdg.semic.euOrganisation",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -587,6 +606,7 @@
     {
       "uri": "https://sdg.semic.euPerson",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -752,6 +772,7 @@
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -890,6 +911,7 @@
     {
       "uri": "https://sdg.semic.euStudent",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -925,6 +947,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -1114,6 +1137,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -1428,6 +1452,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -2106,6 +2131,7 @@
     {
       "uri": "https://sdg.semic.euGrade",
       "name": {},
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
