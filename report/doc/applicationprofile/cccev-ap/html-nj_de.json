@@ -20,7 +20,7 @@
   "classes": [
     {
       "uri": "http://fixme.com#Agent",
-      "name": "[]",
+      "name": "",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -30,7 +30,7 @@
     },
     {
       "uri": "http://fixme.com#Concept",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6a2c717f]",
+      "name": "RequirementConcept",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -39,7 +39,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#cbc:description",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7d7cac8]",
+          "name": "description",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -56,7 +56,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:id",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7da39774]",
+          "name": "identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -73,7 +73,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:name",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5349b246]",
+          "name": "name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -90,7 +90,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:type",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2aaf152b]",
+          "name": "type",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -107,7 +107,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasConstraint",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@79a7bfbc]",
+          "name": "has Constraint",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -139,7 +139,7 @@
     },
     {
       "uri": "http://fixme.com#Constraint",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@41853299]",
+      "name": "Constraint",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -157,7 +157,7 @@
     },
     {
       "uri": "http://fixme.com#Criterion",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@60d40ff4]",
+      "name": "Criterion",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -174,7 +174,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#cccev:bias",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27fe9713]",
+          "name": "bias",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -191,7 +191,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:weight",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@56399b9e]",
+          "name": "weight",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -208,7 +208,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:weightingConsiderationDescription",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@34b9eb03]",
+          "name": "weighting consideration description",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -225,7 +225,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:weightingType",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@43fda8d9]",
+          "name": "weighting type",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -244,7 +244,7 @@
     },
     {
       "uri": "http://fixme.com#Dataset",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e5b7fba]",
+      "name": "Dataset",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -253,7 +253,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#dcat:distribution",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -283,7 +283,7 @@
         },
         {
           "uri": "http://fixme.com#dct:description",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -300,7 +300,7 @@
         },
         {
           "uri": "http://fixme.com#dct:identifier",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -317,7 +317,7 @@
         },
         {
           "uri": "http://fixme.com#dct:issued",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -334,7 +334,7 @@
         },
         {
           "uri": "http://fixme.com#dct:modified",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -351,7 +351,7 @@
         },
         {
           "uri": "http://fixme.com#dct:title",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -368,7 +368,7 @@
         },
         {
           "uri": "http://fixme.com#dct:type",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -387,7 +387,7 @@
     },
     {
       "uri": "http://fixme.com#Distribution",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27755487]",
+      "name": "Distribution",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -396,7 +396,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#dcat:downloadURL",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -413,7 +413,7 @@
         },
         {
           "uri": "http://fixme.com#dct:issued",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -445,7 +445,7 @@
     },
     {
       "uri": "http://fixme.com#Evidence",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4f0cab0a]",
+      "name": "Evidence",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -462,7 +462,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#cccev:confidentialityLevelType",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@11c3ff67]",
+          "name": "confidentiality level type",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -479,7 +479,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isConformantTo",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -509,37 +509,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:supports",
-          "name": "[]",
-          "sort": "undefined name",
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -566,12 +536,42 @@
           ],
           "cardinality": "0..*",
           "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "",
+          "sort": "undefined name",
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://fixme.com#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
         }
       ]
     },
     {
       "uri": "http://fixme.com#EvidenceType",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@fe7b6b0]",
+      "name": "Evidence type",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -588,7 +588,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#cccev:datasetType",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4397a639]",
+          "name": "dataset type",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -605,7 +605,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:evidenceTypeClassification",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@24841372]",
+          "name": "evidence type classification",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -622,7 +622,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isSpecifiedIn",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6242ae3b]",
+          "name": "is specified in",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -654,7 +654,7 @@
     },
     {
       "uri": "http://fixme.com#EvidenceTypeList",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7ab4ae59]",
+      "name": "Evidence Type List",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -663,7 +663,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#cbc:description",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@306f6f1d]",
+          "name": "description",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -680,7 +680,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:id",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@367f0121]",
+          "name": "identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -697,7 +697,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:name",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1df1ced0]",
+          "name": "name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -714,7 +714,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:specifiesEvidenceType",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65ddee5a]",
+          "name": "specifies evidence type",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -746,7 +746,7 @@
     },
     {
       "uri": "http://fixme.com#InformationRequirement",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77681ce4]",
+      "name": "Information Requirement",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -764,7 +764,7 @@
     },
     {
       "uri": "http://fixme.com#ReferenceFramework",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5d96bdf8]",
+      "name": "Reference Framework",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -782,7 +782,7 @@
     },
     {
       "uri": "http://fixme.com#Requirement",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6f76c2cc]",
+      "name": "Requirement",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -791,7 +791,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#cbc:description",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6fc6deb7]",
+          "name": "description",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -808,7 +808,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:id",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@441b8382]",
+          "name": "identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -825,7 +825,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:name",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@32b0876c]",
+          "name": "name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -842,7 +842,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:type",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@39bbd9e0]",
+          "name": "type",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -859,7 +859,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasConcept",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77114efe]",
+          "name": "has concept",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -889,7 +889,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77f68df]",
+          "name": "has evidence type combination",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -919,7 +919,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasRequirement",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3e4e4c1]",
+          "name": "has requirement",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -949,7 +949,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasSupportingEvidence",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e7f3cfd]",
+          "name": "has supporting evidence",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -979,7 +979,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isDerivedFrom",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3ae126d1]",
+          "name": "is derived from",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1009,7 +1009,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isRequirementOf",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@46a488c2]",
+          "name": "is requirement of",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1041,7 +1041,7 @@
     },
     {
       "uri": "http://fixme.com#Standard",
-      "name": "[]",
+      "name": "",
       "label": {},
       "sort": "undefined name",
       "description": {},

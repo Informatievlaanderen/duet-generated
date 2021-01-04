@@ -194,7 +194,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2f4e40d7]",
+      "name": "Address",
       "parents": []
     },
     {
@@ -253,7 +253,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@60e9c3a5]",
+      "name": "Course Result",
       "parents": []
     },
     {
@@ -319,7 +319,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e5843db]",
+      "name": "Education Institute",
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -380,7 +380,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@459f703f]",
+      "name": "Grade",
       "parents": []
     },
     {
@@ -439,7 +439,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@188ac8a3]",
+      "name": "Location",
       "parents": []
     },
     {
@@ -498,7 +498,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3650d4fc]",
+      "name": "Organisation",
       "parents": []
     },
     {
@@ -557,7 +557,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@aaa0f76]",
+      "name": "Person",
       "parents": []
     },
     {
@@ -616,7 +616,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@340a8894]",
+      "name": "Record of Results Evidence",
       "parents": []
     },
     {
@@ -682,7 +682,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7a8b9166]",
+      "name": "Student",
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -750,7 +750,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4acc5dff]",
+      "name": "Tertiary Education Diploma Evidence",
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -811,7 +811,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@10c72a6f]",
+      "name": "Tertiary Education Diploma Supplement Evidence",
       "parents": []
     },
     {
@@ -870,7 +870,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@70e94ecb]",
+      "name": "Tertiary Education Evidence",
       "parents": []
     }
   ],
@@ -878,7 +878,7 @@
     {
       "@id": "https://sdg.semic.euAddress.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -941,7 +941,7 @@
     {
       "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1004,7 +1004,7 @@
     {
       "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1067,7 +1067,7 @@
     {
       "@id": "https://sdg.semic.euLocation.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1130,7 +1130,7 @@
     {
       "@id": "https://sdg.semic.euPerson.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1193,7 +1193,7 @@
     {
       "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1256,7 +1256,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1319,7 +1319,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1382,7 +1382,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1445,7 +1445,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1508,7 +1508,7 @@
     {
       "@id": "https://sdg.semic.euacademicProgramme",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@56cfe111]",
+      "name": "academic programme",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "academic programme"
@@ -1582,7 +1582,7 @@
     {
       "@id": "https://sdg.semic.euacademicProgrammeLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1643,7 +1643,7 @@
     {
       "@id": "https://sdg.semic.euacademicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e446d92]",
+      "name": "academic year",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "academic year"
@@ -1717,7 +1717,7 @@
     {
       "@id": "https://sdg.semic.euacademicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -1770,7 +1770,7 @@
     {
       "@id": "https://sdg.semic.euaccessRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@57f9b467]",
+      "name": "access requirement",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "access requirement"
@@ -1852,7 +1852,7 @@
     {
       "@id": "https://sdg.semic.euaccessToFurtherStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6d5c2745]",
+      "name": "access to further study",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "access to further study"
@@ -1934,7 +1934,7 @@
     {
       "@id": "https://sdg.semic.euaccessToRegulatedProfession",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b29496]",
+      "name": "access to regulated profession",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "access to regulated profession"
@@ -2008,7 +2008,7 @@
     {
       "@id": "https://sdg.semic.euadminUnitL1",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1947596f]",
+      "name": "Admin unit Level 1",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "Admin unit Level 1"
@@ -2095,7 +2095,7 @@
     {
       "@id": "https://sdg.semic.euadminUnitL2",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3078cac]",
+      "name": "admin unit Level 2",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "admin unit Level 2"
@@ -2164,7 +2164,7 @@
     {
       "@id": "https://sdg.semic.eubelongsTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -2229,7 +2229,7 @@
     {
       "@id": "https://sdg.semic.eucontains",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -2294,7 +2294,7 @@
     {
       "@id": "https://sdg.semic.eucourseAcademicPeriod",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@f6de586]",
+      "name": "course academic period",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course academic period"
@@ -2368,7 +2368,7 @@
     {
       "@id": "https://sdg.semic.eucourseAcademicYear",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5f2bd6d9]",
+      "name": "course academic period",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course academic period"
@@ -2448,7 +2448,7 @@
     {
       "@id": "https://sdg.semic.eucourseCreditsAmount",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7c847072]",
+      "name": "course credits amount",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course credits amount"
@@ -2522,7 +2522,7 @@
     {
       "@id": "https://sdg.semic.eucourseFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@43d9f1a2]",
+      "name": "course field of study",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course field of study"
@@ -2604,7 +2604,7 @@
     {
       "@id": "https://sdg.semic.eucourseGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@23f86d8a]",
+      "name": "course grade",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course grade"
@@ -2686,7 +2686,7 @@
     {
       "@id": "https://sdg.semic.eucourseLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2264ea32]",
+      "name": "course language",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course language"
@@ -2768,7 +2768,7 @@
     {
       "@id": "https://sdg.semic.eucourseName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7d3c09ec]",
+      "name": "course name",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "course name"
@@ -2842,7 +2842,7 @@
     {
       "@id": "https://sdg.semic.eudateOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@71e4b308]",
+      "name": "date of birth",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "date of birth"
@@ -2922,7 +2922,7 @@
     {
       "@id": "https://sdg.semic.eudistribution",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@11900483]",
+      "name": "distribution",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "distribution"
@@ -2996,7 +2996,7 @@
     {
       "@id": "https://sdg.semic.eufamilyName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@14a049f9]",
+      "name": "family name",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "family name"
@@ -3070,7 +3070,7 @@
     {
       "@id": "https://sdg.semic.eufullAddress",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@94e51e8]",
+      "name": "full address",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "full address"
@@ -3144,7 +3144,7 @@
     {
       "@id": "https://sdg.semic.eugeographicIdentifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5de6cf3a]",
+      "name": "geographic name",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "geographic name"
@@ -3224,7 +3224,7 @@
     {
       "@id": "https://sdg.semic.eugeographicName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4cc36c19]",
+      "name": "geographic identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "geographic identifier"
@@ -3298,7 +3298,7 @@
     {
       "@id": "https://sdg.semic.eugivenName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5a3a1bf9]",
+      "name": "given name",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "given name"
@@ -3372,7 +3372,7 @@
     {
       "@id": "https://sdg.semic.eugradePointAverage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2100d047]",
+      "name": "grade point average",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "grade point average"
@@ -3454,7 +3454,7 @@
     {
       "@id": "https://sdg.semic.eugradingScheme",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4af45442]",
+      "name": "grading scheme",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "grading scheme"
@@ -3534,7 +3534,7 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1d805aa1]",
+      "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "identifier"
@@ -3608,7 +3608,7 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@176f7f3b]",
+      "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "identifier"
@@ -3682,7 +3682,7 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@30ca0779]",
+      "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "identifier"
@@ -3761,7 +3761,7 @@
     {
       "@id": "https://sdg.semic.euissuingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -3826,7 +3826,7 @@
     {
       "@id": "https://sdg.semic.euissuingDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@58740366]",
+      "name": "issuing date",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "issuing date"
@@ -3906,7 +3906,7 @@
     {
       "@id": "https://sdg.semic.euissuingPlace",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -3971,7 +3971,7 @@
     {
       "@id": "https://sdg.semic.eulanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@47be0f9b]",
+      "name": "language",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "language"
@@ -4053,7 +4053,7 @@
     {
       "@id": "https://sdg.semic.eulanguageOfInstruction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2bc426f0]",
+      "name": "language of instruction",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "language of instruction"
@@ -4135,7 +4135,7 @@
     {
       "@id": "https://sdg.semic.eulevelOfDistinction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4bd51d3e]",
+      "name": "level of distinction",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "level of distinction"
@@ -4217,7 +4217,7 @@
     {
       "@id": "https://sdg.semic.eumainFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@33425811]",
+      "name": "main field of study",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "main field of study"
@@ -4299,7 +4299,7 @@
     {
       "@id": "https://sdg.semic.eumodeOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4b74b35]",
+      "name": "mode of study",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "mode of study"
@@ -4381,7 +4381,7 @@
     {
       "@id": "https://sdg.semic.euoverallGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@e4e1ef5]",
+      "name": "overall grade",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "overall grade"
@@ -4463,7 +4463,7 @@
     {
       "@id": "https://sdg.semic.euplaceOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -4528,7 +4528,7 @@
     {
       "@id": "https://sdg.semic.euprefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6d11ceef]",
+      "name": "preferred label",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "preferred label"
@@ -4602,7 +4602,7 @@
     {
       "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4cb2918c]",
+      "name": "programme learning outcomes",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "programme learning outcomes"
@@ -4676,7 +4676,7 @@
     {
       "@id": "https://sdg.semic.euqualificationLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@72e295cc]",
+      "name": "qualification level",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "qualification level"
@@ -4758,7 +4758,7 @@
     {
       "@id": "https://sdg.semic.euqualificationName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@c2584d3]",
+      "name": "qualification name",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "qualification name"
@@ -4832,7 +4832,7 @@
     {
       "@id": "https://sdg.semic.euregisteredLocation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "TODO"
@@ -4897,7 +4897,7 @@
     {
       "@id": "https://sdg.semic.eusex",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6fa0450e]",
+      "name": "sex",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "sex"
@@ -4979,7 +4979,7 @@
     {
       "@id": "https://sdg.semic.eustatus",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@37468787]",
+      "name": "status",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "status"
@@ -5061,7 +5061,7 @@
     {
       "@id": "https://sdg.semic.eustudentID",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@51ec2856]",
+      "name": "student ID",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "student ID"
@@ -5135,7 +5135,7 @@
     {
       "@id": "https://sdg.semic.eustudyDuration",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@714f3da4]",
+      "name": "study duration",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "study duration"
@@ -5209,7 +5209,7 @@
     {
       "@id": "https://sdg.semic.euthesisTitle",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1caa9eb6]",
+      "name": "thesis title",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "thesis title"
@@ -5283,7 +5283,7 @@
     {
       "@id": "https://sdg.semic.eutotalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1f53481b]",
+      "name": "total credits",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "total credits"
@@ -5357,7 +5357,7 @@
     {
       "@id": "https://sdg.semic.eutotalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2fcd7d3f]",
+      "name": "total credits",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "total credits"
@@ -5431,7 +5431,7 @@
     {
       "@id": "https://sdg.semic.euvalue",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27e7c77f]",
+      "name": "value",
       "inpackage": "ACTIVE_PACKAGE",
       "label-en": {
         "en": "value"
@@ -5554,6 +5554,6 @@
   "filename": "config/sdgtest2-voc.json",
   "navigation": {},
   "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "6deed1d96fc31274ed559614e588e9292219aed2",
+  "toolchaincommit": "949bd41c6100e37faf47309358d9175223484124",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

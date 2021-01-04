@@ -189,7 +189,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6ecdbab8]",
+      "name": "Address",
       "parents": []
     },
     {
@@ -245,7 +245,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3dd4a6fa]",
+      "name": "Course Result",
       "parents": []
     },
     {
@@ -308,7 +308,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@19f7222e]",
+      "name": "Education Institute",
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -366,7 +366,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3f725306]",
+      "name": "Grade",
       "parents": []
     },
     {
@@ -422,7 +422,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3c69362a]",
+      "name": "Location",
       "parents": []
     },
     {
@@ -478,7 +478,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2412a42b]",
+      "name": "Organisation",
       "parents": []
     },
     {
@@ -534,7 +534,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@45404d5]",
+      "name": "Person",
       "parents": []
     },
     {
@@ -590,7 +590,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@29138d3a]",
+      "name": "Record of Results Evidence",
       "parents": []
     },
     {
@@ -653,7 +653,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5cbe2654]",
+      "name": "Student",
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -718,7 +718,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6dbcf214]",
+      "name": "Tertiary Education Diploma Evidence",
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -776,7 +776,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@496a31da]",
+      "name": "Tertiary Education Diploma Supplement Evidence",
       "parents": []
     },
     {
@@ -832,7 +832,7 @@
         "Scope": "FULL_DEFINITON"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7c251f90]",
+      "name": "Tertiary Education Evidence",
       "parents": []
     }
   ],
@@ -840,7 +840,7 @@
     {
       "@id": "https://sdg.semic.euAddress.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -895,7 +895,7 @@
     {
       "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -950,7 +950,7 @@
     {
       "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1005,7 +1005,7 @@
     {
       "@id": "https://sdg.semic.euLocation.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1060,7 +1060,7 @@
     {
       "@id": "https://sdg.semic.euPerson.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1115,7 +1115,7 @@
     {
       "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1170,7 +1170,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1225,7 +1225,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1280,7 +1280,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1335,7 +1335,7 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1390,7 +1390,7 @@
     {
       "@id": "https://sdg.semic.euacademicProgramme",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@51841ac6]",
+      "name": "academic programme",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
@@ -1461,7 +1461,7 @@
     {
       "@id": "https://sdg.semic.euacademicProgrammeLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1514,7 +1514,7 @@
     {
       "@id": "https://sdg.semic.euacademicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5ba26eb0]",
+      "name": "academic year",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tThe period during which the courses and exams took place."
@@ -1585,7 +1585,7 @@
     {
       "@id": "https://sdg.semic.euacademicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1630,7 +1630,7 @@
     {
       "@id": "https://sdg.semic.euaccessRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@435e60ff]",
+      "name": "access requirement",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tQualification(s) or periods of study required for access to the programme."
@@ -1709,7 +1709,7 @@
     {
       "@id": "https://sdg.semic.euaccessToFurtherStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@17d32e9b]",
+      "name": "access to further study",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
@@ -1788,7 +1788,7 @@
     {
       "@id": "https://sdg.semic.euaccessToRegulatedProfession",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@66f0548d]",
+      "name": "access to regulated profession",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
@@ -1859,7 +1859,7 @@
     {
       "@id": "https://sdg.semic.euadminUnitL1",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e6f610d]",
+      "name": "Admin unit Level 1",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-codelist": "http://publications.europa.eu/resource/authority/country",
       "ap-definition-en": {
@@ -1944,7 +1944,7 @@
     {
       "@id": "https://sdg.semic.euadminUnitL2",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1e86a5a7]",
+      "name": "admin unit Level 2",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2010,7 +2010,7 @@
     {
       "@id": "https://sdg.semic.eubelongsTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2067,7 +2067,7 @@
     {
       "@id": "https://sdg.semic.eucontains",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2124,7 +2124,7 @@
     {
       "@id": "https://sdg.semic.eucourseAcademicPeriod",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@10afe71a]",
+      "name": "course academic period",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
@@ -2195,7 +2195,7 @@
     {
       "@id": "https://sdg.semic.eucourseAcademicYear",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@741f8dbe]",
+      "name": "course academic period",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
@@ -2272,7 +2272,7 @@
     {
       "@id": "https://sdg.semic.eucourseCreditsAmount",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@212dfd39]",
+      "name": "course credits amount",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
@@ -2343,7 +2343,7 @@
     {
       "@id": "https://sdg.semic.eucourseFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@a2ddf26]",
+      "name": "course field of study",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The discipline or subject area of a course."
@@ -2422,7 +2422,7 @@
     {
       "@id": "https://sdg.semic.eucourseGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65d57e4e]",
+      "name": "course grade",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tA mark indicating a degree of accomplishment for a particular course."
@@ -2501,7 +2501,7 @@
     {
       "@id": "https://sdg.semic.eucourseLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6daf7d37]",
+      "name": "course language",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Main language in which the course was taught."
@@ -2580,7 +2580,7 @@
     {
       "@id": "https://sdg.semic.eucourseName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@23a5818e]",
+      "name": "course name",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
@@ -2651,7 +2651,7 @@
     {
       "@id": "https://sdg.semic.eudateOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4715ae33]",
+      "name": "date of birth",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "A date that specifies the birth date of a Person."
@@ -2728,7 +2728,7 @@
     {
       "@id": "https://sdg.semic.eudistribution",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@9fc9f91]",
+      "name": "distribution",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Statistical distribution of grades over the number of students that obtained the respective grade."
@@ -2799,7 +2799,7 @@
     {
       "@id": "https://sdg.semic.eufamilyName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1fac1d5c]",
+      "name": "family name",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
@@ -2870,7 +2870,7 @@
     {
       "@id": "https://sdg.semic.eufullAddress",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@108a46d6]",
+      "name": "full address",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tThe complete address written as a string, with or without formatting."
@@ -2941,7 +2941,7 @@
     {
       "@id": "https://sdg.semic.eugeographicIdentifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7a8406c2]",
+      "name": "geographic name",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
@@ -3018,7 +3018,7 @@
     {
       "@id": "https://sdg.semic.eugeographicName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@17690e14]",
+      "name": "geographic identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "A URI that identifies the Location."
@@ -3089,7 +3089,7 @@
     {
       "@id": "https://sdg.semic.eugivenName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6850b758]",
+      "name": "given name",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
@@ -3160,7 +3160,7 @@
     {
       "@id": "https://sdg.semic.eugradePointAverage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2a2ef072]",
+      "name": "grade point average",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
@@ -3239,7 +3239,7 @@
     {
       "@id": "https://sdg.semic.eugradingScheme",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@704641e3]",
+      "name": "grading scheme",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Dereferenceable identifier to the grading system that was used to give the grade."
@@ -3316,7 +3316,7 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2f00f851]",
+      "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Many organisations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised b"
@@ -3387,7 +3387,7 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4207609e]",
+      "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The identifier relation is used to link a Person to any formally issued Identifier for that Person."
@@ -3458,7 +3458,7 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1f77b5cc]",
+      "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "An unambiguous reference to the Tertiary Education Evidence."
@@ -3534,7 +3534,7 @@
     {
       "@id": "https://sdg.semic.euissuingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3591,7 +3591,7 @@
     {
       "@id": "https://sdg.semic.euissuingDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5d7ca698]",
+      "name": "issuing date",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The date on which the Tertiary Education Evidence was issued."
@@ -3668,7 +3668,7 @@
     {
       "@id": "https://sdg.semic.euissuingPlace",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3725,7 +3725,7 @@
     {
       "@id": "https://sdg.semic.eulanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@75961f16]",
+      "name": "language",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The language in which the Tertiary Education Evidence is issued. \t"
@@ -3804,7 +3804,7 @@
     {
       "@id": "https://sdg.semic.eulanguageOfInstruction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@c6c82aa]",
+      "name": "language of instruction",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The different languages in which the programme was given."
@@ -3883,7 +3883,7 @@
     {
       "@id": "https://sdg.semic.eulevelOfDistinction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e179f3e]",
+      "name": "level of distinction",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
@@ -3962,7 +3962,7 @@
     {
       "@id": "https://sdg.semic.eumainFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@16e7b402]",
+      "name": "main field of study",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The main disciplines or subject areas of a qualification."
@@ -4041,7 +4041,7 @@
     {
       "@id": "https://sdg.semic.eumodeOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@534c6767]",
+      "name": "mode of study",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
@@ -4120,7 +4120,7 @@
     {
       "@id": "https://sdg.semic.euoverallGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3bddc676]",
+      "name": "overall grade",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "A mark indicating a degree of accomplishment."
@@ -4199,7 +4199,7 @@
     {
       "@id": "https://sdg.semic.euplaceOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -4256,7 +4256,7 @@
     {
       "@id": "https://sdg.semic.euprefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@29a1505c]",
+      "name": "preferred label",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
@@ -4327,7 +4327,7 @@
     {
       "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@24db6ce]",
+      "name": "programme learning outcomes",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
@@ -4398,7 +4398,7 @@
     {
       "@id": "https://sdg.semic.euqualificationLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@320a8ebf]",
+      "name": "qualification level",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tLevel of the obtained qualification."
@@ -4477,7 +4477,7 @@
     {
       "@id": "https://sdg.semic.euqualificationName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@67b100fe]",
+      "name": "qualification name",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
@@ -4548,7 +4548,7 @@
     {
       "@id": "https://sdg.semic.euregisteredLocation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -4605,7 +4605,7 @@
     {
       "@id": "https://sdg.semic.eusex",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b18fe4]",
+      "name": "sex",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
@@ -4684,7 +4684,7 @@
     {
       "@id": "https://sdg.semic.eustatus",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2ba5aa7a]",
+      "name": "status",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
@@ -4763,7 +4763,7 @@
     {
       "@id": "https://sdg.semic.eustudentID",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4d3ca6c7]",
+      "name": "student ID",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "An unambiguous reference to the Student."
@@ -4834,7 +4834,7 @@
     {
       "@id": "https://sdg.semic.eustudyDuration",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@22e5f96e]",
+      "name": "study duration",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Official duration of the programme in years of full-time study."
@@ -4905,7 +4905,7 @@
     {
       "@id": "https://sdg.semic.euthesisTitle",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6a638c79]",
+      "name": "thesis title",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Title of the dissertation completed by a student as part of a tertiary education degree."
@@ -4976,7 +4976,7 @@
     {
       "@id": "https://sdg.semic.eutotalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6c931d35]",
+      "name": "total credits",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "The total number of ECTS credits of the courses contained within the Record of Results."
@@ -5047,7 +5047,7 @@
     {
       "@id": "https://sdg.semic.eutotalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b194fe]",
+      "name": "total credits",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "Total student workload required, described in terms of ECTS credits."
@@ -5118,7 +5118,7 @@
     {
       "@id": "https://sdg.semic.euvalue",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@49122b8f]",
+      "name": "value",
       "inpackage": "ACTIVE_PACKAGE",
       "ap-definition-en": {
         "en": "A (quantitative or qualitative) value according to the definition in the grading scheme."
@@ -5238,6 +5238,6 @@
   "filename": "config/sdgtest2-ap.json",
   "navigation": {},
   "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "6deed1d96fc31274ed559614e588e9292219aed2",
+  "toolchaincommit": "949bd41c6100e37faf47309358d9175223484124",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

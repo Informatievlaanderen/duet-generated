@@ -157,7 +157,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": "[]"
+      "name": ""
     },
     {
       "@id": "http://fixme.com#Concept",
@@ -212,7 +212,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6a2c717f]"
+      "name": "RequirementConcept"
     },
     {
       "@id": "http://fixme.com#Constraint",
@@ -284,7 +284,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@41853299]"
+      "name": "Constraint"
     },
     {
       "@id": "http://fixme.com#Criterion",
@@ -356,7 +356,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@60d40ff4]"
+      "name": "Criterion"
     },
     {
       "@id": "http://fixme.com#Dataset",
@@ -401,7 +401,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e5b7fba]"
+      "name": "Dataset"
     },
     {
       "@id": "http://fixme.com#Distribution",
@@ -446,7 +446,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27755487]"
+      "name": "Distribution"
     },
     {
       "@id": "http://fixme.com#Evidence",
@@ -508,7 +508,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4f0cab0a]"
+      "name": "Evidence"
     },
     {
       "@id": "http://fixme.com#EvidenceType",
@@ -570,7 +570,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@fe7b6b0]"
+      "name": "Evidence type"
     },
     {
       "@id": "http://fixme.com#EvidenceTypeList",
@@ -615,7 +615,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7ab4ae59]"
+      "name": "Evidence Type List"
     },
     {
       "@id": "http://fixme.com#InformationRequirement",
@@ -677,7 +677,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77681ce4]"
+      "name": "Information Requirement"
     },
     {
       "@id": "http://fixme.com#ReferenceFramework",
@@ -729,7 +729,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5d96bdf8]"
+      "name": "Reference Framework"
     },
     {
       "@id": "http://fixme.com#Requirement",
@@ -784,7 +784,7 @@
         ],
         "Scope": "NOTHING"
       },
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6f76c2cc]"
+      "name": "Requirement"
     },
     {
       "@id": "http://fixme.com#Standard",
@@ -813,7 +813,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": "[]"
+      "name": ""
     },
     {
       "@id": "http://fixme.com#custom-data-type",
@@ -842,7 +842,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": "[]"
+      "name": ""
     },
     {
       "@id": "http://fixme.com#dataset-type",
@@ -871,7 +871,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": "[]"
+      "name": ""
     },
     {
       "@id": "http://fixme.com#evidence-types",
@@ -900,14 +900,14 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": "[]"
+      "name": ""
     }
   ],
   "externalproperties": [
     {
       "@id": "http://fixme.com#cbc:description",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@306f6f1d]",
+      "name": "description",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
@@ -978,7 +978,7 @@
     {
       "@id": "http://fixme.com#cbc:description",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7d7cac8]",
+      "name": "description",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
@@ -1049,7 +1049,7 @@
     {
       "@id": "http://fixme.com#cbc:description",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6fc6deb7]",
+      "name": "description",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1110,7 +1110,7 @@
     {
       "@id": "http://fixme.com#cbc:id",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@367f0121]",
+      "name": "identifier",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "An unambiguous reference to an Evidence Type List"
@@ -1181,7 +1181,7 @@
     {
       "@id": "http://fixme.com#cbc:id",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7da39774]",
+      "name": "identifier",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "An unambiguous reference to RequirementConcept"
@@ -1252,7 +1252,7 @@
     {
       "@id": "http://fixme.com#cbc:id",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@441b8382]",
+      "name": "identifier",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1313,7 +1313,7 @@
     {
       "@id": "http://fixme.com#cbc:name",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1df1ced0]",
+      "name": "name",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A name to identify in common language the Evidence Type List"
@@ -1384,7 +1384,7 @@
     {
       "@id": "http://fixme.com#cbc:name",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5349b246]",
+      "name": "name",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A name to identify in common language the RequirementConcept"
@@ -1455,7 +1455,7 @@
     {
       "@id": "http://fixme.com#cbc:name",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@32b0876c]",
+      "name": "name",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1516,7 +1516,7 @@
     {
       "@id": "http://fixme.com#cbc:type",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2aaf152b]",
+      "name": "type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "a classification of the RequirementConcept"
@@ -1587,7 +1587,7 @@
     {
       "@id": "http://fixme.com#cbc:type",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@39bbd9e0]",
+      "name": "type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -1648,7 +1648,7 @@
     {
       "@id": "http://fixme.com#cccev:bias",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27fe9713]",
+      "name": "bias",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
@@ -1719,7 +1719,7 @@
     {
       "@id": "http://fixme.com#cccev:confidentialityLevelType",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@11c3ff67]",
+      "name": "confidentiality level type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "The security classification assigned to an Evidence or, in general, to a content."
@@ -1790,7 +1790,7 @@
     {
       "@id": "http://fixme.com#cccev:datasetType",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4397a639]",
+      "name": "dataset type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A classification code use to specify the machine-readability of a content."
@@ -1861,7 +1861,7 @@
     {
       "@id": "http://fixme.com#cccev:evidenceTypeClassification",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@24841372]",
+      "name": "evidence type classification",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A classification code to specify the layout and content expected for an evidence."
@@ -1932,7 +1932,7 @@
     {
       "@id": "http://fixme.com#cccev:hasConcept",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77114efe]",
+      "name": "has concept",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2011,7 +2011,7 @@
     {
       "@id": "http://fixme.com#cccev:hasConstraint",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@79a7bfbc]",
+      "name": "has Constraint",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
@@ -2105,7 +2105,7 @@
     {
       "@id": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77f68df]",
+      "name": "has evidence type combination",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2184,7 +2184,7 @@
     {
       "@id": "http://fixme.com#cccev:hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3e4e4c1]",
+      "name": "has requirement",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2263,7 +2263,7 @@
     {
       "@id": "http://fixme.com#cccev:hasSupportingEvidence",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e7f3cfd]",
+      "name": "has supporting evidence",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2342,7 +2342,7 @@
     {
       "@id": "http://fixme.com#cccev:isConformantTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2399,7 +2399,7 @@
     {
       "@id": "http://fixme.com#cccev:isDerivedFrom",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3ae126d1]",
+      "name": "is derived from",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2478,7 +2478,7 @@
     {
       "@id": "http://fixme.com#cccev:isRequirementOf",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@46a488c2]",
+      "name": "is requirement of",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2557,7 +2557,7 @@
     {
       "@id": "http://fixme.com#cccev:isSpecifiedIn",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6242ae3b]",
+      "name": "is specified in",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2636,7 +2636,7 @@
     {
       "@id": "http://fixme.com#cccev:specifiesEvidenceType",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65ddee5a]",
+      "name": "specifies evidence type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2715,64 +2715,7 @@
     {
       "@id": "http://fixme.com#cccev:supports",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Name": "cccev:supports",
-        "EA-Guid": "{0F444C86-03A8-411d-8A8B-0332A55254FB}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "Requirement",
-        "RangeData": {
-          "EA-Name": "Requirement",
-          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Requirement"
-        },
-        "sourceRole": "cccev:hasSupportingEvidence",
-        "destRole": "cccev:supports",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-en": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Requirement",
-          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Requirement"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cccev:supports",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -2827,9 +2770,66 @@
       "maxCardinality": "*"
     },
     {
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "cccev:supports",
+        "EA-Guid": "{0F444C86-03A8-411d-8A8B-0332A55254FB}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Requirement",
+        "RangeData": {
+          "EA-Name": "Requirement",
+          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Requirement"
+        },
+        "sourceRole": "cccev:hasSupportingEvidence",
+        "destRole": "cccev:supports",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Evidence",
+          "EA-Name": "Evidence"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Requirement",
+          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Requirement"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
       "@id": "http://fixme.com#cccev:weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@56399b9e]",
+      "name": "weight",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "Relative importance assigned to a given criterion."
@@ -2900,7 +2900,7 @@
     {
       "@id": "http://fixme.com#cccev:weightingConsiderationDescription",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@34b9eb03]",
+      "name": "weighting consideration description",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
@@ -2971,7 +2971,7 @@
     {
       "@id": "http://fixme.com#cccev:weightingType",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@43fda8d9]",
+      "name": "weighting type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "The numeric form used to weight."
@@ -3042,7 +3042,7 @@
     {
       "@id": "http://fixme.com#dcat:distribution",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3099,7 +3099,7 @@
     {
       "@id": "http://fixme.com#dcat:downloadURL",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3144,7 +3144,7 @@
     {
       "@id": "http://fixme.com#dct:description",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3189,7 +3189,7 @@
     {
       "@id": "http://fixme.com#dct:identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3234,7 +3234,7 @@
     {
       "@id": "http://fixme.com#dct:issued",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3279,7 +3279,7 @@
     {
       "@id": "http://fixme.com#dct:issued",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3330,7 +3330,7 @@
     {
       "@id": "http://fixme.com#dct:modified",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3375,7 +3375,7 @@
     {
       "@id": "http://fixme.com#dct:title",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3420,7 +3420,7 @@
     {
       "@id": "http://fixme.com#dct:type",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "[]",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
@@ -3503,6 +3503,6 @@
   "filename": "config/cccev-ap.json",
   "navigation": {},
   "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "6deed1d96fc31274ed559614e588e9292219aed2",
+  "toolchaincommit": "949bd41c6100e37faf47309358d9175223484124",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

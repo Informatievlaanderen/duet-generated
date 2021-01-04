@@ -21,7 +21,7 @@
   "classes": [
     {
       "uri": "https://sdg.semic.euAddress",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6ecdbab8]",
+      "name": "Address",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -30,7 +30,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euAddress.address",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -60,7 +60,7 @@
         },
         {
           "uri": "https://sdg.semic.euAddress.registeredAddress",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -90,7 +90,7 @@
         },
         {
           "uri": "https://sdg.semic.euadminUnitL1",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e6f610d]",
+          "name": "Admin unit Level 1",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -120,7 +120,7 @@
         },
         {
           "uri": "https://sdg.semic.euadminUnitL2",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1e86a5a7]",
+          "name": "admin unit Level 2",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -137,7 +137,7 @@
         },
         {
           "uri": "https://sdg.semic.eufullAddress",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@108a46d6]",
+          "name": "full address",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -156,7 +156,7 @@
     },
     {
       "uri": "https://sdg.semic.euCourseResult",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3dd4a6fa]",
+      "name": "Course Result",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -165,7 +165,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.eucourseAcademicPeriod",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@10afe71a]",
+          "name": "course academic period",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -182,7 +182,7 @@
         },
         {
           "uri": "https://sdg.semic.eucourseAcademicYear",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@741f8dbe]",
+          "name": "course academic period",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -212,7 +212,7 @@
         },
         {
           "uri": "https://sdg.semic.eucourseCreditsAmount",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@212dfd39]",
+          "name": "course credits amount",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -229,7 +229,7 @@
         },
         {
           "uri": "https://sdg.semic.eucourseFieldOfStudy",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@a2ddf26]",
+          "name": "course field of study",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -259,7 +259,7 @@
         },
         {
           "uri": "https://sdg.semic.eucourseGrade",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65d57e4e]",
+          "name": "course grade",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -289,7 +289,7 @@
         },
         {
           "uri": "https://sdg.semic.eucourseLanguage",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6daf7d37]",
+          "name": "course language",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -319,7 +319,7 @@
         },
         {
           "uri": "https://sdg.semic.eucourseName",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@23a5818e]",
+          "name": "course name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -338,7 +338,7 @@
     },
     {
       "uri": "https://sdg.semic.euEducationInstitution",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@19f7222e]",
+      "name": "Education Institute",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -355,7 +355,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euEducationInstitution.obtainedAt",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -387,7 +387,7 @@
     },
     {
       "uri": "https://sdg.semic.euLocation",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3c69362a]",
+      "name": "Location",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -396,7 +396,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euLocation.address",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -426,7 +426,7 @@
         },
         {
           "uri": "https://sdg.semic.eugeographicIdentifier",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7a8406c2]",
+          "name": "geographic name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -456,7 +456,7 @@
         },
         {
           "uri": "https://sdg.semic.eugeographicName",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@17690e14]",
+          "name": "geographic identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -475,7 +475,7 @@
     },
     {
       "uri": "https://sdg.semic.euOrganisation",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2412a42b]",
+      "name": "Organisation",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -484,7 +484,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euidentifier",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1f77b5cc]",
+          "name": "identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -501,7 +501,7 @@
         },
         {
           "uri": "https://sdg.semic.euidentifier",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1f77b5cc]",
+          "name": "identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -518,7 +518,7 @@
         },
         {
           "uri": "https://sdg.semic.euidentifier",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1f77b5cc]",
+          "name": "identifier",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -535,7 +535,7 @@
         },
         {
           "uri": "https://sdg.semic.euprefLabel",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@29a1505c]",
+          "name": "preferred label",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -552,7 +552,7 @@
         },
         {
           "uri": "https://sdg.semic.euregisteredLocation",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -584,7 +584,7 @@
     },
     {
       "uri": "https://sdg.semic.euPerson",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@45404d5]",
+      "name": "Person",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -593,7 +593,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euPerson.registeredAddress",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -623,7 +623,7 @@
         },
         {
           "uri": "https://sdg.semic.eudateOfBirth",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4715ae33]",
+          "name": "date of birth",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -653,7 +653,7 @@
         },
         {
           "uri": "https://sdg.semic.eufamilyName",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1fac1d5c]",
+          "name": "family name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -670,7 +670,7 @@
         },
         {
           "uri": "https://sdg.semic.eugivenName",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6850b758]",
+          "name": "given name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -687,7 +687,7 @@
         },
         {
           "uri": "https://sdg.semic.euplaceOfBirth",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -717,7 +717,7 @@
         },
         {
           "uri": "https://sdg.semic.eusex",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b18fe4]",
+          "name": "sex",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -749,7 +749,7 @@
     },
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@29138d3a]",
+      "name": "Record of Results Evidence",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -758,7 +758,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -788,7 +788,7 @@
         },
         {
           "uri": "https://sdg.semic.euacademicYear",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -805,7 +805,7 @@
         },
         {
           "uri": "https://sdg.semic.euacademicYear",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -822,7 +822,7 @@
         },
         {
           "uri": "https://sdg.semic.eucontains",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -852,7 +852,7 @@
         },
         {
           "uri": "https://sdg.semic.eutotalCredits",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b194fe]",
+          "name": "total credits",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -869,7 +869,7 @@
         },
         {
           "uri": "https://sdg.semic.eutotalCredits",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b194fe]",
+          "name": "total credits",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -888,7 +888,7 @@
     },
     {
       "uri": "https://sdg.semic.euStudent",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5cbe2654]",
+      "name": "Student",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -905,7 +905,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.eustudentID",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4d3ca6c7]",
+          "name": "student ID",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -924,7 +924,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6dbcf214]",
+      "name": "Tertiary Education Diploma Evidence",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -941,7 +941,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -971,7 +971,7 @@
         },
         {
           "uri": "https://sdg.semic.euacademicProgramme",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@51841ac6]",
+          "name": "academic programme",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -988,7 +988,7 @@
         },
         {
           "uri": "https://sdg.semic.euaccessToFurtherStudy",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@17d32e9b]",
+          "name": "access to further study",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1018,7 +1018,7 @@
         },
         {
           "uri": "https://sdg.semic.euaccessToRegulatedProfession",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@66f0548d]",
+          "name": "access to regulated profession",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1035,7 +1035,7 @@
         },
         {
           "uri": "https://sdg.semic.eulevelOfDistinction",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e179f3e]",
+          "name": "level of distinction",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1065,7 +1065,7 @@
         },
         {
           "uri": "https://sdg.semic.euoverallGrade",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3bddc676]",
+          "name": "overall grade",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1095,7 +1095,7 @@
         },
         {
           "uri": "https://sdg.semic.euthesisTitle",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6a638c79]",
+          "name": "thesis title",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1114,7 +1114,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@496a31da]",
+      "name": "Tertiary Education Diploma Supplement Evidence",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -1123,7 +1123,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1153,7 +1153,7 @@
         },
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1183,7 +1183,7 @@
         },
         {
           "uri": "https://sdg.semic.euacademicProgrammeLanguage",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1213,7 +1213,7 @@
         },
         {
           "uri": "https://sdg.semic.euaccessRequirement",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@435e60ff]",
+          "name": "access requirement",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1243,7 +1243,7 @@
         },
         {
           "uri": "https://sdg.semic.eugradePointAverage",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2a2ef072]",
+          "name": "grade point average",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1273,7 +1273,7 @@
         },
         {
           "uri": "https://sdg.semic.eulanguageOfInstruction",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@c6c82aa]",
+          "name": "language of instruction",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1303,7 +1303,7 @@
         },
         {
           "uri": "https://sdg.semic.eumainFieldOfStudy",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@16e7b402]",
+          "name": "main field of study",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1333,7 +1333,7 @@
         },
         {
           "uri": "https://sdg.semic.eumodeOfStudy",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@534c6767]",
+          "name": "mode of study",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1363,7 +1363,7 @@
         },
         {
           "uri": "https://sdg.semic.euprogrammeLearningOutcomes",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@24db6ce]",
+          "name": "programme learning outcomes",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1380,7 +1380,7 @@
         },
         {
           "uri": "https://sdg.semic.euqualificationLevel",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@320a8ebf]",
+          "name": "qualification level",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1410,7 +1410,7 @@
         },
         {
           "uri": "https://sdg.semic.eustudyDuration",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@22e5f96e]",
+          "name": "study duration",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1429,7 +1429,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7c251f90]",
+      "name": "Tertiary Education Evidence",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -1438,7 +1438,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1468,7 +1468,7 @@
         },
         {
           "uri": "https://sdg.semic.eubelongsTo",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1498,7 +1498,7 @@
         },
         {
           "uri": "https://sdg.semic.euissuingAuthority",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1528,7 +1528,7 @@
         },
         {
           "uri": "https://sdg.semic.euissuingDate",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5d7ca698]",
+          "name": "issuing date",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1558,7 +1558,7 @@
         },
         {
           "uri": "https://sdg.semic.euissuingPlace",
-          "name": "[]",
+          "name": "",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1588,7 +1588,7 @@
         },
         {
           "uri": "https://sdg.semic.eulanguage",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@75961f16]",
+          "name": "language",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1618,7 +1618,7 @@
         },
         {
           "uri": "https://sdg.semic.euqualificationName",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@67b100fe]",
+          "name": "qualification name",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1640,7 +1640,7 @@
     {
       "uri": "https://sdg.semic.euAddress.address",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1654,7 +1654,7 @@
     {
       "uri": "https://sdg.semic.euAddress.registeredAddress",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1668,7 +1668,7 @@
     {
       "uri": "https://sdg.semic.euEducationInstitution.obtainedAt",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1682,7 +1682,7 @@
     {
       "uri": "https://sdg.semic.euLocation.address",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1696,7 +1696,7 @@
     {
       "uri": "https://sdg.semic.euPerson.registeredAddress",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1710,7 +1710,7 @@
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1724,7 +1724,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1738,7 +1738,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1752,7 +1752,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1766,7 +1766,7 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1780,7 +1780,7 @@
     {
       "uri": "https://sdg.semic.euacademicProgrammeLanguage",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1795,7 +1795,7 @@
       "uri": "https://sdg.semic.euaccessRequirement",
       "name": {
         "en": "access requirement",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@435e60ff]"
+        "undefined": "access requirement"
       },
       "description": {},
       "domain": [
@@ -1810,7 +1810,7 @@
       "uri": "https://sdg.semic.euaccessToFurtherStudy",
       "name": {
         "en": "access to further study",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@17d32e9b]"
+        "undefined": "access to further study"
       },
       "description": {},
       "domain": [
@@ -1825,7 +1825,7 @@
       "uri": "https://sdg.semic.euadminUnitL1",
       "name": {
         "en": "Admin unit Level 1",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e6f610d]"
+        "undefined": "Admin unit Level 1"
       },
       "description": {},
       "domain": [
@@ -1839,7 +1839,7 @@
     {
       "uri": "https://sdg.semic.eubelongsTo",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1853,7 +1853,7 @@
     {
       "uri": "https://sdg.semic.eucontains",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1868,7 +1868,7 @@
       "uri": "https://sdg.semic.eucourseFieldOfStudy",
       "name": {
         "en": "course field of study",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@a2ddf26]"
+        "undefined": "course field of study"
       },
       "description": {},
       "domain": [
@@ -1883,7 +1883,7 @@
       "uri": "https://sdg.semic.eucourseGrade",
       "name": {
         "en": "course grade",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65d57e4e]"
+        "undefined": "course grade"
       },
       "description": {},
       "domain": [
@@ -1898,7 +1898,7 @@
       "uri": "https://sdg.semic.eucourseLanguage",
       "name": {
         "en": "course language",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6daf7d37]"
+        "undefined": "course language"
       },
       "description": {},
       "domain": [
@@ -1913,7 +1913,7 @@
       "uri": "https://sdg.semic.eugradePointAverage",
       "name": {
         "en": "grade point average",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2a2ef072]"
+        "undefined": "grade point average"
       },
       "description": {},
       "domain": [
@@ -1927,7 +1927,7 @@
     {
       "uri": "https://sdg.semic.euissuingAuthority",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1941,7 +1941,7 @@
     {
       "uri": "https://sdg.semic.euissuingPlace",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -1956,7 +1956,7 @@
       "uri": "https://sdg.semic.eulanguage",
       "name": {
         "en": "language",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@75961f16]"
+        "undefined": "language"
       },
       "description": {},
       "domain": [
@@ -1971,7 +1971,7 @@
       "uri": "https://sdg.semic.eulanguageOfInstruction",
       "name": {
         "en": "language of instruction",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@c6c82aa]"
+        "undefined": "language of instruction"
       },
       "description": {},
       "domain": [
@@ -1986,7 +1986,7 @@
       "uri": "https://sdg.semic.eulevelOfDistinction",
       "name": {
         "en": "level of distinction",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e179f3e]"
+        "undefined": "level of distinction"
       },
       "description": {},
       "domain": [
@@ -2001,7 +2001,7 @@
       "uri": "https://sdg.semic.eumainFieldOfStudy",
       "name": {
         "en": "main field of study",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@16e7b402]"
+        "undefined": "main field of study"
       },
       "description": {},
       "domain": [
@@ -2016,7 +2016,7 @@
       "uri": "https://sdg.semic.eumodeOfStudy",
       "name": {
         "en": "mode of study",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@534c6767]"
+        "undefined": "mode of study"
       },
       "description": {},
       "domain": [
@@ -2031,7 +2031,7 @@
       "uri": "https://sdg.semic.euoverallGrade",
       "name": {
         "en": "overall grade",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3bddc676]"
+        "undefined": "overall grade"
       },
       "description": {},
       "domain": [
@@ -2045,7 +2045,7 @@
     {
       "uri": "https://sdg.semic.euplaceOfBirth",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2060,7 +2060,7 @@
       "uri": "https://sdg.semic.euqualificationLevel",
       "name": {
         "en": "qualification level",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@320a8ebf]"
+        "undefined": "qualification level"
       },
       "description": {},
       "domain": [
@@ -2074,7 +2074,7 @@
     {
       "uri": "https://sdg.semic.euregisteredLocation",
       "name": {
-        "undefined": "[]"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2089,7 +2089,7 @@
       "uri": "https://sdg.semic.eusex",
       "name": {
         "en": "sex",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b18fe4]"
+        "undefined": "sex"
       },
       "description": {},
       "domain": [
@@ -2104,7 +2104,7 @@
       "uri": "https://sdg.semic.eustatus",
       "name": {
         "en": "status",
-        "undefined": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2ba5aa7a]"
+        "undefined": "status"
       },
       "description": {},
       "domain": [
@@ -2151,7 +2151,7 @@
   "datatypes": [
     {
       "uri": "https://sdg.semic.euGrade",
-      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3f725306]",
+      "name": "Grade",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -2160,7 +2160,7 @@
       "properties": [
         {
           "uri": "https://sdg.semic.eudistribution",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@9fc9f91]",
+          "name": "distribution",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -2177,7 +2177,7 @@
         },
         {
           "uri": "https://sdg.semic.eugradingScheme",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@704641e3]",
+          "name": "grading scheme",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -2207,7 +2207,7 @@
         },
         {
           "uri": "https://sdg.semic.eustatus",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2ba5aa7a]",
+          "name": "status",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -2237,7 +2237,7 @@
         },
         {
           "uri": "https://sdg.semic.euvalue",
-          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@49122b8f]",
+          "name": "value",
           "sort": "undefined name",
           "description": {},
           "usage": {},
