@@ -20,48 +20,30 @@
   "classes": [
     {
       "uri": "https://sdg.semic.euAddress",
-      "name": {
-        "nl": "Address"
-      },
-      "label": {
-        "en": "Address"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2f4e40d7]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euCourseResult",
-      "name": {
-        "nl": "Course Result"
-      },
-      "label": {
-        "en": "Course Result"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@60e9c3a5]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Grade obtained after finishing/completing a course."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euEducationInstitution",
-      "name": {
-        "nl": "Education Institute"
-      },
-      "label": {
-        "en": "Education Institute"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e5843db]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": [
@@ -70,96 +52,60 @@
     },
     {
       "uri": "https://sdg.semic.euGrade",
-      "name": {
-        "nl": "Grade"
-      },
-      "label": {
-        "en": "Grade"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@459f703f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Mark indicating a degree of accomplishment."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euLocation",
-      "name": {
-        "nl": "Location"
-      },
-      "label": {
-        "en": "Location"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@188ac8a3]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A spatial region or named place."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euOrganisation",
-      "name": {
-        "nl": "Organisation"
-      },
-      "label": {
-        "en": "Organisation"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3650d4fc]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent"
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euPerson",
-      "name": {
-        "nl": "Person"
-      },
-      "label": {
-        "en": "Person"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@aaa0f76]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An individual person who may be dead or alive, but not imaginary."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-      "name": {
-        "nl": "Record of Results Evidence"
-      },
-      "label": {
-        "en": "Record of Results Evidence"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@340a8894]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euStudent",
-      "name": {
-        "nl": "Student"
-      },
-      "label": {
-        "en": "Student"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7a8b9166]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": [
@@ -168,16 +114,10 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-      "name": {
-        "nl": "Tertiary Education Diploma Evidence"
-      },
-      "label": {
-        "en": "Tertiary Education Diploma Evidence"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4acc5dff]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": [
@@ -186,32 +126,20 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-      "name": {
-        "nl": "Tertiary Education Diploma Supplement Evidence"
-      },
-      "label": {
-        "en": "Tertiary Education Diploma Supplement Evidence"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@10c72a6f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-      "name": {
-        "nl": "Tertiary Education Evidence"
-      },
-      "label": {
-        "en": "Tertiary Education Evidence"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@70e94ecb]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
-      },
+      "description": {},
       "usage": {},
       "equivalent": [],
       "parents": []
@@ -220,7 +148,7 @@
   "properties": [
     {
       "uri": "https://sdg.semic.euAddress.address",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -235,7 +163,7 @@
     },
     {
       "uri": "https://sdg.semic.euAddress.registeredAddress",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -250,7 +178,7 @@
     },
     {
       "uri": "https://sdg.semic.euEducationInstitution.obtainedAt",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -265,7 +193,7 @@
     },
     {
       "uri": "https://sdg.semic.euLocation.address",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -280,7 +208,7 @@
     },
     {
       "uri": "https://sdg.semic.euPerson.registeredAddress",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -295,7 +223,7 @@
     },
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -310,7 +238,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -325,7 +253,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -340,7 +268,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -355,7 +283,7 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -370,16 +298,10 @@
     },
     {
       "uri": "https://sdg.semic.euacademicProgramme",
-      "name": {
-        "nl": "academic programme"
-      },
-      "label": {
-        "en": "academic programme"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@56cfe111]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -389,7 +311,7 @@
     },
     {
       "uri": "https://sdg.semic.euacademicProgrammeLanguage",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -404,14 +326,10 @@
     },
     {
       "uri": "https://sdg.semic.euacademicYear",
-      "name": {},
-      "label": {
-        "en": "academic year"
-      },
+      "name": "[]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tThe period during which the courses and exams took place."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euRecordOfResultsEvidence"
@@ -421,14 +339,10 @@
     },
     {
       "uri": "https://sdg.semic.euacademicYear",
-      "name": {},
-      "label": {
-        "en": "academic year"
-      },
+      "name": "[]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tThe period during which the courses and exams took place."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euRecordOfResultsEvidence"
@@ -438,16 +352,10 @@
     },
     {
       "uri": "https://sdg.semic.euaccessRequirement",
-      "name": {
-        "nl": "access requirement"
-      },
-      "label": {
-        "en": "access requirement"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@57f9b467]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tQualification(s) or periods of study required for access to the programme."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -459,16 +367,10 @@
     },
     {
       "uri": "https://sdg.semic.euaccessToFurtherStudy",
-      "name": {
-        "nl": "access to further study"
-      },
-      "label": {
-        "en": "access to further study"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6d5c2745]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -480,16 +382,10 @@
     },
     {
       "uri": "https://sdg.semic.euaccessToRegulatedProfession",
-      "name": {
-        "nl": "access to regulated profession"
-      },
-      "label": {
-        "en": "access to regulated profession"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@44b29496]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -499,16 +395,10 @@
     },
     {
       "uri": "https://sdg.semic.euadminUnitL1",
-      "name": {
-        "nl": "Admin unit Level 1"
-      },
-      "label": {
-        "en": "Admin unit Level 1"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1947596f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The uppermost administrative unit for the address, almost always a country."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euAddress"
@@ -520,12 +410,8 @@
     },
     {
       "uri": "https://sdg.semic.euadminUnitL2",
-      "name": {
-        "nl": "admin unit Level 2"
-      },
-      "label": {
-        "en": "admin unit Level 2"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3078cac]",
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -537,7 +423,7 @@
     },
     {
       "uri": "https://sdg.semic.eubelongsTo",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -552,7 +438,7 @@
     },
     {
       "uri": "https://sdg.semic.eucontains",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -567,16 +453,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseAcademicPeriod",
-      "name": {
-        "nl": "course academic period"
-      },
-      "label": {
-        "en": "course academic period"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@f6de586]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -586,16 +466,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseAcademicYear",
-      "name": {
-        "nl": "course academic period"
-      },
-      "label": {
-        "en": "course academic period"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5f2bd6d9]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -607,16 +481,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseCreditsAmount",
-      "name": {
-        "nl": "course credits amount"
-      },
-      "label": {
-        "en": "course credits amount"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7c847072]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -626,16 +494,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseFieldOfStudy",
-      "name": {
-        "nl": "course field of study"
-      },
-      "label": {
-        "en": "course field of study"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@43d9f1a2]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The discipline or subject area of a course."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -647,16 +509,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseGrade",
-      "name": {
-        "nl": "course grade"
-      },
-      "label": {
-        "en": "course grade"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@23f86d8a]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tA mark indicating a degree of accomplishment for a particular course."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -668,16 +524,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseLanguage",
-      "name": {
-        "nl": "course language"
-      },
-      "label": {
-        "en": "course language"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2264ea32]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Main language in which the course was taught."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -689,16 +539,10 @@
     },
     {
       "uri": "https://sdg.semic.eucourseName",
-      "name": {
-        "nl": "course name"
-      },
-      "label": {
-        "en": "course name"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7d3c09ec]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -708,16 +552,10 @@
     },
     {
       "uri": "https://sdg.semic.eudateOfBirth",
-      "name": {
-        "nl": "date of birth"
-      },
-      "label": {
-        "en": "date of birth"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@71e4b308]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A date that specifies the birth date of a Person."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -729,16 +567,10 @@
     },
     {
       "uri": "https://sdg.semic.eudistribution",
-      "name": {
-        "nl": "distribution"
-      },
-      "label": {
-        "en": "distribution"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@11900483]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Statistical distribution of grades over the number of students that obtained the respective grade."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"
@@ -748,16 +580,10 @@
     },
     {
       "uri": "https://sdg.semic.eufamilyName",
-      "name": {
-        "nl": "family name"
-      },
-      "label": {
-        "en": "family name"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@14a049f9]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -767,16 +593,10 @@
     },
     {
       "uri": "https://sdg.semic.eufullAddress",
-      "name": {
-        "nl": "full address"
-      },
-      "label": {
-        "en": "full address"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@94e51e8]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tThe complete address written as a string, with or without formatting."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euAddress"
@@ -786,16 +606,10 @@
     },
     {
       "uri": "https://sdg.semic.eugeographicIdentifier",
-      "name": {
-        "nl": "geographic name"
-      },
-      "label": {
-        "en": "geographic name"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5de6cf3a]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euLocation"
@@ -807,16 +621,10 @@
     },
     {
       "uri": "https://sdg.semic.eugeographicName",
-      "name": {
-        "nl": "geographic identifier"
-      },
-      "label": {
-        "en": "geographic identifier"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4cc36c19]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A URI that identifies the Location."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euLocation"
@@ -826,16 +634,10 @@
     },
     {
       "uri": "https://sdg.semic.eugivenName",
-      "name": {
-        "nl": "given name"
-      },
-      "label": {
-        "en": "given name"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5a3a1bf9]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -845,16 +647,10 @@
     },
     {
       "uri": "https://sdg.semic.eugradePointAverage",
-      "name": {
-        "nl": "grade point average"
-      },
-      "label": {
-        "en": "grade point average"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2100d047]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -866,16 +662,10 @@
     },
     {
       "uri": "https://sdg.semic.eugradingScheme",
-      "name": {
-        "nl": "grading scheme"
-      },
-      "label": {
-        "en": "grading scheme"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4af45442]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Dereferenceable identifier to the grading system that was used to give the grade."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"
@@ -887,16 +677,10 @@
     },
     {
       "uri": "https://sdg.semic.euidentifier",
-      "name": {
-        "nl": "identifier"
-      },
-      "label": {
-        "en": "identifier"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@30ca0779]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An unambiguous reference to the Tertiary Education Evidence."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euOrganisation"
@@ -906,16 +690,10 @@
     },
     {
       "uri": "https://sdg.semic.euidentifier",
-      "name": {
-        "nl": "identifier"
-      },
-      "label": {
-        "en": "identifier"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@30ca0779]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An unambiguous reference to the Tertiary Education Evidence."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euOrganisation"
@@ -925,16 +703,10 @@
     },
     {
       "uri": "https://sdg.semic.euidentifier",
-      "name": {
-        "nl": "identifier"
-      },
-      "label": {
-        "en": "identifier"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@30ca0779]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An unambiguous reference to the Tertiary Education Evidence."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euOrganisation"
@@ -944,7 +716,7 @@
     },
     {
       "uri": "https://sdg.semic.euissuingAuthority",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -959,16 +731,10 @@
     },
     {
       "uri": "https://sdg.semic.euissuingDate",
-      "name": {
-        "nl": "issuing date"
-      },
-      "label": {
-        "en": "issuing date"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@58740366]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The date on which the Tertiary Education Evidence was issued."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -980,7 +746,7 @@
     },
     {
       "uri": "https://sdg.semic.euissuingPlace",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -995,16 +761,10 @@
     },
     {
       "uri": "https://sdg.semic.eulanguage",
-      "name": {
-        "nl": "language"
-      },
-      "label": {
-        "en": "language"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@47be0f9b]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The language in which the Tertiary Education Evidence is issued. \t"
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -1016,16 +776,10 @@
     },
     {
       "uri": "https://sdg.semic.eulanguageOfInstruction",
-      "name": {
-        "nl": "language of instruction"
-      },
-      "label": {
-        "en": "language of instruction"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2bc426f0]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The different languages in which the programme was given."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1037,16 +791,10 @@
     },
     {
       "uri": "https://sdg.semic.eulevelOfDistinction",
-      "name": {
-        "nl": "level of distinction"
-      },
-      "label": {
-        "en": "level of distinction"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4bd51d3e]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1058,16 +806,10 @@
     },
     {
       "uri": "https://sdg.semic.eumainFieldOfStudy",
-      "name": {
-        "nl": "main field of study"
-      },
-      "label": {
-        "en": "main field of study"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@33425811]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The main disciplines or subject areas of a qualification."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1079,16 +821,10 @@
     },
     {
       "uri": "https://sdg.semic.eumodeOfStudy",
-      "name": {
-        "nl": "mode of study"
-      },
-      "label": {
-        "en": "mode of study"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4b74b35]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1100,16 +836,10 @@
     },
     {
       "uri": "https://sdg.semic.euoverallGrade",
-      "name": {
-        "nl": "overall grade"
-      },
-      "label": {
-        "en": "overall grade"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@e4e1ef5]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A mark indicating a degree of accomplishment."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1121,7 +851,7 @@
     },
     {
       "uri": "https://sdg.semic.euplaceOfBirth",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -1136,16 +866,10 @@
     },
     {
       "uri": "https://sdg.semic.euprefLabel",
-      "name": {
-        "nl": "preferred label"
-      },
-      "label": {
-        "en": "preferred label"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6d11ceef]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euOrganisation"
@@ -1155,16 +879,10 @@
     },
     {
       "uri": "https://sdg.semic.euprogrammeLearningOutcomes",
-      "name": {
-        "nl": "programme learning outcomes"
-      },
-      "label": {
-        "en": "programme learning outcomes"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4cb2918c]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1174,16 +892,10 @@
     },
     {
       "uri": "https://sdg.semic.euqualificationLevel",
-      "name": {
-        "nl": "qualification level"
-      },
-      "label": {
-        "en": "qualification level"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@72e295cc]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tLevel of the obtained qualification."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1195,16 +907,10 @@
     },
     {
       "uri": "https://sdg.semic.euqualificationName",
-      "name": {
-        "nl": "qualification name"
-      },
-      "label": {
-        "en": "qualification name"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@c2584d3]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -1214,7 +920,7 @@
     },
     {
       "uri": "https://sdg.semic.euregisteredLocation",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -1229,16 +935,10 @@
     },
     {
       "uri": "https://sdg.semic.eusex",
-      "name": {
-        "nl": "sex"
-      },
-      "label": {
-        "en": "sex"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6fa0450e]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -1250,16 +950,10 @@
     },
     {
       "uri": "https://sdg.semic.eustatus",
-      "name": {
-        "nl": "status"
-      },
-      "label": {
-        "en": "status"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@37468787]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"
@@ -1271,16 +965,10 @@
     },
     {
       "uri": "https://sdg.semic.eustudentID",
-      "name": {
-        "nl": "student ID"
-      },
-      "label": {
-        "en": "student ID"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@51ec2856]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "An unambiguous reference to the Student."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euStudent"
@@ -1290,16 +978,10 @@
     },
     {
       "uri": "https://sdg.semic.eustudyDuration",
-      "name": {
-        "nl": "study duration"
-      },
-      "label": {
-        "en": "study duration"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@714f3da4]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Official duration of the programme in years of full-time study."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1309,16 +991,10 @@
     },
     {
       "uri": "https://sdg.semic.euthesisTitle",
-      "name": {
-        "nl": "thesis title"
-      },
-      "label": {
-        "en": "thesis title"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1caa9eb6]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Title of the dissertation completed by a student as part of a tertiary education degree."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1328,16 +1004,10 @@
     },
     {
       "uri": "https://sdg.semic.eutotalCredits",
-      "name": {
-        "nl": "total credits"
-      },
-      "label": {
-        "en": "total credits"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2fcd7d3f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Total student workload required, described in terms of ECTS credits."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euRecordOfResultsEvidence"
@@ -1347,16 +1017,10 @@
     },
     {
       "uri": "https://sdg.semic.eutotalCredits",
-      "name": {
-        "nl": "total credits"
-      },
-      "label": {
-        "en": "total credits"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2fcd7d3f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Total student workload required, described in terms of ECTS credits."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euRecordOfResultsEvidence"
@@ -1366,16 +1030,10 @@
     },
     {
       "uri": "https://sdg.semic.euvalue",
-      "name": {
-        "nl": "value"
-      },
-      "label": {
-        "en": "value"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27e7c77f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A (quantitative or qualitative) value according to the definition in the grading scheme."
-      },
+      "description": {},
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"

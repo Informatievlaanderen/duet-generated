@@ -20,7 +20,7 @@
   "classes": [
     {
       "uri": "http://fixme.com#Agent",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},
@@ -30,28 +30,18 @@
     },
     {
       "uri": "http://fixme.com#Concept",
-      "name": {
-        "nl": "RequirementConcept"
-      },
-      "label": {
-        "en": "RequirementConcept"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6a2c717f]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-      },
+      "description": {},
       "usage": {},
       "parents": [],
       "properties": [
         {
           "uri": "http://fixme.com#cbc:description",
-          "name": {
-            "nl": "description"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7d7cac8]",
           "sort": "undefined name",
-          "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -66,13 +56,9 @@
         },
         {
           "uri": "http://fixme.com#cbc:id",
-          "name": {
-            "nl": "identifier"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7da39774]",
           "sort": "undefined name",
-          "description": {
-            "en": "An unambiguous reference to RequirementConcept"
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -87,13 +73,9 @@
         },
         {
           "uri": "http://fixme.com#cbc:name",
-          "name": {
-            "nl": "name"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5349b246]",
           "sort": "undefined name",
-          "description": {
-            "en": "A name to identify in common language the RequirementConcept"
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -108,13 +90,9 @@
         },
         {
           "uri": "http://fixme.com#cbc:type",
-          "name": {
-            "nl": "type"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2aaf152b]",
           "sort": "undefined name",
-          "description": {
-            "en": "a classification of the RequirementConcept"
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -129,13 +107,9 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasConstraint",
-          "name": {
-            "nl": "has Constraint"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@79a7bfbc]",
           "sort": "undefined name",
-          "description": {
-            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -165,19 +139,11 @@
     },
     {
       "uri": "http://fixme.com#Constraint",
-      "name": {
-        "nl": "Constraint"
-      },
-      "label": {
-        "en": "Constraint"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@41853299]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
-      },
-      "usage": {
-        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
-      },
+      "description": {},
+      "usage": {},
       "parents": [
         {
           "name": "Requirement",
@@ -191,19 +157,11 @@
     },
     {
       "uri": "http://fixme.com#Criterion",
-      "name": {
-        "nl": "Criterion"
-      },
-      "label": {
-        "en": "Criterion"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@60d40ff4]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "condition for evaluation or assessment."
-      },
-      "usage": {
-        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
-      },
+      "description": {},
+      "usage": {},
       "parents": [
         {
           "name": "Requirement",
@@ -216,13 +174,9 @@
       "properties": [
         {
           "uri": "http://fixme.com#cccev:bias",
-          "name": {
-            "nl": "bias"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27fe9713]",
           "sort": "undefined name",
-          "description": {
-            "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -237,13 +191,9 @@
         },
         {
           "uri": "http://fixme.com#cccev:weight",
-          "name": {
-            "nl": "weight"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@56399b9e]",
           "sort": "undefined name",
-          "description": {
-            "en": "Relative importance assigned to a given criterion."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -258,13 +208,9 @@
         },
         {
           "uri": "http://fixme.com#cccev:weightingConsiderationDescription",
-          "name": {
-            "nl": "weighting consideration description"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@34b9eb03]",
           "sort": "undefined name",
-          "description": {
-            "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -279,13 +225,9 @@
         },
         {
           "uri": "http://fixme.com#cccev:weightingType",
-          "name": {
-            "nl": "weighting type"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@43fda8d9]",
           "sort": "undefined name",
-          "description": {
-            "en": "The numeric form used to weight."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -302,12 +244,8 @@
     },
     {
       "uri": "http://fixme.com#Dataset",
-      "name": {
-        "nl": "Dataset"
-      },
-      "label": {
-        "en": "Dataset"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e5b7fba]",
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -315,7 +253,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#dcat:distribution",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -345,7 +283,7 @@
         },
         {
           "uri": "http://fixme.com#dct:description",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -362,7 +300,7 @@
         },
         {
           "uri": "http://fixme.com#dct:identifier",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -379,7 +317,7 @@
         },
         {
           "uri": "http://fixme.com#dct:issued",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -396,7 +334,7 @@
         },
         {
           "uri": "http://fixme.com#dct:modified",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -413,7 +351,7 @@
         },
         {
           "uri": "http://fixme.com#dct:title",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -430,7 +368,7 @@
         },
         {
           "uri": "http://fixme.com#dct:type",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -449,12 +387,8 @@
     },
     {
       "uri": "http://fixme.com#Distribution",
-      "name": {
-        "nl": "Distribution"
-      },
-      "label": {
-        "en": "Distribution"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27755487]",
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -462,7 +396,7 @@
       "properties": [
         {
           "uri": "http://fixme.com#dcat:downloadURL",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -479,7 +413,7 @@
         },
         {
           "uri": "http://fixme.com#dct:issued",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -511,16 +445,10 @@
     },
     {
       "uri": "http://fixme.com#Evidence",
-      "name": {
-        "nl": "Evidence"
-      },
-      "label": {
-        "en": "Evidence"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4f0cab0a]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "The data proving that a requirement is met or has been fulfilled."
-      },
+      "description": {},
       "usage": {},
       "parents": [
         {
@@ -534,13 +462,9 @@
       "properties": [
         {
           "uri": "http://fixme.com#cccev:confidentialityLevelType",
-          "name": {
-            "nl": "confidentiality level type"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@11c3ff67]",
           "sort": "undefined name",
-          "description": {
-            "en": "The security classification assigned to an Evidence or, in general, to a content."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -555,7 +479,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isConformantTo",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -585,7 +509,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:supports",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -615,7 +539,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:supports",
-          "name": {},
+          "name": "[]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -647,16 +571,10 @@
     },
     {
       "uri": "http://fixme.com#EvidenceType",
-      "name": {
-        "nl": "Evidence type"
-      },
-      "label": {
-        "en": "Evidence type"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@fe7b6b0]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
-      },
+      "description": {},
       "usage": {},
       "parents": [
         {
@@ -670,13 +588,9 @@
       "properties": [
         {
           "uri": "http://fixme.com#cccev:datasetType",
-          "name": {
-            "nl": "dataset type"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4397a639]",
           "sort": "undefined name",
-          "description": {
-            "en": "A classification code use to specify the machine-readability of a content."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -691,13 +605,9 @@
         },
         {
           "uri": "http://fixme.com#cccev:evidenceTypeClassification",
-          "name": {
-            "nl": "evidence type classification"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@24841372]",
           "sort": "undefined name",
-          "description": {
-            "en": "A classification code to specify the layout and content expected for an evidence."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -712,9 +622,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isSpecifiedIn",
-          "name": {
-            "nl": "is specified in"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6242ae3b]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -746,12 +654,8 @@
     },
     {
       "uri": "http://fixme.com#EvidenceTypeList",
-      "name": {
-        "nl": "Evidence Type List"
-      },
-      "label": {
-        "en": "Evidence Type List"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7ab4ae59]",
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -759,13 +663,9 @@
       "properties": [
         {
           "uri": "http://fixme.com#cbc:description",
-          "name": {
-            "nl": "description"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@306f6f1d]",
           "sort": "undefined name",
-          "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -780,13 +680,9 @@
         },
         {
           "uri": "http://fixme.com#cbc:id",
-          "name": {
-            "nl": "identifier"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@367f0121]",
           "sort": "undefined name",
-          "description": {
-            "en": "An unambiguous reference to an Evidence Type List"
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -801,13 +697,9 @@
         },
         {
           "uri": "http://fixme.com#cbc:name",
-          "name": {
-            "nl": "name"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1df1ced0]",
           "sort": "undefined name",
-          "description": {
-            "en": "A name to identify in common language the Evidence Type List"
-          },
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -822,9 +714,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:specifiesEvidenceType",
-          "name": {
-            "nl": "specifies evidence type"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65ddee5a]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -856,16 +746,10 @@
     },
     {
       "uri": "http://fixme.com#InformationRequirement",
-      "name": {
-        "nl": "Information Requirement"
-      },
-      "label": {
-        "en": "Information Requirement"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77681ce4]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A request for data that is proof of evidence or leads to the source of such a proof."
-      },
+      "description": {},
       "usage": {},
       "parents": [
         {
@@ -880,12 +764,8 @@
     },
     {
       "uri": "http://fixme.com#ReferenceFramework",
-      "name": {
-        "nl": "Reference Framework"
-      },
-      "label": {
-        "en": "Reference Framework"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5d96bdf8]",
+      "label": {},
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -902,24 +782,16 @@
     },
     {
       "uri": "http://fixme.com#Requirement",
-      "name": {
-        "nl": "Requirement"
-      },
-      "label": {
-        "en": "Requirement"
-      },
+      "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6f76c2cc]",
+      "label": {},
       "sort": "undefined name",
-      "description": {
-        "en": "A condition demanded."
-      },
+      "description": {},
       "usage": {},
       "parents": [],
       "properties": [
         {
           "uri": "http://fixme.com#cbc:description",
-          "name": {
-            "nl": "description"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6fc6deb7]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -936,9 +808,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:id",
-          "name": {
-            "nl": "identifier"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@441b8382]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -955,9 +825,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:name",
-          "name": {
-            "nl": "name"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@32b0876c]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -974,9 +842,7 @@
         },
         {
           "uri": "http://fixme.com#cbc:type",
-          "name": {
-            "nl": "type"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@39bbd9e0]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -993,9 +859,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasConcept",
-          "name": {
-            "nl": "has concept"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77114efe]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1025,9 +889,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
-          "name": {
-            "nl": "has evidence type combination"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77f68df]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1057,9 +919,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasRequirement",
-          "name": {
-            "nl": "has requirement"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3e4e4c1]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1089,9 +949,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:hasSupportingEvidence",
-          "name": {
-            "nl": "has supporting evidence"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e7f3cfd]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1121,9 +979,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isDerivedFrom",
-          "name": {
-            "nl": "is derived from"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3ae126d1]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1153,9 +1009,7 @@
         },
         {
           "uri": "http://fixme.com#cccev:isRequirementOf",
-          "name": {
-            "nl": "is requirement of"
-          },
+          "name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@46a488c2]",
           "sort": "undefined name",
           "description": {},
           "usage": {},
@@ -1187,7 +1041,7 @@
     },
     {
       "uri": "http://fixme.com#Standard",
-      "name": {},
+      "name": "[]",
       "label": {},
       "sort": "undefined name",
       "description": {},

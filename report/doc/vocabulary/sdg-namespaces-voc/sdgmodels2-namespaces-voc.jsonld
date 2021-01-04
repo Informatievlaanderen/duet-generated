@@ -52,8 +52,7 @@
       "@reverse": "rdfs:isDefinedBy"
       },
     "name": {
-      "@id": "rdfs:label",
-      "@container": "@language"
+      "@id": "rdfs:label"
     },
     "properties": {
       "@reverse": "rdfs:isDefinedBy"
@@ -124,8 +123,7 @@
 "label-en" : {"en": "Address", "en": "Address"}, "definition-en" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "definition" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "label" : {"en": "Address"},
 "extra": {"EA-Name" : "Address", "EA-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Address", "definition" : "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "usage" : "", "label-en" : "Address", "definition-en" : "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "usageNote-en" : "", "label-en" : "Address", "definition-en" : "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-en", "value": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "note": "null" }, { "key": "label-en", "value": "Address", "note": "null" }], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "Address", "en": "Address"}, "definition-en" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "definition" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "label" : {"en": "Address"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-"nl": "Address"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@de8039f]",
 "parents": [
 ]
 },
@@ -135,8 +133,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "CourseResult", "EA-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -146,8 +143,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "EducationInstitution", "EA-Guid" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "Organisation", "EA-Parents2" : [{ "name": "Organisation", "label" : "", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euOrganisation" }], "parentclasses" : "https://sdg.semic.euOrganisation", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 "https://sdg.semic.euOrganisation"]
 },
@@ -157,8 +153,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Grade", "EA-Guid" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "DATATYPE", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -168,8 +163,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Location", "EA-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -179,8 +173,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Organisation", "EA-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -190,8 +183,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Person", "EA-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -201,8 +193,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "RecordOfResultsEvidence", "EA-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -212,8 +203,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Student", "EA-Guid" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "Person", "EA-Parents2" : [{ "name": "Person", "label" : "", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euPerson" }], "parentclasses" : "https://sdg.semic.euPerson", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 "https://sdg.semic.euPerson"]
 },
@@ -223,8 +213,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "TertiaryEducationEvidence", "EA-Parents2" : [{ "name": "TertiaryEducationEvidence", "label" : "", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationEvidence" }], "parentclasses" : "https://sdg.semic.euTertiaryEducationEvidence", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 "https://sdg.semic.euTertiaryEducationEvidence"]
 },
@@ -234,8 +223,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 },
@@ -245,8 +233,7 @@
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "TertiaryEducationEvidence", "EA-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": {
-},
+"name": "[]",
 "parents": [
 ]
 }
@@ -255,8 +242,7 @@
 {
 "@id": "https://sdg.semic.euAddress.address",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "address", "EA-Guid" : "{5926C985-4343-4b32-B503-096E02B2D978}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "address", "destRole" : "address", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -274,8 +260,7 @@
 , {
 "@id": "https://sdg.semic.euAddress.registeredAddress",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "registeredAddress", "EA-Guid" : "{3E0C0FF3-100E-4853-9AC9-84AF5B270FBC}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Person", "RangeData" : {"EA-Name" : "Person", "EA-GUID" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euPerson" }, "sourceRole" : "registeredAddress", "destRole" : "registeredAddress", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -293,8 +278,7 @@
 , {
 "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "obtainedAt", "EA-Guid" : "{F6E3A3A6-5062-40f5-886B-F9092E967CB1}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EducationInstitution", "EA-Domain-Guid" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Range" : "TertiaryEducationEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationEvidence", "EA-GUID" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationEvidence" }, "sourceRole" : "obtainedAt", "destRole" : "obtainedAt", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -312,8 +296,7 @@
 , {
 "@id": "https://sdg.semic.euLocation.address",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "address", "EA-Guid" : "{5926C985-4343-4b32-B503-096E02B2D978}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Location", "EA-Domain-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Range" : "Address", "RangeData" : {"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euAddress" }, "sourceRole" : "address", "destRole" : "address", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -331,8 +314,7 @@
 , {
 "@id": "https://sdg.semic.euPerson.registeredAddress",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "registeredAddress", "EA-Guid" : "{3E0C0FF3-100E-4853-9AC9-84AF5B270FBC}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Address", "RangeData" : {"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euAddress" }, "sourceRole" : "registeredAddress", "destRole" : "registeredAddress", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -350,8 +332,7 @@
 , {
 "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "hasRecordofResults", "EA-Guid" : "{95DD41BE-FDA7-4d5d-9914-9FEA887813CD}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "TertiaryEducationDiplomaSupplementEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence" }, "sourceRole" : "hasRecordofResults", "destRole" : "hasRecordofResults", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -369,8 +350,7 @@
 , {
 "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "hasSupplement", "EA-Guid" : "{5D48CA5A-A18F-4a13-B70F-105112AB8628}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "TertiaryEducationDiplomaSupplementEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence" }, "sourceRole" : "hasSupplement", "destRole" : "hasSupplement", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -388,8 +368,7 @@
 , {
 "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "hasRecordofResults", "EA-Guid" : "{95DD41BE-FDA7-4d5d-9914-9FEA887813CD}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "RecordOfResultsEvidence", "RangeData" : {"EA-Name" : "RecordOfResultsEvidence", "EA-GUID" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euRecordOfResultsEvidence" }, "sourceRole" : "hasRecordofResults", "destRole" : "hasRecordofResults", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -407,8 +386,7 @@
 , {
 "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "hasSupplement", "EA-Guid" : "{5D48CA5A-A18F-4a13-B70F-105112AB8628}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "TertiaryEducationDiplomaEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-GUID" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaEvidence" }, "sourceRole" : "hasSupplement", "destRole" : "hasSupplement", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -426,8 +404,7 @@
 , {
 "@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "obtainedAt", "EA-Guid" : "{F6E3A3A6-5062-40f5-886B-F9092E967CB1}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "EducationInstitution", "RangeData" : {"EA-Name" : "EducationInstitution", "EA-GUID" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euEducationInstitution" }, "sourceRole" : "obtainedAt", "destRole" : "obtainedAt", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -445,8 +422,7 @@
 , {
 "@id": "https://sdg.semic.euacademicProgramme",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "academicProgramme", "EA-Guid" : "{4279CC49-EBF2-4d5c-8027-2E8C0E559DB1}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -466,8 +442,7 @@
 , {
 "@id": "https://sdg.semic.euacademicProgrammeLanguage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "academicProgrammeLanguage", "EA-Guid" : "{D534B9C8-B3AD-42af-968C-F49F2F8F430F}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -487,8 +462,7 @@
 , {
 "@id": "https://sdg.semic.euacademicYear",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "academicYear", "EA-Guid" : "{3062C5AC-C5AC-4cda-A4B7-1D63A2172B2A}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "Period", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -508,8 +482,7 @@
 , {
 "@id": "https://sdg.semic.euacademicYear",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "academicYear", "EA-Guid" : "{8198B4A4-7963-43b2-A964-50FFE891772E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Period", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -529,8 +502,7 @@
 , {
 "@id": "https://sdg.semic.euaccessRequirement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "accessRequirement", "EA-Guid" : "{E7CB26B6-E4B3-429e-8269-51C75E16A7D4}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -550,8 +522,7 @@
 , {
 "@id": "https://sdg.semic.euaccessToFurtherStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "accessToFurtherStudy", "EA-Guid" : "{A153CB9F-ED2B-41e1-99FE-7F1A035F9C82}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -571,8 +542,7 @@
 , {
 "@id": "https://sdg.semic.euaccessToRegulatedProfession",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "accessToRegulatedProfession", "EA-Guid" : "{D3489BF8-AB24-4f1d-ADE7-2D0B68B80144}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -592,8 +562,7 @@
 , {
 "@id": "https://sdg.semic.euadminUnitL1",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "Admin unit Level 1"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1deceb67]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "Admin unit Level 1", "en": "Admin unit Level 1"}, "definition-en" : {"en": "The uppermost administrative unit for the address, almost always a country.", "en": "The uppermost administrative unit for the address, almost always a country."}, "definition" : {"en": "The uppermost administrative unit for the address, almost always a country."}, "label" : {"en": "Admin unit Level 1"},
 "extra": {"EA-Name" : "adminUnitL1", "EA-Guid" : "{210F4DB4-6A44-4448-B075-7534773804D9}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "Admin unit Level 1", "definition" : "The uppermost administrative unit for the address, almost always a country.", "usage" : "", "label-en" : "Admin unit Level 1", "definition-en" : "The uppermost administrative unit for the address, almost always a country.", "usageNote-en" : "", "label-en" : "Admin unit Level 1", "definition-en" : "The uppermost administrative unit for the address, almost always a country.", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "label-en", "value": "Admin unit Level 1", "note": "null" }, { "key": "definition-en", "value": "The uppermost administrative unit for the address, almost always a country.", "note": "null" }, { "key": "ap-codelist", "value": "http:\/\/publications.europa.eu\/resource\/authority\/country", "note": "null" }], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "Admin unit Level 1", "en": "Admin unit Level 1"}, "definition-en" : {"en": "The uppermost administrative unit for the address, almost always a country.", "en": "The uppermost administrative unit for the address, almost always a country."}, "definition" : {"en": "The uppermost administrative unit for the address, almost always a country."}, "label" : {"en": "Admin unit Level 1"}},
@@ -613,8 +582,7 @@
 , {
 "@id": "https://sdg.semic.euadminUnitL2",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "admin unit Level 2"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@582a764a]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "admin unit Level 2", "en": "admin unit Level 2"}, "definition-en" : {"en": "TODO"}, "label" : {"en": "admin unit Level 2"},
 "extra": {"EA-Name" : "adminUnitL2", "EA-Guid" : "{508216C7-C8DD-4af3-956D-87C42456B246}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "admin unit Level 2", "definition" : "", "usage" : "", "label-en" : "admin unit Level 2", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "admin unit Level 2", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "label-en", "value": "admin unit Level 2", "note": "null" }, { "key": "defininition-en", "value": "The region of the address, usually a county, state or other such area that typically encompasses several localities.", "note": "null" }], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "admin unit Level 2", "en": "admin unit Level 2"}, "definition-en" : {"en": "TODO"}, "label" : {"en": "admin unit Level 2"}},
@@ -634,8 +602,7 @@
 , {
 "@id": "https://sdg.semic.eubelongsTo",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "belongsTo", "EA-Guid" : "{82BBFD56-5AE6-4314-AEF0-82118A4480DC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Student", "RangeData" : {"EA-Name" : "Student", "EA-GUID" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euStudent" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -655,8 +622,7 @@
 , {
 "@id": "https://sdg.semic.eucontains",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "contains", "EA-Guid" : "{E5A3B746-DC8D-4553-A934-2F3CCA4A29EC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "CourseResult", "RangeData" : {"EA-Name" : "CourseResult", "EA-GUID" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euCourseResult" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -676,8 +642,7 @@
 , {
 "@id": "https://sdg.semic.eucourseAcademicPeriod",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseAcademicPeriod", "EA-Guid" : "{FE077061-D2A2-4bd7-BEFA-6D141A5A2F08}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -697,8 +662,7 @@
 , {
 "@id": "https://sdg.semic.eucourseAcademicYear",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseAcademicYear", "EA-Guid" : "{EBD851C0-066A-455f-A4DC-7F8CC01BC072}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Date", "RangeData" : {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -718,8 +682,7 @@
 , {
 "@id": "https://sdg.semic.eucourseCreditsAmount",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseCreditsAmount", "EA-Guid" : "{8C6859F9-0218-4179-ADA8-04D1CE861D6F}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Float", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -739,8 +702,7 @@
 , {
 "@id": "https://sdg.semic.eucourseFieldOfStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseFieldOfStudy", "EA-Guid" : "{900CA4E1-C3FE-4a4e-B3A5-BB1400A8B354}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -760,8 +722,7 @@
 , {
 "@id": "https://sdg.semic.eucourseGrade",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseGrade", "EA-Guid" : "{E245180B-82DA-4441-BAB4-9EFBDACBAE6B}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -781,8 +742,7 @@
 , {
 "@id": "https://sdg.semic.eucourseLanguage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseLanguage", "EA-Guid" : "{47B9F51E-5599-44d1-889E-8E720278765B}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -802,8 +762,7 @@
 , {
 "@id": "https://sdg.semic.eucourseName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "courseName", "EA-Guid" : "{A2EF0DA1-C95D-47db-8E48-C236C9EA064C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -823,8 +782,7 @@
 , {
 "@id": "https://sdg.semic.eudateOfBirth",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dateOfBirth", "EA-Guid" : "{D44B7962-B473-4663-BCD7-58AB443FED6B}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Date", "RangeData" : {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -844,8 +802,7 @@
 , {
 "@id": "https://sdg.semic.eudistribution",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "distribution", "EA-Guid" : "{31778723-59E7-4054-9531-AFEEEDF6BE8A}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Grade", "EA-Domain-Guid" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -865,8 +822,7 @@
 , {
 "@id": "https://sdg.semic.eufamilyName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "familyName", "EA-Guid" : "{D435F452-58A9-4897-B413-F9A5C8420DC0}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -886,8 +842,7 @@
 , {
 "@id": "https://sdg.semic.eufullAddress",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "full address"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@64984b0f]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "full address", "en": "full address"}, "definition-en" : {"en": " \tThe complete address written as a string, with or without formatting.", "en": " \tThe complete address written as a string, with or without formatting."}, "definition" : {"en": " \tThe complete address written as a string, with or without formatting."}, "label" : {"en": "full address"},
 "extra": {"EA-Name" : "fullAddress", "EA-Guid" : "{3184E7E1-79CB-438e-A7AD-1EA9CE3A3A0B}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "full address", "definition" : " \tThe complete address written as a string, with or without formatting.", "usage" : "", "label-en" : "full address", "definition-en" : " \tThe complete address written as a string, with or without formatting.", "usageNote-en" : "", "label-en" : "full address", "definition-en" : " \tThe complete address written as a string, with or without formatting.", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "label-en", "value": "full address", "note": "null" }, { "key": "definition-en", "value": " \tThe complete address written as a string, with or without formatting.", "note": "null" }], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "full address", "en": "full address"}, "definition-en" : {"en": " \tThe complete address written as a string, with or without formatting.", "en": " \tThe complete address written as a string, with or without formatting."}, "definition" : {"en": " \tThe complete address written as a string, with or without formatting."}, "label" : {"en": "full address"}},
@@ -907,8 +862,7 @@
 , {
 "@id": "https://sdg.semic.eugeographicIdentifier",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "geographicIdentifier", "EA-Guid" : "{B87F96DC-E1E1-4dec-989B-BB96EC43FFC9}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Location", "EA-Domain-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Range" : "URI", "RangeData" : {"EA-Name" : "URI", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#anyURI" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -928,8 +882,7 @@
 , {
 "@id": "https://sdg.semic.eugeographicName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "geographicName", "EA-Guid" : "{2AB877D2-EDB0-4ff9-9A09-1E5B478199AA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Location", "EA-Domain-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -949,8 +902,7 @@
 , {
 "@id": "https://sdg.semic.eugivenName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "givenName", "EA-Guid" : "{E7B0FF78-7B68-4845-B737-E77B44D83A01}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -970,8 +922,7 @@
 , {
 "@id": "https://sdg.semic.eugradePointAverage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "gradePointAverage", "EA-Guid" : "{317FFB0C-6F66-4a3a-99B1-46B74080E821}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -991,8 +942,7 @@
 , {
 "@id": "https://sdg.semic.eugradingScheme",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "gradingScheme", "EA-Guid" : "{4C67F609-37E4-4c47-A44F-1E35A04E4C3D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Grade", "EA-Domain-Guid" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Range" : "URI", "RangeData" : {"EA-Name" : "URI", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#anyURI" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1012,8 +962,7 @@
 , {
 "@id": "https://sdg.semic.euidentifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "identifier", "EA-Guid" : "{5F69A350-8FD6-4d5c-BF9F-16A6050DAC57}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Organisation", "EA-Domain-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Range" : "Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1033,8 +982,7 @@
 , {
 "@id": "https://sdg.semic.euidentifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "identifier", "EA-Guid" : "{4A65823A-D9CA-462a-B23D-69858125F8E1}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1054,8 +1002,7 @@
 , {
 "@id": "https://sdg.semic.euidentifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "identifier", "EA-Guid" : "{39E82C1C-9C2A-4572-BA24-3C515E711C70}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1075,8 +1022,7 @@
 , {
 "@id": "https://sdg.semic.euissuingAuthority",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "issuingAuthority", "EA-Guid" : "{18703A9E-DD8D-4972-9E41-DEAE0A5C580C}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Organisation", "RangeData" : {"EA-Name" : "Organisation", "EA-GUID" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euOrganisation" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1096,8 +1042,7 @@
 , {
 "@id": "https://sdg.semic.euissuingDate",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "issuingDate", "EA-Guid" : "{DBF93EFD-F24F-4e13-88F8-FD2C1A58760A}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Date", "RangeData" : {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1117,8 +1062,7 @@
 , {
 "@id": "https://sdg.semic.euissuingPlace",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "issuingPlace", "EA-Guid" : "{B9A90168-9165-4679-BCF5-AF07020094A2}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1138,8 +1082,7 @@
 , {
 "@id": "https://sdg.semic.eulanguage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "language", "EA-Guid" : "{0CF94592-7AAE-4198-A72F-62BC906A23C9}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1159,8 +1102,7 @@
 , {
 "@id": "https://sdg.semic.eulanguageOfInstruction",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "languageOfInstruction", "EA-Guid" : "{81C657F5-96F4-4cc8-8B29-28F549AC157E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1180,8 +1122,7 @@
 , {
 "@id": "https://sdg.semic.eulevelOfDistinction",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "levelOfDistinction", "EA-Guid" : "{8BB4BE70-37B4-41e3-BDE4-9A62C8DF77D5}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1201,8 +1142,7 @@
 , {
 "@id": "https://sdg.semic.eumainFieldOfStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "mainFieldOfStudy", "EA-Guid" : "{C9E449A7-2BE6-4981-BECE-6EA0324C928C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1222,8 +1162,7 @@
 , {
 "@id": "https://sdg.semic.eumodeOfStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "modeOfStudy", "EA-Guid" : "{359E02E1-4252-43b6-879C-FEBEABDEB273}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1243,8 +1182,7 @@
 , {
 "@id": "https://sdg.semic.euoverallGrade",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "overallGrade", "EA-Guid" : "{46CE49E3-25B3-432e-B0F5-C5A932F83D05}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1264,8 +1202,7 @@
 , {
 "@id": "https://sdg.semic.euplaceOfBirth",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "placeOfBirth", "EA-Guid" : "{FF2D53B9-EA6F-43b3-A3E1-4E1A4C8875E4}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1285,8 +1222,7 @@
 , {
 "@id": "https://sdg.semic.euprefLabel",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "prefLabel", "EA-Guid" : "{9BED9A25-48D8-48ec-A65C-E4A5B4A2C3A2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Organisation", "EA-Domain-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1306,8 +1242,7 @@
 , {
 "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "programmeLearningOutcomes", "EA-Guid" : "{54A16E7D-C4F5-4e74-A941-62898D2FD9FB}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1327,8 +1262,7 @@
 , {
 "@id": "https://sdg.semic.euqualificationLevel",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "qualificationLevel", "EA-Guid" : "{609A6625-2473-4c1e-BE63-AF6B5B21A95D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1348,8 +1282,7 @@
 , {
 "@id": "https://sdg.semic.euqualificationName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "qualificationName", "EA-Guid" : "{882A5060-6345-43b4-97F3-6889AFAFDBC6}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1369,8 +1302,7 @@
 , {
 "@id": "https://sdg.semic.euregisteredLocation",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "registeredLocation", "EA-Guid" : "{448F1D9B-E147-4763-AF4D-DB7B46DF9204}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Organisation", "EA-Domain-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1390,8 +1322,7 @@
 , {
 "@id": "https://sdg.semic.eusex",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "sex", "EA-Guid" : "{08599739-CBA2-4d8a-BE8B-A909B3197804}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1411,8 +1342,7 @@
 , {
 "@id": "https://sdg.semic.eustatus",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "status", "EA-Guid" : "{549C5864-44D6-4cf8-AB05-16B77610C51D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Grade", "EA-Domain-Guid" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1432,8 +1362,7 @@
 , {
 "@id": "https://sdg.semic.eustudentID",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "studentID", "EA-Guid" : "{F6E055C8-2D5B-43da-ACDD-870C6F5C3636}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Student", "EA-Domain-Guid" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Range" : "Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1453,8 +1382,7 @@
 , {
 "@id": "https://sdg.semic.eustudyDuration",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "studyDuration", "EA-Guid" : "{509C4D00-EB76-4c60-B293-8238ECC124EB}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Float", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1474,8 +1402,7 @@
 , {
 "@id": "https://sdg.semic.euthesisTitle",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "thesisTitle", "EA-Guid" : "{61561B61-257A-4f9e-BAD8-5E1F70F4A177}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1495,8 +1422,7 @@
 , {
 "@id": "https://sdg.semic.eutotalCredits",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "totalCredits", "EA-Guid" : "{65D4DC27-A34E-4ee5-895F-3FC782050D5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "Float", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1516,8 +1442,7 @@
 , {
 "@id": "https://sdg.semic.eutotalCredits",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "totalCredits", "EA-Guid" : "{54CE9152-EE57-4bfa-87A3-80A798F2897C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Float", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},
@@ -1537,8 +1462,7 @@
 , {
 "@id": "https://sdg.semic.euvalue",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "ACTIVE_PACKAGE",
 "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "value", "EA-Guid" : "{EE411CCC-C390-4e7c-9A2B-26C73759465A}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "Grade", "EA-Domain-Guid" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Range" : "Literal", "RangeData" : {"EA-Name" : "Literal", "EA-Package" : "", "uri" : "http://www.w3.org/2000/01/rdf-schema#Literal" }, "label" : "", "definition" : "", "usage" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "label-en" : "TODO", "definition-en" : "TODO", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "label-en" : {"en": "TODO"}, "definition-en" : {"en": "TODO"}},

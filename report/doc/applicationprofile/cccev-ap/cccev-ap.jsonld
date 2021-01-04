@@ -52,8 +52,7 @@
       "@reverse": "rdfs:isDefinedBy"
       },
     "name": {
-      "@id": "rdfs:label",
-      "@container": "@language"
+      "@id": "rdfs:label"
     },
     "properties": {
       "@reverse": "rdfs:isDefinedBy"
@@ -129,8 +128,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Agent", "EA-Guid" : "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}", "EA-Package" : "foaf", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"name": {
-}
+"name": "[]"
 }
 , {
 "@id": "http://fixme.com#Concept",
@@ -138,8 +136,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"}, "ap-label-en" : {"en": "RequirementConcept"}, "definition" : {"en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"}, "label" : {"en": "RequirementConcept"},
 "extra": {"EA-Name" : "Concept", "EA-Guid" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "RequirementConcept", "definition" : "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement", "usage" : "", "ap-label-en" : "RequirementConcept", "ap-definition-en" : "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "RequirementConcept", "note": "null" }, { "key": "definition-en", "value": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"}, "ap-label-en" : {"en": "RequirementConcept"}, "definition" : {"en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"}, "label" : {"en": "RequirementConcept"}},
-"name": {
-"nl": "RequirementConcept"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6a2c717f]"
 }
 , {
 "@id": "http://fixme.com#Constraint",
@@ -147,8 +144,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."}, "usage" : {"en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."}, "ap-label-en" : {"en": "Constraint"}, "definition" : {"en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."}, "label" : {"en": "Constraint"},
 "extra": {"EA-Name" : "Constraint", "EA-Guid" : "{D5E840D1-63A4-42a8-B3B6-376316BF956F}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "Requirement", "EA-Parents2" : [{ "name": "Requirement", "label" : "Requirement", "package" : "CCCEV_v2", "uri" : "http://fixme.com#Requirement" }], "parentclasses" : "http://fixme.com#Requirement", "label" : "Constraint", "definition" : "Limitation applied to requirement(s) or to the concept(s) the requirement is about.", "usage" : "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates.", "ap-label-en" : "Constraint", "ap-definition-en" : "Limitation applied to requirement(s) or to the concept(s) the requirement is about.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Constraint", "note": "null" }, { "key": "definition-en", "value": "Limitation applied to requirement(s) or to the concept(s) the requirement is about.", "note": "null" }, { "key": "usageNote-en", "value": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."}, "usage" : {"en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."}, "ap-label-en" : {"en": "Constraint"}, "definition" : {"en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."}, "label" : {"en": "Constraint"}},
-"name": {
-"nl": "Constraint"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@41853299]"
 }
 , {
 "@id": "http://fixme.com#Criterion",
@@ -156,8 +152,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "condition for evaluation or assessment."}, "usage" : {"en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."}, "ap-label-en" : {"en": "Criterion"}, "definition" : {"en": "condition for evaluation or assessment."}, "label" : {"en": "Criterion"},
 "extra": {"EA-Name" : "Criterion", "EA-Guid" : "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "Requirement", "EA-Parents2" : [{ "name": "Requirement", "label" : "Requirement", "package" : "CCCEV_v2", "uri" : "http://fixme.com#Requirement" }], "parentclasses" : "http://fixme.com#Requirement", "label" : "Criterion", "definition" : "condition for evaluation or assessment.", "usage" : "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences.", "ap-label-en" : "Criterion", "ap-definition-en" : "condition for evaluation or assessment.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Criterion", "note": "null" }, { "key": "definition-en", "value": "condition for evaluation or assessment.", "note": "null" }, { "key": "usageNote-en", "value": "NOTE", "note": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences." }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "condition for evaluation or assessment."}, "usage" : {"en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."}, "ap-label-en" : {"en": "Criterion"}, "definition" : {"en": "condition for evaluation or assessment."}, "label" : {"en": "Criterion"}},
-"name": {
-"nl": "Criterion"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@60d40ff4]"
 }
 , {
 "@id": "http://fixme.com#Dataset",
@@ -165,8 +160,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Dataset"}, "label" : {"en": "Dataset"},
 "extra": {"EA-Name" : "Dataset", "EA-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Package" : "dcat", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Dataset", "definition" : "", "usage" : "", "ap-label-en" : "Dataset", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Dataset", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Dataset"}, "label" : {"en": "Dataset"}},
-"name": {
-"nl": "Dataset"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2e5b7fba]"
 }
 , {
 "@id": "http://fixme.com#Distribution",
@@ -174,8 +168,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Distribution"}, "label" : {"en": "Distribution"},
 "extra": {"EA-Name" : "Distribution", "EA-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Distribution", "definition" : "", "usage" : "", "ap-label-en" : "Distribution", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Distribution", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Distribution"}, "label" : {"en": "Distribution"}},
-"name": {
-"nl": "Distribution"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27755487]"
 }
 , {
 "@id": "http://fixme.com#Evidence",
@@ -183,8 +176,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "ap-label-en" : {"en": "Evidence"}, "definition" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "label" : {"en": "Evidence"},
 "extra": {"EA-Name" : "Evidence", "EA-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "Dataset", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://fixme.com#Dataset" }], "parentclasses" : "http://fixme.com#Dataset", "label" : "Evidence", "definition" : "The data proving that a requirement is met or has been fulfilled.", "usage" : "", "ap-label-en" : "Evidence", "ap-definition-en" : "The data proving that a requirement is met or has been fulfilled.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence", "note": "null" }, { "key": "definition-en", "value": "The data proving that a requirement is met or has been fulfilled.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "ap-label-en" : {"en": "Evidence"}, "definition" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "label" : {"en": "Evidence"}},
-"name": {
-"nl": "Evidence"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4f0cab0a]"
 }
 , {
 "@id": "http://fixme.com#EvidenceType",
@@ -192,8 +184,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "ap-label-en" : {"en": "Evidence type"}, "definition" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "label" : {"en": "Evidence type"},
 "extra": {"EA-Name" : "EvidenceType", "EA-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://fixme.com#Dataset" }], "parentclasses" : "http://fixme.com#Dataset", "label" : "Evidence type", "definition" : "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "usage" : "", "ap-label-en" : "Evidence type", "ap-definition-en" : "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence type", "note": "null" }, { "key": "definition-en", "value": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "ap-label-en" : {"en": "Evidence type"}, "definition" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "label" : {"en": "Evidence type"}},
-"name": {
-"nl": "Evidence type"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@fe7b6b0]"
 }
 , {
 "@id": "http://fixme.com#EvidenceTypeList",
@@ -201,8 +192,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Evidence Type List"}, "label" : {"en": "Evidence Type List"},
 "extra": {"EA-Name" : "EvidenceTypeList", "EA-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Evidence Type List", "definition" : "", "usage" : "", "ap-label-en" : "Evidence Type List", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence Type List", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Evidence Type List"}, "label" : {"en": "Evidence Type List"}},
-"name": {
-"nl": "Evidence Type List"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7ab4ae59]"
 }
 , {
 "@id": "http://fixme.com#InformationRequirement",
@@ -210,8 +200,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A request for data that is proof of evidence or leads to the source of such a proof."}, "ap-label-en" : {"en": "Information Requirement"}, "definition" : {"en": "A request for data that is proof of evidence or leads to the source of such a proof."}, "label" : {"en": "Information Requirement"},
 "extra": {"EA-Name" : "InformationRequirement", "EA-Guid" : "{2A688AB9-5233-4408-BEBF-E8344D7ADDA1}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "Requirement", "EA-Parents2" : [{ "name": "Requirement", "label" : "Requirement", "package" : "CCCEV_v2", "uri" : "http://fixme.com#Requirement" }], "parentclasses" : "http://fixme.com#Requirement", "label" : "Information Requirement", "definition" : "A request for data that is proof of evidence or leads to the source of such a proof.", "usage" : "", "ap-label-en" : "Information Requirement", "ap-definition-en" : "A request for data that is proof of evidence or leads to the source of such a proof.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Information Requirement", "note": "null" }, { "key": "definition-en", "value": "A request for data that is proof of evidence or leads to the source of such a proof.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A request for data that is proof of evidence or leads to the source of such a proof."}, "ap-label-en" : {"en": "Information Requirement"}, "definition" : {"en": "A request for data that is proof of evidence or leads to the source of such a proof."}, "label" : {"en": "Information Requirement"}},
-"name": {
-"nl": "Information Requirement"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77681ce4]"
 }
 , {
 "@id": "http://fixme.com#ReferenceFramework",
@@ -219,8 +208,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Reference Framework"}, "label" : {"en": "Reference Framework"},
 "extra": {"EA-Name" : "ReferenceFramework", "EA-Guid" : "{785686A1-4364-47dc-8B5C-2DEE9760958E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://fixme.com#Dataset" }], "parentclasses" : "http://fixme.com#Dataset", "label" : "Reference Framework", "definition" : "", "usage" : "", "ap-label-en" : "Reference Framework", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Reference Framework", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Reference Framework"}, "label" : {"en": "Reference Framework"}},
-"name": {
-"nl": "Reference Framework"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5d96bdf8]"
 }
 , {
 "@id": "http://fixme.com#Requirement",
@@ -228,8 +216,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A condition demanded."}, "ap-label-en" : {"en": "Requirement"}, "definition" : {"en": "A condition demanded."}, "label" : {"en": "Requirement"},
 "extra": {"EA-Name" : "Requirement", "EA-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Requirement", "definition" : "A condition demanded.", "usage" : "", "ap-label-en" : "Requirement", "ap-definition-en" : "A condition demanded.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Requirement", "note": "null" }, { "key": "definition-en", "value": "A condition demanded.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A condition demanded."}, "ap-label-en" : {"en": "Requirement"}, "definition" : {"en": "A condition demanded."}, "label" : {"en": "Requirement"}},
-"name": {
-"nl": "Requirement"}
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6f76c2cc]"
 }
 , {
 "@id": "http://fixme.com#Standard",
@@ -237,8 +224,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "Standard", "EA-Guid" : "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}", "EA-Package" : "dct", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"name": {
-}
+"name": "[]"
 }
 , {
 "@id": "http://fixme.com#custom-data-type",
@@ -246,8 +232,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "custom-data-type", "EA-Guid" : "{D4E3E26B-012D-4226-8DC4-0071733BA3D2}", "EA-Package" : "CCCEV_v2", "EA-Type" : "ENUMERATION", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"name": {
-}
+"name": "[]"
 }
 , {
 "@id": "http://fixme.com#dataset-type",
@@ -255,8 +240,7 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dataset-type", "EA-Guid" : "{67407808-47FE-4ea0-8E61-DF4A0788C7C2}", "EA-Package" : "CCCEV_v2", "EA-Type" : "ENUMERATION", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"name": {
-}
+"name": "[]"
 }
 , {
 "@id": "http://fixme.com#evidence-types",
@@ -264,16 +248,14 @@
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "evidence-types", "EA-Guid" : "{A6C99A2D-6756-4da6-8AEB-C5B6E64FFBC4}", "EA-Package" : "CCCEV_v2", "EA-Type" : "ENUMERATION", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"name": {
-}
+"name": "[]"
 }
 ],
 "externalproperties": [
 {
 "@id": "http://fixme.com#cbc:description",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "description"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@306f6f1d]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."}, "ap-label-en" : {"en": "description"}, "definition" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."}, "label" : {"en": "description"},
 "extra": {"EA-Name" : "cbc:description", "EA-Guid" : "{03FFDF35-FAE3-479d-9A6E-85A015F65608}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "description", "definition" : "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.", "usage" : "", "ap-label-en" : "description", "ap-definition-en" : "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "description", "note": "null" }, { "key": "definition-en", "value": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."}, "ap-label-en" : {"en": "description"}, "definition" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."}, "label" : {"en": "description"}},
@@ -293,8 +275,7 @@
 , {
 "@id": "http://fixme.com#cbc:description",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "description"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7d7cac8]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."}, "ap-label-en" : {"en": "description"}, "definition" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."}, "label" : {"en": "description"},
 "extra": {"EA-Name" : "cbc:description", "EA-Guid" : "{07F6D632-DF1E-4ac9-906B-F19EBBA9F41D}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Concept", "EA-Domain-Guid" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "description", "definition" : "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.", "usage" : "", "ap-label-en" : "description", "ap-definition-en" : "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "description", "note": "null" }, { "key": "definition-en", "value": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."}, "ap-label-en" : {"en": "description"}, "definition" : {"en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."}, "label" : {"en": "description"}},
@@ -314,8 +295,7 @@
 , {
 "@id": "http://fixme.com#cbc:description",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "description"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6fc6deb7]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "description"}, "label" : {"en": "description"},
 "extra": {"EA-Name" : "cbc:description", "EA-Guid" : "{FA80822E-4340-4e3e-8AC3-C772BEC82A93}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "description", "definition" : "", "usage" : "", "ap-label-en" : "description", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "description", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "description"}, "label" : {"en": "description"}},
@@ -335,8 +315,7 @@
 , {
 "@id": "http://fixme.com#cbc:id",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "identifier"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@367f0121]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "An unambiguous reference to an Evidence Type List"}, "ap-label-en" : {"en": "identifier"}, "definition" : {"en": "An unambiguous reference to an Evidence Type List"}, "label" : {"en": "identifier"},
 "extra": {"EA-Name" : "cbc:id", "EA-Guid" : "{F225C3B8-CA9E-4103-B9AF-C1D547A1056E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "ccts:Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "identifier", "definition" : "An unambiguous reference to an Evidence Type List", "usage" : "", "ap-label-en" : "identifier", "ap-definition-en" : "An unambiguous reference to an Evidence Type List", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "identifier", "note": "null" }, { "key": "definition-en", "value": "An unambiguous reference to an Evidence Type List", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "An unambiguous reference to an Evidence Type List"}, "ap-label-en" : {"en": "identifier"}, "definition" : {"en": "An unambiguous reference to an Evidence Type List"}, "label" : {"en": "identifier"}},
@@ -356,8 +335,7 @@
 , {
 "@id": "http://fixme.com#cbc:id",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "identifier"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7da39774]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "An unambiguous reference to RequirementConcept"}, "ap-label-en" : {"en": "identifier"}, "definition" : {"en": "An unambiguous reference to RequirementConcept"}, "label" : {"en": "identifier"},
 "extra": {"EA-Name" : "cbc:id", "EA-Guid" : "{F925D12E-59B0-4789-97E0-22CAF715A8A3}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Concept", "EA-Domain-Guid" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Range" : "ccts:Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "identifier", "definition" : "An unambiguous reference to RequirementConcept", "usage" : "", "ap-label-en" : "identifier", "ap-definition-en" : "An unambiguous reference to RequirementConcept", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "identifier", "note": "null" }, { "key": "definition-en", "value": "An unambiguous reference to RequirementConcept", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "An unambiguous reference to RequirementConcept"}, "ap-label-en" : {"en": "identifier"}, "definition" : {"en": "An unambiguous reference to RequirementConcept"}, "label" : {"en": "identifier"}},
@@ -377,8 +355,7 @@
 , {
 "@id": "http://fixme.com#cbc:id",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "identifier"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@441b8382]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "identifier"}, "label" : {"en": "identifier"},
 "extra": {"EA-Name" : "cbc:id", "EA-Guid" : "{BB04D974-9F22-47e4-AE9B-AB9393B7AE46}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ccts:Identifier", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "identifier", "definition" : "", "usage" : "", "ap-label-en" : "identifier", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "identifier", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "identifier"}, "label" : {"en": "identifier"}},
@@ -398,8 +375,7 @@
 , {
 "@id": "http://fixme.com#cbc:name",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "name"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@1df1ced0]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A name to identify in common language the Evidence Type List"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Evidence Type List"}, "label" : {"en": "name"},
 "extra": {"EA-Name" : "cbc:name", "EA-Guid" : "{A9719DCB-5174-499e-B0F2-F996E9D8FE9E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "name", "definition" : "A name to identify in common language the Evidence Type List", "usage" : "", "ap-label-en" : "name", "ap-definition-en" : "A name to identify in common language the Evidence Type List", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "name", "note": "null" }, { "key": "definition-en", "value": "A name to identify in common language the Evidence Type List", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A name to identify in common language the Evidence Type List"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Evidence Type List"}, "label" : {"en": "name"}},
@@ -419,8 +395,7 @@
 , {
 "@id": "http://fixme.com#cbc:name",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "name"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@5349b246]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A name to identify in common language the RequirementConcept"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the RequirementConcept"}, "label" : {"en": "name"},
 "extra": {"EA-Name" : "cbc:name", "EA-Guid" : "{C509B891-2690-4f07-BA43-940D3B53EE93}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Concept", "EA-Domain-Guid" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "name", "definition" : "A name to identify in common language the RequirementConcept", "usage" : "", "ap-label-en" : "name", "ap-definition-en" : "A name to identify in common language the RequirementConcept", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "name", "note": "null" }, { "key": "definition-en", "value": "A name to identify in common language the RequirementConcept", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A name to identify in common language the RequirementConcept"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the RequirementConcept"}, "label" : {"en": "name"}},
@@ -440,8 +415,7 @@
 , {
 "@id": "http://fixme.com#cbc:name",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "name"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@32b0876c]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "name"}, "label" : {"en": "name"},
 "extra": {"EA-Name" : "cbc:name", "EA-Guid" : "{7D895646-4132-489c-BF85-A082A1977DFC}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "name", "definition" : "", "usage" : "", "ap-label-en" : "name", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "name", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "name"}, "label" : {"en": "name"}},
@@ -461,8 +435,7 @@
 , {
 "@id": "http://fixme.com#cbc:type",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "type"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@2aaf152b]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "a classification of the RequirementConcept"}, "ap-label-en" : {"en": "type"}, "definition" : {"en": "a classification of the RequirementConcept"}, "label" : {"en": "type"},
 "extra": {"EA-Name" : "cbc:type", "EA-Guid" : "{1CB00BFA-4342-4e8a-9EB1-6080BB6B62C2}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Concept", "EA-Domain-Guid" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Range" : "ccts:Code", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "type", "definition" : "a classification of the RequirementConcept", "usage" : "", "ap-label-en" : "type", "ap-definition-en" : "a classification of the RequirementConcept", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "type", "note": "null" }, { "key": "definition-en", "value": "a classification of the RequirementConcept", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "a classification of the RequirementConcept"}, "ap-label-en" : {"en": "type"}, "definition" : {"en": "a classification of the RequirementConcept"}, "label" : {"en": "type"}},
@@ -482,8 +455,7 @@
 , {
 "@id": "http://fixme.com#cbc:type",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "type"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@39bbd9e0]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "type"}, "label" : {"en": "type"},
 "extra": {"EA-Name" : "cbc:type", "EA-Guid" : "{61EFAA9B-EF81-4202-BEC9-5410B35594C6}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ccts:Code", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "type", "definition" : "", "usage" : "", "ap-label-en" : "type", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "type", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "type"}, "label" : {"en": "type"}},
@@ -503,8 +475,7 @@
 , {
 "@id": "http://fixme.com#cccev:bias",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "bias"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@27fe9713]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."}, "ap-label-en" : {"en": "bias"}, "definition" : {"en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."}, "label" : {"en": "bias"},
 "extra": {"EA-Name" : "cccev:bias", "EA-Guid" : "{ADD114A6-1007-4f52-8573-2CCDF832D5B8}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Criterion", "EA-Domain-Guid" : "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}", "EA-Range" : "ccts:Numeric", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "bias", "definition" : "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.", "usage" : "", "ap-label-en" : "bias", "ap-definition-en" : "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "bias", "note": "null" }, { "key": "definition-en", "value": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."}, "ap-label-en" : {"en": "bias"}, "definition" : {"en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."}, "label" : {"en": "bias"}},
@@ -524,8 +495,7 @@
 , {
 "@id": "http://fixme.com#cccev:confidentialityLevelType",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "confidentiality level type"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@11c3ff67]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "The security classification assigned to an Evidence or, in general, to a content."}, "ap-label-en" : {"en": "confidentiality level type"}, "definition" : {"en": "The security classification assigned to an Evidence or, in general, to a content."}, "label" : {"en": "confidentiality level type"},
 "extra": {"EA-Name" : "cccev:confidentialityLevelType", "EA-Guid" : "{44E7189D-9BB0-40d2-B88A-60EDD388FBCF}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "ccts:Code", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "confidentiality level type", "definition" : "The security classification assigned to an Evidence or, in general, to a content.", "usage" : "", "ap-label-en" : "confidentiality level type", "ap-definition-en" : "The security classification assigned to an Evidence or, in general, to a content.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "confidentiality level type", "note": "null" }, { "key": "definition-en", "value": "The security classification assigned to an Evidence or, in general, to a content.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "The security classification assigned to an Evidence or, in general, to a content."}, "ap-label-en" : {"en": "confidentiality level type"}, "definition" : {"en": "The security classification assigned to an Evidence or, in general, to a content."}, "label" : {"en": "confidentiality level type"}},
@@ -545,8 +515,7 @@
 , {
 "@id": "http://fixme.com#cccev:datasetType",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "dataset type"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@4397a639]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A classification code use to specify the machine-readability of a content."}, "ap-label-en" : {"en": "dataset type"}, "definition" : {"en": "A classification code use to specify the machine-readability of a content."}, "label" : {"en": "dataset type"},
 "extra": {"EA-Name" : "cccev:datasetType", "EA-Guid" : "{AF57E5F0-CFED-4db7-B027-F439572CCFA1}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "ccts:Code", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "dataset type", "definition" : "A classification code use to specify the machine-readability of a content.", "usage" : "", "ap-label-en" : "dataset type", "ap-definition-en" : "A classification code use to specify the machine-readability of a content.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "dataset type", "note": "null" }, { "key": "definition-en", "value": "A classification code use to specify the machine-readability of a content.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A classification code use to specify the machine-readability of a content."}, "ap-label-en" : {"en": "dataset type"}, "definition" : {"en": "A classification code use to specify the machine-readability of a content."}, "label" : {"en": "dataset type"}},
@@ -566,8 +535,7 @@
 , {
 "@id": "http://fixme.com#cccev:evidenceTypeClassification",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "evidence type classification"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@24841372]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "label" : {"en": "evidence type classification"},
 "extra": {"EA-Name" : "cccev:evidenceTypeClassification", "EA-Guid" : "{CECCCA0A-9A1F-4ee2-A7DC-8E367C11EE6D}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "ccts:Code", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "evidence type classification", "definition" : "A classification code to specify the layout and content expected for an evidence.", "usage" : "", "ap-label-en" : "evidence type classification", "ap-definition-en" : "A classification code to specify the layout and content expected for an evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "evidence type classification", "note": "null" }, { "key": "definition-en", "value": "A classification code to specify the layout and content expected for an evidence.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "label" : {"en": "evidence type classification"}},
@@ -587,8 +555,7 @@
 , {
 "@id": "http://fixme.com#cccev:hasConcept",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "has concept"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77114efe]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has concept"}, "label" : {"en": "has concept"},
 "extra": {"EA-Name" : "cccev:hasConcept", "EA-Guid" : "{939FB7ED-5B1D-4ce8-98B6-D451CA7F40F3}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Concept", "RangeData" : {"EA-Name" : "Concept", "EA-GUID" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Concept" }, "sourceRole" : "null", "destRole" : "cccev:hasConcept", "label" : "has concept", "definition" : "", "usage" : "", "ap-label-en" : "has concept", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has concept" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has concept" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has concept"}, "label" : {"en": "has concept"}},
@@ -608,8 +575,7 @@
 , {
 "@id": "http://fixme.com#cccev:hasConstraint",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "has Constraint"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@79a7bfbc]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."}, "ap-label-en" : {"en": "has Constraint"}, "definition" : {"en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."}, "label" : {"en": "has Constraint"},
 "extra": {"EA-Name" : "cccev:hasConstraint", "EA-Guid" : "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Concept", "EA-Domain-Guid" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Range" : "Constraint", "RangeData" : {"EA-Name" : "Constraint", "EA-GUID" : "{D5E840D1-63A4-42a8-B3B6-376316BF956F}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Constraint" }, "sourceRole" : "null", "destRole" : "cccev:hasConstraint", "label" : "has Constraint", "definition" : "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.", "usage" : "", "ap-label-en" : "has Constraint", "ap-definition-en" : "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has Constraint" }, { "key": "definition-en", "value": "NOTE", "note": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept." }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has Constraint" }, { "key": "definition-en", "value": "NOTE", "note": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept." }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."}, "ap-label-en" : {"en": "has Constraint"}, "definition" : {"en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."}, "label" : {"en": "has Constraint"}},
@@ -629,8 +595,7 @@
 , {
 "@id": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "has evidence type combination"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@77f68df]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has evidence type combination"}, "label" : {"en": "has evidence type combination"},
 "extra": {"EA-Name" : "cccev:hasEvidenceTypeCombinationList", "EA-Guid" : "{9017007F-FC42-48b2-8FE4-637F041B5403}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "EvidenceTypeList", "RangeData" : {"EA-Name" : "EvidenceTypeList", "EA-GUID" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#EvidenceTypeList" }, "sourceRole" : "null", "destRole" : "cccev:hasEvidenceTypeCombinationList", "label" : "has evidence type combination", "definition" : "", "usage" : "", "ap-label-en" : "has evidence type combination", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has evidence type combination" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has evidence type combination" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has evidence type combination"}, "label" : {"en": "has evidence type combination"}},
@@ -650,8 +615,7 @@
 , {
 "@id": "http://fixme.com#cccev:hasRequirement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "has requirement"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3e4e4c1]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has requirement"}, "label" : {"en": "has requirement"},
 "extra": {"EA-Name" : "cccev:hasRequirement", "EA-Guid" : "{1514CDA7-A024-4a11-A821-F665EA0857A7}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Requirement" }, "sourceRole" : "cccev:isRequirementOf", "destRole" : "cccev:hasRequirement", "label" : "has requirement", "definition" : "", "usage" : "", "ap-label-en" : "has requirement", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has requirement" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has requirement" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has requirement"}, "label" : {"en": "has requirement"}},
@@ -671,8 +635,7 @@
 , {
 "@id": "http://fixme.com#cccev:hasSupportingEvidence",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "has supporting evidence"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@7e7f3cfd]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has supporting evidence"}, "label" : {"en": "has supporting evidence"},
 "extra": {"EA-Name" : "cccev:hasSupportingEvidence", "EA-Guid" : "{0F444C86-03A8-411d-8A8B-0332A55254FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Evidence", "RangeData" : {"EA-Name" : "Evidence", "EA-GUID" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Evidence" }, "sourceRole" : "cccev:supports", "destRole" : "cccev:hasSupportingEvidence", "label" : "has supporting evidence", "definition" : "", "usage" : "", "ap-label-en" : "has supporting evidence", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has supporting evidence" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has supporting evidence" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has supporting evidence"}, "label" : {"en": "has supporting evidence"}},
@@ -692,8 +655,7 @@
 , {
 "@id": "http://fixme.com#cccev:isConformantTo",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "cccev:isConformantTo", "EA-Guid" : "{0A67E1ED-D430-4f70-BCA1-84C478AB5B43}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "EvidenceType", "RangeData" : {"EA-Name" : "EvidenceType", "EA-GUID" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#EvidenceType" }, "sourceRole" : "null", "destRole" : "cccev:isConformantTo", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -713,8 +675,7 @@
 , {
 "@id": "http://fixme.com#cccev:isDerivedFrom",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "is derived from"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@3ae126d1]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is derived from"}, "label" : {"en": "is derived from"},
 "extra": {"EA-Name" : "cccev:isDerivedFrom", "EA-Guid" : "{8CBB451D-0E14-46a2-860C-95A0CF93288A}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ReferenceFramework", "RangeData" : {"EA-Name" : "ReferenceFramework", "EA-GUID" : "{785686A1-4364-47dc-8B5C-2DEE9760958E}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#ReferenceFramework" }, "sourceRole" : "null", "destRole" : "cccev:isDerivedFrom", "label" : "is derived from", "definition" : "", "usage" : "", "ap-label-en" : "is derived from", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is derived from" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is derived from" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is derived from"}, "label" : {"en": "is derived from"}},
@@ -734,8 +695,7 @@
 , {
 "@id": "http://fixme.com#cccev:isRequirementOf",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "is requirement of"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@46a488c2]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is requirement of"}, "label" : {"en": "is requirement of"},
 "extra": {"EA-Name" : "cccev:isRequirementOf", "EA-Guid" : "{1514CDA7-A024-4a11-A821-F665EA0857A7}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Requirement" }, "sourceRole" : "cccev:hasRequirement", "destRole" : "cccev:isRequirementOf", "label" : "is requirement of", "definition" : "", "usage" : "", "ap-label-en" : "is requirement of", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is requirement of" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is requirement of" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is requirement of"}, "label" : {"en": "is requirement of"}},
@@ -755,8 +715,7 @@
 , {
 "@id": "http://fixme.com#cccev:isSpecifiedIn",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "is specified in"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@6242ae3b]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is specified in"}, "label" : {"en": "is specified in"},
 "extra": {"EA-Name" : "cccev:isSpecifiedIn", "EA-Guid" : "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "EvidenceTypeList", "RangeData" : {"EA-Name" : "EvidenceTypeList", "EA-GUID" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#EvidenceTypeList" }, "sourceRole" : "cccev:specifiesEvidenceType", "destRole" : "cccev:isSpecifiedIn", "label" : "is specified in", "definition" : "", "usage" : "", "ap-label-en" : "is specified in", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is specified in" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is specified in" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is specified in"}, "label" : {"en": "is specified in"}},
@@ -776,8 +735,7 @@
 , {
 "@id": "http://fixme.com#cccev:specifiesEvidenceType",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "specifies evidence type"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@65ddee5a]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "specifies evidence type"}, "label" : {"en": "specifies evidence type"},
 "extra": {"EA-Name" : "cccev:specifiesEvidenceType", "EA-Guid" : "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "EvidenceType", "RangeData" : {"EA-Name" : "EvidenceType", "EA-GUID" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#EvidenceType" }, "sourceRole" : "cccev:isSpecifiedIn", "destRole" : "cccev:specifiesEvidenceType", "label" : "specifies evidence type", "definition" : "", "usage" : "", "ap-label-en" : "specifies evidence type", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "specifies evidence type" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "specifies evidence type" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "specifies evidence type"}, "label" : {"en": "specifies evidence type"}},
@@ -797,8 +755,7 @@
 , {
 "@id": "http://fixme.com#cccev:supports",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "cccev:supports", "EA-Guid" : "{0F444C86-03A8-411d-8A8B-0332A55254FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Requirement" }, "sourceRole" : "cccev:hasSupportingEvidence", "destRole" : "cccev:supports", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -818,8 +775,7 @@
 , {
 "@id": "http://fixme.com#cccev:supports",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "cccev:supports", "EA-Guid" : "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "Concept", "RangeData" : {"EA-Name" : "Concept", "EA-GUID" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Concept" }, "sourceRole" : "null", "destRole" : "cccev:supports", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -839,8 +795,7 @@
 , {
 "@id": "http://fixme.com#cccev:weight",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "weight"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@56399b9e]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "Relative importance assigned to a given criterion."}, "ap-label-en" : {"en": "weight"}, "definition" : {"en": "Relative importance assigned to a given criterion."}, "label" : {"en": "weight"},
 "extra": {"EA-Name" : "cccev:weight", "EA-Guid" : "{9E15D586-5D1B-4852-99A7-32047A7EE928}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Criterion", "EA-Domain-Guid" : "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}", "EA-Range" : "ccts:Numeric", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "weight", "definition" : "Relative importance assigned to a given criterion.", "usage" : "", "ap-label-en" : "weight", "ap-definition-en" : "Relative importance assigned to a given criterion.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "weight", "note": "null" }, { "key": "definition-en", "value": "Relative importance assigned to a given criterion.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "Relative importance assigned to a given criterion."}, "ap-label-en" : {"en": "weight"}, "definition" : {"en": "Relative importance assigned to a given criterion."}, "label" : {"en": "weight"}},
@@ -860,8 +815,7 @@
 , {
 "@id": "http://fixme.com#cccev:weightingConsiderationDescription",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "weighting consideration description"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@34b9eb03]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."}, "ap-label-en" : {"en": "weighting consideration description"}, "definition" : {"en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."}, "label" : {"en": "weighting consideration description"},
 "extra": {"EA-Name" : "cccev:weightingConsiderationDescription", "EA-Guid" : "{D86B66C4-7DF4-46fe-933D-FBD20D52E9BD}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Criterion", "EA-Domain-Guid" : "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}", "EA-Range" : "ccts:Text", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "weighting consideration description", "definition" : "The explanation of how the weighting of a Criterion is to be used at evaluation time.", "usage" : "", "ap-label-en" : "weighting consideration description", "ap-definition-en" : "The explanation of how the weighting of a Criterion is to be used at evaluation time.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "weighting consideration description", "note": "null" }, { "key": "definition-en", "value": "The explanation of how the weighting of a Criterion is to be used at evaluation time.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."}, "ap-label-en" : {"en": "weighting consideration description"}, "definition" : {"en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."}, "label" : {"en": "weighting consideration description"}},
@@ -881,8 +835,7 @@
 , {
 "@id": "http://fixme.com#cccev:weightingType",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-"nl": "weighting type"},
+"name": "[com.github.informatievlaanderen.oslo_ea_to_rdf.convert.JSONLDOntology.LanguageStringDescription@43fda8d9]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "The numeric form used to weight."}, "ap-label-en" : {"en": "weighting type"}, "definition" : {"en": "The numeric form used to weight."}, "label" : {"en": "weighting type"},
 "extra": {"EA-Name" : "cccev:weightingType", "EA-Guid" : "{C8F3A5F7-9753-462a-9A9B-235AB5F03516}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Criterion", "EA-Domain-Guid" : "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}", "EA-Range" : "ccts:Code", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "weighting type", "definition" : "The numeric form used to weight.", "usage" : "", "ap-label-en" : "weighting type", "ap-definition-en" : "The numeric form used to weight.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "weighting type", "note": "null" }, { "key": "definition-en", "value": "The numeric form used to weight.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "The numeric form used to weight."}, "ap-label-en" : {"en": "weighting type"}, "definition" : {"en": "The numeric form used to weight."}, "label" : {"en": "weighting type"}},
@@ -902,8 +855,7 @@
 , {
 "@id": "http://fixme.com#dcat:distribution",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dcat:distribution", "EA-Guid" : "{05643407-0900-4871-B74C-D6153627E30A}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "Distribution", "RangeData" : {"EA-Name" : "Distribution", "EA-GUID" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "uri" : "http://fixme.com#Distribution" }, "sourceRole" : "null", "destRole" : "dcat:distribution", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -923,8 +875,7 @@
 , {
 "@id": "http://fixme.com#dcat:downloadURL",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dcat:downloadURL", "EA-Guid" : "{989BA056-7324-465d-B3A6-4109E12A35D4}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Distribution", "EA-Domain-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Range" : "URL", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -944,8 +895,7 @@
 , {
 "@id": "http://fixme.com#dct:description",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:description", "EA-Guid" : "{1D1871FF-0F8A-438a-81BE-8098FE0BC5F9}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "xsd:string", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -965,8 +915,7 @@
 , {
 "@id": "http://fixme.com#dct:identifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:identifier", "EA-Guid" : "{F02926C2-9828-4249-8B43-E9710F0E3196}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "xsd:normalizedString", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -986,8 +935,7 @@
 , {
 "@id": "http://fixme.com#dct:issued",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:issued", "EA-Guid" : "{592570AD-EAE3-4cb5-BB3A-FBCCD23F3FA9}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "xsd:dateTime", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -1007,8 +955,7 @@
 , {
 "@id": "http://fixme.com#dct:issued",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:issued", "EA-Guid" : "{69EE8F8A-1136-482f-80D1-5A92F4BA364F}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Distribution", "EA-Domain-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Range" : "Date", "RangeData" : {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -1028,8 +975,7 @@
 , {
 "@id": "http://fixme.com#dct:modified",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:modified", "EA-Guid" : "{3258BCB1-C2B7-4dcb-9BAE-F6D21B3052C0}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "xsd:dateTime", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -1049,8 +995,7 @@
 , {
 "@id": "http://fixme.com#dct:title",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:title", "EA-Guid" : "{B33B11FB-1B9D-4bd3-B614-AA2013ED6C73}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "xsd:string", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
@@ -1070,8 +1015,7 @@
 , {
 "@id": "http://fixme.com#dct:type",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": {
-},
+"name": "[]",
 "inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "dct:type", "EA-Guid" : "{028F5AE0-5992-4dc2-922A-6B9AA1010B82}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "xsd:anyURI", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
