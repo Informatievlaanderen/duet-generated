@@ -60,7 +60,6 @@
       "definition": {
         "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -69,7 +68,6 @@
       "definition": {
         "en": "Grade obtained after finishing/completing a course."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -78,7 +76,6 @@
       "definition": {
         "en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
       },
-      "usage": {},
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -89,7 +86,6 @@
       "definition": {
         "en": "Mark indicating a degree of accomplishment."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -98,7 +94,6 @@
       "definition": {
         "en": "A spatial region or named place."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -107,7 +102,6 @@
       "definition": {
         "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent"
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -116,7 +110,6 @@
       "definition": {
         "en": "An individual person who may be dead or alive, but not imaginary."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -125,7 +118,6 @@
       "definition": {
         "en": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -134,7 +126,6 @@
       "definition": {
         "en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
       },
-      "usage": {},
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -145,7 +136,6 @@
       "definition": {
         "en": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
       },
-      "usage": {},
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -156,7 +146,6 @@
       "definition": {
         "en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -165,7 +154,6 @@
       "definition": {
         "en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
       },
-      "usage": {},
       "parents": []
     }
   ],
@@ -235,7 +223,6 @@
     {
       "@id": "https://sdg.semic.euAddress.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -251,7 +238,6 @@
     {
       "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -267,7 +253,6 @@
     {
       "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euEducationInstitution"
@@ -283,7 +268,6 @@
     {
       "@id": "https://sdg.semic.euLocation.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euLocation"
@@ -299,7 +283,6 @@
     {
       "@id": "https://sdg.semic.euPerson.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -315,7 +298,6 @@
     {
       "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -331,7 +313,6 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -347,7 +328,6 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -363,7 +343,6 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -379,7 +358,6 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -398,7 +376,6 @@
       "definition": {
         "en": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -410,7 +387,6 @@
     {
       "@id": "https://sdg.semic.euacademicProgrammeLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -429,7 +405,6 @@
       "definition": {
         "en": " \tThe period during which the courses and exams took place."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -444,7 +419,6 @@
       "definition": {
         "en": " \tThe period during which the courses and exams took place."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -459,7 +433,6 @@
       "definition": {
         "en": " \tQualification(s) or periods of study required for access to the programme."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -478,7 +451,6 @@
       "definition": {
         "en": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -497,7 +469,6 @@
       "definition": {
         "en": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -512,7 +483,6 @@
       "definition": {
         "en": "The uppermost administrative unit for the address, almost always a country."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -528,7 +498,6 @@
     {
       "@id": "https://sdg.semic.euadminUnitL2",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -540,7 +509,6 @@
     {
       "@id": "https://sdg.semic.eubelongsTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -556,7 +524,6 @@
     {
       "@id": "https://sdg.semic.eucontains",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -575,7 +542,6 @@
       "definition": {
         "en": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -590,7 +556,6 @@
       "definition": {
         "en": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -609,7 +574,6 @@
       "definition": {
         "en": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -624,7 +588,6 @@
       "definition": {
         "en": "The discipline or subject area of a course."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -643,7 +606,6 @@
       "definition": {
         "en": " \tA mark indicating a degree of accomplishment for a particular course."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -662,7 +624,6 @@
       "definition": {
         "en": "Main language in which the course was taught."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -681,7 +642,6 @@
       "definition": {
         "en": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -696,7 +656,6 @@
       "definition": {
         "en": "A date that specifies the birth date of a Person."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -715,7 +674,6 @@
       "definition": {
         "en": "Statistical distribution of grades over the number of students that obtained the respective grade."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"
@@ -730,7 +688,6 @@
       "definition": {
         "en": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -745,7 +702,6 @@
       "definition": {
         "en": " \tThe complete address written as a string, with or without formatting."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -760,7 +716,6 @@
       "definition": {
         "en": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euLocation"
@@ -779,7 +734,6 @@
       "definition": {
         "en": "A URI that identifies the Location."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euLocation"
@@ -794,7 +748,6 @@
       "definition": {
         "en": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -809,7 +762,6 @@
       "definition": {
         "en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -828,7 +780,6 @@
       "definition": {
         "en": "Dereferenceable identifier to the grading system that was used to give the grade."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"
@@ -847,7 +798,6 @@
       "definition": {
         "en": "An unambiguous reference to the Tertiary Education Evidence."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -862,7 +812,6 @@
       "definition": {
         "en": "An unambiguous reference to the Tertiary Education Evidence."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -877,7 +826,6 @@
       "definition": {
         "en": "An unambiguous reference to the Tertiary Education Evidence."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -889,7 +837,6 @@
     {
       "@id": "https://sdg.semic.euissuingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -908,7 +855,6 @@
       "definition": {
         "en": "The date on which the Tertiary Education Evidence was issued."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -924,7 +870,6 @@
     {
       "@id": "https://sdg.semic.euissuingPlace",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -943,7 +888,6 @@
       "definition": {
         "en": "The language in which the Tertiary Education Evidence is issued. \t"
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -962,7 +906,6 @@
       "definition": {
         "en": "The different languages in which the programme was given."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -981,7 +924,6 @@
       "definition": {
         "en": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1000,7 +942,6 @@
       "definition": {
         "en": "The main disciplines or subject areas of a qualification."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1019,7 +960,6 @@
       "definition": {
         "en": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1038,7 +978,6 @@
       "definition": {
         "en": "A mark indicating a degree of accomplishment."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1054,7 +993,6 @@
     {
       "@id": "https://sdg.semic.euplaceOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -1073,7 +1011,6 @@
       "definition": {
         "en": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -1088,7 +1025,6 @@
       "definition": {
         "en": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1103,7 +1039,6 @@
       "definition": {
         "en": " \tLevel of the obtained qualification."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1122,7 +1057,6 @@
       "definition": {
         "en": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -1134,7 +1068,6 @@
     {
       "@id": "https://sdg.semic.euregisteredLocation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -1153,7 +1086,6 @@
       "definition": {
         "en": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -1172,7 +1104,6 @@
       "definition": {
         "en": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"
@@ -1191,7 +1122,6 @@
       "definition": {
         "en": "An unambiguous reference to the Student."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euStudent"
@@ -1206,7 +1136,6 @@
       "definition": {
         "en": "Official duration of the programme in years of full-time study."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1221,7 +1150,6 @@
       "definition": {
         "en": "Title of the dissertation completed by a student as part of a tertiary education degree."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1236,7 +1164,6 @@
       "definition": {
         "en": "Total student workload required, described in terms of ECTS credits."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -1251,7 +1178,6 @@
       "definition": {
         "en": "Total student workload required, described in terms of ECTS credits."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -1266,7 +1192,6 @@
       "definition": {
         "en": "A (quantitative or qualitative) value according to the definition in the grading scheme."
       },
-      "usage": {},
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"

@@ -54,10 +54,6 @@
       "@id": "rdfs:label",
       "@container": "@language"
     },
-    "description": {
-      "@id": "rdfs:comment",
-      "@container": "@language"
-    },
     "properties": {
       "@reverse": "rdfs:isDefinedBy"
     },
@@ -79,10 +75,6 @@
     "externals": {
       "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
       "@id": "rdfs:seeAlso"
-    },
-    "usage": {
-      "@id": "vann:usageNote",
-      "@container": "@language"
     }
   },
   "@id": "https://sdg.semic.e",
@@ -206,10 +198,6 @@
       "name": {
         "nl": "Address"
       },
-      "description": {
-        "nl": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -271,10 +259,6 @@
       "name": {
         "nl": "Course Result"
       },
-      "description": {
-        "nl": "Grade obtained after finishing/completing a course."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -343,10 +327,6 @@
       "name": {
         "nl": "Education Institute"
       },
-      "description": {
-        "nl": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
-      },
-      "usage": {},
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -410,10 +390,6 @@
       "name": {
         "nl": "Grade"
       },
-      "description": {
-        "nl": "Mark indicating a degree of accomplishment."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -475,10 +451,6 @@
       "name": {
         "nl": "Location"
       },
-      "description": {
-        "nl": "A spatial region or named place."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -540,10 +512,6 @@
       "name": {
         "nl": "Organisation"
       },
-      "description": {
-        "nl": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent"
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -605,10 +573,6 @@
       "name": {
         "nl": "Person"
       },
-      "description": {
-        "nl": "An individual person who may be dead or alive, but not imaginary."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -670,10 +634,6 @@
       "name": {
         "nl": "Record of Results Evidence"
       },
-      "description": {
-        "nl": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -742,10 +702,6 @@
       "name": {
         "nl": "Student"
       },
-      "description": {
-        "nl": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
-      },
-      "usage": {},
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -816,10 +772,6 @@
       "name": {
         "nl": "Tertiary Education Diploma Evidence"
       },
-      "description": {
-        "nl": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
-      },
-      "usage": {},
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -883,10 +835,6 @@
       "name": {
         "nl": "Tertiary Education Diploma Supplement Evidence"
       },
-      "description": {
-        "nl": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -948,10 +896,6 @@
       "name": {
         "nl": "Tertiary Education Evidence"
       },
-      "description": {
-        "nl": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
-      },
-      "usage": {},
       "parents": []
     }
   ],
@@ -1002,8 +946,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1067,8 +1009,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1132,8 +1072,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1197,8 +1135,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1262,8 +1198,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1327,8 +1261,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1392,8 +1324,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1457,8 +1387,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1522,8 +1450,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1587,8 +1513,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1670,10 +1594,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1728,8 +1648,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1813,10 +1731,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tThe period during which the courses and exams took place."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1870,8 +1784,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1949,10 +1861,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tQualification(s) or periods of study required for access to the programme."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2037,10 +1945,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2124,10 +2028,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2210,10 +2110,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The uppermost administrative unit for the address, almost always a country."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2292,8 +2188,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2352,8 +2246,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2419,8 +2311,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2504,10 +2394,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2584,10 +2470,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2670,10 +2552,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2751,10 +2629,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The discipline or subject area of a course."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2839,10 +2713,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tA mark indicating a degree of accomplishment for a particular course."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2927,10 +2797,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Main language in which the course was taught."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3014,10 +2880,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3094,10 +2956,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "A date that specifies the birth date of a Person."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3180,10 +3038,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Statistical distribution of grades over the number of students that obtained the respective grade."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3260,10 +3114,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3340,10 +3190,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tThe complete address written as a string, with or without formatting."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3420,10 +3266,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3506,10 +3348,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "A URI that identifies the Location."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3586,10 +3424,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3667,10 +3501,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3754,10 +3584,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Dereferenceable identifier to the grading system that was used to give the grade."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3840,10 +3666,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Many organisations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised b"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3920,10 +3742,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The identifier relation is used to link a Person to any formally issued Identifier for that Person."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4005,10 +3823,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "An unambiguous reference to the Tertiary Education Evidence."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4067,8 +3881,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4152,10 +3964,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The date on which the Tertiary Education Evidence was issued."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4220,8 +4028,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4306,10 +4112,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The language in which the Tertiary Education Evidence is issued. \t"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4394,10 +4196,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The different languages in which the programme was given."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4482,10 +4280,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4570,10 +4364,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The main disciplines or subject areas of a qualification."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4658,10 +4448,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4746,10 +4532,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "A mark indicating a degree of accomplishment."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4815,8 +4597,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4900,10 +4680,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4980,10 +4756,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5061,10 +4833,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tLevel of the obtained qualification."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5148,10 +4916,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5210,8 +4974,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5296,10 +5058,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5384,10 +5142,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5471,10 +5225,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "An unambiguous reference to the Student."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5551,10 +5301,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Official duration of the programme in years of full-time study."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5631,10 +5377,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Title of the dissertation completed by a student as part of a tertiary education degree."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5711,10 +5453,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The total number of ECTS credits of the courses contained within the Record of Results."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5791,10 +5529,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "Total student workload required, described in terms of ECTS credits."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5871,10 +5605,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "A (quantitative or qualitative) value according to the definition in the grading scheme."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -5939,6 +5669,6 @@
   "filename": "config/sdgtest2-voc.json",
   "navigation": {},
   "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "19c7cc5730727c18f5bf56fa198ff0307190a046",
+  "toolchaincommit": "83ee5c217feeb2e4f4f04d96201767a8c747a379",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

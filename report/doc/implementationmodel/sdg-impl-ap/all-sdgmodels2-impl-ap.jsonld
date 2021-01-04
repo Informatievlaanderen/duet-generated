@@ -54,10 +54,6 @@
       "@id": "rdfs:label",
       "@container": "@language"
     },
-    "description": {
-      "@id": "rdfs:comment",
-      "@container": "@language"
-    },
     "properties": {
       "@reverse": "rdfs:isDefinedBy"
     },
@@ -79,10 +75,6 @@
     "externals": {
       "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
       "@id": "rdfs:seeAlso"
-    },
-    "usage": {
-      "@id": "vann:usageNote",
-      "@container": "@language"
     }
   },
   "@id": "https://sdg.semic.e",
@@ -201,10 +193,6 @@
       "name": {
         "nl": "Address"
       },
-      "description": {
-        "nl": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
-      },
-      "usage": {},
       "parents": []
     },
     {
@@ -235,8 +223,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -274,8 +260,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -308,8 +292,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -340,8 +322,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -372,8 +352,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -404,8 +382,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -436,8 +412,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -475,8 +449,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -516,8 +488,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -550,8 +520,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     },
     {
@@ -582,8 +550,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": {},
-      "description": {},
-      "usage": {},
       "parents": []
     }
   ],
@@ -626,8 +592,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -683,8 +647,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -740,8 +702,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -797,8 +757,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -854,8 +812,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -911,8 +867,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -968,8 +922,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1025,8 +977,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1082,8 +1032,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1139,8 +1087,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1191,8 +1137,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1239,8 +1183,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1293,8 +1235,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1340,8 +1280,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1388,8 +1326,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1443,8 +1379,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1497,8 +1431,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1579,10 +1511,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": "The uppermost administrative unit for the address, almost always a country."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1658,8 +1586,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1710,8 +1636,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1769,8 +1693,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1823,8 +1745,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1870,8 +1790,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1923,8 +1841,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1971,8 +1887,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2026,8 +1940,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2081,8 +1993,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2135,8 +2045,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2182,8 +2090,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2235,8 +2141,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2282,8 +2186,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2357,10 +2259,6 @@
         ],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {
-        "nl": " \tThe complete address written as a string, with or without formatting."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2406,8 +2304,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2459,8 +2355,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2506,8 +2400,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2554,8 +2446,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2608,8 +2498,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2661,8 +2549,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2708,8 +2594,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2755,8 +2639,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2807,8 +2689,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2861,8 +2741,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2919,8 +2797,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2974,8 +2850,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3029,8 +2903,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3084,8 +2956,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3139,8 +3009,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3194,8 +3062,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3249,8 +3115,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3308,8 +3172,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3362,8 +3224,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3409,8 +3269,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3457,8 +3315,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3511,8 +3367,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3563,8 +3417,6 @@
         "DestRoleTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3618,8 +3470,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3673,8 +3523,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3727,8 +3575,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3774,8 +3620,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3821,8 +3665,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3868,8 +3710,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3915,8 +3755,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3962,8 +3800,6 @@
         "RawTags": [],
         "Scope": "FULL_DEFINITON"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -4028,6 +3864,6 @@
   "filename": "config/sdgmodels2-impl-ap.json",
   "navigation": {},
   "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "19c7cc5730727c18f5bf56fa198ff0307190a046",
+  "toolchaincommit": "83ee5c217feeb2e4f4f04d96201767a8c747a379",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

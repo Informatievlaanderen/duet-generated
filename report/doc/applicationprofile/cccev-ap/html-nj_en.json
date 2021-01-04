@@ -176,7 +176,7 @@
         "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
       },
       "usage": {
-        "nl": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
+        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
       },
       "parents": [
         {
@@ -202,7 +202,7 @@
         "en": "condition for evaluation or assessment."
       },
       "usage": {
-        "nl": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
+        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
       },
       "parents": [
         {
@@ -597,16 +597,16 @@
           ],
           "range": [
             {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
+              "range_label": "Requirement",
+              "range_uri": "http://fixme.com#Requirement"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
+              "range_puri": "http://fixme.com#Requirement",
               "range_label": {
-                "en": "RequirementConcept"
+                "en": "Requirement"
               }
             }
           ],
@@ -627,16 +627,16 @@
           ],
           "range": [
             {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
+              "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "Requirement"
+                "en": "RequirementConcept"
               }
             }
           ],

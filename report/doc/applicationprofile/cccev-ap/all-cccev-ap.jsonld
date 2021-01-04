@@ -54,10 +54,6 @@
       "@id": "rdfs:label",
       "@container": "@language"
     },
-    "description": {
-      "@id": "rdfs:comment",
-      "@container": "@language"
-    },
     "properties": {
       "@reverse": "rdfs:isDefinedBy"
     },
@@ -79,10 +75,6 @@
     "externals": {
       "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
       "@id": "rdfs:seeAlso"
-    },
-    "usage": {
-      "@id": "vann:usageNote",
-      "@container": "@language"
     }
   },
   "@id": "http://fixme.com",
@@ -166,9 +158,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": {},
-      "description": {},
-      "usage": {}
+      "name": {}
     },
     {
       "@id": "http://fixme.com#Concept",
@@ -225,11 +215,7 @@
       },
       "name": {
         "nl": "RequirementConcept"
-      },
-      "description": {
-        "nl": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-      },
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#Constraint",
@@ -239,7 +225,7 @@
         "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
       },
       "usage": {
-        "nl": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
+        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
       },
       "ap-label-en": {
         "en": "Constraint"
@@ -303,9 +289,6 @@
       },
       "name": {
         "nl": "Constraint"
-      },
-      "description": {
-        "nl": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
       }
     },
     {
@@ -316,7 +299,7 @@
         "en": "condition for evaluation or assessment."
       },
       "usage": {
-        "nl": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
+        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
       },
       "ap-label-en": {
         "en": "Criterion"
@@ -380,9 +363,6 @@
       },
       "name": {
         "nl": "Criterion"
-      },
-      "description": {
-        "nl": "condition for evaluation or assessment."
       }
     },
     {
@@ -430,9 +410,7 @@
       },
       "name": {
         "nl": "Dataset"
-      },
-      "description": {},
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#Distribution",
@@ -479,9 +457,7 @@
       },
       "name": {
         "nl": "Distribution"
-      },
-      "description": {},
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#Evidence",
@@ -545,11 +521,7 @@
       },
       "name": {
         "nl": "Evidence"
-      },
-      "description": {
-        "nl": "The data proving that a requirement is met or has been fulfilled."
-      },
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#EvidenceType",
@@ -613,11 +585,7 @@
       },
       "name": {
         "nl": "Evidence type"
-      },
-      "description": {
-        "nl": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
-      },
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#EvidenceTypeList",
@@ -664,9 +632,7 @@
       },
       "name": {
         "nl": "Evidence Type List"
-      },
-      "description": {},
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#InformationRequirement",
@@ -730,11 +696,7 @@
       },
       "name": {
         "nl": "Information Requirement"
-      },
-      "description": {
-        "nl": "A request for data that is proof of evidence or leads to the source of such a proof."
-      },
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#ReferenceFramework",
@@ -788,9 +750,7 @@
       },
       "name": {
         "nl": "Reference Framework"
-      },
-      "description": {},
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#Requirement",
@@ -847,11 +807,7 @@
       },
       "name": {
         "nl": "Requirement"
-      },
-      "description": {
-        "nl": "A condition demanded."
-      },
-      "usage": {}
+      }
     },
     {
       "@id": "http://fixme.com#Standard",
@@ -880,9 +836,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": {},
-      "description": {},
-      "usage": {}
+      "name": {}
     },
     {
       "@id": "http://fixme.com#custom-data-type",
@@ -911,9 +865,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": {},
-      "description": {},
-      "usage": {}
+      "name": {}
     },
     {
       "@id": "http://fixme.com#dataset-type",
@@ -942,9 +894,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": {},
-      "description": {},
-      "usage": {}
+      "name": {}
     },
     {
       "@id": "http://fixme.com#evidence-types",
@@ -973,9 +923,7 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "name": {},
-      "description": {},
-      "usage": {}
+      "name": {}
     }
   ],
   "externalproperties": [
@@ -1040,10 +988,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1117,10 +1061,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1184,8 +1124,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1259,10 +1197,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "An unambiguous reference to an Evidence Type List"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1336,10 +1270,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "An unambiguous reference to RequirementConcept"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1403,8 +1333,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1478,10 +1406,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "A name to identify in common language the Evidence Type List"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1555,10 +1479,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "A name to identify in common language the RequirementConcept"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1622,8 +1542,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1697,10 +1615,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "a classification of the RequirementConcept"
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1764,8 +1678,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1839,10 +1751,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1916,10 +1824,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "The security classification assigned to an Evidence or, in general, to a content."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -1993,10 +1897,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "A classification code use to specify the machine-readability of a content."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2070,10 +1970,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "A classification code to specify the layout and content expected for an evidence."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2148,8 +2044,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2246,10 +2140,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2331,8 +2221,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2414,8 +2302,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2497,8 +2383,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2556,8 +2440,6 @@
         "DestRoleTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2639,8 +2521,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2722,8 +2602,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2805,8 +2683,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2888,8 +2764,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -2903,65 +2777,6 @@
           "EA-GUID": "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}",
           "EA-Package": "CCCEV_v2",
           "uri": "http://fixme.com#EvidenceType"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cccev:supports",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {},
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Name": "cccev:supports",
-        "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "Concept",
-        "RangeData": {
-          "EA-Name": "Concept",
-          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
-        },
-        "sourceRole": "null",
-        "destRole": "cccev:supports",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-en": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "description": {},
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Concept",
-          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
         }
       ],
       "generalization": [],
@@ -3006,8 +2821,6 @@
         "DestRoleTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3021,6 +2834,63 @@
           "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
           "EA-Package": "CCCEV_v2",
           "uri": "http://fixme.com#Requirement"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {},
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "cccev:supports",
+        "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Concept"
+        },
+        "sourceRole": "null",
+        "destRole": "cccev:supports",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Evidence",
+          "EA-Name": "Evidence"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Concept"
         }
       ],
       "generalization": [],
@@ -3088,10 +2958,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "Relative importance assigned to a given criterion."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3165,10 +3031,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3242,10 +3104,6 @@
         ],
         "Scope": "NOTHING"
       },
-      "description": {
-        "nl": "The numeric form used to weight."
-      },
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3296,8 +3154,6 @@
         "DestRoleTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3350,8 +3206,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3397,8 +3251,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3444,8 +3296,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3491,8 +3341,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3538,8 +3386,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3591,8 +3437,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3638,8 +3482,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3685,8 +3527,6 @@
         "RawTags": [],
         "Scope": "NOTHING"
       },
-      "description": {},
-      "usage": {},
       "codelist": [],
       "domain": [
         {
@@ -3740,6 +3580,6 @@
   "filename": "config/cccev-ap.json",
   "navigation": {},
   "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "19c7cc5730727c18f5bf56fa198ff0307190a046",
+  "toolchaincommit": "83ee5c217feeb2e4f4f04d96201767a8c747a379",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
