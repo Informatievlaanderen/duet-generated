@@ -29,31 +29,31 @@
       "@id": "http://fixme.com#dcat:distribution",
       "@type": "@id"
     },
-    "Dataset.dct:description": {
+    "Dataset.description": {
       "@container": "@set",
       "@id": "http://fixme.com#dct:description",
       "@type": ""
     },
-    "Dataset.dct:identifier": {
+    "Dataset.identifier": {
       "@container": "@set",
       "@id": "http://fixme.com#dct:identifier",
       "@type": ""
     },
-    "Dataset.dct:issued": {
+    "Dataset.issued": {
       "@id": "http://fixme.com#dct:issued",
       "@type": ""
     },
-    "Dataset.dct:modified": {
+    "Dataset.modified": {
       "@container": "@set",
       "@id": "http://fixme.com#dct:modified",
       "@type": ""
     },
-    "Dataset.dct:title": {
+    "Dataset.title": {
       "@container": "@set",
       "@id": "http://fixme.com#dct:title",
       "@type": ""
     },
-    "Dataset.dct:type": {
+    "Dataset.type": {
       "@id": "http://fixme.com#dct:type",
       "@type": ""
     },
@@ -68,11 +68,6 @@
     },
     "Evidence": "http://fixme.com#Evidence",
     "Evidence-types": "http://fixme.com#evidence-types",
-    "Evidence.cccev:isConformantTo": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cccev:isConformantTo",
-      "@type": "@id"
-    },
     "Evidence.cccev:supports": {
       "@container": "@set",
       "@id": "http://fixme.com#cccev:supports",
@@ -81,6 +76,11 @@
     "Evidence.confidentialityLevelType": {
       "@id": "http://fixme.com#cccev:confidentialityLevelType",
       "@type": ""
+    },
+    "Evidence.isConformant": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:isConformantTo",
+      "@type": "@id"
     },
     "EvidenceType": "http://fixme.com#EvidenceType",
     "EvidenceType.datasetType": {

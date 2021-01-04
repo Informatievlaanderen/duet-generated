@@ -137,6 +137,12 @@
       "ap-definition-en": {
         "en": "TODO"
       },
+      "ap-label-en": {
+        "en": "Agent"
+      },
+      "label": {
+        "en": "Agent"
+      },
       "extra": {
         "EA-Name": "Agent",
         "EA-Guid": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
@@ -145,19 +151,29 @@
         "EA-Parents": "",
         "EA-Parents2": [],
         "parentclasses": "",
-        "label": "",
+        "label": {
+          "en": "Agent"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "Agent"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "Agent",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
-      "name": ""
+      "name": "Agent"
     },
     {
       "@id": "http://fixme.com#Concept",
@@ -793,6 +809,12 @@
       "ap-definition-en": {
         "en": "TODO"
       },
+      "ap-label-en": {
+        "en": "Standard"
+      },
+      "label": {
+        "en": "Standard"
+      },
       "extra": {
         "EA-Name": "Standard",
         "EA-Guid": "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}",
@@ -801,19 +823,29 @@
         "EA-Parents": "",
         "EA-Parents2": [],
         "parentclasses": "",
-        "label": "",
+        "label": {
+          "en": "Standard"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "Standard"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "Standard",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
-      "name": ""
+      "name": "Standard"
     },
     {
       "@id": "http://fixme.com#custom-data-type",
@@ -2342,10 +2374,19 @@
     {
       "@id": "http://fixme.com#cccev:isConformantTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "",
+      "name": "is Conformant",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "The kind of evidence"
+      },
+      "ap-label-en": {
+        "en": "is Conformant"
+      },
+      "definition": {
+        "en": "The kind of evidence"
+      },
+      "label": {
+        "en": "is Conformant"
       },
       "extra": {
         "EA-Name": "cccev:isConformantTo",
@@ -2364,17 +2405,45 @@
         },
         "sourceRole": "null",
         "destRole": "cccev:isConformantTo",
-        "label": "",
-        "definition": "",
+        "label": {
+          "en": "is Conformant"
+        },
+        "definition": {
+          "en": "The kind of evidence"
+        },
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "is Conformant"
+        },
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "The kind of evidence"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
-        "DestRoleTags": [],
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "The kind of evidence"
+          },
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is Conformant"
+          }
+        ],
+        "DestRoleTags": [
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "The kind of evidence"
+          },
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is Conformant"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -2722,63 +2791,6 @@
       },
       "extra": {
         "EA-Name": "cccev:supports",
-        "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "Concept",
-        "RangeData": {
-          "EA-Name": "Concept",
-          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
-        },
-        "sourceRole": "null",
-        "destRole": "cccev:supports",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-en": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Concept",
-          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cccev:supports",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Name": "cccev:supports",
         "EA-Guid": "{0F444C86-03A8-411d-8A8B-0332A55254FB}",
         "derived": "false",
         "EA-Package": "",
@@ -2820,6 +2832,63 @@
           "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
           "EA-Package": "CCCEV_v2",
           "uri": "http://fixme.com#Requirement"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "cccev:supports",
+        "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Concept"
+        },
+        "sourceRole": "null",
+        "destRole": "cccev:supports",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Evidence",
+          "EA-Name": "Evidence"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Concept"
         }
       ],
       "generalization": [],
@@ -3144,10 +3213,16 @@
     {
       "@id": "http://fixme.com#dct:description",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "",
+      "name": "description",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "description"
+      },
+      "label": {
+        "en": "description"
       },
       "extra": {
         "EA-Name": "dct:description",
@@ -3162,16 +3237,26 @@
           "EA-Package": "",
           "uri": "null"
         },
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "description"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "description",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -3189,10 +3274,16 @@
     {
       "@id": "http://fixme.com#dct:identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "",
+      "name": "identifier",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "identifier"
+      },
+      "label": {
+        "en": "identifier"
       },
       "extra": {
         "EA-Name": "dct:identifier",
@@ -3207,16 +3298,26 @@
           "EA-Package": "",
           "uri": "null"
         },
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "identifier"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "identifier",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -3234,10 +3335,16 @@
     {
       "@id": "http://fixme.com#dct:issued",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "",
+      "name": "issued",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "issued"
+      },
+      "label": {
+        "en": "issued"
       },
       "extra": {
         "EA-Name": "dct:issued",
@@ -3252,16 +3359,26 @@
           "EA-Package": "",
           "uri": "null"
         },
-        "label": "",
+        "label": {
+          "en": "issued"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "issued"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "issued",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -3330,10 +3447,16 @@
     {
       "@id": "http://fixme.com#dct:modified",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "",
+      "name": "modified",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "modified"
+      },
+      "label": {
+        "en": "modified"
       },
       "extra": {
         "EA-Name": "dct:modified",
@@ -3348,16 +3471,26 @@
           "EA-Package": "",
           "uri": "null"
         },
-        "label": "",
+        "label": {
+          "en": "modified"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "modified"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "modified",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -3375,10 +3508,16 @@
     {
       "@id": "http://fixme.com#dct:title",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "",
+      "name": "title",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "title"
+      },
+      "label": {
+        "en": "title"
       },
       "extra": {
         "EA-Name": "dct:title",
@@ -3393,16 +3532,26 @@
           "EA-Package": "",
           "uri": "null"
         },
-        "label": "",
+        "label": {
+          "en": "title"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "title"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "title",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -3420,10 +3569,16 @@
     {
       "@id": "http://fixme.com#dct:type",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "",
+      "name": "type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "type"
+      },
+      "label": {
+        "en": "type"
       },
       "extra": {
         "EA-Name": "dct:type",
@@ -3438,16 +3593,26 @@
           "EA-Package": "",
           "uri": "null"
         },
-        "label": "",
+        "label": {
+          "en": "type"
+        },
         "definition": "",
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "type"
+        },
         "ap-definition-en": {
           "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "type",
+            "note": "null"
+          }
+        ],
         "Scope": "NOTHING"
       },
       "codelist": [],
@@ -3497,12 +3662,13 @@
     }
   ],
   "config": "config/config-ap.json",
+  "dummy": "1",
   "urlref": "/doc/applicationprofile/cccev-ap",
   "repository": "https://github.com/AnnemarieWittig/englishworkspace",
   "branchtag": "main",
   "filename": "config/cccev-ap.json",
   "navigation": {},
-  "documentcommit": "a3caef482cb47df41dab439fe0530cd974cf29eb",
-  "toolchaincommit": "949bd41c6100e37faf47309358d9175223484124",
+  "documentcommit": "54b8588776fb2ca0275672e7919aee683cd6514c",
+  "toolchaincommit": "37392d1cdc135d605ba10ab745fd04f819d6fb33",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

@@ -165,24 +165,42 @@
         },
         {
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#dct:description"
         },
         {
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#dct:identifier"
         },
         {
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#dct:issued"
         },
         {
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#dct:modified"
         },
         {
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#dct:title"
         },
         {
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#dct:type"
         }
       ],
@@ -222,14 +240,20 @@
         },
         {
           "sh:class": "http://fixme.com#EvidenceType",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "http://fixme.com#cccev:isConformantTo"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://fixme.com#Requirement",
           "sh:path": "http://fixme.com#cccev:supports"
         },
         {
-          "sh:class": "http://fixme.com#Requirement",
+          "sh:class": "http://fixme.com#Concept",
           "sh:path": "http://fixme.com#cccev:supports"
         }
       ],
