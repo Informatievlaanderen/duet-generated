@@ -22,7 +22,7 @@
       "uri": "http://fixme.com#Agent",
       "name": "Agent",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Agent",
       "description": {},
       "usage": {},
       "parents": [],
@@ -32,7 +32,7 @@
       "uri": "http://fixme.com#Concept",
       "name": "RequirementConcept",
       "label": {},
-      "sort": "undefined name",
+      "sort": "RequirementConcept",
       "description": {},
       "usage": {},
       "parents": [],
@@ -40,7 +40,8 @@
         {
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -57,7 +58,8 @@
         {
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -74,7 +76,8 @@
         {
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
-          "sort": "undefined name",
+          "sort": "name",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -91,7 +94,8 @@
         {
           "uri": "http://fixme.com#cbc:type",
           "name": "type",
-          "sort": "undefined name",
+          "sort": "type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -108,7 +112,8 @@
         {
           "uri": "http://fixme.com#cccev:hasConstraint",
           "name": "has Constraint",
-          "sort": "undefined name",
+          "sort": "has Constraint",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -141,7 +146,7 @@
       "uri": "http://fixme.com#Constraint",
       "name": "Constraint",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Constraint",
       "description": {},
       "usage": {},
       "parents": [
@@ -159,7 +164,7 @@
       "uri": "http://fixme.com#Criterion",
       "name": "Criterion",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Criterion",
       "description": {},
       "usage": {},
       "parents": [
@@ -175,7 +180,8 @@
         {
           "uri": "http://fixme.com#cccev:bias",
           "name": "bias",
-          "sort": "undefined name",
+          "sort": "bias",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -192,7 +198,8 @@
         {
           "uri": "http://fixme.com#cccev:weight",
           "name": "weight",
-          "sort": "undefined name",
+          "sort": "weight",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -209,7 +216,8 @@
         {
           "uri": "http://fixme.com#cccev:weightingConsiderationDescription",
           "name": "weighting consideration description",
-          "sort": "undefined name",
+          "sort": "weighting consideration description",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -226,7 +234,8 @@
         {
           "uri": "http://fixme.com#cccev:weightingType",
           "name": "weighting type",
-          "sort": "undefined name",
+          "sort": "weighting type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -246,7 +255,7 @@
       "uri": "http://fixme.com#Dataset",
       "name": "Dataset",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Dataset",
       "description": {},
       "usage": {},
       "parents": [],
@@ -254,7 +263,8 @@
         {
           "uri": "http://fixme.com#dcat:distribution",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -284,7 +294,8 @@
         {
           "uri": "http://fixme.com#dct:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -301,7 +312,8 @@
         {
           "uri": "http://fixme.com#dct:identifier",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -318,7 +330,8 @@
         {
           "uri": "http://fixme.com#dct:issued",
           "name": "issued",
-          "sort": "undefined name",
+          "sort": "issued",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -335,7 +348,8 @@
         {
           "uri": "http://fixme.com#dct:modified",
           "name": "modified",
-          "sort": "undefined name",
+          "sort": "modified",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -352,7 +366,8 @@
         {
           "uri": "http://fixme.com#dct:title",
           "name": "title",
-          "sort": "undefined name",
+          "sort": "title",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -369,7 +384,8 @@
         {
           "uri": "http://fixme.com#dct:type",
           "name": "type",
-          "sort": "undefined name",
+          "sort": "type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -389,7 +405,7 @@
       "uri": "http://fixme.com#Distribution",
       "name": "Distribution",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Distribution",
       "description": {},
       "usage": {},
       "parents": [],
@@ -397,7 +413,8 @@
         {
           "uri": "http://fixme.com#dcat:downloadURL",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -414,7 +431,8 @@
         {
           "uri": "http://fixme.com#dct:issued",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -447,7 +465,7 @@
       "uri": "http://fixme.com#Evidence",
       "name": "Evidence",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Evidence",
       "description": {},
       "usage": {},
       "parents": [
@@ -463,7 +481,8 @@
         {
           "uri": "http://fixme.com#cccev:confidentialityLevelType",
           "name": "confidentiality level type",
-          "sort": "undefined name",
+          "sort": "confidentiality level type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -480,7 +499,8 @@
         {
           "uri": "http://fixme.com#cccev:isConformantTo",
           "name": "is Conformant",
-          "sort": "undefined name",
+          "sort": "is Conformant",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -510,37 +530,8 @@
         {
           "uri": "http://fixme.com#cccev:supports",
           "name": "",
-          "sort": "undefined name",
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -566,6 +557,37 @@
           ],
           "cardinality": "0..*",
           "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://fixme.com#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
         }
       ]
     },
@@ -573,7 +595,7 @@
       "uri": "http://fixme.com#EvidenceType",
       "name": "Evidence type",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Evidence type",
       "description": {},
       "usage": {},
       "parents": [
@@ -589,7 +611,8 @@
         {
           "uri": "http://fixme.com#cccev:datasetType",
           "name": "dataset type",
-          "sort": "undefined name",
+          "sort": "dataset type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -606,7 +629,8 @@
         {
           "uri": "http://fixme.com#cccev:evidenceTypeClassification",
           "name": "evidence type classification",
-          "sort": "undefined name",
+          "sort": "evidence type classification",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -623,7 +647,8 @@
         {
           "uri": "http://fixme.com#cccev:isSpecifiedIn",
           "name": "is specified in",
-          "sort": "undefined name",
+          "sort": "is specified in",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -656,7 +681,7 @@
       "uri": "http://fixme.com#EvidenceTypeList",
       "name": "Evidence Type List",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Evidence Type List",
       "description": {},
       "usage": {},
       "parents": [],
@@ -664,7 +689,8 @@
         {
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -681,7 +707,8 @@
         {
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -698,7 +725,8 @@
         {
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
-          "sort": "undefined name",
+          "sort": "name",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -715,7 +743,8 @@
         {
           "uri": "http://fixme.com#cccev:specifiesEvidenceType",
           "name": "specifies evidence type",
-          "sort": "undefined name",
+          "sort": "specifies evidence type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -748,7 +777,7 @@
       "uri": "http://fixme.com#InformationRequirement",
       "name": "Information Requirement",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Information Requirement",
       "description": {},
       "usage": {},
       "parents": [
@@ -766,7 +795,7 @@
       "uri": "http://fixme.com#ReferenceFramework",
       "name": "Reference Framework",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Reference Framework",
       "description": {},
       "usage": {},
       "parents": [
@@ -784,7 +813,7 @@
       "uri": "http://fixme.com#Requirement",
       "name": "Requirement",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Requirement",
       "description": {},
       "usage": {},
       "parents": [],
@@ -792,7 +821,8 @@
         {
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -809,7 +839,8 @@
         {
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -826,7 +857,8 @@
         {
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
-          "sort": "undefined name",
+          "sort": "name",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -843,7 +875,8 @@
         {
           "uri": "http://fixme.com#cbc:type",
           "name": "type",
-          "sort": "undefined name",
+          "sort": "type",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -860,7 +893,8 @@
         {
           "uri": "http://fixme.com#cccev:hasConcept",
           "name": "has concept",
-          "sort": "undefined name",
+          "sort": "has concept",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -890,7 +924,8 @@
         {
           "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
           "name": "has evidence type combination",
-          "sort": "undefined name",
+          "sort": "has evidence type combination",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -920,7 +955,8 @@
         {
           "uri": "http://fixme.com#cccev:hasRequirement",
           "name": "has requirement",
-          "sort": "undefined name",
+          "sort": "has requirement",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -950,7 +986,8 @@
         {
           "uri": "http://fixme.com#cccev:hasSupportingEvidence",
           "name": "has supporting evidence",
-          "sort": "undefined name",
+          "sort": "has supporting evidence",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -980,7 +1017,8 @@
         {
           "uri": "http://fixme.com#cccev:isDerivedFrom",
           "name": "is derived from",
-          "sort": "undefined name",
+          "sort": "is derived from",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1010,7 +1048,8 @@
         {
           "uri": "http://fixme.com#cccev:isRequirementOf",
           "name": "is requirement of",
-          "sort": "undefined name",
+          "sort": "is requirement of",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1043,7 +1082,7 @@
       "uri": "http://fixme.com#Standard",
       "name": "Standard",
       "label": {},
-      "sort": "undefined name",
+      "sort": "Standard",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1085,5 +1124,5 @@
   ],
   "datatypes": [],
   "parents": [],
-  "documentroot": "doc/applicationprofile/cccev-ap"
+  "documentroot": "/doc/applicationprofile/cccev-ap"
 }

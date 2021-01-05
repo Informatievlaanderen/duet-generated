@@ -39,7 +39,7 @@
   <div class="page">
     <div class="layout layout--wide">
       <div class="skiplink">
-        <a rel="nofollow noreferrer" href="#main">Overslaan en naar de algemene inhoud gaan</a>
+        <a rel="nofollow noreferrer" href="#main">Skip this section and go to general content</a>
       </div>
     </div>
     <div class="page">
@@ -164,7 +164,7 @@
             </div>
 
             <div class="region region--no-space-top typography" id="summary">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Samenvatting</h2>
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Summary</h2>
                 
 <p>Vul hier een samenvatting van mijn applicatieprofiel in.</p>
 
@@ -172,7 +172,7 @@
 
             <div class="region region--no-space-top typography" id="status">
               <section class="introductory" id="sotd" typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status van dit document</h2>
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status of this document</h2>
                 
 <p>(Verwijder dit blok om een geautomatiseerde standaardparagraaf te laten verschijnen.)</p>
 
@@ -180,7 +180,7 @@
             </div>
 
             <div class="region region--no-space-top typography" id="license">
-              <h2 class="h2">Licentie</h2>
+              <h2 class="h2">License</h2>
               
               <p><span rel="dct:type" property="dct:title" href="http://purl.org/dc/dcmitype/Text" xmlns:dct="http://purl.org/dc/terms/">This specification</span> of <a rel="cc:attributionURL" property="cc:attributionName" href="ORGANISATION" xmlns:cc="http://creativecommons.org/ns#">ORGANISATION</a> is published under <a href="TBD" rel="license">"CC0"</a>.</p>
               
@@ -188,7 +188,7 @@
             <div class="region region--no-space-top typography" id="conformance">
               <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformiteit</h2>
               
-              <p>An implementation is conformant with this application profile if it satisfies <a href="/doc/conformance">these rules</a>.</p>
+              <p>An implementation is conformant with this application profile if it satifies <a href="/doc/conformance">these rules</a>.</p>
               
             </div>
             <div class="region region--no-space-top" id="overview">
@@ -200,12 +200,12 @@
                     <p>This document describes the usage of the following entities for a correct usage of the Application Profile: 
                       <br />
                       |
-                      <a href="#Person">Person</a> |
                       <a href="#Address">Address</a> |
+                      <a href="#Course Result">Course Result</a> |
                       <a href="#Education Institute">Education Institute</a> |
                       <a href="#Location">Location</a> |
                       <a href="#Organisation">Organisation</a> |
-                      <a href="#Course Result">Course Result</a> |
+                      <a href="#Person">Person</a> |
                       <a href="#Record of Results Evidence">Record of Results Evidence</a> |
                       <a href="#Student">Student</a> |
                       <a href="#Tertiary Education Diploma Evidence">Tertiary Education Diploma Evidence</a> |
@@ -228,165 +228,12 @@
             </div>
 
             <div class="region region--no-space-top">
-              <a href="doc/applicationprofile/sdgtest-ap/html/overview.jpg" target="_blank">
-                 <img src="doc/applicationprofile/sdgtest-ap/html/overview.jpg" />
+              <a href="/doc/applicationprofile/sdgtest-ap/html/overview.jpg" target="_blank">
+                 <img src="/doc/applicationprofile/sdgtest-ap/html/overview.jpg" />
               </a>
             </div>
             <div class="region region--no-space-top">
               <h2 class="h2">Entities</h2>
-            </div>
-            
-              <div class="region region--no-space-top">
-              <h3 class="h3" id="Person"><a href="https://sdg.semic.euPerson" data-toggle="tooltip" data-content="https://sdg.semic.euPerson" data-placement="right">Person</a></h3>
-                <div class="region region--no-space-top">
-                  <dl>
-                    <dt>Description</dt><dd>An individual person who may be dead or alive, but not imaginary.</dd>
-                    
-		    
-                    <dt>Properties</dt>
-		     
-                    <dd>For this entity the following properties are defined:
-                      <a href="#Person%3A"></a>, 
-                      <a href="#Person%3Adate%20of%20birth"></a>, 
-                      <a href="#Person%3Afamily%20name"></a>, 
-                      <a href="#Person%3Agiven%20name"></a>, 
-                      <a href="#Person%3A"></a>, 
-                      <a href="#Person%3Asex"></a>.</dd>
-                    
-                  </dl>
-                </div>
-		 
-                <div class="u-table-overflow">
-                  <table class="data-table">
-                    <thead>
-                      <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                        <th class="data-table__header-title--sortable">Expected Range</th>
-                        <th class="data-table__header-title--sortable">Cardinality</th>
-                        <th class="data-table__header-title--sortable">Description</th>
-                        <th class="data-table__header-title--sortable">Usage</th>
-                        <th class="data-table__header-title--sortable">Codelist</th>
-                      </tr>
-                    </thead>
-
-                    <tbody class="supertype">
-                    
-                      <tr id="Person%3A" typeof="rdfs:Property" resource="https://sdg.semic.euPerson.registeredAddress">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euPerson.registeredAddress" data-toggle="tooltip" data-content="https://sdg.semic.euPerson.registeredAddress" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Address" data-placement="right">Address</a>
-			    
-                          
-                        </td>
-                        <td></td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Person%3Adate%20of%20birth" typeof="rdfs:Property" resource="https://sdg.semic.eudateOfBirth">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eudateOfBirth" data-toggle="tooltip" data-content="https://sdg.semic.eudateOfBirth" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#date" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#date" data-placement="right">Date</a>
-                            
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment">A date that specifies the birth date of a Person.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Person%3Afamily%20name" typeof="rdfs:Property" resource="https://sdg.semic.eufamilyName">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eufamilyName" data-toggle="tooltip" data-content="https://sdg.semic.eufamilyName" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment">A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Person%3Agiven%20name" typeof="rdfs:Property" resource="https://sdg.semic.eugivenName">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eugivenName" data-toggle="tooltip" data-content="https://sdg.semic.eugivenName" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment"> 	A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as &#39;given names&#39; through a formal process. All given names</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Person%3A" typeof="rdfs:Property" resource="https://sdg.semic.euplaceOfBirth">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euplaceOfBirth" data-toggle="tooltip" data-content="https://sdg.semic.euplaceOfBirth" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Location" data-placement="right">Location</a>
-			    
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Person%3Asex" typeof="rdfs:Property" resource="https://sdg.semic.eusex">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eusex" data-toggle="tooltip" data-content="https://sdg.semic.eusex" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                    </tbody>
-                  </table>
-                </div>
-      			  
             </div>
             
               <div class="region region--no-space-top">
@@ -401,9 +248,9 @@
                     <dd>For this entity the following properties are defined:
                       <a href="#Address%3A"></a>, 
                       <a href="#Address%3A"></a>, 
-                      <a href="#Address%3AAdmin%20unit%20Level%201"></a>, 
-                      <a href="#Address%3Aadmin%20unit%20Level%202"></a>, 
-                      <a href="#Address%3Afull%20address"></a>.</dd>
+                      <a href="#Address%3AAdmin%20unit%20Level%201">Admin unit Level 1</a>, 
+                      <a href="#Address%3Aadmin%20unit%20Level%202">admin unit Level 2</a>, 
+                      <a href="#Address%3Afull%20address">full address</a>.</dd>
                     
                   </dl>
                 </div>
@@ -467,7 +314,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euadminUnitL1" data-toggle="tooltip" data-content="https://sdg.semic.euadminUnitL1" data-placement="right">
-                            </a>
+                            Admin unit Level 1</a>
                           </code>
                         </td>
                         <td>
@@ -487,7 +334,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euadminUnitL2" data-toggle="tooltip" data-content="https://sdg.semic.euadminUnitL2" data-placement="right">
-                            </a>
+                            admin unit Level 2</a>
                           </code>
                         </td>
                         <td>
@@ -503,7 +350,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eufullAddress" data-toggle="tooltip" data-content="https://sdg.semic.eufullAddress" data-placement="right">
-                            </a>
+                            full address</a>
                           </code>
                         </td>
                         <td>
@@ -511,6 +358,176 @@
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment"> 	The complete address written as a string, with or without formatting.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Course Result"><a href="https://sdg.semic.euCourseResult" data-toggle="tooltip" data-content="https://sdg.semic.euCourseResult" data-placement="right">Course Result</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>Grade obtained after finishing/completing a course.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Course%20Result%3Acourse%20academic%20period">course academic period</a>, 
+                      <a href="#Course%20Result%3Acourse%20academic%20period">course academic period</a>, 
+                      <a href="#Course%20Result%3Acourse%20credits%20amount">course credits amount</a>, 
+                      <a href="#Course%20Result%3Acourse%20field%20of%20study">course field of study</a>, 
+                      <a href="#Course%20Result%3Acourse%20grade">course grade</a>, 
+                      <a href="#Course%20Result%3Acourse%20language">course language</a>, 
+                      <a href="#Course%20Result%3Acourse%20name">course name</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Course%20Result%3Acourse%20academic%20period" typeof="rdfs:Property" resource="https://sdg.semic.eucourseAcademicPeriod">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseAcademicPeriod" data-toggle="tooltip" data-content="https://sdg.semic.eucourseAcademicPeriod" data-placement="right">
+                            course academic period</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Period of the academic year when the course took place, e.g. first semester, second trimester, etc.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Course%20Result%3Acourse%20academic%20period" typeof="rdfs:Property" resource="https://sdg.semic.eucourseAcademicYear">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseAcademicYear" data-toggle="tooltip" data-content="https://sdg.semic.eucourseAcademicYear" data-placement="right">
+                            course academic period</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#date" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#date" data-placement="right">Date</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment"> 	The annual period of sessions of an educational programme usually beginning in September and ending in June.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Course%20Result%3Acourse%20credits%20amount" typeof="rdfs:Property" resource="https://sdg.semic.eucourseCreditsAmount">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseCreditsAmount" data-toggle="tooltip" data-content="https://sdg.semic.eucourseCreditsAmount" data-placement="right">
+                            course credits amount</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment"> 	The number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Course%20Result%3Acourse%20field%20of%20study" typeof="rdfs:Property" resource="https://sdg.semic.eucourseFieldOfStudy">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseFieldOfStudy" data-toggle="tooltip" data-content="https://sdg.semic.eucourseFieldOfStudy" data-placement="right">
+                            course field of study</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">The discipline or subject area of a course.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Course%20Result%3Acourse%20grade" typeof="rdfs:Property" resource="https://sdg.semic.eucourseGrade">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseGrade" data-toggle="tooltip" data-content="https://sdg.semic.eucourseGrade" data-placement="right">
+                            course grade</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Grade" data-placement="right">Grade</a>
+			    
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment"> 	A mark indicating a degree of accomplishment for a particular course.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Course%20Result%3Acourse%20language" typeof="rdfs:Property" resource="https://sdg.semic.eucourseLanguage">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseLanguage" data-toggle="tooltip" data-content="https://sdg.semic.eucourseLanguage" data-placement="right">
+                            course language</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Main language in which the course was taught.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Course%20Result%3Acourse%20name" typeof="rdfs:Property" resource="https://sdg.semic.eucourseName">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eucourseName" data-toggle="tooltip" data-content="https://sdg.semic.eucourseName" data-placement="right">
+                            course name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment"> 	Name given to a number of lectures or other matters dealing with a subject, i.e. the course.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -592,8 +609,8 @@
 		     
                     <dd>For this entity the following properties are defined:
                       <a href="#Location%3A"></a>, 
-                      <a href="#Location%3Ageographic%20name"></a>, 
-                      <a href="#Location%3Ageographic%20identifier"></a>.</dd>
+                      <a href="#Location%3Ageographic%20identifier">geographic identifier</a>, 
+                      <a href="#Location%3Ageographic%20name">geographic name</a>.</dd>
                     
                   </dl>
                 </div>
@@ -633,11 +650,27 @@
                         <td></td>
                       </tr>
                     
+                      <tr id="Location%3Ageographic%20identifier" typeof="rdfs:Property" resource="https://sdg.semic.eugeographicName">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eugeographicName" data-toggle="tooltip" data-content="https://sdg.semic.eugeographicName" data-placement="right">
+                            geographic identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">A URI that identifies the Location.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Location%3Ageographic%20name" typeof="rdfs:Property" resource="https://sdg.semic.eugeographicIdentifier">
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eugeographicIdentifier" data-toggle="tooltip" data-content="https://sdg.semic.eugeographicIdentifier" data-placement="right">
-                            </a>
+                            geographic name</a>
                           </code>
                         </td>
                         <td>
@@ -649,22 +682,6 @@
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment"> 	A geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a &#39;named place&#39;, including methods for providing multiple names in multiple scripts.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Location%3Ageographic%20identifier" typeof="rdfs:Property" resource="https://sdg.semic.eugeographicName">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eugeographicName" data-toggle="tooltip" data-content="https://sdg.semic.eugeographicName" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">A URI that identifies the Location.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -685,11 +702,11 @@
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Organisation%3Aidentifier"></a>, 
-                      <a href="#Organisation%3Aidentifier"></a>, 
-                      <a href="#Organisation%3Aidentifier"></a>, 
-                      <a href="#Organisation%3Apreferred%20label"></a>, 
-                      <a href="#Organisation%3A"></a>.</dd>
+                      <a href="#Organisation%3A"></a>, 
+                      <a href="#Organisation%3Aidentifier">identifier</a>, 
+                      <a href="#Organisation%3Aidentifier">identifier</a>, 
+                      <a href="#Organisation%3Aidentifier">identifier</a>, 
+                      <a href="#Organisation%3Apreferred%20label">preferred label</a>.</dd>
                     
                   </dl>
                 </div>
@@ -708,70 +725,6 @@
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Organisation%3Aidentifier" typeof="rdfs:Property" resource="https://sdg.semic.euidentifier">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euidentifier" data-toggle="tooltip" data-content="https://sdg.semic.euidentifier" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">An unambiguous reference to the Tertiary Education Evidence.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Organisation%3Aidentifier" typeof="rdfs:Property" resource="https://sdg.semic.euidentifier">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euidentifier" data-toggle="tooltip" data-content="https://sdg.semic.euidentifier" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">An unambiguous reference to the Tertiary Education Evidence.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Organisation%3Aidentifier" typeof="rdfs:Property" resource="https://sdg.semic.euidentifier">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euidentifier" data-toggle="tooltip" data-content="https://sdg.semic.euidentifier" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">An unambiguous reference to the Tertiary Education Evidence.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Organisation%3Apreferred%20label" typeof="rdfs:Property" resource="https://sdg.semic.euprefLabel">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euprefLabel" data-toggle="tooltip" data-content="https://sdg.semic.euprefLabel" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Organisation%3A" typeof="rdfs:Property" resource="https://sdg.semic.euregisteredLocation">
                         <td>
@@ -793,6 +746,70 @@
                         <td></td>
                       </tr>
                     
+                      <tr id="Organisation%3Aidentifier" typeof="rdfs:Property" resource="https://sdg.semic.euidentifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euidentifier" data-toggle="tooltip" data-content="https://sdg.semic.euidentifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1..*</td>
+                        <td property="rdfs:comment">An unambiguous reference to the Tertiary Education Evidence.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Organisation%3Aidentifier" typeof="rdfs:Property" resource="https://sdg.semic.euidentifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euidentifier" data-toggle="tooltip" data-content="https://sdg.semic.euidentifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1..*</td>
+                        <td property="rdfs:comment">An unambiguous reference to the Tertiary Education Evidence.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Organisation%3Aidentifier" typeof="rdfs:Property" resource="https://sdg.semic.euidentifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euidentifier" data-toggle="tooltip" data-content="https://sdg.semic.euidentifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1..*</td>
+                        <td property="rdfs:comment">An unambiguous reference to the Tertiary Education Evidence.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Organisation%3Apreferred%20label" typeof="rdfs:Property" resource="https://sdg.semic.euprefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euprefLabel" data-toggle="tooltip" data-content="https://sdg.semic.euprefLabel" data-placement="right">
+                            preferred label</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1..*</td>
+                        <td property="rdfs:comment">As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
                     </tbody>
                   </table>
                 </div>
@@ -800,22 +817,21 @@
             </div>
             
               <div class="region region--no-space-top">
-              <h3 class="h3" id="Course Result"><a href="https://sdg.semic.euCourseResult" data-toggle="tooltip" data-content="https://sdg.semic.euCourseResult" data-placement="right">Course Result</a></h3>
+              <h3 class="h3" id="Person"><a href="https://sdg.semic.euPerson" data-toggle="tooltip" data-content="https://sdg.semic.euPerson" data-placement="right">Person</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Description</dt><dd>Grade obtained after finishing/completing a course.</dd>
+                    <dt>Description</dt><dd>An individual person who may be dead or alive, but not imaginary.</dd>
                     
 		    
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Course%20Result%3Acourse%20academic%20period"></a>, 
-                      <a href="#Course%20Result%3Acourse%20academic%20period"></a>, 
-                      <a href="#Course%20Result%3Acourse%20credits%20amount"></a>, 
-                      <a href="#Course%20Result%3Acourse%20field%20of%20study"></a>, 
-                      <a href="#Course%20Result%3Acourse%20grade"></a>, 
-                      <a href="#Course%20Result%3Acourse%20language"></a>, 
-                      <a href="#Course%20Result%3Acourse%20name"></a>.</dd>
+                      <a href="#Person%3A"></a>, 
+                      <a href="#Person%3A"></a>, 
+                      <a href="#Person%3Adate%20of%20birth">date of birth</a>, 
+                      <a href="#Person%3Afamily%20name">family name</a>, 
+                      <a href="#Person%3Agiven%20name">given name</a>, 
+                      <a href="#Person%3Asex">sex</a>.</dd>
                     
                   </dl>
                 </div>
@@ -835,27 +851,51 @@
 
                     <tbody class="supertype">
                     
-                      <tr id="Course%20Result%3Acourse%20academic%20period" typeof="rdfs:Property" resource="https://sdg.semic.eucourseAcademicPeriod">
+                      <tr id="Person%3A" typeof="rdfs:Property" resource="https://sdg.semic.euPerson.registeredAddress">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseAcademicPeriod" data-toggle="tooltip" data-content="https://sdg.semic.eucourseAcademicPeriod" data-placement="right">
+                            <a href="https://sdg.semic.euPerson.registeredAddress" data-toggle="tooltip" data-content="https://sdg.semic.euPerson.registeredAddress" data-placement="right">
                             </a>
                           </code>
                         </td>
                         <td>
                           
+			    
+			    <a href="#Address" data-placement="right">Address</a>
+			    
+                          
                         </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Period of the academic year when the course took place, e.g. first semester, second trimester, etc.</td>
+                        <td></td>
+                        <td property="rdfs:comment"></td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
-                      <tr id="Course%20Result%3Acourse%20academic%20period" typeof="rdfs:Property" resource="https://sdg.semic.eucourseAcademicYear">
+                      <tr id="Person%3A" typeof="rdfs:Property" resource="https://sdg.semic.euplaceOfBirth">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseAcademicYear" data-toggle="tooltip" data-content="https://sdg.semic.eucourseAcademicYear" data-placement="right">
+                            <a href="https://sdg.semic.euplaceOfBirth" data-toggle="tooltip" data-content="https://sdg.semic.euplaceOfBirth" data-placement="right">
                             </a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Location" data-placement="right">Location</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment"></td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Person%3Adate%20of%20birth" typeof="rdfs:Property" resource="https://sdg.semic.eudateOfBirth">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eudateOfBirth" data-toggle="tooltip" data-content="https://sdg.semic.eudateOfBirth" data-placement="right">
+                            date of birth</a>
                           </code>
                         </td>
                         <td>
@@ -865,73 +905,49 @@
                             
                           
                         </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"> 	The annual period of sessions of an educational programme usually beginning in September and ending in June.</td>
+                        <td>1</td>
+                        <td property="rdfs:comment">A date that specifies the birth date of a Person.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
-                      <tr id="Course%20Result%3Acourse%20credits%20amount" typeof="rdfs:Property" resource="https://sdg.semic.eucourseCreditsAmount">
+                      <tr id="Person%3Afamily%20name" typeof="rdfs:Property" resource="https://sdg.semic.eufamilyName">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseCreditsAmount" data-toggle="tooltip" data-content="https://sdg.semic.eucourseCreditsAmount" data-placement="right">
-                            </a>
+                            <a href="https://sdg.semic.eufamilyName" data-toggle="tooltip" data-content="https://sdg.semic.eufamilyName" data-placement="right">
+                            family name</a>
                           </code>
                         </td>
                         <td>
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment"> 	The number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload.</td>
+                        <td property="rdfs:comment">A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
-                      <tr id="Course%20Result%3Acourse%20field%20of%20study" typeof="rdfs:Property" resource="https://sdg.semic.eucourseFieldOfStudy">
+                      <tr id="Person%3Agiven%20name" typeof="rdfs:Property" resource="https://sdg.semic.eugivenName">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseFieldOfStudy" data-toggle="tooltip" data-content="https://sdg.semic.eucourseFieldOfStudy" data-placement="right">
-                            </a>
+                            <a href="https://sdg.semic.eugivenName" data-toggle="tooltip" data-content="https://sdg.semic.eugivenName" data-placement="right">
+                            given name</a>
                           </code>
                         </td>
                         <td>
-                          
-			     
-			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
-                            
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">The discipline or subject area of a course.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Course%20Result%3Acourse%20grade" typeof="rdfs:Property" resource="https://sdg.semic.eucourseGrade">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseGrade" data-toggle="tooltip" data-content="https://sdg.semic.eucourseGrade" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Grade" data-placement="right">Grade</a>
-			    
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment"> 	A mark indicating a degree of accomplishment for a particular course.</td>
+                        <td property="rdfs:comment"> 	A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as &#39;given names&#39; through a formal process. All given names</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
-                      <tr id="Course%20Result%3Acourse%20language" typeof="rdfs:Property" resource="https://sdg.semic.eucourseLanguage">
+                      <tr id="Person%3Asex" typeof="rdfs:Property" resource="https://sdg.semic.eusex">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseLanguage" data-toggle="tooltip" data-content="https://sdg.semic.eucourseLanguage" data-placement="right">
-                            </a>
+                            <a href="https://sdg.semic.eusex" data-toggle="tooltip" data-content="https://sdg.semic.eusex" data-placement="right">
+                            sex</a>
                           </code>
                         </td>
                         <td>
@@ -942,23 +958,7 @@
                           
                         </td>
                         <td>0..1</td>
-                        <td property="rdfs:comment">Main language in which the course was taught.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Course%20Result%3Acourse%20name" typeof="rdfs:Property" resource="https://sdg.semic.eucourseName">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eucourseName" data-toggle="tooltip" data-content="https://sdg.semic.eucourseName" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment"> 	Name given to a number of lectures or other matters dealing with a subject, i.e. the course.</td>
+                        <td property="rdfs:comment">The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -981,10 +981,10 @@
                     <dd>For this entity the following properties are defined:
                       <a href="#Record%20of%20Results%20Evidence%3A"></a>, 
                       <a href="#Record%20of%20Results%20Evidence%3A"></a>, 
-                      <a href="#Record%20of%20Results%20Evidence%3A"></a>, 
-                      <a href="#Record%20of%20Results%20Evidence%3A"></a>, 
-                      <a href="#Record%20of%20Results%20Evidence%3Atotal%20credits"></a>, 
-                      <a href="#Record%20of%20Results%20Evidence%3Atotal%20credits"></a>.</dd>
+                      <a href="#Record%20of%20Results%20Evidence%3A">academic year</a>, 
+                      <a href="#Record%20of%20Results%20Evidence%3A">academic year</a>, 
+                      <a href="#Record%20of%20Results%20Evidence%3Atotal%20credits">total credits</a>, 
+                      <a href="#Record%20of%20Results%20Evidence%3Atotal%20credits">total credits</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1024,38 +1024,6 @@
                         <td></td>
                       </tr>
                     
-                      <tr id="Record%20of%20Results%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euacademicYear">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euacademicYear" data-toggle="tooltip" data-content="https://sdg.semic.euacademicYear" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment"> 	The period during which the courses and exams took place.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Record%20of%20Results%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euacademicYear">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euacademicYear" data-toggle="tooltip" data-content="https://sdg.semic.euacademicYear" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment"> 	The period during which the courses and exams took place.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Record%20of%20Results%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.eucontains">
                         <td>
                           <code property="rdfs:label">
@@ -1076,11 +1044,43 @@
                         <td></td>
                       </tr>
                     
+                      <tr id="Record%20of%20Results%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euacademicYear">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euacademicYear" data-toggle="tooltip" data-content="https://sdg.semic.euacademicYear" data-placement="right">
+                            academic year</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment"> 	The period during which the courses and exams took place.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Record%20of%20Results%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euacademicYear">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euacademicYear" data-toggle="tooltip" data-content="https://sdg.semic.euacademicYear" data-placement="right">
+                            academic year</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment"> 	The period during which the courses and exams took place.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Record%20of%20Results%20Evidence%3Atotal%20credits" typeof="rdfs:Property" resource="https://sdg.semic.eutotalCredits">
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eutotalCredits" data-toggle="tooltip" data-content="https://sdg.semic.eutotalCredits" data-placement="right">
-                            </a>
+                            total credits</a>
                           </code>
                         </td>
                         <td>
@@ -1096,7 +1096,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eutotalCredits" data-toggle="tooltip" data-content="https://sdg.semic.eutotalCredits" data-placement="right">
-                            </a>
+                            total credits</a>
                           </code>
                         </td>
                         <td>
@@ -1128,7 +1128,7 @@
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Student%3Astudent%20ID"></a>.</dd>
+                      <a href="#Student%3Astudent%20ID">student ID</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1152,7 +1152,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eustudentID" data-toggle="tooltip" data-content="https://sdg.semic.eustudentID" data-placement="right">
-                            </a>
+                            student ID</a>
                           </code>
                         </td>
                         <td>
@@ -1185,12 +1185,12 @@
 		     
                     <dd>For this entity the following properties are defined:
                       <a href="#Tertiary%20Education%20Diploma%20Evidence%3A"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aacademic%20programme"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aaccess%20to%20further%20study"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aaccess%20to%20regulated%20profession"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Alevel%20of%20distinction"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aoverall%20grade"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Athesis%20title"></a>.</dd>
+                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aacademic%20programme">academic programme</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aaccess%20to%20further%20study">access to further study</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aaccess%20to%20regulated%20profession">access to regulated profession</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Alevel%20of%20distinction">level of distinction</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Aoverall%20grade">overall grade</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Evidence%3Athesis%20title">thesis title</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1234,7 +1234,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euacademicProgramme" data-toggle="tooltip" data-content="https://sdg.semic.euacademicProgramme" data-placement="right">
-                            </a>
+                            academic programme</a>
                           </code>
                         </td>
                         <td>
@@ -1250,7 +1250,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euaccessToFurtherStudy" data-toggle="tooltip" data-content="https://sdg.semic.euaccessToFurtherStudy" data-placement="right">
-                            </a>
+                            access to further study</a>
                           </code>
                         </td>
                         <td>
@@ -1270,7 +1270,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euaccessToRegulatedProfession" data-toggle="tooltip" data-content="https://sdg.semic.euaccessToRegulatedProfession" data-placement="right">
-                            </a>
+                            access to regulated profession</a>
                           </code>
                         </td>
                         <td>
@@ -1286,7 +1286,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eulevelOfDistinction" data-toggle="tooltip" data-content="https://sdg.semic.eulevelOfDistinction" data-placement="right">
-                            </a>
+                            level of distinction</a>
                           </code>
                         </td>
                         <td>
@@ -1306,7 +1306,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euoverallGrade" data-toggle="tooltip" data-content="https://sdg.semic.euoverallGrade" data-placement="right">
-                            </a>
+                            overall grade</a>
                           </code>
                         </td>
                         <td>
@@ -1326,7 +1326,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euthesisTitle" data-toggle="tooltip" data-content="https://sdg.semic.euthesisTitle" data-placement="right">
-                            </a>
+                            thesis title</a>
                           </code>
                         </td>
                         <td>
@@ -1354,17 +1354,17 @@
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Alanguage%20of%20instruction"></a>, 
                       <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3A"></a>, 
                       <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3A"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aaccess%20requirement"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Agrade%20point%20average"></a>, 
                       <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3A"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Amain%20field%20of%20study"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Amode%20of%20study"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aprogramme%20learning%20outcomes"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aqualification%20level"></a>, 
-                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Astudy%20duration"></a>.</dd>
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aaccess%20requirement">access requirement</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Agrade%20point%20average">grade point average</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Alanguage%20of%20instruction">language of instruction</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Amain%20field%20of%20study">main field of study</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Amode%20of%20study">mode of study</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aprogramme%20learning%20outcomes">programme learning outcomes</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aqualification%20level">qualification level</a>, 
+                      <a href="#Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Astudy%20duration">study duration</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1383,26 +1383,6 @@
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Alanguage%20of%20instruction" typeof="rdfs:Property" resource="https://sdg.semic.eulanguageOfInstruction">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eulanguageOfInstruction" data-toggle="tooltip" data-content="https://sdg.semic.eulanguageOfInstruction" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
-                            
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">The different languages in which the programme was given.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults">
                         <td>
@@ -1444,46 +1424,6 @@
                         <td></td>
                       </tr>
                     
-                      <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aaccess%20requirement" typeof="rdfs:Property" resource="https://sdg.semic.euaccessRequirement">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euaccessRequirement" data-toggle="tooltip" data-content="https://sdg.semic.euaccessRequirement" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
-                            
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment"> 	Qualification(s) or periods of study required for access to the programme.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Agrade%20point%20average" typeof="rdfs:Property" resource="https://sdg.semic.eugradePointAverage">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.eugradePointAverage" data-toggle="tooltip" data-content="https://sdg.semic.eugradePointAverage" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Grade" data-placement="right">Grade</a>
-			    
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">The grade point average of the course results, i.e. grades weighted based on the number of credits.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement">
                         <td>
                           <code property="rdfs:label">
@@ -1504,11 +1444,71 @@
                         <td></td>
                       </tr>
                     
+                      <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Aaccess%20requirement" typeof="rdfs:Property" resource="https://sdg.semic.euaccessRequirement">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euaccessRequirement" data-toggle="tooltip" data-content="https://sdg.semic.euaccessRequirement" data-placement="right">
+                            access requirement</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment"> 	Qualification(s) or periods of study required for access to the programme.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Agrade%20point%20average" typeof="rdfs:Property" resource="https://sdg.semic.eugradePointAverage">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eugradePointAverage" data-toggle="tooltip" data-content="https://sdg.semic.eugradePointAverage" data-placement="right">
+                            grade point average</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Grade" data-placement="right">Grade</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">The grade point average of the course results, i.e. grades weighted based on the number of credits.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Alanguage%20of%20instruction" typeof="rdfs:Property" resource="https://sdg.semic.eulanguageOfInstruction">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.eulanguageOfInstruction" data-toggle="tooltip" data-content="https://sdg.semic.eulanguageOfInstruction" data-placement="right">
+                            language of instruction</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">The different languages in which the programme was given.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Tertiary%20Education%20Diploma%20Supplement%20Evidence%3Amain%20field%20of%20study" typeof="rdfs:Property" resource="https://sdg.semic.eumainFieldOfStudy">
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eumainFieldOfStudy" data-toggle="tooltip" data-content="https://sdg.semic.eumainFieldOfStudy" data-placement="right">
-                            </a>
+                            main field of study</a>
                           </code>
                         </td>
                         <td>
@@ -1528,7 +1528,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eumodeOfStudy" data-toggle="tooltip" data-content="https://sdg.semic.eumodeOfStudy" data-placement="right">
-                            </a>
+                            mode of study</a>
                           </code>
                         </td>
                         <td>
@@ -1548,7 +1548,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euprogrammeLearningOutcomes" data-toggle="tooltip" data-content="https://sdg.semic.euprogrammeLearningOutcomes" data-placement="right">
-                            </a>
+                            programme learning outcomes</a>
                           </code>
                         </td>
                         <td>
@@ -1564,7 +1564,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euqualificationLevel" data-toggle="tooltip" data-content="https://sdg.semic.euqualificationLevel" data-placement="right">
-                            </a>
+                            qualification level</a>
                           </code>
                         </td>
                         <td>
@@ -1584,7 +1584,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eustudyDuration" data-toggle="tooltip" data-content="https://sdg.semic.eustudyDuration" data-placement="right">
-                            </a>
+                            study duration</a>
                           </code>
                         </td>
                         <td>
@@ -1615,10 +1615,10 @@
                       <a href="#Tertiary%20Education%20Evidence%3A"></a>, 
                       <a href="#Tertiary%20Education%20Evidence%3A"></a>, 
                       <a href="#Tertiary%20Education%20Evidence%3A"></a>, 
-                      <a href="#Tertiary%20Education%20Evidence%3Aissuing%20date"></a>, 
                       <a href="#Tertiary%20Education%20Evidence%3A"></a>, 
-                      <a href="#Tertiary%20Education%20Evidence%3Alanguage"></a>, 
-                      <a href="#Tertiary%20Education%20Evidence%3Aqualification%20name"></a>.</dd>
+                      <a href="#Tertiary%20Education%20Evidence%3Aissuing%20date">issuing date</a>, 
+                      <a href="#Tertiary%20Education%20Evidence%3Alanguage">language</a>, 
+                      <a href="#Tertiary%20Education%20Evidence%3Aqualification%20name">qualification name</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1698,26 +1698,6 @@
                         <td></td>
                       </tr>
                     
-                      <tr id="Tertiary%20Education%20Evidence%3Aissuing%20date" typeof="rdfs:Property" resource="https://sdg.semic.euissuingDate">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://sdg.semic.euissuingDate" data-toggle="tooltip" data-content="https://sdg.semic.euissuingDate" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#date" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#date" data-placement="right">Date</a>
-                            
-                          
-                        </td>
-                        <td>1</td>
-                        <td property="rdfs:comment">The date on which the Tertiary Education Evidence was issued.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Tertiary%20Education%20Evidence%3A" typeof="rdfs:Property" resource="https://sdg.semic.euissuingPlace">
                         <td>
                           <code property="rdfs:label">
@@ -1738,11 +1718,31 @@
                         <td></td>
                       </tr>
                     
+                      <tr id="Tertiary%20Education%20Evidence%3Aissuing%20date" typeof="rdfs:Property" resource="https://sdg.semic.euissuingDate">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://sdg.semic.euissuingDate" data-toggle="tooltip" data-content="https://sdg.semic.euissuingDate" data-placement="right">
+                            issuing date</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#date" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#date" data-placement="right">Date</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">The date on which the Tertiary Education Evidence was issued.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Tertiary%20Education%20Evidence%3Alanguage" typeof="rdfs:Property" resource="https://sdg.semic.eulanguage">
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.eulanguage" data-toggle="tooltip" data-content="https://sdg.semic.eulanguage" data-placement="right">
-                            </a>
+                            language</a>
                           </code>
                         </td>
                         <td>
@@ -1762,7 +1762,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="https://sdg.semic.euqualificationName" data-toggle="tooltip" data-content="https://sdg.semic.euqualificationName" data-placement="right">
-                            </a>
+                            qualification name</a>
                           </code>
                         </td>
                         <td>
@@ -1792,16 +1792,16 @@
 	      
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>Mark indicating a degree of accomplishment.</dd>
+                    <dt>Description</dt><dd>Mark indicating a degree of accomplishment.</dd>
                     
 		    
-                    <dt>Eigenschappen</dt>
+                    <dt>Properties</dt>
 		     
-                    <dd>Voor dit datatype zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Grade%3Adistribution"></a>, 
-                      <a href="#Grade%3Agrading%20scheme"></a>, 
-                      <a href="#Grade%3Astatus"></a>, 
-                      <a href="#Grade%3Avalue"></a>.</dd>
+                    <dd>we have defined the following properties for this datatype:
+                      <a href="#Grade%3Adistribution">distribution</a>, 
+                      <a href="#Grade%3Agrading%20scheme">grading scheme</a>, 
+                      <a href="#Grade%3Astatus">status</a>, 
+                      <a href="#Grade%3Avalue">value</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1810,12 +1810,12 @@
                   <table class="data-table">
                     <thead>
                       <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Eigenschap</th>
-                        <th class="data-table__header-title--sortable">Verwacht Type</th>
-                        <th class="data-table__header-title--sortable">Kardinaliteit</th>
-                        <th class="data-table__header-title--sortable">Beschrijving</th>
-                        <th class="data-table__header-title--sortable">Gebruik</th>
-                        <th class="data-table__header-title--sortable">Codelijst</th>
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expects Type</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
                       </tr>
                     </thead>
 
@@ -1824,7 +1824,7 @@
                       <tr id="Grade%3Adistribution" typeof="rdfs:Property" resource="https://sdg.semic.eudistribution">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eudistribution" data-toggle="tooltip" data-content="https://sdg.semic.eudistribution" data-placement="right"></a>
+                            <a href="https://sdg.semic.eudistribution" data-toggle="tooltip" data-content="https://sdg.semic.eudistribution" data-placement="right">distribution</a>
                           </code>
                         </td>
                         <td>
@@ -1839,7 +1839,7 @@
                       <tr id="Grade%3Agrading%20scheme" typeof="rdfs:Property" resource="https://sdg.semic.eugradingScheme">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eugradingScheme" data-toggle="tooltip" data-content="https://sdg.semic.eugradingScheme" data-placement="right"></a>
+                            <a href="https://sdg.semic.eugradingScheme" data-toggle="tooltip" data-content="https://sdg.semic.eugradingScheme" data-placement="right">grading scheme</a>
                           </code>
                         </td>
                         <td>
@@ -1858,7 +1858,7 @@
                       <tr id="Grade%3Astatus" typeof="rdfs:Property" resource="https://sdg.semic.eustatus">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.eustatus" data-toggle="tooltip" data-content="https://sdg.semic.eustatus" data-placement="right"></a>
+                            <a href="https://sdg.semic.eustatus" data-toggle="tooltip" data-content="https://sdg.semic.eustatus" data-placement="right">status</a>
                           </code>
                         </td>
                         <td>
@@ -1877,7 +1877,7 @@
                       <tr id="Grade%3Avalue" typeof="rdfs:Property" resource="https://sdg.semic.euvalue">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://sdg.semic.euvalue" data-toggle="tooltip" data-content="https://sdg.semic.euvalue" data-placement="right"></a>
+                            <a href="https://sdg.semic.euvalue" data-toggle="tooltip" data-content="https://sdg.semic.euvalue" data-placement="right">value</a>
                           </code>
                         </td>
                         <td>
@@ -1904,14 +1904,14 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
                 (niet normatief)
                 
-                <p>A reusable JSON-LD context definition for this application profile is retrievable at: <a href="doc/applicationprofile/sdgtest-ap/context/sdgtest2-ap.jsonld" target="_blank">doc/applicationprofile/sdgtest-ap/context/sdgtest2-ap.jsonld</a></p>
+		<p>A reusable JSON-LD context definition for this application profile is retrievable at: <a href="/doc/applicationprofile/sdgtest-ap/context/sdgtest2-ap_en.jsonld" target="_blank">/doc/applicationprofile/sdgtest-ap/context/sdgtest2-ap_en.jsonld</a></p>
                 
             </div>
             <div class="region region--no-space-top" id="shacl">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
-                (niet normatief)
+                (non-normative)
                 
-                <p>A reusable SHACL template for this application profile is retrievable at: <a href="doc/applicationprofile/sdgtest-ap/shacl/sdgtest2-ap-SHACL.ttl" target="_blank">doc/applicationprofile/sdgtest-ap/shacl/sdgtest2-ap-SHACL.ttl</a></p>
+		<p>A reusable SHACL template for this application profile is retrievable at: <a href="/doc/applicationprofile/sdgtest-ap/shacl/sdgtest2-ap_en-SHACL.ttl" target="_blank">/doc/applicationprofile/sdgtest-ap/shacl/sdgtest2-ap_en-SHACL.ttl</a></p>
                 
             </div>
           </div>

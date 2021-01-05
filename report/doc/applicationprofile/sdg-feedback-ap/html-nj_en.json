@@ -25,7 +25,7 @@
       "label": {
         "en": "Address"
       },
-      "sort": "undefined name",
+      "sort": "Address",
       "description": {
         "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
       },
@@ -35,7 +35,8 @@
         {
           "uri": "https://sdg.semic.euAddress.address",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -65,7 +66,8 @@
         {
           "uri": "https://sdg.semic.euAddress.registeredAddress",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -95,7 +97,10 @@
         {
           "uri": "https://sdg.semic.euadminUnitL1",
           "name": "Admin unit Level 1",
-          "sort": "undefined name",
+          "sort": "Admin unit Level 1",
+          "label": {
+            "en": "Admin unit Level 1"
+          },
           "description": {
             "en": "The uppermost administrative unit for the address, almost always a country."
           },
@@ -127,7 +132,10 @@
         {
           "uri": "https://sdg.semic.euadminUnitL2",
           "name": "admin unit Level 2",
-          "sort": "undefined name",
+          "sort": "admin unit Level 2",
+          "label": {
+            "en": "admin unit Level 2"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -144,7 +152,10 @@
         {
           "uri": "https://sdg.semic.eufullAddress",
           "name": "full address",
-          "sort": "undefined name",
+          "sort": "full address",
+          "label": {
+            "en": "full address"
+          },
           "description": {
             "en": " \tThe complete address written as a string, with or without formatting."
           },
@@ -166,7 +177,7 @@
       "uri": "https://sdg.semic.euCourseResult",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -174,7 +185,8 @@
         {
           "uri": "https://sdg.semic.eucourseAcademicPeriod",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -191,7 +203,8 @@
         {
           "uri": "https://sdg.semic.eucourseAcademicYear",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -221,7 +234,8 @@
         {
           "uri": "https://sdg.semic.eucourseCreditsAmount",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -238,7 +252,8 @@
         {
           "uri": "https://sdg.semic.eucourseFieldOfStudy",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -268,7 +283,8 @@
         {
           "uri": "https://sdg.semic.eucourseGrade",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -298,7 +314,8 @@
         {
           "uri": "https://sdg.semic.eucourseLanguage",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -328,7 +345,8 @@
         {
           "uri": "https://sdg.semic.eucourseName",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -348,7 +366,7 @@
       "uri": "https://sdg.semic.euEducationInstitution",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [
@@ -364,7 +382,8 @@
         {
           "uri": "https://sdg.semic.euEducationInstitution.obtainedAt",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -397,7 +416,7 @@
       "uri": "https://sdg.semic.euLocation",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -405,7 +424,8 @@
         {
           "uri": "https://sdg.semic.euLocation.address",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -435,7 +455,8 @@
         {
           "uri": "https://sdg.semic.eugeographicIdentifier",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -465,7 +486,8 @@
         {
           "uri": "https://sdg.semic.eugeographicName",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -485,7 +507,7 @@
       "uri": "https://sdg.semic.euOrganisation",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -493,7 +515,8 @@
         {
           "uri": "https://sdg.semic.euidentifier",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -510,7 +533,8 @@
         {
           "uri": "https://sdg.semic.euidentifier",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -527,7 +551,8 @@
         {
           "uri": "https://sdg.semic.euidentifier",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -544,7 +569,8 @@
         {
           "uri": "https://sdg.semic.euprefLabel",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -561,7 +587,8 @@
         {
           "uri": "https://sdg.semic.euregisteredLocation",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -594,7 +621,7 @@
       "uri": "https://sdg.semic.euPerson",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -602,7 +629,8 @@
         {
           "uri": "https://sdg.semic.euPerson.registeredAddress",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -632,7 +660,8 @@
         {
           "uri": "https://sdg.semic.eudateOfBirth",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -662,7 +691,8 @@
         {
           "uri": "https://sdg.semic.eufamilyName",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -679,7 +709,8 @@
         {
           "uri": "https://sdg.semic.eugivenName",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -696,7 +727,8 @@
         {
           "uri": "https://sdg.semic.euplaceOfBirth",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -726,7 +758,8 @@
         {
           "uri": "https://sdg.semic.eusex",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -759,7 +792,7 @@
       "uri": "https://sdg.semic.euRecordOfResultsEvidence",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -767,7 +800,8 @@
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -797,7 +831,8 @@
         {
           "uri": "https://sdg.semic.euacademicYear",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -814,7 +849,8 @@
         {
           "uri": "https://sdg.semic.euacademicYear",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -831,7 +867,8 @@
         {
           "uri": "https://sdg.semic.eucontains",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -861,7 +898,8 @@
         {
           "uri": "https://sdg.semic.eutotalCredits",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -878,7 +916,8 @@
         {
           "uri": "https://sdg.semic.eutotalCredits",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -898,7 +937,7 @@
       "uri": "https://sdg.semic.euStudent",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [
@@ -914,7 +953,8 @@
         {
           "uri": "https://sdg.semic.eustudentID",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -934,7 +974,7 @@
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [
@@ -950,7 +990,8 @@
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -980,7 +1021,8 @@
         {
           "uri": "https://sdg.semic.euacademicProgramme",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -997,7 +1039,8 @@
         {
           "uri": "https://sdg.semic.euaccessToFurtherStudy",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1027,7 +1070,8 @@
         {
           "uri": "https://sdg.semic.euaccessToRegulatedProfession",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1044,7 +1088,8 @@
         {
           "uri": "https://sdg.semic.eulevelOfDistinction",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1074,7 +1119,8 @@
         {
           "uri": "https://sdg.semic.euoverallGrade",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1104,7 +1150,8 @@
         {
           "uri": "https://sdg.semic.euthesisTitle",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1124,7 +1171,7 @@
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1132,7 +1179,8 @@
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1162,7 +1210,8 @@
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1192,7 +1241,8 @@
         {
           "uri": "https://sdg.semic.euacademicProgrammeLanguage",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1222,7 +1272,8 @@
         {
           "uri": "https://sdg.semic.euaccessRequirement",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1252,7 +1303,8 @@
         {
           "uri": "https://sdg.semic.eugradePointAverage",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1282,7 +1334,8 @@
         {
           "uri": "https://sdg.semic.eulanguageOfInstruction",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1312,7 +1365,8 @@
         {
           "uri": "https://sdg.semic.eumainFieldOfStudy",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1342,7 +1396,8 @@
         {
           "uri": "https://sdg.semic.eumodeOfStudy",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1372,7 +1427,8 @@
         {
           "uri": "https://sdg.semic.euprogrammeLearningOutcomes",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1389,7 +1445,8 @@
         {
           "uri": "https://sdg.semic.euqualificationLevel",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1419,7 +1476,8 @@
         {
           "uri": "https://sdg.semic.eustudyDuration",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1439,7 +1497,7 @@
       "uri": "https://sdg.semic.euTertiaryEducationEvidence",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1447,7 +1505,8 @@
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1477,7 +1536,8 @@
         {
           "uri": "https://sdg.semic.eubelongsTo",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1507,7 +1567,8 @@
         {
           "uri": "https://sdg.semic.euissuingAuthority",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1537,7 +1598,8 @@
         {
           "uri": "https://sdg.semic.euissuingDate",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1567,7 +1629,8 @@
         {
           "uri": "https://sdg.semic.euissuingPlace",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1597,7 +1660,8 @@
         {
           "uri": "https://sdg.semic.eulanguage",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1627,7 +1691,8 @@
         {
           "uri": "https://sdg.semic.euqualificationName",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -2146,7 +2211,7 @@
       "uri": "https://sdg.semic.euGrade",
       "name": "",
       "label": {},
-      "sort": "undefined name",
+      "sort": "",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2154,7 +2219,8 @@
         {
           "uri": "https://sdg.semic.eudistribution",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -2171,7 +2237,8 @@
         {
           "uri": "https://sdg.semic.eugradingScheme",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -2201,7 +2268,8 @@
         {
           "uri": "https://sdg.semic.eustatus",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -2231,7 +2299,8 @@
         {
           "uri": "https://sdg.semic.euvalue",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -2262,5 +2331,5 @@
     }
   ],
   "parents": [],
-  "documentroot": "doc/applicationprofile/sdg-feedback-ap"
+  "documentroot": "/doc/applicationprofile/sdg-feedback-ap"
 }

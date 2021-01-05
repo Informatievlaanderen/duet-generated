@@ -24,7 +24,7 @@
       "label": {
         "en": "Agent"
       },
-      "sort": "undefined name",
+      "sort": "Agent",
       "description": {},
       "usage": {},
       "parents": [],
@@ -36,7 +36,7 @@
       "label": {
         "en": "RequirementConcept"
       },
-      "sort": "undefined name",
+      "sort": "RequirementConcept",
       "description": {
         "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
       },
@@ -46,7 +46,10 @@
         {
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
           },
@@ -65,7 +68,10 @@
         {
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {
             "en": "An unambiguous reference to RequirementConcept"
           },
@@ -84,7 +90,10 @@
         {
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
-          "sort": "undefined name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {
             "en": "A name to identify in common language the RequirementConcept"
           },
@@ -103,7 +112,10 @@
         {
           "uri": "http://fixme.com#cbc:type",
           "name": "type",
-          "sort": "undefined name",
+          "sort": "type",
+          "label": {
+            "en": "type"
+          },
           "description": {
             "en": "a classification of the RequirementConcept"
           },
@@ -122,7 +134,10 @@
         {
           "uri": "http://fixme.com#cccev:hasConstraint",
           "name": "has Constraint",
-          "sort": "undefined name",
+          "sort": "has Constraint",
+          "label": {
+            "en": "has Constraint"
+          },
           "description": {
             "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
           },
@@ -159,7 +174,7 @@
       "label": {
         "en": "Constraint"
       },
-      "sort": "undefined name",
+      "sort": "Constraint",
       "description": {
         "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
       },
@@ -183,7 +198,7 @@
       "label": {
         "en": "Criterion"
       },
-      "sort": "undefined name",
+      "sort": "Criterion",
       "description": {
         "en": "condition for evaluation or assessment."
       },
@@ -203,7 +218,10 @@
         {
           "uri": "http://fixme.com#cccev:bias",
           "name": "bias",
-          "sort": "undefined name",
+          "sort": "bias",
+          "label": {
+            "en": "bias"
+          },
           "description": {
             "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
           },
@@ -222,7 +240,10 @@
         {
           "uri": "http://fixme.com#cccev:weight",
           "name": "weight",
-          "sort": "undefined name",
+          "sort": "weight",
+          "label": {
+            "en": "weight"
+          },
           "description": {
             "en": "Relative importance assigned to a given criterion."
           },
@@ -241,7 +262,10 @@
         {
           "uri": "http://fixme.com#cccev:weightingConsiderationDescription",
           "name": "weighting consideration description",
-          "sort": "undefined name",
+          "sort": "weighting consideration description",
+          "label": {
+            "en": "weighting consideration description"
+          },
           "description": {
             "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
           },
@@ -260,7 +284,10 @@
         {
           "uri": "http://fixme.com#cccev:weightingType",
           "name": "weighting type",
-          "sort": "undefined name",
+          "sort": "weighting type",
+          "label": {
+            "en": "weighting type"
+          },
           "description": {
             "en": "The numeric form used to weight."
           },
@@ -284,7 +311,7 @@
       "label": {
         "en": "Dataset"
       },
-      "sort": "undefined name",
+      "sort": "Dataset",
       "description": {},
       "usage": {},
       "parents": [],
@@ -292,7 +319,8 @@
         {
           "uri": "http://fixme.com#dcat:distribution",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -322,7 +350,10 @@
         {
           "uri": "http://fixme.com#dct:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -339,7 +370,10 @@
         {
           "uri": "http://fixme.com#dct:identifier",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -356,7 +390,10 @@
         {
           "uri": "http://fixme.com#dct:issued",
           "name": "issued",
-          "sort": "undefined name",
+          "sort": "issued",
+          "label": {
+            "en": "issued"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -373,7 +410,10 @@
         {
           "uri": "http://fixme.com#dct:modified",
           "name": "modified",
-          "sort": "undefined name",
+          "sort": "modified",
+          "label": {
+            "en": "modified"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -390,7 +430,10 @@
         {
           "uri": "http://fixme.com#dct:title",
           "name": "title",
-          "sort": "undefined name",
+          "sort": "title",
+          "label": {
+            "en": "title"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -407,7 +450,10 @@
         {
           "uri": "http://fixme.com#dct:type",
           "name": "type",
-          "sort": "undefined name",
+          "sort": "type",
+          "label": {
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -429,7 +475,7 @@
       "label": {
         "en": "Distribution"
       },
-      "sort": "undefined name",
+      "sort": "Distribution",
       "description": {},
       "usage": {},
       "parents": [],
@@ -437,7 +483,8 @@
         {
           "uri": "http://fixme.com#dcat:downloadURL",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -454,7 +501,8 @@
         {
           "uri": "http://fixme.com#dct:issued",
           "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -489,7 +537,7 @@
       "label": {
         "en": "Evidence"
       },
-      "sort": "undefined name",
+      "sort": "Evidence",
       "description": {
         "en": "The data proving that a requirement is met or has been fulfilled."
       },
@@ -507,7 +555,10 @@
         {
           "uri": "http://fixme.com#cccev:confidentialityLevelType",
           "name": "confidentiality level type",
-          "sort": "undefined name",
+          "sort": "confidentiality level type",
+          "label": {
+            "en": "confidentiality level type"
+          },
           "description": {
             "en": "The security classification assigned to an Evidence or, in general, to a content."
           },
@@ -526,7 +577,10 @@
         {
           "uri": "http://fixme.com#cccev:isConformantTo",
           "name": "is Conformant",
-          "sort": "undefined name",
+          "sort": "is Conformant",
+          "label": {
+            "en": "is Conformant"
+          },
           "description": {
             "en": "The kind of evidence"
           },
@@ -558,37 +612,8 @@
         {
           "uri": "http://fixme.com#cccev:supports",
           "name": "",
-          "sort": "undefined name",
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Requirement",
-              "range_puri": "http://fixme.com#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "undefined name",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -614,6 +639,37 @@
           ],
           "cardinality": "0..*",
           "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://fixme.com#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Requirement",
+              "range_puri": "http://fixme.com#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
         }
       ]
     },
@@ -623,7 +679,7 @@
       "label": {
         "en": "Evidence type"
       },
-      "sort": "undefined name",
+      "sort": "Evidence type",
       "description": {
         "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
       },
@@ -641,7 +697,10 @@
         {
           "uri": "http://fixme.com#cccev:datasetType",
           "name": "dataset type",
-          "sort": "undefined name",
+          "sort": "dataset type",
+          "label": {
+            "en": "dataset type"
+          },
           "description": {
             "en": "A classification code use to specify the machine-readability of a content."
           },
@@ -660,7 +719,10 @@
         {
           "uri": "http://fixme.com#cccev:evidenceTypeClassification",
           "name": "evidence type classification",
-          "sort": "undefined name",
+          "sort": "evidence type classification",
+          "label": {
+            "en": "evidence type classification"
+          },
           "description": {
             "en": "A classification code to specify the layout and content expected for an evidence."
           },
@@ -679,7 +741,10 @@
         {
           "uri": "http://fixme.com#cccev:isSpecifiedIn",
           "name": "is specified in",
-          "sort": "undefined name",
+          "sort": "is specified in",
+          "label": {
+            "en": "is specified in"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -714,7 +779,7 @@
       "label": {
         "en": "Evidence Type List"
       },
-      "sort": "undefined name",
+      "sort": "Evidence Type List",
       "description": {},
       "usage": {},
       "parents": [],
@@ -722,7 +787,10 @@
         {
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
           },
@@ -741,7 +809,10 @@
         {
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {
             "en": "An unambiguous reference to an Evidence Type List"
           },
@@ -760,7 +831,10 @@
         {
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
-          "sort": "undefined name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {
             "en": "A name to identify in common language the Evidence Type List"
           },
@@ -779,7 +853,10 @@
         {
           "uri": "http://fixme.com#cccev:specifiesEvidenceType",
           "name": "specifies evidence type",
-          "sort": "undefined name",
+          "sort": "specifies evidence type",
+          "label": {
+            "en": "specifies evidence type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -814,7 +891,7 @@
       "label": {
         "en": "Information Requirement"
       },
-      "sort": "undefined name",
+      "sort": "Information Requirement",
       "description": {
         "en": "A request for data that is proof of evidence or leads to the source of such a proof."
       },
@@ -836,7 +913,7 @@
       "label": {
         "en": "Reference Framework"
       },
-      "sort": "undefined name",
+      "sort": "Reference Framework",
       "description": {},
       "usage": {},
       "parents": [
@@ -856,7 +933,7 @@
       "label": {
         "en": "Requirement"
       },
-      "sort": "undefined name",
+      "sort": "Requirement",
       "description": {
         "en": "A condition demanded."
       },
@@ -866,7 +943,10 @@
         {
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
-          "sort": "undefined name",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -883,7 +963,10 @@
         {
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
-          "sort": "undefined name",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -900,7 +983,10 @@
         {
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
-          "sort": "undefined name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -917,7 +1003,10 @@
         {
           "uri": "http://fixme.com#cbc:type",
           "name": "type",
-          "sort": "undefined name",
+          "sort": "type",
+          "label": {
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -934,7 +1023,10 @@
         {
           "uri": "http://fixme.com#cccev:hasConcept",
           "name": "has concept",
-          "sort": "undefined name",
+          "sort": "has concept",
+          "label": {
+            "en": "has concept"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -964,7 +1056,10 @@
         {
           "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
           "name": "has evidence type combination",
-          "sort": "undefined name",
+          "sort": "has evidence type combination",
+          "label": {
+            "en": "has evidence type combination"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -994,7 +1089,10 @@
         {
           "uri": "http://fixme.com#cccev:hasRequirement",
           "name": "has requirement",
-          "sort": "undefined name",
+          "sort": "has requirement",
+          "label": {
+            "en": "has requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1024,7 +1122,10 @@
         {
           "uri": "http://fixme.com#cccev:hasSupportingEvidence",
           "name": "has supporting evidence",
-          "sort": "undefined name",
+          "sort": "has supporting evidence",
+          "label": {
+            "en": "has supporting evidence"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1054,7 +1155,10 @@
         {
           "uri": "http://fixme.com#cccev:isDerivedFrom",
           "name": "is derived from",
-          "sort": "undefined name",
+          "sort": "is derived from",
+          "label": {
+            "en": "is derived from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1084,7 +1188,10 @@
         {
           "uri": "http://fixme.com#cccev:isRequirementOf",
           "name": "is requirement of",
-          "sort": "undefined name",
+          "sort": "is requirement of",
+          "label": {
+            "en": "is requirement of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1119,7 +1226,7 @@
       "label": {
         "en": "Standard"
       },
-      "sort": "undefined name",
+      "sort": "Standard",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1161,5 +1268,5 @@
   ],
   "datatypes": [],
   "parents": [],
-  "documentroot": "doc/applicationprofile/cccev-ap"
+  "documentroot": "/doc/applicationprofile/cccev-ap"
 }
