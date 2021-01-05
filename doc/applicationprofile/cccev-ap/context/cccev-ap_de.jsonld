@@ -39,13 +39,12 @@
       "@type": ""
     },
     "Criterion.cccev:weightingConsiderationDescription": {
-      "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
-      "@type": ""
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Criterion.cccev:weightingType": {
       "@id": "http://data.europa.eu/m8g/cccev#weightingType",
-      "@type": ""
+      "@type": "@id"
     },
     "Custom-data-type": "http://fixme.com#custom-data-type",
     "Dataset": "http://fixme.com#Dataset",
@@ -55,42 +54,10 @@
       "@id": "http://fixme.com#dcat:distribution",
       "@type": "@id"
     },
-    "Dataset.dct:description": {
-      "@container": "@set",
-      "@id": "http://fixme.com#dct:description",
-      "@type": ""
-    },
-    "Dataset.dct:identifier": {
-      "@container": "@set",
-      "@id": "http://fixme.com#dct:identifier",
-      "@type": ""
-    },
-    "Dataset.dct:issued": {
-      "@id": "http://fixme.com#dct:issued",
-      "@type": ""
-    },
-    "Dataset.dct:modified": {
-      "@container": "@set",
-      "@id": "http://fixme.com#dct:modified",
-      "@type": ""
-    },
-    "Dataset.dct:title": {
-      "@container": "@set",
-      "@id": "http://fixme.com#dct:title",
-      "@type": ""
-    },
-    "Dataset.dct:type": {
-      "@id": "http://fixme.com#dct:type",
-      "@type": ""
-    },
     "Distribution": "http://fixme.com#Distribution",
     "Distribution.dcat:downloadURL": {
       "@id": "http://fixme.com#dcat:downloadURL",
       "@type": ""
-    },
-    "Distribution.dct:issued": {
-      "@id": "http://fixme.com#dct:issued",
-      "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
     "Evidence-types": "http://fixme.com#evidence-types",

@@ -189,24 +189,32 @@
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Criterion"
         }
       ],
-      "range": [],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
       "generalization": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#weightingType",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Criterion"
         }
       ],
-      "range": [],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
       "generalization": []
     }
   ],

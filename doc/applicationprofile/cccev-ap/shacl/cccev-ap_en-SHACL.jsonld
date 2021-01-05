@@ -71,15 +71,18 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#weight"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
           },
+          "sh:maxCount": "1",
           "sh:name": {
             "en": "weighting consideration description"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription"
         },
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "en": "The numeric form used to weight."
           },
@@ -129,11 +132,17 @@
           "sh:path": "http://fixme.com#cccev:isConformantTo"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
+          "sh:definition": {
+            "en": "the supported requirement by the evidence"
+          },
           "sh:path": "http://fixme.com#cccev:supports"
         },
         {
-          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
+          "sh:class": "http://fixme.com#Concept",
+          "sh:definition": {
+            "en": "the supported concept by the evidence"
+          },
           "sh:path": "http://fixme.com#cccev:supports"
         }
       ],
@@ -392,46 +401,6 @@
         {
           "sh:class": "http://fixme.com#Distribution",
           "sh:path": "http://fixme.com#dcat:distribution"
-        },
-        {
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://fixme.com#dct:description"
-        },
-        {
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://fixme.com#dct:identifier"
-        },
-        {
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "issued"
-          },
-          "sh:path": "http://fixme.com#dct:issued"
-        },
-        {
-          "sh:name": {
-            "en": "modified"
-          },
-          "sh:path": "http://fixme.com#dct:modified"
-        },
-        {
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "title"
-          },
-          "sh:path": "http://fixme.com#dct:title"
-        },
-        {
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "type"
-          },
-          "sh:path": "http://fixme.com#dct:type"
         }
       ],
       "sh:targetClass": "http://fixme.com#Dataset"
@@ -444,11 +413,6 @@
         {
           "sh:maxCount": "1",
           "sh:path": "http://fixme.com#dcat:downloadURL"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "sh:maxCount": "1",
-          "sh:path": "http://fixme.com#dct:issued"
         }
       ],
       "sh:targetClass": "http://fixme.com#Distribution"
