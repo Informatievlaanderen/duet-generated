@@ -141,21 +141,21 @@
 "@id": "http://data.europa.eu/m8g/cccev#Evidence",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "ap-label-en" : {"en": "Evidence"}, "definition" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "label" : {"en": "Evidence"},
-"extra": {"EA-Name" : "Evidence", "EA-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "Dataset", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://fixme.com#Dataset" }], "parentclasses" : "http://fixme.com#Dataset", "label" : "Evidence", "definition" : "The data proving that a requirement is met or has been fulfilled.", "usage" : "", "ap-label-en" : "Evidence", "ap-definition-en" : "The data proving that a requirement is met or has been fulfilled.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence", "note": "null" }, { "key": "definition-en", "value": "The data proving that a requirement is met or has been fulfilled.", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "ap-label-en" : {"en": "Evidence"}, "definition" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "label" : {"en": "Evidence"}},
+"extra": {"EA-Name" : "Evidence", "EA-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "Dataset", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://www.w3.org/ns/dcat#Dataset" }], "parentclasses" : "http://www.w3.org/ns/dcat#Dataset", "label" : "Evidence", "definition" : "The data proving that a requirement is met or has been fulfilled.", "usage" : "", "ap-label-en" : "Evidence", "ap-definition-en" : "The data proving that a requirement is met or has been fulfilled.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence", "note": "null" }, { "key": "definition-en", "value": "The data proving that a requirement is met or has been fulfilled.", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "ap-label-en" : {"en": "Evidence"}, "definition" : {"en": "The data proving that a requirement is met or has been fulfilled."}, "label" : {"en": "Evidence"}},
 "inpackage": "ACTIVE_PACKAGE",
 "name": "Evidence",
 "parents": [
-"http://fixme.com#Dataset"]
+"http://www.w3.org/ns/dcat#Dataset"]
 },
 {
 "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "ap-label-en" : {"en": "Evidence type"}, "definition" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "label" : {"en": "Evidence type"},
-"extra": {"EA-Name" : "EvidenceType", "EA-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://fixme.com#Dataset" }], "parentclasses" : "http://fixme.com#Dataset", "label" : "Evidence type", "definition" : "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "usage" : "", "ap-label-en" : "Evidence type", "ap-definition-en" : "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence type", "note": "null" }, { "key": "definition-en", "value": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#EvidenceType", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "ap-label-en" : {"en": "Evidence type"}, "definition" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "label" : {"en": "Evidence type"}},
+"extra": {"EA-Name" : "EvidenceType", "EA-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://www.w3.org/ns/dcat#Dataset" }], "parentclasses" : "http://www.w3.org/ns/dcat#Dataset", "label" : "Evidence type", "definition" : "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "usage" : "", "ap-label-en" : "Evidence type", "ap-definition-en" : "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Evidence type", "note": "null" }, { "key": "definition-en", "value": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#EvidenceType", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "ap-label-en" : {"en": "Evidence type"}, "definition" : {"en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."}, "label" : {"en": "Evidence type"}},
 "inpackage": "ACTIVE_PACKAGE",
 "name": "Evidence type",
 "parents": [
-"http://fixme.com#Dataset"]
+"http://www.w3.org/ns/dcat#Dataset"]
 },
 {
 "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
@@ -181,11 +181,11 @@
 "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Reference Framework"}, "label" : {"en": "Reference Framework"},
-"extra": {"EA-Name" : "ReferenceFramework", "EA-Guid" : "{785686A1-4364-47dc-8B5C-2DEE9760958E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://fixme.com#Dataset" }], "parentclasses" : "http://fixme.com#Dataset", "label" : "Reference Framework", "definition" : "", "usage" : "", "ap-label-en" : "Reference Framework", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Reference Framework", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#ReferenceFramework", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Reference Framework"}, "label" : {"en": "Reference Framework"}},
+"extra": {"EA-Name" : "ReferenceFramework", "EA-Guid" : "{785686A1-4364-47dc-8B5C-2DEE9760958E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [{ "name": "Dataset", "label" : "Dataset", "package" : "dcat", "uri" : "http://www.w3.org/ns/dcat#Dataset" }], "parentclasses" : "http://www.w3.org/ns/dcat#Dataset", "label" : "Reference Framework", "definition" : "", "usage" : "", "ap-label-en" : "Reference Framework", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Reference Framework", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#ReferenceFramework", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Reference Framework"}, "label" : {"en": "Reference Framework"}},
 "inpackage": "ACTIVE_PACKAGE",
 "name": "Reference Framework",
 "parents": [
-"http://fixme.com#Dataset"]
+"http://www.w3.org/ns/dcat#Dataset"]
 },
 {
 "@id": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -230,6 +230,46 @@
 ],
 "domain": [
 { "uri": "http://data.europa.eu/m8g/cccev#Evidence", "EA-Name" : "Evidence" }
+],
+"range": [
+{"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }
+],
+"generalization": [
+
+],
+"minCardinality": "0",
+"maxCardinality": "1"}
+, {
+"@id": "http://data.europa.eu/m8g/cccev#datasetType",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "dataset type",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "A classification code use to specify the machine-readability of a content."}, "ap-label-en" : {"en": "dataset type"}, "definition" : {"en": "A classification code use to specify the machine-readability of a content."}, "label" : {"en": "dataset type"},
+"extra": {"EA-Name" : "cccev:datasetType", "EA-Guid" : "{AF57E5F0-CFED-4db7-B027-F439572CCFA1}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }, "label" : "dataset type", "definition" : "A classification code use to specify the machine-readability of a content.", "usage" : "", "ap-label-en" : "dataset type", "ap-definition-en" : "A classification code use to specify the machine-readability of a content.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "dataset type", "note": "null" }, { "key": "definition-en", "value": "A classification code use to specify the machine-readability of a content.", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#datasetType", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A classification code use to specify the machine-readability of a content."}, "ap-label-en" : {"en": "dataset type"}, "definition" : {"en": "A classification code use to specify the machine-readability of a content."}, "label" : {"en": "dataset type"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceType", "EA-Name" : "EvidenceType" }
+],
+"range": [
+{"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }
+],
+"generalization": [
+
+],
+"minCardinality": "0",
+"maxCardinality": "1"}
+, {
+"@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "evidence type classification",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "label" : {"en": "evidence type classification"},
+"extra": {"EA-Name" : "cccev:evidenceTypeClassification", "EA-Guid" : "{CECCCA0A-9A1F-4ee2-A7DC-8E367C11EE6D}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }, "label" : "evidence type classification", "definition" : "A classification code to specify the layout and content expected for an evidence.", "usage" : "", "ap-label-en" : "evidence type classification", "ap-definition-en" : "A classification code to specify the layout and content expected for an evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "evidence type classification", "note": "null" }, { "key": "definition-en", "value": "A classification code to specify the layout and content expected for an evidence.", "note": "null" }, { "key": "uri", "value": "http:\/\/data.europa.eu\/m8g\/cccev#evidenceTypeClassification", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "label" : {"en": "evidence type classification"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceType", "EA-Name" : "EvidenceType" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }
@@ -310,22 +350,6 @@
 "name": "RequirementConcept"
 }
 , {
-"@id": "http://fixme.com#Dataset",
-"@type": "http://www.w3.org/2002/07/owl#Class",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Dataset"}, "label" : {"en": "Dataset"},
-"extra": {"EA-Name" : "Dataset", "EA-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Package" : "dcat", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Dataset", "definition" : "", "usage" : "", "ap-label-en" : "Dataset", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Dataset", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Dataset"}, "label" : {"en": "Dataset"}},
-"name": "Dataset"
-}
-, {
-"@id": "http://fixme.com#Distribution",
-"@type": "http://www.w3.org/2002/07/owl#Class",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Distribution"}, "label" : {"en": "Distribution"},
-"extra": {"EA-Name" : "Distribution", "EA-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Distribution", "definition" : "", "usage" : "", "ap-label-en" : "Distribution", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Distribution", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Distribution"}, "label" : {"en": "Distribution"}},
-"name": "Distribution"
-}
-, {
 "@id": "http://fixme.com#custom-data-type",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "inpackage": "OTHER_PACKAGE",
@@ -366,6 +390,22 @@
 "name": "Code"
 }
 , {
+"@id": "http://www.w3.org/ns/dcat#Dataset",
+"@type": "http://www.w3.org/2002/07/owl#Class",
+"inpackage": "OTHER_PACKAGE",
+"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Dataset"}, "label" : {"en": "Dataset"},
+"extra": {"EA-Name" : "Dataset", "EA-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Package" : "dcat", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Dataset", "definition" : "", "usage" : "", "ap-label-en" : "Dataset", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Dataset", "note": "null" }, { "key": "uri", "value": "http:\/\/www.w3.org\/ns\/dcat#Dataset", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Dataset"}, "label" : {"en": "Dataset"}},
+"name": "Dataset"
+}
+, {
+"@id": "http://www.w3.org/ns/dcat#Distribution",
+"@type": "http://www.w3.org/2002/07/owl#Class",
+"inpackage": "OTHER_PACKAGE",
+"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Distribution"}, "label" : {"en": "Distribution"},
+"extra": {"EA-Name" : "Distribution", "EA-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Distribution", "definition" : "", "usage" : "", "ap-label-en" : "Distribution", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Distribution", "note": "null" }, { "key": "uri", "value": "http:\/\/www.w3.org\/ns\/dcat#Distribution", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Distribution"}, "label" : {"en": "Distribution"}},
+"name": "Distribution"
+}
+, {
 "@id": "http://xmlns.com/foaf/0.1/Agent",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "inpackage": "OTHER_PACKAGE",
@@ -396,52 +436,52 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "http://fixme.com#cccev:datasetType",
+"@id": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "dataset type",
+"name": "is specified in",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "A classification code use to specify the machine-readability of a content."}, "ap-label-en" : {"en": "dataset type"}, "definition" : {"en": "A classification code use to specify the machine-readability of a content."}, "label" : {"en": "dataset type"},
-"extra": {"EA-Name" : "cccev:datasetType", "EA-Guid" : "{AF57E5F0-CFED-4db7-B027-F439572CCFA1}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }, "label" : "dataset type", "definition" : "A classification code use to specify the machine-readability of a content.", "usage" : "", "ap-label-en" : "dataset type", "ap-definition-en" : "A classification code use to specify the machine-readability of a content.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "dataset type", "note": "null" }, { "key": "definition-en", "value": "A classification code use to specify the machine-readability of a content.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A classification code use to specify the machine-readability of a content."}, "ap-label-en" : {"en": "dataset type"}, "definition" : {"en": "A classification code use to specify the machine-readability of a content."}, "label" : {"en": "dataset type"}},
+"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is specified in"}, "label" : {"en": "is specified in"},
+"extra": {"EA-Name" : "cccev:isSpecifiedIn", "EA-Guid" : "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "EvidenceTypeList", "RangeData" : {"EA-Name" : "EvidenceTypeList", "EA-GUID" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceTypeList" }, "sourceRole" : "cccev:specifiesEvidenceType", "destRole" : "cccev:isSpecifiedIn", "label" : "is specified in", "definition" : "", "usage" : "", "ap-label-en" : "is specified in", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is specified in" }, { "key": "uri", "value": "NOTE", "note": "http:\/\/data.europa.eu\/m8g\/cccev#isSpecifiedIn" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is specified in" }, { "key": "uri", "value": "NOTE", "note": "http:\/\/data.europa.eu\/m8g\/cccev#isSpecifiedIn" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is specified in"}, "label" : {"en": "is specified in"}},
 "codelist": [
 ],
 "domain": [
 { "uri": "http://data.europa.eu/m8g/cccev#EvidenceType", "EA-Name" : "EvidenceType" }
 ],
 "range": [
-{"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }
+{"EA-Name" : "EvidenceTypeList", "EA-GUID" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceTypeList" }
 ],
 "generalization": [
 
 ],
-"minCardinality": "0",
-"maxCardinality": "1"}
+"minCardinality": "1",
+"maxCardinality": "*"}
 , {
-"@id": "http://fixme.com#cccev:evidenceTypeClassification",
+"@id": "http://data.europa.eu/m8g/cccev#specifiesEvidenceType",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "evidence type classification",
+"name": "specifies evidence type",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "label" : {"en": "evidence type classification"},
-"extra": {"EA-Name" : "cccev:evidenceTypeClassification", "EA-Guid" : "{CECCCA0A-9A1F-4ee2-A7DC-8E367C11EE6D}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }, "label" : "evidence type classification", "definition" : "A classification code to specify the layout and content expected for an evidence.", "usage" : "", "ap-label-en" : "evidence type classification", "ap-definition-en" : "A classification code to specify the layout and content expected for an evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "evidence type classification", "note": "null" }, { "key": "definition-en", "value": "A classification code to specify the layout and content expected for an evidence.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "A classification code to specify the layout and content expected for an evidence."}, "label" : {"en": "evidence type classification"}},
+"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "specifies evidence type"}, "label" : {"en": "specifies evidence type"},
+"extra": {"EA-Name" : "cccev:specifiesEvidenceType", "EA-Guid" : "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "EvidenceType", "RangeData" : {"EA-Name" : "EvidenceType", "EA-GUID" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceType" }, "sourceRole" : "cccev:isSpecifiedIn", "destRole" : "cccev:specifiesEvidenceType", "label" : "specifies evidence type", "definition" : "", "usage" : "", "ap-label-en" : "specifies evidence type", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "specifies evidence type" }, { "key": "uri", "value": "NOTE", "note": "http:\/\/data.europa.eu\/m8g\/cccev#specifiesEvidenceType" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "specifies evidence type" }, { "key": "uri", "value": "NOTE", "note": "http:\/\/data.europa.eu\/m8g\/cccev#specifiesEvidenceType" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "specifies evidence type"}, "label" : {"en": "specifies evidence type"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceType", "EA-Name" : "EvidenceType" }
+{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList", "EA-Name" : "EvidenceTypeList" }
 ],
 "range": [
-{"EA-Name" : "Code", "EA-GUID" : "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}", "EA-Package" : "dt", "uri" : "http://fixme.com#Code" }
+{"EA-Name" : "EvidenceType", "EA-GUID" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceType" }
 ],
 "generalization": [
 
 ],
 "minCardinality": "0",
-"maxCardinality": "1"}
+"maxCardinality": "*"}
 , {
 "@id": "http://fixme.com#cccev:hasConcept",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has concept",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has concept"}, "label" : {"en": "has concept"},
-"extra": {"EA-Name" : "cccev:hasConcept", "EA-Guid" : "{939FB7ED-5B1D-4ce8-98B6-D451CA7F40F3}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Concept", "RangeData" : {"EA-Name" : "Concept", "EA-GUID" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Concept" }, "sourceRole" : "null", "destRole" : "cccev:hasConcept", "label" : "has concept", "definition" : "", "usage" : "", "ap-label-en" : "has concept", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has concept" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has concept" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has concept"}, "label" : {"en": "has concept"}},
+"ap-definition-en" : {"en": "the requirement concept for which the requirement expects an support in the supporting evidence"}, "ap-label-en" : {"en": "has concept"}, "definition" : {"en": "the requirement concept for which the requirement expects an support in the supporting evidence"}, "label" : {"en": "has concept"},
+"extra": {"EA-Name" : "cccev:hasConcept", "EA-Guid" : "{939FB7ED-5B1D-4ce8-98B6-D451CA7F40F3}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Concept", "RangeData" : {"EA-Name" : "Concept", "EA-GUID" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Concept" }, "sourceRole" : "null", "destRole" : "cccev:hasConcept", "label" : "has concept", "definition" : "the requirement concept for which the requirement expects an support in the supporting evidence", "usage" : "", "ap-label-en" : "has concept", "ap-definition-en" : "the requirement concept for which the requirement expects an support in the supporting evidence", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has concept" }, { "key": "definition-en", "value": "NOTE", "note": "the requirement concept for which the requirement expects an support in the supporting evidence" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has concept" }, { "key": "definition-en", "value": "NOTE", "note": "the requirement concept for which the requirement expects an support in the supporting evidence" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the requirement concept for which the requirement expects an support in the supporting evidence"}, "ap-label-en" : {"en": "has concept"}, "definition" : {"en": "the requirement concept for which the requirement expects an support in the supporting evidence"}, "label" : {"en": "has concept"}},
 "codelist": [
 ],
 "domain": [
@@ -500,8 +540,8 @@
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has requirement",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has requirement"}, "label" : {"en": "has requirement"},
-"extra": {"EA-Name" : "cccev:hasRequirement", "EA-Guid" : "{1514CDA7-A024-4a11-A821-F665EA0857A7}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }, "sourceRole" : "cccev:isRequirementOf", "destRole" : "cccev:hasRequirement", "label" : "has requirement", "definition" : "", "usage" : "", "ap-label-en" : "has requirement", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has requirement" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has requirement" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has requirement"}, "label" : {"en": "has requirement"}},
+"ap-definition-en" : {"en": "a related requirement"}, "ap-label-en" : {"en": "has requirement"}, "definition" : {"en": "a related requirement"}, "label" : {"en": "has requirement"},
+"extra": {"EA-Name" : "cccev:hasRequirement", "EA-Guid" : "{1514CDA7-A024-4a11-A821-F665EA0857A7}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }, "sourceRole" : "cccev:isRequirementOf", "destRole" : "cccev:hasRequirement", "label" : "has requirement", "definition" : "a related requirement", "usage" : "", "ap-label-en" : "has requirement", "ap-definition-en" : "a related requirement", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has requirement" }, { "key": "definition-en", "value": "NOTE", "note": "a related requirement" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has requirement" }, { "key": "definition-en", "value": "NOTE", "note": "a related requirement" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "a related requirement"}, "ap-label-en" : {"en": "has requirement"}, "definition" : {"en": "a related requirement"}, "label" : {"en": "has requirement"}},
 "codelist": [
 ],
 "domain": [
@@ -520,8 +560,8 @@
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has supporting evidence",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has supporting evidence"}, "label" : {"en": "has supporting evidence"},
-"extra": {"EA-Name" : "cccev:hasSupportingEvidence", "EA-Guid" : "{0F444C86-03A8-411d-8A8B-0332A55254FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Evidence", "RangeData" : {"EA-Name" : "Evidence", "EA-GUID" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Evidence" }, "sourceRole" : "cccev:supports", "destRole" : "cccev:hasSupportingEvidence", "label" : "has supporting evidence", "definition" : "", "usage" : "", "ap-label-en" : "has supporting evidence", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "has supporting evidence" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "has supporting evidence" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "has supporting evidence"}, "label" : {"en": "has supporting evidence"}},
+"ap-definition-en" : {"en": "the kind of evidences that the requirement expects"}, "usage" : {"en": "NOTE: label should be change"}, "ap-label-en" : {"en": "has supporting evidence"}, "definition" : {"en": "the kind of evidences that the requirement expects"}, "label" : {"en": "has supporting evidence"},
+"extra": {"EA-Name" : "cccev:hasSupportingEvidence", "EA-Guid" : "{0F444C86-03A8-411d-8A8B-0332A55254FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Evidence", "RangeData" : {"EA-Name" : "Evidence", "EA-GUID" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Evidence" }, "sourceRole" : "cccev:supports", "destRole" : "cccev:hasSupportingEvidence", "label" : "has supporting evidence", "definition" : "the kind of evidences that the requirement expects", "usage" : "NOTE: label should be change", "ap-label-en" : "has supporting evidence", "ap-definition-en" : "the kind of evidences that the requirement expects", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the kind of evidences that the requirement expects" }, { "key": "label-en", "value": "NOTE", "note": "has supporting evidence" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: label should be change" }], "DestRoleTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the kind of evidences that the requirement expects" }, { "key": "label-en", "value": "NOTE", "note": "has supporting evidence" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: label should be change" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the kind of evidences that the requirement expects"}, "usage" : {"en": "NOTE: label should be change"}, "ap-label-en" : {"en": "has supporting evidence"}, "definition" : {"en": "the kind of evidences that the requirement expects"}, "label" : {"en": "has supporting evidence"}},
 "codelist": [
 ],
 "domain": [
@@ -560,8 +600,8 @@
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "is derived from",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is derived from"}, "label" : {"en": "is derived from"},
-"extra": {"EA-Name" : "cccev:isDerivedFrom", "EA-Guid" : "{8CBB451D-0E14-46a2-860C-95A0CF93288A}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ReferenceFramework", "RangeData" : {"EA-Name" : "ReferenceFramework", "EA-GUID" : "{785686A1-4364-47dc-8B5C-2DEE9760958E}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#ReferenceFramework" }, "sourceRole" : "null", "destRole" : "cccev:isDerivedFrom", "label" : "is derived from", "definition" : "", "usage" : "", "ap-label-en" : "is derived from", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is derived from" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is derived from" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is derived from"}, "label" : {"en": "is derived from"}},
+"ap-definition-en" : {"en": "the reference framework that is responsible for the creation\/initiation of the requirement"}, "ap-label-en" : {"en": "is derived from"}, "definition" : {"en": "the reference framework that is responsible for the creation\/initiation of the requirement"}, "label" : {"en": "is derived from"},
+"extra": {"EA-Name" : "cccev:isDerivedFrom", "EA-Guid" : "{8CBB451D-0E14-46a2-860C-95A0CF93288A}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "ReferenceFramework", "RangeData" : {"EA-Name" : "ReferenceFramework", "EA-GUID" : "{785686A1-4364-47dc-8B5C-2DEE9760958E}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#ReferenceFramework" }, "sourceRole" : "null", "destRole" : "cccev:isDerivedFrom", "label" : "is derived from", "definition" : "the reference framework that is responsible for the creation\/initiation of the requirement", "usage" : "", "ap-label-en" : "is derived from", "ap-definition-en" : "the reference framework that is responsible for the creation\/initiation of the requirement", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is derived from" }, { "key": "definition-en", "value": "NOTE", "note": "the reference framework that is responsible for the creation\/initiation of the requirement" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is derived from" }, { "key": "definition-en", "value": "NOTE", "note": "the reference framework that is responsible for the creation\/initiation of the requirement" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the reference framework that is responsible for the creation\/initiation of the requirement"}, "ap-label-en" : {"en": "is derived from"}, "definition" : {"en": "the reference framework that is responsible for the creation\/initiation of the requirement"}, "label" : {"en": "is derived from"}},
 "codelist": [
 ],
 "domain": [
@@ -580,8 +620,8 @@
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "is requirement of",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is requirement of"}, "label" : {"en": "is requirement of"},
-"extra": {"EA-Name" : "cccev:isRequirementOf", "EA-Guid" : "{1514CDA7-A024-4a11-A821-F665EA0857A7}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }, "sourceRole" : "cccev:hasRequirement", "destRole" : "cccev:isRequirementOf", "label" : "is requirement of", "definition" : "", "usage" : "", "ap-label-en" : "is requirement of", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is requirement of" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is requirement of" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is requirement of"}, "label" : {"en": "is requirement of"}},
+"ap-definition-en" : {"en": "TODO"}, "usage" : {"en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."}, "ap-label-en" : {"en": "is requirement of"}, "label" : {"en": "is requirement of"},
+"extra": {"EA-Name" : "cccev:isRequirementOf", "EA-Guid" : "{1514CDA7-A024-4a11-A821-F665EA0857A7}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }, "sourceRole" : "cccev:hasRequirement", "destRole" : "cccev:isRequirementOf", "label" : "is requirement of", "definition" : "", "usage" : "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.", "ap-label-en" : "is requirement of", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is requirement of" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed." }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is requirement of" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed." }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "usage" : {"en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."}, "ap-label-en" : {"en": "is requirement of"}, "label" : {"en": "is requirement of"}},
 "codelist": [
 ],
 "domain": [
@@ -596,72 +636,12 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "http://fixme.com#cccev:isSpecifiedIn",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "is specified in",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is specified in"}, "label" : {"en": "is specified in"},
-"extra": {"EA-Name" : "cccev:isSpecifiedIn", "EA-Guid" : "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EvidenceType", "EA-Domain-Guid" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Range" : "EvidenceTypeList", "RangeData" : {"EA-Name" : "EvidenceTypeList", "EA-GUID" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceTypeList" }, "sourceRole" : "cccev:specifiesEvidenceType", "destRole" : "cccev:isSpecifiedIn", "label" : "is specified in", "definition" : "", "usage" : "", "ap-label-en" : "is specified in", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "is specified in" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "is specified in" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "is specified in"}, "label" : {"en": "is specified in"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceType", "EA-Name" : "EvidenceType" }
-],
-"range": [
-{"EA-Name" : "EvidenceTypeList", "EA-GUID" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceTypeList" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "*"}
-, {
-"@id": "http://fixme.com#cccev:specifiesEvidenceType",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "specifies evidence type",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "specifies evidence type"}, "label" : {"en": "specifies evidence type"},
-"extra": {"EA-Name" : "cccev:specifiesEvidenceType", "EA-Guid" : "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "EvidenceType", "RangeData" : {"EA-Name" : "EvidenceType", "EA-GUID" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceType" }, "sourceRole" : "cccev:isSpecifiedIn", "destRole" : "cccev:specifiesEvidenceType", "label" : "specifies evidence type", "definition" : "", "usage" : "", "ap-label-en" : "specifies evidence type", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "NOTE", "note": "specifies evidence type" }], "DestRoleTags" : [{ "key": "label-en", "value": "NOTE", "note": "specifies evidence type" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "specifies evidence type"}, "label" : {"en": "specifies evidence type"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList", "EA-Name" : "EvidenceTypeList" }
-],
-"range": [
-{"EA-Name" : "EvidenceType", "EA-GUID" : "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#EvidenceType" }
-],
-"generalization": [
-
-],
-"minCardinality": "0",
-"maxCardinality": "*"}
-, {
 "@id": "http://fixme.com#cccev:supports",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "",
+"name": "supports concept",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "the supported requirement by the evidence"}, "definition" : {"en": "the supported requirement by the evidence"},
-"extra": {"EA-Name" : "cccev:supports", "EA-Guid" : "{0F444C86-03A8-411d-8A8B-0332A55254FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }, "sourceRole" : "cccev:hasSupportingEvidence", "destRole" : "cccev:supports", "label" : "", "definition" : "the supported requirement by the evidence", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "the supported requirement by the evidence", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported requirement by the evidence" }], "DestRoleTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported requirement by the evidence" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the supported requirement by the evidence"}, "definition" : {"en": "the supported requirement by the evidence"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://data.europa.eu/m8g/cccev#Evidence", "EA-Name" : "Evidence" }
-],
-"range": [
-{"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }
-],
-"generalization": [
-
-],
-"minCardinality": "0",
-"maxCardinality": "*"}
-, {
-"@id": "http://fixme.com#cccev:supports",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "the supported concept by the evidence"}, "usage" : {"en": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked."}, "definition" : {"en": "the supported concept by the evidence"},
-"extra": {"EA-Name" : "cccev:supports", "EA-Guid" : "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "Concept", "RangeData" : {"EA-Name" : "Concept", "EA-GUID" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Concept" }, "sourceRole" : "null", "destRole" : "cccev:supports", "label" : "", "definition" : "the supported concept by the evidence", "usage" : "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.", "ap-label-en" : "", "ap-definition-en" : "the supported concept by the evidence", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported concept by the evidence" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked." }], "DestRoleTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported concept by the evidence" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked." }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the supported concept by the evidence"}, "usage" : {"en": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked."}, "definition" : {"en": "the supported concept by the evidence"}},
+"ap-definition-en" : {"en": "the supported concept by the evidence"}, "usage" : {"en": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked."}, "ap-label-en" : {"en": "supports concept"}, "definition" : {"en": "the supported concept by the evidence"}, "label" : {"en": "supports concept"},
+"extra": {"EA-Name" : "cccev:supports", "EA-Guid" : "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "Concept", "RangeData" : {"EA-Name" : "Concept", "EA-GUID" : "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}", "EA-Package" : "CCCEV_v2", "uri" : "http://fixme.com#Concept" }, "sourceRole" : "null", "destRole" : "cccev:supports", "label" : "supports concept", "definition" : "the supported concept by the evidence", "usage" : "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.", "ap-label-en" : "supports concept", "ap-definition-en" : "the supported concept by the evidence", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported concept by the evidence" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked." }, { "key": "label-en", "value": "NOTE", "note": "supports concept" }], "DestRoleTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported concept by the evidence" }, { "key": "usageNote-en", "value": "NOTE", "note": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked." }, { "key": "label-en", "value": "NOTE", "note": "supports concept" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the supported concept by the evidence"}, "usage" : {"en": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked."}, "ap-label-en" : {"en": "supports concept"}, "definition" : {"en": "the supported concept by the evidence"}, "label" : {"en": "supports concept"}},
 "codelist": [
 ],
 "domain": [
@@ -676,45 +656,25 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "http://fixme.com#dcat:distribution",
+"@id": "http://fixme.com#cccev:supports",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": "",
+"name": "supports requirement",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"},
-"extra": {"EA-Name" : "dcat:distribution", "EA-Guid" : "{05643407-0900-4871-B74C-D6153627E30A}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "Distribution", "RangeData" : {"EA-Name" : "Distribution", "EA-GUID" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "uri" : "http://fixme.com#Distribution" }, "sourceRole" : "null", "destRole" : "dcat:distribution", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
+"ap-definition-en" : {"en": "the supported requirement by the evidence"}, "ap-label-en" : {"en": "supports requirement"}, "definition" : {"en": "the supported requirement by the evidence"}, "label" : {"en": "supports requirement"},
+"extra": {"EA-Name" : "cccev:supports", "EA-Guid" : "{0F444C86-03A8-411d-8A8B-0332A55254FB}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Evidence", "EA-Domain-Guid" : "{0D2F3FDD-683F-4121-868E-6F502993AD54}", "EA-Range" : "Requirement", "RangeData" : {"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }, "sourceRole" : "cccev:hasSupportingEvidence", "destRole" : "cccev:supports", "label" : "supports requirement", "definition" : "the supported requirement by the evidence", "usage" : "", "ap-label-en" : "supports requirement", "ap-definition-en" : "the supported requirement by the evidence", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported requirement by the evidence" }, { "key": "label-en", "value": "NOTE", "note": "supports requirement" }], "DestRoleTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the supported requirement by the evidence" }, { "key": "label-en", "value": "NOTE", "note": "supports requirement" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the supported requirement by the evidence"}, "ap-label-en" : {"en": "supports requirement"}, "definition" : {"en": "the supported requirement by the evidence"}, "label" : {"en": "supports requirement"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "http://fixme.com#Dataset", "EA-Name" : "Dataset" }
+{ "uri": "http://data.europa.eu/m8g/cccev#Evidence", "EA-Name" : "Evidence" }
 ],
 "range": [
-{"EA-Name" : "Distribution", "EA-GUID" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "uri" : "http://fixme.com#Distribution" }
+{"EA-Name" : "Requirement", "EA-GUID" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Package" : "CCCEV_v2", "uri" : "http://data.europa.eu/m8g/cccev#Requirement" }
 ],
 "generalization": [
 
 ],
 "minCardinality": "0",
 "maxCardinality": "*"}
-, {
-"@id": "http://fixme.com#dcat:downloadURL",
-"@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": "",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"},
-"extra": {"EA-Name" : "dcat:downloadURL", "EA-Guid" : "{989BA056-7324-465d-B3A6-4109E12A35D4}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Distribution", "EA-Domain-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Range" : "URL", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://fixme.com#Distribution", "EA-Name" : "Distribution" }
-],
-"range": [
-
-],
-"generalization": [
-
-],
-"minCardinality": "0",
-"maxCardinality": "1"}
 , {
 "@id": "http://fixme.com#description",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
@@ -749,26 +709,6 @@
 ],
 "range": [
 
-],
-"generalization": [
-
-],
-"minCardinality": "0",
-"maxCardinality": "*"}
-, {
-"@id": "http://fixme.com#name",
-"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": "name",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "A name to identify in common language the Evidence Type List"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Evidence Type List"}, "label" : {"en": "name"},
-"extra": {"EA-Name" : "name", "EA-Guid" : "{A9719DCB-5174-499e-B0F2-F996E9D8FE9E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "String", "RangeData" : {"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }, "label" : "name", "definition" : "A name to identify in common language the Evidence Type List", "usage" : "", "ap-label-en" : "name", "ap-definition-en" : "A name to identify in common language the Evidence Type List", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "name", "note": "null" }, { "key": "definition-en", "value": "A name to identify in common language the Evidence Type List", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A name to identify in common language the Evidence Type List"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Evidence Type List"}, "label" : {"en": "name"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList", "EA-Name" : "EvidenceTypeList" }
-],
-"range": [
-{"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }
 ],
 "generalization": [
 
@@ -920,6 +860,26 @@
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "name",
 "inpackage": "OTHER_PACKAGE",
+"ap-definition-en" : {"en": "A name to identify in common language the Evidence Type List"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Evidence Type List"}, "label" : {"en": "name"},
+"extra": {"EA-Name" : "name", "EA-Guid" : "{A9719DCB-5174-499e-B0F2-F996E9D8FE9E}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "EvidenceTypeList", "EA-Domain-Guid" : "{656C4155-7FD3-465e-AB71-F34F7F066D5F}", "EA-Range" : "String", "RangeData" : {"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }, "label" : "name", "definition" : "A name to identify in common language the Evidence Type List", "usage" : "", "ap-label-en" : "name", "ap-definition-en" : "A name to identify in common language the Evidence Type List", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "name", "note": "null" }, { "key": "definition-en", "value": "A name to identify in common language the Evidence Type List", "note": "null" }, { "key": "uri", "value": "http:\/\/www.w3.org\/2004\/02\/skos\/core#prefLabel", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A name to identify in common language the Evidence Type List"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Evidence Type List"}, "label" : {"en": "name"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList", "EA-Name" : "EvidenceTypeList" }
+],
+"range": [
+{"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }
+],
+"generalization": [
+
+],
+"minCardinality": "0",
+"maxCardinality": "*"}
+, {
+"@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "name",
+"inpackage": "OTHER_PACKAGE",
 "ap-definition-en" : {"en": "A name to identify in common language the Requirement"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Requirement"}, "label" : {"en": "name"},
 "extra": {"EA-Name" : "name", "EA-Guid" : "{7D895646-4132-489c-BF85-A082A1977DFC}", "EA-Package" : "CCCEV_v2", "EA-Type" : "attribute", "EA-Domain" : "Requirement", "EA-Domain-Guid" : "{D0F60B4B-30F4-4fe4-8362-172989F74286}", "EA-Range" : "String", "RangeData" : {"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }, "label" : "name", "definition" : "A name to identify in common language the Requirement", "usage" : "", "ap-label-en" : "name", "ap-definition-en" : "A name to identify in common language the Requirement", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "name", "note": "null" }, { "key": "uri", "value": "http:\/\/www.w3.org\/2004\/02\/skos\/core#prefLabel", "note": "null" }, { "key": "definition-en", "value": "A name to identify in common language the Requirement", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A name to identify in common language the Requirement"}, "ap-label-en" : {"en": "name"}, "definition" : {"en": "A name to identify in common language the Requirement"}, "label" : {"en": "name"}},
 "codelist": [
@@ -935,5 +895,45 @@
 ],
 "minCardinality": "0",
 "maxCardinality": "*"}
+, {
+"@id": "http://www.w3.org/ns/dcat#distribution",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "distribution",
+"inpackage": "OTHER_PACKAGE",
+"ap-definition-en" : {"en": "the distribution of a dataset"}, "ap-label-en" : {"en": "distribution"}, "definition" : {"en": "the distribution of a dataset"}, "label" : {"en": "distribution"},
+"extra": {"EA-Name" : "dcat:distribution", "EA-Guid" : "{05643407-0900-4871-B74C-D6153627E30A}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Dataset", "EA-Domain-Guid" : "{53F59CE9-8044-4e39-A343-A35AAA542A46}", "EA-Range" : "Distribution", "RangeData" : {"EA-Name" : "Distribution", "EA-GUID" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "uri" : "http://www.w3.org/ns/dcat#Distribution" }, "sourceRole" : "null", "destRole" : "dcat:distribution", "label" : "distribution", "definition" : "the distribution of a dataset", "usage" : "", "ap-label-en" : "distribution", "ap-definition-en" : "the distribution of a dataset", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the distribution of a dataset" }, { "key": "label-en", "value": "NOTE", "note": "distribution" }, { "key": "uri", "value": "NOTE", "note": "http:\/\/www.w3.org\/ns\/dcat#distribution" }], "DestRoleTags" : [{ "key": "definition-en", "value": "NOTE", "note": "the distribution of a dataset" }, { "key": "label-en", "value": "NOTE", "note": "distribution" }, { "key": "uri", "value": "NOTE", "note": "http:\/\/www.w3.org\/ns\/dcat#distribution" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "the distribution of a dataset"}, "ap-label-en" : {"en": "distribution"}, "definition" : {"en": "the distribution of a dataset"}, "label" : {"en": "distribution"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://www.w3.org/ns/dcat#Dataset", "EA-Name" : "Dataset" }
+],
+"range": [
+{"EA-Name" : "Distribution", "EA-GUID" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Package" : "dcat", "uri" : "http://www.w3.org/ns/dcat#Distribution" }
+],
+"generalization": [
+
+],
+"minCardinality": "0",
+"maxCardinality": "*"}
+, {
+"@id": "http://www.w3.org/ns/dcat#downloadURL",
+"@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+"name": "download URL",
+"inpackage": "OTHER_PACKAGE",
+"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "download URL"}, "label" : {"en": "download URL"},
+"extra": {"EA-Name" : "dcat:downloadURL", "EA-Guid" : "{989BA056-7324-465d-B3A6-4109E12A35D4}", "EA-Package" : "dcat", "EA-Type" : "attribute", "EA-Domain" : "Distribution", "EA-Domain-Guid" : "{029101E7-9C3C-45e7-8775-69B47010ADBA}", "EA-Range" : "URL", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "download URL", "definition" : "", "usage" : "", "ap-label-en" : "download URL", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/www.w3.org\/ns\/dcat#downloadURL", "note": "null" }, { "key": "label-en", "value": "download URL", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "download URL"}, "label" : {"en": "download URL"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://www.w3.org/ns/dcat#Distribution", "EA-Name" : "Distribution" }
+],
+"range": [
+
+],
+"generalization": [
+
+],
+"minCardinality": "0",
+"maxCardinality": "1"}
 ]
 }

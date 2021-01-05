@@ -87,7 +87,7 @@
         "en": "The data proving that a requirement is met or has been fulfilled."
       },
       "parents": [
-        "http://fixme.com#Dataset"
+        "http://www.w3.org/ns/dcat#Dataset"
       ]
     },
     {
@@ -97,7 +97,7 @@
         "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
       },
       "parents": [
-        "http://fixme.com#Dataset"
+        "http://www.w3.org/ns/dcat#Dataset"
       ]
     },
     {
@@ -119,7 +119,7 @@
       "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "parents": [
-        "http://fixme.com#Dataset"
+        "http://www.w3.org/ns/dcat#Dataset"
       ]
     },
     {
@@ -207,6 +207,42 @@
       "generalization": []
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "A classification code use to specify the machine-readability of a content."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "A classification code to specify the layout and content expected for an evidence."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "definition": {
@@ -266,6 +302,16 @@
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
       "@type": "rdf:Property"
     },
     {

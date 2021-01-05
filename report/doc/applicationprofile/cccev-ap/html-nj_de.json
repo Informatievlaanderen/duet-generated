@@ -11,8 +11,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/95b598c25f318903996a07a039545816bafda4f8",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/95b598c25f318903996a07a039545816bafda4f8/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/4073a2c61f2b723e54ff0e216466cf3c444d22b9",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/4073a2c61f2b723e54ff0e216466cf3c444d22b9/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -166,7 +166,7 @@
           "name": "Dataset",
           "label": "Dataset",
           "package": "dcat",
-          "uri": "http://fixme.com#Dataset",
+          "uri": "http://www.w3.org/ns/dcat#Dataset",
           "scoped_uri": "#Dataset"
         }
       ],
@@ -266,39 +266,8 @@
         },
         {
           "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "",
+          "name": "supports concept",
+          "sort": "supports concept",
           "label": {},
           "description": {},
           "usage": {},
@@ -325,6 +294,37 @@
           ],
           "cardinality": "0..*",
           "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "supports requirement",
+          "sort": "supports requirement",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
         }
       ]
     },
@@ -340,13 +340,13 @@
           "name": "Dataset",
           "label": "Dataset",
           "package": "dcat",
-          "uri": "http://fixme.com#Dataset",
+          "uri": "http://www.w3.org/ns/dcat#Dataset",
           "scoped_uri": "#Dataset"
         }
       ],
       "properties": [
         {
-          "uri": "http://fixme.com#cccev:datasetType",
+          "uri": "http://data.europa.eu/m8g/cccev#datasetType",
           "name": "dataset type",
           "sort": "dataset type",
           "label": {},
@@ -377,7 +377,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:evidenceTypeClassification",
+          "uri": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
           "name": "evidence type classification",
           "sort": "evidence type classification",
           "label": {},
@@ -408,7 +408,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:isSpecifiedIn",
+          "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
           "name": "is specified in",
           "sort": "is specified in",
           "label": {},
@@ -450,7 +450,7 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://fixme.com#cccev:specifiesEvidenceType",
+          "uri": "http://data.europa.eu/m8g/cccev#specifiesEvidenceType",
           "name": "specifies evidence type",
           "sort": "specifies evidence type",
           "label": {},
@@ -474,37 +474,6 @@
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceType",
               "range_label": {
                 "en": "Evidence type"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#name",
-          "name": "name",
-          "sort": "name",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
               }
             }
           ],
@@ -559,6 +528,37 @@
           "scopedrange": [],
           "cardinality": "0..1",
           "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "name",
+          "sort": "name",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "EA-Name": "EvidenceTypeList"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
         }
       ]
     },
@@ -592,7 +592,7 @@
           "name": "Dataset",
           "label": "Dataset",
           "package": "dcat",
-          "uri": "http://fixme.com#Dataset",
+          "uri": "http://www.w3.org/ns/dcat#Dataset",
           "scoped_uri": "#Dataset"
         }
       ],
@@ -1060,7 +1060,17 @@
       ]
     },
     {
-      "uri": "http://fixme.com#Dataset",
+      "uri": "http://purl.org/dc/terms/Standard",
+      "name": "Standard",
+      "label": {},
+      "sort": "Standard",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/ns/dcat#Dataset",
       "name": "Dataset",
       "label": {},
       "sort": "Dataset",
@@ -1069,28 +1079,28 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://fixme.com#dcat:distribution",
-          "name": "",
-          "sort": "",
+          "uri": "http://www.w3.org/ns/dcat#distribution",
+          "name": "distribution",
+          "sort": "distribution",
           "label": {},
           "description": {},
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Dataset",
+              "uri": "http://www.w3.org/ns/dcat#Dataset",
               "EA-Name": "Dataset"
             }
           ],
           "range": [
             {
               "range_label": "Distribution",
-              "range_uri": "http://fixme.com#Distribution"
+              "range_uri": "http://www.w3.org/ns/dcat#Distribution"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Distribution",
+              "range_puri": "http://www.w3.org/ns/dcat#Distribution",
               "range_label": {
                 "en": "Distribution"
               }
@@ -1102,7 +1112,7 @@
       ]
     },
     {
-      "uri": "http://fixme.com#Distribution",
+      "uri": "http://www.w3.org/ns/dcat#Distribution",
       "name": "Distribution",
       "label": {},
       "sort": "Distribution",
@@ -1111,15 +1121,15 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://fixme.com#dcat:downloadURL",
-          "name": "",
-          "sort": "",
+          "uri": "http://www.w3.org/ns/dcat#downloadURL",
+          "name": "download URL",
+          "sort": "download URL",
           "label": {},
           "description": {},
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Distribution",
+              "uri": "http://www.w3.org/ns/dcat#Distribution",
               "EA-Name": "Distribution"
             }
           ],
@@ -1129,16 +1139,6 @@
           "codelist_uri": ""
         }
       ]
-    },
-    {
-      "uri": "http://purl.org/dc/terms/Standard",
-      "name": "Standard",
-      "label": {},
-      "sort": "Standard",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "properties": []
     },
     {
       "uri": "http://xmlns.com/foaf/0.1/Agent",
@@ -1157,6 +1157,36 @@
       "name": {
         "en": "confidentiality level type",
         "undefined": "confidentiality level type"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#datasetType",
+      "name": {
+        "en": "dataset type",
+        "undefined": "dataset type"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "name": {
+        "en": "evidence type classification",
+        "undefined": "evidence type classification"
       },
       "description": {},
       "domain": [

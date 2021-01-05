@@ -132,16 +132,22 @@
           "sh:path": "http://fixme.com#cccev:isConformantTo"
         },
         {
-          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
+          "sh:class": "http://fixme.com#Concept",
           "sh:definition": {
-            "en": "the supported requirement by the evidence"
+            "en": "the supported concept by the evidence"
+          },
+          "sh:name": {
+            "en": "supports concept"
           },
           "sh:path": "http://fixme.com#cccev:supports"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "en": "the supported concept by the evidence"
+            "en": "the supported requirement by the evidence"
+          },
+          "sh:name": {
+            "en": "supports requirement"
           },
           "sh:path": "http://fixme.com#cccev:supports"
         }
@@ -162,7 +168,7 @@
           "sh:name": {
             "en": "dataset type"
           },
-          "sh:path": "http://fixme.com#cccev:datasetType"
+          "sh:path": "http://data.europa.eu/m8g/cccev#datasetType"
         },
         {
           "sh:class": "http://fixme.com#Code",
@@ -173,7 +179,7 @@
           "sh:name": {
             "en": "evidence type classification"
           },
-          "sh:path": "http://fixme.com#cccev:evidenceTypeClassification"
+          "sh:path": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
@@ -181,7 +187,7 @@
           "sh:name": {
             "en": "is specified in"
           },
-          "sh:path": "http://fixme.com#cccev:isSpecifiedIn"
+          "sh:path": "http://data.europa.eu/m8g/cccev#isSpecifiedIn"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#EvidenceType"
@@ -196,7 +202,7 @@
           "sh:name": {
             "en": "specifies evidence type"
           },
-          "sh:path": "http://fixme.com#cccev:specifiesEvidenceType"
+          "sh:path": "http://data.europa.eu/m8g/cccev#specifiesEvidenceType"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -226,7 +232,7 @@
           "sh:name": {
             "en": "name"
           },
-          "sh:path": "http://fixme.com#name"
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
@@ -252,6 +258,9 @@
       "sh:property": [
         {
           "sh:class": "http://fixme.com#Concept",
+          "sh:definition": {
+            "en": "the requirement concept for which the requirement expects an support in the supporting evidence"
+          },
           "sh:name": {
             "en": "has concept"
           },
@@ -266,6 +275,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
+          "sh:definition": {
+            "en": "a related requirement"
+          },
           "sh:name": {
             "en": "has requirement"
           },
@@ -273,6 +285,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
+          "sh:definition": {
+            "en": "the kind of evidences that the requirement expects"
+          },
           "sh:name": {
             "en": "has supporting evidence"
           },
@@ -280,6 +295,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+          "sh:definition": {
+            "en": "the reference framework that is responsible for the creation/initiation of the requirement"
+          },
           "sh:name": {
             "en": "is derived from"
           },
@@ -394,30 +412,6 @@
       "sh:targetClass": "http://fixme.com#Concept"
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#Distribution",
-          "sh:path": "http://fixme.com#dcat:distribution"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#Dataset"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DistributionShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:maxCount": "1",
-          "sh:path": "http://fixme.com#dcat:downloadURL"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#Distribution"
-    },
-    {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#custom-data-typeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -451,6 +445,39 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/dcat#Distribution",
+          "sh:definition": {
+            "en": "the distribution of a dataset"
+          },
+          "sh:name": {
+            "en": "distribution"
+          },
+          "sh:path": "http://www.w3.org/ns/dcat#distribution"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/dcat#Dataset"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DistributionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "download URL"
+          },
+          "sh:path": "http://www.w3.org/ns/dcat#downloadURL"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/dcat#Distribution"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape",

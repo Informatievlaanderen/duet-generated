@@ -72,14 +72,14 @@
       "@id": "http://data.europa.eu/m8g/cccev#Evidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "parents": [
-        "http://fixme.com#Dataset"
+        "http://www.w3.org/ns/dcat#Dataset"
       ]
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "parents": [
-        "http://fixme.com#Dataset"
+        "http://www.w3.org/ns/dcat#Dataset"
       ]
     },
     {
@@ -98,7 +98,7 @@
       "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "parents": [
-        "http://fixme.com#Dataset"
+        "http://www.w3.org/ns/dcat#Dataset"
       ]
     },
     {
@@ -177,6 +177,36 @@
       "generalization": []
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "domain": [
@@ -227,6 +257,16 @@
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
       "@type": "rdf:Property"
     },
     {

@@ -130,8 +130,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Source</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/95b598c25f318903996a07a039545816bafda4f8">https://github.com/AnnemarieWittig/englishworkspace/tree/95b598c25f318903996a07a039545816bafda4f8</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/95b598c25f318903996a07a039545816bafda4f8/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/95b598c25f318903996a07a039545816bafda4f8/CHANGELOG</a></dd>
+              <dt>Source</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/4073a2c61f2b723e54ff0e216466cf3c444d22b9">https://github.com/AnnemarieWittig/englishworkspace/tree/4073a2c61f2b723e54ff0e216466cf3c444d22b9</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/4073a2c61f2b723e54ff0e216466cf3c444d22b9/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/4073a2c61f2b723e54ff0e216466cf3c444d22b9/CHANGELOG</a></dd>
               <dt>Feedback</dt><dd><a href="https://github.com/SEMICeu/CCCEV/issues">https://github.com/SEMICeu/CCCEV/issues</a></dd>
               <dt>Registry of standards</dt><dd><a href=""></a></dd>
 
@@ -155,7 +155,7 @@
             <div class="region" id="introduction">
               <div class="introduction typography">
               
-		<p>This document describes an<strong>application profile</strong>, in this case <strong>Core Criterion and Core Evidence Vocabulary</strong>.
+		<p>This document describes an <strong>application profile</strong>, in this case <strong>Core Criterion and Core Evidence Vocabulary</strong>.
 		The application profile specifies a semantic data model covering a set of usecases. 
 		The specification consists of terms with their constraints (cardinalities, codelists, usage guidelines).  
 		</p>
@@ -194,8 +194,9 @@ The CCCEV contains two basic and complementary core concepts:
             <div class="region region--no-space-top typography" id="license">
               <h2 class="h2">License</h2>
               
-              <p><span rel="dct:type" property="dct:title" href="http://purl.org/dc/dcmitype/Text" xmlns:dct="http://purl.org/dc/terms/">This specification</span> of <a rel="cc:attributionURL" property="cc:attributionName" href="ORGANISATION" xmlns:cc="http://creativecommons.org/ns#">ORGANISATION</a> is published under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">"CC0"</a>.</p>
-              
+<p><span rel="dct:type" property="dct:title" href="http://purl.org/dc/dcmitype/Text" xmlns:dct="http://purl.org/dc/terms/">
+This specification</span> of <a rel="cc:attributionURL" property="cc:attributionName" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic" xmlns:cc="http://creativecommons.org/ns#">SEMIC</a> is published under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">"CC-BY 4.0"</a>.</p>
+
             </div>
             <div class="region region--no-space-top typography" id="conformance">
               <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformiteit</h2>
@@ -406,7 +407,7 @@ The CCCEV contains two basic and complementary core concepts:
             </div>
             
               <div class="region region--no-space-top">
-              <h3 class="h3" id="Dataset"><a href="http://fixme.com#Dataset" data-toggle="tooltip" data-content="http://fixme.com#Dataset" data-placement="right">Dataset</a></h3>
+              <h3 class="h3" id="Dataset"><a href="http://www.w3.org/ns/dcat#Dataset" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#Dataset" data-placement="right">Dataset</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
                     <dt>Description</dt><dd></dd>
@@ -415,7 +416,7 @@ The CCCEV contains two basic and complementary core concepts:
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Dataset%3A"></a>.</dd>
+                      <a href="#Dataset%3Adistribution">distribution</a>.</dd>
                     
                   </dl>
                 </div>
@@ -435,11 +436,11 @@ The CCCEV contains two basic and complementary core concepts:
 
                     <tbody class="supertype">
                     
-                      <tr id="Dataset%3A" typeof="rdfs:Property" resource="http://fixme.com#dcat:distribution">
+                      <tr id="Dataset%3Adistribution" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#distribution">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#dcat:distribution" data-toggle="tooltip" data-content="http://fixme.com#dcat:distribution" data-placement="right">
-                            </a>
+                            <a href="http://www.w3.org/ns/dcat#distribution" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#distribution" data-placement="right">
+                            distribution</a>
                           </code>
                         </td>
                         <td>
@@ -450,7 +451,7 @@ The CCCEV contains two basic and complementary core concepts:
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment"></td>
+                        <td property="rdfs:comment">the distribution of a dataset</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -462,7 +463,7 @@ The CCCEV contains two basic and complementary core concepts:
             </div>
             
               <div class="region region--no-space-top">
-              <h3 class="h3" id="Distribution"><a href="http://fixme.com#Distribution" data-toggle="tooltip" data-content="http://fixme.com#Distribution" data-placement="right">Distribution</a></h3>
+              <h3 class="h3" id="Distribution"><a href="http://www.w3.org/ns/dcat#Distribution" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#Distribution" data-placement="right">Distribution</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
                     <dt>Description</dt><dd></dd>
@@ -471,7 +472,7 @@ The CCCEV contains two basic and complementary core concepts:
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Distribution%3A"></a>.</dd>
+                      <a href="#Distribution%3Adownload%20URL">download URL</a>.</dd>
                     
                   </dl>
                 </div>
@@ -491,11 +492,11 @@ The CCCEV contains two basic and complementary core concepts:
 
                     <tbody class="supertype">
                     
-                      <tr id="Distribution%3A" typeof="rdfs:Property" resource="http://fixme.com#dcat:downloadURL">
+                      <tr id="Distribution%3Adownload%20URL" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#downloadURL">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#dcat:downloadURL" data-toggle="tooltip" data-content="http://fixme.com#dcat:downloadURL" data-placement="right">
-                            </a>
+                            <a href="http://www.w3.org/ns/dcat#downloadURL" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#downloadURL" data-placement="right">
+                            download URL</a>
                           </code>
                         </td>
                         <td>
@@ -527,11 +528,11 @@ The CCCEV contains two basic and complementary core concepts:
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Evidence%3A"></a>, 
-                      <a href="#Evidence%3A"></a>, 
                       <a href="#Evidence%3Aconfidentiality%20level%20type">confidentiality level type</a>, 
                       <a href="#Evidence%3Ais%20about">is about</a>, 
-                      <a href="#Evidence%3Ais%20Conformant">is Conformant</a>.</dd>
+                      <a href="#Evidence%3Ais%20Conformant">is Conformant</a>, 
+                      <a href="#Evidence%3Asupports%20concept">supports concept</a>, 
+                      <a href="#Evidence%3Asupports%20requirement">supports requirement</a>.</dd>
                     
                   </dl>
                 </div>
@@ -550,46 +551,6 @@ The CCCEV contains two basic and complementary core concepts:
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Evidence%3A" typeof="rdfs:Property" resource="http://fixme.com#cccev:supports">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://fixme.com#cccev:supports" data-toggle="tooltip" data-content="http://fixme.com#cccev:supports" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Requirement" data-placement="right">Requirement</a>
-			    
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">the supported requirement by the evidence</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Evidence%3A" typeof="rdfs:Property" resource="http://fixme.com#cccev:supports">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://fixme.com#cccev:supports" data-toggle="tooltip" data-content="http://fixme.com#cccev:supports" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#RequirementConcept" data-placement="right">RequirementConcept</a>
-			    
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">the supported concept by the evidence</td>
-                        <td property="skos:scopeNote">NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.</td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Evidence%3Aconfidentiality%20level%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#confidentionalityLevelType">
                         <td>
@@ -651,6 +612,46 @@ The CCCEV contains two basic and complementary core concepts:
                         <td></td>
                       </tr>
                     
+                      <tr id="Evidence%3Asupports%20concept" typeof="rdfs:Property" resource="http://fixme.com#cccev:supports">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://fixme.com#cccev:supports" data-toggle="tooltip" data-content="http://fixme.com#cccev:supports" data-placement="right">
+                            supports concept</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#RequirementConcept" data-placement="right">RequirementConcept</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the supported concept by the evidence</td>
+                        <td property="skos:scopeNote">NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%3Asupports%20requirement" typeof="rdfs:Property" resource="http://fixme.com#cccev:supports">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://fixme.com#cccev:supports" data-toggle="tooltip" data-content="http://fixme.com#cccev:supports" data-placement="right">
+                            supports requirement</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Requirement" data-placement="right">Requirement</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the supported requirement by the evidence</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
                     </tbody>
                   </table>
                 </div>
@@ -693,10 +694,10 @@ The CCCEV contains two basic and complementary core concepts:
 
                     <tbody class="supertype">
                     
-                      <tr id="Evidence%20type%3Adataset%20type" typeof="rdfs:Property" resource="http://fixme.com#cccev:datasetType">
+                      <tr id="Evidence%20type%3Adataset%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#datasetType">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#cccev:datasetType" data-toggle="tooltip" data-content="http://fixme.com#cccev:datasetType" data-placement="right">
+                            <a href="http://data.europa.eu/m8g/cccev#datasetType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#datasetType" data-placement="right">
                             dataset type</a>
                           </code>
                         </td>
@@ -713,10 +714,10 @@ The CCCEV contains two basic and complementary core concepts:
                         <td></td>
                       </tr>
                     
-                      <tr id="Evidence%20type%3Aevidence%20type%20classification" typeof="rdfs:Property" resource="http://fixme.com#cccev:evidenceTypeClassification">
+                      <tr id="Evidence%20type%3Aevidence%20type%20classification" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#evidenceTypeClassification">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#cccev:evidenceTypeClassification" data-toggle="tooltip" data-content="http://fixme.com#cccev:evidenceTypeClassification" data-placement="right">
+                            <a href="http://data.europa.eu/m8g/cccev#evidenceTypeClassification" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#evidenceTypeClassification" data-placement="right">
                             evidence type classification</a>
                           </code>
                         </td>
@@ -733,10 +734,10 @@ The CCCEV contains two basic and complementary core concepts:
                         <td></td>
                       </tr>
                     
-                      <tr id="Evidence%20type%3Ais%20specified%20in" typeof="rdfs:Property" resource="http://fixme.com#cccev:isSpecifiedIn">
+                      <tr id="Evidence%20type%3Ais%20specified%20in" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isSpecifiedIn">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#cccev:isSpecifiedIn" data-toggle="tooltip" data-content="http://fixme.com#cccev:isSpecifiedIn" data-placement="right">
+                            <a href="http://data.europa.eu/m8g/cccev#isSpecifiedIn" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#isSpecifiedIn" data-placement="right">
                             is specified in</a>
                           </code>
                         </td>
@@ -828,10 +829,10 @@ The CCCEV contains two basic and complementary core concepts:
                         <td></td>
                       </tr>
                     
-                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://fixme.com#name">
+                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#name" data-toggle="tooltip" data-content="http://fixme.com#name" data-placement="right">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
                             name</a>
                           </code>
                         </td>
@@ -848,10 +849,10 @@ The CCCEV contains two basic and complementary core concepts:
                         <td></td>
                       </tr>
                     
-                      <tr id="Evidence%20Type%20List%3Aspecifies%20evidence%20type" typeof="rdfs:Property" resource="http://fixme.com#cccev:specifiesEvidenceType">
+                      <tr id="Evidence%20Type%20List%3Aspecifies%20evidence%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#specifiesEvidenceType">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://fixme.com#cccev:specifiesEvidenceType" data-toggle="tooltip" data-content="http://fixme.com#cccev:specifiesEvidenceType" data-placement="right">
+                            <a href="http://data.europa.eu/m8g/cccev#specifiesEvidenceType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#specifiesEvidenceType" data-placement="right">
                             specifies evidence type</a>
                           </code>
                         </td>
@@ -988,7 +989,7 @@ The CCCEV contains two basic and complementary core concepts:
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment"></td>
+                        <td property="rdfs:comment">the requirement concept for which the requirement expects an support in the supporting evidence</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -1028,7 +1029,7 @@ The CCCEV contains two basic and complementary core concepts:
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment"></td>
+                        <td property="rdfs:comment">a related requirement</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -1048,8 +1049,8 @@ The CCCEV contains two basic and complementary core concepts:
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="skos:scopeNote"></td>
+                        <td property="rdfs:comment">the kind of evidences that the requirement expects</td>
+                        <td property="skos:scopeNote">NOTE: label should be change</td>
                         <td></td>
                       </tr>
                     
@@ -1084,7 +1085,7 @@ The CCCEV contains two basic and complementary core concepts:
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment"></td>
+                        <td property="rdfs:comment">the reference framework that is responsible for the creation/initiation of the requirement</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -1105,7 +1106,7 @@ The CCCEV contains two basic and complementary core concepts:
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment"></td>
-                        <td property="skos:scopeNote"></td>
+                        <td property="skos:scopeNote">NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.</td>
                         <td></td>
                       </tr>
                     

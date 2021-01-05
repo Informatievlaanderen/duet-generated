@@ -22,25 +22,20 @@
       "@type": "@id"
     },
     "Custom-data-type": "http://fixme.com#custom-data-type",
-    "Dataset": "http://fixme.com#Dataset",
+    "Dataset": "http://www.w3.org/ns/dcat#Dataset",
     "Dataset-type": "http://fixme.com#dataset-type",
-    "Dataset.dcat:distribution": {
+    "Dataset.distribution": {
       "@container": "@set",
-      "@id": "http://fixme.com#dcat:distribution",
+      "@id": "http://www.w3.org/ns/dcat#distribution",
       "@type": "@id"
     },
-    "Distribution": "http://fixme.com#Distribution",
-    "Distribution.dcat:downloadURL": {
-      "@id": "http://fixme.com#dcat:downloadURL",
+    "Distribution": "http://www.w3.org/ns/dcat#Distribution",
+    "Distribution.downloadUrl": {
+      "@id": "http://www.w3.org/ns/dcat#downloadURL",
       "@type": ""
     },
     "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
     "Evidence-types": "http://fixme.com#evidence-types",
-    "Evidence.cccev:supports": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cccev:supports",
-      "@type": "@id"
-    },
     "Evidence.confidentialityLevelType": {
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "@type": "@id"
@@ -55,18 +50,28 @@
       "@id": "http://fixme.com#cccev:isConformantTo",
       "@type": "@id"
     },
+    "Evidence.supportsConcept": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "@id"
+    },
+    "Evidence.supportsRequirement": {
+      "@container": "@set",
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "@id"
+    },
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
     "EvidenceType.datasetType": {
-      "@id": "http://fixme.com#cccev:datasetType",
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
       "@type": "@id"
     },
     "EvidenceType.evidenceTypeClassification": {
-      "@id": "http://fixme.com#cccev:evidenceTypeClassification",
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
       "@type": "@id"
     },
     "EvidenceType.isSpecifiedIn": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:isSpecifiedIn",
+      "@id": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
       "@type": "@id"
     },
     "EvidenceTypeList": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
@@ -81,12 +86,12 @@
     },
     "EvidenceTypeList.name": {
       "@container": "@set",
-      "@id": "http://fixme.com#name",
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "EvidenceTypeList.specifiesEvidenceType": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:specifiesEvidenceType",
+      "@id": "http://data.europa.eu/m8g/cccev#specifiesEvidenceType",
       "@type": "@id"
     },
     "InformationRequirement": "http://data.europa.eu/m8g/cccev#InformationRequirement",
