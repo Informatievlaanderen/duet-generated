@@ -98,6 +98,7 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "de": ""
           },
@@ -144,6 +145,7 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "de": ""
           },
@@ -154,6 +156,7 @@
           "sh:path": "http://fixme.com#cccev:datasetType"
         },
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "de": ""
           },
@@ -180,6 +183,14 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
+          "sh:name": {
+            "de": ""
+          },
+          "sh:path": "http://fixme.com#cccev:specifiesEvidenceType"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "de": ""
           },
@@ -199,20 +210,14 @@
           "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "de": ""
           },
           "sh:name": {
             "de": ""
           },
-          "sh:path": "http://fixme.com#cbc:name"
-        },
-        {
-          "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://fixme.com#cccev:specifiesEvidenceType"
+          "sh:path": "http://fixme.com#name"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
@@ -223,6 +228,13 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#InformationRequirement"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://data.europa.eu/m8g/cccev#ReferenceFramework"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape",
@@ -258,7 +270,7 @@
           "sh:path": "http://fixme.com#cccev:hasSupportingEvidence"
         },
         {
-          "sh:class": "http://fixme.com#ReferenceFramework",
+          "sh:class": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
           "sh:name": {
             "de": ""
           },
@@ -320,43 +332,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://fixme.com#cbc:description"
-        },
-        {
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://fixme.com#cbc:id"
-        },
-        {
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://fixme.com#cbc:name"
-        },
-        {
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://fixme.com#cbc:type"
-        },
-        {
           "sh:class": "http://data.europa.eu/m8g/cccev#Constraint",
           "sh:definition": {
             "de": ""
@@ -365,6 +340,46 @@
             "de": ""
           },
           "sh:path": "http://fixme.com#cccev:hasConstraint"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
+          "sh:path": "http://fixme.com#description"
+        },
+        {
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
+          "sh:path": "http://fixme.com#identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
+          "sh:path": "http://fixme.com#name"
+        },
+        {
+          "sh:class": "http://fixme.com#Code",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
+          "sh:path": "http://fixme.com#type"
         }
       ],
       "sh:targetClass": "http://fixme.com#Concept"
@@ -439,20 +454,6 @@
       "sh:targetClass": "http://fixme.com#Distribution"
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#ReferenceFramework"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#Standard"
-    },
-    {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -472,6 +473,13 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://fixme.com#evidence-types"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://purl.org/dc/terms/Standard"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape",

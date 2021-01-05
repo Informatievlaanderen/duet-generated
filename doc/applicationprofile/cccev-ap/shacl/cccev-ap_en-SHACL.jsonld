@@ -98,6 +98,7 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "en": "The security classification assigned to an Evidence or, in general, to a content."
           },
@@ -144,6 +145,7 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "en": "A classification code use to specify the machine-readability of a content."
           },
@@ -154,6 +156,7 @@
           "sh:path": "http://fixme.com#cccev:datasetType"
         },
         {
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
             "en": "A classification code to specify the layout and content expected for an evidence."
           },
@@ -180,6 +183,14 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
+          "sh:name": {
+            "en": "specifies evidence type"
+          },
+          "sh:path": "http://fixme.com#cccev:specifiesEvidenceType"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
           },
@@ -199,20 +210,14 @@
           "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "en": "A name to identify in common language the Evidence Type List"
           },
           "sh:name": {
             "en": "name"
           },
-          "sh:path": "http://fixme.com#cbc:name"
-        },
-        {
-          "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
-          "sh:name": {
-            "en": "specifies evidence type"
-          },
-          "sh:path": "http://fixme.com#cccev:specifiesEvidenceType"
+          "sh:path": "http://fixme.com#name"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
@@ -223,6 +228,13 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#InformationRequirement"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://data.europa.eu/m8g/cccev#ReferenceFramework"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape",
@@ -258,7 +270,7 @@
           "sh:path": "http://fixme.com#cccev:hasSupportingEvidence"
         },
         {
-          "sh:class": "http://fixme.com#ReferenceFramework",
+          "sh:class": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
           "sh:name": {
             "en": "is derived from"
           },
@@ -320,43 +332,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:definition": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://fixme.com#cbc:description"
-        },
-        {
-          "sh:definition": {
-            "en": "An unambiguous reference to RequirementConcept"
-          },
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://fixme.com#cbc:id"
-        },
-        {
-          "sh:definition": {
-            "en": "A name to identify in common language the RequirementConcept"
-          },
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://fixme.com#cbc:name"
-        },
-        {
-          "sh:definition": {
-            "en": "a classification of the RequirementConcept"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "type"
-          },
-          "sh:path": "http://fixme.com#cbc:type"
-        },
-        {
           "sh:class": "http://data.europa.eu/m8g/cccev#Constraint",
           "sh:definition": {
             "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
@@ -365,6 +340,46 @@
             "en": "has Constraint"
           },
           "sh:path": "http://fixme.com#cccev:hasConstraint"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+          },
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://fixme.com#description"
+        },
+        {
+          "sh:definition": {
+            "en": "An unambiguous reference to RequirementConcept"
+          },
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://fixme.com#identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A name to identify in common language the RequirementConcept"
+          },
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://fixme.com#name"
+        },
+        {
+          "sh:class": "http://fixme.com#Code",
+          "sh:definition": {
+            "en": "a classification of the RequirementConcept"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://fixme.com#type"
         }
       ],
       "sh:targetClass": "http://fixme.com#Concept"
@@ -439,20 +454,6 @@
       "sh:targetClass": "http://fixme.com#Distribution"
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#ReferenceFramework"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#StandardShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#Standard"
-    },
-    {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#custom-data-typeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -472,6 +473,13 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://fixme.com#evidence-types"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#StandardShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://purl.org/dc/terms/Standard"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CodeShape",

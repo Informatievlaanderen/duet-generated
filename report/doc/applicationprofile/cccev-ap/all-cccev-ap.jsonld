@@ -76,20 +76,28 @@
       "@id": "rdfs:seeAlso"
     }
   },
-  "@id": "http://fixme.com",
+  "@id": "http://data.europa.eu/m8g/cccev",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
     "nl": "cccev-ap",
     "en": "cccev-ap"
   },
+  "baseURI": "http://data.europa.eu/m8g/cccev#",
   "issued": "TODO",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "extra": {
     "EA-Name": "CCCEV_v3",
     "EA-Guid": "{16FF4496-219D-423f-9DFA-41746E89AC88}",
+    "baseURI": "http://data.europa.eu/m8g/cccev#",
     "issued": "TODO",
     "license": "TODO",
-    "RawTags": []
+    "RawTags": [
+      {
+        "key": "baseURI",
+        "value": "http://data.europa.eu/m8g/cccev#",
+        "note": "null"
+      }
+    ]
   },
   "authors": [
     {
@@ -127,13 +135,10 @@
       "@type": "foaf:Person"
     }
   ],
-  "classes": [],
-  "properties": [],
-  "externals": [
+  "classes": [
     {
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
       },
@@ -203,14 +208,17 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Constraint"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Constraint",
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#Criterion",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "condition for evaluation or assessment."
       },
@@ -280,14 +288,17 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Criterion"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Criterion",
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#Evidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "The data proving that a requirement is met or has been fulfilled."
       },
@@ -347,14 +358,17 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Evidence"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Evidence",
+      "parents": [
+        "http://fixme.com#Dataset"
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
       },
@@ -414,14 +428,17 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Evidence type"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Evidence type",
+      "parents": [
+        "http://fixme.com#Dataset"
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
       },
@@ -464,14 +481,15 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Evidence Type List"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Evidence Type List",
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A request for data that is proof of evidence or leads to the source of such a proof."
       },
@@ -531,14 +549,77 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Information Requirement"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Information Requirement",
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Reference Framework"
+      },
+      "label": {
+        "en": "Reference Framework"
+      },
+      "extra": {
+        "EA-Name": "ReferenceFramework",
+        "EA-Guid": "{785686A1-4364-47dc-8B5C-2DEE9760958E}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "CLASS",
+        "EA-Parents": "",
+        "EA-Parents2": [
+          {
+            "name": "Dataset",
+            "label": "Dataset",
+            "package": "dcat",
+            "uri": "http://fixme.com#Dataset"
+          }
+        ],
+        "parentclasses": "http://fixme.com#Dataset",
+        "label": {
+          "en": "Reference Framework"
+        },
+        "definition": "",
+        "usage": "",
+        "ap-label-en": {
+          "en": "Reference Framework"
+        },
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "Reference Framework",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+            "note": "null"
+          }
+        ],
+        "Scope": "FULL_DEFINITON"
+      },
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Reference Framework",
+      "parents": [
+        "http://fixme.com#Dataset"
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "A condition demanded."
       },
@@ -591,10 +672,404 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "FULL_DEFINITON"
       },
-      "name": "Requirement"
+      "inpackage": "ACTIVE_PACKAGE",
+      "name": "Requirement",
+      "parents": []
+    }
+  ],
+  "properties": [
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": "bias",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-en": {
+        "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+      },
+      "ap-label-en": {
+        "en": "bias"
+      },
+      "definition": {
+        "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+      },
+      "label": {
+        "en": "bias"
+      },
+      "extra": {
+        "EA-Name": "cccev:bias",
+        "EA-Guid": "{ADD114A6-1007-4f52-8573-2CCDF832D5B8}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Criterion",
+        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
+        "EA-Range": "ccts:Numeric",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "label": {
+          "en": "bias"
+        },
+        "definition": {
+          "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "bias"
+        },
+        "ap-definition-en": {
+          "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "bias",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/cccev#bias",
+            "note": "null"
+          }
+        ],
+        "Scope": "FULL_DEFINITON"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+          "EA-Name": "Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
     },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "confidentiality level type",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-en": {
+        "en": "The security classification assigned to an Evidence or, in general, to a content."
+      },
+      "ap-label-en": {
+        "en": "confidentiality level type"
+      },
+      "definition": {
+        "en": "The security classification assigned to an Evidence or, in general, to a content."
+      },
+      "label": {
+        "en": "confidentiality level type"
+      },
+      "extra": {
+        "EA-Name": "cccev:confidentialityLevelType",
+        "EA-Guid": "{44E7189D-9BB0-40d2-B88A-60EDD388FBCF}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Code",
+        "RangeData": {
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
+        },
+        "label": {
+          "en": "confidentiality level type"
+        },
+        "definition": {
+          "en": "The security classification assigned to an Evidence or, in general, to a content."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "confidentiality level type"
+        },
+        "ap-definition-en": {
+          "en": "The security classification assigned to an Evidence or, in general, to a content."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "confidentiality level type",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "The security classification assigned to an Evidence or, in general, to a content.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+            "note": "null"
+          }
+        ],
+        "Scope": "FULL_DEFINITON"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+          "EA-Name": "Evidence"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": "weight",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-en": {
+        "en": "Relative importance assigned to a given criterion."
+      },
+      "ap-label-en": {
+        "en": "weight"
+      },
+      "definition": {
+        "en": "Relative importance assigned to a given criterion."
+      },
+      "label": {
+        "en": "weight"
+      },
+      "extra": {
+        "EA-Name": "cccev:weight",
+        "EA-Guid": "{9E15D586-5D1B-4852-99A7-32047A7EE928}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Criterion",
+        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
+        "EA-Range": "ccts:Numeric",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "label": {
+          "en": "weight"
+        },
+        "definition": {
+          "en": "Relative importance assigned to a given criterion."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "weight"
+        },
+        "ap-definition-en": {
+          "en": "Relative importance assigned to a given criterion."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "weight",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "Relative importance assigned to a given criterion.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/cccev#weight",
+            "note": "null"
+          }
+        ],
+        "Scope": "FULL_DEFINITON"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+          "EA-Name": "Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": "weighting consideration description",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-en": {
+        "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+      },
+      "ap-label-en": {
+        "en": "weighting consideration description"
+      },
+      "definition": {
+        "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+      },
+      "label": {
+        "en": "weighting consideration description"
+      },
+      "extra": {
+        "EA-Name": "cccev:weightingConsiderationDescription",
+        "EA-Guid": "{D86B66C4-7DF4-46fe-933D-FBD20D52E9BD}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Criterion",
+        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
+        "EA-Range": "ccts:Text",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "label": {
+          "en": "weighting consideration description"
+        },
+        "definition": {
+          "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "weighting consideration description"
+        },
+        "ap-definition-en": {
+          "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "weighting consideration description",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "The explanation of how the weighting of a Criterion is to be used at evaluation time.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+            "note": "null"
+          }
+        ],
+        "Scope": "FULL_DEFINITON"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+          "EA-Name": "Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": "weighting type",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-en": {
+        "en": "The numeric form used to weight."
+      },
+      "ap-label-en": {
+        "en": "weighting type"
+      },
+      "definition": {
+        "en": "The numeric form used to weight."
+      },
+      "label": {
+        "en": "weighting type"
+      },
+      "extra": {
+        "EA-Name": "cccev:weightingType",
+        "EA-Guid": "{C8F3A5F7-9753-462a-9A9B-235AB5F03516}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Criterion",
+        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
+        "EA-Range": "ccts:Code",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "label": {
+          "en": "weighting type"
+        },
+        "definition": {
+          "en": "The numeric form used to weight."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "weighting type"
+        },
+        "ap-definition-en": {
+          "en": "The numeric form used to weight."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "weighting type",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "The numeric form used to weight.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/cccev#weightingType",
+            "note": "null"
+          }
+        ],
+        "Scope": "FULL_DEFINITON"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+          "EA-Name": "Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    }
+  ],
+  "externals": [
     {
       "@id": "http://fixme.com#Concept",
       "@type": "http://www.w3.org/2002/07/owl#Class",
@@ -741,103 +1216,6 @@
       "name": "Distribution"
     },
     {
-      "@id": "http://fixme.com#ReferenceFramework",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "Reference Framework"
-      },
-      "label": {
-        "en": "Reference Framework"
-      },
-      "extra": {
-        "EA-Name": "ReferenceFramework",
-        "EA-Guid": "{785686A1-4364-47dc-8B5C-2DEE9760958E}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "CLASS",
-        "EA-Parents": "",
-        "EA-Parents2": [
-          {
-            "name": "Dataset",
-            "label": "Dataset",
-            "package": "dcat",
-            "uri": "http://fixme.com#Dataset"
-          }
-        ],
-        "parentclasses": "http://fixme.com#Dataset",
-        "label": {
-          "en": "Reference Framework"
-        },
-        "definition": "",
-        "usage": "",
-        "ap-label-en": {
-          "en": "Reference Framework"
-        },
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "Reference Framework",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "name": "Reference Framework"
-    },
-    {
-      "@id": "http://fixme.com#Standard",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "Standard"
-      },
-      "label": {
-        "en": "Standard"
-      },
-      "extra": {
-        "EA-Name": "Standard",
-        "EA-Guid": "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}",
-        "EA-Package": "dct",
-        "EA-Type": "CLASS",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "parentclasses": "",
-        "label": {
-          "en": "Standard"
-        },
-        "definition": "",
-        "usage": "",
-        "ap-label-en": {
-          "en": "Standard"
-        },
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "Standard",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "name": "Standard"
-    },
-    {
       "@id": "http://fixme.com#custom-data-type",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
@@ -925,11 +1303,70 @@
       "name": ""
     },
     {
-      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@id": "http://purl.org/dc/terms/Standard",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Standard"
+      },
+      "label": {
+        "en": "Standard"
+      },
+      "extra": {
+        "EA-Name": "Standard",
+        "EA-Guid": "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}",
+        "EA-Package": "dct",
+        "EA-Type": "CLASS",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": {
+          "en": "Standard"
+        },
+        "definition": "",
+        "usage": "",
+        "ap-label-en": {
+          "en": "Standard"
+        },
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "Standard",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/Standard",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "name": "Standard"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "A concept in a codelist"
+      },
+      "ap-label-en": {
+        "en": "Code"
+      },
+      "definition": {
+        "en": "A concept in a codelist"
+      },
+      "label": {
+        "en": "Code"
       },
       "extra": {
         "EA-Name": "Code",
@@ -939,12 +1376,18 @@
         "EA-Parents": "",
         "EA-Parents2": [],
         "parentclasses": "",
-        "label": "",
-        "definition": "",
+        "label": {
+          "en": "Code"
+        },
+        "definition": {
+          "en": "A concept in a codelist"
+        },
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "Code"
+        },
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A concept in a codelist"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
@@ -953,21 +1396,34 @@
             "key": "uri",
             "value": "http://www.w3.org/2004/02/skos/core#Concept",
             "note": "null"
+          },
+          {
+            "key": "label-en",
+            "value": "Code",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "A concept in a codelist",
+            "note": "null"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY"
       },
-      "name": ""
+      "name": "Code"
     },
     {
       "@id": "http://xmlns.com/foaf/0.1/Agent",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "An entity that does things (does stuff)"
       },
       "ap-label-en": {
         "en": "Agent"
+      },
+      "definition": {
+        "en": "An entity that does things (does stuff)"
       },
       "label": {
         "en": "Agent"
@@ -983,13 +1439,15 @@
         "label": {
           "en": "Agent"
         },
-        "definition": "",
+        "definition": {
+          "en": "An entity that does things (does stuff)"
+        },
         "usage": "",
         "ap-label-en": {
           "en": "Agent"
         },
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "An entity that does things (does stuff)"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
@@ -1003,6 +1461,11 @@
             "key": "uri",
             "value": "http://xmlns.com/foaf/0.1/Agent",
             "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "An entity that does things (does stuff)",
+            "note": "null"
           }
         ],
         "Scope": "NOTHING"
@@ -1011,158 +1474,6 @@
     }
   ],
   "externalproperties": [
-    {
-      "@id": "http://data.europa.eu/m8g/cccev#bias",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "bias",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
-      },
-      "ap-label-en": {
-        "en": "bias"
-      },
-      "definition": {
-        "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
-      },
-      "label": {
-        "en": "bias"
-      },
-      "extra": {
-        "EA-Name": "cccev:bias",
-        "EA-Guid": "{ADD114A6-1007-4f52-8573-2CCDF832D5B8}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Criterion",
-        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
-        "EA-Range": "ccts:Numeric",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "bias"
-        },
-        "definition": {
-          "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "bias"
-        },
-        "ap-definition-en": {
-          "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "bias",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/cccev#bias",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-          "EA-Name": "Criterion"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "confidentiality level type",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The security classification assigned to an Evidence or, in general, to a content."
-      },
-      "ap-label-en": {
-        "en": "confidentiality level type"
-      },
-      "definition": {
-        "en": "The security classification assigned to an Evidence or, in general, to a content."
-      },
-      "label": {
-        "en": "confidentiality level type"
-      },
-      "extra": {
-        "EA-Name": "cccev:confidentialityLevelType",
-        "EA-Guid": "{44E7189D-9BB0-40d2-B88A-60EDD388FBCF}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "ccts:Code",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "confidentiality level type"
-        },
-        "definition": {
-          "en": "The security classification assigned to an Evidence or, in general, to a content."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "confidentiality level type"
-        },
-        "ap-definition-en": {
-          "en": "The security classification assigned to an Evidence or, in general, to a content."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "confidentiality level type",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "The security classification assigned to an Evidence or, in general, to a content.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
     {
       "@id": "http://data.europa.eu/m8g/cccev#isAbout",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -1268,591 +1579,8 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "http://data.europa.eu/m8g/cccev#weight",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "weight",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "Relative importance assigned to a given criterion."
-      },
-      "ap-label-en": {
-        "en": "weight"
-      },
-      "definition": {
-        "en": "Relative importance assigned to a given criterion."
-      },
-      "label": {
-        "en": "weight"
-      },
-      "extra": {
-        "EA-Name": "cccev:weight",
-        "EA-Guid": "{9E15D586-5D1B-4852-99A7-32047A7EE928}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Criterion",
-        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
-        "EA-Range": "ccts:Numeric",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "weight"
-        },
-        "definition": {
-          "en": "Relative importance assigned to a given criterion."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "weight"
-        },
-        "ap-definition-en": {
-          "en": "Relative importance assigned to a given criterion."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "weight",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "Relative importance assigned to a given criterion.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/cccev#weight",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-          "EA-Name": "Criterion"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "weighting consideration description",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
-      },
-      "ap-label-en": {
-        "en": "weighting consideration description"
-      },
-      "definition": {
-        "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
-      },
-      "label": {
-        "en": "weighting consideration description"
-      },
-      "extra": {
-        "EA-Name": "cccev:weightingConsiderationDescription",
-        "EA-Guid": "{D86B66C4-7DF4-46fe-933D-FBD20D52E9BD}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Criterion",
-        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
-        "EA-Range": "ccts:Text",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "weighting consideration description"
-        },
-        "definition": {
-          "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "weighting consideration description"
-        },
-        "ap-definition-en": {
-          "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "weighting consideration description",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "The explanation of how the weighting of a Criterion is to be used at evaluation time.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-          "EA-Name": "Criterion"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "weighting type",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The numeric form used to weight."
-      },
-      "ap-label-en": {
-        "en": "weighting type"
-      },
-      "definition": {
-        "en": "The numeric form used to weight."
-      },
-      "label": {
-        "en": "weighting type"
-      },
-      "extra": {
-        "EA-Name": "cccev:weightingType",
-        "EA-Guid": "{C8F3A5F7-9753-462a-9A9B-235AB5F03516}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Criterion",
-        "EA-Domain-Guid": "{5AEB1932-C1D2-4ffe-A2E3-02C365A23074}",
-        "EA-Range": "ccts:Code",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "weighting type"
-        },
-        "definition": {
-          "en": "The numeric form used to weight."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "weighting type"
-        },
-        "ap-definition-en": {
-          "en": "The numeric form used to weight."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "weighting type",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "The numeric form used to weight.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/cccev#weightingType",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-          "EA-Name": "Criterion"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://fixme.com#cbc:description",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "description",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-      },
-      "ap-label-en": {
-        "en": "description"
-      },
-      "definition": {
-        "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-      },
-      "label": {
-        "en": "description"
-      },
-      "extra": {
-        "EA-Name": "cbc:description",
-        "EA-Guid": "{07F6D632-DF1E-4ac9-906B-F19EBBA9F41D}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-        "EA-Range": "ccts:Text",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "description"
-        },
-        "definition": {
-          "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "description"
-        },
-        "ap-definition-en": {
-          "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "description",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Concept",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cbc:id",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "identifier",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "An unambiguous reference to RequirementConcept"
-      },
-      "ap-label-en": {
-        "en": "identifier"
-      },
-      "definition": {
-        "en": "An unambiguous reference to RequirementConcept"
-      },
-      "label": {
-        "en": "identifier"
-      },
-      "extra": {
-        "EA-Name": "cbc:id",
-        "EA-Guid": "{F925D12E-59B0-4789-97E0-22CAF715A8A3}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-        "EA-Range": "ccts:Identifier",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "identifier"
-        },
-        "definition": {
-          "en": "An unambiguous reference to RequirementConcept"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "identifier"
-        },
-        "ap-definition-en": {
-          "en": "An unambiguous reference to RequirementConcept"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "identifier",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "An unambiguous reference to RequirementConcept",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Concept",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cbc:name",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "name",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A name to identify in common language the Evidence Type List"
-      },
-      "ap-label-en": {
-        "en": "name"
-      },
-      "definition": {
-        "en": "A name to identify in common language the Evidence Type List"
-      },
-      "label": {
-        "en": "name"
-      },
-      "extra": {
-        "EA-Name": "cbc:name",
-        "EA-Guid": "{A9719DCB-5174-499e-B0F2-F996E9D8FE9E}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "EvidenceTypeList",
-        "EA-Domain-Guid": "{656C4155-7FD3-465e-AB71-F34F7F066D5F}",
-        "EA-Range": "ccts:Text",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "name"
-        },
-        "definition": {
-          "en": "A name to identify in common language the Evidence Type List"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "name"
-        },
-        "ap-definition-en": {
-          "en": "A name to identify in common language the Evidence Type List"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "name",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "A name to identify in common language the Evidence Type List",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-          "EA-Name": "EvidenceTypeList"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cbc:name",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "name",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A name to identify in common language the RequirementConcept"
-      },
-      "ap-label-en": {
-        "en": "name"
-      },
-      "definition": {
-        "en": "A name to identify in common language the RequirementConcept"
-      },
-      "label": {
-        "en": "name"
-      },
-      "extra": {
-        "EA-Name": "cbc:name",
-        "EA-Guid": "{C509B891-2690-4f07-BA43-940D3B53EE93}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-        "EA-Range": "ccts:Text",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "name"
-        },
-        "definition": {
-          "en": "A name to identify in common language the RequirementConcept"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "name"
-        },
-        "ap-definition-en": {
-          "en": "A name to identify in common language the RequirementConcept"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "name",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "A name to identify in common language the RequirementConcept",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Concept",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cbc:type",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "name": "type",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "a classification of the RequirementConcept"
-      },
-      "ap-label-en": {
-        "en": "type"
-      },
-      "definition": {
-        "en": "a classification of the RequirementConcept"
-      },
-      "label": {
-        "en": "type"
-      },
-      "extra": {
-        "EA-Name": "cbc:type",
-        "EA-Guid": "{1CB00BFA-4342-4e8a-9EB1-6080BB6B62C2}",
-        "EA-Package": "CCCEV_v2",
-        "EA-Type": "attribute",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-        "EA-Range": "ccts:Code",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "label": {
-          "en": "type"
-        },
-        "definition": {
-          "en": "a classification of the RequirementConcept"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "type"
-        },
-        "ap-definition-en": {
-          "en": "a classification of the RequirementConcept"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "type",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "a classification of the RequirementConcept",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Concept",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
       "@id": "http://fixme.com#cccev:datasetType",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "dataset type",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
@@ -1874,11 +1602,12 @@
         "EA-Type": "attribute",
         "EA-Domain": "EvidenceType",
         "EA-Domain-Guid": "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}",
-        "EA-Range": "ccts:Code",
+        "EA-Range": "Code",
         "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
         },
         "label": {
           "en": "dataset type"
@@ -1916,14 +1645,21 @@
           "EA-Name": "EvidenceType"
         }
       ],
-      "range": [],
+      "range": [
+        {
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
+        }
+      ],
       "generalization": [],
       "minCardinality": "0",
       "maxCardinality": "1"
     },
     {
       "@id": "http://fixme.com#cccev:evidenceTypeClassification",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "evidence type classification",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
@@ -1945,11 +1681,12 @@
         "EA-Type": "attribute",
         "EA-Domain": "EvidenceType",
         "EA-Domain-Guid": "{2BDD1056-48D0-4362-B49E-07E7B5E306A0}",
-        "EA-Range": "ccts:Code",
+        "EA-Range": "Code",
         "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
         },
         "label": {
           "en": "evidence type classification"
@@ -1987,7 +1724,14 @@
           "EA-Name": "EvidenceType"
         }
       ],
-      "range": [],
+      "range": [
+        {
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
+        }
+      ],
       "generalization": [],
       "minCardinality": "0",
       "maxCardinality": "1"
@@ -2523,7 +2267,7 @@
           "EA-Name": "ReferenceFramework",
           "EA-GUID": "{785686A1-4364-47dc-8B5C-2DEE9760958E}",
           "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#ReferenceFramework"
+          "uri": "http://data.europa.eu/m8g/cccev#ReferenceFramework"
         },
         "sourceRole": "null",
         "destRole": "cccev:isDerivedFrom",
@@ -2568,7 +2312,7 @@
           "EA-Name": "ReferenceFramework",
           "EA-GUID": "{785686A1-4364-47dc-8B5C-2DEE9760958E}",
           "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#ReferenceFramework"
+          "uri": "http://data.europa.eu/m8g/cccev#ReferenceFramework"
         }
       ],
       "generalization": [],
@@ -3446,8 +3190,389 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "http://purl.org/dc/terms/description",
+      "@id": "http://fixme.com#description",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "description",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+      },
+      "ap-label-en": {
+        "en": "description"
+      },
+      "definition": {
+        "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+      },
+      "label": {
+        "en": "description"
+      },
+      "extra": {
+        "EA-Name": "description",
+        "EA-Guid": "{07F6D632-DF1E-4ac9-906B-F19EBBA9F41D}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": {
+          "en": "description"
+        },
+        "definition": {
+          "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "description"
+        },
+        "ap-definition-en": {
+          "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "description",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": "identifier",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "An unambiguous reference to RequirementConcept"
+      },
+      "ap-label-en": {
+        "en": "identifier"
+      },
+      "definition": {
+        "en": "An unambiguous reference to RequirementConcept"
+      },
+      "label": {
+        "en": "identifier"
+      },
+      "extra": {
+        "EA-Name": "identifier",
+        "EA-Guid": "{F925D12E-59B0-4789-97E0-22CAF715A8A3}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+        "EA-Range": "ccts:Identifier",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "label": {
+          "en": "identifier"
+        },
+        "definition": {
+          "en": "An unambiguous reference to RequirementConcept"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "identifier"
+        },
+        "ap-definition-en": {
+          "en": "An unambiguous reference to RequirementConcept"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "identifier",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "An unambiguous reference to RequirementConcept",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#name",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "name",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "A name to identify in common language the Evidence Type List"
+      },
+      "ap-label-en": {
+        "en": "name"
+      },
+      "definition": {
+        "en": "A name to identify in common language the Evidence Type List"
+      },
+      "label": {
+        "en": "name"
+      },
+      "extra": {
+        "EA-Name": "name",
+        "EA-Guid": "{A9719DCB-5174-499e-B0F2-F996E9D8FE9E}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "EvidenceTypeList",
+        "EA-Domain-Guid": "{656C4155-7FD3-465e-AB71-F34F7F066D5F}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": {
+          "en": "name"
+        },
+        "definition": {
+          "en": "A name to identify in common language the Evidence Type List"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "name"
+        },
+        "ap-definition-en": {
+          "en": "A name to identify in common language the Evidence Type List"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "name",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "A name to identify in common language the Evidence Type List",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+          "EA-Name": "EvidenceTypeList"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#name",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "name",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "A name to identify in common language the RequirementConcept"
+      },
+      "ap-label-en": {
+        "en": "name"
+      },
+      "definition": {
+        "en": "A name to identify in common language the RequirementConcept"
+      },
+      "label": {
+        "en": "name"
+      },
+      "extra": {
+        "EA-Name": "name",
+        "EA-Guid": "{C509B891-2690-4f07-BA43-940D3B53EE93}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": {
+          "en": "name"
+        },
+        "definition": {
+          "en": "A name to identify in common language the RequirementConcept"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "name"
+        },
+        "ap-definition-en": {
+          "en": "A name to identify in common language the RequirementConcept"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "name",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "A name to identify in common language the RequirementConcept",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#type",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "type",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "a classification of the RequirementConcept"
+      },
+      "ap-label-en": {
+        "en": "type"
+      },
+      "definition": {
+        "en": "a classification of the RequirementConcept"
+      },
+      "label": {
+        "en": "type"
+      },
+      "extra": {
+        "EA-Name": "type",
+        "EA-Guid": "{1CB00BFA-4342-4e8a-9EB1-6080BB6B62C2}",
+        "EA-Package": "CCCEV_v2",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+        "EA-Range": "Code",
+        "RangeData": {
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
+        },
+        "label": {
+          "en": "type"
+        },
+        "definition": {
+          "en": "a classification of the RequirementConcept"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "type"
+        },
+        "ap-definition-en": {
+          "en": "a classification of the RequirementConcept"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "type",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "a classification of the RequirementConcept",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Code",
+          "EA-GUID": "{BC640FF9-C7A8-457c-A585-4A1C3A7FD240}",
+          "EA-Package": "dt",
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "description",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
@@ -3463,17 +3588,17 @@
         "en": "description"
       },
       "extra": {
-        "EA-Name": "cbc:description",
+        "EA-Name": "description",
         "EA-Guid": "{03FFDF35-FAE3-479d-9A6E-85A015F65608}",
         "EA-Package": "CCCEV_v2",
         "EA-Type": "attribute",
         "EA-Domain": "EvidenceTypeList",
         "EA-Domain-Guid": "{656C4155-7FD3-465e-AB71-F34F7F066D5F}",
-        "EA-Range": "ccts:Text",
+        "EA-Range": "String",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "String",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
         },
         "label": {
           "en": "description"
@@ -3516,7 +3641,13 @@
           "EA-Name": "EvidenceTypeList"
         }
       ],
-      "range": [],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
       "generalization": [],
       "minCardinality": "0",
       "maxCardinality": "*"
@@ -3621,7 +3752,7 @@
         "en": "identifier"
       },
       "extra": {
-        "EA-Name": "cbc:id",
+        "EA-Name": "identifier",
         "EA-Guid": "{F225C3B8-CA9E-4103-B9AF-C1D547A1056E}",
         "EA-Package": "CCCEV_v2",
         "EA-Type": "attribute",
@@ -3956,13 +4087,13 @@
     }
   ],
   "config": "config/config-ap.json",
-  "dummy": "3",
+  "dummy": "4",
   "urlref": "/doc/applicationprofile/cccev-ap",
   "repository": "https://github.com/AnnemarieWittig/englishworkspace",
   "branchtag": "main",
   "filename": "config/cccev-ap.json",
   "navigation": {},
-  "documentcommit": "a8537a37e8faf0f572f821539cc00bf90bdab6c7",
-  "toolchaincommit": "2be5fd2cdda06e2ecbfb6ee421220ca639d81b82",
+  "documentcommit": "fa6ad9d380d094a400f37e509cd1518eb9991e0b",
+  "toolchaincommit": "cfc02ae71f5b63c8b93f7e2860fbd1d1d7270564",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

@@ -3,28 +3,28 @@
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
     "Code": "http://www.w3.org/2004/02/skos/core#Concept",
     "Concept": "http://fixme.com#Concept",
-    "Concept.cbc:description": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:description",
-      "@type": ""
-    },
-    "Concept.cbc:id": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:id",
-      "@type": ""
-    },
-    "Concept.cbc:name": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:name",
-      "@type": ""
-    },
-    "Concept.cbc:type": {
-      "@id": "http://fixme.com#cbc:type",
-      "@type": ""
-    },
     "Concept.cccev:hasConstraint": {
       "@container": "@set",
       "@id": "http://fixme.com#cccev:hasConstraint",
+      "@type": "@id"
+    },
+    "Concept.description": {
+      "@container": "@set",
+      "@id": "http://fixme.com#description",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Concept.identifier": {
+      "@container": "@set",
+      "@id": "http://fixme.com#identifier",
+      "@type": ""
+    },
+    "Concept.name": {
+      "@container": "@set",
+      "@id": "http://fixme.com#name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Concept.type": {
+      "@id": "http://fixme.com#type",
       "@type": "@id"
     },
     "Constraint": "http://data.europa.eu/m8g/cccev#Constraint",
@@ -96,7 +96,7 @@
     "Evidence-types": "http://fixme.com#evidence-types",
     "Evidence.cccev:confidentialityLevelType": {
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
-      "@type": ""
+      "@type": "@id"
     },
     "Evidence.cccev:isAbout": {
       "@container": "@set",
@@ -116,11 +116,11 @@
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
     "EvidenceType.cccev:datasetType": {
       "@id": "http://fixme.com#cccev:datasetType",
-      "@type": ""
+      "@type": "@id"
     },
     "EvidenceType.cccev:evidenceTypeClassification": {
       "@id": "http://fixme.com#cccev:evidenceTypeClassification",
-      "@type": ""
+      "@type": "@id"
     },
     "EvidenceType.cccev:isSpecifiedIn": {
       "@container": "@set",
@@ -128,27 +128,27 @@
       "@type": "@id"
     },
     "EvidenceTypeList": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-    "EvidenceTypeList.cbc:description": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": ""
-    },
-    "EvidenceTypeList.cbc:id": {
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
-    },
-    "EvidenceTypeList.cbc:name": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:name",
-      "@type": ""
-    },
     "EvidenceTypeList.cccev:specifiesEvidenceType": {
       "@container": "@set",
       "@id": "http://fixme.com#cccev:specifiesEvidenceType",
       "@type": "@id"
     },
+    "EvidenceTypeList.description": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "EvidenceTypeList.identifier": {
+      "@id": "http://purl.org/dc/terms/identifier",
+      "@type": ""
+    },
+    "EvidenceTypeList.name": {
+      "@container": "@set",
+      "@id": "http://fixme.com#name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
     "InformationRequirement": "http://data.europa.eu/m8g/cccev#InformationRequirement",
-    "ReferenceFramework": "http://fixme.com#ReferenceFramework",
+    "ReferenceFramework": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
     "Requirement": "http://data.europa.eu/m8g/cccev#Requirement",
     "Requirement.cccev:hasConcept": {
       "@container": "@set",
@@ -199,6 +199,6 @@
       "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
-    "Standard": "http://fixme.com#Standard"
+    "Standard": "http://purl.org/dc/terms/Standard"
   }
 }

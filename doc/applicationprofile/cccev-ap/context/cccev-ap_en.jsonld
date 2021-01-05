@@ -76,7 +76,7 @@
     },
     "Evidence.confidentialityLevelType": {
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
-      "@type": ""
+      "@type": "@id"
     },
     "Evidence.isAbout": {
       "@container": "@set",
@@ -91,11 +91,11 @@
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
     "EvidenceType.datasetType": {
       "@id": "http://fixme.com#cccev:datasetType",
-      "@type": ""
+      "@type": "@id"
     },
     "EvidenceType.evidenceTypeClassification": {
       "@id": "http://fixme.com#cccev:evidenceTypeClassification",
-      "@type": ""
+      "@type": "@id"
     },
     "EvidenceType.isSpecifiedIn": {
       "@container": "@set",
@@ -106,7 +106,7 @@
     "EvidenceTypeList.description": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/description",
-      "@type": ""
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "EvidenceTypeList.identifier": {
       "@id": "http://purl.org/dc/terms/identifier",
@@ -114,8 +114,8 @@
     },
     "EvidenceTypeList.name": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:name",
-      "@type": ""
+      "@id": "http://fixme.com#name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "EvidenceTypeList.specifiesEvidenceType": {
       "@container": "@set",
@@ -123,7 +123,7 @@
       "@type": "@id"
     },
     "InformationRequirement": "http://data.europa.eu/m8g/cccev#InformationRequirement",
-    "ReferenceFramework": "http://fixme.com#ReferenceFramework",
+    "ReferenceFramework": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
     "Requirement": "http://data.europa.eu/m8g/cccev#Requirement",
     "Requirement.description": {
       "@container": "@set",
@@ -177,8 +177,8 @@
     "RequirementConcept": "http://fixme.com#Concept",
     "RequirementConcept.description": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:description",
-      "@type": ""
+      "@id": "http://fixme.com#description",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "RequirementConcept.hasConstraint": {
       "@container": "@set",
@@ -187,18 +187,18 @@
     },
     "RequirementConcept.identifier": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:id",
+      "@id": "http://fixme.com#identifier",
       "@type": ""
     },
     "RequirementConcept.name": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:name",
-      "@type": ""
+      "@id": "http://fixme.com#name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "RequirementConcept.type": {
-      "@id": "http://fixme.com#cbc:type",
-      "@type": ""
+      "@id": "http://fixme.com#type",
+      "@type": "@id"
     },
-    "Standard": "http://fixme.com#Standard"
+    "Standard": "http://purl.org/dc/terms/Standard"
   }
 }

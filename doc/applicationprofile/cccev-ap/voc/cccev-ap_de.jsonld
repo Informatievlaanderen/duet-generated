@@ -5,7 +5,7 @@
     "foaf:mbox": "mailto:oslo@kb.vlaanderen.be",
     "foaf:name": "Data Vlaanderen"
   },
-  "@id": "http://fixme.com",
+  "@id": "http://data.europa.eu/m8g/cccev",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
     "nl": "cccev-ap",
@@ -47,15 +47,196 @@
       "@type": "foaf:Person"
     }
   ],
+  "baseURI": "http://data.europa.eu/m8g/cccev#",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "issued": "TODO",
   "navigation": {},
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "TBD",
-  "classes": [],
-  "externals": [],
-  "properties": [],
-  "externalproperties": [],
+  "classes": [
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Constraint",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Criterion",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Evidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://fixme.com#Dataset"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://fixme.com#Dataset"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://fixme.com#Dataset"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Requirement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    }
+  ],
+  "externals": [
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Constraint",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Criterion",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Evidence",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Requirement",
+      "@type": "rdfs:Class"
+    }
+  ],
+  "properties": [
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Evidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    }
+  ],
+  "externalproperties": [
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
+      "@type": "rdf:Property"
+    }
+  ],
   "@context": {
     "vlaanderen": "http://data.vlaanderen.be/ns/",
     "owl": "http://www.w3.org/2002/07/owl#",
