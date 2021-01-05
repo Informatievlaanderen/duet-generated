@@ -5,26 +5,26 @@
     "Concept": "http://fixme.com#Concept",
     "Concept.cccev:hasConstraint": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:hasConstraint",
+      "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
       "@type": "@id"
     },
     "Concept.description": {
       "@container": "@set",
-      "@id": "http://fixme.com#description",
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Concept.identifier": {
       "@container": "@set",
-      "@id": "http://fixme.com#identifier",
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": ""
     },
     "Concept.name": {
       "@container": "@set",
-      "@id": "http://fixme.com#name",
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Concept.type": {
-      "@id": "http://fixme.com#type",
+      "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
     "Constraint": "http://data.europa.eu/m8g/cccev#Constraint",
@@ -72,12 +72,12 @@
     },
     "Evidence.cccev:isConformantTo": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:isConformantTo",
+      "@id": "http://data.europa.eu/m8g/cccev#isComformantWith",
       "@type": "@id"
     },
     "Evidence.cccev:supports": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:supports",
+      "@id": "http://data.europa.eu/m8g/cccev#supports",
       "@type": "@id"
     },
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
@@ -119,32 +119,32 @@
     "Requirement": "http://data.europa.eu/m8g/cccev#Requirement",
     "Requirement.cccev:hasConcept": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:hasConcept",
+      "@id": "http://data.europa.eu/m8g/cccev#hasConcept",
       "@type": "@id"
     },
     "Requirement.cccev:hasEvidenceTypeCombinationList": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
+      "@id": "http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination",
       "@type": "@id"
     },
     "Requirement.cccev:hasRequirement": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:hasRequirement",
+      "@id": "http://data.europa.eu/m8g/cccev#hasRequirement",
       "@type": "@id"
     },
     "Requirement.cccev:hasSupportingEvidence": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:hasSupportingEvidence",
+      "@id": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
       "@type": "@id"
     },
     "Requirement.cccev:isDerivedFrom": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:isDerivedFrom",
+      "@id": "http://data.europa.eu/m8g/cccev#isDerivedFrom",
       "@type": "@id"
     },
     "Requirement.cccev:isRequirementOf": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:isRequirementOf",
+      "@id": "http://data.europa.eu/m8g/cccev#isRequirementOf",
       "@type": "@id"
     },
     "Requirement.description": {

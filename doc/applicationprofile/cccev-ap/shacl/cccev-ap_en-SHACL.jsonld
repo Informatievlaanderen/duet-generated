@@ -129,17 +129,7 @@
           "sh:name": {
             "en": "is Conformant"
           },
-          "sh:path": "http://fixme.com#cccev:isConformantTo"
-        },
-        {
-          "sh:class": "http://fixme.com#Concept",
-          "sh:definition": {
-            "en": "the supported concept by the evidence"
-          },
-          "sh:name": {
-            "en": "supports concept"
-          },
-          "sh:path": "http://fixme.com#cccev:supports"
+          "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -149,7 +139,17 @@
           "sh:name": {
             "en": "supports requirement"
           },
-          "sh:path": "http://fixme.com#cccev:supports"
+          "sh:path": "http://data.europa.eu/m8g/cccev#supports"
+        },
+        {
+          "sh:class": "http://fixme.com#Concept",
+          "sh:definition": {
+            "en": "the supported concept by the evidence"
+          },
+          "sh:name": {
+            "en": "supports concept"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#supports"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Evidence"
@@ -264,14 +264,14 @@
           "sh:name": {
             "en": "has concept"
           },
-          "sh:path": "http://fixme.com#cccev:hasConcept"
+          "sh:path": "http://data.europa.eu/m8g/cccev#hasConcept"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:name": {
             "en": "has evidence type combination"
           },
-          "sh:path": "http://fixme.com#cccev:hasEvidenceTypeCombinationList"
+          "sh:path": "http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -281,7 +281,7 @@
           "sh:name": {
             "en": "has requirement"
           },
-          "sh:path": "http://fixme.com#cccev:hasRequirement"
+          "sh:path": "http://data.europa.eu/m8g/cccev#hasRequirement"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
@@ -291,7 +291,7 @@
           "sh:name": {
             "en": "has supporting evidence"
           },
-          "sh:path": "http://fixme.com#cccev:hasSupportingEvidence"
+          "sh:path": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
@@ -301,14 +301,14 @@
           "sh:name": {
             "en": "is derived from"
           },
-          "sh:path": "http://fixme.com#cccev:isDerivedFrom"
+          "sh:path": "http://data.europa.eu/m8g/cccev#isDerivedFrom"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:name": {
             "en": "is requirement of"
           },
-          "sh:path": "http://fixme.com#cccev:isRequirementOf"
+          "sh:path": "http://data.europa.eu/m8g/cccev#isRequirementOf"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -366,7 +366,7 @@
           "sh:name": {
             "en": "has Constraint"
           },
-          "sh:path": "http://fixme.com#cccev:hasConstraint"
+          "sh:path": "http://data.europa.eu/m8g/cccev#hasConstraint"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -376,7 +376,7 @@
           "sh:name": {
             "en": "description"
           },
-          "sh:path": "http://fixme.com#description"
+          "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "sh:definition": {
@@ -385,7 +385,7 @@
           "sh:name": {
             "en": "identifier"
           },
-          "sh:path": "http://fixme.com#identifier"
+          "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -395,7 +395,7 @@
           "sh:name": {
             "en": "name"
           },
-          "sh:path": "http://fixme.com#name"
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
         },
         {
           "sh:class": "http://fixme.com#Code",
@@ -406,7 +406,7 @@
           "sh:name": {
             "en": "type"
           },
-          "sh:path": "http://fixme.com#type"
+          "sh:path": "http://purl.org/dc/terms/type"
         }
       ],
       "sh:targetClass": "http://fixme.com#Concept"

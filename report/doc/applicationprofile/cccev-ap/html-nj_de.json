@@ -11,8 +11,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/4073a2c61f2b723e54ff0e216466cf3c444d22b9",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/4073a2c61f2b723e54ff0e216466cf3c444d22b9/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/24e38572278adebf3677d69a4bb8807a28ba480f",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/24e38572278adebf3677d69a4bb8807a28ba480f/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -234,7 +234,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:isConformantTo",
+          "uri": "http://data.europa.eu/m8g/cccev#isComformantWith",
           "name": "is Conformant",
           "sort": "is Conformant",
           "label": {},
@@ -265,38 +265,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "supports concept",
-          "sort": "supports concept",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
-              "range_label": {
-                "en": "RequirementConcept"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
+          "uri": "http://data.europa.eu/m8g/cccev#supports",
           "name": "supports requirement",
           "sort": "supports requirement",
           "label": {},
@@ -320,6 +289,37 @@
               "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
               "range_label": {
                 "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#supports",
+          "name": "supports concept",
+          "sort": "supports concept",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#Concept",
+              "range_label": {
+                "en": "RequirementConcept"
               }
             }
           ],
@@ -608,7 +608,7 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://fixme.com#cccev:hasConcept",
+          "uri": "http://data.europa.eu/m8g/cccev#hasConcept",
           "name": "has concept",
           "sort": "has concept",
           "label": {},
@@ -639,7 +639,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
+          "uri": "http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination",
           "name": "has evidence type combination",
           "sort": "has evidence type combination",
           "label": {},
@@ -670,7 +670,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:hasRequirement",
+          "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
           "name": "has requirement",
           "sort": "has requirement",
           "label": {},
@@ -701,7 +701,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:hasSupportingEvidence",
+          "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
           "name": "has supporting evidence",
           "sort": "has supporting evidence",
           "label": {},
@@ -732,7 +732,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:isDerivedFrom",
+          "uri": "http://data.europa.eu/m8g/cccev#isDerivedFrom",
           "name": "is derived from",
           "sort": "is derived from",
           "label": {},
@@ -763,7 +763,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#cccev:isRequirementOf",
+          "uri": "http://data.europa.eu/m8g/cccev#isRequirementOf",
           "name": "is requirement of",
           "sort": "is requirement of",
           "label": {},
@@ -916,7 +916,7 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://fixme.com#cccev:hasConstraint",
+          "uri": "http://data.europa.eu/m8g/cccev#hasConstraint",
           "name": "has Constraint",
           "sort": "has Constraint",
           "label": {},
@@ -947,7 +947,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#description",
+          "uri": "http://purl.org/dc/terms/description",
           "name": "description",
           "sort": "description",
           "label": {},
@@ -978,7 +978,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#identifier",
+          "uri": "http://purl.org/dc/terms/identifier",
           "name": "identifier",
           "sort": "identifier",
           "label": {},
@@ -996,38 +996,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://fixme.com#name",
-          "name": "name",
-          "sort": "name",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Concept",
-              "EA-Name": "Concept"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#type",
+          "uri": "http://purl.org/dc/terms/type",
           "name": "type",
           "sort": "type",
           "label": {},
@@ -1055,6 +1024,37 @@
             }
           ],
           "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "name",
+          "sort": "name",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Concept",
+              "EA-Name": "Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
           "codelist_uri": ""
         }
       ]
