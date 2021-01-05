@@ -7,11 +7,11 @@
     "navigation": {
       "self": "https://duet.dev-vlaanderen.be/doc/applicationprofile/cccev-ap"
     },
-    "license": "TBD",
-    "status": "https://creativecommons.org/licenses/by/4.0/",
-    "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/54b8588776fb2ca0275672e7919aee683cd6514c",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/54b8588776fb2ca0275672e7919aee683cd6514c/CHANGELOG",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "statuslabel": "Ontwerp Standaard",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/2a0eaa1e07571dc30db4d2bcb8c72095041759dd",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/2a0eaa1e07571dc30db4d2bcb8c72095041759dd/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -542,16 +542,16 @@
           ],
           "range": [
             {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
+              "range_label": "Requirement",
+              "range_uri": "http://fixme.com#Requirement"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
+              "range_puri": "http://fixme.com#Requirement",
               "range_label": {
-                "en": "RequirementConcept"
+                "en": "Requirement"
               }
             }
           ],
@@ -573,16 +573,16 @@
           ],
           "range": [
             {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
+              "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "Requirement"
+                "en": "RequirementConcept"
               }
             }
           ],

@@ -83,7 +83,7 @@
     "en": "cccev-ap"
   },
   "issued": "TODO",
-  "license": "TBD",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "extra": {
     "EA-Name": "CCCEV_v3",
     "EA-Guid": "{16FF4496-219D-423f-9DFA-41746E89AC88}",
@@ -2791,63 +2791,6 @@
       },
       "extra": {
         "EA-Name": "cccev:supports",
-        "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "Concept",
-        "RangeData": {
-          "EA-Name": "Concept",
-          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
-        },
-        "sourceRole": "null",
-        "destRole": "cccev:supports",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-en": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Concept",
-          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://fixme.com#cccev:supports",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Name": "cccev:supports",
         "EA-Guid": "{0F444C86-03A8-411d-8A8B-0332A55254FB}",
         "derived": "false",
         "EA-Package": "",
@@ -2889,6 +2832,63 @@
           "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
           "EA-Package": "CCCEV_v2",
           "uri": "http://fixme.com#Requirement"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://fixme.com#cccev:supports",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "cccev:supports",
+        "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Concept"
+        },
+        "sourceRole": "null",
+        "destRole": "cccev:supports",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Evidence",
+          "EA-Name": "Evidence"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://fixme.com#Concept"
         }
       ],
       "generalization": [],
@@ -3634,7 +3634,7 @@
   "diagram": "CCCEV_v3",
   "template": "cccev-ap.j2",
   "title": "Core Criterion and Core Evidence Vocabulary",
-  "publication-state": "https://creativecommons.org/licenses/by/4.0/",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "TBD",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "MijnKolom",
@@ -3668,7 +3668,7 @@
   "branchtag": "main",
   "filename": "config/cccev-ap.json",
   "navigation": {},
-  "documentcommit": "54b8588776fb2ca0275672e7919aee683cd6514c",
-  "toolchaincommit": "f47891dca1e5579cee8b014b14eda00c387a9cb3",
+  "documentcommit": "2a0eaa1e07571dc30db4d2bcb8c72095041759dd",
+  "toolchaincommit": "b5525bdc11c2caf8392818909435bd986a6fc4a5",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
