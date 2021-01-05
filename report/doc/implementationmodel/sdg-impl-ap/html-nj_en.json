@@ -11,8 +11,8 @@
     "license": "TBD",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "statuslabel": "Ontwerpdocument",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/a3caef482cb47df41dab439fe0530cd974cf29eb",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/a3caef482cb47df41dab439fe0530cd974cf29eb/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/54b8588776fb2ca0275672e7919aee683cd6514c",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/54b8588776fb2ca0275672e7919aee683cd6514c/CHANGELOG",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
     "usesVocs": [],
@@ -22,9 +22,13 @@
     {
       "uri": "https://sdg.semic.euAddress",
       "name": "Address",
-      "label": {},
+      "label": {
+        "en": "Address"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -51,7 +55,7 @@
               "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
-                "de": "Location"
+                "en": "Location"
               }
             }
           ],
@@ -81,7 +85,7 @@
               "range_uri": "#Person",
               "range_puri": "https://sdg.semic.euPerson",
               "range_label": {
-                "de": "Person"
+                "en": "Person"
               }
             }
           ],
@@ -92,7 +96,9 @@
           "uri": "https://sdg.semic.euadminUnitL1",
           "name": "Admin unit Level 1",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The uppermost administrative unit for the address, almost always a country."
+          },
           "usage": {},
           "domain": [
             {
@@ -111,7 +117,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -139,7 +145,9 @@
           "uri": "https://sdg.semic.eufullAddress",
           "name": "full address",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tThe complete address written as a string, with or without formatting."
+          },
           "usage": {},
           "domain": [
             {
@@ -203,7 +211,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -250,7 +258,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -280,7 +288,7 @@
               "range_uri": "#Grade",
               "range_puri": "https://sdg.semic.euGrade",
               "range_label": {
-                "de": "Grade"
+                "en": "Grade"
               }
             }
           ],
@@ -310,7 +318,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -376,7 +384,7 @@
               "range_uri": "#TertiaryEducationEvidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationEvidence",
               "range_label": {
-                "de": "TertiaryEducationEvidence"
+                "en": "TertiaryEducationEvidence"
               }
             }
           ],
@@ -414,7 +422,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Address",
               "range_puri": "https://sdg.semic.euAddress",
               "range_label": {
                 "en": "Address"
@@ -447,7 +455,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_puri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_label": {
-                "de": "URI"
+                "en": "URI"
               }
             }
           ],
@@ -573,7 +581,7 @@
               "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
-                "de": "Location"
+                "en": "Location"
               }
             }
           ],
@@ -611,7 +619,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Address",
               "range_puri": "https://sdg.semic.euAddress",
               "range_label": {
                 "en": "Address"
@@ -644,7 +652,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -708,7 +716,7 @@
               "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
-                "de": "Location"
+                "en": "Location"
               }
             }
           ],
@@ -738,7 +746,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -779,7 +787,7 @@
               "range_uri": "#TertiaryEducationDiplomaSupplementEvidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
               "range_label": {
-                "de": "TertiaryEducationDiplomaSupplementEvidence"
+                "en": "TertiaryEducationDiplomaSupplementEvidence"
               }
             }
           ],
@@ -843,7 +851,7 @@
               "range_uri": "#CourseResult",
               "range_puri": "https://sdg.semic.euCourseResult",
               "range_label": {
-                "de": "CourseResult"
+                "en": "CourseResult"
               }
             }
           ],
@@ -962,7 +970,7 @@
               "range_uri": "#TertiaryEducationDiplomaSupplementEvidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
               "range_label": {
-                "de": "TertiaryEducationDiplomaSupplementEvidence"
+                "en": "TertiaryEducationDiplomaSupplementEvidence"
               }
             }
           ],
@@ -1009,7 +1017,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1056,7 +1064,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1086,7 +1094,7 @@
               "range_uri": "#Grade",
               "range_puri": "https://sdg.semic.euGrade",
               "range_label": {
-                "de": "Grade"
+                "en": "Grade"
               }
             }
           ],
@@ -1144,7 +1152,7 @@
               "range_uri": "#RecordOfResultsEvidence",
               "range_puri": "https://sdg.semic.euRecordOfResultsEvidence",
               "range_label": {
-                "de": "RecordOfResultsEvidence"
+                "en": "RecordOfResultsEvidence"
               }
             }
           ],
@@ -1174,7 +1182,7 @@
               "range_uri": "#TertiaryEducationDiplomaEvidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
               "range_label": {
-                "de": "TertiaryEducationDiplomaEvidence"
+                "en": "TertiaryEducationDiplomaEvidence"
               }
             }
           ],
@@ -1204,7 +1212,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1234,7 +1242,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1264,7 +1272,7 @@
               "range_uri": "#Grade",
               "range_puri": "https://sdg.semic.euGrade",
               "range_label": {
-                "de": "Grade"
+                "en": "Grade"
               }
             }
           ],
@@ -1294,7 +1302,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1324,7 +1332,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1354,7 +1362,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1401,7 +1409,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1459,7 +1467,7 @@
               "range_uri": "#EducationInstitution",
               "range_puri": "https://sdg.semic.euEducationInstitution",
               "range_label": {
-                "de": "EducationInstitution"
+                "en": "EducationInstitution"
               }
             }
           ],
@@ -1489,7 +1497,7 @@
               "range_uri": "#Student",
               "range_puri": "https://sdg.semic.euStudent",
               "range_label": {
-                "de": "Student"
+                "en": "Student"
               }
             }
           ],
@@ -1519,7 +1527,7 @@
               "range_uri": "#Organisation",
               "range_puri": "https://sdg.semic.euOrganisation",
               "range_label": {
-                "de": "Organisation"
+                "en": "Organisation"
               }
             }
           ],
@@ -1549,7 +1557,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -1579,7 +1587,7 @@
               "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
-                "de": "Location"
+                "en": "Location"
               }
             }
           ],
@@ -1609,7 +1617,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -2183,7 +2191,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_puri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_label": {
-                "de": "URI"
+                "en": "URI"
               }
             }
           ],
@@ -2213,7 +2221,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -2243,7 +2251,7 @@
               "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_label": {
-                "de": "Literal"
+                "en": "Literal"
               }
             }
           ],

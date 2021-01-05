@@ -21,7 +21,9 @@
     {
       "uri": "http://fixme.com#Agent",
       "name": "Agent",
-      "label": {},
+      "label": {
+        "en": "Agent"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -31,9 +33,13 @@
     {
       "uri": "http://fixme.com#Concept",
       "name": "RequirementConcept",
-      "label": {},
+      "label": {
+        "en": "RequirementConcept"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -41,7 +47,9 @@
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+          },
           "usage": {},
           "domain": [
             {
@@ -58,7 +66,9 @@
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "An unambiguous reference to RequirementConcept"
+          },
           "usage": {},
           "domain": [
             {
@@ -75,7 +85,9 @@
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A name to identify in common language the RequirementConcept"
+          },
           "usage": {},
           "domain": [
             {
@@ -92,7 +104,9 @@
           "uri": "http://fixme.com#cbc:type",
           "name": "type",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "a classification of the RequirementConcept"
+          },
           "usage": {},
           "domain": [
             {
@@ -109,7 +123,9 @@
           "uri": "http://fixme.com#cccev:hasConstraint",
           "name": "has Constraint",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
+          },
           "usage": {},
           "domain": [
             {
@@ -125,7 +141,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Constraint",
               "range_puri": "http://fixme.com#Constraint",
               "range_label": {
                 "en": "Constraint"
@@ -140,10 +156,16 @@
     {
       "uri": "http://fixme.com#Constraint",
       "name": "Constraint",
-      "label": {},
+      "label": {
+        "en": "Constraint"
+      },
       "sort": "undefined name",
-      "description": {},
-      "usage": {},
+      "description": {
+        "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
+      },
+      "usage": {
+        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
+      },
       "parents": [
         {
           "name": "Requirement",
@@ -158,10 +180,16 @@
     {
       "uri": "http://fixme.com#Criterion",
       "name": "Criterion",
-      "label": {},
+      "label": {
+        "en": "Criterion"
+      },
       "sort": "undefined name",
-      "description": {},
-      "usage": {},
+      "description": {
+        "en": "condition for evaluation or assessment."
+      },
+      "usage": {
+        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
+      },
       "parents": [
         {
           "name": "Requirement",
@@ -176,7 +204,9 @@
           "uri": "http://fixme.com#cccev:bias",
           "name": "bias",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+          },
           "usage": {},
           "domain": [
             {
@@ -193,7 +223,9 @@
           "uri": "http://fixme.com#cccev:weight",
           "name": "weight",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Relative importance assigned to a given criterion."
+          },
           "usage": {},
           "domain": [
             {
@@ -210,7 +242,9 @@
           "uri": "http://fixme.com#cccev:weightingConsiderationDescription",
           "name": "weighting consideration description",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+          },
           "usage": {},
           "domain": [
             {
@@ -227,7 +261,9 @@
           "uri": "http://fixme.com#cccev:weightingType",
           "name": "weighting type",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The numeric form used to weight."
+          },
           "usage": {},
           "domain": [
             {
@@ -245,7 +281,9 @@
     {
       "uri": "http://fixme.com#Dataset",
       "name": "Dataset",
-      "label": {},
+      "label": {
+        "en": "Dataset"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -271,7 +309,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Distribution",
               "range_puri": "http://fixme.com#Distribution",
               "range_label": {
                 "en": "Distribution"
@@ -388,7 +426,9 @@
     {
       "uri": "http://fixme.com#Distribution",
       "name": "Distribution",
-      "label": {},
+      "label": {
+        "en": "Distribution"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -434,7 +474,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -446,9 +486,13 @@
     {
       "uri": "http://fixme.com#Evidence",
       "name": "Evidence",
-      "label": {},
+      "label": {
+        "en": "Evidence"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "The data proving that a requirement is met or has been fulfilled."
+      },
       "usage": {},
       "parents": [
         {
@@ -464,7 +508,9 @@
           "uri": "http://fixme.com#cccev:confidentialityLevelType",
           "name": "confidentiality level type",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The security classification assigned to an Evidence or, in general, to a content."
+          },
           "usage": {},
           "domain": [
             {
@@ -481,7 +527,9 @@
           "uri": "http://fixme.com#cccev:isConformantTo",
           "name": "is Conformant",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The kind of evidence"
+          },
           "usage": {},
           "domain": [
             {
@@ -497,40 +545,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Evidence type",
               "range_puri": "http://fixme.com#EvidenceType",
               "range_label": {
                 "en": "Evidence type"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "undefined name",
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
-              "range_label": {
-                "en": "RequirementConcept"
               }
             }
           ],
@@ -557,10 +575,40 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Requirement",
               "range_puri": "http://fixme.com#Requirement",
               "range_label": {
                 "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "",
+          "sort": "undefined name",
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#RequirementConcept",
+              "range_puri": "http://fixme.com#Concept",
+              "range_label": {
+                "en": "RequirementConcept"
               }
             }
           ],
@@ -572,9 +620,13 @@
     {
       "uri": "http://fixme.com#EvidenceType",
       "name": "Evidence type",
-      "label": {},
+      "label": {
+        "en": "Evidence type"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
+      },
       "usage": {},
       "parents": [
         {
@@ -590,7 +642,9 @@
           "uri": "http://fixme.com#cccev:datasetType",
           "name": "dataset type",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A classification code use to specify the machine-readability of a content."
+          },
           "usage": {},
           "domain": [
             {
@@ -607,7 +661,9 @@
           "uri": "http://fixme.com#cccev:evidenceTypeClassification",
           "name": "evidence type classification",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A classification code to specify the layout and content expected for an evidence."
+          },
           "usage": {},
           "domain": [
             {
@@ -640,7 +696,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Evidence Type List",
               "range_puri": "http://fixme.com#EvidenceTypeList",
               "range_label": {
                 "en": "Evidence Type List"
@@ -655,7 +711,9 @@
     {
       "uri": "http://fixme.com#EvidenceTypeList",
       "name": "Evidence Type List",
-      "label": {},
+      "label": {
+        "en": "Evidence Type List"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -665,7 +723,9 @@
           "uri": "http://fixme.com#cbc:description",
           "name": "description",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
+          },
           "usage": {},
           "domain": [
             {
@@ -682,7 +742,9 @@
           "uri": "http://fixme.com#cbc:id",
           "name": "identifier",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "An unambiguous reference to an Evidence Type List"
+          },
           "usage": {},
           "domain": [
             {
@@ -699,7 +761,9 @@
           "uri": "http://fixme.com#cbc:name",
           "name": "name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A name to identify in common language the Evidence Type List"
+          },
           "usage": {},
           "domain": [
             {
@@ -732,7 +796,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Evidence type",
               "range_puri": "http://fixme.com#EvidenceType",
               "range_label": {
                 "en": "Evidence type"
@@ -747,9 +811,13 @@
     {
       "uri": "http://fixme.com#InformationRequirement",
       "name": "Information Requirement",
-      "label": {},
+      "label": {
+        "en": "Information Requirement"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "A request for data that is proof of evidence or leads to the source of such a proof."
+      },
       "usage": {},
       "parents": [
         {
@@ -765,7 +833,9 @@
     {
       "uri": "http://fixme.com#ReferenceFramework",
       "name": "Reference Framework",
-      "label": {},
+      "label": {
+        "en": "Reference Framework"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -783,9 +853,13 @@
     {
       "uri": "http://fixme.com#Requirement",
       "name": "Requirement",
-      "label": {},
+      "label": {
+        "en": "Requirement"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "A condition demanded."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -877,7 +951,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#RequirementConcept",
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
                 "en": "RequirementConcept"
@@ -907,7 +981,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Evidence Type List",
               "range_puri": "http://fixme.com#EvidenceTypeList",
               "range_label": {
                 "en": "Evidence Type List"
@@ -937,7 +1011,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Requirement",
               "range_puri": "http://fixme.com#Requirement",
               "range_label": {
                 "en": "Requirement"
@@ -967,7 +1041,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Evidence",
               "range_puri": "http://fixme.com#Evidence",
               "range_label": {
                 "en": "Evidence"
@@ -997,7 +1071,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Reference Framework",
               "range_puri": "http://fixme.com#ReferenceFramework",
               "range_label": {
                 "en": "Reference Framework"
@@ -1027,7 +1101,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Requirement",
               "range_puri": "http://fixme.com#Requirement",
               "range_label": {
                 "en": "Requirement"
@@ -1042,7 +1116,9 @@
     {
       "uri": "http://fixme.com#Standard",
       "name": "Standard",
-      "label": {},
+      "label": {
+        "en": "Standard"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},

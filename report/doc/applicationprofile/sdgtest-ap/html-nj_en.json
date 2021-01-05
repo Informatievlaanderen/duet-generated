@@ -11,8 +11,8 @@
     "license": "TBD",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "statuslabel": "Ontwerpdocument",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/a3caef482cb47df41dab439fe0530cd974cf29eb",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/a3caef482cb47df41dab439fe0530cd974cf29eb/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/54b8588776fb2ca0275672e7919aee683cd6514c",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/54b8588776fb2ca0275672e7919aee683cd6514c/CHANGELOG",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
     "usesVocs": [],
@@ -22,9 +22,13 @@
     {
       "uri": "https://sdg.semic.euAddress",
       "name": "Address",
-      "label": {},
+      "label": {
+        "en": "Address"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -48,7 +52,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
                 "en": "Location"
@@ -78,7 +82,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "https://sdg.semic.euPerson",
               "range_label": {
                 "en": "Person"
@@ -92,7 +96,9 @@
           "uri": "https://sdg.semic.euadminUnitL1",
           "name": "Admin unit Level 1",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The uppermost administrative unit for the address, almost always a country."
+          },
           "usage": {},
           "domain": [
             {
@@ -111,7 +117,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -139,7 +145,9 @@
           "uri": "https://sdg.semic.eufullAddress",
           "name": "full address",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tThe complete address written as a string, with or without formatting."
+          },
           "usage": {},
           "domain": [
             {
@@ -157,9 +165,13 @@
     {
       "uri": "https://sdg.semic.euCourseResult",
       "name": "Course Result",
-      "label": {},
+      "label": {
+        "en": "Course Result"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Grade obtained after finishing/completing a course."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -167,7 +179,9 @@
           "uri": "https://sdg.semic.eucourseAcademicPeriod",
           "name": "course academic period",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
+          },
           "usage": {},
           "domain": [
             {
@@ -184,7 +198,9 @@
           "uri": "https://sdg.semic.eucourseAcademicYear",
           "name": "course academic period",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
+          },
           "usage": {},
           "domain": [
             {
@@ -203,7 +219,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -214,7 +230,9 @@
           "uri": "https://sdg.semic.eucourseCreditsAmount",
           "name": "course credits amount",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
+          },
           "usage": {},
           "domain": [
             {
@@ -231,7 +249,9 @@
           "uri": "https://sdg.semic.eucourseFieldOfStudy",
           "name": "course field of study",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The discipline or subject area of a course."
+          },
           "usage": {},
           "domain": [
             {
@@ -250,7 +270,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -261,7 +281,9 @@
           "uri": "https://sdg.semic.eucourseGrade",
           "name": "course grade",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tA mark indicating a degree of accomplishment for a particular course."
+          },
           "usage": {},
           "domain": [
             {
@@ -277,7 +299,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Grade",
               "range_puri": "https://sdg.semic.euGrade",
               "range_label": {
                 "en": "Grade"
@@ -291,7 +313,9 @@
           "uri": "https://sdg.semic.eucourseLanguage",
           "name": "course language",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Main language in which the course was taught."
+          },
           "usage": {},
           "domain": [
             {
@@ -310,7 +334,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -321,7 +345,9 @@
           "uri": "https://sdg.semic.eucourseName",
           "name": "course name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
+          },
           "usage": {},
           "domain": [
             {
@@ -339,9 +365,13 @@
     {
       "uri": "https://sdg.semic.euEducationInstitution",
       "name": "Education Institute",
-      "label": {},
+      "label": {
+        "en": "Education Institute"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
+      },
       "usage": {},
       "parents": [
         {
@@ -373,7 +403,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Tertiary Education Evidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationEvidence",
               "range_label": {
                 "en": "Tertiary Education Evidence"
@@ -388,9 +418,13 @@
     {
       "uri": "https://sdg.semic.euLocation",
       "name": "Location",
-      "label": {},
+      "label": {
+        "en": "Location"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "A spatial region or named place."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -414,7 +448,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Address",
               "range_puri": "https://sdg.semic.euAddress",
               "range_label": {
                 "en": "Address"
@@ -428,7 +462,9 @@
           "uri": "https://sdg.semic.eugeographicIdentifier",
           "name": "geographic name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
+          },
           "usage": {},
           "domain": [
             {
@@ -447,7 +483,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_puri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_label": {
-                "de": "URI"
+                "en": "URI"
               }
             }
           ],
@@ -458,7 +494,9 @@
           "uri": "https://sdg.semic.eugeographicName",
           "name": "geographic identifier",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A URI that identifies the Location."
+          },
           "usage": {},
           "domain": [
             {
@@ -476,9 +514,13 @@
     {
       "uri": "https://sdg.semic.euOrganisation",
       "name": "Organisation",
-      "label": {},
+      "label": {
+        "en": "Organisation"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent"
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -486,7 +528,9 @@
           "uri": "https://sdg.semic.euidentifier",
           "name": "identifier",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "An unambiguous reference to the Tertiary Education Evidence."
+          },
           "usage": {},
           "domain": [
             {
@@ -503,7 +547,9 @@
           "uri": "https://sdg.semic.euidentifier",
           "name": "identifier",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "An unambiguous reference to the Tertiary Education Evidence."
+          },
           "usage": {},
           "domain": [
             {
@@ -520,7 +566,9 @@
           "uri": "https://sdg.semic.euidentifier",
           "name": "identifier",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "An unambiguous reference to the Tertiary Education Evidence."
+          },
           "usage": {},
           "domain": [
             {
@@ -537,7 +585,9 @@
           "uri": "https://sdg.semic.euprefLabel",
           "name": "preferred label",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
+          },
           "usage": {},
           "domain": [
             {
@@ -570,7 +620,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
                 "en": "Location"
@@ -585,9 +635,13 @@
     {
       "uri": "https://sdg.semic.euPerson",
       "name": "Person",
-      "label": {},
+      "label": {
+        "en": "Person"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "An individual person who may be dead or alive, but not imaginary."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -611,7 +665,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Address",
               "range_puri": "https://sdg.semic.euAddress",
               "range_label": {
                 "en": "Address"
@@ -625,7 +679,9 @@
           "uri": "https://sdg.semic.eudateOfBirth",
           "name": "date of birth",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A date that specifies the birth date of a Person."
+          },
           "usage": {},
           "domain": [
             {
@@ -644,7 +700,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -655,7 +711,9 @@
           "uri": "https://sdg.semic.eufamilyName",
           "name": "family name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
+          },
           "usage": {},
           "domain": [
             {
@@ -672,7 +730,9 @@
           "uri": "https://sdg.semic.eugivenName",
           "name": "given name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
+          },
           "usage": {},
           "domain": [
             {
@@ -705,7 +765,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
                 "en": "Location"
@@ -719,7 +779,9 @@
           "uri": "https://sdg.semic.eusex",
           "name": "sex",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
+          },
           "usage": {},
           "domain": [
             {
@@ -738,7 +800,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -750,9 +812,13 @@
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence",
       "name": "Record of Results Evidence",
-      "label": {},
+      "label": {
+        "en": "Record of Results Evidence"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -776,7 +842,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Tertiary Education Diploma Supplement Evidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
               "range_label": {
                 "en": "Tertiary Education Diploma Supplement Evidence"
@@ -790,7 +856,9 @@
           "uri": "https://sdg.semic.euacademicYear",
           "name": "",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tThe period during which the courses and exams took place."
+          },
           "usage": {},
           "domain": [
             {
@@ -807,7 +875,9 @@
           "uri": "https://sdg.semic.euacademicYear",
           "name": "",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tThe period during which the courses and exams took place."
+          },
           "usage": {},
           "domain": [
             {
@@ -840,7 +910,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Course Result",
               "range_puri": "https://sdg.semic.euCourseResult",
               "range_label": {
                 "en": "Course Result"
@@ -854,7 +924,9 @@
           "uri": "https://sdg.semic.eutotalCredits",
           "name": "total credits",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Total student workload required, described in terms of ECTS credits."
+          },
           "usage": {},
           "domain": [
             {
@@ -871,7 +943,9 @@
           "uri": "https://sdg.semic.eutotalCredits",
           "name": "total credits",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Total student workload required, described in terms of ECTS credits."
+          },
           "usage": {},
           "domain": [
             {
@@ -889,9 +963,13 @@
     {
       "uri": "https://sdg.semic.euStudent",
       "name": "Student",
-      "label": {},
+      "label": {
+        "en": "Student"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
+      },
       "usage": {},
       "parents": [
         {
@@ -907,7 +985,9 @@
           "uri": "https://sdg.semic.eustudentID",
           "name": "student ID",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "An unambiguous reference to the Student."
+          },
           "usage": {},
           "domain": [
             {
@@ -925,9 +1005,13 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
       "name": "Tertiary Education Diploma Evidence",
-      "label": {},
+      "label": {
+        "en": "Tertiary Education Diploma Evidence"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
+      },
       "usage": {},
       "parents": [
         {
@@ -959,7 +1043,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Tertiary Education Diploma Supplement Evidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
               "range_label": {
                 "en": "Tertiary Education Diploma Supplement Evidence"
@@ -973,7 +1057,9 @@
           "uri": "https://sdg.semic.euacademicProgramme",
           "name": "academic programme",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
+          },
           "usage": {},
           "domain": [
             {
@@ -990,7 +1076,9 @@
           "uri": "https://sdg.semic.euaccessToFurtherStudy",
           "name": "access to further study",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
+          },
           "usage": {},
           "domain": [
             {
@@ -1009,7 +1097,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1020,7 +1108,9 @@
           "uri": "https://sdg.semic.euaccessToRegulatedProfession",
           "name": "access to regulated profession",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
+          },
           "usage": {},
           "domain": [
             {
@@ -1037,7 +1127,9 @@
           "uri": "https://sdg.semic.eulevelOfDistinction",
           "name": "level of distinction",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
+          },
           "usage": {},
           "domain": [
             {
@@ -1056,7 +1148,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1067,7 +1159,9 @@
           "uri": "https://sdg.semic.euoverallGrade",
           "name": "overall grade",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A mark indicating a degree of accomplishment."
+          },
           "usage": {},
           "domain": [
             {
@@ -1083,7 +1177,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Grade",
               "range_puri": "https://sdg.semic.euGrade",
               "range_label": {
                 "en": "Grade"
@@ -1097,7 +1191,9 @@
           "uri": "https://sdg.semic.euthesisTitle",
           "name": "thesis title",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Title of the dissertation completed by a student as part of a tertiary education degree."
+          },
           "usage": {},
           "domain": [
             {
@@ -1115,9 +1211,13 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
       "name": "Tertiary Education Diploma Supplement Evidence",
-      "label": {},
+      "label": {
+        "en": "Tertiary Education Diploma Supplement Evidence"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -1141,7 +1241,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Record of Results Evidence",
               "range_puri": "https://sdg.semic.euRecordOfResultsEvidence",
               "range_label": {
                 "en": "Record of Results Evidence"
@@ -1171,7 +1271,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Tertiary Education Diploma Evidence",
               "range_puri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
               "range_label": {
                 "en": "Tertiary Education Diploma Evidence"
@@ -1204,7 +1304,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1215,7 +1315,9 @@
           "uri": "https://sdg.semic.euaccessRequirement",
           "name": "access requirement",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tQualification(s) or periods of study required for access to the programme."
+          },
           "usage": {},
           "domain": [
             {
@@ -1234,7 +1336,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1245,7 +1347,9 @@
           "uri": "https://sdg.semic.eugradePointAverage",
           "name": "grade point average",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
+          },
           "usage": {},
           "domain": [
             {
@@ -1261,7 +1365,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Grade",
               "range_puri": "https://sdg.semic.euGrade",
               "range_label": {
                 "en": "Grade"
@@ -1275,7 +1379,9 @@
           "uri": "https://sdg.semic.eulanguageOfInstruction",
           "name": "language of instruction",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The different languages in which the programme was given."
+          },
           "usage": {},
           "domain": [
             {
@@ -1294,7 +1400,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1305,7 +1411,9 @@
           "uri": "https://sdg.semic.eumainFieldOfStudy",
           "name": "main field of study",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The main disciplines or subject areas of a qualification."
+          },
           "usage": {},
           "domain": [
             {
@@ -1324,7 +1432,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1335,7 +1443,9 @@
           "uri": "https://sdg.semic.eumodeOfStudy",
           "name": "mode of study",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
+          },
           "usage": {},
           "domain": [
             {
@@ -1354,7 +1464,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1365,7 +1475,9 @@
           "uri": "https://sdg.semic.euprogrammeLearningOutcomes",
           "name": "programme learning outcomes",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
+          },
           "usage": {},
           "domain": [
             {
@@ -1382,7 +1494,9 @@
           "uri": "https://sdg.semic.euqualificationLevel",
           "name": "qualification level",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tLevel of the obtained qualification."
+          },
           "usage": {},
           "domain": [
             {
@@ -1401,7 +1515,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1412,7 +1526,9 @@
           "uri": "https://sdg.semic.eustudyDuration",
           "name": "study duration",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Official duration of the programme in years of full-time study."
+          },
           "usage": {},
           "domain": [
             {
@@ -1430,9 +1546,13 @@
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence",
       "name": "Tertiary Education Evidence",
-      "label": {},
+      "label": {
+        "en": "Tertiary Education Evidence"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -1456,7 +1576,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Education Institute",
               "range_puri": "https://sdg.semic.euEducationInstitution",
               "range_label": {
                 "en": "Education Institute"
@@ -1486,7 +1606,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Student",
               "range_puri": "https://sdg.semic.euStudent",
               "range_label": {
                 "en": "Student"
@@ -1516,7 +1636,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Organisation",
               "range_puri": "https://sdg.semic.euOrganisation",
               "range_label": {
                 "en": "Organisation"
@@ -1530,7 +1650,9 @@
           "uri": "https://sdg.semic.euissuingDate",
           "name": "issuing date",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The date on which the Tertiary Education Evidence was issued."
+          },
           "usage": {},
           "domain": [
             {
@@ -1549,7 +1671,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#date",
               "range_puri": "http://www.w3.org/2001/XMLSchema#date",
               "range_label": {
-                "de": "Date"
+                "en": "Date"
               }
             }
           ],
@@ -1576,7 +1698,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Location",
               "range_puri": "https://sdg.semic.euLocation",
               "range_label": {
                 "en": "Location"
@@ -1590,7 +1712,9 @@
           "uri": "https://sdg.semic.eulanguage",
           "name": "language",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "The language in which the Tertiary Education Evidence is issued. \t"
+          },
           "usage": {},
           "domain": [
             {
@@ -1609,7 +1733,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -1620,7 +1744,9 @@
           "uri": "https://sdg.semic.euqualificationName",
           "name": "qualification name",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
+          },
           "usage": {},
           "domain": [
             {
@@ -2152,9 +2278,13 @@
     {
       "uri": "https://sdg.semic.euGrade",
       "name": "Grade",
-      "label": {},
+      "label": {
+        "en": "Grade"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "Mark indicating a degree of accomplishment."
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -2162,7 +2292,9 @@
           "uri": "https://sdg.semic.eudistribution",
           "name": "distribution",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Statistical distribution of grades over the number of students that obtained the respective grade."
+          },
           "usage": {},
           "domain": [
             {
@@ -2179,7 +2311,9 @@
           "uri": "https://sdg.semic.eugradingScheme",
           "name": "grading scheme",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "Dereferenceable identifier to the grading system that was used to give the grade."
+          },
           "usage": {},
           "domain": [
             {
@@ -2198,7 +2332,7 @@
               "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_puri": "http://www.w3.org/2001/XMLSchema#anyURI",
               "range_label": {
-                "de": "URI"
+                "en": "URI"
               }
             }
           ],
@@ -2209,7 +2343,9 @@
           "uri": "https://sdg.semic.eustatus",
           "name": "status",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
+          },
           "usage": {},
           "domain": [
             {
@@ -2228,7 +2364,7 @@
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Code"
+                "en": "Code"
               }
             }
           ],
@@ -2239,7 +2375,9 @@
           "uri": "https://sdg.semic.euvalue",
           "name": "value",
           "sort": "undefined name",
-          "description": {},
+          "description": {
+            "en": "A (quantitative or qualitative) value according to the definition in the grading scheme."
+          },
           "usage": {},
           "domain": [
             {
@@ -2258,7 +2396,7 @@
               "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_label": {
-                "de": "Literal"
+                "en": "Literal"
               }
             }
           ],

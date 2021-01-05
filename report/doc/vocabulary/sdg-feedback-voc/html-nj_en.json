@@ -10,8 +10,8 @@
     "license": "TBD",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "statuslabel": "Ontwerpdocument",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/a3caef482cb47df41dab439fe0530cd974cf29eb",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/a3caef482cb47df41dab439fe0530cd974cf29eb/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/54b8588776fb2ca0275672e7919aee683cd6514c",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/54b8588776fb2ca0275672e7919aee683cd6514c/CHANGELOG",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
     "usesVocs": [],
@@ -21,9 +21,13 @@
     {
       "uri": "https://sdg.semic.euAddress",
       "name": "Address",
-      "label": {},
+      "label": {
+        "en": "Address"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
@@ -396,9 +400,13 @@
     {
       "uri": "https://sdg.semic.euadminUnitL1",
       "name": "Admin unit Level 1",
-      "label": {},
+      "label": {
+        "en": "Admin unit Level 1"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": "The uppermost administrative unit for the address, almost always a country."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euAddress"
@@ -411,7 +419,9 @@
     {
       "uri": "https://sdg.semic.euadminUnitL2",
       "name": "admin unit Level 2",
-      "label": {},
+      "label": {
+        "en": "admin unit Level 2"
+      },
       "sort": "undefined name",
       "description": {},
       "usage": {},
@@ -594,9 +604,13 @@
     {
       "uri": "https://sdg.semic.eufullAddress",
       "name": "full address",
-      "label": {},
+      "label": {
+        "en": "full address"
+      },
       "sort": "undefined name",
-      "description": {},
+      "description": {
+        "en": " \tThe complete address written as a string, with or without formatting."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euAddress"
