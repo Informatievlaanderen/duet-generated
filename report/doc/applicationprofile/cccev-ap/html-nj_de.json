@@ -10,8 +10,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/2a0eaa1e07571dc30db4d2bcb8c72095041759dd",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/2a0eaa1e07571dc30db4d2bcb8c72095041759dd/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/a8537a37e8faf0f572f821539cc00bf90bdab6c7",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/a8537a37e8faf0f572f821539cc00bf90bdab6c7/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -19,14 +19,782 @@
   },
   "classes": [
     {
-      "uri": "http://fixme.com#Agent",
-      "name": "Agent",
+      "uri": "http://data.europa.eu/m8g/cccev#Constraint",
+      "name": "Constraint",
       "label": {},
-      "sort": "Agent",
+      "sort": "Constraint",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "name": "Requirement",
+          "label": "Requirement",
+          "package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+          "scoped_uri": "#Requirement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+      "name": "Criterion",
+      "label": {},
+      "sort": "Criterion",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "name": "Requirement",
+          "label": "Requirement",
+          "package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+          "scoped_uri": "#Requirement"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#bias",
+          "name": "bias",
+          "sort": "bias",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+              "EA-Name": "Criterion"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#weight",
+          "name": "weight",
+          "sort": "weight",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+              "EA-Name": "Criterion"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+          "name": "weighting consideration description",
+          "sort": "weighting consideration description",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+              "EA-Name": "Criterion"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#weightingType",
+          "name": "weighting type",
+          "sort": "weighting type",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
+              "EA-Name": "Criterion"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+      "name": "Evidence",
+      "label": {},
+      "sort": "Evidence",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "name": "Dataset",
+          "label": "Dataset",
+          "package": "dcat",
+          "uri": "http://fixme.com#Dataset",
+          "scoped_uri": "#Dataset"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+          "name": "confidentiality level type",
+          "sort": "confidentiality level type",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#isAbout",
+          "name": "is about",
+          "sort": "is about",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Agent",
+              "range_uri": "http://xmlns.com/foaf/0.1/Agent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://xmlns.com/foaf/0.1/Agent",
+              "range_label": {
+                "en": "Agent"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:isConformantTo",
+          "name": "is Conformant",
+          "sort": "is Conformant",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "EvidenceType",
+              "range_uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+              "range_label": {
+                "en": "Evidence type"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#Concept",
+              "range_label": {
+                "en": "RequirementConcept"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:supports",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+      "name": "Evidence type",
+      "label": {},
+      "sort": "Evidence type",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "name": "Dataset",
+          "label": "Dataset",
+          "package": "dcat",
+          "uri": "http://fixme.com#Dataset",
+          "scoped_uri": "#Dataset"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "http://fixme.com#cccev:datasetType",
+          "name": "dataset type",
+          "sort": "dataset type",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+              "EA-Name": "EvidenceType"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:evidenceTypeClassification",
+          "name": "evidence type classification",
+          "sort": "evidence type classification",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+              "EA-Name": "EvidenceType"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:isSpecifiedIn",
+          "name": "is specified in",
+          "sort": "is specified in",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+              "EA-Name": "EvidenceType"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "EvidenceTypeList",
+              "range_uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "range_label": {
+                "en": "Evidence Type List"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+      "name": "Evidence Type List",
+      "label": {},
+      "sort": "Evidence Type List",
       "description": {},
       "usage": {},
       "parents": [],
+      "properties": [
+        {
+          "uri": "http://fixme.com#cbc:name",
+          "name": "name",
+          "sort": "name",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "EA-Name": "EvidenceTypeList"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:specifiesEvidenceType",
+          "name": "specifies evidence type",
+          "sort": "specifies evidence type",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "EA-Name": "EvidenceTypeList"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "EvidenceType",
+              "range_uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+              "range_label": {
+                "en": "Evidence type"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": "description",
+          "sort": "description",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "EA-Name": "EvidenceTypeList"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "EA-Name": "EvidenceTypeList"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#InformationRequirement",
+      "name": "Information Requirement",
+      "label": {},
+      "sort": "Information Requirement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "name": "Requirement",
+          "label": "Requirement",
+          "package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+          "scoped_uri": "#Requirement"
+        }
+      ],
       "properties": []
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+      "name": "Requirement",
+      "label": {},
+      "sort": "Requirement",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://fixme.com#cccev:hasConcept",
+          "name": "has concept",
+          "sort": "has concept",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#Concept",
+              "range_label": {
+                "en": "RequirementConcept"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
+          "name": "has evidence type combination",
+          "sort": "has evidence type combination",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "EvidenceTypeList",
+              "range_uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "range_label": {
+                "en": "Evidence Type List"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:hasRequirement",
+          "name": "has requirement",
+          "sort": "has requirement",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:hasSupportingEvidence",
+          "name": "has supporting evidence",
+          "sort": "has supporting evidence",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Evidence",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Evidence"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "range_label": {
+                "en": "Evidence"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:isDerivedFrom",
+          "name": "is derived from",
+          "sort": "is derived from",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ReferenceFramework",
+              "range_uri": "http://fixme.com#ReferenceFramework"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#ReferenceFramework",
+              "range_label": {
+                "en": "Reference Framework"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#cccev:isRequirementOf",
+          "name": "is requirement of",
+          "sort": "is requirement of",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "range_label": {
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": "description",
+          "sort": "description",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/type",
+          "name": "type",
+          "sort": "type",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Code",
+              "range_uri": "http://fixme.com#Code"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Code",
+              "range_puri": "http://fixme.com#Code",
+              "range_label": {
+                "de": "Code"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "name",
+          "sort": "name",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "http://fixme.com#Concept",
@@ -125,128 +893,19 @@
           "range": [
             {
               "range_label": "Constraint",
-              "range_uri": "http://fixme.com#Constraint"
+              "range_uri": "http://data.europa.eu/m8g/cccev#Constraint"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Constraint",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Constraint",
               "range_label": {
                 "en": "Constraint"
               }
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Constraint",
-      "name": "Constraint",
-      "label": {},
-      "sort": "Constraint",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "name": "Requirement",
-          "label": "Requirement",
-          "package": "CCCEV_v2",
-          "uri": "http://fixme.com#Requirement",
-          "scoped_uri": "#Requirement"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "http://fixme.com#Criterion",
-      "name": "Criterion",
-      "label": {},
-      "sort": "Criterion",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "name": "Requirement",
-          "label": "Requirement",
-          "package": "CCCEV_v2",
-          "uri": "http://fixme.com#Requirement",
-          "scoped_uri": "#Requirement"
-        }
-      ],
-      "properties": [
-        {
-          "uri": "http://fixme.com#cccev:bias",
-          "name": "bias",
-          "sort": "bias",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Criterion",
-              "EA-Name": "Criterion"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:weight",
-          "name": "weight",
-          "sort": "weight",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Criterion",
-              "EA-Name": "Criterion"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:weightingConsiderationDescription",
-          "name": "weighting consideration description",
-          "sort": "weighting consideration description",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Criterion",
-              "EA-Name": "Criterion"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:weightingType",
-          "name": "weighting type",
-          "sort": "weighting type",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Criterion",
-              "EA-Name": "Criterion"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
           "codelist_uri": ""
         }
       ]
@@ -462,336 +1121,6 @@
       ]
     },
     {
-      "uri": "http://fixme.com#Evidence",
-      "name": "Evidence",
-      "label": {},
-      "sort": "Evidence",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "name": "Dataset",
-          "label": "Dataset",
-          "package": "dcat",
-          "uri": "http://fixme.com#Dataset",
-          "scoped_uri": "#Dataset"
-        }
-      ],
-      "properties": [
-        {
-          "uri": "http://fixme.com#cccev:confidentialityLevelType",
-          "name": "confidentiality level type",
-          "sort": "confidentiality level type",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:isConformantTo",
-          "name": "is Conformant",
-          "sort": "is Conformant",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "EvidenceType",
-              "range_uri": "http://fixme.com#EvidenceType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#EvidenceType",
-              "range_label": {
-                "en": "Evidence type"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:supports",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
-              "range_label": {
-                "en": "RequirementConcept"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#EvidenceType",
-      "name": "Evidence type",
-      "label": {},
-      "sort": "Evidence type",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "name": "Dataset",
-          "label": "Dataset",
-          "package": "dcat",
-          "uri": "http://fixme.com#Dataset",
-          "scoped_uri": "#Dataset"
-        }
-      ],
-      "properties": [
-        {
-          "uri": "http://fixme.com#cccev:datasetType",
-          "name": "dataset type",
-          "sort": "dataset type",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceType",
-              "EA-Name": "EvidenceType"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:evidenceTypeClassification",
-          "name": "evidence type classification",
-          "sort": "evidence type classification",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceType",
-              "EA-Name": "EvidenceType"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:isSpecifiedIn",
-          "name": "is specified in",
-          "sort": "is specified in",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceType",
-              "EA-Name": "EvidenceType"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "EvidenceTypeList",
-              "range_uri": "http://fixme.com#EvidenceTypeList"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#EvidenceTypeList",
-              "range_label": {
-                "en": "Evidence Type List"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#EvidenceTypeList",
-      "name": "Evidence Type List",
-      "label": {},
-      "sort": "Evidence Type List",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "properties": [
-        {
-          "uri": "http://fixme.com#cbc:description",
-          "name": "description",
-          "sort": "description",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cbc:id",
-          "name": "identifier",
-          "sort": "identifier",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cbc:name",
-          "name": "name",
-          "sort": "name",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:specifiesEvidenceType",
-          "name": "specifies evidence type",
-          "sort": "specifies evidence type",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "EvidenceType",
-              "range_uri": "http://fixme.com#EvidenceType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#EvidenceType",
-              "range_label": {
-                "en": "Evidence type"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#InformationRequirement",
-      "name": "Information Requirement",
-      "label": {},
-      "sort": "Information Requirement",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "name": "Requirement",
-          "label": "Requirement",
-          "package": "CCCEV_v2",
-          "uri": "http://fixme.com#Requirement",
-          "scoped_uri": "#Requirement"
-        }
-      ],
-      "properties": []
-    },
-    {
       "uri": "http://fixme.com#ReferenceFramework",
       "name": "Reference Framework",
       "label": {},
@@ -810,279 +1139,20 @@
       "properties": []
     },
     {
-      "uri": "http://fixme.com#Requirement",
-      "name": "Requirement",
-      "label": {},
-      "sort": "Requirement",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "properties": [
-        {
-          "uri": "http://fixme.com#cbc:description",
-          "name": "description",
-          "sort": "description",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cbc:id",
-          "name": "identifier",
-          "sort": "identifier",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cbc:name",
-          "name": "name",
-          "sort": "name",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cbc:type",
-          "name": "type",
-          "sort": "type",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:hasConcept",
-          "name": "has concept",
-          "sort": "has concept",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
-              "range_label": {
-                "en": "RequirementConcept"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:hasEvidenceTypeCombinationList",
-          "name": "has evidence type combination",
-          "sort": "has evidence type combination",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "EvidenceTypeList",
-              "range_uri": "http://fixme.com#EvidenceTypeList"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#EvidenceTypeList",
-              "range_label": {
-                "en": "Evidence Type List"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:hasRequirement",
-          "name": "has requirement",
-          "sort": "has requirement",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:hasSupportingEvidence",
-          "name": "has supporting evidence",
-          "sort": "has supporting evidence",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Evidence",
-              "range_uri": "http://fixme.com#Evidence"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Evidence",
-              "range_label": {
-                "en": "Evidence"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:isDerivedFrom",
-          "name": "is derived from",
-          "sort": "is derived from",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ReferenceFramework",
-              "range_uri": "http://fixme.com#ReferenceFramework"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#ReferenceFramework",
-              "range_label": {
-                "en": "Reference Framework"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://fixme.com#cccev:isRequirementOf",
-          "name": "is requirement of",
-          "sort": "is requirement of",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://fixme.com#Requirement",
-              "EA-Name": "Requirement"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://fixme.com#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
       "uri": "http://fixme.com#Standard",
       "name": "Standard",
       "label": {},
       "sort": "Standard",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://xmlns.com/foaf/0.1/Agent",
+      "name": "Agent",
+      "label": {},
+      "sort": "Agent",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1122,7 +1192,18 @@
       "email": "medewerkervoornaam.medewerkernaam@medewerkerdomein"
     }
   ],
-  "datatypes": [],
+  "datatypes": [
+    {
+      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": []
+    }
+  ],
   "parents": [],
   "documentroot": "/doc/applicationprofile/cccev-ap"
 }

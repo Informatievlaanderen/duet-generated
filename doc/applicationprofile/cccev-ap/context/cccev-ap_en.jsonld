@@ -1,24 +1,25 @@
 {
   "@context": {
-    "Agent": "http://fixme.com#Agent",
-    "Constraint": "http://fixme.com#Constraint",
-    "Criterion": "http://fixme.com#Criterion",
+    "Agent": "http://xmlns.com/foaf/0.1/Agent",
+    "Code": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Constraint": "http://data.europa.eu/m8g/cccev#Constraint",
+    "Criterion": "http://data.europa.eu/m8g/cccev#Criterion",
     "Criterion.bias": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:bias",
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
       "@type": ""
     },
     "Criterion.weight": {
-      "@id": "http://fixme.com#cccev:weight",
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": ""
     },
     "Criterion.weightingConsiderationDescription": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:weightingConsiderationDescription",
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
       "@type": ""
     },
     "Criterion.weightingType": {
-      "@id": "http://fixme.com#cccev:weightingType",
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
       "@type": ""
     },
     "Custom-data-type": "http://fixme.com#custom-data-type",
@@ -66,7 +67,7 @@
       "@id": "http://fixme.com#dct:issued",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
-    "Evidence": "http://fixme.com#Evidence",
+    "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
     "Evidence-types": "http://fixme.com#evidence-types",
     "Evidence.cccev:supports": {
       "@container": "@set",
@@ -74,15 +75,20 @@
       "@type": "@id"
     },
     "Evidence.confidentialityLevelType": {
-      "@id": "http://fixme.com#cccev:confidentialityLevelType",
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "@type": ""
+    },
+    "Evidence.isAbout": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#isAbout",
+      "@type": "@id"
     },
     "Evidence.isConformant": {
       "@container": "@set",
       "@id": "http://fixme.com#cccev:isConformantTo",
       "@type": "@id"
     },
-    "EvidenceType": "http://fixme.com#EvidenceType",
+    "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
     "EvidenceType.datasetType": {
       "@id": "http://fixme.com#cccev:datasetType",
       "@type": ""
@@ -96,14 +102,14 @@
       "@id": "http://fixme.com#cccev:isSpecifiedIn",
       "@type": "@id"
     },
-    "EvidenceTypeList": "http://fixme.com#EvidenceTypeList",
+    "EvidenceTypeList": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
     "EvidenceTypeList.description": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:description",
+      "@id": "http://purl.org/dc/terms/description",
       "@type": ""
     },
     "EvidenceTypeList.identifier": {
-      "@id": "http://fixme.com#cbc:id",
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": ""
     },
     "EvidenceTypeList.name": {
@@ -116,13 +122,13 @@
       "@id": "http://fixme.com#cccev:specifiesEvidenceType",
       "@type": "@id"
     },
-    "InformationRequirement": "http://fixme.com#InformationRequirement",
+    "InformationRequirement": "http://data.europa.eu/m8g/cccev#InformationRequirement",
     "ReferenceFramework": "http://fixme.com#ReferenceFramework",
-    "Requirement": "http://fixme.com#Requirement",
+    "Requirement": "http://data.europa.eu/m8g/cccev#Requirement",
     "Requirement.description": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:description",
-      "@type": ""
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Requirement.hasConcept": {
       "@container": "@set",
@@ -146,7 +152,7 @@
     },
     "Requirement.identifier": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:id",
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": ""
     },
     "Requirement.isDerivedFrom": {
@@ -161,12 +167,12 @@
     },
     "Requirement.name": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:name",
-      "@type": ""
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Requirement.type": {
-      "@id": "http://fixme.com#cbc:type",
-      "@type": ""
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "@id"
     },
     "RequirementConcept": "http://fixme.com#Concept",
     "RequirementConcept.description": {

@@ -1,6 +1,7 @@
 {
   "@context": {
-    "Agent": "http://fixme.com#Agent",
+    "Agent": "http://xmlns.com/foaf/0.1/Agent",
+    "Code": "http://www.w3.org/2004/02/skos/core#Concept",
     "Concept": "http://fixme.com#Concept",
     "Concept.cbc:description": {
       "@container": "@set",
@@ -26,24 +27,24 @@
       "@id": "http://fixme.com#cccev:hasConstraint",
       "@type": "@id"
     },
-    "Constraint": "http://fixme.com#Constraint",
-    "Criterion": "http://fixme.com#Criterion",
+    "Constraint": "http://data.europa.eu/m8g/cccev#Constraint",
+    "Criterion": "http://data.europa.eu/m8g/cccev#Criterion",
     "Criterion.cccev:bias": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:bias",
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
       "@type": ""
     },
     "Criterion.cccev:weight": {
-      "@id": "http://fixme.com#cccev:weight",
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": ""
     },
     "Criterion.cccev:weightingConsiderationDescription": {
       "@container": "@set",
-      "@id": "http://fixme.com#cccev:weightingConsiderationDescription",
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
       "@type": ""
     },
     "Criterion.cccev:weightingType": {
-      "@id": "http://fixme.com#cccev:weightingType",
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
       "@type": ""
     },
     "Custom-data-type": "http://fixme.com#custom-data-type",
@@ -91,11 +92,16 @@
       "@id": "http://fixme.com#dct:issued",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
-    "Evidence": "http://fixme.com#Evidence",
+    "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
     "Evidence-types": "http://fixme.com#evidence-types",
     "Evidence.cccev:confidentialityLevelType": {
-      "@id": "http://fixme.com#cccev:confidentialityLevelType",
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "@type": ""
+    },
+    "Evidence.cccev:isAbout": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#isAbout",
+      "@type": "@id"
     },
     "Evidence.cccev:isConformantTo": {
       "@container": "@set",
@@ -107,7 +113,7 @@
       "@id": "http://fixme.com#cccev:supports",
       "@type": "@id"
     },
-    "EvidenceType": "http://fixme.com#EvidenceType",
+    "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
     "EvidenceType.cccev:datasetType": {
       "@id": "http://fixme.com#cccev:datasetType",
       "@type": ""
@@ -121,14 +127,14 @@
       "@id": "http://fixme.com#cccev:isSpecifiedIn",
       "@type": "@id"
     },
-    "EvidenceTypeList": "http://fixme.com#EvidenceTypeList",
+    "EvidenceTypeList": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
     "EvidenceTypeList.cbc:description": {
       "@container": "@set",
-      "@id": "http://fixme.com#cbc:description",
+      "@id": "http://purl.org/dc/terms/description",
       "@type": ""
     },
     "EvidenceTypeList.cbc:id": {
-      "@id": "http://fixme.com#cbc:id",
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": ""
     },
     "EvidenceTypeList.cbc:name": {
@@ -141,28 +147,9 @@
       "@id": "http://fixme.com#cccev:specifiesEvidenceType",
       "@type": "@id"
     },
-    "InformationRequirement": "http://fixme.com#InformationRequirement",
+    "InformationRequirement": "http://data.europa.eu/m8g/cccev#InformationRequirement",
     "ReferenceFramework": "http://fixme.com#ReferenceFramework",
-    "Requirement": "http://fixme.com#Requirement",
-    "Requirement.cbc:description": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:description",
-      "@type": ""
-    },
-    "Requirement.cbc:id": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:id",
-      "@type": ""
-    },
-    "Requirement.cbc:name": {
-      "@container": "@set",
-      "@id": "http://fixme.com#cbc:name",
-      "@type": ""
-    },
-    "Requirement.cbc:type": {
-      "@id": "http://fixme.com#cbc:type",
-      "@type": ""
-    },
+    "Requirement": "http://data.europa.eu/m8g/cccev#Requirement",
     "Requirement.cccev:hasConcept": {
       "@container": "@set",
       "@id": "http://fixme.com#cccev:hasConcept",
@@ -191,6 +178,25 @@
     "Requirement.cccev:isRequirementOf": {
       "@container": "@set",
       "@id": "http://fixme.com#cccev:isRequirementOf",
+      "@type": "@id"
+    },
+    "Requirement.description": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Requirement.identifier": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/identifier",
+      "@type": ""
+    },
+    "Requirement.name": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Requirement.type": {
+      "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
     "Standard": "http://fixme.com#Standard"

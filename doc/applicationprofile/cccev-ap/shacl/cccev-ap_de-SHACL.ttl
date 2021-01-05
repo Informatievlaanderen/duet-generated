@@ -1,35 +1,46 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
+<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape> .
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <http://fixme.com#Agent> .
+  shacl:targetClass foaf:Agent .
+
+<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass skos:Concept .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://fixme.com#Constraint>;
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:hasConstraint>
+    shacl:path <http://fixme.com#cbc:id>
+  ], [
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://fixme.com#cbc:name>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -38,129 +49,131 @@
   ], [
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:id>
-  ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:name>
-  ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
     shacl:path <http://fixme.com#cbc:description>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Constraint>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://fixme.com#cccev:hasConstraint>
   ];
   shacl:targetClass <http://fixme.com#Concept> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <http://fixme.com#Constraint> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#Constraint> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:bias>
+    shacl:path <http://data.europa.eu/m8g/cccev#bias>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:weightingType>
+    shacl:path <http://data.europa.eu/m8g/cccev#weight>
+  ], [
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#weightingConsiderationDescription>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:weight>
-  ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:weightingConsiderationDescription>
+    shacl:path <http://data.europa.eu/m8g/cccev#weightingType>
   ];
-  shacl:targetClass <http://fixme.com#Criterion> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#Criterion> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#dct:issued>
-  ], [
-    shacl:class <http://fixme.com#Distribution>;
-    shacl:path <http://fixme.com#dcat:distribution>
-  ], [
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#dct:title>
-  ], [
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#dct:identifier>
-  ], [
     shacl:minCount 1;
     shacl:name ""@de;
     shacl:path <http://fixme.com#dct:description>
   ], [
     shacl:maxCount 1;
     shacl:name ""@de;
+    shacl:path <http://fixme.com#dct:issued>
+  ], [
+    shacl:maxCount 1;
+    shacl:name ""@de;
     shacl:path <http://fixme.com#dct:type>
+  ], [
+    shacl:minCount 1;
+    shacl:name ""@de;
+    shacl:path <http://fixme.com#dct:title>
   ], [
     shacl:name ""@de;
     shacl:path <http://fixme.com#dct:modified>
+  ], [
+    shacl:class <http://fixme.com#Distribution>;
+    shacl:path <http://fixme.com#dcat:distribution>
+  ], [
+    shacl:name ""@de;
+    shacl:path <http://fixme.com#dct:identifier>
   ];
   shacl:targetClass <http://fixme.com#Dataset> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:maxCount 1;
-    shacl:path <http://fixme.com#dcat:downloadURL>
-  ], [
     shacl:datatype xsd:date;
     shacl:maxCount 1;
     shacl:path <http://fixme.com#dct:issued>
+  ], [
+    shacl:maxCount 1;
+    shacl:path <http://fixme.com#dcat:downloadURL>
   ];
   shacl:targetClass <http://fixme.com#Distribution> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
+    shacl:path <http://fixme.com#cccev:supports>
+  ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:confidentialityLevelType>
+    shacl:path <http://data.europa.eu/m8g/cccev#confidentionalityLevelType>
   ], [
     shacl:class <http://fixme.com#Concept>;
     shacl:path <http://fixme.com#cccev:supports>
   ], [
-    shacl:class <http://fixme.com#Requirement>;
-    shacl:path <http://fixme.com#cccev:supports>
+    shacl:class foaf:Agent;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#isAbout>
   ], [
-    shacl:class <http://fixme.com#EvidenceType>;
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path <http://fixme.com#cccev:isConformantTo>
   ];
-  shacl:targetClass <http://fixme.com#Evidence> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#Evidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:description>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:id>
+    shacl:path dc:description
   ], [
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path <http://fixme.com#cbc:name>
   ], [
-    shacl:class <http://fixme.com#EvidenceType>;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path dc:identifier
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
     shacl:name ""@de;
     shacl:path <http://fixme.com#cccev:specifiesEvidenceType>
   ];
-  shacl:targetClass <http://fixme.com#EvidenceTypeList> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceTypeList> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape> a shacl:NodeShape;
   shacl:closed false;
@@ -175,16 +188,16 @@
     shacl:name ""@de;
     shacl:path <http://fixme.com#cccev:evidenceTypeClassification>
   ], [
-    shacl:class <http://fixme.com#EvidenceTypeList>;
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
     shacl:minCount 1;
     shacl:name ""@de;
     shacl:path <http://fixme.com#cccev:isSpecifiedIn>
   ];
-  shacl:targetClass <http://fixme.com#EvidenceType> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceType> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <http://fixme.com#InformationRequirement> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#InformationRequirement> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape> a shacl:NodeShape;
   shacl:closed false;
@@ -193,30 +206,9 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:name>
-  ], [
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:type>
-  ], [
-    shacl:class <http://fixme.com#Evidence>;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:hasSupportingEvidence>
-  ], [
-    shacl:class <http://fixme.com#Requirement>;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:hasRequirement>
-  ], [
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:id>
-  ], [
-    shacl:class <http://fixme.com#Requirement>;
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:isRequirementOf>
-  ], [
-    shacl:name ""@de;
-    shacl:path <http://fixme.com#cbc:description>
+    shacl:path <http://fixme.com#cccev:hasEvidenceTypeCombinationList>
   ], [
     shacl:class <http://fixme.com#ReferenceFramework>;
     shacl:name ""@de;
@@ -226,11 +218,39 @@
     shacl:name ""@de;
     shacl:path <http://fixme.com#cccev:hasConcept>
   ], [
-    shacl:class <http://fixme.com#EvidenceTypeList>;
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:name ""@de;
-    shacl:path <http://fixme.com#cccev:hasEvidenceTypeCombinationList>
+    shacl:path <http://fixme.com#cccev:hasRequirement>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path dc:description
+  ], [
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path dc:identifier
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
+    shacl:name ""@de;
+    shacl:path <http://fixme.com#cccev:hasSupportingEvidence>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
+    shacl:name ""@de;
+    shacl:path <http://fixme.com#cccev:isRequirementOf>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path skos:prefLabel
+  ], [
+    shacl:class <http://fixme.com#Code>;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path dc:type
   ];
-  shacl:targetClass <http://fixme.com#Requirement> .
+  shacl:targetClass <http://data.europa.eu/m8g/cccev#Requirement> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape> a shacl:NodeShape;
   shacl:closed false;
