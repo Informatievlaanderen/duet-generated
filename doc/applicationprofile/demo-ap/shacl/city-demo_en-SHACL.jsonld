@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@vocab": "https://duet.dev-vlaanderen.be/shacl/city-demo_en",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:definition": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://duet.dev-vlaanderen.be/shacl/city-demo_en",
+  "shapes": [
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/city-demo_en#AddressShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://schema.org/City",
+          "sh:definition": {
+            "en": "The city in which the address is located"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "city"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "house number"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "post code"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the name of the public road in a city, town, or village along the adress is located"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "street name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/city-demo_en#CityShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the name of the city"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geographicName"
+        }
+      ],
+      "sh:targetClass": "https://schema.org/City"
+    }
+  ]
+}
