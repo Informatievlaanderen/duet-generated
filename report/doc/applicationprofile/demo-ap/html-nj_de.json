@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Demo application profile",
+    "title": "Demo-De",
     "uri": "http://fixme.com",
     "issued": "TBD",
     "filename": "city-demo",
@@ -10,8 +10,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/cae574c37e393a82a9915c4138cadff1423eb7d9",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/cae574c37e393a82a9915c4138cadff1423eb7d9/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/9336200485c1d8acd26e744fe5715be59a93cfc4",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/9336200485c1d8acd26e744fe5715be59a93cfc4/CHANGELOG",
     "feedbackurl": "",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -21,18 +21,30 @@
     {
       "uri": "http://www.w3.org/ns/locn#Address",
       "name": "Address",
-      "label": {},
-      "sort": "Address",
-      "description": {},
+      "label": {
+        "en": "Address",
+        "de": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "en": "the particulars of the place where someone lives or an organization is situated.",
+        "de": "Enter your translation here"
+      },
       "usage": {},
       "parents": [],
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#addressArea",
           "name": "city",
-          "sort": "city",
-          "label": {},
-          "description": {},
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "city",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "The city in which the address is located",
+            "de": "Enter your translation here"
+          },
           "usage": {},
           "domain": [
             {
@@ -48,10 +60,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/City",
               "range_label": {
-                "en": "City"
+                "en": "City",
+                "de": "Enter your translation here"
               }
             }
           ],
@@ -61,9 +74,15 @@
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
           "name": "house number",
-          "sort": "house number",
-          "label": {},
-          "description": {},
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "house number",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses",
+            "de": "Enter your translation here"
+          },
           "usage": {},
           "domain": [
             {
@@ -92,9 +111,15 @@
         {
           "uri": "http://www.w3.org/ns/locn#postCode",
           "name": "post code",
-          "sort": "post code",
-          "label": {},
-          "description": {},
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "post code",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail.",
+            "de": "Enter your translation here"
+          },
           "usage": {},
           "domain": [
             {
@@ -123,9 +148,15 @@
         {
           "uri": "http://www.w3.org/ns/locn#thoroughfare",
           "name": "street name",
-          "sort": "street name",
-          "label": {},
-          "description": {},
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "street name",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "the name of the public road in a city, town, or village along the adress is located",
+            "de": "Enter your translation here"
+          },
           "usage": {},
           "domain": [
             {
@@ -156,18 +187,30 @@
     {
       "uri": "https://schema.org/City",
       "name": "City",
-      "label": {},
-      "sort": "City",
-      "description": {},
+      "label": {
+        "en": "City",
+        "de": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "en": "a human settlement",
+        "de": "Enter your translation here"
+      },
       "usage": {},
       "parents": [],
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#geographicName",
           "name": "name",
-          "sort": "name",
-          "label": {},
-          "description": {},
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "name",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "the name of the city",
+            "de": "Enter your translation here"
+          },
           "usage": {},
           "domain": [
             {

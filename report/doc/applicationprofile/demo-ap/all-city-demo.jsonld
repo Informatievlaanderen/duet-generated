@@ -702,19 +702,22 @@
     {
       "language": "en",
       "template": "demo_en.j2",
-      "title": "Demo",
+      "title": "Demo-En",
+      "translationjson": "demo_en.json",
       "mergefile": "demo_en_merged.jsonld"
     },
     {
       "language": "de",
       "template": "demo_de.j2",
-      "title": "Demo",
+      "title": "Demo-De",
+      "translationjson": "demo_de.json",
       "mergefile": "demo_de_merged.jsonld"
     },
     {
       "language": "nl",
       "template": "demo_nl.j2",
-      "title": "Demo",
+      "title": "Demo-Nl",
+      "translationjson": "demo_nl.json",
       "mergefile": "demo_nl_merged.jsonld"
     }
   ],
@@ -724,7 +727,7 @@
   "branchtag": "main",
   "filename": "config/city.json",
   "navigation": {},
-  "documentcommit": "cae574c37e393a82a9915c4138cadff1423eb7d9",
-  "toolchaincommit": "172e1cdcbc3231bbeedc97e92dac43927b749f22",
+  "documentcommit": "9336200485c1d8acd26e744fe5715be59a93cfc4",
+  "toolchaincommit": "91911abac7e0edeeb7d41cbcf9858d791728f989",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

@@ -10,31 +10,31 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <http://www.w3.org/ns/locn#poBox>
   ], [
-    shacl:class schemas:City;
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <http://www.w3.org/ns/locn#addressArea>
-  ], [
     shacl:datatype xsd:string;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://www.w3.org/ns/locn#postCode>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
     shacl:path <http://www.w3.org/ns/locn#thoroughfare>
   ], [
-    shacl:datatype xsd:string;
-    shacl:definition ""@de;
+    shacl:class schemas:City;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <http://www.w3.org/ns/locn#postCode>
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://www.w3.org/ns/locn#addressArea>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
 
@@ -42,10 +42,10 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <http://www.w3.org/ns/locn#geographicName>
   ];
   shacl:targetClass schemas:City .
