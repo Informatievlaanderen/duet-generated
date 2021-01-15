@@ -266,37 +266,6 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/cccev#supports",
-          "name": "supports concept",
-          "sort": "supports concept",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://fixme.com#Concept",
-              "range_label": {
-                "en": "RequirementConcept"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#supports",
           "name": "supports requirement",
           "sort": "supports requirement",
           "label": {},
@@ -320,6 +289,37 @@
               "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
               "range_label": {
                 "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#supports",
+          "name": "supports concept",
+          "sort": "supports concept",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://fixme.com#Concept",
+              "range_label": {
+                "en": "RequirementConcept"
               }
             }
           ],
