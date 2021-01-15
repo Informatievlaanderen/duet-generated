@@ -11,8 +11,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/24e38572278adebf3677d69a4bb8807a28ba480f",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/24e38572278adebf3677d69a4bb8807a28ba480f/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/cae574c37e393a82a9915c4138cadff1423eb7d9",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/cae574c37e393a82a9915c4138cadff1423eb7d9/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -266,37 +266,6 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/cccev#supports",
-          "name": "supports requirement",
-          "sort": "supports requirement",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#undefined",
-              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#supports",
           "name": "supports concept",
           "sort": "supports concept",
           "label": {},
@@ -320,6 +289,37 @@
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
                 "en": "RequirementConcept"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#supports",
+          "name": "supports requirement",
+          "sort": "supports requirement",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "EA-Name": "Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "range_label": {
+                "en": "Requirement"
               }
             }
           ],

@@ -2783,110 +2783,6 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#supports",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "supports requirement",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "the supported requirement by the evidence"
-      },
-      "ap-label-en": {
-        "en": "supports requirement"
-      },
-      "definition": {
-        "en": "the supported requirement by the evidence"
-      },
-      "label": {
-        "en": "supports requirement"
-      },
-      "extra": {
-        "EA-Name": "cccev:supports",
-        "EA-Guid": "{0F444C86-03A8-411d-8A8B-0332A55254FB}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "Requirement",
-        "RangeData": {
-          "EA-Name": "Requirement",
-          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://data.europa.eu/m8g/cccev#Requirement"
-        },
-        "sourceRole": "cccev:hasSupportingEvidence",
-        "destRole": "cccev:supports",
-        "label": {
-          "en": "supports requirement"
-        },
-        "definition": {
-          "en": "the supported requirement by the evidence"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "supports requirement"
-        },
-        "ap-definition-en": {
-          "en": "the supported requirement by the evidence"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://data.europa.eu/m8g/cccev#supports"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "the supported requirement by the evidence"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "supports requirement"
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://data.europa.eu/m8g/cccev#supports"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "the supported requirement by the evidence"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "supports requirement"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Requirement",
-          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://data.europa.eu/m8g/cccev#Requirement"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/cccev#supports",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "supports concept",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
@@ -2997,6 +2893,110 @@
           "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
           "EA-Package": "CCCEV_v2",
           "uri": "http://fixme.com#Concept"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#supports",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "supports requirement",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "the supported requirement by the evidence"
+      },
+      "ap-label-en": {
+        "en": "supports requirement"
+      },
+      "definition": {
+        "en": "the supported requirement by the evidence"
+      },
+      "label": {
+        "en": "supports requirement"
+      },
+      "extra": {
+        "EA-Name": "cccev:supports",
+        "EA-Guid": "{0F444C86-03A8-411d-8A8B-0332A55254FB}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Requirement",
+        "RangeData": {
+          "EA-Name": "Requirement",
+          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Requirement"
+        },
+        "sourceRole": "cccev:hasSupportingEvidence",
+        "destRole": "cccev:supports",
+        "label": {
+          "en": "supports requirement"
+        },
+        "definition": {
+          "en": "the supported requirement by the evidence"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "supports requirement"
+        },
+        "ap-definition-en": {
+          "en": "the supported requirement by the evidence"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://data.europa.eu/m8g/cccev#supports"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "the supported requirement by the evidence"
+          },
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "supports requirement"
+          }
+        ],
+        "DestRoleTags": [
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://data.europa.eu/m8g/cccev#supports"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "the supported requirement by the evidence"
+          },
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "supports requirement"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Evidence",
+          "EA-Name": "Evidence"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Requirement",
+          "EA-GUID": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Requirement"
         }
       ],
       "generalization": [],
@@ -4102,7 +4102,7 @@
   "branchtag": "main",
   "filename": "config/cccev-ap.json",
   "navigation": {},
-  "documentcommit": "24e38572278adebf3677d69a4bb8807a28ba480f",
-  "toolchaincommit": "cd9b0b034813e529b5e1a32a2715ed9e87d47eee",
+  "documentcommit": "cae574c37e393a82a9915c4138cadff1423eb7d9",
+  "toolchaincommit": "ce29603d0640abc92aed9714b315b107263b705a",
   "hostname": "https://duet.dev-vlaanderen.be"
 }
