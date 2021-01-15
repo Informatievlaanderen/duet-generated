@@ -2,16 +2,16 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-10:51:10 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - load another package demo with id 2 and objectid 2
-10:51:10 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - This package will be ignored
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "demo".
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "demo.demo".
-10:51:10 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, demo, demo.demo
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "demo.demo".
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "demo.demo".
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "demo.demo".
-10:51:10 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "demo.demo".
-10:51:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Address" .
-10:51:11 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "City" .
-10:51:11 INFO  c.g.i.o.c.UriAssigner - Assuming connector "demo.demo:Address:city" belongs to package "demo" based on source and target definition.
+14:34:15 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - load another package demo with id 2 and objectid 2
+14:34:15 ERROR c.g.i.o.e.i.MemoryRepositoryBuilder - This package will be ignored
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "demo".
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "demo.demo".
+14:34:15 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): demo, demo.demo, Model
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "demo.demo".
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "demo.demo".
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "demo.demo".
+14:34:15 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "demo.demo".
+14:34:15 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Address" .
+14:34:15 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "City" .
+14:34:15 INFO  c.g.i.o.c.UriAssigner - Assuming connector "demo.demo:Address:city" belongs to package "demo" based on source and target definition.

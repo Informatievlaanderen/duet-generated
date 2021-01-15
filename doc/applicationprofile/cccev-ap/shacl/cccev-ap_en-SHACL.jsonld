@@ -134,15 +134,15 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "en": "the supported requirement by the evidence"
+            "en": "the supported concept by the evidence"
           },
           "sh:name": {
-            "en": "supports requirement"
+            "en": "supports concept"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#supports"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
             "en": "the supported concept by the evidence"
           },
@@ -207,7 +207,27 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."
+          },
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."
+          },
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."
           },
           "sh:name": {
             "en": "description"
@@ -216,7 +236,27 @@
         },
         {
           "sh:definition": {
-            "en": "An unambiguous reference to an Evidence Type List"
+            "en": "An unambiguous reference"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:definition": {
+            "en": "An unambiguous reference"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:definition": {
+            "en": "An unambiguous reference"
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -227,7 +267,27 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "en": "A name to identify in common language the Evidence Type List"
+            "en": "A name to identify in common language the Requirement"
+          },
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A name to identify in common language the Requirement"
+          },
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A name to identify in common language the Requirement"
           },
           "sh:name": {
             "en": "name"
@@ -309,46 +369,6 @@
             "en": "is requirement of"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isRequirementOf"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/terms/description"
-        },
-        {
-          "sh:definition": {
-            "en": "An unambiguous reference"
-          },
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://purl.org/dc/terms/identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "en": "A name to identify in common language the Requirement"
-          },
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
-        },
-        {
-          "sh:class": "http://fixme.com#Code",
-          "sh:definition": {
-            "en": "the category or type to which the requirement belongs"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "type"
-          },
-          "sh:path": "http://purl.org/dc/terms/type"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Requirement"
@@ -369,38 +389,20 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#hasConstraint"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+            "en": "the category or type to which the requirement belongs"
           },
+          "sh:maxCount": "1",
           "sh:name": {
-            "en": "description"
+            "en": "type"
           },
-          "sh:path": "http://purl.org/dc/terms/description"
-        },
-        {
-          "sh:definition": {
-            "en": "An unambiguous reference to RequirementConcept"
-          },
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://purl.org/dc/terms/identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "en": "A name to identify in common language the RequirementConcept"
-          },
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+          "sh:path": "http://purl.org/dc/terms/type"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "en": "a classification of the RequirementConcept"
+            "en": "the category or type to which the requirement belongs"
           },
           "sh:maxCount": "1",
           "sh:name": {

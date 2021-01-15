@@ -55,11 +55,6 @@
       "@id": "http://data.europa.eu/m8g/cccev#supports",
       "@type": "@id"
     },
-    "Evidence.supportsRequirement": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#supports",
-      "@type": "@id"
-    },
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
     "EvidenceType.datasetType": {
       "@id": "http://data.europa.eu/m8g/cccev#datasetType",
@@ -97,11 +92,6 @@
     "InformationRequirement": "http://data.europa.eu/m8g/cccev#InformationRequirement",
     "ReferenceFramework": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
     "Requirement": "http://data.europa.eu/m8g/cccev#Requirement",
-    "Requirement.description": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
     "Requirement.hasConcept": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#hasConcept",
@@ -122,11 +112,6 @@
       "@id": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
       "@type": "@id"
     },
-    "Requirement.identifier": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
-    },
     "Requirement.isDerivedFrom": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#isDerivedFrom",
@@ -137,35 +122,11 @@
       "@id": "http://data.europa.eu/m8g/cccev#isRequirementOf",
       "@type": "@id"
     },
-    "Requirement.name": {
-      "@container": "@set",
-      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "Requirement.type": {
-      "@id": "http://purl.org/dc/terms/type",
-      "@type": "@id"
-    },
     "RequirementConcept": "http://fixme.com#Concept",
-    "RequirementConcept.description": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
     "RequirementConcept.hasConstraint": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
       "@type": "@id"
-    },
-    "RequirementConcept.identifier": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
-    },
-    "RequirementConcept.name": {
-      "@container": "@set",
-      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "RequirementConcept.type": {
       "@id": "http://purl.org/dc/terms/type",

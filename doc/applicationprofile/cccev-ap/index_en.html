@@ -130,8 +130,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Source</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/04f471c1b84c28b31af1c58ab04bab24de0ac701">https://github.com/AnnemarieWittig/englishworkspace/tree/04f471c1b84c28b31af1c58ab04bab24de0ac701</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/04f471c1b84c28b31af1c58ab04bab24de0ac701/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/04f471c1b84c28b31af1c58ab04bab24de0ac701/CHANGELOG</a></dd>
+              <dt>Source</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/9757318c4742c27cf1b057c63bd3f492dd0bba55">https://github.com/AnnemarieWittig/englishworkspace/tree/9757318c4742c27cf1b057c63bd3f492dd0bba55</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/9757318c4742c27cf1b057c63bd3f492dd0bba55/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/9757318c4742c27cf1b057c63bd3f492dd0bba55/CHANGELOG</a></dd>
               <dt>Feedback</dt><dd><a href="https://github.com/SEMICeu/CCCEV/issues">https://github.com/SEMICeu/CCCEV/issues</a></dd>
               <dt>Registry of standards</dt><dd><a href=""></a></dd>
 
@@ -532,7 +532,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                       <a href="#Evidence%3Ais%20about">is about</a>, 
                       <a href="#Evidence%3Ais%20Conformant">is Conformant</a>, 
                       <a href="#Evidence%3Asupports%20concept">supports concept</a>, 
-                      <a href="#Evidence%3Asupports%20requirement">supports requirement</a>.</dd>
+                      <a href="#Evidence%3Asupports%20concept">supports concept</a>.</dd>
                     
                   </dl>
                 </div>
@@ -622,7 +622,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                         <td>
                           
 			    
-			    <a href="#RequirementConcept" data-placement="right">RequirementConcept</a>
+			    <a href="#Requirement" data-placement="right">Requirement</a>
 			    
                           
                         </td>
@@ -632,11 +632,11 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                         <td></td>
                       </tr>
                     
-                      <tr id="Evidence%3Asupports%20requirement" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#supports">
+                      <tr id="Evidence%3Asupports%20concept" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#supports">
                         <td>
                           <code property="rdfs:label">
                             <a href="http://data.europa.eu/m8g/cccev#supports" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#supports" data-placement="right">
-                            supports requirement</a>
+                            supports concept</a>
                           </code>
                         </td>
                         <td>
@@ -647,8 +647,8 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment">the supported requirement by the evidence</td>
-                        <td property="skos:scopeNote"></td>
+                        <td property="rdfs:comment">the supported concept by the evidence</td>
+                        <td property="skos:scopeNote">NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.</td>
                         <td></td>
                       </tr>
                     
@@ -771,7 +771,13 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
 		     
                     <dd>For this entity the following properties are defined:
                       <a href="#Evidence%20Type%20List%3Adescription">description</a>, 
+                      <a href="#Evidence%20Type%20List%3Adescription">description</a>, 
+                      <a href="#Evidence%20Type%20List%3Adescription">description</a>, 
                       <a href="#Evidence%20Type%20List%3Aidentifier">identifier</a>, 
+                      <a href="#Evidence%20Type%20List%3Aidentifier">identifier</a>, 
+                      <a href="#Evidence%20Type%20List%3Aidentifier">identifier</a>, 
+                      <a href="#Evidence%20Type%20List%3Aname">name</a>, 
+                      <a href="#Evidence%20Type%20List%3Aname">name</a>, 
                       <a href="#Evidence%20Type%20List%3Aname">name</a>, 
                       <a href="#Evidence%20Type%20List%3Aspecifies%20evidence%20type">specifies evidence type</a>.</dd>
                     
@@ -808,7 +814,47 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.</td>
+                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -824,7 +870,39 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..1</td>
-                        <td property="rdfs:comment">An unambiguous reference to an Evidence Type List</td>
+                        <td property="rdfs:comment">An unambiguous reference</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">An unambiguous reference</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">An unambiguous reference</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -844,7 +922,47 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment">A name to identify in common language the Evidence Type List</td>
+                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -925,16 +1043,12 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#Requirement%3Adescription">description</a>, 
                       <a href="#Requirement%3Ahas%20concept">has concept</a>, 
                       <a href="#Requirement%3Ahas%20evidence%20type%20combination">has evidence type combination</a>, 
                       <a href="#Requirement%3Ahas%20requirement">has requirement</a>, 
                       <a href="#Requirement%3Ahas%20supporting%20evidence">has supporting evidence</a>, 
-                      <a href="#Requirement%3Aidentifier">identifier</a>, 
                       <a href="#Requirement%3Ais%20derived%20from">is derived from</a>, 
-                      <a href="#Requirement%3Ais%20requirement%20of">is requirement of</a>, 
-                      <a href="#Requirement%3Aname">name</a>, 
-                      <a href="#Requirement%3Atype">type</a>.</dd>
+                      <a href="#Requirement%3Ais%20requirement%20of">is requirement of</a>.</dd>
                     
                   </dl>
                 </div>
@@ -953,26 +1067,6 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Requirement%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
-                            description</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Requirement%3Ahas%20concept" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasConcept">
                         <td>
@@ -1054,22 +1148,6 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                         <td></td>
                       </tr>
                     
-                      <tr id="Requirement%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
-                            identifier</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">An unambiguous reference</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Requirement%3Ais%20derived%20from" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isDerivedFrom">
                         <td>
                           <code property="rdfs:label">
@@ -1110,46 +1188,6 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                         <td></td>
                       </tr>
                     
-                      <tr id="Requirement%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
-                            name</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Requirement%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
-                            type</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Code" data-placement="right">Code</a>
-			    
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">the category or type to which the requirement belongs</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
                     </tbody>
                   </table>
                 </div>
@@ -1166,10 +1204,8 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                     <dt>Properties</dt>
 		     
                     <dd>For this entity the following properties are defined:
-                      <a href="#RequirementConcept%3Adescription">description</a>, 
                       <a href="#RequirementConcept%3Ahas%20Constraint">has Constraint</a>, 
-                      <a href="#RequirementConcept%3Aidentifier">identifier</a>, 
-                      <a href="#RequirementConcept%3Aname">name</a>, 
+                      <a href="#RequirementConcept%3Atype">type</a>, 
                       <a href="#RequirementConcept%3Atype">type</a>.</dd>
                     
                   </dl>
@@ -1189,26 +1225,6 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="RequirementConcept%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
-                            description</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="RequirementConcept%3Ahas%20Constraint" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasConstraint">
                         <td>
@@ -1230,38 +1246,22 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                         <td></td>
                       </tr>
                     
-                      <tr id="RequirementConcept%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                      <tr id="RequirementConcept%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
-                            identifier</a>
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
                           </code>
                         </td>
                         <td>
                           
-                        </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">An unambiguous reference to RequirementConcept</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="RequirementConcept%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
-                            name</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
                           
                         </td>
-                        <td>0..*</td>
-                        <td property="rdfs:comment">A name to identify in common language the RequirementConcept</td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">the category or type to which the requirement belongs</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -1281,7 +1281,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..1</td>
-                        <td property="rdfs:comment">a classification of the RequirementConcept</td>
+                        <td property="rdfs:comment">the category or type to which the requirement belongs</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>

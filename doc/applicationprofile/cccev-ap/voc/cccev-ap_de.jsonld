@@ -57,6 +57,12 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "usage": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "http://data.europa.eu/m8g/cccev#Requirement"
       ]
@@ -64,6 +70,12 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#Criterion",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "usage": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "http://data.europa.eu/m8g/cccev#Requirement"
       ]
@@ -71,6 +83,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#Evidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "http://www.w3.org/ns/dcat#Dataset"
       ]
@@ -78,6 +93,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "http://www.w3.org/ns/dcat#Dataset"
       ]
@@ -90,6 +108,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "http://data.europa.eu/m8g/cccev#Requirement"
       ]
@@ -104,6 +125,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     }
   ],
@@ -153,6 +177,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#bias",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Criterion"
@@ -164,6 +191,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Evidence"
@@ -179,6 +209,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#datasetType",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
@@ -194,6 +227,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
@@ -209,6 +245,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Criterion"
@@ -220,6 +259,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Criterion"
@@ -235,6 +277,9 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#weightingType",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#Criterion"

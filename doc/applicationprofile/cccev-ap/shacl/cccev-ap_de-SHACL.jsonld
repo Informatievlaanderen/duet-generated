@@ -53,42 +53,42 @@
       "sh:property": [
         {
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#bias"
         },
         {
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weight"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weightingType"
         }
@@ -103,51 +103,51 @@
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Agent",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isAbout"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#supports"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#supports"
         }
@@ -162,22 +162,22 @@
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#datasetType"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification"
         },
@@ -185,7 +185,7 @@
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:minCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isSpecifiedIn"
         }
@@ -200,37 +200,97 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#specifiesEvidenceType"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
           },
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
           },
           "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
           },
           "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
         }
@@ -259,96 +319,56 @@
         {
           "sh:class": "http://fixme.com#Concept",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasConcept"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasRequirement"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isDerivedFrom"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isRequirementOf"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://purl.org/dc/terms/description"
-        },
-        {
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://purl.org/dc/terms/identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
-        },
-        {
-          "sh:class": "http://fixme.com#Code",
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://purl.org/dc/terms/type"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Requirement"
@@ -361,50 +381,32 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Constraint",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasConstraint"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
+          "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
-          "sh:path": "http://purl.org/dc/terms/description"
-        },
-        {
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://purl.org/dc/terms/identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "de": ""
-          },
-          "sh:name": {
-            "de": ""
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+          "sh:path": "http://purl.org/dc/terms/type"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://purl.org/dc/terms/type"
         }
@@ -454,10 +456,10 @@
         {
           "sh:class": "http://www.w3.org/ns/dcat#Distribution",
           "sh:definition": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://www.w3.org/ns/dcat#distribution"
         }
@@ -472,7 +474,7 @@
         {
           "sh:maxCount": "1",
           "sh:name": {
-            "de": ""
+            "de": "Enter your translation here"
           },
           "sh:path": "http://www.w3.org/ns/dcat#downloadURL"
         }
