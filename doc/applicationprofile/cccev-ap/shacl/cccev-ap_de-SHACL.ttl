@@ -6,23 +6,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape>,
+<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape> .
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape> a shacl:NodeShape;
   shacl:closed false;
@@ -35,14 +35,10 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path dc:identifier
-  ], [
     shacl:datatype xsd:string;
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path skos:prefLabel
+    shacl:path dc:description
   ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition ""@de;
@@ -55,10 +51,14 @@
     shacl:name ""@de;
     shacl:path <http://data.europa.eu/m8g/cccev#hasConstraint>
   ], [
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path dc:identifier
+  ], [
     shacl:datatype xsd:string;
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path dc:description
+    shacl:path skos:prefLabel
   ];
   shacl:targetClass <http://fixme.com#Concept> .
 
@@ -69,26 +69,26 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#weight>
-  ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <http://data.europa.eu/m8g/cccev#weightingType>
   ], [
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#bias>
+  ], [
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#weight>
+  ], [
     shacl:datatype xsd:string;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <http://data.europa.eu/m8g/cccev#weightingConsiderationDescription>
-  ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#bias>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Criterion> .
 
@@ -114,16 +114,6 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class foaf:Agent;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#isAbout>
-  ], [
-    shacl:class <http://fixme.com#Concept>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#supports>
-  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
     shacl:definition ""@de;
     shacl:name ""@de;
@@ -135,6 +125,16 @@
     shacl:name ""@de;
     shacl:path <http://data.europa.eu/m8g/cccev#confidentionalityLevelType>
   ], [
+    shacl:class <http://fixme.com#Concept>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#supports>
+  ], [
+    shacl:class foaf:Agent;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#isAbout>
+  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:definition ""@de;
     shacl:name ""@de;
@@ -145,6 +145,15 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#specifiesEvidenceType>
+  ], [
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path dc:identifier
+  ], [
     shacl:datatype xsd:string;
     shacl:definition ""@de;
     shacl:name ""@de;
@@ -154,31 +163,22 @@
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path dc:description
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#specifiesEvidenceType>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path dc:identifier
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceTypeList> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
+    shacl:minCount 1;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#isSpecifiedIn>
+  ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <http://data.europa.eu/m8g/cccev#evidenceTypeClassification>
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#isSpecifiedIn>
   ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition ""@de;
@@ -199,24 +199,17 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
-    shacl:definition ""@de;
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
+    shacl:path <http://data.europa.eu/m8g/cccev#isRequirementOf>
   ], [
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path dc:identifier
   ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
-    shacl:definition ""@de;
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
     shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
-  ], [
-    shacl:class <http://fixme.com#Concept>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasConcept>
+    shacl:path <http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination>
   ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition ""@de;
@@ -227,25 +220,32 @@
     shacl:datatype xsd:string;
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path skos:prefLabel
+    shacl:path dc:description
   ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
+    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
+    shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#isRequirementOf>
+    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
+  ], [
+    shacl:class <http://fixme.com#Concept>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasConcept>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path skos:prefLabel
   ], [
     shacl:class <http://data.europa.eu/m8g/cccev#ReferenceFramework>;
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path <http://data.europa.eu/m8g/cccev#isDerivedFrom>
   ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
-    shacl:name ""@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination>
-  ], [
-    shacl:datatype xsd:string;
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path dc:description
+    shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Requirement> .
 

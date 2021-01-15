@@ -117,8 +117,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Quelle</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/9336200485c1d8acd26e744fe5715be59a93cfc4">https://github.com/AnnemarieWittig/englishworkspace/tree/9336200485c1d8acd26e744fe5715be59a93cfc4</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/9336200485c1d8acd26e744fe5715be59a93cfc4/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/9336200485c1d8acd26e744fe5715be59a93cfc4/CHANGELOG</a></dd>
+              <dt>Quelle</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/04f471c1b84c28b31af1c58ab04bab24de0ac701">https://github.com/AnnemarieWittig/englishworkspace/tree/04f471c1b84c28b31af1c58ab04bab24de0ac701</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/04f471c1b84c28b31af1c58ab04bab24de0ac701/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/04f471c1b84c28b31af1c58ab04bab24de0ac701/CHANGELOG</a></dd>
               <dt>Feedback</dt><dd><a href=""></a></dd>
               <dt>Standardregister</dt><dd><a href=""></a></dd>
 
@@ -189,8 +189,8 @@
                     <p>In diesem Dokument wird die Verwendung der folgenden Entitäten für eine korrekte Verwendung des Anwendungsprofils beschrieben: 
                       <br />
                       |
-                      <a href="#Address">Enter your translation here</a> |
-                      <a href="#City">Enter your translation here</a> |
+                      <a href="#Address">Adresse</a> |
+                      <a href="#City">Stadt</a> |
                     </p>
                   </div>
                   
@@ -209,19 +209,19 @@
             </div>
             
               <div class="region region--no-space-top">
-              <h3 class="h3" id="Address"><a href="http://www.w3.org/ns/locn#Address" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#Address" data-placement="right">Enter your translation here</a></h3>
+              <h3 class="h3" id="Address"><a href="http://www.w3.org/ns/locn#Address" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#Address" data-placement="right">Adresse</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschreibung</dt><dd>Enter your translation here</dd>
+                    <dt>Beschreibung</dt><dd>die Einzelheiten des Ortes, an dem jemand lebt oder an dem sich eine Organisation befindet.</dd>
                     
 		    
                     <dt>Eigenschaften</dt>
 		     
                     <dd>Für diese Entität wurden die folgenden Eigenschaften definiert:
-                      <a href="#Address%3Acity">Enter your translation here</a>, 
-                      <a href="#Address%3Ahouse%20number">Enter your translation here</a>, 
-                      <a href="#Address%3Apost%20code">Enter your translation here</a>, 
-                      <a href="#Address%3Astreet%20name">Enter your translation here</a>.</dd>
+                      <a href="#Address%3Ahouse%20number">hausnummer</a>, 
+                      <a href="#Address%3Apost%20code">postleitzahl</a>, 
+                      <a href="#Address%3Acity">stadt</a>, 
+                      <a href="#Address%3Astreet%20name">strassenname</a>.</dd>
                     
                   </dl>
                 </div>
@@ -241,31 +241,11 @@
 
                     <tbody class="supertype">
                     
-                      <tr id="Address%3Acity" typeof="rdfs:Property" resource="http://www.w3.org/ns/locn#addressArea">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://www.w3.org/ns/locn#addressArea" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#addressArea" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Enter your translation here" data-placement="right">Enter your translation here</a>
-			    
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Enter your translation here</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Address%3Ahouse%20number" typeof="rdfs:Property" resource="http://www.w3.org/ns/locn#poBox">
                         <td>
                           <code property="rdfs:label">
                             <a href="http://www.w3.org/ns/locn#poBox" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#poBox" data-placement="right">
-                            Enter your translation here</a>
+                            hausnummer</a>
                           </code>
                         </td>
                         <td>
@@ -276,7 +256,7 @@
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment">Enter your translation here</td>
+                        <td property="rdfs:comment">Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -285,7 +265,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="http://www.w3.org/ns/locn#postCode" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#postCode" data-placement="right">
-                            Enter your translation here</a>
+                            postleitzahl</a>
                           </code>
                         </td>
                         <td>
@@ -296,7 +276,27 @@
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment">Enter your translation here</td>
+                        <td property="rdfs:comment">Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Address%3Acity" typeof="rdfs:Property" resource="http://www.w3.org/ns/locn#addressArea">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/locn#addressArea" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#addressArea" data-placement="right">
+                            stadt</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Stadt" data-placement="right">Stadt</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Die Stadt in der sich die Adressen befinden.</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -305,7 +305,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="http://www.w3.org/ns/locn#thoroughfare" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#thoroughfare" data-placement="right">
-                            Enter your translation here</a>
+                            strassenname</a>
                           </code>
                         </td>
                         <td>
@@ -316,7 +316,7 @@
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment">Enter your translation here</td>
+                        <td property="rdfs:comment">Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -328,16 +328,16 @@
             </div>
             
               <div class="region region--no-space-top">
-              <h3 class="h3" id="City"><a href="https://schema.org/City" data-toggle="tooltip" data-content="https://schema.org/City" data-placement="right">Enter your translation here</a></h3>
+              <h3 class="h3" id="City"><a href="https://schema.org/City" data-toggle="tooltip" data-content="https://schema.org/City" data-placement="right">Stadt</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschreibung</dt><dd>Enter your translation here</dd>
+                    <dt>Beschreibung</dt><dd>eine menschliche Siedlung</dd>
                     
 		    
                     <dt>Eigenschaften</dt>
 		     
                     <dd>Für diese Entität wurden die folgenden Eigenschaften definiert:
-                      <a href="#City%3Aname">Enter your translation here</a>.</dd>
+                      <a href="#City%3Aname">name</a>.</dd>
                     
                   </dl>
                 </div>
@@ -361,7 +361,7 @@
                         <td>
                           <code property="rdfs:label">
                             <a href="http://www.w3.org/ns/locn#geographicName" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#geographicName" data-placement="right">
-                            Enter your translation here</a>
+                            name</a>
                           </code>
                         </td>
                         <td>
@@ -372,7 +372,7 @@
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment">Enter your translation here</td>
+                        <td property="rdfs:comment">der Name der Stadt</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
