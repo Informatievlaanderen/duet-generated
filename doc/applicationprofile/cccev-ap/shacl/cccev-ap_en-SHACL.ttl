@@ -6,23 +6,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CodeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#custom-data-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DistributionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CriterionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#InformationRequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#dataset-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeListShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape>,
+<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#InformationRequirementShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#evidence-typesShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#dataset-typeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#StandardShape> .
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CriterionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#custom-data-typeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DistributionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#StandardShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeListShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CodeShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape> a shacl:NodeShape;
   shacl:closed false;
@@ -36,29 +36,29 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
-    shacl:definition "A name to identify in common language the RequirementConcept"@en;
-    shacl:name "name"@en;
-    shacl:path skos:prefLabel
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Constraint>;
-    shacl:definition "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."@en;
-    shacl:name "has Constraint"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasConstraint>
+    shacl:definition "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."@en;
+    shacl:name "description"@en;
+    shacl:path dc:description
   ], [
     shacl:definition "An unambiguous reference to RequirementConcept"@en;
     shacl:name "identifier"@en;
     shacl:path dc:identifier
   ], [
     shacl:datatype xsd:string;
-    shacl:definition "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."@en;
-    shacl:name "description"@en;
-    shacl:path dc:description
+    shacl:definition "A name to identify in common language the RequirementConcept"@en;
+    shacl:name "name"@en;
+    shacl:path skos:prefLabel
   ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "a classification of the RequirementConcept"@en;
     shacl:maxCount 1;
     shacl:name "type"@en;
     shacl:path dc:type
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Constraint>;
+    shacl:definition "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."@en;
+    shacl:name "has Constraint"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasConstraint>
   ];
   shacl:targetClass <http://fixme.com#Concept> .
 
@@ -69,26 +69,26 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CriterionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:string;
-    shacl:definition "The explanation of how the weighting of a Criterion is to be used at evaluation time."@en;
-    shacl:maxCount 1;
-    shacl:name "weighting consideration description"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#weightingConsiderationDescription>
-  ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "The numeric form used to weight."@en;
     shacl:maxCount 1;
     shacl:name "weighting type"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#weightingType>
   ], [
-    shacl:definition "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."@en;
-    shacl:name "bias"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#bias>
+    shacl:datatype xsd:string;
+    shacl:definition "The explanation of how the weighting of a Criterion is to be used at evaluation time."@en;
+    shacl:maxCount 1;
+    shacl:name "weighting consideration description"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#weightingConsiderationDescription>
   ], [
     shacl:definition "Relative importance assigned to a given criterion."@en;
     shacl:maxCount 1;
     shacl:name "weight"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#weight>
+  ], [
+    shacl:definition "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."@en;
+    shacl:name "bias"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#bias>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Criterion> .
 
@@ -119,11 +119,6 @@
     shacl:name "supports concept"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#supports>
   ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
-    shacl:definition "The kind of evidence"@en;
-    shacl:name "is Conformant"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#isComformantWith>
-  ], [
     shacl:class foaf:Agent;
     shacl:definition "The agent that is the main actor in the provided evidence"@en;
     shacl:name "is about"@en;
@@ -135,6 +130,11 @@
     shacl:name "confidentiality level type"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#confidentionalityLevelType>
   ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
+    shacl:definition "The kind of evidence"@en;
+    shacl:name "is Conformant"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#isComformantWith>
+  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:definition "the supported requirement by the evidence"@en;
     shacl:name "supports requirement"@en;
@@ -145,16 +145,6 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeListShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition "An unambiguous reference to an Evidence Type List"@en;
-    shacl:maxCount 1;
-    shacl:name "identifier"@en;
-    shacl:path dc:identifier
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "A name to identify in common language the Evidence Type List"@en;
-    shacl:name "name"@en;
-    shacl:path skos:prefLabel
-  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#EvidenceType>;
     shacl:name "specifies evidence type"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#specifiesEvidenceType>
@@ -163,6 +153,16 @@
     shacl:definition "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."@en;
     shacl:name "description"@en;
     shacl:path dc:description
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition "A name to identify in common language the Evidence Type List"@en;
+    shacl:name "name"@en;
+    shacl:path skos:prefLabel
+  ], [
+    shacl:definition "An unambiguous reference to an Evidence Type List"@en;
+    shacl:maxCount 1;
+    shacl:name "identifier"@en;
+    shacl:path dc:identifier
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceTypeList> .
 
@@ -175,16 +175,16 @@
     shacl:name "dataset type"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#datasetType>
   ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
+    shacl:minCount 1;
+    shacl:name "is specified in"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#isSpecifiedIn>
+  ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "A classification code to specify the layout and content expected for an evidence."@en;
     shacl:maxCount 1;
     shacl:name "evidence type classification"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#evidenceTypeClassification>
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
-    shacl:minCount 1;
-    shacl:name "is specified in"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#isSpecifiedIn>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceType> .
 
@@ -199,38 +199,38 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
-    shacl:definition "a related requirement"@en;
-    shacl:name "has requirement"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
-    shacl:name "has evidence type combination"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."@en;
-    shacl:name "description"@en;
-    shacl:path dc:description
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#ReferenceFramework>;
-    shacl:definition "the reference framework that is responsible for the creation/initiation of the requirement"@en;
-    shacl:name "is derived from"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#isDerivedFrom>
+    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
+    shacl:definition "the kind of evidences that the requirement expects"@en;
+    shacl:name "has supporting evidence"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
   ], [
     shacl:class <http://fixme.com#Concept>;
     shacl:definition "the requirement concept for which the requirement expects an support in the supporting evidence"@en;
     shacl:name "has concept"@en;
     shacl:path <http://data.europa.eu/m8g/cccev#hasConcept>
   ], [
+    shacl:datatype xsd:string;
+    shacl:definition "A name to identify in common language the Requirement"@en;
+    shacl:name "name"@en;
+    shacl:path skos:prefLabel
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
+    shacl:name "has evidence type combination"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
+    shacl:definition "a related requirement"@en;
+    shacl:name "has requirement"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
+  ], [
     shacl:definition "An unambiguous reference"@en;
     shacl:name "identifier"@en;
     shacl:path dc:identifier
   ], [
     shacl:datatype xsd:string;
-    shacl:definition "A name to identify in common language the Requirement"@en;
-    shacl:name "name"@en;
-    shacl:path skos:prefLabel
+    shacl:definition "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."@en;
+    shacl:name "description"@en;
+    shacl:path dc:description
   ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "the category or type to which the requirement belongs"@en;
@@ -238,10 +238,10 @@
     shacl:name "type"@en;
     shacl:path dc:type
   ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
-    shacl:definition "the kind of evidences that the requirement expects"@en;
-    shacl:name "has supporting evidence"@en;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
+    shacl:class <http://data.europa.eu/m8g/cccev#ReferenceFramework>;
+    shacl:definition "the reference framework that is responsible for the creation/initiation of the requirement"@en;
+    shacl:name "is derived from"@en;
+    shacl:path <http://data.europa.eu/m8g/cccev#isDerivedFrom>
   ], [
     shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:name "is requirement of"@en;
