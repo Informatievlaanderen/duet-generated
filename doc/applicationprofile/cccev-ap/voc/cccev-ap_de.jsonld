@@ -13,37 +13,39 @@
   },
   "authors": [
     {
-      "foaf:firstName": "AuteurVoornaam",
-      "foaf:lastName": "AuteurNaam",
+      "foaf:firstName": "Pavlina",
+      "foaf:lastName": "Fragkou",
       "affiliation": {
-        "foaf:name": "AuteurAffiliatie",
-        "foaf:homepage": "https://auteurwebsiteurl"
+        "foaf:name": "SEMIC"
       },
-      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein",
       "@type": "foaf:Person"
     }
   ],
   "editors": [
     {
-      "foaf:firstName": "EditorVoornaam",
-      "foaf:lastName": "EditorNaam",
+      "foaf:firstName": "Dimitri",
+      "foaf:lastName": "Schepers",
       "affiliation": {
-        "foaf:name": "EditorAffiliatie",
-        "foaf:homepage": "https://editorwebsiteurl"
+        "foaf:name": "PWC"
       },
-      "foaf:mbox": "editorvoornaam.editornaam@editordomein",
+      "@type": "foaf:Person"
+    },
+    {
+      "foaf:firstName": "Bert",
+      "foaf:lastName": "Van Nuffelen",
+      "affiliation": {
+        "foaf:name": "TenForce"
+      },
       "@type": "foaf:Person"
     }
   ],
   "contributors": [
     {
-      "foaf:firstName": "MedewerkerVoornaam",
-      "foaf:lastName": "MedewerkerNaam",
+      "foaf:firstName": "Florian",
+      "foaf:lastName": "Barthelemy",
       "affiliation": {
-        "foaf:name": "MedewerkerAffiliatie",
-        "foaf:homepage": "https://medewerkerwebsiteurl"
+        "foaf:name": "PWC"
       },
-      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein",
       "@type": "foaf:Person"
     }
   ],
@@ -210,6 +212,9 @@
       "@id": "http://data.europa.eu/m8g/cccev#datasetType",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "usage": {
         "de": "A translation has yet to be added"
       },
       "domain": [

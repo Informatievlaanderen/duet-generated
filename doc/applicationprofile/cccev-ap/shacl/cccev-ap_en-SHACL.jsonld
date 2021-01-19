@@ -124,7 +124,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
           "sh:definition": {
-            "en": "The kind of evidence"
+            "en": "A reference to one or more types of evidence where the content and, possibly, the layout or configuration of the evidence is specified."
           },
           "sh:name": {
             "en": "is Conformant"
@@ -132,24 +132,24 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
-          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
+          "sh:class": "http://fixme.com#Concept",
           "sh:definition": {
             "en": "the supported concept by the evidence"
           },
           "sh:name": {
             "en": "supports concept"
           },
-          "sh:path": "http://data.europa.eu/m8g/cccev#supports"
+          "sh:path": "http://data.europa.eu/m8g/cccev#supportsConcept"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "en": "the supported concept by the evidence"
+            "en": "the supported requirement by the evidence"
           },
           "sh:name": {
-            "en": "supports concept"
+            "en": "supports requirement"
           },
-          "sh:path": "http://data.europa.eu/m8g/cccev#supports"
+          "sh:path": "http://data.europa.eu/m8g/cccev#supportsRequirement"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Evidence"
@@ -328,6 +328,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+          "sh:definition": {
+            "en": "A collection, or a set of alternative collections, of references to types of evidences"
+          },
           "sh:name": {
             "en": "has evidence type combination"
           },
@@ -412,13 +415,6 @@
         }
       ],
       "sh:targetClass": "http://fixme.com#Concept"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#custom-data-typeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#custom-data-type"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#dataset-typeShape",

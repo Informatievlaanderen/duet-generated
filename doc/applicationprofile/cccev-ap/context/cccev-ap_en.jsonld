@@ -2,6 +2,16 @@
   "@context": {
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
     "Code": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Concept": "http://fixme.com#Concept",
+    "Concept.hasConstraint": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
+      "@type": "@id"
+    },
+    "Concept.type": {
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "@id"
+    },
     "Constraint": "http://data.europa.eu/m8g/cccev#Constraint",
     "Criterion": "http://data.europa.eu/m8g/cccev#Criterion",
     "Criterion.bias": {
@@ -21,7 +31,6 @@
       "@id": "http://data.europa.eu/m8g/cccev#weightingType",
       "@type": "@id"
     },
-    "Custom-data-type": "http://fixme.com#custom-data-type",
     "Dataset": "http://www.w3.org/ns/dcat#Dataset",
     "Dataset-type": "http://fixme.com#dataset-type",
     "Dataset.distribution": {
@@ -52,7 +61,12 @@
     },
     "Evidence.supportsConcept": {
       "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#supports",
+      "@id": "http://data.europa.eu/m8g/cccev#supportsConcept",
+      "@type": "@id"
+    },
+    "Evidence.supportsRequirement": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#supportsRequirement",
       "@type": "@id"
     },
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",
@@ -120,16 +134,6 @@
     "Requirement.isRequirementOf": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#isRequirementOf",
-      "@type": "@id"
-    },
-    "RequirementConcept": "http://fixme.com#Concept",
-    "RequirementConcept.hasConstraint": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
-      "@type": "@id"
-    },
-    "RequirementConcept.type": {
-      "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
     "Standard": "http://purl.org/dc/terms/Standard"

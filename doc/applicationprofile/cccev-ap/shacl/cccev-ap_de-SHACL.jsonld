@@ -132,14 +132,14 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
-          "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
+          "sh:class": "http://fixme.com#Concept",
           "sh:definition": {
             "de": "Enter your translation here"
           },
           "sh:name": {
             "de": "Enter your translation here"
           },
-          "sh:path": "http://data.europa.eu/m8g/cccev#supports"
+          "sh:path": "http://data.europa.eu/m8g/cccev#supportsConcept"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -149,7 +149,7 @@
           "sh:name": {
             "de": "Enter your translation here"
           },
-          "sh:path": "http://data.europa.eu/m8g/cccev#supports"
+          "sh:path": "http://data.europa.eu/m8g/cccev#supportsRequirement"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Evidence"
@@ -328,6 +328,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
           "sh:name": {
             "de": "Enter your translation here"
           },
@@ -412,13 +415,6 @@
         }
       ],
       "sh:targetClass": "http://fixme.com#Concept"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#custom-data-typeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#custom-data-type"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape",

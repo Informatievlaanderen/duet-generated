@@ -11,8 +11,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/9757318c4742c27cf1b057c63bd3f492dd0bba55",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/9757318c4742c27cf1b057c63bd3f492dd0bba55/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/08afa324a7e6262c71e4e0c031cedd3d2a4c073f",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/08afa324a7e6262c71e4e0c031cedd3d2a4c073f/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -281,9 +281,11 @@
             "en": "is Conformant"
           },
           "description": {
-            "en": "The kind of evidence"
+            "en": "A reference to one or more types of evidence where the content and, possibly, the layout or configuration of the evidence is specified."
           },
-          "usage": {},
+          "usage": {
+            "en": "NOTE: this property can be fullfilled with the dcat property dct:conformsTo. The definition should be reflect the need for another property. And the usagenote should make the distinction clear."
+          },
           "domain": [
             {
               "uri": "http://data.europa.eu/m8g/cccev#Evidence",
@@ -309,7 +311,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://data.europa.eu/m8g/cccev#supports",
+          "uri": "http://data.europa.eu/m8g/cccev#supportsConcept",
           "name": "supports concept",
           "sort": "supports concept",
           "label": {
@@ -319,7 +321,7 @@
             "en": "the supported concept by the evidence"
           },
           "usage": {
-            "en": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked."
+            "en": "Used to express details about the information that is provided by the evidence"
           },
           "domain": [
             {
@@ -329,16 +331,16 @@
           ],
           "range": [
             {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
+              "range_label": "Concept",
+              "range_uri": "http://fixme.com#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Requirement",
-              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "range_uri": "#Concept",
+              "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "Requirement"
+                "en": "Concept"
               }
             }
           ],
@@ -346,17 +348,17 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://data.europa.eu/m8g/cccev#supports",
-          "name": "supports concept",
-          "sort": "supports concept",
+          "uri": "http://data.europa.eu/m8g/cccev#supportsRequirement",
+          "name": "supports requirement",
+          "sort": "supports requirement",
           "label": {
-            "en": "supports concept"
+            "en": "supports requirement"
           },
           "description": {
-            "en": "the supported concept by the evidence"
+            "en": "the supported requirement by the evidence"
           },
           "usage": {
-            "en": "NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked."
+            "en": "Used to express details about the information requested by the requirement."
           },
           "domain": [
             {
@@ -415,7 +417,9 @@
           "description": {
             "en": "A classification code use to specify the machine-readability of a content."
           },
-          "usage": {},
+          "usage": {
+            "en": "NOTE: this property is not needed as it is more an implementation requirement. Moreover the inheritence of DCAT already tackles the need for identifying other distributions"
+          },
           "domain": [
             {
               "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
@@ -912,10 +916,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#RequirementConcept",
+              "range_uri": "#Concept",
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "RequirementConcept"
+                "en": "Concept"
               }
             }
           ],
@@ -929,8 +933,12 @@
           "label": {
             "en": "has evidence type combination"
           },
-          "description": {},
-          "usage": {},
+          "description": {
+            "en": "A collection, or a set of alternative collections, of references to types of evidences"
+          },
+          "usage": {
+            "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved."
+          },
           "domain": [
             {
               "uri": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -1101,11 +1109,11 @@
     },
     {
       "uri": "http://fixme.com#Concept",
-      "name": "RequirementConcept",
+      "name": "Concept",
       "label": {
-        "en": "RequirementConcept"
+        "en": "Concept"
       },
-      "sort": "RequirementConcept",
+      "sort": "Concept",
       "description": {
         "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
       },
@@ -1392,33 +1400,35 @@
   "contributors": [
     {
       "role": "A",
-      "first_name": "AuteurVoornaam",
-      "last_name": "AuteurNaam",
+      "first_name": "Pavlina",
+      "last_name": "Fragkou",
       "affiliation": {
-        "name": "AuteurAffiliatie",
-        "website": "https://auteurwebsiteurl"
-      },
-      "email": "auteurvoornaam.auteurnaam@auteurdomein"
+        "name": "SEMIC"
+      }
     },
     {
       "role": "E",
-      "first_name": "EditorVoornaam",
-      "last_name": "EditorNaam",
+      "first_name": "Dimitri",
+      "last_name": "Schepers",
       "affiliation": {
-        "name": "EditorAffiliatie",
-        "website": "https://editorwebsiteurl"
-      },
-      "email": "editorvoornaam.editornaam@editordomein"
+        "name": "PWC"
+      }
+    },
+    {
+      "role": "E",
+      "first_name": "Bert",
+      "last_name": "Van Nuffelen",
+      "affiliation": {
+        "name": "TenForce"
+      }
     },
     {
       "role": "C",
-      "first_name": "MedewerkerVoornaam",
-      "last_name": "MedewerkerNaam",
+      "first_name": "Florian",
+      "last_name": "Barthelemy",
       "affiliation": {
-        "name": "MedewerkerAffiliatie",
-        "website": "https://medewerkerwebsiteurl"
-      },
-      "email": "medewerkervoornaam.medewerkernaam@medewerkerdomein"
+        "name": "PWC"
+      }
     }
   ],
   "datatypes": [
