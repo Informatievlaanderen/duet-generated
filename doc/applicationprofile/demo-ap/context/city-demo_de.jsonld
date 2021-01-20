@@ -1,3 +1,9 @@
 {
-  "@context": {}
+  "@context": {
+    "EnterYourTranslationHere": "https://schema.org/City",
+    "EnterYourTranslationHere.enterYourTranslationHere": {
+      "@id": "http://www.w3.org/ns/locn#thoroughfare",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
 }

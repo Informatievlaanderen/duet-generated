@@ -10,14 +10,235 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/08afa324a7e6262c71e4e0c031cedd3d2a4c073f",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/08afa324a7e6262c71e4e0c031cedd3d2a4c073f/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/d741218cba6dc44e97d68fe230b41eb53b95bbbd",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/d741218cba6dc44e97d68fe230b41eb53b95bbbd/CHANGELOG",
     "feedbackurl": "",
     "standaardregisterurl": "",
     "usesVocs": [],
     "usesAPs": []
   },
-  "classes": [],
+  "classes": [
+    {
+      "uri": "http://www.w3.org/ns/locn#Address",
+      "name": "Address",
+      "label": {
+        "en": "Address",
+        "de": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "en": "the particulars of the place where someone lives or an organization is situated.",
+        "de": "Enter your translation here"
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/locn#addressArea",
+          "name": "city",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "city",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "The city in which the address is located",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://www.w3.org/ns/locn#Address",
+              "EA-Name": "Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "City",
+              "range_uri": "https://schema.org/City"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://schema.org/City",
+              "range_label": {
+                "en": "City",
+                "de": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#poBox",
+          "name": "house number",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "house number",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://www.w3.org/ns/locn#Address",
+              "EA-Name": "Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#postCode",
+          "name": "post code",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "post code",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail.",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://www.w3.org/ns/locn#Address",
+              "EA-Name": "Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#thoroughfare",
+          "name": "street name",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "street name",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "the name of the public road in a city, town, or village along the adress is located",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://www.w3.org/ns/locn#Address",
+              "EA-Name": "Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://schema.org/City",
+      "name": "City",
+      "label": {
+        "en": "City",
+        "de": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "en": "a human settlement",
+        "de": "Enter your translation here"
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/locn#geographicName",
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "name",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "the name of the city",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://schema.org/City",
+              "EA-Name": "City"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    }
+  ],
   "properties": [],
   "contributors": [
     {

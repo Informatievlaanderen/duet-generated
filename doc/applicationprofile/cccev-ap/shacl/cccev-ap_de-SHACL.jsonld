@@ -53,42 +53,42 @@
       "sh:property": [
         {
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Zusätzlicher Parameter, der verwendet wird, um die Bewertung des Kriteriums anzupassen, das aus mehreren Unterkriterien besteht."
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "Vorurteil"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#bias"
         },
         {
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Relative Bedeutung, die einem bestimmten Kriterium zugewiesen wird."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "gewicht"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weight"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Die Erklärung, wie die Gewichtung eines Kriteriums bei der Auswertungszeit zu verwenden ist."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "beschreibung der gewichtung serann"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Das numerische Formular, das für die Gewichtung verwendet wird."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "gewichtungsart"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#weightingType"
         }
@@ -103,41 +103,41 @@
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Die Sicherheitsklassifizierung, die einem Beweis oder im Allgemeinen einem Inhalt zugewiesen ist."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "Vertraulichkeitsstufe Typ"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Agent",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Der Agent, der der Hauptakteur in den vorgelegten Beweisen ist"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "ist über"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isAbout"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceType",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein Verweis auf eine oder mehrere Arten von Beweisen, bei denen der Inhalt und möglicherweise das Layout oder die Konfiguration der Beweise angegeben werden."
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "ist Conformant"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
           "sh:class": "http://fixme.com#Concept",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "das unterstützte Konzept durch die Beweise"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "unterstützt Konzept"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#supportsConcept"
         }
@@ -152,22 +152,22 @@
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein Klassifizierungscode, der verwendet wird, um die Maschinenlesbarkeit eines Inhalts anzugeben."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "Datensatztyp"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#datasetType"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein Klassifizierungscode, um das Layout und den Inhalt anzugeben, der für einen Nachweis erwartet wird."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "Beweistypklassifizierung"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification"
         },
@@ -175,7 +175,7 @@
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "gibt den Beweistyp an"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isSpecifiedIn"
         },
@@ -183,7 +183,7 @@
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "gibt den Beweistyp an"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isSpecifiedIn"
         }
@@ -198,30 +198,30 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Eine kurze Erklärung über die Art, Attribute, Verwendungen oder andere zusätzliche Informationen, die helfen, das Verständnis des zu instanziierenden Beweistyps zu klären."
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "beschreibung"
           },
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein eindeutiger Verweis auf eine Beweistypliste"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "bezeichner"
           },
           "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein Name, um die Beweistypliste in einer gemeinsamen Sprache zu identifizieren"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "name"
           },
           "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
         }
@@ -250,110 +250,110 @@
         {
           "sh:class": "http://fixme.com#Concept",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "das Anforderungskonzept, für das die Anforderung eine Unterstützung in den Belegen erwartet"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "hat Konzept"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasConcept"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "hat Eine Kombination aus Evidenztyp"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "eine verwandte Anforderung"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "ist Voraussetzung für die"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasRequirement"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "eine verwandte Anforderung"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "ist Voraussetzung für die"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasRequirement"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "die unterstützte Anforderung durch die Beweise"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "unterstützt die Anforderung"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "die unterstützte Anforderung durch die Beweise"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "unterstützt die Anforderung"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "bezugsrahmen, der für die schaffung/einleitung der anforderung"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "wird von"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isDerivedFrom"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die dazu beitragen, das Verständnis der zu instanziierenden Anforderung zu klären."
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "beschreibung"
           },
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein eindeutiger Verweis"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "bezeichner"
           },
           "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein Name, um in einer gemeinsamen Sprache die Anforderung zu identifizieren"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "namen"
           },
           "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "die Kategorie oder den Typ, zu dem die Anforderung gehört"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "typ"
           },
           "sh:path": "http://purl.org/dc/terms/type"
         }
@@ -368,50 +368,50 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Constraint",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert."
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "hat Einschränkung"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasConstraint"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen."
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "beschreibung"
           },
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein eindeutiger Verweis auf RequirementConcept"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "bezeichner"
           },
           "sh:path": "http://purl.org/dc/terms/identifier"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "name"
           },
           "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
         },
         {
           "sh:class": "http://fixme.com#Code",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "eine Klassifizierung des RequirementConcept"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "typ"
           },
           "sh:path": "http://purl.org/dc/terms/type"
         }
@@ -454,10 +454,10 @@
         {
           "sh:class": "http://www.w3.org/ns/dcat#Distribution",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "die Verteilung eines Datasets"
           },
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "verteilung"
           },
           "sh:path": "http://www.w3.org/ns/dcat#distribution"
         }
@@ -472,7 +472,7 @@
         {
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "download-URL"
           },
           "sh:path": "http://www.w3.org/ns/dcat#downloadURL"
         }

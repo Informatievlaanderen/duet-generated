@@ -11,8 +11,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/08afa324a7e6262c71e4e0c031cedd3d2a4c073f",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/08afa324a7e6262c71e4e0c031cedd3d2a4c073f/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/d741218cba6dc44e97d68fe230b41eb53b95bbbd",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/d741218cba6dc44e97d68fe230b41eb53b95bbbd/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -24,16 +24,16 @@
       "name": "Constraint",
       "label": {
         "en": "Constraint",
-        "de": "Enter your translation here"
+        "de": "Einschränkung"
       },
-      "sort": "Enter your translation here",
+      "sort": "Einschränkung",
       "description": {
         "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about.",
-        "de": "Enter your translation here"
+        "de": "Beschränkung, die auf die Anforderungen oder die Konzepte angewendet wird, um die sich die Anforderung richtet."
       },
       "usage": {
         "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates.",
-        "de": "Enter your translation here"
+        "de": "Ein Beispiel beim eProcurement, ein Schwellenwert: der Mindestumsatz, den der Käufer für die Auswahl der Kandidaten benötigt."
       },
       "parents": [
         {
@@ -51,16 +51,16 @@
       "name": "Criterion",
       "label": {
         "en": "Criterion",
-        "de": "Enter your translation here"
+        "de": "Kriterium"
       },
-      "sort": "Enter your translation here",
+      "sort": "Kriterium",
       "description": {
         "en": "condition for evaluation or assessment.",
-        "de": "Enter your translation here"
+        "de": "Voraussetzung für die Bewertung oder Bewertung."
       },
       "usage": {
         "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences.",
-        "de": "Enter your translation here"
+        "de": "Im Allgemeinen werden Kriterien für Vergleich, Filterung und Auswahl verwendet. Kriterien legen in der Regel Mindestbeschränkungen fest (z. B. Grenzwerte, Intervalle, Schwellenwerte usw.), die erfüllt sein müssen, um die erforderlichen Bedingungen zu erfüllen oder sie in einem bestimmten Grad oder einer bestimmten Qualität zu erfüllen. Die Bewertung der Erfüllung wird in der Regel durch die Bereitstellung von Nachweisen unterstützt."
       },
       "parents": [
         {
@@ -75,14 +75,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#bias",
           "name": "bias",
-          "sort": "Enter your translation here",
+          "sort": "Vorurteil",
           "label": {
             "en": "bias",
-            "de": "Enter your translation here"
+            "de": "Vorurteil"
           },
           "description": {
             "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.",
-            "de": "Enter your translation here"
+            "de": "Zusätzlicher Parameter, der verwendet wird, um die Bewertung des Kriteriums anzupassen, das aus mehreren Unterkriterien besteht."
           },
           "usage": {},
           "domain": [
@@ -99,14 +99,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#weight",
           "name": "weight",
-          "sort": "Enter your translation here",
+          "sort": "gewicht",
           "label": {
             "en": "weight",
-            "de": "Enter your translation here"
+            "de": "gewicht"
           },
           "description": {
             "en": "Relative importance assigned to a given criterion.",
-            "de": "Enter your translation here"
+            "de": "Relative Bedeutung, die einem bestimmten Kriterium zugewiesen wird."
           },
           "usage": {},
           "domain": [
@@ -123,14 +123,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
           "name": "weighting consideration description",
-          "sort": "Enter your translation here",
+          "sort": "beschreibung der gewichtung serann",
           "label": {
             "en": "weighting consideration description",
-            "de": "Enter your translation here"
+            "de": "beschreibung der gewichtung serann"
           },
           "description": {
             "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time.",
-            "de": "Enter your translation here"
+            "de": "Die Erklärung, wie die Gewichtung eines Kriteriums bei der Auswertungszeit zu verwenden ist."
           },
           "usage": {},
           "domain": [
@@ -160,14 +160,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#weightingType",
           "name": "weighting type",
-          "sort": "Enter your translation here",
+          "sort": "gewichtungsart",
           "label": {
             "en": "weighting type",
-            "de": "Enter your translation here"
+            "de": "gewichtungsart"
           },
           "description": {
             "en": "The numeric form used to weight.",
-            "de": "Enter your translation here"
+            "de": "Das numerische Formular, das für die Gewichtung verwendet wird."
           },
           "usage": {},
           "domain": [
@@ -184,11 +184,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
                 "en": "Code",
-                "de": "Enter your translation here"
+                "de": "Code"
               }
             }
           ],
@@ -202,12 +202,12 @@
       "name": "Evidence",
       "label": {
         "en": "Evidence",
-        "de": "Enter your translation here"
+        "de": "Beweis"
       },
-      "sort": "Enter your translation here",
+      "sort": "Beweis",
       "description": {
         "en": "The data proving that a requirement is met or has been fulfilled.",
-        "de": "Enter your translation here"
+        "de": "Die Daten, welche belegen, dass eine Anforderung erfüllt oder erfüllt ist."
       },
       "usage": {},
       "parents": [
@@ -223,14 +223,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
           "name": "confidentiality level type",
-          "sort": "Enter your translation here",
+          "sort": "Vertraulichkeitsstufe Typ",
           "label": {
             "en": "confidentiality level type",
-            "de": "Enter your translation here"
+            "de": "Vertraulichkeitsstufe Typ"
           },
           "description": {
             "en": "The security classification assigned to an Evidence or, in general, to a content.",
-            "de": "Enter your translation here"
+            "de": "Die Sicherheitsklassifizierung, die einem Beweis oder im Allgemeinen einem Inhalt zugewiesen ist."
           },
           "usage": {},
           "domain": [
@@ -247,11 +247,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
                 "en": "Code",
-                "de": "Enter your translation here"
+                "de": "Code"
               }
             }
           ],
@@ -261,14 +261,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isAbout",
           "name": "is about",
-          "sort": "Enter your translation here",
+          "sort": "ist über",
           "label": {
             "en": "is about",
-            "de": "Enter your translation here"
+            "de": "ist über"
           },
           "description": {
             "en": "The agent that is the main actor in the provided evidence",
-            "de": "Enter your translation here"
+            "de": "Der Agent, der der Hauptakteur in den vorgelegten Beweisen ist"
           },
           "usage": {},
           "domain": [
@@ -285,11 +285,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Agent",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
                 "en": "Agent",
-                "de": "Enter your translation here"
+                "de": "Agent"
               }
             }
           ],
@@ -299,18 +299,18 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isComformantWith",
           "name": "is Conformant",
-          "sort": "Enter your translation here",
+          "sort": "ist Conformant",
           "label": {
             "en": "is Conformant",
-            "de": "Enter your translation here"
+            "de": "ist Conformant"
           },
           "description": {
             "en": "A reference to one or more types of evidence where the content and, possibly, the layout or configuration of the evidence is specified.",
-            "de": "Enter your translation here"
+            "de": "Ein Verweis auf eine oder mehrere Arten von Beweisen, bei denen der Inhalt und möglicherweise das Layout oder die Konfiguration der Beweise angegeben werden."
           },
           "usage": {
             "en": "NOTE: this property can be fullfilled with the dcat property dct:conformsTo. The definition should be reflect the need for another property. And the usagenote should make the distinction clear.",
-            "de": "Enter your translation here"
+            "de": "HINWEIS: Diese Eigenschaft kann mit der dcat-Eigenschaft dct:conformsTo gefüllt werden. Die Definition sollte die Notwendigkeit einer anderen Eigenschaft widerspiegeln. Und die Nutzungsnote sollte die Unterscheidung deutlich machen."
           },
           "domain": [
             {
@@ -326,11 +326,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Beweisart",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceType",
               "range_label": {
                 "en": "Evidence type",
-                "de": "Enter your translation here"
+                "de": "Beweisart"
               }
             }
           ],
@@ -340,18 +340,18 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#supportsConcept",
           "name": "supports concept",
-          "sort": "Enter your translation here",
+          "sort": "unterstützt Konzept",
           "label": {
             "en": "supports concept",
-            "de": "Enter your translation here"
+            "de": "unterstützt Konzept"
           },
           "description": {
             "en": "the supported concept by the evidence",
-            "de": "Enter your translation here"
+            "de": "das unterstützte Konzept durch die Beweise"
           },
           "usage": {
             "en": "Used to express details about the information that is provided by the evidence",
-            "de": "Enter your translation here"
+            "de": "Wird verwendet, um Details über die Informationen auszudrücken, die durch die Beweise bereitgestellt werden"
           },
           "domain": [
             {
@@ -367,11 +367,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Konzept",
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
                 "en": "Concept",
-                "de": "Enter your translation here"
+                "de": "Konzept"
               }
             }
           ],
@@ -385,12 +385,12 @@
       "name": "Evidence type",
       "label": {
         "en": "Evidence type",
-        "de": "Enter your translation here"
+        "de": "Beweisart"
       },
-      "sort": "Enter your translation here",
+      "sort": "Beweisart",
       "description": {
         "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.",
-        "de": "Enter your translation here"
+        "de": "Informationen über die Merkmale eines erwarteten Nachweises, z. B. den gewünschten Inhalt, das Format, die Quelle usw."
       },
       "usage": {},
       "parents": [
@@ -406,18 +406,18 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#datasetType",
           "name": "dataset type",
-          "sort": "Enter your translation here",
+          "sort": "Datensatztyp",
           "label": {
             "en": "dataset type",
-            "de": "Enter your translation here"
+            "de": "Datensatztyp"
           },
           "description": {
             "en": "A classification code use to specify the machine-readability of a content.",
-            "de": "Enter your translation here"
+            "de": "Ein Klassifizierungscode, der verwendet wird, um die Maschinenlesbarkeit eines Inhalts anzugeben."
           },
           "usage": {
             "en": "NOTE: this property is not needed as it is more an implementation requirement. Moreover the inheritence of DCAT already tackles the need for identifying other distributions",
-            "de": "Enter your translation here"
+            "de": "HINWEIS: Diese Eigenschaft wird nicht benötigt, da es sich eher um eine Implementierungsanforderung handelt. Darüber hinaus geht die Vererbung von DCAT bereits auf die Notwendigkeit ein, andere Verteilungen zu identifizieren."
           },
           "domain": [
             {
@@ -433,11 +433,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
                 "en": "Code",
-                "de": "Enter your translation here"
+                "de": "Code"
               }
             }
           ],
@@ -447,14 +447,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
           "name": "evidence type classification",
-          "sort": "Enter your translation here",
+          "sort": "Beweistypklassifizierung",
           "label": {
             "en": "evidence type classification",
-            "de": "Enter your translation here"
+            "de": "Beweistypklassifizierung"
           },
           "description": {
             "en": "A classification code to specify the layout and content expected for an evidence.",
-            "de": "Enter your translation here"
+            "de": "Ein Klassifizierungscode, um das Layout und den Inhalt anzugeben, der für einen Nachweis erwartet wird."
           },
           "usage": {},
           "domain": [
@@ -471,11 +471,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
                 "en": "Code",
-                "de": "Enter your translation here"
+                "de": "Code"
               }
             }
           ],
@@ -485,10 +485,10 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
           "name": "specifies evidence type",
-          "sort": "Enter your translation here",
+          "sort": "gibt den Beweistyp an",
           "label": {
             "en": "specifies evidence type",
-            "de": "Enter your translation here"
+            "de": "gibt den Beweistyp an"
           },
           "description": {},
           "usage": {},
@@ -506,11 +506,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Beweistypliste",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
               "range_label": {
                 "en": "Evidence Type List",
-                "de": "Enter your translation here"
+                "de": "Beweistypliste"
               }
             }
           ],
@@ -520,10 +520,10 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
           "name": "specifies evidence type",
-          "sort": "Enter your translation here",
+          "sort": "gibt den Beweistyp an",
           "label": {
             "en": "specifies evidence type",
-            "de": "Enter your translation here"
+            "de": "gibt den Beweistyp an"
           },
           "description": {},
           "usage": {},
@@ -541,11 +541,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Beweistypliste",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
               "range_label": {
                 "en": "Evidence Type List",
-                "de": "Enter your translation here"
+                "de": "Beweistypliste"
               }
             }
           ],
@@ -559,9 +559,9 @@
       "name": "Evidence Type List",
       "label": {
         "en": "Evidence Type List",
-        "de": "Enter your translation here"
+        "de": "Beweistypliste"
       },
-      "sort": "Enter your translation here",
+      "sort": "Beweistypliste",
       "description": {},
       "usage": {},
       "parents": [],
@@ -569,14 +569,14 @@
         {
           "uri": "http://purl.org/dc/terms/description",
           "name": "description",
-          "sort": "Enter your translation here",
+          "sort": "beschreibung",
           "label": {
             "en": "description",
-            "de": "Enter your translation here"
+            "de": "beschreibung"
           },
           "description": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.",
-            "de": "Enter your translation here"
+            "de": "Eine kurze Erklärung über die Art, Attribute, Verwendungen oder andere zusätzliche Informationen, die helfen, das Verständnis des zu instanziierenden Beweistyps zu klären."
           },
           "usage": {},
           "domain": [
@@ -606,14 +606,14 @@
         {
           "uri": "http://purl.org/dc/terms/identifier",
           "name": "identifier",
-          "sort": "Enter your translation here",
+          "sort": "bezeichner",
           "label": {
             "en": "identifier",
-            "de": "Enter your translation here"
+            "de": "bezeichner"
           },
           "description": {
             "en": "An unambiguous reference to an Evidence Type List",
-            "de": "Enter your translation here"
+            "de": "Ein eindeutiger Verweis auf eine Beweistypliste"
           },
           "usage": {},
           "domain": [
@@ -630,14 +630,14 @@
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
           "name": "name",
-          "sort": "Enter your translation here",
+          "sort": "name",
           "label": {
             "en": "name",
-            "de": "Enter your translation here"
+            "de": "name"
           },
           "description": {
             "en": "A name to identify in common language the Evidence Type List",
-            "de": "Enter your translation here"
+            "de": "Ein Name, um die Beweistypliste in einer gemeinsamen Sprache zu identifizieren"
           },
           "usage": {},
           "domain": [
@@ -671,12 +671,12 @@
       "name": "Information Requirement",
       "label": {
         "en": "Information Requirement",
-        "de": "Enter your translation here"
+        "de": "Informationsanforderung"
       },
-      "sort": "Enter your translation here",
+      "sort": "Informationsanforderung",
       "description": {
         "en": "A request for data that is proof of evidence or leads to the source of such a proof.",
-        "de": "Enter your translation here"
+        "de": "Ein Auskunftsverlangen, das nachweisfest ist oder zur Quelle eines solchen Nachweises führt."
       },
       "usage": {},
       "parents": [
@@ -695,9 +695,9 @@
       "name": "Reference Framework",
       "label": {
         "en": "Reference Framework",
-        "de": "Enter your translation here"
+        "de": "Referenzrahmen"
       },
-      "sort": "Enter your translation here",
+      "sort": "Referenzrahmen",
       "description": {},
       "usage": {},
       "parents": [
@@ -716,12 +716,12 @@
       "name": "Requirement",
       "label": {
         "en": "Requirement",
-        "de": "Enter your translation here"
+        "de": "Anforderung"
       },
-      "sort": "Enter your translation here",
+      "sort": "Anforderung",
       "description": {
         "en": "A condition demanded.",
-        "de": "Enter your translation here"
+        "de": "Eine Bedingung gefordert."
       },
       "usage": {},
       "parents": [],
@@ -729,14 +729,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasConcept",
           "name": "has concept",
-          "sort": "Enter your translation here",
+          "sort": "hat Konzept",
           "label": {
             "en": "has concept",
-            "de": "Enter your translation here"
+            "de": "hat Konzept"
           },
           "description": {
             "en": "the requirement concept for which the requirement expects an support in the supporting evidence",
-            "de": "Enter your translation here"
+            "de": "das Anforderungskonzept, für das die Anforderung eine Unterstützung in den Belegen erwartet"
           },
           "usage": {},
           "domain": [
@@ -753,11 +753,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Konzept",
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
                 "en": "Concept",
-                "de": "Enter your translation here"
+                "de": "Konzept"
               }
             }
           ],
@@ -767,18 +767,18 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination",
           "name": "has evidence type combination",
-          "sort": "Enter your translation here",
+          "sort": "hat Eine Kombination aus Evidenztyp",
           "label": {
             "en": "has evidence type combination",
-            "de": "Enter your translation here"
+            "de": "hat Eine Kombination aus Evidenztyp"
           },
           "description": {
             "en": "A collection, or a set of alternative collections, of references to types of evidences",
-            "de": "Enter your translation here"
+            "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln"
           },
           "usage": {
             "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved.",
-            "de": "Enter your translation here"
+            "de": "Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden."
           },
           "domain": [
             {
@@ -794,11 +794,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Beweistypliste",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
               "range_label": {
                 "en": "Evidence Type List",
-                "de": "Enter your translation here"
+                "de": "Beweistypliste"
               }
             }
           ],
@@ -808,19 +808,16 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
           "name": "is requirement of",
-          "sort": "Enter your translation here",
+          "sort": "ist Voraussetzung für die",
           "label": {
             "en": "is requirement of",
-            "de": "Enter your translation here"
+            "de": "ist Voraussetzung für die"
           },
           "description": {
             "en": "a related requirement",
-            "de": "Enter your translation here"
+            "de": "eine verwandte Anforderung"
           },
-          "usage": {
-            "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
-            "de": "Enter your translation here"
-          },
+          "usage": {},
           "domain": [
             {
               "uri": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -835,11 +832,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Anforderung",
               "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
               "range_label": {
                 "en": "Requirement",
-                "de": "Enter your translation here"
+                "de": "Anforderung"
               }
             }
           ],
@@ -849,18 +846,18 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
           "name": "supports requirement",
-          "sort": "Enter your translation here",
+          "sort": "unterstützt die Anforderung",
           "label": {
             "en": "supports requirement",
-            "de": "Enter your translation here"
+            "de": "unterstützt die Anforderung"
           },
           "description": {
             "en": "the supported requirement by the evidence",
-            "de": "Enter your translation here"
+            "de": "die unterstützte Anforderung durch die Beweise"
           },
           "usage": {
             "en": "Used to express details about the information requested by the requirement.",
-            "de": "Enter your translation here"
+            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken."
           },
           "domain": [
             {
@@ -876,11 +873,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Beweis",
               "range_puri": "http://data.europa.eu/m8g/cccev#Evidence",
               "range_label": {
                 "en": "Evidence",
-                "de": "Enter your translation here"
+                "de": "Beweis"
               }
             }
           ],
@@ -890,14 +887,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isDerivedFrom",
           "name": "is derived from",
-          "sort": "Enter your translation here",
+          "sort": "wird von",
           "label": {
             "en": "is derived from",
-            "de": "Enter your translation here"
+            "de": "wird von"
           },
           "description": {
             "en": "the reference framework that is responsible for the creation/initiation of the requirement",
-            "de": "Enter your translation here"
+            "de": "bezugsrahmen, der für die schaffung/einleitung der anforderung"
           },
           "usage": {},
           "domain": [
@@ -914,11 +911,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Referenzrahmen",
               "range_puri": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
               "range_label": {
                 "en": "Reference Framework",
-                "de": "Enter your translation here"
+                "de": "Referenzrahmen"
               }
             }
           ],
@@ -928,19 +925,16 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
           "name": "is requirement of",
-          "sort": "Enter your translation here",
+          "sort": "ist Voraussetzung für die",
           "label": {
             "en": "is requirement of",
-            "de": "Enter your translation here"
+            "de": "ist Voraussetzung für die"
           },
           "description": {
             "en": "a related requirement",
-            "de": "Enter your translation here"
+            "de": "eine verwandte Anforderung"
           },
-          "usage": {
-            "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
-            "de": "Enter your translation here"
-          },
+          "usage": {},
           "domain": [
             {
               "uri": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -955,11 +949,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Anforderung",
               "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
               "range_label": {
                 "en": "Requirement",
-                "de": "Enter your translation here"
+                "de": "Anforderung"
               }
             }
           ],
@@ -969,18 +963,18 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
           "name": "supports requirement",
-          "sort": "Enter your translation here",
+          "sort": "unterstützt die Anforderung",
           "label": {
             "en": "supports requirement",
-            "de": "Enter your translation here"
+            "de": "unterstützt die Anforderung"
           },
           "description": {
             "en": "the supported requirement by the evidence",
-            "de": "Enter your translation here"
+            "de": "die unterstützte Anforderung durch die Beweise"
           },
           "usage": {
             "en": "Used to express details about the information requested by the requirement.",
-            "de": "Enter your translation here"
+            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken."
           },
           "domain": [
             {
@@ -996,11 +990,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Beweis",
               "range_puri": "http://data.europa.eu/m8g/cccev#Evidence",
               "range_label": {
                 "en": "Evidence",
-                "de": "Enter your translation here"
+                "de": "Beweis"
               }
             }
           ],
@@ -1010,14 +1004,14 @@
         {
           "uri": "http://purl.org/dc/terms/description",
           "name": "description",
-          "sort": "Enter your translation here",
+          "sort": "beschreibung",
           "label": {
             "en": "description",
-            "de": "Enter your translation here"
+            "de": "beschreibung"
           },
           "description": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.",
-            "de": "Enter your translation here"
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die dazu beitragen, das Verständnis der zu instanziierenden Anforderung zu klären."
           },
           "usage": {},
           "domain": [
@@ -1047,14 +1041,14 @@
         {
           "uri": "http://purl.org/dc/terms/identifier",
           "name": "identifier",
-          "sort": "Enter your translation here",
+          "sort": "bezeichner",
           "label": {
             "en": "identifier",
-            "de": "Enter your translation here"
+            "de": "bezeichner"
           },
           "description": {
             "en": "An unambiguous reference",
-            "de": "Enter your translation here"
+            "de": "Ein eindeutiger Verweis"
           },
           "usage": {},
           "domain": [
@@ -1071,14 +1065,14 @@
         {
           "uri": "http://purl.org/dc/terms/type",
           "name": "type",
-          "sort": "Enter your translation here",
+          "sort": "typ",
           "label": {
             "en": "type",
-            "de": "Enter your translation here"
+            "de": "typ"
           },
           "description": {
             "en": "the category or type to which the requirement belongs",
-            "de": "Enter your translation here"
+            "de": "die Kategorie oder den Typ, zu dem die Anforderung gehört"
           },
           "usage": {},
           "domain": [
@@ -1095,11 +1089,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
                 "en": "Code",
-                "de": "Enter your translation here"
+                "de": "Code"
               }
             }
           ],
@@ -1109,14 +1103,14 @@
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
           "name": "name",
-          "sort": "Enter your translation here",
+          "sort": "namen",
           "label": {
             "en": "name",
-            "de": "Enter your translation here"
+            "de": "namen"
           },
           "description": {
             "en": "A name to identify in common language the Requirement",
-            "de": "Enter your translation here"
+            "de": "Ein Name, um in einer gemeinsamen Sprache die Anforderung zu identifizieren"
           },
           "usage": {},
           "domain": [
@@ -1150,12 +1144,12 @@
       "name": "Concept",
       "label": {
         "en": "Concept",
-        "de": "Enter your translation here"
+        "de": "Konzept"
       },
-      "sort": "Enter your translation here",
+      "sort": "Konzept",
       "description": {
         "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement",
-        "de": "Enter your translation here"
+        "de": "Ein Verweis auf eine Entität, d. h. eine Klasse oder eine Eigenschaft, die zur Beschreibung von Informationen in der zu liefernden Nachweise für die Anforderung verwendet wurde"
       },
       "usage": {},
       "parents": [],
@@ -1163,14 +1157,14 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasConstraint",
           "name": "has Constraint",
-          "sort": "Enter your translation here",
+          "sort": "hat Einschränkung",
           "label": {
             "en": "has Constraint",
-            "de": "Enter your translation here"
+            "de": "hat Einschränkung"
           },
           "description": {
             "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.",
-            "de": "Enter your translation here"
+            "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert."
           },
           "usage": {},
           "domain": [
@@ -1187,11 +1181,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Einschränkung",
               "range_puri": "http://data.europa.eu/m8g/cccev#Constraint",
               "range_label": {
                 "en": "Constraint",
-                "de": "Enter your translation here"
+                "de": "Einschränkung"
               }
             }
           ],
@@ -1201,14 +1195,14 @@
         {
           "uri": "http://purl.org/dc/terms/description",
           "name": "description",
-          "sort": "Enter your translation here",
+          "sort": "beschreibung",
           "label": {
             "en": "description",
-            "de": "Enter your translation here"
+            "de": "beschreibung"
           },
           "description": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.",
-            "de": "Enter your translation here"
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen."
           },
           "usage": {},
           "domain": [
@@ -1238,14 +1232,14 @@
         {
           "uri": "http://purl.org/dc/terms/identifier",
           "name": "identifier",
-          "sort": "Enter your translation here",
+          "sort": "bezeichner",
           "label": {
             "en": "identifier",
-            "de": "Enter your translation here"
+            "de": "bezeichner"
           },
           "description": {
             "en": "An unambiguous reference to RequirementConcept",
-            "de": "Enter your translation here"
+            "de": "Ein eindeutiger Verweis auf RequirementConcept"
           },
           "usage": {},
           "domain": [
@@ -1262,14 +1256,14 @@
         {
           "uri": "http://purl.org/dc/terms/type",
           "name": "type",
-          "sort": "Enter your translation here",
+          "sort": "typ",
           "label": {
             "en": "type",
-            "de": "Enter your translation here"
+            "de": "typ"
           },
           "description": {
             "en": "a classification of the RequirementConcept",
-            "de": "Enter your translation here"
+            "de": "eine Klassifizierung des RequirementConcept"
           },
           "usage": {},
           "domain": [
@@ -1286,11 +1280,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
                 "en": "Code",
-                "de": "Enter your translation here"
+                "de": "Code"
               }
             }
           ],
@@ -1300,14 +1294,14 @@
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
           "name": "name",
-          "sort": "Enter your translation here",
+          "sort": "name",
           "label": {
             "en": "name",
-            "de": "Enter your translation here"
+            "de": "name"
           },
           "description": {
             "en": "A name to identify in common language the RequirementConcept",
-            "de": "Enter your translation here"
+            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren"
           },
           "usage": {},
           "domain": [
@@ -1341,9 +1335,9 @@
       "name": "Standard",
       "label": {
         "en": "Standard",
-        "de": "Enter your translation here"
+        "de": "Standard"
       },
-      "sort": "Enter your translation here",
+      "sort": "Standard",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1354,9 +1348,9 @@
       "name": "Dataset",
       "label": {
         "en": "Dataset",
-        "de": "Enter your translation here"
+        "de": "Dataset"
       },
-      "sort": "Enter your translation here",
+      "sort": "Dataset",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1364,14 +1358,14 @@
         {
           "uri": "http://www.w3.org/ns/dcat#distribution",
           "name": "distribution",
-          "sort": "Enter your translation here",
+          "sort": "verteilung",
           "label": {
             "en": "distribution",
-            "de": "Enter your translation here"
+            "de": "verteilung"
           },
           "description": {
             "en": "the distribution of a dataset",
-            "de": "Enter your translation here"
+            "de": "die Verteilung eines Datasets"
           },
           "usage": {},
           "domain": [
@@ -1388,11 +1382,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
+              "range_uri": "#Verteilung",
               "range_puri": "http://www.w3.org/ns/dcat#Distribution",
               "range_label": {
                 "en": "Distribution",
-                "de": "Enter your translation here"
+                "de": "Verteilung"
               }
             }
           ],
@@ -1406,9 +1400,9 @@
       "name": "Distribution",
       "label": {
         "en": "Distribution",
-        "de": "Enter your translation here"
+        "de": "Verteilung"
       },
-      "sort": "Enter your translation here",
+      "sort": "Verteilung",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1416,10 +1410,10 @@
         {
           "uri": "http://www.w3.org/ns/dcat#downloadURL",
           "name": "download URL",
-          "sort": "Enter your translation here",
+          "sort": "download-URL",
           "label": {
             "en": "download URL",
-            "de": "Enter your translation here"
+            "de": "download-URL"
           },
           "description": {},
           "usage": {},
@@ -1441,12 +1435,12 @@
       "name": "Agent",
       "label": {
         "en": "Agent",
-        "de": "Enter your translation here"
+        "de": "Agent"
       },
-      "sort": "Enter your translation here",
+      "sort": "Agent",
       "description": {
         "en": "An entity that does things (does stuff)",
-        "de": "Enter your translation here"
+        "de": "Eine Entität, die Dinge tut (macht Sachen)"
       },
       "usage": {},
       "parents": [],
@@ -1457,7 +1451,7 @@
     {
       "uri": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "name": {
-        "de": "Enter your translation here",
+        "de": "Vertraulichkeitsstufe Typ",
         "en": "confidentiality level type",
         "undefined": "confidentiality level type"
       },
@@ -1473,7 +1467,7 @@
     {
       "uri": "http://data.europa.eu/m8g/cccev#datasetType",
       "name": {
-        "de": "Enter your translation here",
+        "de": "Datensatztyp",
         "en": "dataset type",
         "undefined": "dataset type"
       },
@@ -1489,7 +1483,7 @@
     {
       "uri": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
       "name": {
-        "de": "Enter your translation here",
+        "de": "Beweistypklassifizierung",
         "en": "evidence type classification",
         "undefined": "evidence type classification"
       },
@@ -1505,7 +1499,7 @@
     {
       "uri": "http://data.europa.eu/m8g/cccev#weightingType",
       "name": {
-        "de": "Enter your translation here",
+        "de": "gewichtungsart",
         "en": "weighting type",
         "undefined": "weighting type"
       },
@@ -1559,12 +1553,12 @@
       "name": "Code",
       "label": {
         "en": "Code",
-        "de": "Enter your translation here"
+        "de": "Code"
       },
-      "sort": "Enter your translation here",
+      "sort": "Code",
       "description": {
         "en": "A concept in a codelist",
-        "de": "Enter your translation here"
+        "de": "Ein Konzept in einer Codeliste"
       },
       "usage": {},
       "parents": [],
