@@ -16,18 +16,18 @@
     shacl:name "house number"@en;
     shacl:path <http://www.w3.org/ns/locn#poBox>
   ], [
+    shacl:class schemas:City;
+    shacl:definition "The city in which the address is located"@en;
+    shacl:maxCount 1;
+    shacl:name "city"@en;
+    shacl:path <http://www.w3.org/ns/locn#addressArea>
+  ], [
     shacl:datatype xsd:string;
     shacl:definition "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "post code"@en;
     shacl:path <http://www.w3.org/ns/locn#postCode>
-  ], [
-    shacl:class schemas:City;
-    shacl:definition "The city in which the address is located"@en;
-    shacl:maxCount 1;
-    shacl:name "city"@en;
-    shacl:path <http://www.w3.org/ns/locn#addressArea>
   ], [
     shacl:datatype xsd:string;
     shacl:definition "the name of the public road in a city, town, or village along the adress is located"@en;
