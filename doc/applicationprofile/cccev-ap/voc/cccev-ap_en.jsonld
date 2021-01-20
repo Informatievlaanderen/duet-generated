@@ -55,10 +55,286 @@
   "navigation": {},
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "TBD",
-  "classes": [],
-  "externals": [],
-  "properties": [],
-  "externalproperties": [],
+  "classes": [
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Constraint",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
+      },
+      "usage": {
+        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
+      },
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Criterion",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "condition for evaluation or assessment."
+      },
+      "usage": {
+        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
+      },
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Evidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "The data proving that a requirement is met or has been fulfilled."
+      },
+      "parents": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
+      },
+      "parents": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "A request for data that is proof of evidence or leads to the source of such a proof."
+      },
+      "parents": [
+        "http://data.europa.eu/m8g/cccev#Requirement"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#Requirement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "A condition demanded."
+      },
+      "parents": []
+    }
+  ],
+  "externals": [
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Constraint",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Criterion",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Evidence",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceType",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Requirement",
+      "@type": "rdfs:Class"
+    }
+  ],
+  "properties": [
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "The security classification assigned to an Evidence or, in general, to a content."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Evidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "A classification code use to specify the machine-readability of a content."
+      },
+      "usage": {
+        "en": "NOTE: this property is not needed as it is more an implementation requirement. Moreover the inheritence of DCAT already tackles the need for identifying other distributions"
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "A classification code to specify the layout and content expected for an evidence."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "en": "Relative importance assigned to a given criterion."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "The numeric form used to weight."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#Criterion"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://fixme.com#Code"
+        }
+      ],
+      "generalization": []
+    }
+  ],
+  "externalproperties": [
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#bias",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#datasetType",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#weight",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#weightingType",
+      "@type": "rdf:Property"
+    }
+  ],
   "@context": {
     "vlaanderen": "http://data.vlaanderen.be/ns/",
     "owl": "http://www.w3.org/2002/07/owl#",

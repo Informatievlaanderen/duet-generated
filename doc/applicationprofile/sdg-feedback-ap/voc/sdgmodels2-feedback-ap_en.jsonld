@@ -53,10 +53,1313 @@
   "navigation": {},
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
   "publication-date": "TBD",
-  "classes": [],
-  "externals": [],
-  "properties": [],
-  "externalproperties": [],
+  "classes": [
+    {
+      "@id": "https://sdg.semic.euAddress",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
+      },
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euCourseResult",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euEducationInstitution",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "https://sdg.semic.euOrganisation"
+      ]
+    },
+    {
+      "@id": "https://sdg.semic.euGrade",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euLocation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euOrganisation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euPerson",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euRecordOfResultsEvidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euStudent",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "https://sdg.semic.euPerson"
+      ]
+    },
+    {
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": [
+        "https://sdg.semic.euTertiaryEducationEvidence"
+      ]
+    },
+    {
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    },
+    {
+      "@id": "https://sdg.semic.euTertiaryEducationEvidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "parents": []
+    }
+  ],
+  "externals": [
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euAddress",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euCourseResult",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euEducationInstitution",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euGrade",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euLocation",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euOrganisation",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euPerson",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euRecordOfResultsEvidence",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euStudent",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euTertiaryEducationEvidence",
+      "@type": "rdfs:Class"
+    }
+  ],
+  "properties": [
+    {
+      "@id": "https://sdg.semic.euAddress.address",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euEducationInstitution"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euAddress.address",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euEducationInstitution"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euacademicProgramme",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euacademicProgrammeLanguage",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euacademicYear",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euacademicYear",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euaccessRequirement",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euaccessToFurtherStudy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euaccessToRegulatedProfession",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euadminUnitL1",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "en": "The uppermost administrative unit for the address, almost always a country."
+      },
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euadminUnitL2",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eubelongsTo",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euStudent"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucontains",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseAcademicPeriod",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseAcademicYear",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseCreditsAmount",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseFieldOfStudy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseGrade",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseLanguage",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eucourseName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euCourseResult"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eudateOfBirth",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eudistribution",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eufamilyName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eufullAddress",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "en": " \tThe complete address written as a string, with or without formatting."
+      },
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euAddress"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eugeographicIdentifier",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eugeographicName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eugivenName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eugradePointAverage",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eugradingScheme",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euidentifier",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euOrganisation"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euidentifier",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euidentifier",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euissuingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euOrganisation"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euissuingDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euissuingPlace",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eulanguage",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eulanguageOfInstruction",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eulevelOfDistinction",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eumainFieldOfStudy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eumodeOfStudy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euoverallGrade",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euplaceOfBirth",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euprefLabel",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euOrganisation"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euqualificationLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euqualificationName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euregisteredLocation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euOrganisation"
+        }
+      ],
+      "range": [
+        {
+          "uri": "https://sdg.semic.euLocation"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eusex",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euPerson"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eustatus",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eustudentID",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euStudent"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eustudyDuration",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euthesisTitle",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eutotalCredits",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.eutotalCredits",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        }
+      ],
+      "range": [],
+      "generalization": []
+    },
+    {
+      "@id": "https://sdg.semic.euvalue",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "domain": [
+        {
+          "uri": "https://sdg.semic.euGrade"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ],
+      "generalization": []
+    }
+  ],
+  "externalproperties": [
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euAddress.address",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euAddress.address",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euacademicProgramme",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euacademicProgrammeLanguage",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euacademicYear",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euacademicYear",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euaccessRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euaccessToFurtherStudy",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euaccessToRegulatedProfession",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euadminUnitL1",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euadminUnitL2",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eubelongsTo",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucontains",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseAcademicPeriod",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseAcademicYear",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseCreditsAmount",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseFieldOfStudy",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseGrade",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseLanguage",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eucourseName",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eudateOfBirth",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eudistribution",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eufamilyName",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eufullAddress",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eugeographicIdentifier",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eugeographicName",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eugivenName",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eugradePointAverage",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eugradingScheme",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euidentifier",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euidentifier",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euidentifier",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euissuingAuthority",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euissuingDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euissuingPlace",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eulanguage",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eulanguageOfInstruction",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eulevelOfDistinction",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eumainFieldOfStudy",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eumodeOfStudy",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euoverallGrade",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euplaceOfBirth",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euprefLabel",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euqualificationLevel",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euqualificationName",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euregisteredLocation",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eusex",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eustatus",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eustudentID",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eustudyDuration",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euthesisTitle",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eutotalCredits",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.eutotalCredits",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "https://sdg.semic.euvalue",
+      "@type": "rdf:Property"
+    }
+  ],
   "@context": {
     "vlaanderen": "http://data.vlaanderen.be/ns/",
     "owl": "http://www.w3.org/2002/07/owl#",
