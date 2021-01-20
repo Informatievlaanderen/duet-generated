@@ -3,12 +3,19 @@
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/city-demo_en> <https://duet.dev-vlaanderen.be/shacl/city-demo_enshapes> <https://duet.dev-vlaanderen.be/shacl/city-demo_en#AddressShape>,
-    <https://duet.dev-vlaanderen.be/shacl/city-demo_en#CityShape> .
+<https://duet.dev-vlaanderen.be/shacl/city-demo_en> <https://duet.dev-vlaanderen.be/shacl/city-demo_enshapes> <https://duet.dev-vlaanderen.be/shacl/city-demo_en#CityShape>,
+    <https://duet.dev-vlaanderen.be/shacl/city-demo_en#AddressShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/city-demo_en#AddressShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:string;
+    shacl:definition "the name of the public road in a city, town, or village along the adress is located"@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "street name"@en;
+    shacl:path <http://www.w3.org/ns/locn#thoroughfare>
+  ], [
     shacl:datatype xsd:string;
     shacl:definition "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"@en;
     shacl:maxCount 1;
@@ -28,13 +35,6 @@
     shacl:minCount 1;
     shacl:name "post code"@en;
     shacl:path <http://www.w3.org/ns/locn#postCode>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "the name of the public road in a city, town, or village along the adress is located"@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "street name"@en;
-    shacl:path <http://www.w3.org/ns/locn#thoroughfare>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
 
