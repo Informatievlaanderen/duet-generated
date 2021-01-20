@@ -6,22 +6,22 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape>,
+<https://duet.dev-vlaanderen.be/shacl/cccev-ap_de> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#InformationRequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape>,
     <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape> .
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ReferenceFrameworkShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape> a shacl:NodeShape;
   shacl:closed false;
@@ -34,11 +34,6 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://data.europa.eu/m8g/cccev#Constraint>;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasConstraint>
-  ], [
     shacl:datatype xsd:string;
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
@@ -49,15 +44,20 @@
     shacl:name "Enter your translation here"@de;
     shacl:path dc:description
   ], [
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path dc:identifier
-  ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@de;
     shacl:path dc:type
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Constraint>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasConstraint>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path dc:identifier
   ];
   shacl:targetClass <http://fixme.com#Concept> .
 
@@ -68,10 +68,11 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CriterionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <http://fixme.com#Code>;
     shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#weight>
+    shacl:path <http://data.europa.eu/m8g/cccev#weightingType>
   ], [
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
@@ -83,11 +84,10 @@
     shacl:name "Enter your translation here"@de;
     shacl:path <http://data.europa.eu/m8g/cccev#weightingConsiderationDescription>
   ], [
-    shacl:class <http://fixme.com#Code>;
     shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#weightingType>
+    shacl:path <http://data.europa.eu/m8g/cccev#weight>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Criterion> .
 
@@ -113,6 +113,16 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class foaf:Agent;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#isAbout>
+  ], [
+    shacl:class <http://fixme.com#Concept>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#supportsConcept>
+  ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
@@ -123,22 +133,17 @@
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
     shacl:path <http://data.europa.eu/m8g/cccev#isComformantWith>
-  ], [
-    shacl:class foaf:Agent;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#isAbout>
-  ], [
-    shacl:class <http://fixme.com#Concept>;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#supportsConcept>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Evidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeListShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:string;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path skos:prefLabel
+  ], [
     shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@de;
@@ -148,22 +153,12 @@
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
     shacl:path dc:description
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path skos:prefLabel
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceTypeList> .
 
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#EvidenceTypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#isSpecifiedIn>
-  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@de;
@@ -180,6 +175,11 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@de;
     shacl:path <http://data.europa.eu/m8g/cccev#datasetType>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#isSpecifiedIn>
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceType> .
 
@@ -194,10 +194,25 @@
 <https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#RequirementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:string;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path skos:prefLabel
+  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
     shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
+  ], [
+    shacl:class <http://fixme.com#Concept>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasConcept>
   ], [
     shacl:class <http://fixme.com#Code>;
     shacl:definition "Enter your translation here"@de;
@@ -205,34 +220,10 @@
     shacl:name "Enter your translation here"@de;
     shacl:path dc:type
   ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path skos:prefLabel
-  ], [
     shacl:class <http://data.europa.eu/m8g/cccev#ReferenceFramework>;
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
     shacl:path <http://data.europa.eu/m8g/cccev#isDerivedFrom>
-  ], [
-    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
-  ], [
-    shacl:definition "Enter your translation here"@de;
-    shacl:name "Enter your translation here"@de;
-    shacl:path dc:identifier
   ], [
     shacl:class <http://data.europa.eu/m8g/cccev#EvidenceTypeList>;
     shacl:definition "Enter your translation here"@de;
@@ -244,10 +235,19 @@
     shacl:name "Enter your translation here"@de;
     shacl:path dc:description
   ], [
-    shacl:class <http://fixme.com#Concept>;
+    shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
     shacl:definition "Enter your translation here"@de;
     shacl:name "Enter your translation here"@de;
-    shacl:path <http://data.europa.eu/m8g/cccev#hasConcept>
+    shacl:path <http://data.europa.eu/m8g/cccev#hasSupportingEvidence>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/cccev#Requirement>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <http://data.europa.eu/m8g/cccev#hasRequirement>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path dc:identifier
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Requirement> .
 
