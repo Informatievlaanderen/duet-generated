@@ -1,8 +1,25 @@
 {
   "@context": {
-    "EnterYourTranslationHere": "https://schema.org/City",
-    "EnterYourTranslationHere.enterYourTranslationHere": {
+    "Adresse": "http://www.w3.org/ns/locn#Address",
+    "Adresse.hausnummer": {
+      "@id": "http://www.w3.org/ns/locn#poBox",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Adresse.postleitzahl": {
+      "@id": "http://www.w3.org/ns/locn#postCode",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Adresse.stadt": {
+      "@id": "http://www.w3.org/ns/locn#addressArea",
+      "@type": "@id"
+    },
+    "Adresse.strassenname": {
       "@id": "http://www.w3.org/ns/locn#thoroughfare",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Stadt": "https://schema.org/City",
+    "Stadt.name": {
+      "@id": "http://www.w3.org/ns/locn#geographicName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
   }

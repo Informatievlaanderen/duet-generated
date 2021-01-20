@@ -47,47 +47,47 @@
         {
           "sh:class": "https://schema.org/City",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Die Stadt in der sich die Adressen befinden."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "stadt"
           },
           "sh:path": "http://www.w3.org/ns/locn#addressArea"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern"
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "hausnummer"
           },
           "sh:path": "http://www.w3.org/ns/locn#poBox"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "postleitzahl"
           },
           "sh:path": "http://www.w3.org/ns/locn#postCode"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich"
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "strassenname"
           },
           "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
         }
@@ -102,12 +102,12 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "der Name der Stadt"
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "name"
           },
           "sh:path": "http://www.w3.org/ns/locn#geographicName"
         }

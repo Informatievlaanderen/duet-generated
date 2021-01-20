@@ -56,29 +56,29 @@
           "qb:codeList": "http://publications.europa.eu/resource/authority/country",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "Verwaltungseinheit Ebene 1"
           },
           "sh:path": "https://sdg.semic.euadminUnitL1"
         },
         {
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "Verwaltungseinheit Ebene 2"
           },
           "sh:path": "https://sdg.semic.euadminUnitL2"
         },
         {
           "sh:definition": {
-            "de": "Enter your translation here"
+            "de": "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "de": "Enter your translation here"
+            "de": "vollständige Adresse"
           },
           "sh:path": "https://sdg.semic.eufullAddress"
         },

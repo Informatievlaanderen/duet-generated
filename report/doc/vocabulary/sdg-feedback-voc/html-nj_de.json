@@ -10,8 +10,8 @@
     "license": "TBD",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "statuslabel": "Ontwerpdocument",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/d741218cba6dc44e97d68fe230b41eb53b95bbbd",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/d741218cba6dc44e97d68fe230b41eb53b95bbbd/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/640113fb7448ddbde18121514b3195922e961109",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/640113fb7448ddbde18121514b3195922e961109/CHANGELOG",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
     "usesVocs": [],
@@ -23,12 +23,12 @@
       "name": "Address",
       "label": {
         "en": "Address",
-        "de": "Enter your translation here"
+        "de": "Adresse"
       },
-      "sort": "Enter your translation here",
+      "sort": "Adresse",
       "description": {
         "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.",
-        "de": "Enter your translation here"
+        "de": "Eine durch den INSPIRE Address Representation Datentyp konzeptionell definierte \"Adressendarstellung\"."
       },
       "usage": {},
       "equivalent": [],
@@ -404,12 +404,12 @@
       "name": "Admin unit Level 1",
       "label": {
         "en": "Admin unit Level 1",
-        "de": "Enter your translation here"
+        "de": "Verwaltungseinheit Ebene 1"
       },
-      "sort": "Enter your translation here",
+      "sort": "Verwaltungseinheit Ebene 1",
       "description": {
         "en": "The uppermost administrative unit for the address, almost always a country.",
-        "de": "Enter your translation here"
+        "de": "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."
       },
       "usage": {},
       "domain": [
@@ -425,9 +425,9 @@
       "name": "admin unit Level 2",
       "label": {
         "en": "admin unit Level 2",
-        "de": "Enter your translation here"
+        "de": "Verwaltungseinheit Ebene 2"
       },
-      "sort": "Enter your translation here",
+      "sort": "Verwaltungseinheit Ebene 2",
       "description": {},
       "usage": {},
       "domain": [
@@ -611,12 +611,12 @@
       "name": "full address",
       "label": {
         "en": "full address",
-        "de": "Enter your translation here"
+        "de": "vollständige Adresse"
       },
-      "sort": "Enter your translation here",
+      "sort": "vollständige Adresse",
       "description": {
         "en": " \tThe complete address written as a string, with or without formatting.",
-        "de": "Enter your translation here"
+        "de": "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
       },
       "usage": {},
       "domain": [
