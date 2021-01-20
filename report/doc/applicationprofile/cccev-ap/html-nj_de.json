@@ -377,47 +377,6 @@
           ],
           "cardinality": "0..*",
           "codelist_uri": ""
-        },
-        {
-          "uri": "http://data.europa.eu/m8g/cccev#supportsRequirement",
-          "name": "supports requirement",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "supports requirement",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "the supported requirement by the evidence",
-            "de": "Enter your translation here"
-          },
-          "usage": {
-            "en": "Used to express details about the information requested by the requirement.",
-            "de": "Enter your translation here"
-          },
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/cccev#Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Enter your translation here",
-              "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "range_label": {
-                "en": "Requirement",
-                "de": "Enter your translation here"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
         }
       ]
     },
@@ -525,10 +484,45 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
-          "name": "is specified in",
+          "name": "specifies evidence type",
           "sort": "Enter your translation here",
           "label": {
-            "en": "is specified in",
+            "en": "specifies evidence type",
+            "de": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
+              "EA-Name": "EvidenceType"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "EvidenceTypeList",
+              "range_uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+              "range_label": {
+                "en": "Evidence Type List",
+                "de": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
+          "name": "specifies evidence type",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "specifies evidence type",
             "de": "Enter your translation here"
           },
           "description": {},
@@ -573,41 +567,6 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://data.europa.eu/m8g/cccev#specifiesEvidenceType",
-          "name": "specifies evidence type",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "specifies evidence type",
-            "de": "Enter your translation here"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "EvidenceType",
-              "range_uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Enter your translation here",
-              "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceType",
-              "range_label": {
-                "en": "Evidence type",
-                "de": "Enter your translation here"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
           "uri": "http://purl.org/dc/terms/description",
           "name": "description",
           "sort": "Enter your translation here",
@@ -616,81 +575,7 @@
             "de": "Enter your translation here"
           },
           "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.",
-            "de": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/description",
-          "name": "description",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "description",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.",
-            "de": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/description",
-          "name": "description",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "description",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.",
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.",
             "de": "Enter your translation here"
           },
           "usage": {},
@@ -727,55 +612,7 @@
             "de": "Enter your translation here"
           },
           "description": {
-            "en": "An unambiguous reference",
-            "de": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/identifier",
-          "name": "identifier",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "identifier",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "An unambiguous reference",
-            "de": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/identifier",
-          "name": "identifier",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "identifier",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "An unambiguous reference",
+            "en": "An unambiguous reference to an Evidence Type List",
             "de": "Enter your translation here"
           },
           "usage": {},
@@ -799,81 +636,7 @@
             "de": "Enter your translation here"
           },
           "description": {
-            "en": "A name to identify in common language the Requirement",
-            "de": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "name",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "name",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "A name to identify in common language the Requirement",
-            "de": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "name",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "name",
-            "de": "Enter your translation here"
-          },
-          "description": {
-            "en": "A name to identify in common language the Requirement",
+            "en": "A name to identify in common language the Evidence Type List",
             "de": "Enter your translation here"
           },
           "usage": {},
@@ -1044,17 +807,20 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
-          "name": "has requirement",
+          "name": "is requirement of",
           "sort": "Enter your translation here",
           "label": {
-            "en": "has requirement",
+            "en": "is requirement of",
             "de": "Enter your translation here"
           },
           "description": {
             "en": "a related requirement",
             "de": "Enter your translation here"
           },
-          "usage": {},
+          "usage": {
+            "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
+            "de": "Enter your translation here"
+          },
           "domain": [
             {
               "uri": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -1082,18 +848,18 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
-          "name": "has supporting evidence",
+          "name": "supports requirement",
           "sort": "Enter your translation here",
           "label": {
-            "en": "has supporting evidence",
+            "en": "supports requirement",
             "de": "Enter your translation here"
           },
           "description": {
-            "en": "the kind of evidences that the requirement expects",
+            "en": "the supported requirement by the evidence",
             "de": "Enter your translation here"
           },
           "usage": {
-            "en": "NOTE: label should be change",
+            "en": "Used to express details about the information requested by the requirement.",
             "de": "Enter your translation here"
           },
           "domain": [
@@ -1160,14 +926,17 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://data.europa.eu/m8g/cccev#isRequirementOf",
+          "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
           "name": "is requirement of",
           "sort": "Enter your translation here",
           "label": {
             "en": "is requirement of",
             "de": "Enter your translation here"
           },
-          "description": {},
+          "description": {
+            "en": "a related requirement",
+            "de": "Enter your translation here"
+          },
           "usage": {
             "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
             "de": "Enter your translation here"
@@ -1191,6 +960,183 @@
               "range_label": {
                 "en": "Requirement",
                 "de": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
+          "name": "supports requirement",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "supports requirement",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "the supported requirement by the evidence",
+            "de": "Enter your translation here"
+          },
+          "usage": {
+            "en": "Used to express details about the information requested by the requirement.",
+            "de": "Enter your translation here"
+          },
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Evidence",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Evidence"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Evidence",
+              "range_label": {
+                "en": "Evidence",
+                "de": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "description",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "identifier",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "An unambiguous reference",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/type",
+          "name": "type",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "type",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "the category or type to which the requirement belongs",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Code",
+              "range_uri": "http://fixme.com#Code"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://fixme.com#Code",
+              "range_label": {
+                "en": "Code",
+                "de": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "name",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "A name to identify in common language the Requirement",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
+              "EA-Name": "Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
               }
             }
           ],
@@ -1253,6 +1199,67 @@
           "codelist_uri": ""
         },
         {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "description",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Concept",
+              "EA-Name": "Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "identifier",
+            "de": "Enter your translation here"
+          },
+          "description": {
+            "en": "An unambiguous reference to RequirementConcept",
+            "de": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://fixme.com#Concept",
+              "EA-Name": "Concept"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
           "uri": "http://purl.org/dc/terms/type",
           "name": "type",
           "sort": "Enter your translation here",
@@ -1261,7 +1268,7 @@
             "de": "Enter your translation here"
           },
           "description": {
-            "en": "the category or type to which the requirement belongs",
+            "en": "a classification of the RequirementConcept",
             "de": "Enter your translation here"
           },
           "usage": {},
@@ -1291,15 +1298,15 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://purl.org/dc/terms/type",
-          "name": "type",
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "name",
           "sort": "Enter your translation here",
           "label": {
-            "en": "type",
+            "en": "name",
             "de": "Enter your translation here"
           },
           "description": {
-            "en": "the category or type to which the requirement belongs",
+            "en": "A name to identify in common language the RequirementConcept",
             "de": "Enter your translation here"
           },
           "usage": {},
@@ -1311,21 +1318,20 @@
           ],
           "range": [
             {
-              "range_label": "Code",
-              "range_uri": "http://fixme.com#Code"
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Enter your translation here",
-              "range_puri": "http://fixme.com#Code",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
               "range_label": {
-                "en": "Code",
-                "de": "Enter your translation here"
+                "de": "String"
               }
             }
           ],
-          "cardinality": "0..1",
+          "cardinality": "0..*",
           "codelist_uri": ""
         }
       ]

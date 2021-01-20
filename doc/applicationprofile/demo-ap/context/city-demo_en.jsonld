@@ -1,26 +1,3 @@
 {
-  "@context": {
-    "Address": "http://www.w3.org/ns/locn#Address",
-    "Address.city": {
-      "@id": "http://www.w3.org/ns/locn#addressArea",
-      "@type": "@id"
-    },
-    "Address.houseNumber": {
-      "@id": "http://www.w3.org/ns/locn#poBox",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "Address.postCode": {
-      "@id": "http://www.w3.org/ns/locn#postCode",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "Address.streetName": {
-      "@id": "http://www.w3.org/ns/locn#thoroughfare",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "City": "https://schema.org/City",
-    "City.name": {
-      "@id": "http://www.w3.org/ns/locn#geographicName",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    }
-  }
+  "@context": {}
 }
