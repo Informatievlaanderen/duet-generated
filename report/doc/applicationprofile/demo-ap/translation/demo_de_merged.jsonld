@@ -1,1 +1,755 @@
-{"@context":{"vlaanderen":"http://data.vlaanderen.be/ns/","owl":"http://www.w3.org/2002/07/owl#","void":"http://rdfs.org/ns/void#","dcterms":"http://purl.org/dc/terms/","rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","dcat":"http://www.w3.org/ns/dcat#","sdmx-dimension":"http://purl.org/linked-data/sdmx/2009/dimension#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","sdmx-attribute":"http://purl.org/linked-data/sdmx/2009/attribute#","qb":"http://purl.org/linked-data/cube#","skos":"http://www.w3.org/2004/02/skos/core#","xsd":"http://www.w3.org/2001/XMLSchema#","sdmx-concept":"http://purl.org/linked-data/sdmx/2009/concept#","foaf":"http://xmlns.com/foaf/0.1/","person":"http://www.w3.org/ns/person#","rec":"http://www.w3.org/2001/02pd/rec54#","vann":"http://purl.org/vocab/vann/","sh":"http://w3.org/ns/shacl#","label":{"@id":"rdfs:label","@container":"@language"},"modified":{"@id":"dcterms:modified","@type":"xsd:date"},"issued":{"@id":"dcterms:issued"},"authors":{"@type":"foaf:Person","@id":"foaf:maker"},"editors":{"@type":"foaf:Person","@id":"rec:editor"},"contributors":{"@type":"foaf:Person","@id":"dcterms:contributor"},"affiliation":{"@id":"http://schema.org/affiliation"},"classes":{"@reverse":"rdfs:isDefinedBy"},"datatypes":{"@reverse":"rdfs:isDefinedBy"},"name":{"@id":"rdfs:label"},"properties":{"@reverse":"rdfs:isDefinedBy"},"domain":{"@id":"rdfs:domain"},"range":{"@id":"rdfs:range"},"minCardinality":{"@id":"sh:minCount"},"maxCardinality":{"@id":"sh:maxCount"},"generalization":{"@id":"rdfs:subPropertyOf"},"externals":{"@type":"http://www.w3.org/2000/01/rdf-schema#Class","@id":"rdfs:seeAlso"}},"@id":"http://fixme.com","@type":"http://www.w3.org/2002/07/owl#Ontology","label":{"nl":"city-demo","en":"city-demo"},"issued":"TODO","license":"https://creativecommons.org/licenses/by/4.0/","extra":{"EA-Name":"demo","EA-Guid":"{1C43F8A1-3CAA-4198-ACA3-B0013E546CD5}","issued":"TODO","license":"TODO","RawTags":[]},"authors":[{"foaf:firstName":"AuteurVoornaam","foaf:lastName":"AuteurNaam","affiliation":{"foaf:name":"AuteurAffiliatie","foaf:homepage":"https://auteurwebsiteurl"},"foaf:mbox":"auteurvoornaam.auteurnaam@auteurdomein","@type":"foaf:Person"}],"editors":[{"foaf:firstName":"EditorVoornaam","foaf:lastName":"EditorNaam","affiliation":{"foaf:name":"EditorAffiliatie","foaf:homepage":"https://editorwebsiteurl"},"foaf:mbox":"editorvoornaam.editornaam@editordomein","@type":"foaf:Person"}],"contributors":[{"foaf:firstName":"MedewerkerVoornaam","foaf:lastName":"MedewerkerNaam","affiliation":{"foaf:name":"MedewerkerAffiliatie","foaf:homepage":"https://medewerkerwebsiteurl"},"foaf:mbox":"medewerkervoornaam.medewerkernaam@medewerkerdomein","@type":"foaf:Person"}],"classes":[],"properties":[],"externals":[{"@id":"http://www.w3.org/ns/locn#Address","@type":"http://www.w3.org/2002/07/owl#Class","inpackage":"OTHER_PACKAGE","ap-definition-en":{"en":"the particulars of the place where someone lives or an organization is situated."},"ap-label-en":{"en":"Address"},"definition":{"en":"the particulars of the place where someone lives or an organization is situated.","de":"die Einzelheiten des Ortes, an dem jemand lebt oder an dem sich eine Organisation befindet."},"label":{"en":"Address","de":"Adresse"},"extra":{"EA-Name":"Address","EA-Guid":"{78F91463-C61D-4fdb-83AF-D4696761B8D3}","EA-Package":"demo","EA-Type":"CLASS","EA-Parents":"","EA-Parents2":[],"parentclasses":"","label":{"en":"Address"},"definition":{"en":"the particulars of the place where someone lives or an organization is situated."},"usage":"","ap-label-en":{"en":"Address"},"ap-definition-en":{"en":"the particulars of the place where someone lives or an organization is situated."},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"label-en","value":"Address","note":"null"},{"key":"definition-en","value":"the particulars of the place where someone lives or an organization is situated.","note":"null"},{"key":"uri","value":"http://www.w3.org/ns/locn#Address","note":"null"}],"Scope":"TRANSLATIONS_ONLY"},"name":"Address","EA-Guid":"{78F91463-C61D-4fdb-83AF-D4696761B8D3}"},{"@id":"https://schema.org/City","@type":"http://www.w3.org/2002/07/owl#Class","inpackage":"OTHER_PACKAGE","ap-definition-en":{"en":"a human settlement"},"ap-label-en":{"en":"City"},"definition":{"en":"a human settlement","de":"eine menschliche Siedlung"},"label":{"en":"City","de":"Stadt"},"extra":{"EA-Name":"City","EA-Guid":"{A9812633-89DF-4cea-9BD2-335731183BF4}","EA-Package":"demo","EA-Type":"CLASS","EA-Parents":"","EA-Parents2":[],"parentclasses":"","label":{"en":"City"},"definition":{"en":"a human settlement"},"usage":"","ap-label-en":{"en":"City"},"ap-definition-en":{"en":"a human settlement"},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"label-en","value":"City","note":"null"},{"key":"definition-en","value":"a human settlement","note":"null"},{"key":"uri","value":"https://schema.org/City","note":"null"}],"Scope":"TRANSLATIONS_ONLY"},"name":"City","EA-Guid":"{A9812633-89DF-4cea-9BD2-335731183BF4}"}],"externalproperties":[{"@id":"http://www.w3.org/ns/locn#addressArea","@type":"http://www.w3.org/2002/07/owl#ObjectProperty","name":"city","inpackage":"ACTIVE_PACKAGE","ap-definition-en":{"en":"The city in which the address is located"},"ap-label-en":{"en":"city"},"definition":{"en":"The city in which the address is located","de":"Die Stadt in der sich die Adressen befinden."},"label":{"en":"city","de":"stadt"},"extra":{"EA-Name":"city","EA-Guid":"{CAB8052B-77F2-430b-9C5B-488121FA55C2}","derived":"false","EA-Package":"","EA-Type":"connector","EA-Domain":"Address","EA-Domain-Guid":"{78F91463-C61D-4fdb-83AF-D4696761B8D3}","EA-Range":"City","RangeData":{"EA-Name":"City","EA-GUID":"{A9812633-89DF-4cea-9BD2-335731183BF4}","EA-Package":"demo","uri":"https://schema.org/City"},"sourceRole":"null","destRole":"city","label":{"en":"city"},"definition":{"en":"The city in which the address is located"},"usage":"","ap-label-en":{"en":"city"},"ap-definition-en":{"en":"The city in which the address is located"},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"uri","value":"NOTE","note":"http://www.w3.org/ns/locn#addressArea"},{"key":"label-en","value":"NOTE","note":"city"},{"key":"definition-en","value":"NOTE","note":"The city in which the address is located"}],"DestRoleTags":[{"key":"uri","value":"NOTE","note":"http://www.w3.org/ns/locn#addressArea"},{"key":"label-en","value":"NOTE","note":"city"},{"key":"definition-en","value":"NOTE","note":"The city in which the address is located"}],"Scope":"TRANSLATIONS_ONLY"},"codelist":[],"domain":[{"uri":"http://www.w3.org/ns/locn#Address","EA-Name":"Address"}],"range":[{"EA-Name":"City","EA-GUID":"{A9812633-89DF-4cea-9BD2-335731183BF4}","EA-Package":"demo","uri":"https://schema.org/City"}],"generalization":[],"minCardinality":"0","maxCardinality":"1","EA-Guid":"{CAB8052B-77F2-430b-9C5B-488121FA55C2}"},{"@id":"http://www.w3.org/ns/locn#geographicName","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty","name":"name","inpackage":"OTHER_PACKAGE","ap-definition-en":{"en":"the name of the city"},"ap-label-en":{"en":"name"},"definition":{"en":"the name of the city","de":"der Name der Stadt"},"label":{"en":"name","de":"name"},"extra":{"EA-Name":"name","EA-Guid":"{3851A671-221B-4dbc-BA00-FFF7AC7E3855}","EA-Package":"demo","EA-Type":"attribute","EA-Domain":"City","EA-Domain-Guid":"{A9812633-89DF-4cea-9BD2-335731183BF4}","EA-Range":"String","RangeData":{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"},"label":{"en":"name"},"definition":{"en":"the name of the city"},"usage":"","ap-label-en":{"en":"name"},"ap-definition-en":{"en":"the name of the city"},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"label-en","value":"name","note":"null"},{"key":"definition-en","value":"the name of the city","note":"null"},{"key":"uri","value":"http://www.w3.org/ns/locn#geographicName","note":"null"}],"Scope":"TRANSLATIONS_ONLY"},"codelist":[],"domain":[{"uri":"https://schema.org/City","EA-Name":"City"}],"range":[{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"}],"generalization":[],"minCardinality":"1","maxCardinality":"1","EA-Guid":"{3851A671-221B-4dbc-BA00-FFF7AC7E3855}"},{"@id":"http://www.w3.org/ns/locn#poBox","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty","name":"house number","inpackage":"OTHER_PACKAGE","ap-definition-en":{"en":"An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"},"ap-label-en":{"en":"house number"},"definition":{"en":"An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses","de":"Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern"},"label":{"en":"house number","de":"hausnummer"},"extra":{"EA-Name":"housenumber","EA-Guid":"{F73F0FBA-28B1-4c08-AE7D-49867F297512}","EA-Package":"demo","EA-Type":"attribute","EA-Domain":"Address","EA-Domain-Guid":"{78F91463-C61D-4fdb-83AF-D4696761B8D3}","EA-Range":"String","RangeData":{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"},"label":{"en":"house number"},"definition":{"en":"An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"},"usage":"","ap-label-en":{"en":"house number"},"ap-definition-en":{"en":"An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"label-en","value":"house number","note":"null"},{"key":"definition-en","value":"An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses","note":"null"},{"key":"uri","value":"http://www.w3.org/ns/locn#poBox","note":"null"}],"Scope":"TRANSLATIONS_ONLY"},"codelist":[],"domain":[{"uri":"http://www.w3.org/ns/locn#Address","EA-Name":"Address"}],"range":[{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"}],"generalization":[],"minCardinality":"1","maxCardinality":"1","EA-Guid":"{F73F0FBA-28B1-4c08-AE7D-49867F297512}"},{"@id":"http://www.w3.org/ns/locn#postCode","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty","name":"post code","inpackage":"OTHER_PACKAGE","ap-definition-en":{"en":"A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."},"ap-label-en":{"en":"post code"},"definition":{"en":"A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail.","de":"Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern."},"label":{"en":"post code","de":"postleitzahl"},"extra":{"EA-Name":"postcode","EA-Guid":"{E2946B43-8F13-46f4-B1D2-81E7F4C8CB5C}","EA-Package":"demo","EA-Type":"attribute","EA-Domain":"Address","EA-Domain-Guid":"{78F91463-C61D-4fdb-83AF-D4696761B8D3}","EA-Range":"String","RangeData":{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"},"label":{"en":"post code"},"definition":{"en":"A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."},"usage":"","ap-label-en":{"en":"post code"},"ap-definition-en":{"en":"A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"label-en","value":"post code","note":"null"},{"key":"definition-en","value":"A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail.","note":"null"},{"key":"uri","value":"http://www.w3.org/ns/locn#postCode","note":"null"}],"Scope":"TRANSLATIONS_ONLY"},"codelist":[],"domain":[{"uri":"http://www.w3.org/ns/locn#Address","EA-Name":"Address"}],"range":[{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"}],"generalization":[],"minCardinality":"1","maxCardinality":"1","EA-Guid":"{E2946B43-8F13-46f4-B1D2-81E7F4C8CB5C}"},{"@id":"http://www.w3.org/ns/locn#thoroughfare","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty","name":"street name","inpackage":"OTHER_PACKAGE","ap-definition-en":{"en":"the name of the public road in a city, town, or village along the adress is located"},"ap-label-en":{"en":"street name"},"definition":{"en":"the name of the public road in a city, town, or village along the adress is located","de":"Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich"},"label":{"en":"street name","de":"strassenname"},"extra":{"EA-Name":"streetname","EA-Guid":"{5B5878F5-587E-4559-B430-43C3F6D2C4F1}","EA-Package":"demo","EA-Type":"attribute","EA-Domain":"Address","EA-Domain-Guid":"{78F91463-C61D-4fdb-83AF-D4696761B8D3}","EA-Range":"String","RangeData":{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"},"label":{"en":"street name"},"definition":{"en":"the name of the public road in a city, town, or village along the adress is located"},"usage":"","ap-label-en":{"en":"street name"},"ap-definition-en":{"en":"the name of the public road in a city, town, or village along the adress is located"},"ap-usageNote-en":"","ap-codelist":"","RawTags":[{"key":"label-en","value":"street name","note":"null"},{"key":"definition-en","value":"the name of the public road in a city, town, or village along the adress is located","note":"null"},{"key":"uri","value":"http://www.w3.org/ns/locn#thoroughfare","note":"null"}],"Scope":"TRANSLATIONS_ONLY"},"codelist":[],"domain":[{"uri":"http://www.w3.org/ns/locn#Address","EA-Name":"Address"}],"range":[{"EA-Name":"String","EA-Package":"","uri":"http://www.w3.org/2001/XMLSchema#string"}],"generalization":[],"minCardinality":"1","maxCardinality":"1","EA-Guid":"{5B5878F5-587E-4559-B430-43C3F6D2C4F1}"}],"name":"city-demo","type":"ap","eap":"city.eap","diagram":"demo","template":"demo_de.j2","title":"Demo-De","publication-state":"https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard","publication-date":"TBD","contributors-file":"stakeholders.csv","contributors-column":"MijnKolom","site":"site-skeleton/demo","feedbackurl":"","standaardregisterurl":"","translation":[{"language":"en","template":"demo_en.j2","title":"Demo-En","translationjson":"demo_en.json","mergefile":"demo_en_merged.jsonld"},{"language":"de","template":"demo_de.j2","title":"Demo-De","translationjson":"demo_de.json","mergefile":"demo_de_merged.jsonld"},{"language":"nl","template":"demo_nl.j2","title":"Demo-Nl","translationjson":"demo_nl.json","mergefile":"demo_nl_merged.jsonld"}],"config":"config/config-ap.json","urlref":"/doc/applicationprofile/demo-ap","repository":"https://github.com/AnnemarieWittig/englishworkspace","branchtag":"main","filename":"config/city.json","examples":true,"navigation":{},"documentcommit":"640113fb7448ddbde18121514b3195922e961109","toolchaincommit":"75b7310b986657f02774d9ca27fd9194fa71f2e9","hostname":"https://duet.dev-vlaanderen.be"}
+{
+  "@context": {
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "authors": {
+      "@id": "foaf:maker",
+      "@type": "foaf:Person"
+    },
+    "classes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "contributors": {
+      "@id": "dcterms:contributor",
+      "@type": "foaf:Person"
+    },
+    "datatypes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "domain": {
+      "@id": "rdfs:domain"
+    },
+    "editors": {
+      "@id": "rec:editor",
+      "@type": "foaf:Person"
+    },
+    "externals": {
+      "@id": "rdfs:seeAlso",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Class"
+    },
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "generalization": {
+      "@id": "rdfs:subPropertyOf"
+    },
+    "issued": {
+      "@id": "dcterms:issued"
+    },
+    "label": {
+      "@container": "@language",
+      "@id": "rdfs:label"
+    },
+    "maxCardinality": {
+      "@id": "sh:maxCount"
+    },
+    "minCardinality": {
+      "@id": "sh:minCount"
+    },
+    "modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:date"
+    },
+    "name": {
+      "@id": "rdfs:label"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "person": "http://www.w3.org/ns/person#",
+    "properties": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "qb": "http://purl.org/linked-data/cube#",
+    "range": {
+      "@id": "rdfs:range"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rec": "http://www.w3.org/2001/02pd/rec54#",
+    "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
+    "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+    "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+    "sh": "http://w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vann": "http://purl.org/vocab/vann/",
+    "vlaanderen": "http://data.vlaanderen.be/ns/",
+    "void": "http://rdfs.org/ns/void#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://fixme.com",
+  "@type": "http://www.w3.org/2002/07/owl#Ontology",
+  "authors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://auteurwebsiteurl",
+        "foaf:name": "AuteurAffiliatie"
+      },
+      "foaf:firstName": "AuteurVoornaam",
+      "foaf:lastName": "AuteurNaam",
+      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein"
+    }
+  ],
+  "branchtag": "main",
+  "classes": [],
+  "config": "config/config-ap.json",
+  "contributors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://medewerkerwebsiteurl",
+        "foaf:name": "MedewerkerAffiliatie"
+      },
+      "foaf:firstName": "MedewerkerVoornaam",
+      "foaf:lastName": "MedewerkerNaam",
+      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein"
+    }
+  ],
+  "contributors-column": "MijnKolom",
+  "contributors-file": "stakeholders.csv",
+  "diagram": "demo",
+  "documentcommit": "640113fb7448ddbde18121514b3195922e961109",
+  "eap": "city.eap",
+  "editors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://editorwebsiteurl",
+        "foaf:name": "EditorAffiliatie"
+      },
+      "foaf:firstName": "EditorVoornaam",
+      "foaf:lastName": "EditorNaam",
+      "foaf:mbox": "editorvoornaam.editornaam@editordomein"
+    }
+  ],
+  "examples": true,
+  "externalproperties": [
+    {
+      "@id": "http://www.w3.org/ns/locn#addressArea",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{CAB8052B-77F2-430b-9C5B-488121FA55C2}",
+      "ap-definition-en": {
+        "en": "The city in which the address is located"
+      },
+      "ap-label-en": {
+        "en": "city"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Die Stadt in der sich die Adressen befinden.",
+        "en": "The city in which the address is located"
+      },
+      "domain": [
+        {
+          "EA-Name": "Address",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/locn#addressArea",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "city",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The city in which the address is located",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Address",
+        "EA-Domain-Guid": "{78F91463-C61D-4fdb-83AF-D4696761B8D3}",
+        "EA-Guid": "{CAB8052B-77F2-430b-9C5B-488121FA55C2}",
+        "EA-Name": "city",
+        "EA-Package": "",
+        "EA-Range": "City",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{A9812633-89DF-4cea-9BD2-335731183BF4}",
+          "EA-Name": "City",
+          "EA-Package": "demo",
+          "uri": "https://schema.org/City"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/locn#addressArea",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "city",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The city in which the address is located",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The city in which the address is located"
+        },
+        "ap-label-en": {
+          "en": "city"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The city in which the address is located"
+        },
+        "derived": "false",
+        "destRole": "city",
+        "label": {
+          "en": "city"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "de": "stadt",
+        "en": "city"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "city",
+      "range": [
+        {
+          "EA-GUID": "{A9812633-89DF-4cea-9BD2-335731183BF4}",
+          "EA-Name": "City",
+          "EA-Package": "demo",
+          "uri": "https://schema.org/City"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#geographicName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{3851A671-221B-4dbc-BA00-FFF7AC7E3855}",
+      "ap-definition-en": {
+        "en": "the name of the city"
+      },
+      "ap-label-en": {
+        "en": "name"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "der Name der Stadt",
+        "en": "the name of the city"
+      },
+      "domain": [
+        {
+          "EA-Name": "City",
+          "uri": "https://schema.org/City"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "City",
+        "EA-Domain-Guid": "{A9812633-89DF-4cea-9BD2-335731183BF4}",
+        "EA-Guid": "{3851A671-221B-4dbc-BA00-FFF7AC7E3855}",
+        "EA-Name": "name",
+        "EA-Package": "demo",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "the name of the city"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#geographicName"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "the name of the city"
+        },
+        "ap-label-en": {
+          "en": "name"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "the name of the city"
+        },
+        "label": {
+          "en": "name"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "name",
+        "en": "name"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "name",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#poBox",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{F73F0FBA-28B1-4c08-AE7D-49867F297512}",
+      "ap-definition-en": {
+        "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
+      },
+      "ap-label-en": {
+        "en": "house number"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern",
+        "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
+      },
+      "domain": [
+        {
+          "EA-Name": "Address",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Address",
+        "EA-Domain-Guid": "{78F91463-C61D-4fdb-83AF-D4696761B8D3}",
+        "EA-Guid": "{F73F0FBA-28B1-4c08-AE7D-49867F297512}",
+        "EA-Name": "housenumber",
+        "EA-Package": "demo",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "house number"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#poBox"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
+        },
+        "ap-label-en": {
+          "en": "house number"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
+        },
+        "label": {
+          "en": "house number"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "hausnummer",
+        "en": "house number"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "house number",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#postCode",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{E2946B43-8F13-46f4-B1D2-81E7F4C8CB5C}",
+      "ap-definition-en": {
+        "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
+      },
+      "ap-label-en": {
+        "en": "post code"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern.",
+        "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
+      },
+      "domain": [
+        {
+          "EA-Name": "Address",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Address",
+        "EA-Domain-Guid": "{78F91463-C61D-4fdb-83AF-D4696761B8D3}",
+        "EA-Guid": "{E2946B43-8F13-46f4-B1D2-81E7F4C8CB5C}",
+        "EA-Name": "postcode",
+        "EA-Package": "demo",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "post code"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#postCode"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
+        },
+        "ap-label-en": {
+          "en": "post code"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
+        },
+        "label": {
+          "en": "post code"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "postleitzahl",
+        "en": "post code"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "post code",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#thoroughfare",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{5B5878F5-587E-4559-B430-43C3F6D2C4F1}",
+      "ap-definition-en": {
+        "en": "the name of the public road in a city, town, or village along the adress is located"
+      },
+      "ap-label-en": {
+        "en": "street name"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich",
+        "en": "the name of the public road in a city, town, or village along the adress is located"
+      },
+      "domain": [
+        {
+          "EA-Name": "Address",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Address",
+        "EA-Domain-Guid": "{78F91463-C61D-4fdb-83AF-D4696761B8D3}",
+        "EA-Guid": "{5B5878F5-587E-4559-B430-43C3F6D2C4F1}",
+        "EA-Name": "streetname",
+        "EA-Package": "demo",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "street name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "the name of the public road in a city, town, or village along the adress is located"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#thoroughfare"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "the name of the public road in a city, town, or village along the adress is located"
+        },
+        "ap-label-en": {
+          "en": "street name"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "the name of the public road in a city, town, or village along the adress is located"
+        },
+        "label": {
+          "en": "street name"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "strassenname",
+        "en": "street name"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "street name",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    }
+  ],
+  "externals": [
+    {
+      "@id": "http://www.w3.org/ns/locn#Address",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{78F91463-C61D-4fdb-83AF-D4696761B8D3}",
+      "ap-definition-en": {
+        "en": "the particulars of the place where someone lives or an organization is situated."
+      },
+      "ap-label-en": {
+        "en": "Address"
+      },
+      "definition": {
+        "de": "die Einzelheiten des Ortes, an dem jemand lebt oder an dem sich eine Organisation befindet.",
+        "en": "the particulars of the place where someone lives or an organization is situated."
+      },
+      "extra": {
+        "EA-Guid": "{78F91463-C61D-4fdb-83AF-D4696761B8D3}",
+        "EA-Name": "Address",
+        "EA-Package": "demo",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Address"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "the particulars of the place where someone lives or an organization is situated."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#Address"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "the particulars of the place where someone lives or an organization is situated."
+        },
+        "ap-label-en": {
+          "en": "Address"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "the particulars of the place where someone lives or an organization is situated."
+        },
+        "label": {
+          "en": "Address"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Adresse",
+        "en": "Address"
+      },
+      "name": "Address"
+    },
+    {
+      "@id": "https://schema.org/City",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{A9812633-89DF-4cea-9BD2-335731183BF4}",
+      "ap-definition-en": {
+        "en": "a human settlement"
+      },
+      "ap-label-en": {
+        "en": "City"
+      },
+      "definition": {
+        "de": "eine menschliche Siedlung",
+        "en": "a human settlement"
+      },
+      "extra": {
+        "EA-Guid": "{A9812633-89DF-4cea-9BD2-335731183BF4}",
+        "EA-Name": "City",
+        "EA-Package": "demo",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "City"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a human settlement"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://schema.org/City"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "a human settlement"
+        },
+        "ap-label-en": {
+          "en": "City"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "a human settlement"
+        },
+        "label": {
+          "en": "City"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Stadt",
+        "en": "City"
+      },
+      "name": "City"
+    }
+  ],
+  "extra": {
+    "EA-Guid": "{1C43F8A1-3CAA-4198-ACA3-B0013E546CD5}",
+    "EA-Name": "demo",
+    "RawTags": [],
+    "issued": "TODO",
+    "license": "TODO"
+  },
+  "feedbackurl": "",
+  "filename": "config/city.json",
+  "hostname": "https://duet.dev-vlaanderen.be",
+  "issued": "TODO",
+  "label": {
+    "en": "city-demo",
+    "nl": "city-demo"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "city-demo",
+  "navigation": {},
+  "properties": [],
+  "publication-date": "TBD",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "repository": "https://github.com/AnnemarieWittig/englishworkspace",
+  "site": "site-skeleton/demo",
+  "standaardregisterurl": "",
+  "template": "demo_de.j2",
+  "title": "Demo-De",
+  "toolchaincommit": "fabbfc43cda34ec96307866110d1044ac857367a",
+  "translation": [
+    {
+      "language": "en",
+      "mergefile": "demo_en_merged.jsonld",
+      "template": "demo_en.j2",
+      "title": "Demo-En",
+      "translationjson": "demo_en.json"
+    },
+    {
+      "language": "de",
+      "mergefile": "demo_de_merged.jsonld",
+      "template": "demo_de.j2",
+      "title": "Demo-De",
+      "translationjson": "demo_de.json"
+    },
+    {
+      "language": "nl",
+      "mergefile": "demo_nl_merged.jsonld",
+      "template": "demo_nl.j2",
+      "title": "Demo-Nl",
+      "translationjson": "demo_nl.json"
+    }
+  ],
+  "type": "ap",
+  "urlref": "/doc/applicationprofile/demo-ap"
+}

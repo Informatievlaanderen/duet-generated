@@ -8,45 +8,45 @@
   "@id": "http://data.europa.eu/m8g/cccev",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
-    "nl": "cccev-ap",
-    "en": "cccev-ap"
+    "en": "cccev-ap",
+    "nl": "cccev-ap"
   },
   "authors": [
     {
-      "foaf:firstName": "Pavlina",
-      "foaf:lastName": "Fragkou",
+      "@type": "foaf:Person",
       "affiliation": {
         "foaf:name": "SEMIC"
       },
-      "@type": "foaf:Person"
+      "foaf:firstName": "Pavlina",
+      "foaf:lastName": "Fragkou"
     }
   ],
   "editors": [
     {
-      "foaf:firstName": "Dimitri",
-      "foaf:lastName": "Schepers",
+      "@type": "foaf:Person",
       "affiliation": {
         "foaf:name": "PWC"
       },
-      "@type": "foaf:Person"
+      "foaf:firstName": "Dimitri",
+      "foaf:lastName": "Schepers"
     },
     {
-      "foaf:firstName": "Bert",
-      "foaf:lastName": "Van Nuffelen",
+      "@type": "foaf:Person",
       "affiliation": {
         "foaf:name": "TenForce"
       },
-      "@type": "foaf:Person"
+      "foaf:firstName": "Bert",
+      "foaf:lastName": "Van Nuffelen"
     }
   ],
   "contributors": [
     {
-      "foaf:firstName": "Florian",
-      "foaf:lastName": "Barthelemy",
+      "@type": "foaf:Person",
       "affiliation": {
         "foaf:name": "PWC"
       },
-      "@type": "foaf:Person"
+      "foaf:firstName": "Florian",
+      "foaf:lastName": "Barthelemy"
     }
   ],
   "baseURI": "http://data.europa.eu/m8g/cccev#",

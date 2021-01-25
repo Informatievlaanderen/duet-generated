@@ -8,43 +8,43 @@
   "@id": "https://sdg.semic.e",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
-    "nl": "sdgmodels2-namespaces-voc",
-    "en": "sdgmodels2-namespaces-voc"
+    "en": "sdgmodels2-namespaces-voc",
+    "nl": "sdgmodels2-namespaces-voc"
   },
   "authors": [
     {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://auteurwebsiteurl",
+        "foaf:name": "AuteurAffiliatie"
+      },
       "foaf:firstName": "AuteurVoornaam",
       "foaf:lastName": "AuteurNaam",
-      "affiliation": {
-        "foaf:name": "AuteurAffiliatie",
-        "foaf:homepage": "https://auteurwebsiteurl"
-      },
-      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein",
-      "@type": "foaf:Person"
+      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein"
     }
   ],
   "editors": [
     {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://editorwebsiteurl",
+        "foaf:name": "EditorAffiliatie"
+      },
       "foaf:firstName": "EditorVoornaam",
       "foaf:lastName": "EditorNaam",
-      "affiliation": {
-        "foaf:name": "EditorAffiliatie",
-        "foaf:homepage": "https://editorwebsiteurl"
-      },
-      "foaf:mbox": "editorvoornaam.editornaam@editordomein",
-      "@type": "foaf:Person"
+      "foaf:mbox": "editorvoornaam.editornaam@editordomein"
     }
   ],
   "contributors": [
     {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://medewerkerwebsiteurl",
+        "foaf:name": "MedewerkerAffiliatie"
+      },
       "foaf:firstName": "MedewerkerVoornaam",
       "foaf:lastName": "MedewerkerNaam",
-      "affiliation": {
-        "foaf:name": "MedewerkerAffiliatie",
-        "foaf:homepage": "https://medewerkerwebsiteurl"
-      },
-      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein",
-      "@type": "foaf:Person"
+      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein"
     }
   ],
   "license": "TBD",

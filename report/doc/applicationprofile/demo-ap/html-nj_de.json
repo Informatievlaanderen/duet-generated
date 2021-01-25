@@ -22,13 +22,13 @@
       "uri": "http://www.w3.org/ns/locn#Address",
       "name": "Address",
       "label": {
-        "en": "Address",
-        "de": "Adresse"
+        "de": "Adresse",
+        "en": "Address"
       },
       "sort": "Adresse",
       "description": {
-        "en": "the particulars of the place where someone lives or an organization is situated.",
-        "de": "die Einzelheiten des Ortes, an dem jemand lebt oder an dem sich eine Organisation befindet."
+        "de": "die Einzelheiten des Ortes, an dem jemand lebt oder an dem sich eine Organisation befindet.",
+        "en": "the particulars of the place where someone lives or an organization is situated."
       },
       "usage": {},
       "parents": [],
@@ -38,18 +38,18 @@
           "name": "city",
           "sort": "stadt",
           "label": {
-            "en": "city",
-            "de": "stadt"
+            "de": "stadt",
+            "en": "city"
           },
           "description": {
-            "en": "The city in which the address is located",
-            "de": "Die Stadt in der sich die Adressen befinden."
+            "de": "Die Stadt in der sich die Adressen befinden.",
+            "en": "The city in which the address is located"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://www.w3.org/ns/locn#Address",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
             }
           ],
           "range": [
@@ -63,8 +63,8 @@
               "range_uri": "#Stadt",
               "range_puri": "https://schema.org/City",
               "range_label": {
-                "en": "City",
-                "de": "Stadt"
+                "de": "Stadt",
+                "en": "City"
               }
             }
           ],
@@ -76,18 +76,18 @@
           "name": "house number",
           "sort": "hausnummer",
           "label": {
-            "en": "house number",
-            "de": "hausnummer"
+            "de": "hausnummer",
+            "en": "house number"
           },
           "description": {
-            "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses",
-            "de": "Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern"
+            "de": "Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern",
+            "en": "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://www.w3.org/ns/locn#Address",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
             }
           ],
           "range": [
@@ -113,18 +113,18 @@
           "name": "post code",
           "sort": "postleitzahl",
           "label": {
-            "en": "post code",
-            "de": "postleitzahl"
+            "de": "postleitzahl",
+            "en": "post code"
           },
           "description": {
-            "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail.",
-            "de": "Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern."
+            "de": "Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern.",
+            "en": "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://www.w3.org/ns/locn#Address",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
             }
           ],
           "range": [
@@ -150,18 +150,18 @@
           "name": "street name",
           "sort": "strassenname",
           "label": {
-            "en": "street name",
-            "de": "strassenname"
+            "de": "strassenname",
+            "en": "street name"
           },
           "description": {
-            "en": "the name of the public road in a city, town, or village along the adress is located",
-            "de": "Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich"
+            "de": "Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich",
+            "en": "the name of the public road in a city, town, or village along the adress is located"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://www.w3.org/ns/locn#Address",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
             }
           ],
           "range": [
@@ -188,13 +188,13 @@
       "uri": "https://schema.org/City",
       "name": "City",
       "label": {
-        "en": "City",
-        "de": "Stadt"
+        "de": "Stadt",
+        "en": "City"
       },
       "sort": "Stadt",
       "description": {
-        "en": "a human settlement",
-        "de": "eine menschliche Siedlung"
+        "de": "eine menschliche Siedlung",
+        "en": "a human settlement"
       },
       "usage": {},
       "parents": [],
@@ -204,18 +204,18 @@
           "name": "name",
           "sort": "name",
           "label": {
-            "en": "name",
-            "de": "name"
+            "de": "name",
+            "en": "name"
           },
           "description": {
-            "en": "the name of the city",
-            "de": "der Name der Stadt"
+            "de": "der Name der Stadt",
+            "en": "the name of the city"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "https://schema.org/City",
-              "EA-Name": "City"
+              "EA-Name": "City",
+              "uri": "https://schema.org/City"
             }
           ],
           "range": [

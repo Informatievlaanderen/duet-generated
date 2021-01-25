@@ -1,1 +1,6 @@
-{"@context":"undefined/city.jsonld","@type":"https://schema.org/City","@id":"{{ID}}","name":"{{STRING}}"}
+{
+    "@context": "undefined/city.jsonld",
+    "@type": "https://schema.org/City",
+    "@id": "{{ID}}",
+    "name": "{{STRING}}"
+}

@@ -1,1 +1,9 @@
-{"address":"http://www.w3.org/ns/locn#Address","city":"http://www.w3.org/ns/locn#addressArea","houseNumber":{"@id":"http://www.w3.org/ns/locn#poBox","@type":"http://www.w3.org/2001/XMLSchema#string"},"postCode":{"@id":"http://www.w3.org/ns/locn#postCode","@type":"http://www.w3.org/2001/XMLSchema#string"},"streetName":{"@id":"http://www.w3.org/ns/locn#thoroughfare","@type":"http://www.w3.org/2001/XMLSchema#string"}}
+{
+    "@context": "undefined/address.jsonld",
+    "@type": "http://www.w3.org/ns/locn#Address",
+    "@id": "{{ID}}",
+    "city": "{{VAL}}",
+    "houseNumber": "{{STRING}}",
+    "postCode": "{{STRING}}",
+    "streetName": "{{STRING}}"
+}

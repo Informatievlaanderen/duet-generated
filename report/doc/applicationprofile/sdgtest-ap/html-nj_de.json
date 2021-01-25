@@ -23,13 +23,13 @@
       "uri": "https://sdg.semic.euAddress",
       "name": "Address",
       "label": {
-        "en": "Address",
-        "de": "Adresse"
+        "de": "Adresse",
+        "en": "Address"
       },
       "sort": "Adresse",
       "description": {
-        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.",
-        "de": "Eine durch den INSPIRE Address Representation Datentyp konzeptionell definierte \"Adressendarstellung\"."
+        "de": "Eine durch den INSPIRE Address Representation Datentyp konzeptionell definierte \"Adressendarstellung\".",
+        "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
       },
       "usage": {},
       "parents": [],
@@ -43,8 +43,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [
@@ -74,8 +74,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [
@@ -105,8 +105,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [
@@ -136,8 +136,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [
@@ -163,18 +163,18 @@
           "name": "Admin unit Level 1",
           "sort": "Verwaltungseinheit Ebene 1",
           "label": {
-            "en": "Admin unit Level 1",
-            "de": "Verwaltungseinheit Ebene 1"
+            "de": "Verwaltungseinheit Ebene 1",
+            "en": "Admin unit Level 1"
           },
           "description": {
-            "en": "The uppermost administrative unit for the address, almost always a country.",
-            "de": "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."
+            "de": "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land.",
+            "en": "The uppermost administrative unit for the address, almost always a country."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [
@@ -200,15 +200,15 @@
           "name": "admin unit Level 2",
           "sort": "Verwaltungseinheit Ebene 2",
           "label": {
-            "en": "admin unit Level 2",
-            "de": "Verwaltungseinheit Ebene 2"
+            "de": "Verwaltungseinheit Ebene 2",
+            "en": "admin unit Level 2"
           },
           "description": {},
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [],
@@ -221,18 +221,18 @@
           "name": "full address",
           "sort": "vollständige Adresse",
           "label": {
-            "en": "full address",
-            "de": "vollständige Adresse"
+            "de": "vollständige Adresse",
+            "en": "full address"
           },
           "description": {
-            "en": " \tThe complete address written as a string, with or without formatting.",
-            "de": "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
+            "de": "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde.",
+            "en": " \tThe complete address written as a string, with or without formatting."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euAddress",
-              "EA-Name": "Address"
+              "EA-Name": "Address",
+              "uri": "https://sdg.semic.euAddress"
             }
           ],
           "range": [],
@@ -260,8 +260,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [],
@@ -278,8 +278,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [
@@ -309,8 +309,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [],
@@ -327,8 +327,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [
@@ -358,8 +358,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [
@@ -389,8 +389,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [
@@ -420,8 +420,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euCourseResult",
-              "EA-Name": "CourseResult"
+              "EA-Name": "CourseResult",
+              "uri": "https://sdg.semic.euCourseResult"
             }
           ],
           "range": [],
@@ -440,8 +440,8 @@
       "usage": {},
       "parents": [
         {
-          "name": "Organisation",
           "label": "Organisation",
+          "name": "Organisation",
           "package": "TertiaryEducationDiplomaEvidence",
           "uri": "https://sdg.semic.euOrganisation",
           "scoped_uri": "#Organisation"
@@ -457,8 +457,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euEducationInstitution",
-              "EA-Name": "EducationInstitution"
+              "EA-Name": "EducationInstitution",
+              "uri": "https://sdg.semic.euEducationInstitution"
             }
           ],
           "range": [
@@ -488,8 +488,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euEducationInstitution",
-              "EA-Name": "EducationInstitution"
+              "EA-Name": "EducationInstitution",
+              "uri": "https://sdg.semic.euEducationInstitution"
             }
           ],
           "range": [
@@ -530,8 +530,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euLocation",
-              "EA-Name": "Location"
+              "EA-Name": "Location",
+              "uri": "https://sdg.semic.euLocation"
             }
           ],
           "range": [
@@ -561,8 +561,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euLocation",
-              "EA-Name": "Location"
+              "EA-Name": "Location",
+              "uri": "https://sdg.semic.euLocation"
             }
           ],
           "range": [],
@@ -590,8 +590,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euOrganisation",
-              "EA-Name": "Organisation"
+              "EA-Name": "Organisation",
+              "uri": "https://sdg.semic.euOrganisation"
             }
           ],
           "range": [],
@@ -608,8 +608,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euOrganisation",
-              "EA-Name": "Organisation"
+              "EA-Name": "Organisation",
+              "uri": "https://sdg.semic.euOrganisation"
             }
           ],
           "range": [],
@@ -626,8 +626,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euOrganisation",
-              "EA-Name": "Organisation"
+              "EA-Name": "Organisation",
+              "uri": "https://sdg.semic.euOrganisation"
             }
           ],
           "range": [
@@ -668,8 +668,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euPerson",
-              "EA-Name": "Person"
+              "EA-Name": "Person",
+              "uri": "https://sdg.semic.euPerson"
             }
           ],
           "range": [
@@ -699,8 +699,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euPerson",
-              "EA-Name": "Person"
+              "EA-Name": "Person",
+              "uri": "https://sdg.semic.euPerson"
             }
           ],
           "range": [],
@@ -717,8 +717,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euPerson",
-              "EA-Name": "Person"
+              "EA-Name": "Person",
+              "uri": "https://sdg.semic.euPerson"
             }
           ],
           "range": [],
@@ -735,8 +735,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euPerson",
-              "EA-Name": "Person"
+              "EA-Name": "Person",
+              "uri": "https://sdg.semic.euPerson"
             }
           ],
           "range": [],
@@ -753,8 +753,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euPerson",
-              "EA-Name": "Person"
+              "EA-Name": "Person",
+              "uri": "https://sdg.semic.euPerson"
             }
           ],
           "range": [
@@ -784,8 +784,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euPerson",
-              "EA-Name": "Person"
+              "EA-Name": "Person",
+              "uri": "https://sdg.semic.euPerson"
             }
           ],
           "range": [
@@ -826,8 +826,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-              "EA-Name": "RecordOfResultsEvidence"
+              "EA-Name": "RecordOfResultsEvidence",
+              "uri": "https://sdg.semic.euRecordOfResultsEvidence"
             }
           ],
           "range": [
@@ -857,8 +857,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-              "EA-Name": "RecordOfResultsEvidence"
+              "EA-Name": "RecordOfResultsEvidence",
+              "uri": "https://sdg.semic.euRecordOfResultsEvidence"
             }
           ],
           "range": [
@@ -888,8 +888,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-              "EA-Name": "RecordOfResultsEvidence"
+              "EA-Name": "RecordOfResultsEvidence",
+              "uri": "https://sdg.semic.euRecordOfResultsEvidence"
             }
           ],
           "range": [],
@@ -906,8 +906,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-              "EA-Name": "RecordOfResultsEvidence"
+              "EA-Name": "RecordOfResultsEvidence",
+              "uri": "https://sdg.semic.euRecordOfResultsEvidence"
             }
           ],
           "range": [
@@ -937,8 +937,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-              "EA-Name": "RecordOfResultsEvidence"
+              "EA-Name": "RecordOfResultsEvidence",
+              "uri": "https://sdg.semic.euRecordOfResultsEvidence"
             }
           ],
           "range": [],
@@ -957,8 +957,8 @@
       "usage": {},
       "parents": [
         {
-          "name": "Person",
           "label": "Person",
+          "name": "Person",
           "package": "TertiaryEducationDiplomaEvidence",
           "uri": "https://sdg.semic.euPerson",
           "scoped_uri": "#Person"
@@ -974,8 +974,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euStudent",
-              "EA-Name": "Student"
+              "EA-Name": "Student",
+              "uri": "https://sdg.semic.euStudent"
             }
           ],
           "range": [],
@@ -994,8 +994,8 @@
       "usage": {},
       "parents": [
         {
-          "name": "TertiaryEducationEvidence",
           "label": "Tertiary Education Evidence",
+          "name": "TertiaryEducationEvidence",
           "package": "TertiaryEducationDiplomaEvidence",
           "uri": "https://sdg.semic.euTertiaryEducationEvidence",
           "scoped_uri": "#Tertiary Education Evidence"
@@ -1011,8 +1011,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [
@@ -1042,8 +1042,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [
@@ -1073,8 +1073,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [],
@@ -1091,8 +1091,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [
@@ -1122,8 +1122,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [],
@@ -1140,8 +1140,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [
@@ -1171,8 +1171,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [
@@ -1202,8 +1202,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-              "EA-Name": "TertiaryEducationDiplomaEvidence"
+              "EA-Name": "TertiaryEducationDiplomaEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
             }
           ],
           "range": [],
@@ -1231,8 +1231,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1262,8 +1262,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [],
@@ -1280,8 +1280,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1311,8 +1311,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1342,8 +1342,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1373,8 +1373,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1404,8 +1404,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1435,8 +1435,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [],
@@ -1453,8 +1453,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [
@@ -1484,8 +1484,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [],
@@ -1502,8 +1502,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
+              "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
             }
           ],
           "range": [],
@@ -1531,8 +1531,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [
@@ -1562,8 +1562,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [],
@@ -1580,8 +1580,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [
@@ -1611,8 +1611,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [
@@ -1642,8 +1642,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [
@@ -1673,8 +1673,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [
@@ -1704,8 +1704,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-              "EA-Name": "TertiaryEducationEvidence"
+              "EA-Name": "TertiaryEducationEvidence",
+              "uri": "https://sdg.semic.euTertiaryEducationEvidence"
             }
           ],
           "range": [],
@@ -2248,8 +2248,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euGrade",
-              "EA-Name": "Grade"
+              "EA-Name": "Grade",
+              "uri": "https://sdg.semic.euGrade"
             }
           ],
           "range": [],
@@ -2266,8 +2266,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euGrade",
-              "EA-Name": "Grade"
+              "EA-Name": "Grade",
+              "uri": "https://sdg.semic.euGrade"
             }
           ],
           "range": [
@@ -2297,8 +2297,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euGrade",
-              "EA-Name": "Grade"
+              "EA-Name": "Grade",
+              "uri": "https://sdg.semic.euGrade"
             }
           ],
           "range": [
@@ -2328,8 +2328,8 @@
           "usage": {},
           "domain": [
             {
-              "uri": "https://sdg.semic.euGrade",
-              "EA-Name": "Grade"
+              "EA-Name": "Grade",
+              "uri": "https://sdg.semic.euGrade"
             }
           ],
           "range": [

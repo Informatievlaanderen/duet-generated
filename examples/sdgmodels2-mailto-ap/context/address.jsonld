@@ -1,1 +1,8 @@
-{"address":"https://sdg.semic.euAddress","adminUnitLevel1":"https://sdg.semic.euadminUnitL1","adminUnitLevel2":"","fullAddress":""}
+{
+    "@context": "undefined/address.jsonld",
+    "@type": "https://sdg.semic.euAddress",
+    "@id": "{{ID}}",
+    "adminUnitLevel1": "{{VAL}}",
+    "adminUnitLevel2": "{{ANY}}",
+    "fullAddress": "{{ANY}}"
+}

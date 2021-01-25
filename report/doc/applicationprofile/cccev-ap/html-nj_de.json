@@ -23,22 +23,22 @@
       "uri": "http://data.europa.eu/m8g/cccev#Constraint",
       "name": "Constraint",
       "label": {
-        "en": "Constraint",
-        "de": "Einschränkung"
+        "de": "Einschränkung",
+        "en": "Constraint"
       },
       "sort": "Einschränkung",
       "description": {
-        "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about.",
-        "de": "Beschränkung, die auf die Anforderungen oder die Konzepte angewendet wird, um die sich die Anforderung richtet."
+        "de": "Beschränkung, die auf die Anforderungen oder die Konzepte angewendet wird, um die sich die Anforderung richtet.",
+        "en": "Limitation applied to requirement(s) or to the concept(s) the requirement is about."
       },
       "usage": {
-        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates.",
-        "de": "Ein Beispiel beim eProcurement, ein Schwellenwert: der Mindestumsatz, den der Käufer für die Auswahl der Kandidaten benötigt."
+        "de": "Ein Beispiel beim eProcurement, ein Schwellenwert: der Mindestumsatz, den der Käufer für die Auswahl der Kandidaten benötigt.",
+        "en": "An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates."
       },
       "parents": [
         {
-          "name": "Requirement",
           "label": "Requirement",
+          "name": "Requirement",
           "package": "CCCEV_v2",
           "uri": "http://data.europa.eu/m8g/cccev#Requirement",
           "scoped_uri": "#Requirement"
@@ -50,22 +50,22 @@
       "uri": "http://data.europa.eu/m8g/cccev#Criterion",
       "name": "Criterion",
       "label": {
-        "en": "Criterion",
-        "de": "Kriterium"
+        "de": "Kriterium",
+        "en": "Criterion"
       },
       "sort": "Kriterium",
       "description": {
-        "en": "condition for evaluation or assessment.",
-        "de": "Voraussetzung für die Bewertung oder Bewertung."
+        "de": "Voraussetzung für die Bewertung oder Bewertung.",
+        "en": "condition for evaluation or assessment."
       },
       "usage": {
-        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences.",
-        "de": "Im Allgemeinen werden Kriterien für Vergleich, Filterung und Auswahl verwendet. Kriterien legen in der Regel Mindestbeschränkungen fest (z. B. Grenzwerte, Intervalle, Schwellenwerte usw.), die erfüllt sein müssen, um die erforderlichen Bedingungen zu erfüllen oder sie in einem bestimmten Grad oder einer bestimmten Qualität zu erfüllen. Die Bewertung der Erfüllung wird in der Regel durch die Bereitstellung von Nachweisen unterstützt."
+        "de": "Im Allgemeinen werden Kriterien für Vergleich, Filterung und Auswahl verwendet. Kriterien legen in der Regel Mindestbeschränkungen fest (z. B. Grenzwerte, Intervalle, Schwellenwerte usw.), die erfüllt sein müssen, um die erforderlichen Bedingungen zu erfüllen oder sie in einem bestimmten Grad oder einer bestimmten Qualität zu erfüllen. Die Bewertung der Erfüllung wird in der Regel durch die Bereitstellung von Nachweisen unterstützt.",
+        "en": "In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences."
       },
       "parents": [
         {
-          "name": "Requirement",
           "label": "Requirement",
+          "name": "Requirement",
           "package": "CCCEV_v2",
           "uri": "http://data.europa.eu/m8g/cccev#Requirement",
           "scoped_uri": "#Requirement"
@@ -77,18 +77,18 @@
           "name": "bias",
           "sort": "Vorurteil",
           "label": {
-            "en": "bias",
-            "de": "Vorurteil"
+            "de": "Vorurteil",
+            "en": "bias"
           },
           "description": {
-            "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.",
-            "de": "Zusätzlicher Parameter, der verwendet wird, um die Bewertung des Kriteriums anzupassen, das aus mehreren Unterkriterien besteht."
+            "de": "Zusätzlicher Parameter, der verwendet wird, um die Bewertung des Kriteriums anzupassen, das aus mehreren Unterkriterien besteht.",
+            "en": "Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-              "EA-Name": "Criterion"
+              "EA-Name": "Criterion",
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion"
             }
           ],
           "range": [],
@@ -101,18 +101,18 @@
           "name": "weight",
           "sort": "gewicht",
           "label": {
-            "en": "weight",
-            "de": "gewicht"
+            "de": "gewicht",
+            "en": "weight"
           },
           "description": {
-            "en": "Relative importance assigned to a given criterion.",
-            "de": "Relative Bedeutung, die einem bestimmten Kriterium zugewiesen wird."
+            "de": "Relative Bedeutung, die einem bestimmten Kriterium zugewiesen wird.",
+            "en": "Relative importance assigned to a given criterion."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-              "EA-Name": "Criterion"
+              "EA-Name": "Criterion",
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion"
             }
           ],
           "range": [],
@@ -125,18 +125,18 @@
           "name": "weighting consideration description",
           "sort": "beschreibung der gewichtung serann",
           "label": {
-            "en": "weighting consideration description",
-            "de": "beschreibung der gewichtung serann"
+            "de": "beschreibung der gewichtung serann",
+            "en": "weighting consideration description"
           },
           "description": {
-            "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time.",
-            "de": "Die Erklärung, wie die Gewichtung eines Kriteriums bei der Auswertungszeit zu verwenden ist."
+            "de": "Die Erklärung, wie die Gewichtung eines Kriteriums bei der Auswertungszeit zu verwenden ist.",
+            "en": "The explanation of how the weighting of a Criterion is to be used at evaluation time."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-              "EA-Name": "Criterion"
+              "EA-Name": "Criterion",
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion"
             }
           ],
           "range": [
@@ -162,18 +162,18 @@
           "name": "weighting type",
           "sort": "gewichtungsart",
           "label": {
-            "en": "weighting type",
-            "de": "gewichtungsart"
+            "de": "gewichtungsart",
+            "en": "weighting type"
           },
           "description": {
-            "en": "The numeric form used to weight.",
-            "de": "Das numerische Formular, das für die Gewichtung verwendet wird."
+            "de": "Das numerische Formular, das für die Gewichtung verwendet wird.",
+            "en": "The numeric form used to weight."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Criterion",
-              "EA-Name": "Criterion"
+              "EA-Name": "Criterion",
+              "uri": "http://data.europa.eu/m8g/cccev#Criterion"
             }
           ],
           "range": [
@@ -187,8 +187,8 @@
               "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "en": "Code",
-                "de": "Code"
+                "de": "Code",
+                "en": "Code"
               }
             }
           ],
@@ -201,19 +201,19 @@
       "uri": "http://data.europa.eu/m8g/cccev#Evidence",
       "name": "Evidence",
       "label": {
-        "en": "Evidence",
-        "de": "Beweis"
+        "de": "Beweis",
+        "en": "Evidence"
       },
       "sort": "Beweis",
       "description": {
-        "en": "The data proving that a requirement is met or has been fulfilled.",
-        "de": "Die Daten, welche belegen, dass eine Anforderung erfüllt oder erfüllt ist."
+        "de": "Die Daten, welche belegen, dass eine Anforderung erfüllt oder erfüllt ist.",
+        "en": "The data proving that a requirement is met or has been fulfilled."
       },
       "usage": {},
       "parents": [
         {
-          "name": "Dataset",
           "label": "Dataset",
+          "name": "Dataset",
           "package": "dcat",
           "uri": "http://www.w3.org/ns/dcat#Dataset",
           "scoped_uri": "#Dataset"
@@ -225,18 +225,18 @@
           "name": "confidentiality level type",
           "sort": "Vertraulichkeitsstufe Typ",
           "label": {
-            "en": "confidentiality level type",
-            "de": "Vertraulichkeitsstufe Typ"
+            "de": "Vertraulichkeitsstufe Typ",
+            "en": "confidentiality level type"
           },
           "description": {
-            "en": "The security classification assigned to an Evidence or, in general, to a content.",
-            "de": "Die Sicherheitsklassifizierung, die einem Beweis oder im Allgemeinen einem Inhalt zugewiesen ist."
+            "de": "Die Sicherheitsklassifizierung, die einem Beweis oder im Allgemeinen einem Inhalt zugewiesen ist.",
+            "en": "The security classification assigned to an Evidence or, in general, to a content."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence"
             }
           ],
           "range": [
@@ -250,8 +250,8 @@
               "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "en": "Code",
-                "de": "Code"
+                "de": "Code",
+                "en": "Code"
               }
             }
           ],
@@ -263,18 +263,18 @@
           "name": "is about",
           "sort": "ist über",
           "label": {
-            "en": "is about",
-            "de": "ist über"
+            "de": "ist über",
+            "en": "is about"
           },
           "description": {
-            "en": "The agent that is the main actor in the provided evidence",
-            "de": "Der Agent, der der Hauptakteur in den vorgelegten Beweisen ist"
+            "de": "Der Agent, der der Hauptakteur in den vorgelegten Beweisen ist",
+            "en": "The agent that is the main actor in the provided evidence"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence"
             }
           ],
           "range": [
@@ -288,8 +288,8 @@
               "range_uri": "#Agent",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "en": "Agent",
-                "de": "Agent"
+                "de": "Agent",
+                "en": "Agent"
               }
             }
           ],
@@ -301,21 +301,21 @@
           "name": "is Conformant",
           "sort": "ist Conformant",
           "label": {
-            "en": "is Conformant",
-            "de": "ist Conformant"
+            "de": "ist Conformant",
+            "en": "is Conformant"
           },
           "description": {
-            "en": "A reference to one or more types of evidence where the content and, possibly, the layout or configuration of the evidence is specified.",
-            "de": "Ein Verweis auf eine oder mehrere Arten von Beweisen, bei denen der Inhalt und möglicherweise das Layout oder die Konfiguration der Beweise angegeben werden."
+            "de": "Ein Verweis auf eine oder mehrere Arten von Beweisen, bei denen der Inhalt und möglicherweise das Layout oder die Konfiguration der Beweise angegeben werden.",
+            "en": "A reference to one or more types of evidence where the content and, possibly, the layout or configuration of the evidence is specified."
           },
           "usage": {
-            "en": "NOTE: this property can be fullfilled with the dcat property dct:conformsTo. The definition should be reflect the need for another property. And the usagenote should make the distinction clear.",
-            "de": "HINWEIS: Diese Eigenschaft kann mit der dcat-Eigenschaft dct:conformsTo gefüllt werden. Die Definition sollte die Notwendigkeit einer anderen Eigenschaft widerspiegeln. Und die Nutzungsnote sollte die Unterscheidung deutlich machen."
+            "de": "HINWEIS: Diese Eigenschaft kann mit der dcat-Eigenschaft dct:conformsTo gefüllt werden. Die Definition sollte die Notwendigkeit einer anderen Eigenschaft widerspiegeln. Und die Nutzungsnote sollte die Unterscheidung deutlich machen.",
+            "en": "NOTE: this property can be fullfilled with the dcat property dct:conformsTo. The definition should be reflect the need for another property. And the usagenote should make the distinction clear."
           },
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence"
             }
           ],
           "range": [
@@ -329,8 +329,8 @@
               "range_uri": "#Beweisart",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceType",
               "range_label": {
-                "en": "Evidence type",
-                "de": "Beweisart"
+                "de": "Beweisart",
+                "en": "Evidence type"
               }
             }
           ],
@@ -342,21 +342,21 @@
           "name": "supports concept",
           "sort": "unterstützt Konzept",
           "label": {
-            "en": "supports concept",
-            "de": "unterstützt Konzept"
+            "de": "unterstützt Konzept",
+            "en": "supports concept"
           },
           "description": {
-            "en": "the supported concept by the evidence",
-            "de": "das unterstützte Konzept durch die Beweise"
+            "de": "das unterstützte Konzept durch die Beweise",
+            "en": "the supported concept by the evidence"
           },
           "usage": {
-            "en": "Used to express details about the information that is provided by the evidence",
-            "de": "Wird verwendet, um Details über die Informationen auszudrücken, die durch die Beweise bereitgestellt werden"
+            "de": "Wird verwendet, um Details über die Informationen auszudrücken, die durch die Beweise bereitgestellt werden",
+            "en": "Used to express details about the information that is provided by the evidence"
           },
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Evidence",
-              "EA-Name": "Evidence"
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence"
             }
           ],
           "range": [
@@ -370,8 +370,8 @@
               "range_uri": "#Konzept",
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "Concept",
-                "de": "Konzept"
+                "de": "Konzept",
+                "en": "Concept"
               }
             }
           ],
@@ -384,19 +384,19 @@
       "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
       "name": "Evidence type",
       "label": {
-        "en": "Evidence type",
-        "de": "Beweisart"
+        "de": "Beweisart",
+        "en": "Evidence type"
       },
       "sort": "Beweisart",
       "description": {
-        "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.",
-        "de": "Informationen über die Merkmale eines erwarteten Nachweises, z. B. den gewünschten Inhalt, das Format, die Quelle usw."
+        "de": "Informationen über die Merkmale eines erwarteten Nachweises, z. B. den gewünschten Inhalt, das Format, die Quelle usw.",
+        "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
       },
       "usage": {},
       "parents": [
         {
-          "name": "Dataset",
           "label": "Dataset",
+          "name": "Dataset",
           "package": "dcat",
           "uri": "http://www.w3.org/ns/dcat#Dataset",
           "scoped_uri": "#Dataset"
@@ -408,21 +408,21 @@
           "name": "dataset type",
           "sort": "Datensatztyp",
           "label": {
-            "en": "dataset type",
-            "de": "Datensatztyp"
+            "de": "Datensatztyp",
+            "en": "dataset type"
           },
           "description": {
-            "en": "A classification code use to specify the machine-readability of a content.",
-            "de": "Ein Klassifizierungscode, der verwendet wird, um die Maschinenlesbarkeit eines Inhalts anzugeben."
+            "de": "Ein Klassifizierungscode, der verwendet wird, um die Maschinenlesbarkeit eines Inhalts anzugeben.",
+            "en": "A classification code use to specify the machine-readability of a content."
           },
           "usage": {
-            "en": "NOTE: this property is not needed as it is more an implementation requirement. Moreover the inheritence of DCAT already tackles the need for identifying other distributions",
-            "de": "HINWEIS: Diese Eigenschaft wird nicht benötigt, da es sich eher um eine Implementierungsanforderung handelt. Darüber hinaus geht die Vererbung von DCAT bereits auf die Notwendigkeit ein, andere Verteilungen zu identifizieren."
+            "de": "HINWEIS: Diese Eigenschaft wird nicht benötigt, da es sich eher um eine Implementierungsanforderung handelt. Darüber hinaus geht die Vererbung von DCAT bereits auf die Notwendigkeit ein, andere Verteilungen zu identifizieren.",
+            "en": "NOTE: this property is not needed as it is more an implementation requirement. Moreover the inheritence of DCAT already tackles the need for identifying other distributions"
           },
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
-              "EA-Name": "EvidenceType"
+              "EA-Name": "EvidenceType",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
             }
           ],
           "range": [
@@ -436,8 +436,8 @@
               "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "en": "Code",
-                "de": "Code"
+                "de": "Code",
+                "en": "Code"
               }
             }
           ],
@@ -449,18 +449,18 @@
           "name": "evidence type classification",
           "sort": "Beweistypklassifizierung",
           "label": {
-            "en": "evidence type classification",
-            "de": "Beweistypklassifizierung"
+            "de": "Beweistypklassifizierung",
+            "en": "evidence type classification"
           },
           "description": {
-            "en": "A classification code to specify the layout and content expected for an evidence.",
-            "de": "Ein Klassifizierungscode, um das Layout und den Inhalt anzugeben, der für einen Nachweis erwartet wird."
+            "de": "Ein Klassifizierungscode, um das Layout und den Inhalt anzugeben, der für einen Nachweis erwartet wird.",
+            "en": "A classification code to specify the layout and content expected for an evidence."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
-              "EA-Name": "EvidenceType"
+              "EA-Name": "EvidenceType",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
             }
           ],
           "range": [
@@ -474,8 +474,8 @@
               "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "en": "Code",
-                "de": "Code"
+                "de": "Code",
+                "en": "Code"
               }
             }
           ],
@@ -487,15 +487,15 @@
           "name": "specifies evidence type",
           "sort": "gibt den Beweistyp an",
           "label": {
-            "en": "specifies evidence type",
-            "de": "gibt den Beweistyp an"
+            "de": "gibt den Beweistyp an",
+            "en": "specifies evidence type"
           },
           "description": {},
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
-              "EA-Name": "EvidenceType"
+              "EA-Name": "EvidenceType",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
             }
           ],
           "range": [
@@ -509,8 +509,8 @@
               "range_uri": "#Beweistypliste",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
               "range_label": {
-                "en": "Evidence Type List",
-                "de": "Beweistypliste"
+                "de": "Beweistypliste",
+                "en": "Evidence Type List"
               }
             }
           ],
@@ -522,15 +522,15 @@
           "name": "specifies evidence type",
           "sort": "gibt den Beweistyp an",
           "label": {
-            "en": "specifies evidence type",
-            "de": "gibt den Beweistyp an"
+            "de": "gibt den Beweistyp an",
+            "en": "specifies evidence type"
           },
           "description": {},
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType",
-              "EA-Name": "EvidenceType"
+              "EA-Name": "EvidenceType",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceType"
             }
           ],
           "range": [
@@ -544,8 +544,8 @@
               "range_uri": "#Beweistypliste",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
               "range_label": {
-                "en": "Evidence Type List",
-                "de": "Beweistypliste"
+                "de": "Beweistypliste",
+                "en": "Evidence Type List"
               }
             }
           ],
@@ -558,8 +558,8 @@
       "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
       "name": "Evidence Type List",
       "label": {
-        "en": "Evidence Type List",
-        "de": "Beweistypliste"
+        "de": "Beweistypliste",
+        "en": "Evidence Type List"
       },
       "sort": "Beweistypliste",
       "description": {},
@@ -571,18 +571,18 @@
           "name": "description",
           "sort": "beschreibung",
           "label": {
-            "en": "description",
-            "de": "beschreibung"
+            "de": "beschreibung",
+            "en": "description"
           },
           "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated.",
-            "de": "Eine kurze Erklärung über die Art, Attribute, Verwendungen oder andere zusätzliche Informationen, die helfen, das Verständnis des zu instanziierenden Beweistyps zu klären."
+            "de": "Eine kurze Erklärung über die Art, Attribute, Verwendungen oder andere zusätzliche Informationen, die helfen, das Verständnis des zu instanziierenden Beweistyps zu klären.",
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Evidence Type  being instantiated."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
+              "EA-Name": "EvidenceTypeList",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
             }
           ],
           "range": [
@@ -608,18 +608,18 @@
           "name": "identifier",
           "sort": "bezeichner",
           "label": {
-            "en": "identifier",
-            "de": "bezeichner"
+            "de": "bezeichner",
+            "en": "identifier"
           },
           "description": {
-            "en": "An unambiguous reference to an Evidence Type List",
-            "de": "Ein eindeutiger Verweis auf eine Beweistypliste"
+            "de": "Ein eindeutiger Verweis auf eine Beweistypliste",
+            "en": "An unambiguous reference to an Evidence Type List"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
+              "EA-Name": "EvidenceTypeList",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
             }
           ],
           "range": [],
@@ -632,18 +632,18 @@
           "name": "name",
           "sort": "name",
           "label": {
-            "en": "name",
-            "de": "name"
+            "de": "name",
+            "en": "name"
           },
           "description": {
-            "en": "A name to identify in common language the Evidence Type List",
-            "de": "Ein Name, um die Beweistypliste in einer gemeinsamen Sprache zu identifizieren"
+            "de": "Ein Name, um die Beweistypliste in einer gemeinsamen Sprache zu identifizieren",
+            "en": "A name to identify in common language the Evidence Type List"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-              "EA-Name": "EvidenceTypeList"
+              "EA-Name": "EvidenceTypeList",
+              "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
             }
           ],
           "range": [
@@ -670,19 +670,19 @@
       "uri": "http://data.europa.eu/m8g/cccev#InformationRequirement",
       "name": "Information Requirement",
       "label": {
-        "en": "Information Requirement",
-        "de": "Informationsanforderung"
+        "de": "Informationsanforderung",
+        "en": "Information Requirement"
       },
       "sort": "Informationsanforderung",
       "description": {
-        "en": "A request for data that is proof of evidence or leads to the source of such a proof.",
-        "de": "Ein Auskunftsverlangen, das nachweisfest ist oder zur Quelle eines solchen Nachweises führt."
+        "de": "Ein Auskunftsverlangen, das nachweisfest ist oder zur Quelle eines solchen Nachweises führt.",
+        "en": "A request for data that is proof of evidence or leads to the source of such a proof."
       },
       "usage": {},
       "parents": [
         {
-          "name": "Requirement",
           "label": "Requirement",
+          "name": "Requirement",
           "package": "CCCEV_v2",
           "uri": "http://data.europa.eu/m8g/cccev#Requirement",
           "scoped_uri": "#Requirement"
@@ -694,16 +694,16 @@
       "uri": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
       "name": "Reference Framework",
       "label": {
-        "en": "Reference Framework",
-        "de": "Referenzrahmen"
+        "de": "Referenzrahmen",
+        "en": "Reference Framework"
       },
       "sort": "Referenzrahmen",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "name": "Dataset",
           "label": "Dataset",
+          "name": "Dataset",
           "package": "dcat",
           "uri": "http://www.w3.org/ns/dcat#Dataset",
           "scoped_uri": "#Dataset"
@@ -715,13 +715,13 @@
       "uri": "http://data.europa.eu/m8g/cccev#Requirement",
       "name": "Requirement",
       "label": {
-        "en": "Requirement",
-        "de": "Anforderung"
+        "de": "Anforderung",
+        "en": "Requirement"
       },
       "sort": "Anforderung",
       "description": {
-        "en": "A condition demanded.",
-        "de": "Eine Bedingung gefordert."
+        "de": "Eine Bedingung gefordert.",
+        "en": "A condition demanded."
       },
       "usage": {},
       "parents": [],
@@ -731,18 +731,18 @@
           "name": "has concept",
           "sort": "hat Konzept",
           "label": {
-            "en": "has concept",
-            "de": "hat Konzept"
+            "de": "hat Konzept",
+            "en": "has concept"
           },
           "description": {
-            "en": "the requirement concept for which the requirement expects an support in the supporting evidence",
-            "de": "das Anforderungskonzept, für das die Anforderung eine Unterstützung in den Belegen erwartet"
+            "de": "das Anforderungskonzept, für das die Anforderung eine Unterstützung in den Belegen erwartet",
+            "en": "the requirement concept for which the requirement expects an support in the supporting evidence"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -756,8 +756,8 @@
               "range_uri": "#Konzept",
               "range_puri": "http://fixme.com#Concept",
               "range_label": {
-                "en": "Concept",
-                "de": "Konzept"
+                "de": "Konzept",
+                "en": "Concept"
               }
             }
           ],
@@ -769,21 +769,21 @@
           "name": "has evidence type combination",
           "sort": "hat Eine Kombination aus Evidenztyp",
           "label": {
-            "en": "has evidence type combination",
-            "de": "hat Eine Kombination aus Evidenztyp"
+            "de": "hat Eine Kombination aus Evidenztyp",
+            "en": "has evidence type combination"
           },
           "description": {
-            "en": "A collection, or a set of alternative collections, of references to types of evidences",
-            "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln"
+            "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln",
+            "en": "A collection, or a set of alternative collections, of references to types of evidences"
           },
           "usage": {
-            "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved.",
-            "de": "Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden."
+            "de": "Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden.",
+            "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved."
           },
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -797,8 +797,8 @@
               "range_uri": "#Beweistypliste",
               "range_puri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
               "range_label": {
-                "en": "Evidence Type List",
-                "de": "Beweistypliste"
+                "de": "Beweistypliste",
+                "en": "Evidence Type List"
               }
             }
           ],
@@ -810,18 +810,18 @@
           "name": "is requirement of",
           "sort": "ist Voraussetzung für die",
           "label": {
-            "en": "is requirement of",
-            "de": "ist Voraussetzung für die"
+            "de": "ist Voraussetzung für die",
+            "en": "is requirement of"
           },
           "description": {
-            "en": "a related requirement",
-            "de": "eine verwandte Anforderung"
+            "de": "eine verwandte Anforderung",
+            "en": "a related requirement"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -835,8 +835,8 @@
               "range_uri": "#Anforderung",
               "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
               "range_label": {
-                "en": "Requirement",
-                "de": "Anforderung"
+                "de": "Anforderung",
+                "en": "Requirement"
               }
             }
           ],
@@ -848,21 +848,21 @@
           "name": "supports requirement",
           "sort": "unterstützt die Anforderung",
           "label": {
-            "en": "supports requirement",
-            "de": "unterstützt die Anforderung"
+            "de": "unterstützt die Anforderung",
+            "en": "supports requirement"
           },
           "description": {
-            "en": "the supported requirement by the evidence",
-            "de": "die unterstützte Anforderung durch die Beweise"
+            "de": "die unterstützte Anforderung durch die Beweise",
+            "en": "the supported requirement by the evidence"
           },
           "usage": {
-            "en": "Used to express details about the information requested by the requirement.",
-            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken."
+            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken.",
+            "en": "Used to express details about the information requested by the requirement."
           },
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -876,8 +876,8 @@
               "range_uri": "#Beweis",
               "range_puri": "http://data.europa.eu/m8g/cccev#Evidence",
               "range_label": {
-                "en": "Evidence",
-                "de": "Beweis"
+                "de": "Beweis",
+                "en": "Evidence"
               }
             }
           ],
@@ -889,18 +889,18 @@
           "name": "is derived from",
           "sort": "wird von",
           "label": {
-            "en": "is derived from",
-            "de": "wird von"
+            "de": "wird von",
+            "en": "is derived from"
           },
           "description": {
-            "en": "the reference framework that is responsible for the creation/initiation of the requirement",
-            "de": "bezugsrahmen, der für die schaffung/einleitung der anforderung"
+            "de": "bezugsrahmen, der für die schaffung/einleitung der anforderung",
+            "en": "the reference framework that is responsible for the creation/initiation of the requirement"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -914,8 +914,8 @@
               "range_uri": "#Referenzrahmen",
               "range_puri": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
               "range_label": {
-                "en": "Reference Framework",
-                "de": "Referenzrahmen"
+                "de": "Referenzrahmen",
+                "en": "Reference Framework"
               }
             }
           ],
@@ -927,18 +927,18 @@
           "name": "is requirement of",
           "sort": "ist Voraussetzung für die",
           "label": {
-            "en": "is requirement of",
-            "de": "ist Voraussetzung für die"
+            "de": "ist Voraussetzung für die",
+            "en": "is requirement of"
           },
           "description": {
-            "en": "a related requirement",
-            "de": "eine verwandte Anforderung"
+            "de": "eine verwandte Anforderung",
+            "en": "a related requirement"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -952,8 +952,8 @@
               "range_uri": "#Anforderung",
               "range_puri": "http://data.europa.eu/m8g/cccev#Requirement",
               "range_label": {
-                "en": "Requirement",
-                "de": "Anforderung"
+                "de": "Anforderung",
+                "en": "Requirement"
               }
             }
           ],
@@ -965,21 +965,21 @@
           "name": "supports requirement",
           "sort": "unterstützt die Anforderung",
           "label": {
-            "en": "supports requirement",
-            "de": "unterstützt die Anforderung"
+            "de": "unterstützt die Anforderung",
+            "en": "supports requirement"
           },
           "description": {
-            "en": "the supported requirement by the evidence",
-            "de": "die unterstützte Anforderung durch die Beweise"
+            "de": "die unterstützte Anforderung durch die Beweise",
+            "en": "the supported requirement by the evidence"
           },
           "usage": {
-            "en": "Used to express details about the information requested by the requirement.",
-            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken."
+            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken.",
+            "en": "Used to express details about the information requested by the requirement."
           },
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -993,8 +993,8 @@
               "range_uri": "#Beweis",
               "range_puri": "http://data.europa.eu/m8g/cccev#Evidence",
               "range_label": {
-                "en": "Evidence",
-                "de": "Beweis"
+                "de": "Beweis",
+                "en": "Evidence"
               }
             }
           ],
@@ -1006,18 +1006,18 @@
           "name": "description",
           "sort": "beschreibung",
           "label": {
-            "en": "description",
-            "de": "beschreibung"
+            "de": "beschreibung",
+            "en": "description"
           },
           "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.",
-            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die dazu beitragen, das Verständnis der zu instanziierenden Anforderung zu klären."
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die dazu beitragen, das Verständnis der zu instanziierenden Anforderung zu klären.",
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -1043,18 +1043,18 @@
           "name": "identifier",
           "sort": "bezeichner",
           "label": {
-            "en": "identifier",
-            "de": "bezeichner"
+            "de": "bezeichner",
+            "en": "identifier"
           },
           "description": {
-            "en": "An unambiguous reference",
-            "de": "Ein eindeutiger Verweis"
+            "de": "Ein eindeutiger Verweis",
+            "en": "An unambiguous reference"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [],
@@ -1067,18 +1067,18 @@
           "name": "type",
           "sort": "typ",
           "label": {
-            "en": "type",
-            "de": "typ"
+            "de": "typ",
+            "en": "type"
           },
           "description": {
-            "en": "the category or type to which the requirement belongs",
-            "de": "die Kategorie oder den Typ, zu dem die Anforderung gehört"
+            "de": "die Kategorie oder den Typ, zu dem die Anforderung gehört",
+            "en": "the category or type to which the requirement belongs"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -1092,8 +1092,8 @@
               "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "en": "Code",
-                "de": "Code"
+                "de": "Code",
+                "en": "Code"
               }
             }
           ],
@@ -1105,18 +1105,18 @@
           "name": "name",
           "sort": "namen",
           "label": {
-            "en": "name",
-            "de": "namen"
+            "de": "namen",
+            "en": "name"
           },
           "description": {
-            "en": "A name to identify in common language the Requirement",
-            "de": "Ein Name, um in einer gemeinsamen Sprache die Anforderung zu identifizieren"
+            "de": "Ein Name, um in einer gemeinsamen Sprache die Anforderung zu identifizieren",
+            "en": "A name to identify in common language the Requirement"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://data.europa.eu/m8g/cccev#Requirement",
-              "EA-Name": "Requirement"
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
           "range": [
@@ -1143,13 +1143,13 @@
       "uri": "http://fixme.com#Concept",
       "name": "Concept",
       "label": {
-        "en": "Concept",
-        "de": "Konzept"
+        "de": "Konzept",
+        "en": "Concept"
       },
       "sort": "Konzept",
       "description": {
-        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement",
-        "de": "Ein Verweis auf eine Entität, d. h. eine Klasse oder eine Eigenschaft, die zur Beschreibung von Informationen in der zu liefernden Nachweise für die Anforderung verwendet wurde"
+        "de": "Ein Verweis auf eine Entität, d. h. eine Klasse oder eine Eigenschaft, die zur Beschreibung von Informationen in der zu liefernden Nachweise für die Anforderung verwendet wurde",
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
       },
       "usage": {},
       "parents": [],
@@ -1159,18 +1159,18 @@
           "name": "has Constraint",
           "sort": "hat Einschränkung",
           "label": {
-            "en": "has Constraint",
-            "de": "hat Einschränkung"
+            "de": "hat Einschränkung",
+            "en": "has Constraint"
           },
           "description": {
-            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.",
-            "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert."
+            "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert.",
+            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Concept",
-              "EA-Name": "Concept"
+              "EA-Name": "Concept",
+              "uri": "http://fixme.com#Concept"
             }
           ],
           "range": [
@@ -1184,8 +1184,8 @@
               "range_uri": "#Einschränkung",
               "range_puri": "http://data.europa.eu/m8g/cccev#Constraint",
               "range_label": {
-                "en": "Constraint",
-                "de": "Einschränkung"
+                "de": "Einschränkung",
+                "en": "Constraint"
               }
             }
           ],
@@ -1197,18 +1197,18 @@
           "name": "description",
           "sort": "beschreibung",
           "label": {
-            "en": "description",
-            "de": "beschreibung"
+            "de": "beschreibung",
+            "en": "description"
           },
           "description": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated.",
-            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen."
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen.",
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Concept",
-              "EA-Name": "Concept"
+              "EA-Name": "Concept",
+              "uri": "http://fixme.com#Concept"
             }
           ],
           "range": [
@@ -1234,18 +1234,18 @@
           "name": "identifier",
           "sort": "bezeichner",
           "label": {
-            "en": "identifier",
-            "de": "bezeichner"
+            "de": "bezeichner",
+            "en": "identifier"
           },
           "description": {
-            "en": "An unambiguous reference to RequirementConcept",
-            "de": "Ein eindeutiger Verweis auf RequirementConcept"
+            "de": "Ein eindeutiger Verweis auf RequirementConcept",
+            "en": "An unambiguous reference to RequirementConcept"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Concept",
-              "EA-Name": "Concept"
+              "EA-Name": "Concept",
+              "uri": "http://fixme.com#Concept"
             }
           ],
           "range": [],
@@ -1258,18 +1258,18 @@
           "name": "type",
           "sort": "typ",
           "label": {
-            "en": "type",
-            "de": "typ"
+            "de": "typ",
+            "en": "type"
           },
           "description": {
-            "en": "a classification of the RequirementConcept",
-            "de": "eine Klassifizierung des RequirementConcept"
+            "de": "eine Klassifizierung des RequirementConcept",
+            "en": "a classification of the RequirementConcept"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Concept",
-              "EA-Name": "Concept"
+              "EA-Name": "Concept",
+              "uri": "http://fixme.com#Concept"
             }
           ],
           "range": [
@@ -1283,8 +1283,8 @@
               "range_uri": "#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "en": "Code",
-                "de": "Code"
+                "de": "Code",
+                "en": "Code"
               }
             }
           ],
@@ -1296,18 +1296,18 @@
           "name": "name",
           "sort": "name",
           "label": {
-            "en": "name",
-            "de": "name"
+            "de": "name",
+            "en": "name"
           },
           "description": {
-            "en": "A name to identify in common language the RequirementConcept",
-            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren"
+            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren",
+            "en": "A name to identify in common language the RequirementConcept"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://fixme.com#Concept",
-              "EA-Name": "Concept"
+              "EA-Name": "Concept",
+              "uri": "http://fixme.com#Concept"
             }
           ],
           "range": [
@@ -1334,8 +1334,8 @@
       "uri": "http://purl.org/dc/terms/Standard",
       "name": "Standard",
       "label": {
-        "en": "Standard",
-        "de": "Standard"
+        "de": "Standard",
+        "en": "Standard"
       },
       "sort": "Standard",
       "description": {},
@@ -1347,8 +1347,8 @@
       "uri": "http://www.w3.org/ns/dcat#Dataset",
       "name": "Dataset",
       "label": {
-        "en": "Dataset",
-        "de": "Dataset"
+        "de": "Dataset",
+        "en": "Dataset"
       },
       "sort": "Dataset",
       "description": {},
@@ -1360,18 +1360,18 @@
           "name": "distribution",
           "sort": "verteilung",
           "label": {
-            "en": "distribution",
-            "de": "verteilung"
+            "de": "verteilung",
+            "en": "distribution"
           },
           "description": {
-            "en": "the distribution of a dataset",
-            "de": "die Verteilung eines Datasets"
+            "de": "die Verteilung eines Datasets",
+            "en": "the distribution of a dataset"
           },
           "usage": {},
           "domain": [
             {
-              "uri": "http://www.w3.org/ns/dcat#Dataset",
-              "EA-Name": "Dataset"
+              "EA-Name": "Dataset",
+              "uri": "http://www.w3.org/ns/dcat#Dataset"
             }
           ],
           "range": [
@@ -1385,8 +1385,8 @@
               "range_uri": "#Verteilung",
               "range_puri": "http://www.w3.org/ns/dcat#Distribution",
               "range_label": {
-                "en": "Distribution",
-                "de": "Verteilung"
+                "de": "Verteilung",
+                "en": "Distribution"
               }
             }
           ],
@@ -1399,8 +1399,8 @@
       "uri": "http://www.w3.org/ns/dcat#Distribution",
       "name": "Distribution",
       "label": {
-        "en": "Distribution",
-        "de": "Verteilung"
+        "de": "Verteilung",
+        "en": "Distribution"
       },
       "sort": "Verteilung",
       "description": {},
@@ -1412,15 +1412,15 @@
           "name": "download URL",
           "sort": "download-URL",
           "label": {
-            "en": "download URL",
-            "de": "download-URL"
+            "de": "download-URL",
+            "en": "download URL"
           },
           "description": {},
           "usage": {},
           "domain": [
             {
-              "uri": "http://www.w3.org/ns/dcat#Distribution",
-              "EA-Name": "Distribution"
+              "EA-Name": "Distribution",
+              "uri": "http://www.w3.org/ns/dcat#Distribution"
             }
           ],
           "range": [],
@@ -1434,13 +1434,13 @@
       "uri": "http://xmlns.com/foaf/0.1/Agent",
       "name": "Agent",
       "label": {
-        "en": "Agent",
-        "de": "Agent"
+        "de": "Agent",
+        "en": "Agent"
       },
       "sort": "Agent",
       "description": {
-        "en": "An entity that does things (does stuff)",
-        "de": "Eine Entität, die Dinge tut (macht Sachen)"
+        "de": "Eine Entität, die Dinge tut (macht Sachen)",
+        "en": "An entity that does things (does stuff)"
       },
       "usage": {},
       "parents": [],
@@ -1552,13 +1552,13 @@
       "uri": "http://www.w3.org/2004/02/skos/core#Concept",
       "name": "Code",
       "label": {
-        "en": "Code",
-        "de": "Code"
+        "de": "Code",
+        "en": "Code"
       },
       "sort": "Code",
       "description": {
-        "en": "A concept in a codelist",
-        "de": "Ein Konzept in einer Codeliste"
+        "de": "Ein Konzept in einer Codeliste",
+        "en": "A concept in a codelist"
       },
       "usage": {},
       "parents": [],
