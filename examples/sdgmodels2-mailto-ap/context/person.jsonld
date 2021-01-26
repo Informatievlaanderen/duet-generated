@@ -1,0 +1,11 @@
+{
+    "@context": "undefined/person.jsonld",
+    "@type": "https://sdg.semic.euPerson",
+    "@id": "{{ID}}",
+    "dateOfBirth": "{{DATE}}",
+    "familyName": "{{ANY}}",
+    "givenName": "{{ANY}}",
+    "identifier": "{{ANY}}",
+    "placeOfBirth": "{{VAL}}",
+    "sex": "{{VAL}}"
+}

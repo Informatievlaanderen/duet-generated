@@ -91,7 +91,7 @@
       "@id": "https://sdg.semic.euidentifier",
       "@type": ""
     },
-    "Organisation.prefLabel": {
+    "Organisation.preferredLabel": {
       "@container": "@set",
       "@id": "https://sdg.semic.euprefLabel",
       "@type": ""
@@ -136,7 +136,7 @@
       "@id": "https://sdg.semic.eucontains",
       "@type": "@id"
     },
-    "RecordOfResultsEvidence.hasRecordofResults": {
+    "RecordOfResultsEvidence.hasRecordOfResults": {
       "@container": "@set",
       "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "@type": "@id"
@@ -146,7 +146,7 @@
       "@type": ""
     },
     "Student": "https://sdg.semic.euStudent",
-    "Student.studentID": {
+    "Student.studentId": {
       "@container": "@set",
       "@id": "https://sdg.semic.eustudentID",
       "@type": ""

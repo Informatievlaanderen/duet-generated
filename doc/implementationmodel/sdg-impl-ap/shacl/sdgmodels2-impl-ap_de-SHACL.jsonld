@@ -46,10 +46,22 @@
       "sh:property": [
         {
           "sh:class": "https://sdg.semic.euLocation",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euAddress.address"
         },
         {
           "sh:class": "https://sdg.semic.euLocation",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euAddress.address"
         },
         {
@@ -66,6 +78,9 @@
           "sh:path": "https://sdg.semic.euadminUnitL1"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "de": "Verwaltungseinheit Ebene 2"
@@ -84,10 +99,22 @@
         },
         {
           "sh:class": "https://sdg.semic.euPerson",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euAddress.registeredAddress"
         },
         {
           "sh:class": "https://sdg.semic.euPerson",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euAddress.registeredAddress"
         }
       ],
@@ -99,37 +126,79 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseAcademicPeriod"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseAcademicYear"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseCreditsAmount"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseFieldOfStudy"
         },
         {
           "sh:class": "https://sdg.semic.euGrade",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseGrade"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseLanguage"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucourseName"
         }
       ],
@@ -142,10 +211,22 @@
       "sh:property": [
         {
           "sh:class": "https://sdg.semic.euTertiaryEducationEvidence",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euEducationInstitution.obtainedAt"
         },
         {
           "sh:class": "https://sdg.semic.euTertiaryEducationEvidence",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euEducationInstitution.obtainedAt"
         }
       ],
@@ -157,23 +238,47 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eudistribution"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eugradingScheme"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eustatus"
         },
         {
           "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euvalue"
         }
       ],
@@ -186,11 +291,23 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eugeographicIdentifier"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eugeographicName"
         }
       ],
@@ -202,16 +319,34 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euidentifier"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euprefLabel"
         },
         {
           "sh:class": "https://sdg.semic.euLocation",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euregisteredLocation"
         }
       ],
@@ -224,31 +359,67 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eudateOfBirth"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eufamilyName"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eugivenName"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euidentifier"
         },
         {
           "sh:class": "https://sdg.semic.euLocation",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euplaceOfBirth"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eusex"
         }
       ],
@@ -260,25 +431,55 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euacademicYear"
         },
         {
           "sh:class": "https://sdg.semic.euCourseResult",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eucontains"
         },
         {
           "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults"
         },
         {
           "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eutotalCredits"
         }
       ],
@@ -290,6 +491,12 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eustudentID"
         }
       ],
@@ -301,38 +508,86 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euacademicProgramme"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euaccessToFurtherStudy"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euaccessToRegulatedProfession"
         },
         {
           "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement"
         },
         {
           "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eulevelOfDistinction"
         },
         {
           "sh:class": "https://sdg.semic.euGrade",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euoverallGrade"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euthesisTitle"
         }
       ],
@@ -345,52 +600,115 @@
       "sh:property": [
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euacademicProgrammeLanguage"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:path": "https://sdg.semic.euacademicYear"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euaccessRequirement"
         },
         {
           "sh:class": "https://sdg.semic.euGrade",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eugradePointAverage"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eulanguageOfInstruction"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eumainFieldOfStudy"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eumodeOfStudy"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euprogrammeLearningOutcomes"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euqualificationLevel"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eustudyDuration"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eutotalCredits"
         }
       ],
@@ -403,39 +721,81 @@
       "sh:property": [
         {
           "sh:class": "https://sdg.semic.euStudent",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eubelongsTo"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euidentifier"
         },
         {
           "sh:class": "https://sdg.semic.euOrganisation",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euissuingAuthority"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euissuingDate"
         },
         {
           "sh:class": "https://sdg.semic.euLocation",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euissuingPlace"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:definition": {
+            "de": ""
+          },
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.eulanguage"
         },
         {
+          "sh:definition": {
+            "de": ""
+          },
           "sh:minCount": "1",
+          "sh:name": {
+            "de": ""
+          },
           "sh:path": "https://sdg.semic.euqualificationName"
         }
       ],
