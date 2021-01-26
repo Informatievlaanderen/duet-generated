@@ -9,12 +9,6 @@
 <https://duet.dev-vlaanderen.be/shacl/city-demo_en#AddressShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class schemas:City;
-    shacl:definition "The city in which the address is located"@en;
-    shacl:maxCount 1;
-    shacl:name "city"@en;
-    shacl:path <http://www.w3.org/ns/locn#addressArea>
-  ], [
     shacl:datatype xsd:string;
     shacl:definition "A group of numbers or letters and numbers which are added to a postal address to assist the sorting of mail."@en;
     shacl:maxCount 1;
@@ -23,18 +17,24 @@
     shacl:path <http://www.w3.org/ns/locn#postCode>
   ], [
     shacl:datatype xsd:string;
-    shacl:definition "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "house number"@en;
-    shacl:path <http://www.w3.org/ns/locn#poBox>
-  ], [
-    shacl:datatype xsd:string;
     shacl:definition "the name of the public road in a city, town, or village along the adress is located"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "street name"@en;
     shacl:path <http://www.w3.org/ns/locn#thoroughfare>
+  ], [
+    shacl:class schemas:City;
+    shacl:definition "The city in which the address is located"@en;
+    shacl:maxCount 1;
+    shacl:name "city"@en;
+    shacl:path <http://www.w3.org/ns/locn#addressArea>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition "An unique indication, usually a number, in a street allotted to places, mostly houses or units within houses"@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "house number"@en;
+    shacl:path <http://www.w3.org/ns/locn#poBox>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
 
