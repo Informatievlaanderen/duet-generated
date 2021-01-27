@@ -4,44 +4,26 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#GradeShape>,
+<https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#AddressShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#StudentShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#CourseResultShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#PersonShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#LocationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#EducationInstitutionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#GradeShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#RecordOfResultsEvidenceShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#AddressShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#LocationShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#CourseResultShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#OrganisationShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#EducationInstitutionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#StudentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#PersonShape> .
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#OrganisationShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#AddressShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://sdg.semic.euPerson>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euAddress.registeredAddress>
-  ], [
-    <http://purl.org/linked-data/cube#codeList> <http://publications.europa.eu/resource/authority/country>;
-    shacl:class skos:Concept;
-    shacl:definition "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Verwaltungseinheit Ebene 1"@de;
-    shacl:path <https://sdg.semic.euadminUnitL1>
-  ], [
     shacl:class <https://sdg.semic.euLocation>;
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.euAddress.address>
-  ], [
-    shacl:class <https://sdg.semic.euPerson>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euAddress.registeredAddress>
   ], [
     shacl:definition "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."@de;
     shacl:maxCount 1;
@@ -57,22 +39,34 @@
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.euAddress.address>
+  ], [
+    <http://purl.org/linked-data/cube#codeList> <http://publications.europa.eu/resource/authority/country>;
+    shacl:class skos:Concept;
+    shacl:definition "Die oberste Verwaltungseinheit für die Adresse, fast immer ein Land."@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Verwaltungseinheit Ebene 1"@de;
+    shacl:path <https://sdg.semic.euadminUnitL1>
+  ], [
+    shacl:class <https://sdg.semic.euPerson>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euAddress.registeredAddress>
+  ], [
+    shacl:class <https://sdg.semic.euPerson>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euAddress.registeredAddress>
   ];
   shacl:targetClass <https://sdg.semic.euAddress> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#CourseResultShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class skos:Concept;
     shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseCreditsAmount>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseAcademicPeriod>
+    shacl:path <https://sdg.semic.eucourseFieldOfStudy>
   ], [
     shacl:datatype xsd:date;
     shacl:definition ""@de;
@@ -90,6 +84,12 @@
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name ""@de;
+    shacl:path <https://sdg.semic.eucourseCreditsAmount>
+  ], [
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@de;
     shacl:path <https://sdg.semic.eucourseName>
   ], [
     shacl:class <https://sdg.semic.euGrade>;
@@ -99,10 +99,10 @@
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eucourseGrade>
   ], [
-    shacl:class skos:Concept;
     shacl:definition ""@de;
+    shacl:maxCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseFieldOfStudy>
+    shacl:path <https://sdg.semic.eucourseAcademicPeriod>
   ];
   shacl:targetClass <https://sdg.semic.euCourseResult> .
 
@@ -124,11 +124,6 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#GradeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eudistribution>
-  ], [
     shacl:class skos:Concept;
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -136,17 +131,22 @@
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eustatus>
   ], [
-    shacl:datatype rdfs:Literal;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.euvalue>
+    shacl:path <https://sdg.semic.eudistribution>
   ], [
     shacl:datatype xsd:anyURI;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eugradingScheme>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euvalue>
   ];
   shacl:targetClass <https://sdg.semic.euGrade> .
 
@@ -169,11 +169,6 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#OrganisationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euidentifier>
-  ], [
     shacl:class <https://sdg.semic.euLocation>;
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -184,22 +179,17 @@
     shacl:minCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.euprefLabel>
+  ], [
+    shacl:definition ""@de;
+    shacl:minCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euidentifier>
   ];
   shacl:targetClass <https://sdg.semic.euOrganisation> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#PersonShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eugivenName>
-  ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euidentifier>
-  ], [
     shacl:datatype xsd:date;
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -207,17 +197,27 @@
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eudateOfBirth>
   ], [
-    shacl:class skos:Concept;
     shacl:definition ""@de;
     shacl:maxCount 1;
+    shacl:minCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.eusex>
+    shacl:path <https://sdg.semic.eugivenName>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eufamilyName>
+  ], [
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euidentifier>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.eusex>
   ], [
     shacl:class <https://sdg.semic.euLocation>;
     shacl:definition ""@de;
@@ -230,11 +230,15 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#RecordOfResultsEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
     shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.eutotalCredits>
+    shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
+  ], [
+    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -242,20 +246,16 @@
     shacl:name ""@de;
     shacl:path <https://sdg.semic.euacademicYear>
   ], [
-    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
     shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
+    shacl:path <https://sdg.semic.eutotalCredits>
   ], [
     shacl:class <https://sdg.semic.euCourseResult>;
     shacl:definition ""@de;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eucontains>
-  ], [
-    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
   ];
   shacl:targetClass <https://sdg.semic.euRecordOfResultsEvidence> .
 
@@ -271,6 +271,11 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class skos:Concept;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euaccessToFurtherStudy>
+  ], [
     shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
     shacl:definition ""@de;
     shacl:name ""@de;
@@ -282,22 +287,9 @@
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eulevelOfDistinction>
   ], [
-    shacl:class skos:Concept;
     shacl:definition ""@de;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.euaccessToFurtherStudy>
-  ], [
-    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
-  ], [
-    shacl:class <https://sdg.semic.euGrade>;
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euoverallGrade>
+    shacl:path <https://sdg.semic.euaccessToRegulatedProfession>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -306,55 +298,37 @@
     shacl:path <https://sdg.semic.euacademicProgramme>
   ], [
     shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euaccessToRegulatedProfession>
-  ], [
-    shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.euthesisTitle>
+  ], [
+    shacl:class <https://sdg.semic.euGrade>;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euoverallGrade>
+  ], [
+    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
   ];
   shacl:targetClass <https://sdg.semic.euTertiaryEducationDiplomaEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euprogrammeLearningOutcomes>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eustudyDuration>
-  ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eulanguageOfInstruction>
-  ], [
     shacl:class <https://sdg.semic.euGrade>;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eugradePointAverage>
   ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euaccessRequirement>
-  ], [
-    shacl:class skos:Concept;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.euqualificationLevel>
-  ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eumainFieldOfStudy>
+    shacl:path <https://sdg.semic.euprogrammeLearningOutcomes>
   ], [
     shacl:definition ""@de;
     shacl:maxCount 1;
@@ -369,6 +343,16 @@
   ], [
     shacl:class skos:Concept;
     shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.eulanguageOfInstruction>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.eumainFieldOfStudy>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eumodeOfStudy>
@@ -378,29 +362,47 @@
     shacl:minCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eutotalCredits>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition ""@de;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euaccessRequirement>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euqualificationLevel>
+  ], [
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.eustudyDuration>
   ];
   shacl:targetClass <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euidentifier>
+  ], [
+    shacl:class <https://sdg.semic.euLocation>;
+    shacl:definition ""@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@de;
+    shacl:path <https://sdg.semic.euissuingPlace>
+  ], [
     shacl:class <https://sdg.semic.euStudent>;
     shacl:definition ""@de;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name ""@de;
     shacl:path <https://sdg.semic.eubelongsTo>
-  ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eulanguage>
-  ], [
-    shacl:definition ""@de;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euqualificationName>
   ], [
     shacl:class <https://sdg.semic.euOrganisation>;
     shacl:definition ""@de;
@@ -416,16 +418,14 @@
     shacl:path <https://sdg.semic.euissuingDate>
   ], [
     shacl:definition ""@de;
-    shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.euidentifier>
+    shacl:path <https://sdg.semic.euqualificationName>
   ], [
-    shacl:class <https://sdg.semic.euLocation>;
+    shacl:class skos:Concept;
     shacl:definition ""@de;
-    shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name ""@de;
-    shacl:path <https://sdg.semic.euissuingPlace>
+    shacl:path <https://sdg.semic.eulanguage>
   ];
   shacl:targetClass <https://sdg.semic.euTertiaryEducationEvidence> .
