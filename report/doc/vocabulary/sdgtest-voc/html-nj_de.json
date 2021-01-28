@@ -36,20 +36,32 @@
     },
     {
       "uri": "https://sdg.semic.euCourseResult",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Course Result",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Course Result"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Grade obtained after finishing/completing a course."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euEducationInstitution",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Education Institute",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Education Institute"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
+      },
       "usage": {},
       "equivalent": [],
       "parents": [
@@ -58,60 +70,96 @@
     },
     {
       "uri": "https://sdg.semic.euGrade",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Grade",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Grade"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Mark indicating a degree of accomplishment."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euLocation",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Location",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Location"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A spatial region or named place."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euOrganisation",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Organisation",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Organisation"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent"
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euPerson",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Person",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Person"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "An individual person who may be dead or alive, but not imaginary."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euRecordOfResultsEvidence",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Record of Results Evidence",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Record of Results Evidence"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euStudent",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Student",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Student"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
+      },
       "usage": {},
       "equivalent": [],
       "parents": [
@@ -120,10 +168,16 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Tertiary Education Diploma Evidence",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Tertiary Education Diploma Evidence"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
+      },
       "usage": {},
       "equivalent": [],
       "parents": [
@@ -132,20 +186,32 @@
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Tertiary Education Diploma Supplement Evidence",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Tertiary Education Diploma Supplement Evidence"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
     },
     {
       "uri": "https://sdg.semic.euTertiaryEducationEvidence",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Tertiary Education Evidence",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Tertiary Education Evidence"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
+      },
       "usage": {},
       "equivalent": [],
       "parents": []
@@ -304,10 +370,16 @@
     },
     {
       "uri": "https://sdg.semic.euacademicProgramme",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "academic programme",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "academic programme"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -332,10 +404,16 @@
     },
     {
       "uri": "https://sdg.semic.euacademicYear",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "academic year",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "academic year"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tThe period during which the courses and exams took place."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euRecordOfResultsEvidence"
@@ -358,10 +436,16 @@
     },
     {
       "uri": "https://sdg.semic.euaccessRequirement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "access requirement",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "access requirement"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tQualification(s) or periods of study required for access to the programme."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -373,10 +457,16 @@
     },
     {
       "uri": "https://sdg.semic.euaccessToFurtherStudy",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "access to further study",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "access to further study"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -388,10 +478,16 @@
     },
     {
       "uri": "https://sdg.semic.euaccessToRegulatedProfession",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "access to regulated profession",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "access to regulated profession"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -468,10 +564,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseAcademicPeriod",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course academic period",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course academic period"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -481,10 +583,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseAcademicYear",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course academic period",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course academic period"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -496,10 +604,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseCreditsAmount",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course credits amount",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course credits amount"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -509,10 +623,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseFieldOfStudy",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course field of study",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course field of study"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The discipline or subject area of a course."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -524,10 +644,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseGrade",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course grade",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course grade"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tA mark indicating a degree of accomplishment for a particular course."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -539,10 +665,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseLanguage",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course language",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course language"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Main language in which the course was taught."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -554,10 +686,16 @@
     },
     {
       "uri": "https://sdg.semic.eucourseName",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "course name",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "course name"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euCourseResult"
@@ -567,10 +705,16 @@
     },
     {
       "uri": "https://sdg.semic.eudateOfBirth",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "date of birth",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "date of birth"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A date that specifies the birth date of a Person."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -582,10 +726,16 @@
     },
     {
       "uri": "https://sdg.semic.eudistribution",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "distribution",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "distribution"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Statistical distribution of grades over the number of students that obtained the respective grade."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"
@@ -595,10 +745,16 @@
     },
     {
       "uri": "https://sdg.semic.eufamilyName",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "family name",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "family name"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -627,10 +783,16 @@
     },
     {
       "uri": "https://sdg.semic.eugeographicIdentifier",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "geographic name",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "geographic name"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euLocation"
@@ -642,10 +804,16 @@
     },
     {
       "uri": "https://sdg.semic.eugeographicName",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "geographic identifier",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "geographic identifier"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A URI that identifies the Location."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euLocation"
@@ -655,10 +823,16 @@
     },
     {
       "uri": "https://sdg.semic.eugivenName",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "given name",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "given name"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -668,10 +842,16 @@
     },
     {
       "uri": "https://sdg.semic.eugradePointAverage",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "grade point average",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "grade point average"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -683,10 +863,16 @@
     },
     {
       "uri": "https://sdg.semic.eugradingScheme",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "grading scheme",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "grading scheme"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Dereferenceable identifier to the grading system that was used to give the grade."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"
@@ -698,10 +884,16 @@
     },
     {
       "uri": "https://sdg.semic.euidentifier",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "identifier",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Many organisations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised b"
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euOrganisation"
@@ -711,10 +903,16 @@
     },
     {
       "uri": "https://sdg.semic.euidentifier",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "identifier",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The identifier relation is used to link a Person to any formally issued Identifier for that Person."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -724,10 +922,16 @@
     },
     {
       "uri": "https://sdg.semic.euidentifier",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "identifier",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "An unambiguous reference to the Tertiary Education Evidence."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -752,10 +956,16 @@
     },
     {
       "uri": "https://sdg.semic.euissuingDate",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "issuing date",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "issuing date"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The date on which the Tertiary Education Evidence was issued."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -782,10 +992,16 @@
     },
     {
       "uri": "https://sdg.semic.eulanguage",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "language",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "language"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The language in which the Tertiary Education Evidence is issued. \t"
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -797,10 +1013,16 @@
     },
     {
       "uri": "https://sdg.semic.eulanguageOfInstruction",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "language of instruction",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "language of instruction"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The different languages in which the programme was given."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -812,10 +1034,16 @@
     },
     {
       "uri": "https://sdg.semic.eulevelOfDistinction",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "level of distinction",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "level of distinction"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -827,10 +1055,16 @@
     },
     {
       "uri": "https://sdg.semic.eumainFieldOfStudy",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "main field of study",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "main field of study"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The main disciplines or subject areas of a qualification."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -842,10 +1076,16 @@
     },
     {
       "uri": "https://sdg.semic.eumodeOfStudy",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "mode of study",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "mode of study"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -857,10 +1097,16 @@
     },
     {
       "uri": "https://sdg.semic.euoverallGrade",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "overall grade",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "overall grade"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A mark indicating a degree of accomplishment."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -887,10 +1133,16 @@
     },
     {
       "uri": "https://sdg.semic.euprefLabel",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "preferred label",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "preferred label"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euOrganisation"
@@ -900,10 +1152,16 @@
     },
     {
       "uri": "https://sdg.semic.euprogrammeLearningOutcomes",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "programme learning outcomes",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "programme learning outcomes"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -913,10 +1171,16 @@
     },
     {
       "uri": "https://sdg.semic.euqualificationLevel",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "qualification level",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "qualification level"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tLevel of the obtained qualification."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -928,10 +1192,16 @@
     },
     {
       "uri": "https://sdg.semic.euqualificationName",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "qualification name",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "qualification name"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationEvidence"
@@ -956,10 +1226,16 @@
     },
     {
       "uri": "https://sdg.semic.eusex",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "sex",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "sex"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euPerson"
@@ -971,10 +1247,16 @@
     },
     {
       "uri": "https://sdg.semic.eustatus",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "status",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "status"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"
@@ -986,10 +1268,16 @@
     },
     {
       "uri": "https://sdg.semic.eustudentID",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "student ID",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "student ID"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "An unambiguous reference to the Student."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euStudent"
@@ -999,10 +1287,16 @@
     },
     {
       "uri": "https://sdg.semic.eustudyDuration",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "study duration",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "study duration"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Official duration of the programme in years of full-time study."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1012,10 +1306,16 @@
     },
     {
       "uri": "https://sdg.semic.euthesisTitle",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "thesis title",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "thesis title"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Title of the dissertation completed by a student as part of a tertiary education degree."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1025,10 +1325,16 @@
     },
     {
       "uri": "https://sdg.semic.eutotalCredits",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "total credits",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "total credits"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "The total number of ECTS credits of the courses contained within the Record of Results."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euRecordOfResultsEvidence"
@@ -1038,10 +1344,16 @@
     },
     {
       "uri": "https://sdg.semic.eutotalCredits",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "total credits",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "total credits"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "Total student workload required, described in terms of ECTS credits."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1051,10 +1363,16 @@
     },
     {
       "uri": "https://sdg.semic.euvalue",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "value",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "value"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A (quantitative or qualitative) value according to the definition in the grading scheme."
+      },
       "usage": {},
       "domain": [
         "https://sdg.semic.euGrade"

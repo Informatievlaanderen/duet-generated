@@ -65,11 +65,17 @@
     {
       "@id": "https://sdg.semic.euCourseResult",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euEducationInstitution",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -77,31 +83,49 @@
     {
       "@id": "https://sdg.semic.euGrade",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euLocation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euOrganisation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euPerson",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euRecordOfResultsEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euStudent",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -109,6 +133,9 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -116,11 +143,17 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.euTertiaryEducationEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     }
   ],
@@ -190,6 +223,9 @@
     {
       "@id": "https://sdg.semic.euAddress.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -205,6 +241,9 @@
     {
       "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -220,6 +259,9 @@
     {
       "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euEducationInstitution"
@@ -235,6 +277,9 @@
     {
       "@id": "https://sdg.semic.euAddress.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -250,6 +295,9 @@
     {
       "@id": "https://sdg.semic.euAddress.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -265,6 +313,9 @@
     {
       "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -280,6 +331,9 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -295,6 +349,9 @@
     {
       "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -310,6 +367,9 @@
     {
       "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -325,6 +385,9 @@
     {
       "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euEducationInstitution"
@@ -340,6 +403,9 @@
     {
       "@id": "https://sdg.semic.euacademicProgramme",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -351,6 +417,9 @@
     {
       "@id": "https://sdg.semic.euacademicProgrammeLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -366,6 +435,9 @@
     {
       "@id": "https://sdg.semic.euacademicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -377,6 +449,9 @@
     {
       "@id": "https://sdg.semic.euacademicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -388,6 +463,9 @@
     {
       "@id": "https://sdg.semic.euaccessRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -403,6 +481,9 @@
     {
       "@id": "https://sdg.semic.euaccessToFurtherStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -418,6 +499,9 @@
     {
       "@id": "https://sdg.semic.euaccessToRegulatedProfession",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -447,6 +531,9 @@
     {
       "@id": "https://sdg.semic.euadminUnitL2",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euAddress"
@@ -458,6 +545,9 @@
     {
       "@id": "https://sdg.semic.eubelongsTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -473,6 +563,9 @@
     {
       "@id": "https://sdg.semic.eucontains",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -488,6 +581,9 @@
     {
       "@id": "https://sdg.semic.eucourseAcademicPeriod",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -499,6 +595,9 @@
     {
       "@id": "https://sdg.semic.eucourseAcademicYear",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -514,6 +613,9 @@
     {
       "@id": "https://sdg.semic.eucourseCreditsAmount",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -525,6 +627,9 @@
     {
       "@id": "https://sdg.semic.eucourseFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -540,6 +645,9 @@
     {
       "@id": "https://sdg.semic.eucourseGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -555,6 +663,9 @@
     {
       "@id": "https://sdg.semic.eucourseLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -570,6 +681,9 @@
     {
       "@id": "https://sdg.semic.eucourseName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euCourseResult"
@@ -581,6 +695,9 @@
     {
       "@id": "https://sdg.semic.eudateOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -596,6 +713,9 @@
     {
       "@id": "https://sdg.semic.eudistribution",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"
@@ -607,6 +727,9 @@
     {
       "@id": "https://sdg.semic.eufamilyName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -619,7 +742,7 @@
       "@id": "https://sdg.semic.eufullAddress",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "definition": {
-        "de": "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
+        "de": "[UPDATED] Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
       },
       "domain": [
         {
@@ -632,6 +755,9 @@
     {
       "@id": "https://sdg.semic.eugeographicIdentifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euLocation"
@@ -647,6 +773,9 @@
     {
       "@id": "https://sdg.semic.eugeographicName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euLocation"
@@ -658,6 +787,9 @@
     {
       "@id": "https://sdg.semic.eugivenName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -669,6 +801,9 @@
     {
       "@id": "https://sdg.semic.eugradePointAverage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -684,6 +819,9 @@
     {
       "@id": "https://sdg.semic.eugradingScheme",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"
@@ -699,6 +837,9 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -710,6 +851,9 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -721,6 +865,9 @@
     {
       "@id": "https://sdg.semic.euidentifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -732,6 +879,9 @@
     {
       "@id": "https://sdg.semic.euissuingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -747,6 +897,9 @@
     {
       "@id": "https://sdg.semic.euissuingDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -762,6 +915,9 @@
     {
       "@id": "https://sdg.semic.euissuingPlace",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -777,6 +933,9 @@
     {
       "@id": "https://sdg.semic.eulanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -792,6 +951,9 @@
     {
       "@id": "https://sdg.semic.eulanguageOfInstruction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -807,6 +969,9 @@
     {
       "@id": "https://sdg.semic.eulevelOfDistinction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -822,6 +987,9 @@
     {
       "@id": "https://sdg.semic.eumainFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -837,6 +1005,9 @@
     {
       "@id": "https://sdg.semic.eumodeOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -852,6 +1023,9 @@
     {
       "@id": "https://sdg.semic.euoverallGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -867,6 +1041,9 @@
     {
       "@id": "https://sdg.semic.euplaceOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -882,6 +1059,9 @@
     {
       "@id": "https://sdg.semic.euprefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -893,6 +1073,9 @@
     {
       "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -904,6 +1087,9 @@
     {
       "@id": "https://sdg.semic.euqualificationLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -919,6 +1105,9 @@
     {
       "@id": "https://sdg.semic.euqualificationName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationEvidence"
@@ -930,6 +1119,9 @@
     {
       "@id": "https://sdg.semic.euregisteredLocation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euOrganisation"
@@ -945,6 +1137,9 @@
     {
       "@id": "https://sdg.semic.eusex",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euPerson"
@@ -960,6 +1155,9 @@
     {
       "@id": "https://sdg.semic.eustatus",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"
@@ -975,6 +1173,9 @@
     {
       "@id": "https://sdg.semic.eustudentID",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euStudent"
@@ -986,6 +1187,9 @@
     {
       "@id": "https://sdg.semic.eustudyDuration",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -997,6 +1201,9 @@
     {
       "@id": "https://sdg.semic.euthesisTitle",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
@@ -1008,6 +1215,9 @@
     {
       "@id": "https://sdg.semic.eutotalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euRecordOfResultsEvidence"
@@ -1019,6 +1229,9 @@
     {
       "@id": "https://sdg.semic.eutotalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
@@ -1030,6 +1243,9 @@
     {
       "@id": "https://sdg.semic.euvalue",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.euGrade"

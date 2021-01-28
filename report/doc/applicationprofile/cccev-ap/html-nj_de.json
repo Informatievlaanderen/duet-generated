@@ -485,9 +485,9 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
           "name": "specifies evidence type",
-          "sort": "gibt den Beweistyp an",
+          "sort": "[UPDATED] wird in",
           "label": {
-            "de": "gibt den Beweistyp an",
+            "de": "[UPDATED] wird in",
             "en": "specifies evidence type"
           },
           "description": {},
@@ -520,9 +520,9 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
           "name": "specifies evidence type",
-          "sort": "gibt den Beweistyp an",
+          "sort": "[UPDATED] wird in",
           "label": {
-            "de": "gibt den Beweistyp an",
+            "de": "[UPDATED] wird in",
             "en": "specifies evidence type"
           },
           "description": {},
@@ -808,16 +808,19 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
           "name": "is requirement of",
-          "sort": "ist Voraussetzung für die",
+          "sort": "[UPDATED] hat Anforderung",
           "label": {
-            "de": "ist Voraussetzung für die",
+            "de": "[UPDATED] hat Anforderung",
             "en": "is requirement of"
           },
           "description": {
             "de": "eine verwandte Anforderung",
             "en": "a related requirement"
           },
-          "usage": {},
+          "usage": {
+            "de": "Enter your translation here",
+            "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."
+          },
           "domain": [
             {
               "EA-Name": "Requirement",
@@ -846,17 +849,17 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
           "name": "supports requirement",
-          "sort": "unterstützt die Anforderung",
+          "sort": "[UPDATED] hat Belege",
           "label": {
-            "de": "unterstützt die Anforderung",
+            "de": "[UPDATED] hat Belege",
             "en": "supports requirement"
           },
           "description": {
-            "de": "die unterstützte Anforderung durch die Beweise",
+            "de": "[UPDATED] die Art von Beweisen, die die Anforderung erwartet",
             "en": "the supported requirement by the evidence"
           },
           "usage": {
-            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken.",
+            "de": "[UPDATED] ANMERKUNG: Etikett sollte geändert werden",
             "en": "Used to express details about the information requested by the requirement."
           },
           "domain": [
@@ -925,16 +928,19 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasRequirement",
           "name": "is requirement of",
-          "sort": "ist Voraussetzung für die",
+          "sort": "[UPDATED] hat Anforderung",
           "label": {
-            "de": "ist Voraussetzung für die",
+            "de": "[UPDATED] hat Anforderung",
             "en": "is requirement of"
           },
           "description": {
             "de": "eine verwandte Anforderung",
             "en": "a related requirement"
           },
-          "usage": {},
+          "usage": {
+            "de": "Enter your translation here",
+            "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."
+          },
           "domain": [
             {
               "EA-Name": "Requirement",
@@ -963,17 +969,17 @@
         {
           "uri": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
           "name": "supports requirement",
-          "sort": "unterstützt die Anforderung",
+          "sort": "[UPDATED] hat Belege",
           "label": {
-            "de": "unterstützt die Anforderung",
+            "de": "[UPDATED] hat Belege",
             "en": "supports requirement"
           },
           "description": {
-            "de": "die unterstützte Anforderung durch die Beweise",
+            "de": "[UPDATED] die Art von Beweisen, die die Anforderung erwartet",
             "en": "the supported requirement by the evidence"
           },
           "usage": {
-            "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken.",
+            "de": "[UPDATED] ANMERKUNG: Etikett sollte geändert werden",
             "en": "Used to express details about the information requested by the requirement."
           },
           "domain": [

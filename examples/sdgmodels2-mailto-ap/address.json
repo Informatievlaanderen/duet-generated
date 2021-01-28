@@ -2,6 +2,8 @@
     "@context": "/doc/ap/sdgmodels2-mailto-ap/address.jsonld",
     "@type": "https://sdg.semic.euAddress",
     "@id": "{{ID}}",
+    "address": "{{VAL}}",
+    "registeredAddress": "{{VAL}}",
     "adminUnitLevel1": "{{VAL}}",
     "adminUnitLevel2": "{{ANY}}",
     "fullAddress": "{{ANY}}"

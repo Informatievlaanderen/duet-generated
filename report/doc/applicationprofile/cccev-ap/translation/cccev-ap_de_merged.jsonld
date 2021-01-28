@@ -1123,7 +1123,7 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "de": "ist Voraussetzung für die",
+        "de": "[UPDATED] hat Anforderung",
         "en": "is requirement of"
       },
       "maxCardinality": "*",
@@ -1136,7 +1136,11 @@
           "EA-Package": "CCCEV_v2",
           "uri": "http://data.europa.eu/m8g/cccev#Requirement"
         }
-      ]
+      ],
+      "usage": {
+        "de": "Enter your translation here",
+        "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."
+      }
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
@@ -1150,7 +1154,7 @@
       },
       "codelist": [],
       "definition": {
-        "de": "die unterstützte Anforderung durch die Beweise",
+        "de": "[UPDATED] die Art von Beweisen, die die Anforderung erwartet",
         "en": "the supported requirement by the evidence"
       },
       "domain": [
@@ -1242,7 +1246,7 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "de": "unterstützt die Anforderung",
+        "de": "[UPDATED] hat Belege",
         "en": "supports requirement"
       },
       "maxCardinality": "*",
@@ -1257,7 +1261,7 @@
         }
       ],
       "usage": {
-        "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken.",
+        "de": "[UPDATED] ANMERKUNG: Etikett sollte geändert werden",
         "en": "Used to express details about the information requested by the requirement."
       }
     },
@@ -1690,7 +1694,7 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "de": "ist Voraussetzung für die",
+        "de": "[UPDATED] hat Anforderung",
         "en": "is requirement of"
       },
       "maxCardinality": "*",
@@ -1703,7 +1707,11 @@
           "EA-Package": "CCCEV_v2",
           "uri": "http://data.europa.eu/m8g/cccev#Requirement"
         }
-      ]
+      ],
+      "usage": {
+        "de": "Enter your translation here",
+        "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."
+      }
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
@@ -1781,7 +1789,7 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "de": "gibt den Beweistyp an",
+        "de": "[UPDATED] wird in",
         "en": "specifies evidence type"
       },
       "maxCardinality": "*",
@@ -1872,7 +1880,7 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "de": "gibt den Beweistyp an",
+        "de": "[UPDATED] wird in",
         "en": "specifies evidence type"
       },
       "maxCardinality": "*",
@@ -2022,7 +2030,7 @@
       },
       "codelist": [],
       "definition": {
-        "de": "die unterstützte Anforderung durch die Beweise",
+        "de": "[UPDATED] die Art von Beweisen, die die Anforderung erwartet",
         "en": "the supported requirement by the evidence"
       },
       "domain": [
@@ -2114,7 +2122,7 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "de": "unterstützt die Anforderung",
+        "de": "[UPDATED] hat Belege",
         "en": "supports requirement"
       },
       "maxCardinality": "*",
@@ -2129,7 +2137,7 @@
         }
       ],
       "usage": {
-        "de": "Wird verwendet, um Details zu den von der Anforderung angeforderten Informationen auszudrücken.",
+        "de": "[UPDATED] ANMERKUNG: Etikett sollte geändert werden",
         "en": "Used to express details about the information requested by the requirement."
       }
     },
@@ -4268,7 +4276,7 @@
   "standaardregisterurl": "",
   "template": "cccev-ap_de.j2",
   "title": "TODO Core Criterion and Core Evidence Vocabulary",
-  "toolchaincommit": "49bd1c39d130f2ed596a4c6bd48720011ce314b2",
+  "toolchaincommit": "8ebaed5c535d3c4945e344d3c27cc3ed7ef7f3ac",
   "translation": [
     {
       "language": "en",

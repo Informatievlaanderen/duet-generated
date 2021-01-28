@@ -163,6 +163,7 @@
         "en": "Course Result"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "Grade obtained after finishing/completing a course."
       },
       "extra": {
@@ -204,9 +205,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Course Result"
       },
-      "name": "",
+      "name": "Course Result",
       "parents": []
     },
     {
@@ -220,6 +222,7 @@
         "en": "Education Institute"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
       },
       "extra": {
@@ -268,9 +271,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Education Institute"
       },
-      "name": "",
+      "name": "Education Institute",
       "parents": [
         "https://sdg.semic.euOrganisation"
       ]
@@ -286,6 +290,7 @@
         "en": "Grade"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "Mark indicating a degree of accomplishment."
       },
       "extra": {
@@ -327,9 +332,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Grade"
       },
-      "name": "",
+      "name": "Grade",
       "parents": []
     },
     {
@@ -343,6 +349,7 @@
         "en": "Location"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "A spatial region or named place."
       },
       "extra": {
@@ -384,9 +391,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Location"
       },
-      "name": "",
+      "name": "Location",
       "parents": []
     },
     {
@@ -400,6 +408,7 @@
         "en": "Organisation"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent"
       },
       "extra": {
@@ -441,9 +450,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Organisation"
       },
-      "name": "",
+      "name": "Organisation",
       "parents": []
     },
     {
@@ -457,6 +467,7 @@
         "en": "Person"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "An individual person who may be dead or alive, but not imaginary."
       },
       "extra": {
@@ -498,9 +509,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Person"
       },
-      "name": "",
+      "name": "Person",
       "parents": []
     },
     {
@@ -514,6 +526,7 @@
         "en": "Record of Results Evidence"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
       },
       "extra": {
@@ -555,9 +568,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Record of Results Evidence"
       },
-      "name": "",
+      "name": "Record of Results Evidence",
       "parents": []
     },
     {
@@ -571,6 +585,7 @@
         "en": "Student"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
       },
       "extra": {
@@ -619,9 +634,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Student"
       },
-      "name": "",
+      "name": "Student",
       "parents": [
         "https://sdg.semic.euPerson"
       ]
@@ -637,6 +653,7 @@
         "en": "Tertiary Education Diploma Evidence"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
       },
       "extra": {
@@ -685,9 +702,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Tertiary Education Diploma Evidence"
       },
-      "name": "",
+      "name": "Tertiary Education Diploma Evidence",
       "parents": [
         "https://sdg.semic.euTertiaryEducationEvidence"
       ]
@@ -703,6 +721,7 @@
         "en": "Tertiary Education Diploma Supplement Evidence"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
       },
       "extra": {
@@ -744,9 +763,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Tertiary Education Diploma Supplement Evidence"
       },
-      "name": "",
+      "name": "Tertiary Education Diploma Supplement Evidence",
       "parents": []
     },
     {
@@ -760,6 +780,7 @@
         "en": "Tertiary Education Evidence"
       },
       "definition": {
+        "de": "Enter your translation here",
         "en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
       },
       "extra": {
@@ -801,9 +822,10 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "Tertiary Education Evidence"
       },
-      "name": "",
+      "name": "Tertiary Education Evidence",
       "parents": []
     }
   ],
@@ -1437,6 +1459,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification."
       },
       "domain": [
@@ -1490,11 +1513,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "academic programme"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "academic programme",
       "range": []
     },
     {
@@ -1563,6 +1587,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tThe period during which the courses and exams took place."
       },
       "domain": [
@@ -1616,11 +1641,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "academic year"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "academic year",
       "range": []
     },
     {
@@ -1681,6 +1707,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tQualification(s) or periods of study required for access to the programme."
       },
       "domain": [
@@ -1735,11 +1762,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "access requirement"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "access requirement",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -1761,6 +1789,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution."
       },
       "domain": [
@@ -1815,11 +1844,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "access to further study"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "access to further study",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -1841,6 +1871,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority."
       },
       "domain": [
@@ -1894,11 +1925,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "access to regulated profession"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "access to regulated profession",
       "range": []
     },
     {
@@ -2185,6 +2217,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Period of the academic year when the course took place, e.g. first semester, second trimester, etc."
       },
       "domain": [
@@ -2238,11 +2271,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course academic period"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "course academic period",
       "range": []
     },
     {
@@ -2257,6 +2291,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tThe annual period of sessions of an educational programme usually beginning in September and ending in June."
       },
       "domain": [
@@ -2310,11 +2345,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course academic period"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "course academic period",
       "range": [
         {
           "EA-Name": "Date",
@@ -2335,6 +2371,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tThe number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload."
       },
       "domain": [
@@ -2388,11 +2425,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course credits amount"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "course credits amount",
       "range": []
     },
     {
@@ -2407,6 +2445,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The discipline or subject area of a course."
       },
       "domain": [
@@ -2461,11 +2500,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course field of study"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "course field of study",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -2487,6 +2527,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tA mark indicating a degree of accomplishment for a particular course."
       },
       "domain": [
@@ -2541,11 +2582,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course grade"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "course grade",
       "range": [
         {
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
@@ -2567,6 +2609,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Main language in which the course was taught."
       },
       "domain": [
@@ -2621,11 +2664,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course language"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "course language",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -2647,6 +2691,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tName given to a number of lectures or other matters dealing with a subject, i.e. the course."
       },
       "domain": [
@@ -2700,11 +2745,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "course name"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "course name",
       "range": []
     },
     {
@@ -2719,6 +2765,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "A date that specifies the birth date of a Person."
       },
       "domain": [
@@ -2772,11 +2819,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "date of birth"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "date of birth",
       "range": [
         {
           "EA-Name": "Date",
@@ -2797,6 +2845,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Statistical distribution of grades over the number of students that obtained the respective grade."
       },
       "domain": [
@@ -2850,11 +2899,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "distribution"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "distribution",
       "range": []
     },
     {
@@ -2869,6 +2919,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. de Boer, van de Putte, von und zu Orlow. Multiple family names, such as are commonly found in Hispanic c"
       },
       "domain": [
@@ -2922,11 +2973,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "family name"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "family name",
       "range": []
     },
     {
@@ -3015,6 +3067,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tA geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts."
       },
       "domain": [
@@ -3068,11 +3121,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "geographic name"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "geographic name",
       "range": [
         {
           "EA-Name": "URI",
@@ -3093,6 +3147,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "A URI that identifies the Location."
       },
       "domain": [
@@ -3146,11 +3201,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "geographic identifier"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "geographic identifier",
       "range": []
     },
     {
@@ -3165,6 +3221,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tA given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a Person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names"
       },
       "domain": [
@@ -3218,11 +3275,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "given name"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "given name",
       "range": []
     },
     {
@@ -3237,6 +3295,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."
       },
       "domain": [
@@ -3291,11 +3350,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "grade point average"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "grade point average",
       "range": [
         {
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
@@ -3317,6 +3377,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Dereferenceable identifier to the grading system that was used to give the grade."
       },
       "domain": [
@@ -3370,11 +3431,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "grading scheme"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "grading scheme",
       "range": [
         {
           "EA-Name": "URI",
@@ -3395,6 +3457,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Many organisations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised b"
       },
       "domain": [
@@ -3448,11 +3511,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "identifier"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": []
     },
     {
@@ -3467,6 +3531,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The identifier relation is used to link a Person to any formally issued Identifier for that Person."
       },
       "domain": [
@@ -3520,11 +3585,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "identifier"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": []
     },
     {
@@ -3539,6 +3605,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "An unambiguous reference to the Tertiary Education Evidence."
       },
       "domain": [
@@ -3597,11 +3664,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "identifier"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": []
     },
     {
@@ -3674,6 +3742,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The date on which the Tertiary Education Evidence was issued."
       },
       "domain": [
@@ -3727,11 +3796,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "issuing date"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "issuing date",
       "range": [
         {
           "EA-Name": "Date",
@@ -3810,6 +3880,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The language in which the Tertiary Education Evidence is issued. \t"
       },
       "domain": [
@@ -3864,11 +3935,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "language"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "language",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -3890,6 +3962,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The different languages in which the programme was given."
       },
       "domain": [
@@ -3944,11 +4017,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "language of instruction"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "language of instruction",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -3970,6 +4044,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tIndication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
       },
       "domain": [
@@ -4024,11 +4099,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "level of distinction"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "level of distinction",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -4050,6 +4126,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The main disciplines or subject areas of a qualification."
       },
       "domain": [
@@ -4104,11 +4181,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "main field of study"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "main field of study",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -4130,6 +4208,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc."
       },
       "domain": [
@@ -4184,11 +4263,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "mode of study"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "mode of study",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -4210,6 +4290,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "A mark indicating a degree of accomplishment."
       },
       "domain": [
@@ -4264,11 +4345,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "overall grade"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "overall grade",
       "range": [
         {
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
@@ -4348,6 +4430,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with mult"
       },
       "domain": [
@@ -4401,11 +4484,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "preferred label"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "preferred label",
       "range": []
     },
     {
@@ -4420,6 +4504,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tStatements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: The graduate can a"
       },
       "domain": [
@@ -4473,11 +4558,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "programme learning outcomes"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "programme learning outcomes",
       "range": []
     },
     {
@@ -4492,6 +4578,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tLevel of the obtained qualification."
       },
       "domain": [
@@ -4546,11 +4633,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "qualification level"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "qualification level",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -4572,6 +4660,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc."
       },
       "domain": [
@@ -4625,11 +4714,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "qualification name"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "qualification name",
       "range": []
     },
     {
@@ -4702,6 +4792,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male."
       },
       "domain": [
@@ -4756,11 +4847,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "sex"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "sex",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -4782,6 +4874,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": " \tAn indicator of the status of the course and the obtained grade, e.g. pass, fail, in-progress, unknown."
       },
       "domain": [
@@ -4836,11 +4929,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "status"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "status",
       "range": [
         {
           "EA-GUID": "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}",
@@ -4862,6 +4956,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "An unambiguous reference to the Student."
       },
       "domain": [
@@ -4915,11 +5010,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "student ID"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "student ID",
       "range": []
     },
     {
@@ -4934,6 +5030,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Official duration of the programme in years of full-time study."
       },
       "domain": [
@@ -4987,11 +5084,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "study duration"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "study duration",
       "range": []
     },
     {
@@ -5006,6 +5104,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Title of the dissertation completed by a student as part of a tertiary education degree."
       },
       "domain": [
@@ -5059,11 +5158,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "thesis title"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "thesis title",
       "range": []
     },
     {
@@ -5078,6 +5178,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "The total number of ECTS credits of the courses contained within the Record of Results."
       },
       "domain": [
@@ -5131,11 +5232,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "total credits"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "total credits",
       "range": []
     },
     {
@@ -5150,6 +5252,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "Total student workload required, described in terms of ECTS credits."
       },
       "domain": [
@@ -5203,11 +5306,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "total credits"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "total credits",
       "range": []
     },
     {
@@ -5222,6 +5326,7 @@
       },
       "codelist": [],
       "definition": {
+        "de": "Enter your translation here",
         "en": "A (quantitative or qualitative) value according to the definition in the grading scheme."
       },
       "domain": [
@@ -5275,11 +5380,12 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
+        "de": "Enter your translation here",
         "en": "value"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "value",
       "range": [
         {
           "EA-Name": "Literal",
@@ -5296,7 +5402,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
   "template": "sdgtest2-ap_de.j2",
   "title": "TertiaryEducationDiplomaEvidence-AP-DE",
-  "toolchaincommit": "49bd1c39d130f2ed596a4c6bd48720011ce314b2",
+  "toolchaincommit": "8ebaed5c535d3c4945e344d3c27cc3ed7ef7f3ac",
   "translation": [
     {
       "language": "en",

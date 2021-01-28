@@ -2,6 +2,16 @@
   "@context": {
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
     "Anforderung": "http://data.europa.eu/m8g/cccev#Requirement",
+    "Anforderung.[updated]HatAnforderung": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#hasRequirement",
+      "@type": "@id"
+    },
+    "Anforderung.[updated]HatBelege": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
+      "@type": "@id"
+    },
     "Anforderung.beschreibung": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/description",
@@ -22,11 +32,6 @@
       "@id": "http://data.europa.eu/m8g/cccev#hasConcept",
       "@type": "@id"
     },
-    "Anforderung.istVoraussetzungFürDie": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#hasRequirement",
-      "@type": "@id"
-    },
     "Anforderung.namen": {
       "@container": "@set",
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -34,11 +39,6 @@
     },
     "Anforderung.typ": {
       "@id": "http://purl.org/dc/terms/type",
-      "@type": "@id"
-    },
-    "Anforderung.unterstütztDieAnforderung": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence",
       "@type": "@id"
     },
     "Anforderung.wirdVon": {
@@ -67,17 +67,17 @@
       "@type": "@id"
     },
     "Beweisart": "http://data.europa.eu/m8g/cccev#EvidenceType",
+    "Beweisart.[updated]WirdIn": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
+      "@type": "@id"
+    },
     "Beweisart.beweistypklassifizierung": {
       "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
       "@type": "@id"
     },
     "Beweisart.datensatztyp": {
       "@id": "http://data.europa.eu/m8g/cccev#datasetType",
-      "@type": "@id"
-    },
-    "Beweisart.gibtDenBeweistypAn": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
       "@type": "@id"
     },
     "Beweistypliste": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",

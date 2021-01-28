@@ -4,40 +4,35 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#AddressShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#StudentShape>,
+<https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_deshapes> <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#AddressShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#RecordOfResultsEvidenceShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#CourseResultShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#PersonShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#LocationShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#EducationInstitutionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#LocationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#StudentShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#GradeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#RecordOfResultsEvidenceShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#OrganisationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape>,
     <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaEvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#OrganisationShape> .
+    <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#AddressShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://sdg.semic.euLocation>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euAddress.address>
-  ], [
-    shacl:definition "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."@de;
+    shacl:definition "[UPDATED] Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."@de;
     shacl:maxCount 1;
     shacl:name "vollständige Adresse"@de;
     shacl:path <https://sdg.semic.eufullAddress>
   ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name "Verwaltungseinheit Ebene 2"@de;
-    shacl:path <https://sdg.semic.euadminUnitL2>
+    shacl:class <https://sdg.semic.euPerson>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euAddress.registeredAddress>
   ], [
     shacl:class <https://sdg.semic.euLocation>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euAddress.address>
   ], [
     <http://purl.org/linked-data/cube#codeList> <http://publications.europa.eu/resource/authority/country>;
@@ -48,61 +43,66 @@
     shacl:name "Verwaltungseinheit Ebene 1"@de;
     shacl:path <https://sdg.semic.euadminUnitL1>
   ], [
-    shacl:class <https://sdg.semic.euPerson>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euAddress.registeredAddress>
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:name "Verwaltungseinheit Ebene 2"@de;
+    shacl:path <https://sdg.semic.euadminUnitL2>
   ], [
     shacl:class <https://sdg.semic.euPerson>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euAddress.registeredAddress>
+  ], [
+    shacl:class <https://sdg.semic.euLocation>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euAddress.address>
   ];
   shacl:targetClass <https://sdg.semic.euAddress> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#CourseResultShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseFieldOfStudy>
-  ], [
-    shacl:datatype xsd:date;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseAcademicYear>
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eucourseAcademicPeriod>
   ], [
     shacl:class skos:Concept;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eucourseLanguage>
   ], [
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eucourseCreditsAmount>
   ], [
-    shacl:definition ""@de;
+    shacl:datatype xsd:date;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseName>
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eucourseAcademicYear>
   ], [
     shacl:class <https://sdg.semic.euGrade>;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eucourseGrade>
   ], [
-    shacl:definition ""@de;
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eucourseFieldOfStudy>
+  ], [
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eucourseAcademicPeriod>
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eucourseName>
   ];
   shacl:targetClass <https://sdg.semic.euCourseResult> .
 
@@ -110,13 +110,13 @@
   shacl:closed false;
   shacl:property [
     shacl:class <https://sdg.semic.euTertiaryEducationEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euEducationInstitution.obtainedAt>
   ], [
     shacl:class <https://sdg.semic.euTertiaryEducationEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euEducationInstitution.obtainedAt>
   ];
   shacl:targetClass <https://sdg.semic.euEducationInstitution> .
@@ -124,28 +124,28 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#GradeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eustatus>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eudistribution>
-  ], [
     shacl:datatype xsd:anyURI;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eugradingScheme>
   ], [
-    shacl:datatype rdfs:Literal;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eudistribution>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eustatus>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euvalue>
   ];
   shacl:targetClass <https://sdg.semic.euGrade> .
@@ -154,14 +154,14 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:anyURI;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eugeographicIdentifier>
   ], [
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eugeographicName>
   ];
   shacl:targetClass <https://sdg.semic.euLocation> .
@@ -170,59 +170,59 @@
   shacl:closed false;
   shacl:property [
     shacl:class <https://sdg.semic.euLocation>;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euregisteredLocation>
   ], [
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euprefLabel>
-  ], [
-    shacl:definition ""@de;
-    shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euidentifier>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euprefLabel>
   ];
   shacl:targetClass <https://sdg.semic.euOrganisation> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#PersonShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:date;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eudateOfBirth>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eugivenName>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eufamilyName>
   ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euidentifier>
-  ], [
     shacl:class skos:Concept;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eusex>
   ], [
-    shacl:class <https://sdg.semic.euLocation>;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eugivenName>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euidentifier>
+  ], [
+    shacl:datatype xsd:date;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eudateOfBirth>
+  ], [
+    shacl:class <https://sdg.semic.euLocation>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euplaceOfBirth>
   ];
   shacl:targetClass <https://sdg.semic.euPerson> .
@@ -231,39 +231,39 @@
   shacl:closed false;
   shacl:property [
     shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
   ], [
-    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
-  ], [
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euacademicYear>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eutotalCredits>
   ], [
     shacl:class <https://sdg.semic.euCourseResult>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eucontains>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euacademicYear>
+  ], [
+    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults>
   ];
   shacl:targetClass <https://sdg.semic.euRecordOfResultsEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#StudentShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eustudentID>
   ];
   shacl:targetClass <https://sdg.semic.euStudent> .
@@ -271,112 +271,112 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euaccessToFurtherStudy>
-  ], [
     shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
   ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eulevelOfDistinction>
-  ], [
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euaccessToRegulatedProfession>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euacademicProgramme>
-  ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euthesisTitle>
+    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
   ], [
     shacl:class <https://sdg.semic.euGrade>;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euoverallGrade>
   ], [
-    shacl:class <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence>;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement>
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euaccessToFurtherStudy>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euaccessToRegulatedProfession>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euacademicProgramme>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eulevelOfDistinction>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euthesisTitle>
   ];
   shacl:targetClass <https://sdg.semic.euTertiaryEducationDiplomaEvidence> .
 
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://sdg.semic.euGrade>;
-    shacl:definition ""@de;
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eugradePointAverage>
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eumodeOfStudy>
   ], [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euprogrammeLearningOutcomes>
-  ], [
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:path <https://sdg.semic.euacademicYear>
   ], [
     shacl:class skos:Concept;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euaccessRequirement>
+  ], [
+    shacl:class <https://sdg.semic.euGrade>;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eugradePointAverage>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euacademicProgrammeLanguage>
   ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eulanguageOfInstruction>
-  ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eumainFieldOfStudy>
-  ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eumodeOfStudy>
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euprogrammeLearningOutcomes>
   ], [
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eutotalCredits>
   ], [
     shacl:class skos:Concept;
-    shacl:definition ""@de;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euaccessRequirement>
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eulanguageOfInstruction>
   ], [
     shacl:class skos:Concept;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euqualificationLevel>
   ], [
-    shacl:definition ""@de;
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eumainFieldOfStudy>
+  ], [
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eustudyDuration>
   ];
   shacl:targetClass <https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence> .
@@ -384,48 +384,48 @@
 <https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euidentifier>
-  ], [
-    shacl:class <https://sdg.semic.euLocation>;
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euissuingPlace>
-  ], [
-    shacl:class <https://sdg.semic.euStudent>;
-    shacl:definition ""@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.eubelongsTo>
-  ], [
-    shacl:class <https://sdg.semic.euOrganisation>;
-    shacl:definition ""@de;
-    shacl:minCount 1;
-    shacl:name ""@de;
-    shacl:path <https://sdg.semic.euissuingAuthority>
-  ], [
     shacl:datatype xsd:date;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euissuingDate>
   ], [
-    shacl:definition ""@de;
+    shacl:class <https://sdg.semic.euLocation>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euissuingPlace>
+  ], [
+    shacl:class <https://sdg.semic.euOrganisation>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euissuingAuthority>
+  ], [
+    shacl:definition "Enter your translation here"@de;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.euqualificationName>
   ], [
-    shacl:class skos:Concept;
-    shacl:definition ""@de;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name ""@de;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.euidentifier>
+  ], [
+    shacl:class <https://sdg.semic.euStudent>;
+    shacl:definition "Enter your translation here"@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
+    shacl:path <https://sdg.semic.eubelongsTo>
+  ], [
+    shacl:class skos:Concept;
+    shacl:definition "Enter your translation here"@de;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@de;
     shacl:path <https://sdg.semic.eulanguage>
   ];
   shacl:targetClass <https://sdg.semic.euTertiaryEducationEvidence> .

@@ -175,7 +175,7 @@
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "gibt den Beweistyp an"
+            "de": "[UPDATED] wird in"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isSpecifiedIn"
         },
@@ -183,7 +183,7 @@
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:minCount": "1",
           "sh:name": {
-            "de": "gibt den Beweistyp an"
+            "de": "[UPDATED] wird in"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#isSpecifiedIn"
         }
@@ -273,7 +273,7 @@
             "de": "eine verwandte Anforderung"
           },
           "sh:name": {
-            "de": "ist Voraussetzung für die"
+            "de": "[UPDATED] hat Anforderung"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasRequirement"
         },
@@ -283,27 +283,27 @@
             "de": "eine verwandte Anforderung"
           },
           "sh:name": {
-            "de": "ist Voraussetzung für die"
+            "de": "[UPDATED] hat Anforderung"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasRequirement"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
           "sh:definition": {
-            "de": "die unterstützte Anforderung durch die Beweise"
+            "de": "[UPDATED] die Art von Beweisen, die die Anforderung erwartet"
           },
           "sh:name": {
-            "de": "unterstützt die Anforderung"
+            "de": "[UPDATED] hat Belege"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence"
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Evidence",
           "sh:definition": {
-            "de": "die unterstützte Anforderung durch die Beweise"
+            "de": "[UPDATED] die Art von Beweisen, die die Anforderung erwartet"
           },
           "sh:name": {
-            "de": "unterstützt die Anforderung"
+            "de": "[UPDATED] hat Belege"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#hasSupportingEvidence"
         },
