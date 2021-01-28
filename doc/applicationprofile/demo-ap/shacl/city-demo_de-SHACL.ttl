@@ -10,11 +10,11 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
-    shacl:definition "Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern."@de;
+    shacl:definition "Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern"@de;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "postleitzahl"@de;
-    shacl:path <http://www.w3.org/ns/locn#postCode>
+    shacl:name "hausnummer"@de;
+    shacl:path <http://www.w3.org/ns/locn#poBox>
   ], [
     shacl:datatype xsd:string;
     shacl:definition "Der Name der öffentlichen Straße in einer Stadt oder einem Dorf entlang der Adresse befindet sich"@de;
@@ -23,18 +23,18 @@
     shacl:name "strassenname"@de;
     shacl:path <http://www.w3.org/ns/locn#thoroughfare>
   ], [
+    shacl:datatype xsd:string;
+    shacl:definition "Eine Gruppe von Zahlen oder Buchstaben und Zahlen, die einer Postanschrift hinzugefügt werden, um das Sortieren von Post zu erleichtern."@de;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "postleitzahl"@de;
+    shacl:path <http://www.w3.org/ns/locn#postCode>
+  ], [
     shacl:class schemas:City;
     shacl:definition "Die Stadt in der sich die Adressen befinden."@de;
     shacl:maxCount 1;
     shacl:name "stadt"@de;
     shacl:path <http://www.w3.org/ns/locn#addressArea>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "Eine eindeutige Angabe, normalerweise eine Zahl, in einer Straße, die Orten zugeordnet ist, meistens Häusern oder Einheiten innerhalb von Häusern"@de;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "hausnummer"@de;
-    shacl:path <http://www.w3.org/ns/locn#poBox>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
 
