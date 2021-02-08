@@ -65,11 +65,17 @@
     {
       "@id": "https://sdg.semic.eu/education#CourseResult",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Noten, die nach Abschluss eines Kurses erworben wurden."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#EducationInstitution",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Eine Organisation, die lehrreiche Services für Einzelpersonen oder bildungsbezogene Services für Individuen oder Bildungseinrichtungen anbietet."
+      },
       "parents": [
         "https://sdg.semic.eu/education#Organisation"
       ]
@@ -77,31 +83,49 @@
     {
       "@id": "https://sdg.semic.eu/education#Grade",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Markierung, die einen Grad der Leistung bezeichnet."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#Location",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Ein räumlicher Bereich oder benannter Ort."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#Organisation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Stellt eine Sammlung von Menschen dar, die in einer Gemeinschaft oder einer anderen sozialen, kommerziellen oder politischen Struktur organisiert sind. Die Gruppe hat einen gemeinsamen Zweck oder Existenzgrund, der über die Gruppe von Personen, die ihr angehören, hinausgeht und als Agent fungieren kann. Organisationen sind oft in hierarchische Strukturen zersetzungsfähig."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#Person",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Eine einzelne Person, die zwar tot oder lebendig, aber nicht imaginär sein kann."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Eine Aufzeichnung der Fortschritte des Studierenden in seinem Studium: die bildende Komponenten, die er absolviert hat, die Anzahl der ECTS-Punkte, die er erreicht hat, und die Noten, die er erhalten hat."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#Student",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Ein*e Lernende*r, der/die sich für ein formales Bildungsprogramm an einer tertiären Bildungseinrichtung eingeschrieben hat."
+      },
       "parents": [
         "https://sdg.semic.eu/education#Person"
       ]
@@ -109,6 +133,9 @@
     {
       "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Jede formal erworbene Qualifikation/Befähigung, die von einer zuständigen Behörde ausgestellt wird und den erfolgreichen Abschluss eines anerkannten Studiengangs im Tertiärbereich bescheinigt."
+      },
       "parents": [
         "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ]
@@ -116,11 +143,17 @@
     {
       "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Begleitdokument zu einem Nachweis über das Hochschuldiplom, das eine standardisierte Beschreibung der Art, des Niveaus, des Kontexts, des Inhalts und des Status der von seinem Inhaber abgeschlossenen Studien enthält."
+      },
       "parents": []
     },
     {
       "@id": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "Abstrakte Superklasse für Beweise, die nach dem Erwerb einer Tertiärstufe ausgestellt werden."
+      },
       "parents": []
     }
   ],
@@ -190,6 +223,9 @@
     {
       "@id": "https://sdg.semic.eu/education#Address.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Adresseigenschaftsbeziehung ordnet der Address-Entität einen Standort zu."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Address"
@@ -205,6 +241,9 @@
     {
       "@id": "https://sdg.semic.eu/education#Address.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die registrierte Adresse der Person."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Address"
@@ -220,6 +259,9 @@
     {
       "@id": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Bildungseinrichtung, die den Studenten ausbildete."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#EducationInstitution"
@@ -235,6 +277,9 @@
     {
       "@id": "https://sdg.semic.eu/education#Address.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Adresseigenschaftsbeziehung ordnet der Address-Entität einen Standort zu."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Address"
@@ -250,6 +295,9 @@
     {
       "@id": "https://sdg.semic.eu/education#Address.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die registrierte Adresse der Person."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Address"
@@ -265,6 +313,9 @@
     {
       "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Aufzeichnung der Ergebnis-Nachweise, die den Tertiary Education Diploma Supplement Evidence ergänzt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
@@ -280,6 +331,9 @@
     {
       "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Ergänzendes Dokument, das als Anhang dient, mit zusätzlichen Informationen im Zusammenhang mit dem Nachweis des Hochschuldiploms."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -295,6 +349,9 @@
     {
       "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Aufzeichnung der Ergebnis-Nachweise, die den Tertiary Education Diploma Supplement Evidence ergänzt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
@@ -310,6 +367,9 @@
     {
       "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Ergänzendes Dokument, das als Anhang dient, mit zusätzlichen Informationen im Zusammenhang mit dem Nachweis des Hochschuldiploms."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -325,6 +385,9 @@
     {
       "@id": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Bildungseinrichtung, die den Studenten ausbildete."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#EducationInstitution"
@@ -340,6 +403,9 @@
     {
       "@id": "https://sdg.semic.eu/education#academicProgramme",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Die Kurseinheiten, deren verschiedene Komponenten sich ergänzen und aufeinander aufbauen, um dem/der Student*in einen Hochschulabschluss zu verschaffen."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -351,6 +417,9 @@
     {
       "@id": "https://sdg.semic.eu/education#academicProgrammeLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Sprache, in der die Qualifikation offiziell abgegeben und geprüft wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -366,6 +435,9 @@
     {
       "@id": "https://sdg.semic.eu/education#academicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Der Zeitraum, in dem die Kurse und Prüfungen stattfanden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
@@ -377,6 +449,9 @@
     {
       "@id": "https://sdg.semic.eu/education#academicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Der Zeitraum, in dem die Kurse und Prüfungen stattfanden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -388,6 +463,9 @@
     {
       "@id": "https://sdg.semic.eu/education#accessRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Qualifikationen oder Studienzeiten, die für den Zugang zum Programm erforderlich sind."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -403,6 +481,9 @@
     {
       "@id": "https://sdg.semic.eu/education#accessToFurtherStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Einzelheiten über den Zugang zu weiteren akademischen und/oder beruflichen Studien, die die Qualifikation insbesondere für bestimmte Qualifikationen oder Studienniveaus bietet, z. B. Zugang zu Doktoratsstudiengängen in dem Land oder der Einrichtung."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -418,6 +499,9 @@
     {
       "@id": "https://sdg.semic.eu/education#accessToRegulatedProfession",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Einzelheiten zu der dem Inhaber der Qualifikation gewährten Rechten oder Berufsbezeichnungen gemäß den einzelstaatlichen Rechtsvorschriften oder Anforderungen einer zuständigen Behörde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -447,6 +531,9 @@
     {
       "@id": "https://sdg.semic.eu/education#adminUnitL2",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Die Region der Adresse, in der Regel ein Landkreis, Ein Bundesland oder ein anderes Gebiet, das in der Regel mehrere Orte umfasst."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Address"
@@ -458,6 +545,9 @@
     {
       "@id": "https://sdg.semic.eu/education#belongsTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Der Student, der Inhaber des Nachweis der Hochschulausbildung ist."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -473,6 +563,9 @@
     {
       "@id": "https://sdg.semic.eu/education#contains",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die spezifischen Kursergebnisse, die zusammen die Aufzeichnung der Ergebnisnachweise bilden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
@@ -488,6 +581,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseAcademicPeriod",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Zeitraum des akademischen Jahres, in dem der Kurs stattfand, z.B. Erstes Semester, zweites Trimester usw."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -499,6 +595,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseAcademicYear",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "Die jährliche Sitzungsperiode eines Bildungsprogramms beginnt in der Regel im September und endet im Juni."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -514,6 +613,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseCreditsAmount",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Die Anzahl der ECTS-Punkte für den Kurs, die das Lernvolumen auf der Grundlage der definierten Lernergebnisse und der damit verbundenen Arbeitsbelastung ausdrückt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -525,6 +627,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Disziplin oder der Fachgebiet eines Kurses."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -540,6 +645,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Eine Markierung, die einen Grad der Leistung für einen bestimmten Kurs angibt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -555,6 +663,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Hauptsprache, in der der Kurs unterrichtet wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -570,6 +681,9 @@
     {
       "@id": "https://sdg.semic.eu/education#courseName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Name für eine Reihe von Vorlesungen oder andere Angelegenheiten, die sich mit einem Thema, d.h. dem Kurs, befassen."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#CourseResult"
@@ -581,6 +695,9 @@
     {
       "@id": "https://sdg.semic.eu/education#dateOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "Ein Datum, das das Geburtsdatum einer Person angibt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Person"
@@ -596,6 +713,9 @@
     {
       "@id": "https://sdg.semic.eu/education#distribution",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Grade"
@@ -607,6 +727,9 @@
     {
       "@id": "https://sdg.semic.eu/education#familyName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Ein Familienname wird in der Regel von Familienmitgliedern geteilt. Dieses Attribut enthält auch Präfixe oder Suffixe, die zum Familiennamen gehören, z.B. de Boer, van de Putte, von und zu Orlow. Mehrere Familiennamen, wie sie in hispanischen Ländern häufig zu finden sind, werden im Feld für den einsamen Familiennamen aufgezeichnet, so dass beispielsweise Miguel de Cervantes Saavedras Familienname als \"de Cervantes Saavedra\" aufgezeichnet wird."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Person"
@@ -619,7 +742,7 @@
       "@id": "https://sdg.semic.eu/education#fullAddress",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "definition": {
-        "de": "[UPDATED] Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
+        "de": "Die vollständige Adresse, die als Zeichenfolge mit oder ohne Formatierung geschrieben wurde."
       },
       "domain": [
         {
@@ -632,6 +755,9 @@
     {
       "@id": "https://sdg.semic.eu/education#geographicIdentifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "Eine URI, die den geograpfischen Standort identifiziert."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Location"
@@ -647,6 +773,9 @@
     {
       "@id": "https://sdg.semic.eu/education#geographicName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Ein geografischer Name ist ein richtiges Nomen, das auf ein räumliches Objekt angewendet wird. Die INSPIRE-Datenspezifikation für geografische Namen [INGN] bietet ein detailliertes Modell für die Beschreibung eines \"benannten Ortes\", einschließlich Methoden zum Bereitstellen mehrerer Namen in mehreren Skripts."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Location"
@@ -658,6 +787,9 @@
     {
       "@id": "https://sdg.semic.eu/education#givenName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Ein Vorname oder mehrere Vornamen sind der Nenner, der eine Person innerhalb einer Familie identifiziert. Diese werden einer Person bei der Geburt von ihren Eltern gegeben oder können durch ein formelles Verfahren rechtlich als \"Vornamen\" anerkannt werden. Alle Vornamen sind in einem Feld angeordnet, so dass zum Beispiel der Vorname für Johann Sebastian Bach Johann Sebastian ist."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Person"
@@ -669,6 +801,9 @@
     {
       "@id": "https://sdg.semic.eu/education#gradePointAverage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Der Notendurchschnitt der Kursergebnisse, d.h. Die Noten werden basierend auf der Anzahl der Credits gewichtet."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -684,6 +819,9 @@
     {
       "@id": "https://sdg.semic.eu/education#gradingScheme",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "Dereferenzierbarer Identifikator des Benotungssystems, der zum Geben der Note verwendet wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Grade"
@@ -699,6 +837,9 @@
     {
       "@id": "https://sdg.semic.eu/education#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Viele Organisationen werden mit einem Akronym oder einem anderen Identifikator bezeichnet. Unter den EU-Institutionen ist beispielsweise die EZB die Kennung für die Europäische Zentralbank, OLAF für das Europäische Amt für Betrugsbekämpfung usw. Diese werden von der Europäischen Kommission, die eine Liste solcher Akronyme bereitstellt, förmlich anerkannt. Analoge Listen sollten in anderen Kontexten verwendet werden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Organisation"
@@ -710,6 +851,9 @@
     {
       "@id": "https://sdg.semic.eu/education#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Die Identifikator-Beziehung wird verwendet, um eine Person mit einem formell ausgestellten Identifikator für diese Person zu verknüpfen."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Person"
@@ -721,6 +865,9 @@
     {
       "@id": "https://sdg.semic.eu/education#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Ein eindeutiger Verweis auf den Nachweis der Hochschulausbildung."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -732,6 +879,9 @@
     {
       "@id": "https://sdg.semic.eu/education#issuingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Organisation, die den Nachweis der Hochschulausbildung ausgestellt hat."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -747,6 +897,9 @@
     {
       "@id": "https://sdg.semic.eu/education#issuingDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "Das Datum, an dem der Nachweis der Hochschulausbildung ausgestellt wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -762,6 +915,9 @@
     {
       "@id": "https://sdg.semic.eu/education#issuingPlace",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Der Ort, an dem der Nachweis der Hochschulausbildung ausgestellt wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -777,6 +933,9 @@
     {
       "@id": "https://sdg.semic.eu/education#language",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Sprache, in der der Nachweis der Hochschulausbildung ausgestellt wird."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -792,6 +951,9 @@
     {
       "@id": "https://sdg.semic.eu/education#languageOfInstruction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die verschiedenen Sprachen, in denen das Programm gegeben wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -807,6 +969,9 @@
     {
       "@id": "https://sdg.semic.eu/education#levelOfDistinction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Angabe des Grades der Auszeichnung, mit der ein akademischer Abschluss erworben wurde, z.B. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -822,6 +987,9 @@
     {
       "@id": "https://sdg.semic.eu/education#mainFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Hauptdisziplinen oder Fachgebiete einer Qualifikation."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -837,6 +1005,9 @@
     {
       "@id": "https://sdg.semic.eu/education#modeOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Die Art und Weise, wie das Programm durchgeführt wurde, z. B. Vollzeit, Teilzeit, Intermittieren/Sandwich, E-Learning, Distanzstudium usw."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -852,6 +1023,9 @@
     {
       "@id": "https://sdg.semic.eu/education#overallGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Eine Markierung, die einen Grad der Leistung angibt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -867,6 +1041,9 @@
     {
       "@id": "https://sdg.semic.eu/education#placeOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Der Ort, an dem eine Person geboren wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Person"
@@ -882,6 +1059,9 @@
     {
       "@id": "https://sdg.semic.eu/education#prefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Wie in der ORG Ontology definiert, wird eine bevorzugte Bezeichnung verwendet, um den primären, rechtlich anerkannten Namen der Organisation zu liefern. Eine Organisation darf nur einen solchen Namen in einer bestimmten Sprache haben. Primäre Namen können in mehreren Sprachen mit mehreren Instanzen der bevorzugten Label-Eigenschaft bereitgestellt werden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Organisation"
@@ -893,6 +1073,9 @@
     {
       "@id": "https://sdg.semic.eu/education#programmeLearningOutcomes",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Aussagen darüber, was der/die Student*in nach Abschluss des Studiums und dem Erhalt der Qualifikation  weiß, versteht und tun kann (Wissen, Fähigkeiten, Kompetenzen). Lernergebnisse sollten in der gegenwärtigen Zeit ausgedrückt werden, z. B.: Der/Die Absolvent*in kann Trends im Verbraucherverhalten analysieren und in einem bestimmten Verbrauchermarkt anwenden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -904,6 +1087,9 @@
     {
       "@id": "https://sdg.semic.eu/education#qualificationLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Höhe der erworbenen Qualifikation."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -919,6 +1105,9 @@
     {
       "@id": "https://sdg.semic.eu/education#qualificationName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Vollständiger Name der Qualifikation, zumindest in der Originalsprache(n), wie sie in der ursprünglichen Qualifikation gestylt ist, z.B. Master of Science, Kandidat nauk, Maétrise, Diplom, etc."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
@@ -930,6 +1119,9 @@
     {
       "@id": "https://sdg.semic.eu/education#registeredLocation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Der registrierte Standort der Organisation."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Organisation"
@@ -945,6 +1137,9 @@
     {
       "@id": "https://sdg.semic.eu/education#sex",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Der Chromosomenzustand und die Fortpflanzungsorgane und Strukturen einer Person, die es ihnen ermöglicht, als weiblich oder männlich unterschieden zu werden."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Person"
@@ -960,6 +1155,9 @@
     {
       "@id": "https://sdg.semic.eu/education#status",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "de": "Ein Indikator für den Status des Kurses und die erhaltene Note, z.B. bestanden, durchgefallen, laufend, unbekannt."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Grade"
@@ -975,6 +1173,9 @@
     {
       "@id": "https://sdg.semic.eu/education#studentID",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Ein eindeutiger Verweis auf den Studenten/die Studentin."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Student"
@@ -986,6 +1187,9 @@
     {
       "@id": "https://sdg.semic.eu/education#studyDuration",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Offizielle Dauer des Programms in Jahren des Vollzeitstudiums."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -997,6 +1201,9 @@
     {
       "@id": "https://sdg.semic.eu/education#thesisTitle",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Titel der Dissertation, die von einem Studenten/Studentin im Rahmen eines Hochschulabschlusses verfasst wurde."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
@@ -1008,6 +1215,9 @@
     {
       "@id": "https://sdg.semic.eu/education#totalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Die Gesamtzahl der ECTS-Punkte von den Kursen, die in der Ergebnisaufzeichnung enthalten sind."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
@@ -1019,6 +1229,9 @@
     {
       "@id": "https://sdg.semic.eu/education#totalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "definition": {
+        "de": "Erforderliche Gesamtarbeitslast der Studierenden, beschrieben in Bezug auf ECTS-Punkte."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
@@ -1030,6 +1243,9 @@
     {
       "@id": "https://sdg.semic.eu/education#value",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "Ein (quantitativer oder qualitativer) Wert gemäß der Definition im Bewertungsschema."
+      },
       "domain": [
         {
           "uri": "https://sdg.semic.eu/education#Grade"

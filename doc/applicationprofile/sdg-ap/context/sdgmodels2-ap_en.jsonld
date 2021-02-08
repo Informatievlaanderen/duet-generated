@@ -91,7 +91,7 @@
       "@id": "https://sdg.semic.eu/education#identifier",
       "@type": ""
     },
-    "Organisation.prefLabel": {
+    "Organisation.preferredLabel": {
       "@container": "@set",
       "@id": "https://sdg.semic.eu/education#prefLabel",
       "@type": ""
@@ -136,7 +136,7 @@
       "@id": "https://sdg.semic.eu/education#contains",
       "@type": "@id"
     },
-    "RecordOfResultsEvidence.hasRecordofResults": {
+    "RecordOfResultsEvidence.hasRecordOfResults": {
       "@container": "@set",
       "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
       "@type": "@id"
@@ -146,7 +146,7 @@
       "@type": ""
     },
     "Student": "https://sdg.semic.eu/education#Student",
-    "Student.studentID": {
+    "Student.studentId": {
       "@container": "@set",
       "@id": "https://sdg.semic.eu/education#studentID",
       "@type": ""
