@@ -1,267 +1,267 @@
 {
   "@context": {
-    "Adresse": "https://sdg.semic.euAddress",
-    "Adresse.adresse": {
+    "Adresse": "https://sdg.semic.eu/education#Address",
+    "Adresse.address": {
       "@container": "@set",
-      "@id": "https://sdg.semic.euAddress.address",
+      "@id": "https://sdg.semic.eu/education#Address.address",
       "@type": "@id"
     },
-    "Adresse.eingetrageneAdresse": {
+    "Adresse.registeredAddress": {
       "@container": "@set",
-      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@id": "https://sdg.semic.eu/education#Address.registeredAddress",
       "@type": "@id"
     },
     "Adresse.verwaltungseinheitEbene1": {
-      "@id": "https://sdg.semic.euadminUnitL1",
+      "@id": "https://sdg.semic.eu/education#adminUnitL1",
       "@type": "@id"
     },
     "Adresse.verwaltungseinheitEbene2": {
-      "@id": "https://sdg.semic.euadminUnitL2",
+      "@id": "https://sdg.semic.eu/education#adminUnitL2",
       "@type": ""
     },
     "Adresse.vollständigeAdresse": {
-      "@id": "https://sdg.semic.eufullAddress",
+      "@id": "https://sdg.semic.eu/education#fullAddress",
       "@type": ""
     },
-    "Bildungseinrichtung": "https://sdg.semic.euEducationInstitution",
-    "Bildungseinrichtung.erhaltenBei": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
-      "@type": "@id"
-    },
-    "Ergebnisnachweis": "https://sdg.semic.euRecordOfResultsEvidence",
-    "Ergebnisnachweis.enthält": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.eucontains",
-      "@type": "@id"
-    },
-    "Ergebnisnachweis.gesamteLeistungspunkte": {
-      "@id": "https://sdg.semic.eutotalCredits",
+    "CourseResult": "https://sdg.semic.eu/education#CourseResult",
+    "CourseResult.courseAcademicPeriod": {
+      "@id": "https://sdg.semic.eu/education#courseAcademicPeriod",
       "@type": ""
     },
-    "Ergebnisnachweis.hatRekordVonErgebnissen": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
-      "@type": "@id"
-    },
-    "Ergebnisnachweis.studienjahr": {
-      "@id": "https://sdg.semic.euacademicYear",
-      "@type": ""
-    },
-    "Kursergebnis": "https://sdg.semic.euCourseResult",
-    "Kursergebnis.fachgebietDesKurses": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.eucourseFieldOfStudy",
-      "@type": "@id"
-    },
-    "Kursergebnis.kursguthabenbetrag": {
-      "@id": "https://sdg.semic.eucourseCreditsAmount",
-      "@type": ""
-    },
-    "Kursergebnis.kursname": {
-      "@id": "https://sdg.semic.eucourseName",
-      "@type": ""
-    },
-    "Kursergebnis.kursnote": {
-      "@id": "https://sdg.semic.eucourseGrade",
-      "@type": "@id"
-    },
-    "Kursergebnis.kurssprache": {
-      "@id": "https://sdg.semic.eucourseLanguage",
-      "@type": "@id"
-    },
-    "Kursergebnis.studienjahr": {
-      "@id": "https://sdg.semic.eucourseAcademicYear",
+    "CourseResult.courseAcademicYear": {
+      "@id": "https://sdg.semic.eu/education#courseAcademicYear",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
-    "Kursergebnis.zeitraumDesAkademischenJahres": {
-      "@id": "https://sdg.semic.eucourseAcademicPeriod",
+    "CourseResult.courseCreditsAmount": {
+      "@id": "https://sdg.semic.eu/education#courseCreditsAmount",
       "@type": ""
     },
-    "NachweisDerHochschulausbildung": "https://sdg.semic.euTertiaryEducationEvidence",
-    "NachweisDerHochschulausbildung.anordnungsbehörde": {
+    "CourseResult.courseFieldOfStudy": {
       "@container": "@set",
-      "@id": "https://sdg.semic.euissuingAuthority",
+      "@id": "https://sdg.semic.eu/education#courseFieldOfStudy",
       "@type": "@id"
     },
-    "NachweisDerHochschulausbildung.ausgabedatum": {
-      "@id": "https://sdg.semic.euissuingDate",
-      "@type": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    "NachweisDerHochschulausbildung.ausgabestelle": {
-      "@id": "https://sdg.semic.euissuingPlace",
+    "CourseResult.courseGrade": {
+      "@id": "https://sdg.semic.eu/education#courseGrade",
       "@type": "@id"
     },
-    "NachweisDerHochschulausbildung.bezeichner": {
-      "@id": "https://sdg.semic.euidentifier",
+    "CourseResult.courseLanguage": {
+      "@id": "https://sdg.semic.eu/education#courseLanguage",
+      "@type": "@id"
+    },
+    "CourseResult.courseName": {
+      "@id": "https://sdg.semic.eu/education#courseName",
       "@type": ""
     },
-    "NachweisDerHochschulausbildung.gehörtZu": {
-      "@id": "https://sdg.semic.eubelongsTo",
+    "EducationInstitution": "https://sdg.semic.eu/education#EducationInstitution",
+    "EducationInstitution.obtainedAt": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
       "@type": "@id"
     },
-    "NachweisDerHochschulausbildung.qualifikationsname": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euqualificationName",
+    "Grade": "https://sdg.semic.eu/education#Grade",
+    "Grade.distribution": {
+      "@id": "https://sdg.semic.eu/education#distribution",
       "@type": ""
     },
-    "NachweisDerHochschulausbildung.sprache": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.eulanguage",
-      "@type": "@id"
-    },
-    "NachweisDesHochschuldiploms": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
-    "NachweisDesHochschuldiploms.akademischesProgramm": {
-      "@id": "https://sdg.semic.euacademicProgramme",
-      "@type": ""
-    },
-    "NachweisDesHochschuldiploms.gesamtnote": {
-      "@id": "https://sdg.semic.euoverallGrade",
-      "@type": "@id"
-    },
-    "NachweisDesHochschuldiploms.gradDerUnterscheidung": {
-      "@id": "https://sdg.semic.eulevelOfDistinction",
-      "@type": "@id"
-    },
-    "NachweisDesHochschuldiploms.hatErgänzung": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
-      "@type": "@id"
-    },
-    "NachweisDesHochschuldiploms.titelDerDissertation": {
-      "@id": "https://sdg.semic.euthesisTitle",
-      "@type": ""
-    },
-    "NachweisDesHochschuldiploms.zugangZuWeiterenStudien": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euaccessToFurtherStudy",
-      "@type": "@id"
-    },
-    "NachweisDesHochschuldiploms.zugangZumReglementiertenBeruf": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euaccessToRegulatedProfession",
-      "@type": ""
-    },
-    "Note": "https://sdg.semic.euGrade",
-    "Note.benotungsschema": {
-      "@id": "https://sdg.semic.eugradingScheme",
+    "Grade.gradingScheme": {
+      "@id": "https://sdg.semic.eu/education#gradingScheme",
       "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
-    "Note.status": {
-      "@id": "https://sdg.semic.eustatus",
+    "Grade.status": {
+      "@id": "https://sdg.semic.eu/education#status",
       "@type": "@id"
     },
-    "Note.verteilung": {
-      "@id": "https://sdg.semic.eudistribution",
-      "@type": ""
-    },
-    "Note.wert": {
-      "@id": "https://sdg.semic.euvalue",
+    "Grade.value": {
+      "@id": "https://sdg.semic.eu/education#value",
       "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Organisation": "https://sdg.semic.euOrganisation",
-    "Organisation.bevorzugteBezeichnung": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euprefLabel",
-      "@type": ""
-    },
-    "Organisation.identifikator": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euidentifier",
-      "@type": ""
-    },
-    "Organisation.registrierterStandort": {
-      "@id": "https://sdg.semic.euregisteredLocation",
-      "@type": "@id"
-    },
-    "Person": "https://sdg.semic.euPerson",
-    "Person.biologischesGeschlecht": {
-      "@id": "https://sdg.semic.eusex",
-      "@type": "@id"
-    },
-    "Person.familienname": {
-      "@id": "https://sdg.semic.eufamilyName",
-      "@type": ""
-    },
-    "Person.geburtsdatum": {
-      "@id": "https://sdg.semic.eudateOfBirth",
-      "@type": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    "Person.geburtsort": {
-      "@id": "https://sdg.semic.euplaceOfBirth",
-      "@type": "@id"
-    },
-    "Person.identifikator": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euidentifier",
-      "@type": ""
-    },
-    "Person.vorname": {
-      "@id": "https://sdg.semic.eugivenName",
-      "@type": ""
-    },
-    "Standort": "https://sdg.semic.euLocation",
-    "Standort.geografischerIdentifikator": {
-      "@id": "https://sdg.semic.eugeographicIdentifier",
+    "Location": "https://sdg.semic.eu/education#Location",
+    "Location.geographicIdentifier": {
+      "@id": "https://sdg.semic.eu/education#geographicIdentifier",
       "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
-    "Standort.geografischerName": {
-      "@id": "https://sdg.semic.eugeographicName",
+    "Location.geographicName": {
+      "@id": "https://sdg.semic.eu/education#geographicName",
       "@type": ""
     },
-    "Student*in": "https://sdg.semic.euStudent",
-    "Student*in.studentenausweis": {
+    "Organisation": "https://sdg.semic.eu/education#Organisation",
+    "Organisation.identifier": {
       "@container": "@set",
-      "@id": "https://sdg.semic.eustudentID",
+      "@id": "https://sdg.semic.eu/education#identifier",
       "@type": ""
     },
-    "TertiärBildungsdiplomErgänzungsnachweis": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
-    "TertiärBildungsdiplomErgänzungsnachweis.academicYear": {
-      "@id": "https://sdg.semic.euacademicYear",
-      "@type": ""
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.akademischeProgrammsprache": {
-      "@id": "https://sdg.semic.euacademicProgrammeLanguage",
-      "@type": "@id"
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.artDesStudiums": {
-      "@id": "https://sdg.semic.eumodeOfStudy",
-      "@type": "@id"
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.gesamteLeistungspunkte": {
-      "@id": "https://sdg.semic.eutotalCredits",
-      "@type": ""
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.lernergebnisseDesProgramms": {
-      "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
-      "@type": ""
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.notendurchschnitt": {
-      "@id": "https://sdg.semic.eugradePointAverage",
-      "@type": "@id"
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.qualifikationsniveau": {
-      "@id": "https://sdg.semic.euqualificationLevel",
-      "@type": "@id"
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.studiendauer": {
-      "@id": "https://sdg.semic.eustudyDuration",
-      "@type": ""
-    },
-    "TertiärBildungsdiplomErgänzungsnachweis.studienrichtung": {
+    "Organisation.prefLabel": {
       "@container": "@set",
-      "@id": "https://sdg.semic.eumainFieldOfStudy",
+      "@id": "https://sdg.semic.eu/education#prefLabel",
+      "@type": ""
+    },
+    "Organisation.registeredLocation": {
+      "@id": "https://sdg.semic.eu/education#registeredLocation",
       "@type": "@id"
     },
-    "TertiärBildungsdiplomErgänzungsnachweis.unterrichtssprache": {
+    "Person": "https://sdg.semic.eu/education#Person",
+    "Person.dateOfBirth": {
+      "@id": "https://sdg.semic.eu/education#dateOfBirth",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "Person.familyName": {
+      "@id": "https://sdg.semic.eu/education#familyName",
+      "@type": ""
+    },
+    "Person.givenName": {
+      "@id": "https://sdg.semic.eu/education#givenName",
+      "@type": ""
+    },
+    "Person.identifier": {
       "@container": "@set",
-      "@id": "https://sdg.semic.eulanguageOfInstruction",
+      "@id": "https://sdg.semic.eu/education#identifier",
+      "@type": ""
+    },
+    "Person.placeOfBirth": {
+      "@id": "https://sdg.semic.eu/education#placeOfBirth",
       "@type": "@id"
     },
-    "TertiärBildungsdiplomErgänzungsnachweis.zugriffsanforderung": {
-      "@container": "@set",
-      "@id": "https://sdg.semic.euaccessRequirement",
+    "Person.sex": {
+      "@id": "https://sdg.semic.eu/education#sex",
       "@type": "@id"
+    },
+    "RecordOfResultsEvidence": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
+    "RecordOfResultsEvidence.academicYear": {
+      "@id": "https://sdg.semic.eu/education#academicYear",
+      "@type": ""
+    },
+    "RecordOfResultsEvidence.contains": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#contains",
+      "@type": "@id"
+    },
+    "RecordOfResultsEvidence.hasRecordofResults": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
+      "@type": "@id"
+    },
+    "RecordOfResultsEvidence.totalCredits": {
+      "@id": "https://sdg.semic.eu/education#totalCredits",
+      "@type": ""
+    },
+    "Student": "https://sdg.semic.eu/education#Student",
+    "Student.studentID": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#studentID",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaEvidence": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
+    "TertiaryEducationDiplomaEvidence.academicProgramme": {
+      "@id": "https://sdg.semic.eu/education#academicProgramme",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaEvidence.accessToFurtherStudy": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#accessToFurtherStudy",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaEvidence.accessToRegulatedProfession": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#accessToRegulatedProfession",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaEvidence.hasSupplement": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaEvidence.levelOfDistinction": {
+      "@id": "https://sdg.semic.eu/education#levelOfDistinction",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaEvidence.overallGrade": {
+      "@id": "https://sdg.semic.eu/education#overallGrade",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaEvidence.thesisTitle": {
+      "@id": "https://sdg.semic.eu/education#thesisTitle",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaSupplementEvidence": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
+    "TertiaryEducationDiplomaSupplementEvidence.academicProgrammeLanguage": {
+      "@id": "https://sdg.semic.eu/education#academicProgrammeLanguage",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.academicYear": {
+      "@id": "https://sdg.semic.eu/education#academicYear",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.accessRequirement": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#accessRequirement",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.gradePointAverage": {
+      "@id": "https://sdg.semic.eu/education#gradePointAverage",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.languageOfInstruction": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#languageOfInstruction",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.mainFieldOfStudy": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#mainFieldOfStudy",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.modeOfStudy": {
+      "@id": "https://sdg.semic.eu/education#modeOfStudy",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.programmeLearningOutcomes": {
+      "@id": "https://sdg.semic.eu/education#programmeLearningOutcomes",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.qualificationLevel": {
+      "@id": "https://sdg.semic.eu/education#qualificationLevel",
+      "@type": "@id"
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.studyDuration": {
+      "@id": "https://sdg.semic.eu/education#studyDuration",
+      "@type": ""
+    },
+    "TertiaryEducationDiplomaSupplementEvidence.totalCredits": {
+      "@id": "https://sdg.semic.eu/education#totalCredits",
+      "@type": ""
+    },
+    "TertiaryEducationEvidence": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
+    "TertiaryEducationEvidence.belongsTo": {
+      "@id": "https://sdg.semic.eu/education#belongsTo",
+      "@type": "@id"
+    },
+    "TertiaryEducationEvidence.identifier": {
+      "@id": "https://sdg.semic.eu/education#identifier",
+      "@type": ""
+    },
+    "TertiaryEducationEvidence.issuingAuthority": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#issuingAuthority",
+      "@type": "@id"
+    },
+    "TertiaryEducationEvidence.issuingDate": {
+      "@id": "https://sdg.semic.eu/education#issuingDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "TertiaryEducationEvidence.issuingPlace": {
+      "@id": "https://sdg.semic.eu/education#issuingPlace",
+      "@type": "@id"
+    },
+    "TertiaryEducationEvidence.language": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#language",
+      "@type": "@id"
+    },
+    "TertiaryEducationEvidence.qualificationName": {
+      "@container": "@set",
+      "@id": "https://sdg.semic.eu/education#qualificationName",
+      "@type": ""
     }
   }
 }
