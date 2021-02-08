@@ -81,14 +81,14 @@
       "@container": "@language"
     }
   },
-"@id": "https://sdg.semic.e",
+"@id": "https://sdg.semic.eu/education",
 "@type": "http://www.w3.org/2002/07/owl#Ontology",
 "label": {
   "nl": "sdgmodels2-feedback-ap",
   "en": "sdgmodels2-feedback-ap"
 },
-"baseURI" : "https:\/\/sdg.semic.eu", "issued" : "TODO", "license" : "TODO",
-"extra": {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-Guid" : "{798E44B4-EB9A-48b1-808E-D39DDBB14F97}" , "baseURI" : "https:\/\/sdg.semic.eu", "issued" : "TODO", "license" : "TODO", "RawTags" : [{ "key": "baseURI", "value": "https:\/\/sdg.semic.eu", "note": "null" }]},
+"baseURI" : "https:\/\/sdg.semic.eu\/education#", "issued" : "TODO", "license" : "TODO",
+"extra": {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-Guid" : "{798E44B4-EB9A-48b1-808E-D39DDBB14F97}" , "baseURI" : "https:\/\/sdg.semic.eu\/education#", "issued" : "TODO", "license" : "TODO", "RawTags" : [{ "key": "baseURI", "value": "https:\/\/sdg.semic.eu\/education#", "note": "null" }]},
 "authors": [
 {
 "foaf:firstName": "AuteurVoornaam",
@@ -118,7 +118,7 @@
 }],
 "classes": [
 {
-"@id": "https://sdg.semic.euAddress",
+"@id": "https://sdg.semic.eu/education#Address",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "ap-label-en" : {"en": "Address"}, "definition" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "label" : {"en": "Address"},
 "extra": {"EA-Name" : "Address", "EA-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Address", "definition" : "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "usage" : "", "ap-label-en" : "Address", "ap-definition-en" : "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type.", "note": "null" }, { "key": "label-en", "value": "Address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "ap-label-en" : {"en": "Address"}, "definition" : {"en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."}, "label" : {"en": "Address"}},
@@ -128,7 +128,7 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euCourseResult",
+"@id": "https://sdg.semic.eu/education#CourseResult",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Grade obtained after finishing\/completing a course."}, "ap-label-en" : {"en": "Course Result"}, "definition" : {"en": "Grade obtained after finishing\/completing a course."}, "label" : {"en": "Course Result"},
 "extra": {"EA-Name" : "CourseResult", "EA-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Course Result", "definition" : "Grade obtained after finishing\/completing a course.", "usage" : "", "ap-label-en" : "Course Result", "ap-definition-en" : "Grade obtained after finishing\/completing a course.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Grade obtained after finishing\/completing a course.", "note": "null" }, { "key": "label-en", "value": "Course Result", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Grade obtained after finishing\/completing a course."}, "ap-label-en" : {"en": "Course Result"}, "definition" : {"en": "Grade obtained after finishing\/completing a course."}, "label" : {"en": "Course Result"}},
@@ -138,17 +138,17 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euEducationInstitution",
+"@id": "https://sdg.semic.eu/education#EducationInstitution",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."}, "ap-label-en" : {"en": "Education Institution"}, "definition" : {"en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."}, "label" : {"en": "Education Institution"},
-"extra": {"EA-Name" : "EducationInstitution", "EA-Guid" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "Organisation", "EA-Parents2" : [{ "name": "Organisation", "label" : "Organisation", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euOrganisation" }], "parentclasses" : "https://sdg.semic.euOrganisation", "label" : "Education Institution", "definition" : "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.", "usage" : "", "ap-label-en" : "Education Institution", "ap-definition-en" : "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.", "note": "null" }, { "key": "label-en", "value": "Education Institution", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."}, "ap-label-en" : {"en": "Education Institution"}, "definition" : {"en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."}, "label" : {"en": "Education Institution"}},
+"extra": {"EA-Name" : "EducationInstitution", "EA-Guid" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "Organisation", "EA-Parents2" : [{ "name": "Organisation", "label" : "Organisation", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Organisation" }], "parentclasses" : "https://sdg.semic.eu/education#Organisation", "label" : "Education Institution", "definition" : "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.", "usage" : "", "ap-label-en" : "Education Institution", "ap-definition-en" : "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.", "note": "null" }, { "key": "label-en", "value": "Education Institution", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."}, "ap-label-en" : {"en": "Education Institution"}, "definition" : {"en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."}, "label" : {"en": "Education Institution"}},
 "inpackage": "ACTIVE_PACKAGE",
 "name": "Education Institution",
 "parents": [
-"https://sdg.semic.euOrganisation"]
+"https://sdg.semic.eu/education#Organisation"]
 },
 {
-"@id": "https://sdg.semic.euGrade",
+"@id": "https://sdg.semic.eu/education#Grade",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Mark indicating a degree of accomplishment."}, "ap-label-en" : {"en": "Grade"}, "definition" : {"en": "Mark indicating a degree of accomplishment."}, "label" : {"en": "Grade"},
 "extra": {"EA-Name" : "Grade", "EA-Guid" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "DATATYPE", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Grade", "definition" : "Mark indicating a degree of accomplishment.", "usage" : "", "ap-label-en" : "Grade", "ap-definition-en" : "Mark indicating a degree of accomplishment.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Mark indicating a degree of accomplishment.", "note": "null" }, { "key": "label-en", "value": "Grade", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Mark indicating a degree of accomplishment."}, "ap-label-en" : {"en": "Grade"}, "definition" : {"en": "Mark indicating a degree of accomplishment."}, "label" : {"en": "Grade"}},
@@ -158,7 +158,7 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euLocation",
+"@id": "https://sdg.semic.eu/education#Location",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "A spatial region or named place."}, "ap-label-en" : {"en": "Location"}, "definition" : {"en": "A spatial region or named place."}, "label" : {"en": "Location"},
 "extra": {"EA-Name" : "Location", "EA-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Location", "definition" : "A spatial region or named place.", "usage" : "", "ap-label-en" : "Location", "ap-definition-en" : "A spatial region or named place.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A spatial region or named place.", "note": "null" }, { "key": "label-en", "value": "Location", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A spatial region or named place."}, "ap-label-en" : {"en": "Location"}, "definition" : {"en": "A spatial region or named place."}, "label" : {"en": "Location"}},
@@ -168,7 +168,7 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euOrganisation",
+"@id": "https://sdg.semic.eu/education#Organisation",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."}, "ap-label-en" : {"en": "Organisation"}, "definition" : {"en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."}, "label" : {"en": "Organisation"},
 "extra": {"EA-Name" : "Organisation", "EA-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Organisation", "definition" : "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.", "usage" : "", "ap-label-en" : "Organisation", "ap-definition-en" : "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "NOTE", "note": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures." }, { "key": "label-en", "value": "Organisation", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."}, "ap-label-en" : {"en": "Organisation"}, "definition" : {"en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."}, "label" : {"en": "Organisation"}},
@@ -178,7 +178,7 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euPerson",
+"@id": "https://sdg.semic.eu/education#Person",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "An individual person who may be dead or alive, but not imaginary."}, "ap-label-en" : {"en": "Person"}, "definition" : {"en": "An individual person who may be dead or alive, but not imaginary."}, "label" : {"en": "Person"},
 "extra": {"EA-Name" : "Person", "EA-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Person", "definition" : "An individual person who may be dead or alive, but not imaginary.", "usage" : "", "ap-label-en" : "Person", "ap-definition-en" : "An individual person who may be dead or alive, but not imaginary.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "An individual person who may be dead or alive, but not imaginary.", "note": "null" }, { "key": "label-en", "value": "Person", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "An individual person who may be dead or alive, but not imaginary."}, "ap-label-en" : {"en": "Person"}, "definition" : {"en": "An individual person who may be dead or alive, but not imaginary."}, "label" : {"en": "Person"}},
@@ -188,7 +188,7 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euRecordOfResultsEvidence",
+"@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."}, "ap-label-en" : {"en": "Record of Results Evidence"}, "definition" : {"en": "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."}, "label" : {"en": "Record of Results Evidence"},
 "extra": {"EA-Name" : "RecordOfResultsEvidence", "EA-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Record of Results Evidence", "definition" : "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded.", "usage" : "", "ap-label-en" : "Record of Results Evidence", "ap-definition-en" : "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded.", "note": "null" }, { "key": "label-en", "value": "Record of Results Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."}, "ap-label-en" : {"en": "Record of Results Evidence"}, "definition" : {"en": "A record of the Student's progress in his\/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."}, "label" : {"en": "Record of Results Evidence"}},
@@ -198,27 +198,27 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euStudent",
+"@id": "https://sdg.semic.eu/education#Student",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."}, "ap-label-en" : {"en": "Student"}, "definition" : {"en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."}, "label" : {"en": "Student"},
-"extra": {"EA-Name" : "Student", "EA-Guid" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "Person", "EA-Parents2" : [{ "name": "Person", "label" : "Person", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euPerson" }], "parentclasses" : "https://sdg.semic.euPerson", "label" : "Student", "definition" : "A learner enrolled on a formal educational programme at a tertiary Education Institution.", "usage" : "", "ap-label-en" : "Student", "ap-definition-en" : "A learner enrolled on a formal educational programme at a tertiary Education Institution.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A learner enrolled on a formal educational programme at a tertiary Education Institution.", "note": "null" }, { "key": "label-en", "value": "Student", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."}, "ap-label-en" : {"en": "Student"}, "definition" : {"en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."}, "label" : {"en": "Student"}},
+"extra": {"EA-Name" : "Student", "EA-Guid" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "Person", "EA-Parents2" : [{ "name": "Person", "label" : "Person", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Person" }], "parentclasses" : "https://sdg.semic.eu/education#Person", "label" : "Student", "definition" : "A learner enrolled on a formal educational programme at a tertiary Education Institution.", "usage" : "", "ap-label-en" : "Student", "ap-definition-en" : "A learner enrolled on a formal educational programme at a tertiary Education Institution.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A learner enrolled on a formal educational programme at a tertiary Education Institution.", "note": "null" }, { "key": "label-en", "value": "Student", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."}, "ap-label-en" : {"en": "Student"}, "definition" : {"en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."}, "label" : {"en": "Student"}},
 "inpackage": "ACTIVE_PACKAGE",
 "name": "Student",
 "parents": [
-"https://sdg.semic.euPerson"]
+"https://sdg.semic.eu/education#Person"]
 },
 {
-"@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."}, "ap-label-en" : {"en": "Tertiary Education Diploma Evidence"}, "definition" : {"en": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."}, "label" : {"en": "Tertiary Education Diploma Evidence"},
-"extra": {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "TertiaryEducationEvidence", "EA-Parents2" : [{ "name": "TertiaryEducationEvidence", "label" : "Tertiary Education Evidence", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationEvidence" }], "parentclasses" : "https://sdg.semic.euTertiaryEducationEvidence", "label" : "Tertiary Education Diploma Evidence", "definition" : "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.", "usage" : "", "ap-label-en" : "Tertiary Education Diploma Evidence", "ap-definition-en" : "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.", "note": "null" }, { "key": "label-en", "value": "Tertiary Education Diploma Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."}, "ap-label-en" : {"en": "Tertiary Education Diploma Evidence"}, "definition" : {"en": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."}, "label" : {"en": "Tertiary Education Diploma Evidence"}},
+"extra": {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "TertiaryEducationEvidence", "EA-Parents2" : [{ "name": "TertiaryEducationEvidence", "label" : "Tertiary Education Evidence", "package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationEvidence" }], "parentclasses" : "https://sdg.semic.eu/education#TertiaryEducationEvidence", "label" : "Tertiary Education Diploma Evidence", "definition" : "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.", "usage" : "", "ap-label-en" : "Tertiary Education Diploma Evidence", "ap-definition-en" : "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.", "note": "null" }, { "key": "label-en", "value": "Tertiary Education Diploma Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."}, "ap-label-en" : {"en": "Tertiary Education Diploma Evidence"}, "definition" : {"en": "Any formally awarded qualification\/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."}, "label" : {"en": "Tertiary Education Diploma Evidence"}},
 "inpackage": "ACTIVE_PACKAGE",
 "name": "Tertiary Education Diploma Evidence",
 "parents": [
-"https://sdg.semic.euTertiaryEducationEvidence"]
+"https://sdg.semic.eu/education#TertiaryEducationEvidence"]
 },
 {
-"@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."}, "ap-label-en" : {"en": "Tertiary Education Diploma Supplement Evidence"}, "definition" : {"en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."}, "label" : {"en": "Tertiary Education Diploma Supplement Evidence"},
 "extra": {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Tertiary Education Diploma Supplement Evidence", "definition" : "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder.", "usage" : "", "ap-label-en" : "Tertiary Education Diploma Supplement Evidence", "ap-definition-en" : "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder.", "note": "null" }, { "key": "label-en", "value": "Tertiary Education Diploma Supplement Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."}, "ap-label-en" : {"en": "Tertiary Education Diploma Supplement Evidence"}, "definition" : {"en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."}, "label" : {"en": "Tertiary Education Diploma Supplement Evidence"}},
@@ -228,7 +228,7 @@
 ]
 },
 {
-"@id": "https://sdg.semic.euTertiaryEducationEvidence",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."}, "ap-label-en" : {"en": "Tertiary Education Evidence"}, "definition" : {"en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."}, "label" : {"en": "Tertiary Education Evidence"},
 "extra": {"EA-Name" : "TertiaryEducationEvidence", "EA-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Tertiary Education Evidence", "definition" : "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade.", "usage" : "", "ap-label-en" : "Tertiary Education Evidence", "ap-definition-en" : "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade.", "note": "null" }, { "key": "label-en", "value": "Tertiary Education Evidence", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."}, "ap-label-en" : {"en": "Tertiary Education Evidence"}, "definition" : {"en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."}, "label" : {"en": "Tertiary Education Evidence"}},
@@ -240,187 +240,187 @@
 ],
 "properties": [
 {
-"@id": "https://sdg.semic.euAddress.address",
+"@id": "https://sdg.semic.eu/education#Address.address",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "address",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The address property relationship associates a Location with the Address entity."}, "ap-label-en" : {"en": "address"}, "definition" : {"en": "The address property relationship associates a Location with the Address entity."}, "label" : {"en": "address"},
-"extra": {"EA-Name" : "address", "EA-Guid" : "{5926C985-4343-4b32-B503-096E02B2D978}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "address", "destRole" : "address", "label" : "address", "definition" : "The address property relationship associates a Location with the Address entity.", "usage" : "", "ap-label-en" : "address", "ap-definition-en" : "The address property relationship associates a Location with the Address entity.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The address property relationship associates a Location with the Address entity."}, "ap-label-en" : {"en": "address"}, "definition" : {"en": "The address property relationship associates a Location with the Address entity."}, "label" : {"en": "address"}},
+"extra": {"EA-Name" : "address", "EA-Guid" : "{5926C985-4343-4b32-B503-096E02B2D978}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }, "sourceRole" : "address", "destRole" : "address", "label" : "address", "definition" : "The address property relationship associates a Location with the Address entity.", "usage" : "", "ap-label-en" : "address", "ap-definition-en" : "The address property relationship associates a Location with the Address entity.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The address property relationship associates a Location with the Address entity."}, "ap-label-en" : {"en": "address"}, "definition" : {"en": "The address property relationship associates a Location with the Address entity."}, "label" : {"en": "address"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euAddress", "EA-Name" : "Address" }
+{ "uri": "https://sdg.semic.eu/education#Address", "EA-Name" : "Address" }
 ],
 "range": [
-{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }
+{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euAddress.registeredAddress",
+"@id": "https://sdg.semic.eu/education#Address.registeredAddress",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "registered address",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The registered address of the Person."}, "ap-label-en" : {"en": "registered address"}, "definition" : {"en": "The registered address of the Person."}, "label" : {"en": "registered address"},
-"extra": {"EA-Name" : "registeredAddress", "EA-Guid" : "{3E0C0FF3-100E-4853-9AC9-84AF5B270FBC}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Person", "RangeData" : {"EA-Name" : "Person", "EA-GUID" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euPerson" }, "sourceRole" : "registeredAddress", "destRole" : "registeredAddress", "label" : "registered address", "definition" : "The registered address of the Person.", "usage" : "", "ap-label-en" : "registered address", "ap-definition-en" : "The registered address of the Person.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The registered address of the Person."}, "ap-label-en" : {"en": "registered address"}, "definition" : {"en": "The registered address of the Person."}, "label" : {"en": "registered address"}},
+"extra": {"EA-Name" : "registeredAddress", "EA-Guid" : "{3E0C0FF3-100E-4853-9AC9-84AF5B270FBC}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Address", "EA-Domain-Guid" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Range" : "Person", "RangeData" : {"EA-Name" : "Person", "EA-GUID" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Person" }, "sourceRole" : "registeredAddress", "destRole" : "registeredAddress", "label" : "registered address", "definition" : "The registered address of the Person.", "usage" : "", "ap-label-en" : "registered address", "ap-definition-en" : "The registered address of the Person.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The registered address of the Person."}, "ap-label-en" : {"en": "registered address"}, "definition" : {"en": "The registered address of the Person."}, "label" : {"en": "registered address"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euAddress", "EA-Name" : "Address" }
+{ "uri": "https://sdg.semic.eu/education#Address", "EA-Name" : "Address" }
 ],
 "range": [
-{"EA-Name" : "Person", "EA-GUID" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euPerson" }
+{"EA-Name" : "Person", "EA-GUID" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Person" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
+"@id": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "obtained at",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Education Institution that educated the Student."}, "ap-label-en" : {"en": "obtained at"}, "definition" : {"en": "The Education Institution that educated the Student."}, "label" : {"en": "obtained at"},
-"extra": {"EA-Name" : "obtainedAt", "EA-Guid" : "{F6E3A3A6-5062-40f5-886B-F9092E967CB1}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EducationInstitution", "EA-Domain-Guid" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Range" : "TertiaryEducationEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationEvidence", "EA-GUID" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationEvidence" }, "sourceRole" : "obtainedAt", "destRole" : "obtainedAt", "label" : "obtained at", "definition" : "The Education Institution that educated the Student.", "usage" : "", "ap-label-en" : "obtained at", "ap-definition-en" : "The Education Institution that educated the Student.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Education Institution that educated the Student."}, "ap-label-en" : {"en": "obtained at"}, "definition" : {"en": "The Education Institution that educated the Student."}, "label" : {"en": "obtained at"}},
+"extra": {"EA-Name" : "obtainedAt", "EA-Guid" : "{F6E3A3A6-5062-40f5-886B-F9092E967CB1}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "EducationInstitution", "EA-Domain-Guid" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Range" : "TertiaryEducationEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationEvidence", "EA-GUID" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationEvidence" }, "sourceRole" : "obtainedAt", "destRole" : "obtainedAt", "label" : "obtained at", "definition" : "The Education Institution that educated the Student.", "usage" : "", "ap-label-en" : "obtained at", "ap-definition-en" : "The Education Institution that educated the Student.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Education Institution that educated the Student."}, "ap-label-en" : {"en": "obtained at"}, "definition" : {"en": "The Education Institution that educated the Student."}, "label" : {"en": "obtained at"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euEducationInstitution", "EA-Name" : "EducationInstitution" }
+{ "uri": "https://sdg.semic.eu/education#EducationInstitution", "EA-Name" : "EducationInstitution" }
 ],
 "range": [
-{"EA-Name" : "TertiaryEducationEvidence", "EA-GUID" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationEvidence" }
+{"EA-Name" : "TertiaryEducationEvidence", "EA-GUID" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationEvidence" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euLocation.address",
+"@id": "https://sdg.semic.eu/education#Location.address",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "address",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The address property relationship associates a Location with the Address entity."}, "ap-label-en" : {"en": "address"}, "definition" : {"en": "The address property relationship associates a Location with the Address entity."}, "label" : {"en": "address"},
-"extra": {"EA-Name" : "address", "EA-Guid" : "{5926C985-4343-4b32-B503-096E02B2D978}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Location", "EA-Domain-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Range" : "Address", "RangeData" : {"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euAddress" }, "sourceRole" : "address", "destRole" : "address", "label" : "address", "definition" : "The address property relationship associates a Location with the Address entity.", "usage" : "", "ap-label-en" : "address", "ap-definition-en" : "The address property relationship associates a Location with the Address entity.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The address property relationship associates a Location with the Address entity."}, "ap-label-en" : {"en": "address"}, "definition" : {"en": "The address property relationship associates a Location with the Address entity."}, "label" : {"en": "address"}},
+"extra": {"EA-Name" : "address", "EA-Guid" : "{5926C985-4343-4b32-B503-096E02B2D978}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Location", "EA-Domain-Guid" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Range" : "Address", "RangeData" : {"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Address" }, "sourceRole" : "address", "destRole" : "address", "label" : "address", "definition" : "The address property relationship associates a Location with the Address entity.", "usage" : "", "ap-label-en" : "address", "ap-definition-en" : "The address property relationship associates a Location with the Address entity.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The address property relationship associates a Location with the Address entity.", "note": "null" }, { "key": "label-en", "value": "address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The address property relationship associates a Location with the Address entity."}, "ap-label-en" : {"en": "address"}, "definition" : {"en": "The address property relationship associates a Location with the Address entity."}, "label" : {"en": "address"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euLocation", "EA-Name" : "Location" }
+{ "uri": "https://sdg.semic.eu/education#Location", "EA-Name" : "Location" }
 ],
 "range": [
-{"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euAddress" }
+{"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Address" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euPerson.registeredAddress",
+"@id": "https://sdg.semic.eu/education#Person.registeredAddress",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "registered address",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The registered address of the Person."}, "ap-label-en" : {"en": "registered address"}, "definition" : {"en": "The registered address of the Person."}, "label" : {"en": "registered address"},
-"extra": {"EA-Name" : "registeredAddress", "EA-Guid" : "{3E0C0FF3-100E-4853-9AC9-84AF5B270FBC}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Address", "RangeData" : {"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euAddress" }, "sourceRole" : "registeredAddress", "destRole" : "registeredAddress", "label" : "registered address", "definition" : "The registered address of the Person.", "usage" : "", "ap-label-en" : "registered address", "ap-definition-en" : "The registered address of the Person.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The registered address of the Person."}, "ap-label-en" : {"en": "registered address"}, "definition" : {"en": "The registered address of the Person."}, "label" : {"en": "registered address"}},
+"extra": {"EA-Name" : "registeredAddress", "EA-Guid" : "{3E0C0FF3-100E-4853-9AC9-84AF5B270FBC}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Address", "RangeData" : {"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Address" }, "sourceRole" : "registeredAddress", "destRole" : "registeredAddress", "label" : "registered address", "definition" : "The registered address of the Person.", "usage" : "", "ap-label-en" : "registered address", "ap-definition-en" : "The registered address of the Person.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The registered address of the Person.", "note": "null" }, { "key": "label-en", "value": "registered address", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The registered address of the Person."}, "ap-label-en" : {"en": "registered address"}, "definition" : {"en": "The registered address of the Person."}, "label" : {"en": "registered address"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
-{"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euAddress" }
+{"EA-Name" : "Address", "EA-GUID" : "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Address" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+"@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has record of results",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "ap-label-en" : {"en": "has record of results"}, "definition" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "label" : {"en": "has record of results"},
-"extra": {"EA-Name" : "hasRecordofResults", "EA-Guid" : "{95DD41BE-FDA7-4d5d-9914-9FEA887813CD}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "TertiaryEducationDiplomaSupplementEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence" }, "sourceRole" : "hasRecordofResults", "destRole" : "hasRecordofResults", "label" : "has record of results", "definition" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "usage" : "", "ap-label-en" : "has record of results", "ap-definition-en" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "ap-label-en" : {"en": "has record of results"}, "definition" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "label" : {"en": "has record of results"}},
+"extra": {"EA-Name" : "hasRecordofResults", "EA-Guid" : "{95DD41BE-FDA7-4d5d-9914-9FEA887813CD}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "TertiaryEducationDiplomaSupplementEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence" }, "sourceRole" : "hasRecordofResults", "destRole" : "hasRecordofResults", "label" : "has record of results", "definition" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "usage" : "", "ap-label-en" : "has record of results", "ap-definition-en" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "ap-label-en" : {"en": "has record of results"}, "definition" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "label" : {"en": "has record of results"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euRecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
+{ "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
 ],
 "range": [
-{"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence" }
+{"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has supplement",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "ap-label-en" : {"en": "has supplement"}, "definition" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "label" : {"en": "has supplement"},
-"extra": {"EA-Name" : "hasSupplement", "EA-Guid" : "{5D48CA5A-A18F-4a13-B70F-105112AB8628}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "TertiaryEducationDiplomaSupplementEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence" }, "sourceRole" : "hasSupplement", "destRole" : "hasSupplement", "label" : "has supplement", "definition" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "usage" : "", "ap-label-en" : "has supplement", "ap-definition-en" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "ap-label-en" : {"en": "has supplement"}, "definition" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "label" : {"en": "has supplement"}},
+"extra": {"EA-Name" : "hasSupplement", "EA-Guid" : "{5D48CA5A-A18F-4a13-B70F-105112AB8628}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "TertiaryEducationDiplomaSupplementEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence" }, "sourceRole" : "hasSupplement", "destRole" : "hasSupplement", "label" : "has supplement", "definition" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "usage" : "", "ap-label-en" : "has supplement", "ap-definition-en" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "ap-label-en" : {"en": "has supplement"}, "definition" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "label" : {"en": "has supplement"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
-{"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence" }
+{"EA-Name" : "TertiaryEducationDiplomaSupplementEvidence", "EA-GUID" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has record of results",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "ap-label-en" : {"en": "has record of results"}, "definition" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "label" : {"en": "has record of results"},
-"extra": {"EA-Name" : "hasRecordofResults", "EA-Guid" : "{95DD41BE-FDA7-4d5d-9914-9FEA887813CD}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "RecordOfResultsEvidence", "RangeData" : {"EA-Name" : "RecordOfResultsEvidence", "EA-GUID" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euRecordOfResultsEvidence" }, "sourceRole" : "hasRecordofResults", "destRole" : "hasRecordofResults", "label" : "has record of results", "definition" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "usage" : "", "ap-label-en" : "has record of results", "ap-definition-en" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "ap-label-en" : {"en": "has record of results"}, "definition" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "label" : {"en": "has record of results"}},
+"extra": {"EA-Name" : "hasRecordofResults", "EA-Guid" : "{95DD41BE-FDA7-4d5d-9914-9FEA887813CD}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "RecordOfResultsEvidence", "RangeData" : {"EA-Name" : "RecordOfResultsEvidence", "EA-GUID" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#RecordOfResultsEvidence" }, "sourceRole" : "hasRecordofResults", "destRole" : "hasRecordofResults", "label" : "has record of results", "definition" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "usage" : "", "ap-label-en" : "has record of results", "ap-definition-en" : "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.", "note": "null" }, { "key": "label-en", "value": "has record of results", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "ap-label-en" : {"en": "has record of results"}, "definition" : {"en": "The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence."}, "label" : {"en": "has record of results"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
-{"EA-Name" : "RecordOfResultsEvidence", "EA-GUID" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euRecordOfResultsEvidence" }
+{"EA-Name" : "RecordOfResultsEvidence", "EA-GUID" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#RecordOfResultsEvidence" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence.hasSupplement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "has supplement",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "ap-label-en" : {"en": "has supplement"}, "definition" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "label" : {"en": "has supplement"},
-"extra": {"EA-Name" : "hasSupplement", "EA-Guid" : "{5D48CA5A-A18F-4a13-B70F-105112AB8628}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "TertiaryEducationDiplomaEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-GUID" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaEvidence" }, "sourceRole" : "hasSupplement", "destRole" : "hasSupplement", "label" : "has supplement", "definition" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "usage" : "", "ap-label-en" : "has supplement", "ap-definition-en" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "ap-label-en" : {"en": "has supplement"}, "definition" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "label" : {"en": "has supplement"}},
+"extra": {"EA-Name" : "hasSupplement", "EA-Guid" : "{5D48CA5A-A18F-4a13-B70F-105112AB8628}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "TertiaryEducationDiplomaEvidence", "RangeData" : {"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-GUID" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence" }, "sourceRole" : "hasSupplement", "destRole" : "hasSupplement", "label" : "has supplement", "definition" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "usage" : "", "ap-label-en" : "has supplement", "ap-definition-en" : "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.", "note": "null" }, { "key": "label-en", "value": "has supplement", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "ap-label-en" : {"en": "has supplement"}, "definition" : {"en": "Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence."}, "label" : {"en": "has supplement"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
-{"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-GUID" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euTertiaryEducationDiplomaEvidence" }
+{"EA-Name" : "TertiaryEducationDiplomaEvidence", "EA-GUID" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
+"@id": "https://sdg.semic.eu/education#TertiaryEducationEvidence.obtainedAt",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "obtained at",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Education Institution that educated the Student."}, "ap-label-en" : {"en": "obtained at"}, "definition" : {"en": "The Education Institution that educated the Student."}, "label" : {"en": "obtained at"},
-"extra": {"EA-Name" : "obtainedAt", "EA-Guid" : "{F6E3A3A6-5062-40f5-886B-F9092E967CB1}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "EducationInstitution", "RangeData" : {"EA-Name" : "EducationInstitution", "EA-GUID" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euEducationInstitution" }, "sourceRole" : "obtainedAt", "destRole" : "obtainedAt", "label" : "obtained at", "definition" : "The Education Institution that educated the Student.", "usage" : "", "ap-label-en" : "obtained at", "ap-definition-en" : "The Education Institution that educated the Student.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Education Institution that educated the Student."}, "ap-label-en" : {"en": "obtained at"}, "definition" : {"en": "The Education Institution that educated the Student."}, "label" : {"en": "obtained at"}},
+"extra": {"EA-Name" : "obtainedAt", "EA-Guid" : "{F6E3A3A6-5062-40f5-886B-F9092E967CB1}", "derived" : "true", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "EducationInstitution", "RangeData" : {"EA-Name" : "EducationInstitution", "EA-GUID" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#EducationInstitution" }, "sourceRole" : "obtainedAt", "destRole" : "obtainedAt", "label" : "obtained at", "definition" : "The Education Institution that educated the Student.", "usage" : "", "ap-label-en" : "obtained at", "ap-definition-en" : "The Education Institution that educated the Student.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "DestRoleTags" : [{ "key": "definition-en", "value": "The Education Institution that educated the Student.", "note": "null" }, { "key": "label-en", "value": "obtained at", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Education Institution that educated the Student."}, "ap-label-en" : {"en": "obtained at"}, "definition" : {"en": "The Education Institution that educated the Student."}, "label" : {"en": "obtained at"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
-{"EA-Name" : "EducationInstitution", "EA-GUID" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euEducationInstitution" }
+{"EA-Name" : "EducationInstitution", "EA-GUID" : "{847A37A7-492A-4b25-9C9A-4107102D2012}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#EducationInstitution" }
 ],
 "generalization": [
 
 ]}
 , {
-"@id": "https://sdg.semic.euacademicProgramme",
+"@id": "https://sdg.semic.eu/education#academicProgramme",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "academic programme",
 "inpackage": "ACTIVE_PACKAGE",
@@ -429,7 +429,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
 
@@ -440,7 +440,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euacademicProgrammeLanguage",
+"@id": "https://sdg.semic.eu/education#academicProgrammeLanguage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "academic programme language",
 "inpackage": "ACTIVE_PACKAGE",
@@ -449,7 +449,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -460,7 +460,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euacademicYear",
+"@id": "https://sdg.semic.eu/education#academicYear",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "academic year",
 "inpackage": "ACTIVE_PACKAGE",
@@ -469,7 +469,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euRecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
+{ "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
 ],
 "range": [
 
@@ -480,7 +480,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euacademicYear",
+"@id": "https://sdg.semic.eu/education#academicYear",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "",
 "inpackage": "ACTIVE_PACKAGE",
@@ -489,7 +489,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 
@@ -500,7 +500,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euaccessRequirement",
+"@id": "https://sdg.semic.eu/education#accessRequirement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "access requirement",
 "inpackage": "ACTIVE_PACKAGE",
@@ -509,7 +509,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -520,7 +520,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euaccessToFurtherStudy",
+"@id": "https://sdg.semic.eu/education#accessToFurtherStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "access to further study",
 "inpackage": "ACTIVE_PACKAGE",
@@ -529,7 +529,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -540,7 +540,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euaccessToRegulatedProfession",
+"@id": "https://sdg.semic.eu/education#accessToRegulatedProfession",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "access to regulated profession",
 "inpackage": "ACTIVE_PACKAGE",
@@ -549,7 +549,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
 
@@ -560,7 +560,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euadminUnitL1",
+"@id": "https://sdg.semic.eu/education#adminUnitL1",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "Admin unit Level 1",
 "inpackage": "ACTIVE_PACKAGE",
@@ -569,7 +569,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euAddress", "EA-Name" : "Address" }
+{ "uri": "https://sdg.semic.eu/education#Address", "EA-Name" : "Address" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -580,7 +580,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euadminUnitL2",
+"@id": "https://sdg.semic.eu/education#adminUnitL2",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "admin unit Level 2",
 "inpackage": "ACTIVE_PACKAGE",
@@ -589,7 +589,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euAddress", "EA-Name" : "Address" }
+{ "uri": "https://sdg.semic.eu/education#Address", "EA-Name" : "Address" }
 ],
 "range": [
 
@@ -600,19 +600,19 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eubelongsTo",
+"@id": "https://sdg.semic.eu/education#belongsTo",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "belongs to",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Student that is the holder of the Tertiary Education Evidence."}, "ap-label-en" : {"en": "belongs to"}, "definition" : {"en": "The Student that is the holder of the Tertiary Education Evidence."}, "label" : {"en": "belongs to"},
-"extra": {"EA-Name" : "belongsTo", "EA-Guid" : "{82BBFD56-5AE6-4314-AEF0-82118A4480DC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Student", "RangeData" : {"EA-Name" : "Student", "EA-GUID" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euStudent" }, "sourceRole" : "null", "destRole" : "null", "label" : "belongs to", "definition" : "The Student that is the holder of the Tertiary Education Evidence.", "usage" : "", "ap-label-en" : "belongs to", "ap-definition-en" : "The Student that is the holder of the Tertiary Education Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Student that is the holder of the Tertiary Education Evidence.", "note": "null" }, { "key": "label-en", "value": "belongs to", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Student that is the holder of the Tertiary Education Evidence."}, "ap-label-en" : {"en": "belongs to"}, "definition" : {"en": "The Student that is the holder of the Tertiary Education Evidence."}, "label" : {"en": "belongs to"}},
+"extra": {"EA-Name" : "belongsTo", "EA-Guid" : "{82BBFD56-5AE6-4314-AEF0-82118A4480DC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Student", "RangeData" : {"EA-Name" : "Student", "EA-GUID" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Student" }, "sourceRole" : "null", "destRole" : "null", "label" : "belongs to", "definition" : "The Student that is the holder of the Tertiary Education Evidence.", "usage" : "", "ap-label-en" : "belongs to", "ap-definition-en" : "The Student that is the holder of the Tertiary Education Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Student that is the holder of the Tertiary Education Evidence.", "note": "null" }, { "key": "label-en", "value": "belongs to", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Student that is the holder of the Tertiary Education Evidence."}, "ap-label-en" : {"en": "belongs to"}, "definition" : {"en": "The Student that is the holder of the Tertiary Education Evidence."}, "label" : {"en": "belongs to"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
-{"EA-Name" : "Student", "EA-GUID" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euStudent" }
+{"EA-Name" : "Student", "EA-GUID" : "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Student" }
 ],
 "generalization": [
 
@@ -620,19 +620,19 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eucontains",
+"@id": "https://sdg.semic.eu/education#contains",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "contains",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The specific course results that together make up the Record of Results Evidence."}, "ap-label-en" : {"en": "contains"}, "definition" : {"en": "The specific course results that together make up the Record of Results Evidence."}, "label" : {"en": "contains"},
-"extra": {"EA-Name" : "contains", "EA-Guid" : "{E5A3B746-DC8D-4553-A934-2F3CCA4A29EC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "CourseResult", "RangeData" : {"EA-Name" : "CourseResult", "EA-GUID" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euCourseResult" }, "sourceRole" : "null", "destRole" : "null", "label" : "contains", "definition" : "The specific course results that together make up the Record of Results Evidence.", "usage" : "", "ap-label-en" : "contains", "ap-definition-en" : "The specific course results that together make up the Record of Results Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The specific course results that together make up the Record of Results Evidence.", "note": "null" }, { "key": "label-en", "value": "contains", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The specific course results that together make up the Record of Results Evidence."}, "ap-label-en" : {"en": "contains"}, "definition" : {"en": "The specific course results that together make up the Record of Results Evidence."}, "label" : {"en": "contains"}},
+"extra": {"EA-Name" : "contains", "EA-Guid" : "{E5A3B746-DC8D-4553-A934-2F3CCA4A29EC}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "RecordOfResultsEvidence", "EA-Domain-Guid" : "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}", "EA-Range" : "CourseResult", "RangeData" : {"EA-Name" : "CourseResult", "EA-GUID" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#CourseResult" }, "sourceRole" : "null", "destRole" : "null", "label" : "contains", "definition" : "The specific course results that together make up the Record of Results Evidence.", "usage" : "", "ap-label-en" : "contains", "ap-definition-en" : "The specific course results that together make up the Record of Results Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The specific course results that together make up the Record of Results Evidence.", "note": "null" }, { "key": "label-en", "value": "contains", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The specific course results that together make up the Record of Results Evidence."}, "ap-label-en" : {"en": "contains"}, "definition" : {"en": "The specific course results that together make up the Record of Results Evidence."}, "label" : {"en": "contains"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euRecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
+{ "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
 ],
 "range": [
-{"EA-Name" : "CourseResult", "EA-GUID" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euCourseResult" }
+{"EA-Name" : "CourseResult", "EA-GUID" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#CourseResult" }
 ],
 "generalization": [
 
@@ -640,7 +640,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.eucourseAcademicPeriod",
+"@id": "https://sdg.semic.eu/education#courseAcademicPeriod",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "course academic period",
 "inpackage": "ACTIVE_PACKAGE",
@@ -649,7 +649,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
 
@@ -660,7 +660,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eucourseAcademicYear",
+"@id": "https://sdg.semic.eu/education#courseAcademicYear",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "course academic year",
 "inpackage": "ACTIVE_PACKAGE",
@@ -669,7 +669,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
 {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }
@@ -680,7 +680,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eucourseCreditsAmount",
+"@id": "https://sdg.semic.eu/education#courseCreditsAmount",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "course credits amount",
 "inpackage": "ACTIVE_PACKAGE",
@@ -689,7 +689,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
 
@@ -700,7 +700,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eucourseFieldOfStudy",
+"@id": "https://sdg.semic.eu/education#courseFieldOfStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "course field of study",
 "inpackage": "ACTIVE_PACKAGE",
@@ -709,7 +709,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -720,19 +720,19 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.eucourseGrade",
+"@id": "https://sdg.semic.eu/education#courseGrade",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "course grade",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "A mark indicating a degree of accomplishment for a particular course."}, "ap-label-en" : {"en": "course grade"}, "definition" : {"en": "A mark indicating a degree of accomplishment for a particular course."}, "label" : {"en": "course grade"},
-"extra": {"EA-Name" : "courseGrade", "EA-Guid" : "{E245180B-82DA-4441-BAB4-9EFBDACBAE6B}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }, "label" : "course grade", "definition" : "A mark indicating a degree of accomplishment for a particular course.", "usage" : "", "ap-label-en" : "course grade", "ap-definition-en" : "A mark indicating a degree of accomplishment for a particular course.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A mark indicating a degree of accomplishment for a particular course.", "note": "null" }, { "key": "label-en", "value": "course grade", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A mark indicating a degree of accomplishment for a particular course."}, "ap-label-en" : {"en": "course grade"}, "definition" : {"en": "A mark indicating a degree of accomplishment for a particular course."}, "label" : {"en": "course grade"}},
+"extra": {"EA-Name" : "courseGrade", "EA-Guid" : "{E245180B-82DA-4441-BAB4-9EFBDACBAE6B}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "CourseResult", "EA-Domain-Guid" : "{8C35B519-D0DA-41c0-849E-A65319737F77}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Grade" }, "label" : "course grade", "definition" : "A mark indicating a degree of accomplishment for a particular course.", "usage" : "", "ap-label-en" : "course grade", "ap-definition-en" : "A mark indicating a degree of accomplishment for a particular course.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A mark indicating a degree of accomplishment for a particular course.", "note": "null" }, { "key": "label-en", "value": "course grade", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A mark indicating a degree of accomplishment for a particular course."}, "ap-label-en" : {"en": "course grade"}, "definition" : {"en": "A mark indicating a degree of accomplishment for a particular course."}, "label" : {"en": "course grade"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
-{"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }
+{"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Grade" }
 ],
 "generalization": [
 
@@ -740,7 +740,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eucourseLanguage",
+"@id": "https://sdg.semic.eu/education#courseLanguage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "course language",
 "inpackage": "ACTIVE_PACKAGE",
@@ -749,7 +749,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -760,7 +760,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eucourseName",
+"@id": "https://sdg.semic.eu/education#courseName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "course name",
 "inpackage": "ACTIVE_PACKAGE",
@@ -769,7 +769,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euCourseResult", "EA-Name" : "CourseResult" }
+{ "uri": "https://sdg.semic.eu/education#CourseResult", "EA-Name" : "CourseResult" }
 ],
 "range": [
 
@@ -780,7 +780,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eudateOfBirth",
+"@id": "https://sdg.semic.eu/education#dateOfBirth",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "date of birth",
 "inpackage": "ACTIVE_PACKAGE",
@@ -789,7 +789,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
 {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }
@@ -800,7 +800,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eudistribution",
+"@id": "https://sdg.semic.eu/education#distribution",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "distribution",
 "inpackage": "ACTIVE_PACKAGE",
@@ -809,7 +809,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euGrade", "EA-Name" : "Grade" }
+{ "uri": "https://sdg.semic.eu/education#Grade", "EA-Name" : "Grade" }
 ],
 "range": [
 
@@ -820,7 +820,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eufamilyName",
+"@id": "https://sdg.semic.eu/education#familyName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "family name",
 "inpackage": "ACTIVE_PACKAGE",
@@ -829,7 +829,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
 
@@ -840,7 +840,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eufullAddress",
+"@id": "https://sdg.semic.eu/education#fullAddress",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "full address",
 "inpackage": "ACTIVE_PACKAGE",
@@ -849,7 +849,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euAddress", "EA-Name" : "Address" }
+{ "uri": "https://sdg.semic.eu/education#Address", "EA-Name" : "Address" }
 ],
 "range": [
 
@@ -860,7 +860,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eugeographicIdentifier",
+"@id": "https://sdg.semic.eu/education#geographicIdentifier",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "geographic identifier",
 "inpackage": "ACTIVE_PACKAGE",
@@ -869,7 +869,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euLocation", "EA-Name" : "Location" }
+{ "uri": "https://sdg.semic.eu/education#Location", "EA-Name" : "Location" }
 ],
 "range": [
 {"EA-Name" : "URI", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#anyURI" }
@@ -880,7 +880,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eugeographicName",
+"@id": "https://sdg.semic.eu/education#geographicName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "geographic name",
 "inpackage": "ACTIVE_PACKAGE",
@@ -889,7 +889,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euLocation", "EA-Name" : "Location" }
+{ "uri": "https://sdg.semic.eu/education#Location", "EA-Name" : "Location" }
 ],
 "range": [
 
@@ -900,7 +900,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eugivenName",
+"@id": "https://sdg.semic.eu/education#givenName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "given name",
 "inpackage": "ACTIVE_PACKAGE",
@@ -909,7 +909,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
 
@@ -920,19 +920,19 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eugradePointAverage",
+"@id": "https://sdg.semic.eu/education#gradePointAverage",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "grade point average",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."}, "ap-label-en" : {"en": "grade point average"}, "definition" : {"en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."}, "label" : {"en": "grade point average"},
-"extra": {"EA-Name" : "gradePointAverage", "EA-Guid" : "{317FFB0C-6F66-4a3a-99B1-46B74080E821}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }, "label" : "grade point average", "definition" : "The grade point average of the course results, i.e. grades weighted based on the number of credits.", "usage" : "", "ap-label-en" : "grade point average", "ap-definition-en" : "The grade point average of the course results, i.e. grades weighted based on the number of credits.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The grade point average of the course results, i.e. grades weighted based on the number of credits.", "note": "null" }, { "key": "label-en", "value": "grade point average", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."}, "ap-label-en" : {"en": "grade point average"}, "definition" : {"en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."}, "label" : {"en": "grade point average"}},
+"extra": {"EA-Name" : "gradePointAverage", "EA-Guid" : "{317FFB0C-6F66-4a3a-99B1-46B74080E821}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaSupplementEvidence", "EA-Domain-Guid" : "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Grade" }, "label" : "grade point average", "definition" : "The grade point average of the course results, i.e. grades weighted based on the number of credits.", "usage" : "", "ap-label-en" : "grade point average", "ap-definition-en" : "The grade point average of the course results, i.e. grades weighted based on the number of credits.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The grade point average of the course results, i.e. grades weighted based on the number of credits.", "note": "null" }, { "key": "label-en", "value": "grade point average", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."}, "ap-label-en" : {"en": "grade point average"}, "definition" : {"en": "The grade point average of the course results, i.e. grades weighted based on the number of credits."}, "label" : {"en": "grade point average"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
-{"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }
+{"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Grade" }
 ],
 "generalization": [
 
@@ -940,7 +940,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eugradingScheme",
+"@id": "https://sdg.semic.eu/education#gradingScheme",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "grading scheme",
 "inpackage": "ACTIVE_PACKAGE",
@@ -949,7 +949,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euGrade", "EA-Name" : "Grade" }
+{ "uri": "https://sdg.semic.eu/education#Grade", "EA-Name" : "Grade" }
 ],
 "range": [
 {"EA-Name" : "URI", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#anyURI" }
@@ -960,7 +960,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euidentifier",
+"@id": "https://sdg.semic.eu/education#identifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "identifier",
 "inpackage": "ACTIVE_PACKAGE",
@@ -969,7 +969,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euOrganisation", "EA-Name" : "Organisation" }
+{ "uri": "https://sdg.semic.eu/education#Organisation", "EA-Name" : "Organisation" }
 ],
 "range": [
 
@@ -980,7 +980,7 @@
 "minCardinality": "1",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euidentifier",
+"@id": "https://sdg.semic.eu/education#identifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "identifier",
 "inpackage": "ACTIVE_PACKAGE",
@@ -989,7 +989,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
 
@@ -1000,7 +1000,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euidentifier",
+"@id": "https://sdg.semic.eu/education#identifier",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "identifier",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1009,7 +1009,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
 
@@ -1020,19 +1020,19 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euissuingAuthority",
+"@id": "https://sdg.semic.eu/education#issuingAuthority",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "issuing authority",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Organisation that issued the Tertiary Education Evidence."}, "ap-label-en" : {"en": "issuing authority"}, "definition" : {"en": "The Organisation that issued the Tertiary Education Evidence."}, "label" : {"en": "issuing authority"},
-"extra": {"EA-Name" : "issuingAuthority", "EA-Guid" : "{18703A9E-DD8D-4972-9E41-DEAE0A5C580C}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Organisation", "RangeData" : {"EA-Name" : "Organisation", "EA-GUID" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euOrganisation" }, "sourceRole" : "null", "destRole" : "null", "label" : "issuing authority", "definition" : "The Organisation that issued the Tertiary Education Evidence.", "usage" : "", "ap-label-en" : "issuing authority", "ap-definition-en" : "The Organisation that issued the Tertiary Education Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Organisation that issued the Tertiary Education Evidence.", "note": "null" }, { "key": "label-en", "value": "issuing authority", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Organisation that issued the Tertiary Education Evidence."}, "ap-label-en" : {"en": "issuing authority"}, "definition" : {"en": "The Organisation that issued the Tertiary Education Evidence."}, "label" : {"en": "issuing authority"}},
+"extra": {"EA-Name" : "issuingAuthority", "EA-Guid" : "{18703A9E-DD8D-4972-9E41-DEAE0A5C580C}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Organisation", "RangeData" : {"EA-Name" : "Organisation", "EA-GUID" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Organisation" }, "sourceRole" : "null", "destRole" : "null", "label" : "issuing authority", "definition" : "The Organisation that issued the Tertiary Education Evidence.", "usage" : "", "ap-label-en" : "issuing authority", "ap-definition-en" : "The Organisation that issued the Tertiary Education Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Organisation that issued the Tertiary Education Evidence.", "note": "null" }, { "key": "label-en", "value": "issuing authority", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Organisation that issued the Tertiary Education Evidence."}, "ap-label-en" : {"en": "issuing authority"}, "definition" : {"en": "The Organisation that issued the Tertiary Education Evidence."}, "label" : {"en": "issuing authority"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
-{"EA-Name" : "Organisation", "EA-GUID" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euOrganisation" }
+{"EA-Name" : "Organisation", "EA-GUID" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Organisation" }
 ],
 "generalization": [
 
@@ -1040,7 +1040,7 @@
 "minCardinality": "1",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euissuingDate",
+"@id": "https://sdg.semic.eu/education#issuingDate",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "issuing date",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1049,7 +1049,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
 {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }
@@ -1060,19 +1060,19 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euissuingPlace",
+"@id": "https://sdg.semic.eu/education#issuingPlace",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "issuing place",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Location where the Tertiary Education Evidence was issued."}, "ap-label-en" : {"en": "issuing place"}, "definition" : {"en": "The Location where the Tertiary Education Evidence was issued."}, "label" : {"en": "issuing place"},
-"extra": {"EA-Name" : "issuingPlace", "EA-Guid" : "{B9A90168-9165-4679-BCF5-AF07020094A2}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "null", "destRole" : "null", "label" : "issuing place", "definition" : "The Location where the Tertiary Education Evidence was issued.", "usage" : "", "ap-label-en" : "issuing place", "ap-definition-en" : "The Location where the Tertiary Education Evidence was issued.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Location where the Tertiary Education Evidence was issued.", "note": "null" }, { "key": "label-en", "value": "issuing place", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Location where the Tertiary Education Evidence was issued."}, "ap-label-en" : {"en": "issuing place"}, "definition" : {"en": "The Location where the Tertiary Education Evidence was issued."}, "label" : {"en": "issuing place"}},
+"extra": {"EA-Name" : "issuingPlace", "EA-Guid" : "{B9A90168-9165-4679-BCF5-AF07020094A2}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "TertiaryEducationEvidence", "EA-Domain-Guid" : "{60290936-60D1-48fc-9098-4C2E2BC2135E}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }, "sourceRole" : "null", "destRole" : "null", "label" : "issuing place", "definition" : "The Location where the Tertiary Education Evidence was issued.", "usage" : "", "ap-label-en" : "issuing place", "ap-definition-en" : "The Location where the Tertiary Education Evidence was issued.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Location where the Tertiary Education Evidence was issued.", "note": "null" }, { "key": "label-en", "value": "issuing place", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Location where the Tertiary Education Evidence was issued."}, "ap-label-en" : {"en": "issuing place"}, "definition" : {"en": "The Location where the Tertiary Education Evidence was issued."}, "label" : {"en": "issuing place"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
-{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }
+{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }
 ],
 "generalization": [
 
@@ -1080,7 +1080,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eulanguage",
+"@id": "https://sdg.semic.eu/education#language",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "language",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1089,7 +1089,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1100,7 +1100,7 @@
 "minCardinality": "1",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.eulanguageOfInstruction",
+"@id": "https://sdg.semic.eu/education#languageOfInstruction",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "language of instruction",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1109,7 +1109,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1120,7 +1120,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.eulevelOfDistinction",
+"@id": "https://sdg.semic.eu/education#levelOfDistinction",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "level of distinction",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1129,7 +1129,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1140,7 +1140,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eumainFieldOfStudy",
+"@id": "https://sdg.semic.eu/education#mainFieldOfStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "main field of study",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1149,7 +1149,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1160,7 +1160,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.eumodeOfStudy",
+"@id": "https://sdg.semic.eu/education#modeOfStudy",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "mode of study",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1169,7 +1169,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1180,19 +1180,19 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euoverallGrade",
+"@id": "https://sdg.semic.eu/education#overallGrade",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "overall grade",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "A mark indicating a degree of accomplishment."}, "ap-label-en" : {"en": "overall grade"}, "definition" : {"en": "A mark indicating a degree of accomplishment."}, "label" : {"en": "overall grade"},
-"extra": {"EA-Name" : "overallGrade", "EA-Guid" : "{46CE49E3-25B3-432e-B0F5-C5A932F83D05}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }, "label" : "overall grade", "definition" : "A mark indicating a degree of accomplishment.", "usage" : "", "ap-label-en" : "overall grade", "ap-definition-en" : "A mark indicating a degree of accomplishment.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A mark indicating a degree of accomplishment.", "note": "null" }, { "key": "label-en", "value": "overall grade", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A mark indicating a degree of accomplishment."}, "ap-label-en" : {"en": "overall grade"}, "definition" : {"en": "A mark indicating a degree of accomplishment."}, "label" : {"en": "overall grade"}},
+"extra": {"EA-Name" : "overallGrade", "EA-Guid" : "{46CE49E3-25B3-432e-B0F5-C5A932F83D05}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "EA-Type" : "attribute", "EA-Domain" : "TertiaryEducationDiplomaEvidence", "EA-Domain-Guid" : "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}", "EA-Range" : "Grade", "RangeData" : {"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Grade" }, "label" : "overall grade", "definition" : "A mark indicating a degree of accomplishment.", "usage" : "", "ap-label-en" : "overall grade", "ap-definition-en" : "A mark indicating a degree of accomplishment.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "A mark indicating a degree of accomplishment.", "note": "null" }, { "key": "label-en", "value": "overall grade", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "A mark indicating a degree of accomplishment."}, "ap-label-en" : {"en": "overall grade"}, "definition" : {"en": "A mark indicating a degree of accomplishment."}, "label" : {"en": "overall grade"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
-{"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euGrade" }
+{"EA-Name" : "Grade", "EA-GUID" : "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Grade" }
 ],
 "generalization": [
 
@@ -1200,19 +1200,19 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euplaceOfBirth",
+"@id": "https://sdg.semic.eu/education#placeOfBirth",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "place of birth",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The Location where a Person was born."}, "ap-label-en" : {"en": "place of birth"}, "definition" : {"en": "The Location where a Person was born."}, "label" : {"en": "place of birth"},
-"extra": {"EA-Name" : "placeOfBirth", "EA-Guid" : "{FF2D53B9-EA6F-43b3-A3E1-4E1A4C8875E4}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "null", "destRole" : "null", "label" : "place of birth", "definition" : "The Location where a Person was born.", "usage" : "", "ap-label-en" : "place of birth", "ap-definition-en" : "The Location where a Person was born.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Location where a Person was born.", "note": "null" }, { "key": "label-en", "value": "place of birth", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Location where a Person was born."}, "ap-label-en" : {"en": "place of birth"}, "definition" : {"en": "The Location where a Person was born."}, "label" : {"en": "place of birth"}},
+"extra": {"EA-Name" : "placeOfBirth", "EA-Guid" : "{FF2D53B9-EA6F-43b3-A3E1-4E1A4C8875E4}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Person", "EA-Domain-Guid" : "{A96FFD47-0DEF-47e2-95D6-052264B8A685}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }, "sourceRole" : "null", "destRole" : "null", "label" : "place of birth", "definition" : "The Location where a Person was born.", "usage" : "", "ap-label-en" : "place of birth", "ap-definition-en" : "The Location where a Person was born.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The Location where a Person was born.", "note": "null" }, { "key": "label-en", "value": "place of birth", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The Location where a Person was born."}, "ap-label-en" : {"en": "place of birth"}, "definition" : {"en": "The Location where a Person was born."}, "label" : {"en": "place of birth"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
-{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }
+{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }
 ],
 "generalization": [
 
@@ -1220,7 +1220,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euprefLabel",
+"@id": "https://sdg.semic.eu/education#prefLabel",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "preferred label",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1229,7 +1229,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euOrganisation", "EA-Name" : "Organisation" }
+{ "uri": "https://sdg.semic.eu/education#Organisation", "EA-Name" : "Organisation" }
 ],
 "range": [
 
@@ -1240,7 +1240,7 @@
 "minCardinality": "1",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euprogrammeLearningOutcomes",
+"@id": "https://sdg.semic.eu/education#programmeLearningOutcomes",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "programme learning outcomes",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1249,7 +1249,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 
@@ -1260,7 +1260,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euqualificationLevel",
+"@id": "https://sdg.semic.eu/education#qualificationLevel",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "qualification level",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1269,7 +1269,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1280,7 +1280,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euqualificationName",
+"@id": "https://sdg.semic.eu/education#qualificationName",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "qualification name",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1289,7 +1289,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence", "EA-Name" : "TertiaryEducationEvidence" }
 ],
 "range": [
 
@@ -1300,19 +1300,19 @@
 "minCardinality": "1",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.euregisteredLocation",
+"@id": "https://sdg.semic.eu/education#registeredLocation",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "registered location",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The registered location of the Organisation."}, "ap-label-en" : {"en": "registered location"}, "definition" : {"en": "The registered location of the Organisation."}, "label" : {"en": "registered location"},
-"extra": {"EA-Name" : "registeredLocation", "EA-Guid" : "{448F1D9B-E147-4763-AF4D-DB7B46DF9204}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Organisation", "EA-Domain-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }, "sourceRole" : "null", "destRole" : "null", "label" : "registered location", "definition" : "The registered location of the Organisation.", "usage" : "", "ap-label-en" : "registered location", "ap-definition-en" : "The registered location of the Organisation.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The registered location of the Organisation.", "note": "null" }, { "key": "label-en", "value": "registered location", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The registered location of the Organisation."}, "ap-label-en" : {"en": "registered location"}, "definition" : {"en": "The registered location of the Organisation."}, "label" : {"en": "registered location"}},
+"extra": {"EA-Name" : "registeredLocation", "EA-Guid" : "{448F1D9B-E147-4763-AF4D-DB7B46DF9204}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Organisation", "EA-Domain-Guid" : "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}", "EA-Range" : "Location", "RangeData" : {"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }, "sourceRole" : "null", "destRole" : "null", "label" : "registered location", "definition" : "The registered location of the Organisation.", "usage" : "", "ap-label-en" : "registered location", "ap-definition-en" : "The registered location of the Organisation.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "definition-en", "value": "The registered location of the Organisation.", "note": "null" }, { "key": "label-en", "value": "registered location", "note": "null" }], "DestRoleTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The registered location of the Organisation."}, "ap-label-en" : {"en": "registered location"}, "definition" : {"en": "The registered location of the Organisation."}, "label" : {"en": "registered location"}},
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euOrganisation", "EA-Name" : "Organisation" }
+{ "uri": "https://sdg.semic.eu/education#Organisation", "EA-Name" : "Organisation" }
 ],
 "range": [
-{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.euLocation" }
+{"EA-Name" : "Location", "EA-GUID" : "{59DC7F09-E79D-420b-9D54-076656DADA33}", "EA-Package" : "TertiaryEducationDiplomaEvidence", "uri" : "https://sdg.semic.eu/education#Location" }
 ],
 "generalization": [
 
@@ -1320,7 +1320,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eusex",
+"@id": "https://sdg.semic.eu/education#sex",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "sex",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1329,7 +1329,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euPerson", "EA-Name" : "Person" }
+{ "uri": "https://sdg.semic.eu/education#Person", "EA-Name" : "Person" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1340,7 +1340,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eustatus",
+"@id": "https://sdg.semic.eu/education#status",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "status",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1349,7 +1349,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euGrade", "EA-Name" : "Grade" }
+{ "uri": "https://sdg.semic.eu/education#Grade", "EA-Name" : "Grade" }
 ],
 "range": [
 {"EA-Name" : "Code", "EA-GUID" : "{E052E2A8-E33D-4c5d-BD5B-BC855707DF51}", "EA-Package" : "OSLO-Generiek", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
@@ -1360,7 +1360,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eustudentID",
+"@id": "https://sdg.semic.eu/education#studentID",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "student ID",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1369,7 +1369,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euStudent", "EA-Name" : "Student" }
+{ "uri": "https://sdg.semic.eu/education#Student", "EA-Name" : "Student" }
 ],
 "range": [
 
@@ -1380,7 +1380,7 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "https://sdg.semic.eustudyDuration",
+"@id": "https://sdg.semic.eu/education#studyDuration",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "study duration",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1389,7 +1389,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 
@@ -1400,7 +1400,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euthesisTitle",
+"@id": "https://sdg.semic.eu/education#thesisTitle",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "thesis title",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1409,7 +1409,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence", "EA-Name" : "TertiaryEducationDiplomaEvidence" }
 ],
 "range": [
 
@@ -1420,7 +1420,7 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eutotalCredits",
+"@id": "https://sdg.semic.eu/education#totalCredits",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "total credits",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1429,7 +1429,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euRecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
+{ "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence", "EA-Name" : "RecordOfResultsEvidence" }
 ],
 "range": [
 
@@ -1440,7 +1440,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.eutotalCredits",
+"@id": "https://sdg.semic.eu/education#totalCredits",
 "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
 "name": "total credits",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1449,7 +1449,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
+{ "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence", "EA-Name" : "TertiaryEducationDiplomaSupplementEvidence" }
 ],
 "range": [
 
@@ -1460,7 +1460,7 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://sdg.semic.euvalue",
+"@id": "https://sdg.semic.eu/education#value",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "value",
 "inpackage": "ACTIVE_PACKAGE",
@@ -1469,7 +1469,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://sdg.semic.euGrade", "EA-Name" : "Grade" }
+{ "uri": "https://sdg.semic.eu/education#Grade", "EA-Name" : "Grade" }
 ],
 "range": [
 {"EA-Name" : "Literal", "EA-Package" : "", "uri" : "http://www.w3.org/2000/01/rdf-schema#Literal" }

@@ -76,25 +76,25 @@
       "@id": "rdfs:seeAlso"
     }
   },
-  "@id": "https://sdg.semic.e",
+  "@id": "https://sdg.semic.eu/education",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
     "nl": "sdgmodels2-feedback-ap",
     "en": "sdgmodels2-feedback-ap"
   },
-  "baseURI": "https://sdg.semic.eu",
+  "baseURI": "https://sdg.semic.eu/education#",
   "issued": "TODO",
   "license": "TBD",
   "extra": {
     "EA-Name": "TertiaryEducationDiplomaEvidence",
     "EA-Guid": "{798E44B4-EB9A-48b1-808E-D39DDBB14F97}",
-    "baseURI": "https://sdg.semic.eu",
+    "baseURI": "https://sdg.semic.eu/education#",
     "issued": "TODO",
     "license": "TODO",
     "RawTags": [
       {
         "key": "baseURI",
-        "value": "https://sdg.semic.eu",
+        "value": "https://sdg.semic.eu/education#",
         "note": "null"
       }
     ]
@@ -137,7 +137,7 @@
   ],
   "classes": [
     {
-      "@id": "https://sdg.semic.euAddress",
+      "@id": "https://sdg.semic.eu/education#Address",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type."
@@ -193,7 +193,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euCourseResult",
+      "@id": "https://sdg.semic.eu/education#CourseResult",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "Grade obtained after finishing/completing a course."
@@ -249,7 +249,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euEducationInstitution",
+      "@id": "https://sdg.semic.eu/education#EducationInstitution",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions."
@@ -274,10 +274,10 @@
             "name": "Organisation",
             "label": "Organisation",
             "package": "TertiaryEducationDiplomaEvidence",
-            "uri": "https://sdg.semic.euOrganisation"
+            "uri": "https://sdg.semic.eu/education#Organisation"
           }
         ],
-        "parentclasses": "https://sdg.semic.euOrganisation",
+        "parentclasses": "https://sdg.semic.eu/education#Organisation",
         "label": {
           "en": "Education Institution"
         },
@@ -310,11 +310,11 @@
       "inpackage": "ACTIVE_PACKAGE",
       "name": "Education Institution",
       "parents": [
-        "https://sdg.semic.euOrganisation"
+        "https://sdg.semic.eu/education#Organisation"
       ]
     },
     {
-      "@id": "https://sdg.semic.euGrade",
+      "@id": "https://sdg.semic.eu/education#Grade",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "Mark indicating a degree of accomplishment."
@@ -370,7 +370,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euLocation",
+      "@id": "https://sdg.semic.eu/education#Location",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "A spatial region or named place."
@@ -426,7 +426,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euOrganisation",
+      "@id": "https://sdg.semic.eu/education#Organisation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."
@@ -482,7 +482,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euPerson",
+      "@id": "https://sdg.semic.eu/education#Person",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "An individual person who may be dead or alive, but not imaginary."
@@ -538,7 +538,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euRecordOfResultsEvidence",
+      "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded."
@@ -594,7 +594,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euStudent",
+      "@id": "https://sdg.semic.eu/education#Student",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "A learner enrolled on a formal educational programme at a tertiary Education Institution."
@@ -619,10 +619,10 @@
             "name": "Person",
             "label": "Person",
             "package": "TertiaryEducationDiplomaEvidence",
-            "uri": "https://sdg.semic.euPerson"
+            "uri": "https://sdg.semic.eu/education#Person"
           }
         ],
-        "parentclasses": "https://sdg.semic.euPerson",
+        "parentclasses": "https://sdg.semic.eu/education#Person",
         "label": {
           "en": "Student"
         },
@@ -655,11 +655,11 @@
       "inpackage": "ACTIVE_PACKAGE",
       "name": "Student",
       "parents": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ]
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education."
@@ -684,10 +684,10 @@
             "name": "TertiaryEducationEvidence",
             "label": "Tertiary Education Evidence",
             "package": "TertiaryEducationDiplomaEvidence",
-            "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+            "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
           }
         ],
-        "parentclasses": "https://sdg.semic.euTertiaryEducationEvidence",
+        "parentclasses": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
         "label": {
           "en": "Tertiary Education Diploma Evidence"
         },
@@ -720,11 +720,11 @@
       "inpackage": "ACTIVE_PACKAGE",
       "name": "Tertiary Education Diploma Evidence",
       "parents": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ]
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "Document accompanying a Tertiary Education Diploma Evidence, providing a standardised description of the nature, level, context, content and status of the studies completed by its holder."
@@ -780,7 +780,7 @@
       "parents": []
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationEvidence",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade."
@@ -838,7 +838,7 @@
   ],
   "properties": [
     {
-      "@id": "https://sdg.semic.euAddress.address",
+      "@id": "https://sdg.semic.eu/education#Address.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "address",
       "inpackage": "ACTIVE_PACKAGE",
@@ -867,7 +867,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         },
         "sourceRole": "address",
         "destRole": "address",
@@ -915,7 +915,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euAddress",
+          "uri": "https://sdg.semic.eu/education#Address",
           "EA-Name": "Address"
         }
       ],
@@ -924,13 +924,13 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euAddress.registeredAddress",
+      "@id": "https://sdg.semic.eu/education#Address.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "registered address",
       "inpackage": "ACTIVE_PACKAGE",
@@ -959,7 +959,7 @@
           "EA-Name": "Person",
           "EA-GUID": "{A96FFD47-0DEF-47e2-95D6-052264B8A685}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euPerson"
+          "uri": "https://sdg.semic.eu/education#Person"
         },
         "sourceRole": "registeredAddress",
         "destRole": "registeredAddress",
@@ -1007,7 +1007,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euAddress",
+          "uri": "https://sdg.semic.eu/education#Address",
           "EA-Name": "Address"
         }
       ],
@@ -1016,13 +1016,13 @@
           "EA-Name": "Person",
           "EA-GUID": "{A96FFD47-0DEF-47e2-95D6-052264B8A685}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euPerson"
+          "uri": "https://sdg.semic.eu/education#Person"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "@id": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "obtained at",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1051,7 +1051,7 @@
           "EA-Name": "TertiaryEducationEvidence",
           "EA-GUID": "{60290936-60D1-48fc-9098-4C2E2BC2135E}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
         },
         "sourceRole": "obtainedAt",
         "destRole": "obtainedAt",
@@ -1099,7 +1099,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euEducationInstitution",
+          "uri": "https://sdg.semic.eu/education#EducationInstitution",
           "EA-Name": "EducationInstitution"
         }
       ],
@@ -1108,13 +1108,13 @@
           "EA-Name": "TertiaryEducationEvidence",
           "EA-GUID": "{60290936-60D1-48fc-9098-4C2E2BC2135E}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euLocation.address",
+      "@id": "https://sdg.semic.eu/education#Location.address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "address",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1143,7 +1143,7 @@
           "EA-Name": "Address",
           "EA-GUID": "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euAddress"
+          "uri": "https://sdg.semic.eu/education#Address"
         },
         "sourceRole": "address",
         "destRole": "address",
@@ -1191,7 +1191,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euLocation",
+          "uri": "https://sdg.semic.eu/education#Location",
           "EA-Name": "Location"
         }
       ],
@@ -1200,13 +1200,13 @@
           "EA-Name": "Address",
           "EA-GUID": "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euAddress"
+          "uri": "https://sdg.semic.eu/education#Address"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euPerson.registeredAddress",
+      "@id": "https://sdg.semic.eu/education#Person.registeredAddress",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "registered address",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1235,7 +1235,7 @@
           "EA-Name": "Address",
           "EA-GUID": "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euAddress"
+          "uri": "https://sdg.semic.eu/education#Address"
         },
         "sourceRole": "registeredAddress",
         "destRole": "registeredAddress",
@@ -1283,7 +1283,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -1292,13 +1292,13 @@
           "EA-Name": "Address",
           "EA-GUID": "{FFF2745A-7DB8-4623-A76E-FF0B9FD0D3DA}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euAddress"
+          "uri": "https://sdg.semic.eu/education#Address"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "@id": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "has record of results",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1327,7 +1327,7 @@
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
           "EA-GUID": "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
         },
         "sourceRole": "hasRecordofResults",
         "destRole": "hasRecordofResults",
@@ -1375,7 +1375,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euRecordOfResultsEvidence",
+          "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
           "EA-Name": "RecordOfResultsEvidence"
         }
       ],
@@ -1384,13 +1384,13 @@
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
           "EA-GUID": "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "has supplement",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1419,7 +1419,7 @@
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
           "EA-GUID": "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
         },
         "sourceRole": "hasSupplement",
         "destRole": "hasSupplement",
@@ -1467,7 +1467,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -1476,13 +1476,13 @@
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence",
           "EA-GUID": "{4C4A9F08-6C4E-48d7-BEFF-E28FD23F6BFC}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence.hasRecordofResults",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "has record of results",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1511,7 +1511,7 @@
           "EA-Name": "RecordOfResultsEvidence",
           "EA-GUID": "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+          "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
         },
         "sourceRole": "hasRecordofResults",
         "destRole": "hasRecordofResults",
@@ -1559,7 +1559,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -1568,13 +1568,13 @@
           "EA-Name": "RecordOfResultsEvidence",
           "EA-GUID": "{2FD5AB64-3AA0-445d-8E38-A5EA244B90B2}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euRecordOfResultsEvidence"
+          "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence.hasSupplement",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence.hasSupplement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "has supplement",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1603,7 +1603,7 @@
           "EA-Name": "TertiaryEducationDiplomaEvidence",
           "EA-GUID": "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
         },
         "sourceRole": "hasSupplement",
         "destRole": "hasSupplement",
@@ -1651,7 +1651,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -1660,13 +1660,13 @@
           "EA-Name": "TertiaryEducationDiplomaEvidence",
           "EA-GUID": "{0831F967-C41A-4073-A0C2-ED5EA940FB5C}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euTertiaryEducationEvidence.obtainedAt",
+      "@id": "https://sdg.semic.eu/education#TertiaryEducationEvidence.obtainedAt",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "obtained at",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1695,7 +1695,7 @@
           "EA-Name": "EducationInstitution",
           "EA-GUID": "{847A37A7-492A-4b25-9C9A-4107102D2012}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euEducationInstitution"
+          "uri": "https://sdg.semic.eu/education#EducationInstitution"
         },
         "sourceRole": "obtainedAt",
         "destRole": "obtainedAt",
@@ -1743,7 +1743,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -1752,13 +1752,13 @@
           "EA-Name": "EducationInstitution",
           "EA-GUID": "{847A37A7-492A-4b25-9C9A-4107102D2012}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euEducationInstitution"
+          "uri": "https://sdg.semic.eu/education#EducationInstitution"
         }
       ],
       "generalization": []
     },
     {
-      "@id": "https://sdg.semic.euacademicProgramme",
+      "@id": "https://sdg.semic.eu/education#academicProgramme",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "academic programme",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1819,7 +1819,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -1829,7 +1829,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euacademicProgrammeLanguage",
+      "@id": "https://sdg.semic.eu/education#academicProgrammeLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "academic programme language",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1891,7 +1891,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -1908,7 +1908,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euacademicYear",
+      "@id": "https://sdg.semic.eu/education#academicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "academic year",
       "inpackage": "ACTIVE_PACKAGE",
@@ -1969,7 +1969,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euRecordOfResultsEvidence",
+          "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
           "EA-Name": "RecordOfResultsEvidence"
         }
       ],
@@ -1979,7 +1979,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euacademicYear",
+      "@id": "https://sdg.semic.eu/education#academicYear",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2025,7 +2025,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -2035,7 +2035,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euaccessRequirement",
+      "@id": "https://sdg.semic.eu/education#accessRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "access requirement",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2097,7 +2097,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -2114,7 +2114,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euaccessToFurtherStudy",
+      "@id": "https://sdg.semic.eu/education#accessToFurtherStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "access to further study",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2176,7 +2176,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -2193,7 +2193,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euaccessToRegulatedProfession",
+      "@id": "https://sdg.semic.eu/education#accessToRegulatedProfession",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "access to regulated profession",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2254,7 +2254,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -2264,7 +2264,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euadminUnitL1",
+      "@id": "https://sdg.semic.eu/education#adminUnitL1",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "Admin unit Level 1",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2332,7 +2332,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euAddress",
+          "uri": "https://sdg.semic.eu/education#Address",
           "EA-Name": "Address"
         }
       ],
@@ -2349,7 +2349,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euadminUnitL2",
+      "@id": "https://sdg.semic.eu/education#adminUnitL2",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "admin unit Level 2",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2415,7 +2415,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euAddress",
+          "uri": "https://sdg.semic.eu/education#Address",
           "EA-Name": "Address"
         }
       ],
@@ -2425,7 +2425,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eubelongsTo",
+      "@id": "https://sdg.semic.eu/education#belongsTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "belongs to",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2454,7 +2454,7 @@
           "EA-Name": "Student",
           "EA-GUID": "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euStudent"
+          "uri": "https://sdg.semic.eu/education#Student"
         },
         "sourceRole": "null",
         "destRole": "null",
@@ -2491,7 +2491,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -2500,7 +2500,7 @@
           "EA-Name": "Student",
           "EA-GUID": "{FA5DD5F7-A73F-42b3-B934-52FDBD726C2D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euStudent"
+          "uri": "https://sdg.semic.eu/education#Student"
         }
       ],
       "generalization": [],
@@ -2508,7 +2508,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eucontains",
+      "@id": "https://sdg.semic.eu/education#contains",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "contains",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2537,7 +2537,7 @@
           "EA-Name": "CourseResult",
           "EA-GUID": "{8C35B519-D0DA-41c0-849E-A65319737F77}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euCourseResult"
+          "uri": "https://sdg.semic.eu/education#CourseResult"
         },
         "sourceRole": "null",
         "destRole": "null",
@@ -2574,7 +2574,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euRecordOfResultsEvidence",
+          "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
           "EA-Name": "RecordOfResultsEvidence"
         }
       ],
@@ -2583,7 +2583,7 @@
           "EA-Name": "CourseResult",
           "EA-GUID": "{8C35B519-D0DA-41c0-849E-A65319737F77}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euCourseResult"
+          "uri": "https://sdg.semic.eu/education#CourseResult"
         }
       ],
       "generalization": [],
@@ -2591,7 +2591,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.eucourseAcademicPeriod",
+      "@id": "https://sdg.semic.eu/education#courseAcademicPeriod",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "course academic period",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2652,7 +2652,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -2662,7 +2662,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eucourseAcademicYear",
+      "@id": "https://sdg.semic.eu/education#courseAcademicYear",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "course academic year",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2723,7 +2723,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -2739,7 +2739,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eucourseCreditsAmount",
+      "@id": "https://sdg.semic.eu/education#courseCreditsAmount",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "course credits amount",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2800,7 +2800,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -2810,7 +2810,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eucourseFieldOfStudy",
+      "@id": "https://sdg.semic.eu/education#courseFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "course field of study",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2872,7 +2872,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -2889,7 +2889,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.eucourseGrade",
+      "@id": "https://sdg.semic.eu/education#courseGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "course grade",
       "inpackage": "ACTIVE_PACKAGE",
@@ -2917,7 +2917,7 @@
           "EA-Name": "Grade",
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euGrade"
+          "uri": "https://sdg.semic.eu/education#Grade"
         },
         "label": {
           "en": "course grade"
@@ -2951,7 +2951,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -2960,7 +2960,7 @@
           "EA-Name": "Grade",
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euGrade"
+          "uri": "https://sdg.semic.eu/education#Grade"
         }
       ],
       "generalization": [],
@@ -2968,7 +2968,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eucourseLanguage",
+      "@id": "https://sdg.semic.eu/education#courseLanguage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "course language",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3030,7 +3030,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -3047,7 +3047,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eucourseName",
+      "@id": "https://sdg.semic.eu/education#courseName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "course name",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3108,7 +3108,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euCourseResult",
+          "uri": "https://sdg.semic.eu/education#CourseResult",
           "EA-Name": "CourseResult"
         }
       ],
@@ -3118,7 +3118,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eudateOfBirth",
+      "@id": "https://sdg.semic.eu/education#dateOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "date of birth",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3179,7 +3179,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -3195,7 +3195,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eudistribution",
+      "@id": "https://sdg.semic.eu/education#distribution",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "distribution",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3256,7 +3256,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euGrade",
+          "uri": "https://sdg.semic.eu/education#Grade",
           "EA-Name": "Grade"
         }
       ],
@@ -3266,7 +3266,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eufamilyName",
+      "@id": "https://sdg.semic.eu/education#familyName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "family name",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3327,7 +3327,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -3337,7 +3337,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eufullAddress",
+      "@id": "https://sdg.semic.eu/education#fullAddress",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "full address",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3398,7 +3398,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euAddress",
+          "uri": "https://sdg.semic.eu/education#Address",
           "EA-Name": "Address"
         }
       ],
@@ -3408,7 +3408,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eugeographicIdentifier",
+      "@id": "https://sdg.semic.eu/education#geographicIdentifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "geographic identifier",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3469,7 +3469,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euLocation",
+          "uri": "https://sdg.semic.eu/education#Location",
           "EA-Name": "Location"
         }
       ],
@@ -3485,7 +3485,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eugeographicName",
+      "@id": "https://sdg.semic.eu/education#geographicName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "geographic name",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3546,7 +3546,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euLocation",
+          "uri": "https://sdg.semic.eu/education#Location",
           "EA-Name": "Location"
         }
       ],
@@ -3556,7 +3556,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eugivenName",
+      "@id": "https://sdg.semic.eu/education#givenName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "given name",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3617,7 +3617,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -3627,7 +3627,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eugradePointAverage",
+      "@id": "https://sdg.semic.eu/education#gradePointAverage",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "grade point average",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3655,7 +3655,7 @@
           "EA-Name": "Grade",
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euGrade"
+          "uri": "https://sdg.semic.eu/education#Grade"
         },
         "label": {
           "en": "grade point average"
@@ -3689,7 +3689,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -3698,7 +3698,7 @@
           "EA-Name": "Grade",
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euGrade"
+          "uri": "https://sdg.semic.eu/education#Grade"
         }
       ],
       "generalization": [],
@@ -3706,7 +3706,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eugradingScheme",
+      "@id": "https://sdg.semic.eu/education#gradingScheme",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "grading scheme",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3767,7 +3767,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euGrade",
+          "uri": "https://sdg.semic.eu/education#Grade",
           "EA-Name": "Grade"
         }
       ],
@@ -3783,7 +3783,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euidentifier",
+      "@id": "https://sdg.semic.eu/education#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3844,7 +3844,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euOrganisation",
+          "uri": "https://sdg.semic.eu/education#Organisation",
           "EA-Name": "Organisation"
         }
       ],
@@ -3854,7 +3854,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euidentifier",
+      "@id": "https://sdg.semic.eu/education#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3915,7 +3915,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -3925,7 +3925,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euidentifier",
+      "@id": "https://sdg.semic.eu/education#identifier",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "identifier",
       "inpackage": "ACTIVE_PACKAGE",
@@ -3986,7 +3986,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -3996,7 +3996,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euissuingAuthority",
+      "@id": "https://sdg.semic.eu/education#issuingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "issuing authority",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4025,7 +4025,7 @@
           "EA-Name": "Organisation",
           "EA-GUID": "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euOrganisation"
+          "uri": "https://sdg.semic.eu/education#Organisation"
         },
         "sourceRole": "null",
         "destRole": "null",
@@ -4062,7 +4062,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -4071,7 +4071,7 @@
           "EA-Name": "Organisation",
           "EA-GUID": "{4675DC53-6AC6-491c-ABDB-20CB32ED46E2}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euOrganisation"
+          "uri": "https://sdg.semic.eu/education#Organisation"
         }
       ],
       "generalization": [],
@@ -4079,7 +4079,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euissuingDate",
+      "@id": "https://sdg.semic.eu/education#issuingDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "issuing date",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4140,7 +4140,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -4156,7 +4156,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euissuingPlace",
+      "@id": "https://sdg.semic.eu/education#issuingPlace",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "issuing place",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4185,7 +4185,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         },
         "sourceRole": "null",
         "destRole": "null",
@@ -4222,7 +4222,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -4231,7 +4231,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         }
       ],
       "generalization": [],
@@ -4239,7 +4239,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eulanguage",
+      "@id": "https://sdg.semic.eu/education#language",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "language",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4301,7 +4301,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -4318,7 +4318,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.eulanguageOfInstruction",
+      "@id": "https://sdg.semic.eu/education#languageOfInstruction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "language of instruction",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4380,7 +4380,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -4397,7 +4397,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.eulevelOfDistinction",
+      "@id": "https://sdg.semic.eu/education#levelOfDistinction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "level of distinction",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4459,7 +4459,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -4476,7 +4476,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eumainFieldOfStudy",
+      "@id": "https://sdg.semic.eu/education#mainFieldOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "main field of study",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4538,7 +4538,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -4555,7 +4555,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.eumodeOfStudy",
+      "@id": "https://sdg.semic.eu/education#modeOfStudy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "mode of study",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4617,7 +4617,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -4634,7 +4634,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euoverallGrade",
+      "@id": "https://sdg.semic.eu/education#overallGrade",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "overall grade",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4662,7 +4662,7 @@
           "EA-Name": "Grade",
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euGrade"
+          "uri": "https://sdg.semic.eu/education#Grade"
         },
         "label": {
           "en": "overall grade"
@@ -4696,7 +4696,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -4705,7 +4705,7 @@
           "EA-Name": "Grade",
           "EA-GUID": "{8E62BB06-A899-4fe8-B00D-0692D3B5108D}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euGrade"
+          "uri": "https://sdg.semic.eu/education#Grade"
         }
       ],
       "generalization": [],
@@ -4713,7 +4713,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euplaceOfBirth",
+      "@id": "https://sdg.semic.eu/education#placeOfBirth",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "place of birth",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4742,7 +4742,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         },
         "sourceRole": "null",
         "destRole": "null",
@@ -4779,7 +4779,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -4788,7 +4788,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         }
       ],
       "generalization": [],
@@ -4796,7 +4796,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euprefLabel",
+      "@id": "https://sdg.semic.eu/education#prefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "preferred label",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4857,7 +4857,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euOrganisation",
+          "uri": "https://sdg.semic.eu/education#Organisation",
           "EA-Name": "Organisation"
         }
       ],
@@ -4867,7 +4867,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euprogrammeLearningOutcomes",
+      "@id": "https://sdg.semic.eu/education#programmeLearningOutcomes",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "programme learning outcomes",
       "inpackage": "ACTIVE_PACKAGE",
@@ -4928,7 +4928,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -4938,7 +4938,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euqualificationLevel",
+      "@id": "https://sdg.semic.eu/education#qualificationLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "qualification level",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5000,7 +5000,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -5017,7 +5017,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euqualificationName",
+      "@id": "https://sdg.semic.eu/education#qualificationName",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "qualification name",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5078,7 +5078,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "EA-Name": "TertiaryEducationEvidence"
         }
       ],
@@ -5088,7 +5088,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.euregisteredLocation",
+      "@id": "https://sdg.semic.eu/education#registeredLocation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "registered location",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5117,7 +5117,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         },
         "sourceRole": "null",
         "destRole": "null",
@@ -5154,7 +5154,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euOrganisation",
+          "uri": "https://sdg.semic.eu/education#Organisation",
           "EA-Name": "Organisation"
         }
       ],
@@ -5163,7 +5163,7 @@
           "EA-Name": "Location",
           "EA-GUID": "{59DC7F09-E79D-420b-9D54-076656DADA33}",
           "EA-Package": "TertiaryEducationDiplomaEvidence",
-          "uri": "https://sdg.semic.euLocation"
+          "uri": "https://sdg.semic.eu/education#Location"
         }
       ],
       "generalization": [],
@@ -5171,7 +5171,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eusex",
+      "@id": "https://sdg.semic.eu/education#sex",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "sex",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5233,7 +5233,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euPerson",
+          "uri": "https://sdg.semic.eu/education#Person",
           "EA-Name": "Person"
         }
       ],
@@ -5250,7 +5250,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eustatus",
+      "@id": "https://sdg.semic.eu/education#status",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "status",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5312,7 +5312,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euGrade",
+          "uri": "https://sdg.semic.eu/education#Grade",
           "EA-Name": "Grade"
         }
       ],
@@ -5329,7 +5329,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eustudentID",
+      "@id": "https://sdg.semic.eu/education#studentID",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "student ID",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5390,7 +5390,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euStudent",
+          "uri": "https://sdg.semic.eu/education#Student",
           "EA-Name": "Student"
         }
       ],
@@ -5400,7 +5400,7 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://sdg.semic.eustudyDuration",
+      "@id": "https://sdg.semic.eu/education#studyDuration",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "study duration",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5461,7 +5461,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -5471,7 +5471,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euthesisTitle",
+      "@id": "https://sdg.semic.eu/education#thesisTitle",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "thesis title",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5532,7 +5532,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
           "EA-Name": "TertiaryEducationDiplomaEvidence"
         }
       ],
@@ -5542,7 +5542,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eutotalCredits",
+      "@id": "https://sdg.semic.eu/education#totalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "total credits",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5603,7 +5603,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euRecordOfResultsEvidence",
+          "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
           "EA-Name": "RecordOfResultsEvidence"
         }
       ],
@@ -5613,7 +5613,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.eutotalCredits",
+      "@id": "https://sdg.semic.eu/education#totalCredits",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "name": "total credits",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5674,7 +5674,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "EA-Name": "TertiaryEducationDiplomaSupplementEvidence"
         }
       ],
@@ -5684,7 +5684,7 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://sdg.semic.euvalue",
+      "@id": "https://sdg.semic.eu/education#value",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "value",
       "inpackage": "ACTIVE_PACKAGE",
@@ -5745,7 +5745,7 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://sdg.semic.euGrade",
+          "uri": "https://sdg.semic.eu/education#Grade",
           "EA-Name": "Grade"
         }
       ],
@@ -5805,7 +5805,7 @@
   "branchtag": "main",
   "filename": "config/sdgmodels2-feedback-ap.json",
   "navigation": {},
-  "documentcommit": "949d5d02fcd6e46f422ac9fc2a975c8bee756a7a",
-  "toolchaincommit": "af6995abdcbf5472f74b0d5f2775c941587efa5d",
+  "documentcommit": "d7133e8a45b33e93c35ab76a1f974207794ff872",
+  "toolchaincommit": "148969c2459fb9e130134b17676ac62ecf79514f",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

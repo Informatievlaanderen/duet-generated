@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "TertiaryEducationDiplomaEvidence-namespaces-voc-DE",
-    "uri": "https://sdg.semic.e",
+    "uri": "https://sdg.semic.eu/education",
     "issued": "TBD",
     "filename": "sdgmodels2-namespaces-voc",
     "navigation": {
@@ -10,8 +10,8 @@
     "license": "TBD",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "statuslabel": "Ontwerpdocument",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/949d5d02fcd6e46f422ac9fc2a975c8bee756a7a",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/949d5d02fcd6e46f422ac9fc2a975c8bee756a7a/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/d7133e8a45b33e93c35ab76a1f974207794ff872",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/d7133e8a45b33e93c35ab76a1f974207794ff872/CHANGELOG",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
     "usesVocs": [],
@@ -19,7 +19,7 @@
   },
   "classes": [
     {
-      "uri": "https://sdg.semic.euAddress",
+      "uri": "https://sdg.semic.eu/education#Address",
       "name": "Address",
       "label": {
         "de": "Adresse",
@@ -35,7 +35,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euCourseResult",
+      "uri": "https://sdg.semic.eu/education#CourseResult",
       "name": "Course Result",
       "label": {
         "de": "Kursergebnis",
@@ -51,7 +51,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euEducationInstitution",
+      "uri": "https://sdg.semic.eu/education#EducationInstitution",
       "name": "Education Institution",
       "label": {
         "de": "Bildungseinrichtung",
@@ -65,11 +65,11 @@
       "usage": {},
       "equivalent": [],
       "parents": [
-        "https://sdg.semic.euOrganisation"
+        "https://sdg.semic.eu/education#Organisation"
       ]
     },
     {
-      "uri": "https://sdg.semic.euGrade",
+      "uri": "https://sdg.semic.eu/education#Grade",
       "name": "Grade",
       "label": {
         "de": "Note",
@@ -85,7 +85,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euLocation",
+      "uri": "https://sdg.semic.eu/education#Location",
       "name": "Location",
       "label": {
         "de": "Standort",
@@ -101,7 +101,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euOrganisation",
+      "uri": "https://sdg.semic.eu/education#Organisation",
       "name": "Organisation",
       "label": {
         "de": "Organisation",
@@ -117,7 +117,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euPerson",
+      "uri": "https://sdg.semic.eu/education#Person",
       "name": "Person",
       "label": {
         "de": "Person",
@@ -133,7 +133,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euRecordOfResultsEvidence",
+      "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence",
       "name": "Record of Results Evidence",
       "label": {
         "de": "Ergebnisnachweis",
@@ -149,7 +149,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euStudent",
+      "uri": "https://sdg.semic.eu/education#Student",
       "name": "Student",
       "label": {
         "de": "Student*in",
@@ -163,11 +163,11 @@
       "usage": {},
       "equivalent": [],
       "parents": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ]
     },
     {
-      "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence",
+      "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence",
       "name": "Tertiary Education Diploma Evidence",
       "label": {
         "de": "Nachweis des Hochschuldiploms",
@@ -181,11 +181,11 @@
       "usage": {},
       "equivalent": [],
       "parents": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ]
     },
     {
-      "uri": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+      "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
       "name": "Tertiary Education Diploma Supplement Evidence",
       "label": {
         "de": "Tertiär-Bildungsdiplom-Ergänzungsnachweis",
@@ -201,7 +201,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euTertiaryEducationEvidence",
+      "uri": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
       "name": "Tertiary Education Evidence",
       "label": {
         "de": "Nachweis der Hochschulausbildung",
@@ -219,7 +219,7 @@
   ],
   "properties": [
     {
-      "uri": "https://sdg.semic.euAddress.address",
+      "uri": "https://sdg.semic.eu/education#Address.address",
       "name": "address",
       "label": {
         "de": "adresse",
@@ -232,15 +232,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euAddress.registeredAddress",
+      "uri": "https://sdg.semic.eu/education#Address.registeredAddress",
       "name": "registered address",
       "label": {
         "de": "eingetragene Adresse",
@@ -253,15 +253,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "uri": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
       "name": "obtained at",
       "label": {
         "de": "erhalten bei",
@@ -274,15 +274,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euEducationInstitution"
+        "https://sdg.semic.eu/education#EducationInstitution"
       ],
       "range": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euAddress.address",
+      "uri": "https://sdg.semic.eu/education#Address.address",
       "name": "address",
       "label": {
         "de": "adresse",
@@ -295,15 +295,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euAddress.registeredAddress",
+      "uri": "https://sdg.semic.eu/education#Address.registeredAddress",
       "name": "registered address",
       "label": {
         "de": "eingetragene Adresse",
@@ -316,15 +316,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
       "name": "has record of results",
       "label": {
         "de": "hat Rekord von Ergebnissen",
@@ -337,15 +337,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euRecordOfResultsEvidence"
+        "https://sdg.semic.eu/education#RecordOfResultsEvidence"
       ],
       "range": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
       "name": "has supplement",
       "label": {
         "de": "hat Ergänzung",
@@ -358,15 +358,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults",
+      "uri": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults",
       "name": "has record of results",
       "label": {
         "de": "hat Rekord von Ergebnissen",
@@ -379,15 +379,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euRecordOfResultsEvidence"
+        "https://sdg.semic.eu/education#RecordOfResultsEvidence"
       ],
       "range": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement",
+      "uri": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement",
       "name": "has supplement",
       "label": {
         "de": "hat Ergänzung",
@@ -400,15 +400,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euEducationInstitution.obtainedAt",
+      "uri": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt",
       "name": "obtained at",
       "label": {
         "de": "erhalten bei",
@@ -421,15 +421,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euEducationInstitution"
+        "https://sdg.semic.eu/education#EducationInstitution"
       ],
       "range": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euacademicProgramme",
+      "uri": "https://sdg.semic.eu/education#academicProgramme",
       "name": "academic programme",
       "label": {
         "de": "akademisches Programm",
@@ -442,13 +442,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euacademicProgrammeLanguage",
+      "uri": "https://sdg.semic.eu/education#academicProgrammeLanguage",
       "name": "academic programme language",
       "label": {
         "de": "akademische programmsprache",
@@ -461,7 +461,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -469,7 +469,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euacademicYear",
+      "uri": "https://sdg.semic.eu/education#academicYear",
       "name": "academic year",
       "label": {
         "de": "studienjahr",
@@ -482,13 +482,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euRecordOfResultsEvidence"
+        "https://sdg.semic.eu/education#RecordOfResultsEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euacademicYear",
+      "uri": "https://sdg.semic.eu/education#academicYear",
       "name": "",
       "label": {},
       "sort": "",
@@ -498,13 +498,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euaccessRequirement",
+      "uri": "https://sdg.semic.eu/education#accessRequirement",
       "name": "access requirement",
       "label": {
         "de": "zugriffsanforderung",
@@ -517,7 +517,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -525,7 +525,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euaccessToFurtherStudy",
+      "uri": "https://sdg.semic.eu/education#accessToFurtherStudy",
       "name": "access to further study",
       "label": {
         "de": "zugang zu weiteren studien",
@@ -538,7 +538,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -546,7 +546,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euaccessToRegulatedProfession",
+      "uri": "https://sdg.semic.eu/education#accessToRegulatedProfession",
       "name": "access to regulated profession",
       "label": {
         "de": "zugang zum reglementierten beruf",
@@ -559,13 +559,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euadminUnitL1",
+      "uri": "https://sdg.semic.eu/education#adminUnitL1",
       "name": "Admin unit Level 1",
       "label": {
         "de": "Verwaltungseinheit Ebene 1",
@@ -578,7 +578,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -586,7 +586,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euadminUnitL2",
+      "uri": "https://sdg.semic.eu/education#adminUnitL2",
       "name": "admin unit Level 2",
       "label": {
         "de": "Verwaltungseinheit Ebene 2",
@@ -599,13 +599,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eubelongsTo",
+      "uri": "https://sdg.semic.eu/education#belongsTo",
       "name": "belongs to",
       "label": {
         "de": "gehört zu",
@@ -618,15 +618,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [
-        "https://sdg.semic.euStudent"
+        "https://sdg.semic.eu/education#Student"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucontains",
+      "uri": "https://sdg.semic.eu/education#contains",
       "name": "contains",
       "label": {
         "de": "enthält",
@@ -639,15 +639,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euRecordOfResultsEvidence"
+        "https://sdg.semic.eu/education#RecordOfResultsEvidence"
       ],
       "range": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseAcademicPeriod",
+      "uri": "https://sdg.semic.eu/education#courseAcademicPeriod",
       "name": "course academic period",
       "label": {
         "de": "zeitraum des akademischen jahres",
@@ -660,13 +660,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseAcademicYear",
+      "uri": "https://sdg.semic.eu/education#courseAcademicYear",
       "name": "course academic year",
       "label": {
         "de": "studienjahr",
@@ -679,7 +679,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#date"
@@ -687,7 +687,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseCreditsAmount",
+      "uri": "https://sdg.semic.eu/education#courseCreditsAmount",
       "name": "course credits amount",
       "label": {
         "de": "kursguthabenbetrag",
@@ -700,13 +700,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseFieldOfStudy",
+      "uri": "https://sdg.semic.eu/education#courseFieldOfStudy",
       "name": "course field of study",
       "label": {
         "de": "fachgebiet des kurses",
@@ -719,7 +719,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -727,7 +727,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseGrade",
+      "uri": "https://sdg.semic.eu/education#courseGrade",
       "name": "course grade",
       "label": {
         "de": "kursnote",
@@ -740,15 +740,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseLanguage",
+      "uri": "https://sdg.semic.eu/education#courseLanguage",
       "name": "course language",
       "label": {
         "de": "kurssprache",
@@ -761,7 +761,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -769,7 +769,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eucourseName",
+      "uri": "https://sdg.semic.eu/education#courseName",
       "name": "course name",
       "label": {
         "de": "kursname",
@@ -782,13 +782,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euCourseResult"
+        "https://sdg.semic.eu/education#CourseResult"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eudateOfBirth",
+      "uri": "https://sdg.semic.eu/education#dateOfBirth",
       "name": "date of birth",
       "label": {
         "de": "geburtsdatum",
@@ -801,7 +801,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#date"
@@ -809,7 +809,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eudistribution",
+      "uri": "https://sdg.semic.eu/education#distribution",
       "name": "distribution",
       "label": {
         "de": "verteilung",
@@ -822,13 +822,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eufamilyName",
+      "uri": "https://sdg.semic.eu/education#familyName",
       "name": "family name",
       "label": {
         "de": "familienname",
@@ -841,13 +841,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eufullAddress",
+      "uri": "https://sdg.semic.eu/education#fullAddress",
       "name": "full address",
       "label": {
         "de": "vollständige Adresse",
@@ -860,13 +860,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euAddress"
+        "https://sdg.semic.eu/education#Address"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eugeographicIdentifier",
+      "uri": "https://sdg.semic.eu/education#geographicIdentifier",
       "name": "geographic identifier",
       "label": {
         "de": "geografischer Identifikator",
@@ -879,7 +879,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#anyURI"
@@ -887,7 +887,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eugeographicName",
+      "uri": "https://sdg.semic.eu/education#geographicName",
       "name": "geographic name",
       "label": {
         "de": "geografischer Name",
@@ -900,13 +900,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eugivenName",
+      "uri": "https://sdg.semic.eu/education#givenName",
       "name": "given name",
       "label": {
         "de": "vorname",
@@ -919,13 +919,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eugradePointAverage",
+      "uri": "https://sdg.semic.eu/education#gradePointAverage",
       "name": "grade point average",
       "label": {
         "de": "notendurchschnitt",
@@ -938,15 +938,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eugradingScheme",
+      "uri": "https://sdg.semic.eu/education#gradingScheme",
       "name": "grading scheme",
       "label": {
         "de": "benotungsschema",
@@ -959,7 +959,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#anyURI"
@@ -967,7 +967,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euidentifier",
+      "uri": "https://sdg.semic.eu/education#identifier",
       "name": "identifier",
       "label": {
         "de": "identifikator",
@@ -980,13 +980,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euOrganisation"
+        "https://sdg.semic.eu/education#Organisation"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euidentifier",
+      "uri": "https://sdg.semic.eu/education#identifier",
       "name": "identifier",
       "label": {
         "de": "identifikator",
@@ -999,13 +999,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euidentifier",
+      "uri": "https://sdg.semic.eu/education#identifier",
       "name": "identifier",
       "label": {
         "de": "bezeichner",
@@ -1018,13 +1018,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euissuingAuthority",
+      "uri": "https://sdg.semic.eu/education#issuingAuthority",
       "name": "issuing authority",
       "label": {
         "de": "anordnungsbehörde",
@@ -1037,15 +1037,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [
-        "https://sdg.semic.euOrganisation"
+        "https://sdg.semic.eu/education#Organisation"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euissuingDate",
+      "uri": "https://sdg.semic.eu/education#issuingDate",
       "name": "issuing date",
       "label": {
         "de": "ausgabedatum",
@@ -1058,7 +1058,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#date"
@@ -1066,7 +1066,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euissuingPlace",
+      "uri": "https://sdg.semic.eu/education#issuingPlace",
       "name": "issuing place",
       "label": {
         "de": "ausgabestelle",
@@ -1079,15 +1079,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eulanguage",
+      "uri": "https://sdg.semic.eu/education#language",
       "name": "language",
       "label": {
         "de": "sprache",
@@ -1100,7 +1100,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1108,7 +1108,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eulanguageOfInstruction",
+      "uri": "https://sdg.semic.eu/education#languageOfInstruction",
       "name": "language of instruction",
       "label": {
         "de": "unterrichtssprache",
@@ -1121,7 +1121,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1129,7 +1129,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eulevelOfDistinction",
+      "uri": "https://sdg.semic.eu/education#levelOfDistinction",
       "name": "level of distinction",
       "label": {
         "de": "grad der unterscheidung",
@@ -1142,7 +1142,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1150,7 +1150,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eumainFieldOfStudy",
+      "uri": "https://sdg.semic.eu/education#mainFieldOfStudy",
       "name": "main field of study",
       "label": {
         "de": "studienrichtung",
@@ -1163,7 +1163,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1171,7 +1171,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eumodeOfStudy",
+      "uri": "https://sdg.semic.eu/education#modeOfStudy",
       "name": "mode of study",
       "label": {
         "de": "art des studiums",
@@ -1184,7 +1184,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1192,7 +1192,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euoverallGrade",
+      "uri": "https://sdg.semic.eu/education#overallGrade",
       "name": "overall grade",
       "label": {
         "de": "gesamtnote",
@@ -1205,15 +1205,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euplaceOfBirth",
+      "uri": "https://sdg.semic.eu/education#placeOfBirth",
       "name": "place of birth",
       "label": {
         "de": "geburtsort",
@@ -1226,15 +1226,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "range": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euprefLabel",
+      "uri": "https://sdg.semic.eu/education#prefLabel",
       "name": "preferred label",
       "label": {
         "de": "bevorzugte bezeichnung",
@@ -1247,13 +1247,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euOrganisation"
+        "https://sdg.semic.eu/education#Organisation"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euprogrammeLearningOutcomes",
+      "uri": "https://sdg.semic.eu/education#programmeLearningOutcomes",
       "name": "programme learning outcomes",
       "label": {
         "de": "lernergebnisse des programms",
@@ -1266,13 +1266,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euqualificationLevel",
+      "uri": "https://sdg.semic.eu/education#qualificationLevel",
       "name": "qualification level",
       "label": {
         "de": "qualifikationsniveau",
@@ -1285,7 +1285,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1293,7 +1293,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euqualificationName",
+      "uri": "https://sdg.semic.eu/education#qualificationName",
       "name": "qualification name",
       "label": {
         "de": "qualifikationsname",
@@ -1306,13 +1306,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euregisteredLocation",
+      "uri": "https://sdg.semic.eu/education#registeredLocation",
       "name": "registered location",
       "label": {
         "de": "registrierter Standort",
@@ -1325,15 +1325,15 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euOrganisation"
+        "https://sdg.semic.eu/education#Organisation"
       ],
       "range": [
-        "https://sdg.semic.euLocation"
+        "https://sdg.semic.eu/education#Location"
       ],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eusex",
+      "uri": "https://sdg.semic.eu/education#sex",
       "name": "sex",
       "label": {
         "de": "biologisches Geschlecht",
@@ -1346,7 +1346,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euPerson"
+        "https://sdg.semic.eu/education#Person"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1354,7 +1354,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eustatus",
+      "uri": "https://sdg.semic.eu/education#status",
       "name": "status",
       "label": {
         "de": "status",
@@ -1367,7 +1367,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1375,7 +1375,7 @@
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eustudentID",
+      "uri": "https://sdg.semic.eu/education#studentID",
       "name": "student ID",
       "label": {
         "de": "studentenausweis",
@@ -1388,13 +1388,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euStudent"
+        "https://sdg.semic.eu/education#Student"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eustudyDuration",
+      "uri": "https://sdg.semic.eu/education#studyDuration",
       "name": "study duration",
       "label": {
         "de": "studiendauer",
@@ -1407,13 +1407,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euthesisTitle",
+      "uri": "https://sdg.semic.eu/education#thesisTitle",
       "name": "thesis title",
       "label": {
         "de": "titel der dissertation",
@@ -1426,13 +1426,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eutotalCredits",
+      "uri": "https://sdg.semic.eu/education#totalCredits",
       "name": "total credits",
       "label": {
         "de": "gesamte leistungspunkte",
@@ -1445,13 +1445,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euRecordOfResultsEvidence"
+        "https://sdg.semic.eu/education#RecordOfResultsEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.eutotalCredits",
+      "uri": "https://sdg.semic.eu/education#totalCredits",
       "name": "total credits",
       "label": {
         "de": "gesamte leistungspunkte",
@@ -1464,13 +1464,13 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+        "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
       ],
       "range": [],
       "parents": []
     },
     {
-      "uri": "https://sdg.semic.euvalue",
+      "uri": "https://sdg.semic.eu/education#value",
       "name": "value",
       "label": {
         "de": "wert",
@@ -1483,7 +1483,7 @@
       },
       "usage": {},
       "domain": [
-        "https://sdg.semic.euGrade"
+        "https://sdg.semic.eu/education#Grade"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"

@@ -45,24 +45,24 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://sdg.semic.euLocation",
+          "sh:class": "https://sdg.semic.eu/education#Location",
           "sh:definition": {
             "de": "Die Adresseigenschaftsbeziehung ordnet der Address-Entität einen Standort zu."
           },
           "sh:name": {
             "de": "adresse"
           },
-          "sh:path": "https://sdg.semic.euAddress.address"
+          "sh:path": "https://sdg.semic.eu/education#Address.address"
         },
         {
-          "sh:class": "https://sdg.semic.euLocation",
+          "sh:class": "https://sdg.semic.eu/education#Location",
           "sh:definition": {
             "de": "Die Adresseigenschaftsbeziehung ordnet der Address-Entität einen Standort zu."
           },
           "sh:name": {
             "de": "adresse"
           },
-          "sh:path": "https://sdg.semic.euAddress.address"
+          "sh:path": "https://sdg.semic.eu/education#Address.address"
         },
         {
           "qb:codeList": "http://publications.europa.eu/resource/authority/country",
@@ -75,7 +75,7 @@
           "sh:name": {
             "de": "Verwaltungseinheit Ebene 1"
           },
-          "sh:path": "https://sdg.semic.euadminUnitL1"
+          "sh:path": "https://sdg.semic.eu/education#adminUnitL1"
         },
         {
           "sh:definition": {
@@ -85,7 +85,7 @@
           "sh:name": {
             "de": "Verwaltungseinheit Ebene 2"
           },
-          "sh:path": "https://sdg.semic.euadminUnitL2"
+          "sh:path": "https://sdg.semic.eu/education#adminUnitL2"
         },
         {
           "sh:definition": {
@@ -95,30 +95,30 @@
           "sh:name": {
             "de": "vollständige Adresse"
           },
-          "sh:path": "https://sdg.semic.eufullAddress"
+          "sh:path": "https://sdg.semic.eu/education#fullAddress"
         },
         {
-          "sh:class": "https://sdg.semic.euPerson",
+          "sh:class": "https://sdg.semic.eu/education#Person",
           "sh:definition": {
             "de": "Die registrierte Adresse der Person."
           },
           "sh:name": {
             "de": "eingetragene Adresse"
           },
-          "sh:path": "https://sdg.semic.euAddress.registeredAddress"
+          "sh:path": "https://sdg.semic.eu/education#Address.registeredAddress"
         },
         {
-          "sh:class": "https://sdg.semic.euPerson",
+          "sh:class": "https://sdg.semic.eu/education#Person",
           "sh:definition": {
             "de": "Die registrierte Adresse der Person."
           },
           "sh:name": {
             "de": "eingetragene Adresse"
           },
-          "sh:path": "https://sdg.semic.euAddress.registeredAddress"
+          "sh:path": "https://sdg.semic.eu/education#Address.registeredAddress"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euAddress"
+      "sh:targetClass": "https://sdg.semic.eu/education#Address"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#CourseResultShape",
@@ -133,7 +133,7 @@
           "sh:name": {
             "de": "zeitraum des akademischen jahres"
           },
-          "sh:path": "https://sdg.semic.eucourseAcademicPeriod"
+          "sh:path": "https://sdg.semic.eu/education#courseAcademicPeriod"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
@@ -144,7 +144,7 @@
           "sh:name": {
             "de": "studienjahr"
           },
-          "sh:path": "https://sdg.semic.eucourseAcademicYear"
+          "sh:path": "https://sdg.semic.eu/education#courseAcademicYear"
         },
         {
           "sh:definition": {
@@ -155,7 +155,7 @@
           "sh:name": {
             "de": "kursguthabenbetrag"
           },
-          "sh:path": "https://sdg.semic.eucourseCreditsAmount"
+          "sh:path": "https://sdg.semic.eu/education#courseCreditsAmount"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -165,10 +165,10 @@
           "sh:name": {
             "de": "fachgebiet des kurses"
           },
-          "sh:path": "https://sdg.semic.eucourseFieldOfStudy"
+          "sh:path": "https://sdg.semic.eu/education#courseFieldOfStudy"
         },
         {
-          "sh:class": "https://sdg.semic.euGrade",
+          "sh:class": "https://sdg.semic.eu/education#Grade",
           "sh:definition": {
             "de": "Eine Markierung, die einen Grad der Leistung für einen bestimmten Kurs angibt."
           },
@@ -177,7 +177,7 @@
           "sh:name": {
             "de": "kursnote"
           },
-          "sh:path": "https://sdg.semic.eucourseGrade"
+          "sh:path": "https://sdg.semic.eu/education#courseGrade"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -188,7 +188,7 @@
           "sh:name": {
             "de": "kurssprache"
           },
-          "sh:path": "https://sdg.semic.eucourseLanguage"
+          "sh:path": "https://sdg.semic.eu/education#courseLanguage"
         },
         {
           "sh:definition": {
@@ -199,10 +199,10 @@
           "sh:name": {
             "de": "kursname"
           },
-          "sh:path": "https://sdg.semic.eucourseName"
+          "sh:path": "https://sdg.semic.eu/education#courseName"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euCourseResult"
+      "sh:targetClass": "https://sdg.semic.eu/education#CourseResult"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#EducationInstitutionShape",
@@ -210,27 +210,27 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://sdg.semic.euTertiaryEducationEvidence",
+          "sh:class": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "sh:definition": {
             "de": "Die Bildungseinrichtung, die den Studenten ausbildete."
           },
           "sh:name": {
             "de": "erhalten bei"
           },
-          "sh:path": "https://sdg.semic.euEducationInstitution.obtainedAt"
+          "sh:path": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt"
         },
         {
-          "sh:class": "https://sdg.semic.euTertiaryEducationEvidence",
+          "sh:class": "https://sdg.semic.eu/education#TertiaryEducationEvidence",
           "sh:definition": {
             "de": "Die Bildungseinrichtung, die den Studenten ausbildete."
           },
           "sh:name": {
             "de": "erhalten bei"
           },
-          "sh:path": "https://sdg.semic.euEducationInstitution.obtainedAt"
+          "sh:path": "https://sdg.semic.eu/education#EducationInstitution.obtainedAt"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euEducationInstitution"
+      "sh:targetClass": "https://sdg.semic.eu/education#EducationInstitution"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#GradeShape",
@@ -245,7 +245,7 @@
           "sh:name": {
             "de": "verteilung"
           },
-          "sh:path": "https://sdg.semic.eudistribution"
+          "sh:path": "https://sdg.semic.eu/education#distribution"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -256,7 +256,7 @@
           "sh:name": {
             "de": "benotungsschema"
           },
-          "sh:path": "https://sdg.semic.eugradingScheme"
+          "sh:path": "https://sdg.semic.eu/education#gradingScheme"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -268,7 +268,7 @@
           "sh:name": {
             "de": "status"
           },
-          "sh:path": "https://sdg.semic.eustatus"
+          "sh:path": "https://sdg.semic.eu/education#status"
         },
         {
           "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -279,10 +279,10 @@
           "sh:name": {
             "de": "wert"
           },
-          "sh:path": "https://sdg.semic.euvalue"
+          "sh:path": "https://sdg.semic.eu/education#value"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euGrade"
+      "sh:targetClass": "https://sdg.semic.eu/education#Grade"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#LocationShape",
@@ -298,7 +298,7 @@
           "sh:name": {
             "de": "geografischer Identifikator"
           },
-          "sh:path": "https://sdg.semic.eugeographicIdentifier"
+          "sh:path": "https://sdg.semic.eu/education#geographicIdentifier"
         },
         {
           "sh:definition": {
@@ -308,10 +308,10 @@
           "sh:name": {
             "de": "geografischer Name"
           },
-          "sh:path": "https://sdg.semic.eugeographicName"
+          "sh:path": "https://sdg.semic.eu/education#geographicName"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euLocation"
+      "sh:targetClass": "https://sdg.semic.eu/education#Location"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#OrganisationShape",
@@ -326,7 +326,7 @@
           "sh:name": {
             "de": "identifikator"
           },
-          "sh:path": "https://sdg.semic.euidentifier"
+          "sh:path": "https://sdg.semic.eu/education#identifier"
         },
         {
           "sh:definition": {
@@ -336,10 +336,10 @@
           "sh:name": {
             "de": "bevorzugte bezeichnung"
           },
-          "sh:path": "https://sdg.semic.euprefLabel"
+          "sh:path": "https://sdg.semic.eu/education#prefLabel"
         },
         {
-          "sh:class": "https://sdg.semic.euLocation",
+          "sh:class": "https://sdg.semic.eu/education#Location",
           "sh:definition": {
             "de": "Der registrierte Standort der Organisation."
           },
@@ -347,10 +347,10 @@
           "sh:name": {
             "de": "registrierter Standort"
           },
-          "sh:path": "https://sdg.semic.euregisteredLocation"
+          "sh:path": "https://sdg.semic.eu/education#registeredLocation"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euOrganisation"
+      "sh:targetClass": "https://sdg.semic.eu/education#Organisation"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#PersonShape",
@@ -367,7 +367,7 @@
           "sh:name": {
             "de": "geburtsdatum"
           },
-          "sh:path": "https://sdg.semic.eudateOfBirth"
+          "sh:path": "https://sdg.semic.eu/education#dateOfBirth"
         },
         {
           "sh:definition": {
@@ -378,7 +378,7 @@
           "sh:name": {
             "de": "familienname"
           },
-          "sh:path": "https://sdg.semic.eufamilyName"
+          "sh:path": "https://sdg.semic.eu/education#familyName"
         },
         {
           "sh:definition": {
@@ -389,7 +389,7 @@
           "sh:name": {
             "de": "vorname"
           },
-          "sh:path": "https://sdg.semic.eugivenName"
+          "sh:path": "https://sdg.semic.eu/education#givenName"
         },
         {
           "sh:definition": {
@@ -398,10 +398,10 @@
           "sh:name": {
             "de": "identifikator"
           },
-          "sh:path": "https://sdg.semic.euidentifier"
+          "sh:path": "https://sdg.semic.eu/education#identifier"
         },
         {
-          "sh:class": "https://sdg.semic.euLocation",
+          "sh:class": "https://sdg.semic.eu/education#Location",
           "sh:definition": {
             "de": "Der Ort, an dem eine Person geboren wurde."
           },
@@ -409,7 +409,7 @@
           "sh:name": {
             "de": "geburtsort"
           },
-          "sh:path": "https://sdg.semic.euplaceOfBirth"
+          "sh:path": "https://sdg.semic.eu/education#placeOfBirth"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -420,10 +420,10 @@
           "sh:name": {
             "de": "biologisches Geschlecht"
           },
-          "sh:path": "https://sdg.semic.eusex"
+          "sh:path": "https://sdg.semic.eu/education#sex"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euPerson"
+      "sh:targetClass": "https://sdg.semic.eu/education#Person"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#RecordOfResultsEvidenceShape",
@@ -439,37 +439,37 @@
           "sh:name": {
             "de": "studienjahr"
           },
-          "sh:path": "https://sdg.semic.euacademicYear"
+          "sh:path": "https://sdg.semic.eu/education#academicYear"
         },
         {
-          "sh:class": "https://sdg.semic.euCourseResult",
+          "sh:class": "https://sdg.semic.eu/education#CourseResult",
           "sh:definition": {
             "de": "Die spezifischen Kursergebnisse, die zusammen die Aufzeichnung der Ergebnisnachweise bilden."
           },
           "sh:name": {
             "de": "enthält"
           },
-          "sh:path": "https://sdg.semic.eucontains"
+          "sh:path": "https://sdg.semic.eu/education#contains"
         },
         {
-          "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:class": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "sh:definition": {
             "de": "Die Aufzeichnung der Ergebnis-Nachweise, die den Tertiary Education Diploma Supplement Evidence ergänzt."
           },
           "sh:name": {
             "de": "hat Rekord von Ergebnissen"
           },
-          "sh:path": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults"
+          "sh:path": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults"
         },
         {
-          "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:class": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "sh:definition": {
             "de": "Die Aufzeichnung der Ergebnis-Nachweise, die den Tertiary Education Diploma Supplement Evidence ergänzt."
           },
           "sh:name": {
             "de": "hat Rekord von Ergebnissen"
           },
-          "sh:path": "https://sdg.semic.euRecordOfResultsEvidence.hasRecordofResults"
+          "sh:path": "https://sdg.semic.eu/education#RecordOfResultsEvidence.hasRecordofResults"
         },
         {
           "sh:definition": {
@@ -480,10 +480,10 @@
           "sh:name": {
             "de": "gesamte leistungspunkte"
           },
-          "sh:path": "https://sdg.semic.eutotalCredits"
+          "sh:path": "https://sdg.semic.eu/education#totalCredits"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euRecordOfResultsEvidence"
+      "sh:targetClass": "https://sdg.semic.eu/education#RecordOfResultsEvidence"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#StudentShape",
@@ -497,10 +497,10 @@
           "sh:name": {
             "de": "studentenausweis"
           },
-          "sh:path": "https://sdg.semic.eustudentID"
+          "sh:path": "https://sdg.semic.eu/education#studentID"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euStudent"
+      "sh:targetClass": "https://sdg.semic.eu/education#Student"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaEvidenceShape",
@@ -516,7 +516,7 @@
           "sh:name": {
             "de": "akademisches Programm"
           },
-          "sh:path": "https://sdg.semic.euacademicProgramme"
+          "sh:path": "https://sdg.semic.eu/education#academicProgramme"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -526,7 +526,7 @@
           "sh:name": {
             "de": "zugang zu weiteren studien"
           },
-          "sh:path": "https://sdg.semic.euaccessToFurtherStudy"
+          "sh:path": "https://sdg.semic.eu/education#accessToFurtherStudy"
         },
         {
           "sh:definition": {
@@ -535,27 +535,27 @@
           "sh:name": {
             "de": "zugang zum reglementierten beruf"
           },
-          "sh:path": "https://sdg.semic.euaccessToRegulatedProfession"
+          "sh:path": "https://sdg.semic.eu/education#accessToRegulatedProfession"
         },
         {
-          "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:class": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "sh:definition": {
             "de": "Ergänzendes Dokument, das als Anhang dient, mit zusätzlichen Informationen im Zusammenhang mit dem Nachweis des Hochschuldiploms."
           },
           "sh:name": {
             "de": "hat Ergänzung"
           },
-          "sh:path": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement"
+          "sh:path": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement"
         },
         {
-          "sh:class": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence",
+          "sh:class": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence",
           "sh:definition": {
             "de": "Ergänzendes Dokument, das als Anhang dient, mit zusätzlichen Informationen im Zusammenhang mit dem Nachweis des Hochschuldiploms."
           },
           "sh:name": {
             "de": "hat Ergänzung"
           },
-          "sh:path": "https://sdg.semic.euTertiaryEducationDiplomaEvidence.hasSupplement"
+          "sh:path": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence.hasSupplement"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -566,10 +566,10 @@
           "sh:name": {
             "de": "grad der unterscheidung"
           },
-          "sh:path": "https://sdg.semic.eulevelOfDistinction"
+          "sh:path": "https://sdg.semic.eu/education#levelOfDistinction"
         },
         {
-          "sh:class": "https://sdg.semic.euGrade",
+          "sh:class": "https://sdg.semic.eu/education#Grade",
           "sh:definition": {
             "de": "Eine Markierung, die einen Grad der Leistung angibt."
           },
@@ -578,7 +578,7 @@
           "sh:name": {
             "de": "gesamtnote"
           },
-          "sh:path": "https://sdg.semic.euoverallGrade"
+          "sh:path": "https://sdg.semic.eu/education#overallGrade"
         },
         {
           "sh:definition": {
@@ -588,10 +588,10 @@
           "sh:name": {
             "de": "titel der dissertation"
           },
-          "sh:path": "https://sdg.semic.euthesisTitle"
+          "sh:path": "https://sdg.semic.eu/education#thesisTitle"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euTertiaryEducationDiplomaEvidence"
+      "sh:targetClass": "https://sdg.semic.eu/education#TertiaryEducationDiplomaEvidence"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationDiplomaSupplementEvidenceShape",
@@ -607,7 +607,7 @@
           "sh:name": {
             "de": "akademische programmsprache"
           },
-          "sh:path": "https://sdg.semic.euacademicProgrammeLanguage"
+          "sh:path": "https://sdg.semic.eu/education#academicProgrammeLanguage"
         },
         {
           "sh:definition": {
@@ -615,7 +615,7 @@
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
-          "sh:path": "https://sdg.semic.euacademicYear"
+          "sh:path": "https://sdg.semic.eu/education#academicYear"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -625,10 +625,10 @@
           "sh:name": {
             "de": "zugriffsanforderung"
           },
-          "sh:path": "https://sdg.semic.euaccessRequirement"
+          "sh:path": "https://sdg.semic.eu/education#accessRequirement"
         },
         {
-          "sh:class": "https://sdg.semic.euGrade",
+          "sh:class": "https://sdg.semic.eu/education#Grade",
           "sh:definition": {
             "de": "Der Notendurchschnitt der Kursergebnisse, d.h. Die Noten werden basierend auf der Anzahl der Credits gewichtet."
           },
@@ -636,7 +636,7 @@
           "sh:name": {
             "de": "notendurchschnitt"
           },
-          "sh:path": "https://sdg.semic.eugradePointAverage"
+          "sh:path": "https://sdg.semic.eu/education#gradePointAverage"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -646,7 +646,7 @@
           "sh:name": {
             "de": "unterrichtssprache"
           },
-          "sh:path": "https://sdg.semic.eulanguageOfInstruction"
+          "sh:path": "https://sdg.semic.eu/education#languageOfInstruction"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -656,7 +656,7 @@
           "sh:name": {
             "de": "studienrichtung"
           },
-          "sh:path": "https://sdg.semic.eumainFieldOfStudy"
+          "sh:path": "https://sdg.semic.eu/education#mainFieldOfStudy"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -667,7 +667,7 @@
           "sh:name": {
             "de": "art des studiums"
           },
-          "sh:path": "https://sdg.semic.eumodeOfStudy"
+          "sh:path": "https://sdg.semic.eu/education#modeOfStudy"
         },
         {
           "sh:definition": {
@@ -677,7 +677,7 @@
           "sh:name": {
             "de": "lernergebnisse des programms"
           },
-          "sh:path": "https://sdg.semic.euprogrammeLearningOutcomes"
+          "sh:path": "https://sdg.semic.eu/education#programmeLearningOutcomes"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -688,7 +688,7 @@
           "sh:name": {
             "de": "qualifikationsniveau"
           },
-          "sh:path": "https://sdg.semic.euqualificationLevel"
+          "sh:path": "https://sdg.semic.eu/education#qualificationLevel"
         },
         {
           "sh:definition": {
@@ -698,7 +698,7 @@
           "sh:name": {
             "de": "studiendauer"
           },
-          "sh:path": "https://sdg.semic.eustudyDuration"
+          "sh:path": "https://sdg.semic.eu/education#studyDuration"
         },
         {
           "sh:definition": {
@@ -709,10 +709,10 @@
           "sh:name": {
             "de": "gesamte leistungspunkte"
           },
-          "sh:path": "https://sdg.semic.eutotalCredits"
+          "sh:path": "https://sdg.semic.eu/education#totalCredits"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euTertiaryEducationDiplomaSupplementEvidence"
+      "sh:targetClass": "https://sdg.semic.eu/education#TertiaryEducationDiplomaSupplementEvidence"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/sdgmodels2-feedback-ap_de#TertiaryEducationEvidenceShape",
@@ -720,7 +720,7 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://sdg.semic.euStudent",
+          "sh:class": "https://sdg.semic.eu/education#Student",
           "sh:definition": {
             "de": "Der Student, der Inhaber des Nachweis der Hochschulausbildung ist."
           },
@@ -729,7 +729,7 @@
           "sh:name": {
             "de": "gehört zu"
           },
-          "sh:path": "https://sdg.semic.eubelongsTo"
+          "sh:path": "https://sdg.semic.eu/education#belongsTo"
         },
         {
           "sh:definition": {
@@ -740,10 +740,10 @@
           "sh:name": {
             "de": "bezeichner"
           },
-          "sh:path": "https://sdg.semic.euidentifier"
+          "sh:path": "https://sdg.semic.eu/education#identifier"
         },
         {
-          "sh:class": "https://sdg.semic.euOrganisation",
+          "sh:class": "https://sdg.semic.eu/education#Organisation",
           "sh:definition": {
             "de": "Die Organisation, die den Nachweis der Hochschulausbildung ausgestellt hat."
           },
@@ -751,7 +751,7 @@
           "sh:name": {
             "de": "anordnungsbehörde"
           },
-          "sh:path": "https://sdg.semic.euissuingAuthority"
+          "sh:path": "https://sdg.semic.eu/education#issuingAuthority"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
@@ -763,10 +763,10 @@
           "sh:name": {
             "de": "ausgabedatum"
           },
-          "sh:path": "https://sdg.semic.euissuingDate"
+          "sh:path": "https://sdg.semic.eu/education#issuingDate"
         },
         {
-          "sh:class": "https://sdg.semic.euLocation",
+          "sh:class": "https://sdg.semic.eu/education#Location",
           "sh:definition": {
             "de": "Der Ort, an dem der Nachweis der Hochschulausbildung ausgestellt wurde."
           },
@@ -775,7 +775,7 @@
           "sh:name": {
             "de": "ausgabestelle"
           },
-          "sh:path": "https://sdg.semic.euissuingPlace"
+          "sh:path": "https://sdg.semic.eu/education#issuingPlace"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -786,7 +786,7 @@
           "sh:name": {
             "de": "sprache"
           },
-          "sh:path": "https://sdg.semic.eulanguage"
+          "sh:path": "https://sdg.semic.eu/education#language"
         },
         {
           "sh:definition": {
@@ -796,10 +796,10 @@
           "sh:name": {
             "de": "qualifikationsname"
           },
-          "sh:path": "https://sdg.semic.euqualificationName"
+          "sh:path": "https://sdg.semic.eu/education#qualificationName"
         }
       ],
-      "sh:targetClass": "https://sdg.semic.euTertiaryEducationEvidence"
+      "sh:targetClass": "https://sdg.semic.eu/education#TertiaryEducationEvidence"
     }
   ]
 }
