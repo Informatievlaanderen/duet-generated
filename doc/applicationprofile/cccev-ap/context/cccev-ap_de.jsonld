@@ -20,7 +20,12 @@
     "Anforderung.bezeichner": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Anforderung.enterYourTranslationHere": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#issuedBy",
+      "@type": "@id"
     },
     "Anforderung.hatEineKombinationAusEvidenztyp": {
       "@container": "@set",
@@ -47,6 +52,11 @@
       "@type": "@id"
     },
     "Beweis": "http://data.europa.eu/m8g/cccev#Evidence",
+    "Beweis.cccev:supportsValue": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#supportsValue",
+      "@type": "@id"
+    },
     "Beweis.ist über": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#isAbout",
@@ -88,49 +98,46 @@
     },
     "Beweistypliste.bezeichner": {
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Beweistypliste.name": {
       "@container": "@set",
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "Code": "http://www.w3.org/2004/02/skos/core#Concept",
     "Dataset": "http://www.w3.org/ns/dcat#Dataset",
-    "Dataset-type": "http://fixme.com#dataset-type",
-    "Dataset.verteilung": {
+    "Einschränkung": "http://data.europa.eu/m8g/cccev#Constraint",
+    "Einschränkung.[updated]HatEinschränkung": {
       "@container": "@set",
-      "@id": "http://www.w3.org/ns/dcat#distribution",
+      "@id": "http://data.europa.eu/m8g/cccev#constraints",
       "@type": "@id"
     },
-    "Einschränkung": "http://data.europa.eu/m8g/cccev#Constraint",
-    "Evidence-types": "http://fixme.com#evidence-types",
-    "Informationsanforderung": "http://data.europa.eu/m8g/cccev#InformationRequirement",
-    "Konzept": "http://fixme.com#Concept",
-    "Konzept.beschreibung": {
+    "EnterYourTranslationHere": "http://data.europa.eu/m8g/cccev#SupportedValue",
+    "EnterYourTranslationHere.beschreibung": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/description",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "Konzept.bezeichner": {
+    "EnterYourTranslationHere.bezeichner": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Konzept.hatEinschränkung": {
+    "EnterYourTranslationHere.enterYourTranslationHere": {
       "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
+      "@id": "http://data.europa.eu/m8g/cccev#providesValueFor",
       "@type": "@id"
     },
-    "Konzept.name": {
+    "EnterYourTranslationHere.name": {
       "@container": "@set",
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "Konzept.typ": {
+    "EnterYourTranslationHere.typ": {
       "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
+    "Informationsanforderung": "http://data.europa.eu/m8g/cccev#InformationRequirement",
     "Kriterium": "http://data.europa.eu/m8g/cccev#Criterion",
     "Kriterium.beschreibungDerGewichtungSerann": {
       "@id": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
@@ -149,12 +156,6 @@
       "@id": "http://data.europa.eu/m8g/cccev#bias",
       "@type": ""
     },
-    "Referenzrahmen": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
-    "Standard": "http://purl.org/dc/terms/Standard",
-    "Verteilung": "http://www.w3.org/ns/dcat#Distribution",
-    "Verteilung.downloadUrl": {
-      "@id": "http://www.w3.org/ns/dcat#downloadURL",
-      "@type": ""
-    }
+    "Referenzrahmen": "http://data.europa.eu/m8g/cccev#ReferenceFramework"
   }
 }

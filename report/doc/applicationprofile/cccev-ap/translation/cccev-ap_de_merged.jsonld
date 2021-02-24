@@ -92,6 +92,70 @@
   "branchtag": "main",
   "classes": [
     {
+      "@id": "http://data.europa.eu/m8g/cccev#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+      "ap-definition-en": {
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+      },
+      "ap-label-en": {
+        "en": "Concept"
+      },
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+      },
+      "extra": {
+        "EA-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+        "EA-Name": "Concept",
+        "EA-Package": "CCCEV_v2",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Concept"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#Concept"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+        },
+        "ap-label-en": {
+          "en": "Concept"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+        },
+        "label": {
+          "en": "Concept"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Concept"
+      },
+      "name": "Concept",
+      "parents": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{D5E840D1-63A4-42a8-B3B6-376316BF956F}",
@@ -351,14 +415,7 @@
         "EA-Name": "EvidenceType",
         "EA-Package": "CCCEV_v2",
         "EA-Parents": "",
-        "EA-Parents2": [
-          {
-            "label": "Dataset",
-            "name": "Dataset",
-            "package": "dcat",
-            "uri": "http://www.w3.org/ns/dcat#Dataset"
-          }
-        ],
+        "EA-Parents2": [],
         "EA-Type": "CLASS",
         "RawTags": [
           {
@@ -392,7 +449,7 @@
         "label": {
           "en": "Evidence type"
         },
-        "parentclasses": "http://www.w3.org/ns/dcat#Dataset",
+        "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -401,19 +458,21 @@
         "en": "Evidence type"
       },
       "name": "Evidence type",
-      "parents": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ]
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{656C4155-7FD3-465e-AB71-F34F7F066D5F}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A combination of evidence types that must be satisfied all together."
       },
       "ap-label-en": {
         "en": "Evidence Type List"
+      },
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "A combination of evidence types that must be satisfied all together."
       },
       "extra": {
         "EA-Guid": "{656C4155-7FD3-465e-AB71-F34F7F066D5F}",
@@ -432,23 +491,37 @@
             "key": "uri",
             "note": "null",
             "value": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A combination of evidence types that must be satisfied all together."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "NOTE: An evidence type list is satisfied iff for all evidence types an corresponding conformant evidence is supporting the requirement having this list."
           }
         ],
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A combination of evidence types that must be satisfied all together."
         },
         "ap-label-en": {
           "en": "Evidence Type List"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A combination of evidence types that must be satisfied all together."
+        },
         "label": {
           "en": "Evidence Type List"
         },
         "parentclasses": "",
-        "usage": ""
+        "usage": {
+          "en": "NOTE: An evidence type list is satisfied iff for all evidence types an corresponding conformant evidence is supporting the requirement having this list."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
@@ -456,7 +529,11 @@
         "en": "Evidence Type List"
       },
       "name": "Evidence Type List",
-      "parents": []
+      "parents": [],
+      "usage": {
+        "de": "Enter your translation here",
+        "en": "NOTE: An evidence type list is satisfied iff for all evidence types an corresponding conformant evidence is supporting the requirement having this list."
+      }
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#InformationRequirement",
@@ -536,24 +613,21 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{785686A1-4364-47dc-8B5C-2DEE9760958E}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A source from where requirements are identified and drawn."
       },
       "ap-label-en": {
         "en": "Reference Framework"
+      },
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "A source from where requirements are identified and drawn."
       },
       "extra": {
         "EA-Guid": "{785686A1-4364-47dc-8B5C-2DEE9760958E}",
         "EA-Name": "ReferenceFramework",
         "EA-Package": "CCCEV_v2",
         "EA-Parents": "",
-        "EA-Parents2": [
-          {
-            "label": "Dataset",
-            "name": "Dataset",
-            "package": "dcat",
-            "uri": "http://www.w3.org/ns/dcat#Dataset"
-          }
-        ],
+        "EA-Parents2": [],
         "EA-Type": "CLASS",
         "RawTags": [
           {
@@ -565,22 +639,29 @@
             "key": "uri",
             "note": "null",
             "value": "http://data.europa.eu/m8g/cccev#ReferenceFramework"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A source from where requirements are identified and drawn."
           }
         ],
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A source from where requirements are identified and drawn."
         },
         "ap-label-en": {
           "en": "Reference Framework"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A source from where requirements are identified and drawn."
+        },
         "label": {
           "en": "Reference Framework"
         },
-        "parentclasses": "http://www.w3.org/ns/dcat#Dataset",
+        "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -589,9 +670,7 @@
         "en": "Reference Framework"
       },
       "name": "Reference Framework",
-      "parents": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ]
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -656,6 +735,70 @@
       },
       "name": "Requirement",
       "parents": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#SupportedValue",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+      "ap-definition-en": {
+        "en": "A value for an information concept that is supported by an Evidence"
+      },
+      "ap-label-en": {
+        "en": "Supported Value"
+      },
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "A value for an information concept that is supported by an Evidence"
+      },
+      "extra": {
+        "EA-Guid": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+        "EA-Name": "cccev:SupportedValue",
+        "EA-Package": "CCCEV_v3",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#SupportedValue"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A value for an information concept that is supported by an Evidence"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Supported Value"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A value for an information concept that is supported by an Evidence"
+        },
+        "ap-label-en": {
+          "en": "Supported Value"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A value for an information concept that is supported by an Evidence"
+        },
+        "label": {
+          "en": "Supported Value"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Supported Value"
+      },
+      "name": "Supported Value",
+      "parents": []
     }
   ],
   "config": "config/config-ap.json",
@@ -671,9 +814,9 @@
   ],
   "contributors-column": "CCCEV",
   "contributors-file": "stakeholders-cccev.csv",
-  "diagram": "CCCEV_v3",
-  "documentcommit": "d7133e8a45b33e93c35ab76a1f974207794ff872",
-  "dummy": "9",
+  "diagram": "CCCEV_v3-overview-attributes",
+  "documentcommit": "adb8e0b97ccaa5c778b4af54d0821216e8736ab6",
+  "dummy": "10",
   "eap": "cccev.eap",
   "editors": [
     {
@@ -694,6 +837,111 @@
     }
   ],
   "externalproperties": [
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#constraints",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}",
+      "ap-definition-en": {
+        "en": "the information concept which a Constaint expresses a limitation about"
+      },
+      "ap-label-en": {
+        "en": "constraints"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "[UPDATED] Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert.",
+        "en": "the information concept which a Constaint expresses a limitation about"
+      },
+      "domain": [
+        {
+          "EA-Name": "Constraint",
+          "uri": "http://data.europa.eu/m8g/cccev#Constraint"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "definition-en",
+            "note": "the information concept which a Constaint expresses a limitation about",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "constraints",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://data.europa.eu/m8g/cccev#constraints",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Constraint",
+        "EA-Domain-Guid": "{D5E840D1-63A4-42a8-B3B6-376316BF956F}",
+        "EA-Guid": "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}",
+        "EA-Name": "cccev:constraints",
+        "EA-Package": "",
+        "EA-Range": "Concept",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Name": "Concept",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "note": "the information concept which a Constaint expresses a limitation about",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "constraints",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://data.europa.eu/m8g/cccev#constraints",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "the information concept which a Constaint expresses a limitation about"
+        },
+        "ap-label-en": {
+          "en": "constraints"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "the information concept which a Constaint expresses a limitation about"
+        },
+        "derived": "false",
+        "destRole": "cccev:constraints",
+        "label": {
+          "en": "constraints"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "[UPDATED] hat Einschränkung",
+        "en": "constraints"
+      },
+      "name": "constraints",
+      "range": [
+        {
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Name": "Concept",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
+        }
+      ]
+    },
     {
       "@id": "http://data.europa.eu/m8g/cccev#hasConcept",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -744,7 +992,7 @@
           "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
           "EA-Name": "Concept",
           "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         },
         "RawTags": [
           {
@@ -797,114 +1045,7 @@
           "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
           "EA-Name": "Concept",
           "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
-        }
-      ]
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}",
-      "ap-definition-en": {
-        "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-      },
-      "ap-label-en": {
-        "en": "has Constraint"
-      },
-      "codelist": [],
-      "definition": {
-        "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert.",
-        "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-      },
-      "domain": [
-        {
-          "EA-Name": "Concept",
-          "uri": "http://fixme.com#Concept"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "note": "has Constraint",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://data.europa.eu/m8g/cccev#hasConstraint",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-        "EA-Guid": "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}",
-        "EA-Name": "cccev:hasConstraint",
-        "EA-Package": "",
-        "EA-Range": "Constraint",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{D5E840D1-63A4-42a8-B3B6-376316BF956F}",
-          "EA-Name": "Constraint",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://data.europa.eu/m8g/cccev#Constraint"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "has Constraint",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://data.europa.eu/m8g/cccev#hasConstraint",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-        },
-        "ap-label-en": {
-          "en": "has Constraint"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-        },
-        "derived": "false",
-        "destRole": "cccev:hasConstraint",
-        "label": {
-          "en": "has Constraint"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "hat Einschränkung",
-        "en": "has Constraint"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "has Constraint",
-      "range": [
-        {
-          "EA-GUID": "{D5E840D1-63A4-42a8-B3B6-376316BF956F}",
-          "EA-Name": "Constraint",
-          "EA-Package": "CCCEV_v2",
-          "uri": "http://data.europa.eu/m8g/cccev#Constraint"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         }
       ]
     },
@@ -913,15 +1054,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{9017007F-FC42-48b2-8FE4-637F041B5403}",
       "ap-definition-en": {
-        "en": "A collection, or a set of alternative collections, of references to types of evidences"
+        "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
       },
       "ap-label-en": {
         "en": "has evidence type combination"
       },
       "codelist": [],
       "definition": {
-        "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln",
-        "en": "A collection, or a set of alternative collections, of references to types of evidences"
+        "de": "[UPDATED] Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln",
+        "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
       },
       "domain": [
         {
@@ -938,7 +1079,7 @@
           },
           {
             "key": "definition-en",
-            "note": "A collection, or a set of alternative collections, of references to types of evidences",
+            "note": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement",
             "value": "NOTE"
           },
           {
@@ -948,7 +1089,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved.",
+            "note": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type.  To satisfy this combination one of the Evidence Type lists must be satisfied: this is thus an OR condition",
             "value": "NOTE"
           }
         ],
@@ -973,7 +1114,7 @@
           },
           {
             "key": "definition-en",
-            "note": "A collection, or a set of alternative collections, of references to types of evidences",
+            "note": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement",
             "value": "NOTE"
           },
           {
@@ -983,21 +1124,21 @@
           },
           {
             "key": "usageNote-en",
-            "note": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved.",
+            "note": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type.  To satisfy this combination one of the Evidence Type lists must be satisfied: this is thus an OR condition",
             "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "A collection, or a set of alternative collections, of references to types of evidences"
+          "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
         },
         "ap-label-en": {
           "en": "has evidence type combination"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "A collection, or a set of alternative collections, of references to types of evidences"
+          "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
         },
         "derived": "false",
         "destRole": "cccev:hasEvidenceTypeCombinationList",
@@ -1006,7 +1147,7 @@
         },
         "sourceRole": "null",
         "usage": {
-          "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved."
+          "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type.  To satisfy this combination one of the Evidence Type lists must be satisfied: this is thus an OR condition"
         }
       },
       "generalization": [],
@@ -1027,8 +1168,8 @@
         }
       ],
       "usage": {
-        "de": "Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden.",
-        "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved."
+        "de": "[UPDATED] Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden.",
+        "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type.  To satisfy this combination one of the Evidence Type lists must be satisfied: this is thus an OR condition"
       }
     },
     {
@@ -1043,8 +1184,8 @@
       },
       "codelist": [],
       "definition": {
-        "de": "eine verwandte Anforderung",
-        "en": "a related requirement"
+        "de": "[UPDATED] eine verwandte Anforderung",
+        "en": "A reference to the parent requirement a sub-requirement is part of."
       },
       "domain": [
         {
@@ -1614,8 +1755,8 @@
       },
       "codelist": [],
       "definition": {
-        "de": "eine verwandte Anforderung",
-        "en": "a related requirement"
+        "de": "[UPDATED] eine verwandte Anforderung",
+        "en": "A reference to the parent requirement a sub-requirement is part of."
       },
       "domain": [
         {
@@ -1718,12 +1859,16 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "an evidence type list in which the evidence type participates"
       },
       "ap-label-en": {
         "en": "is specified in"
       },
       "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "Indicates one type of evidence included in a list of evidence types."
+      },
       "domain": [
         {
           "EA-Name": "EvidenceType",
@@ -1740,6 +1885,11 @@
           {
             "key": "uri",
             "note": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "an evidence type list in which the evidence type participates",
             "value": "NOTE"
           }
         ],
@@ -1766,18 +1916,25 @@
             "key": "uri",
             "note": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "an evidence type list in which the evidence type participates",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "an evidence type list in which the evidence type participates"
         },
         "ap-label-en": {
           "en": "is specified in"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "an evidence type list in which the evidence type participates"
+        },
         "derived": "false",
         "destRole": "cccev:isSpecifiedIn",
         "label": {
@@ -1793,7 +1950,7 @@
         "en": "specifies evidence type"
       },
       "maxCardinality": "*",
-      "minCardinality": "1",
+      "minCardinality": "0",
       "name": "specifies evidence type",
       "range": [
         {
@@ -1805,16 +1962,213 @@
       ]
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#issuedBy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{EC3F97CA-851C-4c42-BE9B-B76B21220632}",
+      "ap-definition-en": {
+        "en": "This agent that has issued the requirement"
+      },
+      "ap-label-en": {
+        "en": "issued by"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "This agent that has issued the requirement"
+      },
+      "domain": [
+        {
+          "EA-Name": "Requirement",
+          "uri": "http://data.europa.eu/m8g/cccev#Requirement"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Requirement",
+        "EA-Domain-Guid": "{D0F60B4B-30F4-4fe4-8362-172989F74286}",
+        "EA-Guid": "{EC3F97CA-851C-4c42-BE9B-B76B21220632}",
+        "EA-Name": "cccev:issuedBy",
+        "EA-Package": "",
+        "EA-Range": "Agent",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
+          "EA-Name": "Agent",
+          "EA-Package": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/Agent"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#issuedBy"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "This agent that has issued the requirement"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "issued by"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Note: Instead of creating a new URI in the cccev domain, dct:publisher could be considered."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "This agent that has issued the requirement"
+        },
+        "ap-label-en": {
+          "en": "issued by"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "This agent that has issued the requirement"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "en": "issued by"
+        },
+        "sourceRole": "null",
+        "usage": {
+          "en": "Note: Instead of creating a new URI in the cccev domain, dct:publisher could be considered."
+        }
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "issued by"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "issued by",
+      "range": [
+        {
+          "EA-GUID": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
+          "EA-Name": "Agent",
+          "EA-Package": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/Agent"
+        }
+      ],
+      "usage": {
+        "de": "Enter your translation here",
+        "en": "Note: Instead of creating a new URI in the cccev domain, dct:publisher could be considered."
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#providesValueFor",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{DFE4231F-E6B4-497f-B735-2AE07EBAC4F9}",
+      "ap-definition-en": {
+        "en": "The information concept it is providing a value for."
+      },
+      "ap-label-en": {
+        "en": "provides value for"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "The information concept it is providing a value for."
+      },
+      "domain": [
+        {
+          "EA-Name": "cccev:SupportedValue",
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "cccev:SupportedValue",
+        "EA-Domain-Guid": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+        "EA-Guid": "{DFE4231F-E6B4-497f-B735-2AE07EBAC4F9}",
+        "EA-Name": "cccev:providesValueFor",
+        "EA-Package": "",
+        "EA-Range": "Concept",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Name": "Concept",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#providesValueFor"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The information concept it is providing a value for."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "provides value for"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The information concept it is providing a value for."
+        },
+        "ap-label-en": {
+          "en": "provides value for"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The information concept it is providing a value for."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "en": "provides value for"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "provides value for"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "provides value for",
+      "range": [
+        {
+          "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+          "EA-Name": "Concept",
+          "EA-Package": "CCCEV_v2",
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
+        }
+      ]
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{AF9ACB34-337F-4da0-92FD-243627E9A0FB}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "an evidence type list in which the evidence type participates"
       },
       "ap-label-en": {
         "en": "is specified in"
       },
       "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "Indicates one type of evidence included in a list of evidence types."
+      },
       "domain": [
         {
           "EA-Name": "EvidenceType",
@@ -1831,6 +2185,11 @@
           {
             "key": "uri",
             "note": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "an evidence type list in which the evidence type participates",
             "value": "NOTE"
           }
         ],
@@ -1857,18 +2216,25 @@
             "key": "uri",
             "note": "http://data.europa.eu/m8g/cccev#isSpecifiedIn",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "an evidence type list in which the evidence type participates",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "an evidence type list in which the evidence type participates"
         },
         "ap-label-en": {
           "en": "is specified in"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "an evidence type list in which the evidence type participates"
+        },
         "derived": "false",
         "destRole": "cccev:isSpecifiedIn",
         "label": {
@@ -1884,7 +2250,7 @@
         "en": "specifies evidence type"
       },
       "maxCardinality": "*",
-      "minCardinality": "1",
+      "minCardinality": "0",
       "name": "specifies evidence type",
       "range": [
         {
@@ -1942,7 +2308,7 @@
         "EA-Domain": "Evidence",
         "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
         "EA-Guid": "{00D4A77C-A66E-4ea7-98FE-AF553E4CFDBF}",
-        "EA-Name": "cccev:supports",
+        "EA-Name": "cccev:supportsConcept",
         "EA-Package": "",
         "EA-Range": "Concept",
         "EA-Type": "connector",
@@ -1950,7 +2316,7 @@
           "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
           "EA-Name": "Concept",
           "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         },
         "RawTags": [
           {
@@ -1987,7 +2353,7 @@
           "en": "the supported concept by the evidence"
         },
         "derived": "false",
-        "destRole": "cccev:supports",
+        "destRole": "cccev:supportsConcept",
         "label": {
           "en": "supports concept"
         },
@@ -2010,7 +2376,7 @@
           "EA-GUID": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
           "EA-Name": "Concept",
           "EA-Package": "CCCEV_v2",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         }
       ],
       "usage": {
@@ -2142,6 +2508,81 @@
       }
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#supportsValue",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{64815ED7-A5A0-425c-AB65-DAE0814AC7EE}",
+      "ap-definition-en": {
+        "en": "the Supporting value for which an evidence has information"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "the Supporting value for which an evidence has information"
+      },
+      "domain": [
+        {
+          "EA-Name": "Evidence",
+          "uri": "http://data.europa.eu/m8g/cccev#Evidence"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Guid": "{64815ED7-A5A0-425c-AB65-DAE0814AC7EE}",
+        "EA-Name": "cccev:supportsValue",
+        "EA-Package": "",
+        "EA-Range": "cccev:SupportedValue",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+          "EA-Name": "cccev:SupportedValue",
+          "EA-Package": "CCCEV_v3",
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#supportsValue"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "the Supporting value for which an evidence has information"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "the Supporting value for which an evidence has information"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "the Supporting value for which an evidence has information"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": "",
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "",
+      "range": [
+        {
+          "EA-GUID": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+          "EA-Name": "cccev:SupportedValue",
+          "EA-Package": "CCCEV_v3",
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ]
+    },
+    {
       "@id": "http://purl.org/dc/terms/description",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{03FFDF35-FAE3-479d-9A6E-85A015F65608}",
@@ -2244,7 +2685,7 @@
       "domain": [
         {
           "EA-Name": "Concept",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         }
       ],
       "extra": {
@@ -2398,7 +2839,7 @@
     },
     {
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{F225C3B8-CA9E-4103-B9AF-C1D547A1056E}",
       "ap-definition-en": {
         "en": "An unambiguous reference to an Evidence Type List"
@@ -2423,12 +2864,12 @@
         "EA-Guid": "{F225C3B8-CA9E-4103-B9AF-C1D547A1056E}",
         "EA-Name": "identifier",
         "EA-Package": "CCCEV_v2",
-        "EA-Range": "ccts:Identifier",
+        "EA-Range": "Literal",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Literal",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
         },
         "RawTags": [
           {
@@ -2473,11 +2914,17 @@
       "maxCardinality": "1",
       "minCardinality": "0",
       "name": "identifier",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
     },
     {
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{F925D12E-59B0-4789-97E0-22CAF715A8A3}",
       "ap-definition-en": {
         "en": "An unambiguous reference to RequirementConcept"
@@ -2493,7 +2940,7 @@
       "domain": [
         {
           "EA-Name": "Concept",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         }
       ],
       "extra": {
@@ -2502,12 +2949,12 @@
         "EA-Guid": "{F925D12E-59B0-4789-97E0-22CAF715A8A3}",
         "EA-Name": "identifier",
         "EA-Package": "CCCEV_v2",
-        "EA-Range": "ccts:Identifier",
+        "EA-Range": "Literal",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Literal",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
         },
         "RawTags": [
           {
@@ -2552,11 +2999,17 @@
       "maxCardinality": "*",
       "minCardinality": "0",
       "name": "identifier",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
     },
     {
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{BB04D974-9F22-47e4-AE9B-AB9393B7AE46}",
       "ap-definition-en": {
         "en": "An unambiguous reference"
@@ -2581,12 +3034,12 @@
         "EA-Guid": "{BB04D974-9F22-47e4-AE9B-AB9393B7AE46}",
         "EA-Name": "identifier",
         "EA-Package": "CCCEV_v2",
-        "EA-Range": "ccts:Identifier",
+        "EA-Range": "Literal",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Literal",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
         },
         "RawTags": [
           {
@@ -2631,7 +3084,13 @@
       "maxCardinality": "*",
       "minCardinality": "0",
       "name": "identifier",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
     },
     {
       "@id": "http://purl.org/dc/terms/type",
@@ -2651,7 +3110,7 @@
       "domain": [
         {
           "EA-Name": "Concept",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         }
       ],
       "extra": {
@@ -2910,7 +3369,7 @@
       "domain": [
         {
           "EA-Name": "Concept",
-          "uri": "http://fixme.com#Concept"
+          "uri": "http://data.europa.eu/m8g/cccev#Concept"
         }
       ],
       "extra": {
@@ -3061,426 +3520,22 @@
           "uri": "http://www.w3.org/2001/XMLSchema#string"
         }
       ]
-    },
-    {
-      "@id": "http://www.w3.org/ns/dcat#distribution",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{05643407-0900-4871-B74C-D6153627E30A}",
-      "ap-definition-en": {
-        "en": "the distribution of a dataset"
-      },
-      "ap-label-en": {
-        "en": "distribution"
-      },
-      "codelist": [],
-      "definition": {
-        "de": "die Verteilung eines Datasets",
-        "en": "the distribution of a dataset"
-      },
-      "domain": [
-        {
-          "EA-Name": "Dataset",
-          "uri": "http://www.w3.org/ns/dcat#Dataset"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "definition-en",
-            "note": "the distribution of a dataset",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "distribution",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/dcat#distribution",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Dataset",
-        "EA-Domain-Guid": "{53F59CE9-8044-4e39-A343-A35AAA542A46}",
-        "EA-Guid": "{05643407-0900-4871-B74C-D6153627E30A}",
-        "EA-Name": "dcat:distribution",
-        "EA-Package": "",
-        "EA-Range": "Distribution",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{029101E7-9C3C-45e7-8775-69B47010ADBA}",
-          "EA-Name": "Distribution",
-          "EA-Package": "dcat",
-          "uri": "http://www.w3.org/ns/dcat#Distribution"
-        },
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "note": "the distribution of a dataset",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "distribution",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/dcat#distribution",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "the distribution of a dataset"
-        },
-        "ap-label-en": {
-          "en": "distribution"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "the distribution of a dataset"
-        },
-        "derived": "false",
-        "destRole": "dcat:distribution",
-        "label": {
-          "en": "distribution"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "verteilung",
-        "en": "distribution"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "distribution",
-      "range": [
-        {
-          "EA-GUID": "{029101E7-9C3C-45e7-8775-69B47010ADBA}",
-          "EA-Name": "Distribution",
-          "EA-Package": "dcat",
-          "uri": "http://www.w3.org/ns/dcat#Distribution"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/ns/dcat#downloadURL",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-      "EA-Guid": "{989BA056-7324-465d-B3A6-4109E12A35D4}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "download URL"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Distribution",
-          "uri": "http://www.w3.org/ns/dcat#Distribution"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Distribution",
-        "EA-Domain-Guid": "{029101E7-9C3C-45e7-8775-69B47010ADBA}",
-        "EA-Guid": "{989BA056-7324-465d-B3A6-4109E12A35D4}",
-        "EA-Name": "dcat:downloadURL",
-        "EA-Package": "dcat",
-        "EA-Range": "URL",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "",
-          "EA-Package": "",
-          "uri": "null"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/dcat#downloadURL"
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "download URL"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": {
-          "en": "download URL"
-        },
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": {
-          "en": "download URL"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "download-URL",
-        "en": "download URL"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "download URL",
-      "range": []
     }
   ],
   "externals": [
-    {
-      "@id": "http://fixme.com#Concept",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-      "ap-definition-en": {
-        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-      },
-      "ap-label-en": {
-        "en": "Concept"
-      },
-      "definition": {
-        "de": "Ein Verweis auf eine Entität, d. h. eine Klasse oder eine Eigenschaft, die zur Beschreibung von Informationen in der zu liefernden Nachweise für die Anforderung verwendet wurde",
-        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-      },
-      "extra": {
-        "EA-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-        "EA-Name": "Concept",
-        "EA-Package": "CCCEV_v2",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "CLASS",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "Concept"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-        },
-        "ap-label-en": {
-          "en": "Concept"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-        },
-        "label": {
-          "en": "Concept"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "Konzept",
-        "en": "Concept"
-      },
-      "name": "Concept"
-    },
-    {
-      "@id": "http://fixme.com#dataset-type",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{67407808-47FE-4ea0-8E61-DF4A0788C7C2}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{67407808-47FE-4ea0-8E61-DF4A0788C7C2}",
-        "EA-Name": "dataset-type",
-        "EA-Package": "CCCEV_v2",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "ENUMERATION",
-        "RawTags": [],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "name": ""
-    },
-    {
-      "@id": "http://fixme.com#evidence-types",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{A6C99A2D-6756-4da6-8AEB-C5B6E64FFBC4}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{A6C99A2D-6756-4da6-8AEB-C5B6E64FFBC4}",
-        "EA-Name": "evidence-types",
-        "EA-Package": "CCCEV_v2",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "ENUMERATION",
-        "RawTags": [],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "name": ""
-    },
-    {
-      "@id": "http://purl.org/dc/terms/Standard",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "Standard"
-      },
-      "extra": {
-        "EA-Guid": "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}",
-        "EA-Name": "Standard",
-        "EA-Package": "dct",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "CLASS",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "Standard"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/Standard"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": {
-          "en": "Standard"
-        },
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": {
-          "en": "Standard"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "Standard",
-        "en": "Standard"
-      },
-      "name": "Standard"
-    },
-    {
-      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}",
-      "ap-definition-en": {
-        "en": "A concept in a codelist"
-      },
-      "ap-label-en": {
-        "en": "Code"
-      },
-      "definition": {
-        "de": "Ein Konzept in einer Codeliste",
-        "en": "A concept in a codelist"
-      },
-      "extra": {
-        "EA-Guid": "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}",
-        "EA-Name": "Code",
-        "EA-Package": "CCCEV_v3",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/2004/02/skos/core#Concept"
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "Code"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "A concept in a codelist"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "A concept in a codelist"
-        },
-        "ap-label-en": {
-          "en": "Code"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "A concept in a codelist"
-        },
-        "label": {
-          "en": "Code"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "Code",
-        "en": "Code"
-      },
-      "name": "Code"
-    },
     {
       "@id": "http://www.w3.org/ns/dcat#Dataset",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{53F59CE9-8044-4e39-A343-A35AAA542A46}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A collection of data"
       },
       "ap-label-en": {
         "en": "Dataset"
+      },
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "A collection of data"
       },
       "extra": {
         "EA-Guid": "{53F59CE9-8044-4e39-A343-A35AAA542A46}",
@@ -3499,18 +3554,25 @@
             "key": "uri",
             "note": "null",
             "value": "http://www.w3.org/ns/dcat#Dataset"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A collection of data"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A collection of data"
         },
         "ap-label-en": {
           "en": "Dataset"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A collection of data"
+        },
         "label": {
           "en": "Dataset"
         },
@@ -3523,58 +3585,6 @@
         "en": "Dataset"
       },
       "name": "Dataset"
-    },
-    {
-      "@id": "http://www.w3.org/ns/dcat#Distribution",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{029101E7-9C3C-45e7-8775-69B47010ADBA}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "Distribution"
-      },
-      "extra": {
-        "EA-Guid": "{029101E7-9C3C-45e7-8775-69B47010ADBA}",
-        "EA-Name": "Distribution",
-        "EA-Package": "dcat",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "CLASS",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "Distribution"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/dcat#Distribution"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": {
-          "en": "Distribution"
-        },
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": {
-          "en": "Distribution"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "de": "Verteilung",
-        "en": "Distribution"
-      },
-      "name": "Distribution"
     },
     {
       "@id": "http://xmlns.com/foaf/0.1/Agent",
@@ -3693,7 +3703,7 @@
         "EA-Guid": "{ADD114A6-1007-4f52-8573-2CCDF832D5B8}",
         "EA-Name": "cccev:bias",
         "EA-Package": "CCCEV_v2",
-        "EA-Range": "ccts:Numeric",
+        "EA-Range": "Decimal",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-Name": "",
@@ -4018,6 +4028,176 @@
       ]
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#query",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{F50D3CD0-C630-45b5-90FB-9CBE94D9A998}",
+      "ap-definition-en": {
+        "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+      },
+      "ap-label-en": {
+        "en": "query"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+      },
+      "domain": [
+        {
+          "EA-Name": "cccev:SupportedValue",
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "cccev:SupportedValue",
+        "EA-Domain-Guid": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+        "EA-Guid": "{F50D3CD0-C630-45b5-90FB-9CBE94D9A998}",
+        "EA-Name": "cccev:query",
+        "EA-Package": "CCCEV_v3",
+        "EA-Range": "Literal",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#query"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "query"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+        },
+        "ap-label-en": {
+          "en": "query"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+        },
+        "label": {
+          "en": "query"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "query"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "query",
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{24F245A1-73C9-4848-BCF0-8A06733D958A}",
+      "ap-definition-en": {
+        "en": "The value for the information concept that the evidence is supporting."
+      },
+      "ap-label-en": {
+        "en": "value"
+      },
+      "codelist": [],
+      "definition": {
+        "de": "Enter your translation here",
+        "en": "The value for the information concept that the evidence is supporting."
+      },
+      "domain": [
+        {
+          "EA-Name": "cccev:SupportedValue",
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "cccev:SupportedValue",
+        "EA-Domain-Guid": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+        "EA-Guid": "{24F245A1-73C9-4848-BCF0-8A06733D958A}",
+        "EA-Name": "cccev:value",
+        "EA-Package": "CCCEV_v3",
+        "EA-Range": "Literal",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/cccev#value"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The value for the information concept that the evidence is supporting."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "value"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The value for the information concept that the evidence is supporting."
+        },
+        "ap-label-en": {
+          "en": "value"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The value for the information concept that the evidence is supporting."
+        },
+        "label": {
+          "en": "value"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "value"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "value",
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "EA-Guid": "{9E15D586-5D1B-4852-99A7-32047A7EE928}",
@@ -4044,7 +4224,7 @@
         "EA-Guid": "{9E15D586-5D1B-4852-99A7-32047A7EE928}",
         "EA-Name": "cccev:weight",
         "EA-Package": "CCCEV_v2",
-        "EA-Range": "ccts:Numeric",
+        "EA-Range": "Decimal",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-Name": "",
@@ -4276,7 +4456,7 @@
   "standaardregisterurl": "",
   "template": "cccev-ap_de.j2",
   "title": "TODO Core Criterion and Core Evidence Vocabulary",
-  "toolchaincommit": "148969c2459fb9e130134b17676ac62ecf79514f",
+  "toolchaincommit": "9eccd2dda52f2f886f5a1ccb38301dd124f42c48",
   "translation": [
     {
       "language": "en",

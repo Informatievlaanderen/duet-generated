@@ -40,10 +40,70 @@
   "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en",
   "shapes": [
     {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+          },
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:definition": {
+            "en": "An unambiguous reference to RequirementConcept"
+          },
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "A name to identify in common language the RequirementConcept"
+          },
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:class": "http://fixme.com#Code",
+          "sh:definition": {
+            "en": "a classification of the RequirementConcept"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/terms/type"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/cccev#Concept"
+    },
+    {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
+          "sh:definition": {
+            "en": "the information concept which a Constaint expresses a limitation about"
+          },
+          "sh:name": {
+            "en": "constraints"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#constraints"
+        }
+      ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Constraint"
     },
     {
@@ -132,7 +192,7 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
           "sh:definition": {
             "en": "the supported concept by the evidence"
           },
@@ -140,6 +200,13 @@
             "en": "supports concept"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#supportsConcept"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/cccev#SupportedValue",
+          "sh:definition": {
+            "en": "the Supporting value for which an evidence has information"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#supportsValue"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Evidence"
@@ -173,7 +240,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-          "sh:minCount": "1",
+          "sh:definition": {
+            "en": "Indicates one type of evidence included in a list of evidence types."
+          },
           "sh:name": {
             "en": "specifies evidence type"
           },
@@ -181,7 +250,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-          "sh:minCount": "1",
+          "sh:definition": {
+            "en": "Indicates one type of evidence included in a list of evidence types."
+          },
           "sh:name": {
             "en": "specifies evidence type"
           },
@@ -206,6 +277,7 @@
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
           "sh:definition": {
             "en": "An unambiguous reference to an Evidence Type List"
           },
@@ -248,7 +320,7 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
           "sh:definition": {
             "en": "the requirement concept for which the requirement expects an support in the supporting evidence"
           },
@@ -260,7 +332,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:definition": {
-            "en": "A collection, or a set of alternative collections, of references to types of evidences"
+            "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
           },
           "sh:name": {
             "en": "has evidence type combination"
@@ -270,7 +342,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "en": "a related requirement"
+            "en": "A reference to the parent requirement a sub-requirement is part of."
           },
           "sh:name": {
             "en": "is requirement of"
@@ -280,7 +352,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "en": "a related requirement"
+            "en": "A reference to the parent requirement a sub-requirement is part of."
           },
           "sh:name": {
             "en": "is requirement of"
@@ -318,6 +390,16 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#isDerivedFrom"
         },
         {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:definition": {
+            "en": "This agent that has issued the requirement"
+          },
+          "sh:name": {
+            "en": "issued by"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#issuedBy"
+        },
+        {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated."
@@ -328,6 +410,7 @@
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
           "sh:definition": {
             "en": "An unambiguous reference"
           },
@@ -361,123 +444,53 @@
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Requirement"
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape",
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#cccev:SupportedValueShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://data.europa.eu/m8g/cccev#Constraint",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
           "sh:definition": {
-            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
+            "en": "The information concept it is providing a value for."
           },
           "sh:name": {
-            "en": "has Constraint"
+            "en": "provides value for"
           },
-          "sh:path": "http://data.europa.eu/m8g/cccev#hasConstraint"
+          "sh:path": "http://data.europa.eu/m8g/cccev#providesValueFor"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
           "sh:definition": {
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/terms/description"
-        },
-        {
-          "sh:definition": {
-            "en": "An unambiguous reference to RequirementConcept"
-          },
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://purl.org/dc/terms/identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "en": "A name to identify in common language the RequirementConcept"
-          },
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
-        },
-        {
-          "sh:class": "http://fixme.com#Code",
-          "sh:definition": {
-            "en": "a classification of the RequirementConcept"
+            "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
           },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
           "sh:name": {
-            "en": "type"
+            "en": "query"
           },
-          "sh:path": "http://purl.org/dc/terms/type"
+          "sh:path": "http://data.europa.eu/m8g/cccev#query"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:definition": {
+            "en": "The value for the information concept that the evidence is supporting."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#value"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Concept"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#dataset-typeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#dataset-type"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#evidence-typesShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#evidence-types"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#StandardShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://purl.org/dc/terms/Standard"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CodeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+      "sh:targetClass": "http://data.europa.eu/m8g/cccev#SupportedValue"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/dcat#Distribution",
-          "sh:definition": {
-            "en": "the distribution of a dataset"
-          },
-          "sh:name": {
-            "en": "distribution"
-          },
-          "sh:path": "http://www.w3.org/ns/dcat#distribution"
-        }
-      ],
+      "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/dcat#Dataset"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DistributionShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "download URL"
-          },
-          "sh:path": "http://www.w3.org/ns/dcat#downloadURL"
-        }
-      ],
-      "sh:targetClass": "http://www.w3.org/ns/dcat#Distribution"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape",

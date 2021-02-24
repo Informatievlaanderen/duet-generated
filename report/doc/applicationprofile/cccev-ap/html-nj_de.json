@@ -11,14 +11,179 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/d7133e8a45b33e93c35ab76a1f974207794ff872",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/d7133e8a45b33e93c35ab76a1f974207794ff872/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/adb8e0b97ccaa5c778b4af54d0821216e8736ab6",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/adb8e0b97ccaa5c778b4af54d0821216e8736ab6/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
     "usesAPs": []
   },
   "classes": [
+    {
+      "uri": "http://data.europa.eu/m8g/cccev#Concept",
+      "name": "Concept",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Concept"
+      },
+      "sort": "Enter your translation here",
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": "description",
+          "sort": "beschreibung",
+          "label": {
+            "de": "beschreibung",
+            "en": "description"
+          },
+          "description": {
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen.",
+            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://data.europa.eu/m8g/cccev#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "bezeichner",
+          "label": {
+            "de": "bezeichner",
+            "en": "identifier"
+          },
+          "description": {
+            "de": "Ein eindeutiger Verweis auf RequirementConcept",
+            "en": "An unambiguous reference to RequirementConcept"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://data.europa.eu/m8g/cccev#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "de": "Literal"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/type",
+          "name": "type",
+          "sort": "typ",
+          "label": {
+            "de": "typ",
+            "en": "type"
+          },
+          "description": {
+            "de": "eine Klassifizierung des RequirementConcept",
+            "en": "a classification of the RequirementConcept"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://data.europa.eu/m8g/cccev#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Code",
+              "range_uri": "http://fixme.com#Code"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Code",
+              "range_puri": "http://fixme.com#Code",
+              "range_label": {
+                "de": "Code"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "de": "name",
+            "en": "name"
+          },
+          "description": {
+            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren",
+            "en": "A name to identify in common language the RequirementConcept"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://data.europa.eu/m8g/cccev#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "de": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
     {
       "uri": "http://data.europa.eu/m8g/cccev#Constraint",
       "name": "Constraint",
@@ -44,7 +209,46 @@
           "scoped_uri": "#Requirement"
         }
       ],
-      "properties": []
+      "properties": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#constraints",
+          "name": "constraints",
+          "sort": "[UPDATED] hat Einschränkung",
+          "label": {
+            "de": "[UPDATED] hat Einschränkung",
+            "en": "constraints"
+          },
+          "description": {
+            "de": "[UPDATED] Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert.",
+            "en": "the information concept which a Constaint expresses a limitation about"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Constraint",
+              "uri": "http://data.europa.eu/m8g/cccev#Constraint"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Concept",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "http://data.europa.eu/m8g/cccev#Criterion",
@@ -184,11 +388,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Code",
+              "range_uri": "http://fixme.com#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "de": "Code",
-                "en": "Code"
+                "de": "Code"
               }
             }
           ],
@@ -247,11 +450,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Code",
+              "range_uri": "http://fixme.com#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "de": "Code",
-                "en": "Code"
+                "de": "Code"
               }
             }
           ],
@@ -362,16 +564,51 @@
           "range": [
             {
               "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
+              "range_uri": "http://data.europa.eu/m8g/cccev#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Konzept",
-              "range_puri": "http://fixme.com#Concept",
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Concept",
               "range_label": {
-                "de": "Konzept",
+                "de": "Enter your translation here",
                 "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#supportsValue",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {
+            "de": "Enter your translation here",
+            "en": "the Supporting value for which an evidence has information"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/cccev#Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "cccev:SupportedValue",
+              "range_uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#SupportedValue",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Supported Value"
               }
             }
           ],
@@ -393,15 +630,7 @@
         "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
       },
       "usage": {},
-      "parents": [
-        {
-          "label": "Dataset",
-          "name": "Dataset",
-          "package": "dcat",
-          "uri": "http://www.w3.org/ns/dcat#Dataset",
-          "scoped_uri": "#Dataset"
-        }
-      ],
+      "parents": [],
       "properties": [
         {
           "uri": "http://data.europa.eu/m8g/cccev#datasetType",
@@ -433,11 +662,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Code",
+              "range_uri": "http://fixme.com#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "de": "Code",
-                "en": "Code"
+                "de": "Code"
               }
             }
           ],
@@ -471,11 +699,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Code",
+              "range_uri": "http://fixme.com#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "de": "Code",
-                "en": "Code"
+                "de": "Code"
               }
             }
           ],
@@ -490,7 +717,10 @@
             "de": "[UPDATED] wird in",
             "en": "specifies evidence type"
           },
-          "description": {},
+          "description": {
+            "de": "Enter your translation here",
+            "en": "Indicates one type of evidence included in a list of evidence types."
+          },
           "usage": {},
           "domain": [
             {
@@ -514,7 +744,7 @@
               }
             }
           ],
-          "cardinality": "1..*",
+          "cardinality": "0..*",
           "codelist_uri": ""
         },
         {
@@ -525,7 +755,10 @@
             "de": "[UPDATED] wird in",
             "en": "specifies evidence type"
           },
-          "description": {},
+          "description": {
+            "de": "Enter your translation here",
+            "en": "Indicates one type of evidence included in a list of evidence types."
+          },
           "usage": {},
           "domain": [
             {
@@ -549,7 +782,7 @@
               }
             }
           ],
-          "cardinality": "1..*",
+          "cardinality": "0..*",
           "codelist_uri": ""
         }
       ]
@@ -562,8 +795,14 @@
         "en": "Evidence Type List"
       },
       "sort": "Beweistypliste",
-      "description": {},
-      "usage": {},
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A combination of evidence types that must be satisfied all together."
+      },
+      "usage": {
+        "de": "Enter your translation here",
+        "en": "NOTE: An evidence type list is satisfied iff for all evidence types an corresponding conformant evidence is supporting the requirement having this list."
+      },
       "parents": [],
       "properties": [
         {
@@ -622,8 +861,21 @@
               "uri": "http://data.europa.eu/m8g/cccev#EvidenceTypeList"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "de": "Literal"
+              }
+            }
+          ],
           "cardinality": "0..1",
           "codelist_uri": ""
         },
@@ -698,17 +950,12 @@
         "en": "Reference Framework"
       },
       "sort": "Referenzrahmen",
-      "description": {},
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A source from where requirements are identified and drawn."
+      },
       "usage": {},
-      "parents": [
-        {
-          "label": "Dataset",
-          "name": "Dataset",
-          "package": "dcat",
-          "uri": "http://www.w3.org/ns/dcat#Dataset",
-          "scoped_uri": "#Dataset"
-        }
-      ],
+      "parents": [],
       "properties": []
     },
     {
@@ -748,15 +995,15 @@
           "range": [
             {
               "range_label": "Concept",
-              "range_uri": "http://fixme.com#Concept"
+              "range_uri": "http://data.europa.eu/m8g/cccev#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Konzept",
-              "range_puri": "http://fixme.com#Concept",
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Concept",
               "range_label": {
-                "de": "Konzept",
+                "de": "Enter your translation here",
                 "en": "Concept"
               }
             }
@@ -773,12 +1020,12 @@
             "en": "has evidence type combination"
           },
           "description": {
-            "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln",
-            "en": "A collection, or a set of alternative collections, of references to types of evidences"
+            "de": "[UPDATED] Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln",
+            "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
           },
           "usage": {
-            "de": "Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden.",
-            "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved."
+            "de": "[UPDATED] Hinweis: Der Name/die Bezeichnung dieser Eigenschaft ist nicht intuitiv. Vorschlag: Erwarteter Beweistyp. Auch die Definition sollte verbessert werden.",
+            "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type.  To satisfy this combination one of the Evidence Type lists must be satisfied: this is thus an OR condition"
           },
           "domain": [
             {
@@ -814,8 +1061,8 @@
             "en": "is requirement of"
           },
           "description": {
-            "de": "eine verwandte Anforderung",
-            "en": "a related requirement"
+            "de": "[UPDATED] eine verwandte Anforderung",
+            "en": "A reference to the parent requirement a sub-requirement is part of."
           },
           "usage": {
             "de": "Enter your translation here",
@@ -934,8 +1181,8 @@
             "en": "is requirement of"
           },
           "description": {
-            "de": "eine verwandte Anforderung",
-            "en": "a related requirement"
+            "de": "[UPDATED] eine verwandte Anforderung",
+            "en": "A reference to the parent requirement a sub-requirement is part of."
           },
           "usage": {
             "de": "Enter your translation here",
@@ -960,6 +1207,47 @@
               "range_label": {
                 "de": "Anforderung",
                 "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#issuedBy",
+          "name": "issued by",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "issued by"
+          },
+          "description": {
+            "de": "Enter your translation here",
+            "en": "This agent that has issued the requirement"
+          },
+          "usage": {
+            "de": "Enter your translation here",
+            "en": "Note: Instead of creating a new URI in the cccev domain, dct:publisher could be considered."
+          },
+          "domain": [
+            {
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/cccev#Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Agent",
+              "range_uri": "http://xmlns.com/foaf/0.1/Agent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Agent",
+              "range_puri": "http://xmlns.com/foaf/0.1/Agent",
+              "range_label": {
+                "de": "Agent",
+                "en": "Agent"
               }
             }
           ],
@@ -1063,8 +1351,21 @@
               "uri": "http://data.europa.eu/m8g/cccev#Requirement"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "de": "Literal"
+              }
+            }
+          ],
           "cardinality": "0..*",
           "codelist_uri": ""
         },
@@ -1095,11 +1396,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Code",
+              "range_uri": "http://fixme.com#Code",
               "range_puri": "http://fixme.com#Code",
               "range_label": {
-                "de": "Code",
-                "en": "Code"
+                "de": "Code"
               }
             }
           ],
@@ -1146,188 +1446,126 @@
       ]
     },
     {
-      "uri": "http://fixme.com#Concept",
-      "name": "Concept",
+      "uri": "http://data.europa.eu/m8g/cccev#SupportedValue",
+      "name": "Supported Value",
       "label": {
-        "de": "Konzept",
-        "en": "Concept"
+        "de": "Enter your translation here",
+        "en": "Supported Value"
       },
-      "sort": "Konzept",
+      "sort": "Enter your translation here",
       "description": {
-        "de": "Ein Verweis auf eine Entität, d. h. eine Klasse oder eine Eigenschaft, die zur Beschreibung von Informationen in der zu liefernden Nachweise für die Anforderung verwendet wurde",
-        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+        "de": "Enter your translation here",
+        "en": "A value for an information concept that is supported by an Evidence"
       },
       "usage": {},
       "parents": [],
       "properties": [
         {
-          "uri": "http://data.europa.eu/m8g/cccev#hasConstraint",
-          "name": "has Constraint",
-          "sort": "hat Einschränkung",
+          "uri": "http://data.europa.eu/m8g/cccev#query",
+          "name": "query",
+          "sort": "Enter your translation here",
           "label": {
-            "de": "hat Einschränkung",
-            "en": "has Constraint"
+            "de": "Enter your translation here",
+            "en": "query"
           },
           "description": {
-            "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert.",
-            "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
+            "de": "Enter your translation here",
+            "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
           },
           "usage": {},
           "domain": [
             {
-              "EA-Name": "Concept",
-              "uri": "http://fixme.com#Concept"
+              "EA-Name": "cccev:SupportedValue",
+              "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
             }
           ],
           "range": [
             {
-              "range_label": "Constraint",
-              "range_uri": "http://data.europa.eu/m8g/cccev#Constraint"
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Einschränkung",
-              "range_puri": "http://data.europa.eu/m8g/cccev#Constraint",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_label": {
-                "de": "Einschränkung",
-                "en": "Constraint"
+                "de": "Literal"
               }
             }
           ],
-          "cardinality": "0..*",
+          "cardinality": "1",
           "codelist_uri": ""
         },
         {
-          "uri": "http://purl.org/dc/terms/description",
-          "name": "description",
-          "sort": "beschreibung",
+          "uri": "http://data.europa.eu/m8g/cccev#value",
+          "name": "value",
+          "sort": "Enter your translation here",
           "label": {
-            "de": "beschreibung",
-            "en": "description"
+            "de": "Enter your translation here",
+            "en": "value"
           },
           "description": {
-            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen.",
-            "en": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the RequirementConcept being instantiated."
+            "de": "Enter your translation here",
+            "en": "The value for the information concept that the evidence is supporting."
           },
           "usage": {},
           "domain": [
             {
-              "EA-Name": "Concept",
-              "uri": "http://fixme.com#Concept"
+              "EA-Name": "cccev:SupportedValue",
+              "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
             }
           ],
           "range": [
             {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_label": {
-                "de": "String"
+                "de": "Literal"
               }
             }
           ],
-          "cardinality": "0..*",
+          "cardinality": "1",
           "codelist_uri": ""
         },
         {
-          "uri": "http://purl.org/dc/terms/identifier",
-          "name": "identifier",
-          "sort": "bezeichner",
+          "uri": "http://data.europa.eu/m8g/cccev#providesValueFor",
+          "name": "provides value for",
+          "sort": "Enter your translation here",
           "label": {
-            "de": "bezeichner",
-            "en": "identifier"
+            "de": "Enter your translation here",
+            "en": "provides value for"
           },
           "description": {
-            "de": "Ein eindeutiger Verweis auf RequirementConcept",
-            "en": "An unambiguous reference to RequirementConcept"
+            "de": "Enter your translation here",
+            "en": "The information concept it is providing a value for."
           },
           "usage": {},
           "domain": [
             {
-              "EA-Name": "Concept",
-              "uri": "http://fixme.com#Concept"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/type",
-          "name": "type",
-          "sort": "typ",
-          "label": {
-            "de": "typ",
-            "en": "type"
-          },
-          "description": {
-            "de": "eine Klassifizierung des RequirementConcept",
-            "en": "a classification of the RequirementConcept"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Concept",
-              "uri": "http://fixme.com#Concept"
+              "EA-Name": "cccev:SupportedValue",
+              "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
             }
           ],
           "range": [
             {
-              "range_label": "Code",
-              "range_uri": "http://fixme.com#Code"
+              "range_label": "Concept",
+              "range_uri": "http://data.europa.eu/m8g/cccev#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Code",
-              "range_puri": "http://fixme.com#Code",
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/cccev#Concept",
               "range_label": {
-                "de": "Code",
-                "en": "Code"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "name",
-          "sort": "name",
-          "label": {
-            "de": "name",
-            "en": "name"
-          },
-          "description": {
-            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren",
-            "en": "A name to identify in common language the RequirementConcept"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Concept",
-              "uri": "http://fixme.com#Concept"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "de": "String"
+                "de": "Enter your translation here",
+                "en": "Concept"
               }
             }
           ],
@@ -1335,19 +1573,6 @@
           "codelist_uri": ""
         }
       ]
-    },
-    {
-      "uri": "http://purl.org/dc/terms/Standard",
-      "name": "Standard",
-      "label": {
-        "de": "Standard",
-        "en": "Standard"
-      },
-      "sort": "Standard",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "properties": []
     },
     {
       "uri": "http://www.w3.org/ns/dcat#Dataset",
@@ -1357,84 +1582,13 @@
         "en": "Dataset"
       },
       "sort": "Dataset",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "properties": [
-        {
-          "uri": "http://www.w3.org/ns/dcat#distribution",
-          "name": "distribution",
-          "sort": "verteilung",
-          "label": {
-            "de": "verteilung",
-            "en": "distribution"
-          },
-          "description": {
-            "de": "die Verteilung eines Datasets",
-            "en": "the distribution of a dataset"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Dataset",
-              "uri": "http://www.w3.org/ns/dcat#Dataset"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Distribution",
-              "range_uri": "http://www.w3.org/ns/dcat#Distribution"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Verteilung",
-              "range_puri": "http://www.w3.org/ns/dcat#Distribution",
-              "range_label": {
-                "de": "Verteilung",
-                "en": "Distribution"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://www.w3.org/ns/dcat#Distribution",
-      "name": "Distribution",
-      "label": {
-        "de": "Verteilung",
-        "en": "Distribution"
+      "description": {
+        "de": "Enter your translation here",
+        "en": "A collection of data"
       },
-      "sort": "Verteilung",
-      "description": {},
       "usage": {},
       "parents": [],
-      "properties": [
-        {
-          "uri": "http://www.w3.org/ns/dcat#downloadURL",
-          "name": "download URL",
-          "sort": "download-URL",
-          "label": {
-            "de": "download-URL",
-            "en": "download URL"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Distribution",
-              "uri": "http://www.w3.org/ns/dcat#Distribution"
-            }
-          ],
-          "range": [],
-          "scopedrange": [],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        }
-      ]
+      "properties": []
     },
     {
       "uri": "http://xmlns.com/foaf/0.1/Agent",
@@ -1553,24 +1707,7 @@
       }
     }
   ],
-  "datatypes": [
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Code",
-      "label": {
-        "de": "Code",
-        "en": "Code"
-      },
-      "sort": "Code",
-      "description": {
-        "de": "Ein Konzept in einer Codeliste",
-        "en": "A concept in a codelist"
-      },
-      "usage": {},
-      "parents": [],
-      "properties": []
-    }
-  ],
+  "datatypes": [],
   "parents": [],
   "documentroot": "/doc/applicationprofile/cccev-ap"
 }

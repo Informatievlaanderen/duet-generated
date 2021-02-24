@@ -40,10 +40,70 @@
   "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de",
   "shapes": [
     {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen."
+          },
+          "sh:name": {
+            "de": "beschreibung"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:definition": {
+            "de": "Ein eindeutiger Verweis auf RequirementConcept"
+          },
+          "sh:name": {
+            "de": "bezeichner"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren"
+          },
+          "sh:name": {
+            "de": "name"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:class": "http://fixme.com#Code",
+          "sh:definition": {
+            "de": "eine Klassifizierung des RequirementConcept"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "typ"
+          },
+          "sh:path": "http://purl.org/dc/terms/type"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/cccev#Concept"
+    },
+    {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConstraintShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
+          "sh:definition": {
+            "de": "[UPDATED] Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert."
+          },
+          "sh:name": {
+            "de": "[UPDATED] hat Einschränkung"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#constraints"
+        }
+      ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Constraint"
     },
     {
@@ -132,7 +192,7 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#isComformantWith"
         },
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
           "sh:definition": {
             "de": "das unterstützte Konzept durch die Beweise"
           },
@@ -140,6 +200,13 @@
             "de": "unterstützt Konzept"
           },
           "sh:path": "http://data.europa.eu/m8g/cccev#supportsConcept"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/cccev#SupportedValue",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#supportsValue"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Evidence"
@@ -173,7 +240,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-          "sh:minCount": "1",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
           "sh:name": {
             "de": "[UPDATED] wird in"
           },
@@ -181,7 +250,9 @@
         },
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
-          "sh:minCount": "1",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
           "sh:name": {
             "de": "[UPDATED] wird in"
           },
@@ -206,6 +277,7 @@
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
           "sh:definition": {
             "de": "Ein eindeutiger Verweis auf eine Beweistypliste"
           },
@@ -248,7 +320,7 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://fixme.com#Concept",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
           "sh:definition": {
             "de": "das Anforderungskonzept, für das die Anforderung eine Unterstützung in den Belegen erwartet"
           },
@@ -260,7 +332,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
           "sh:definition": {
-            "de": "Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln"
+            "de": "[UPDATED] Eine Sammlung oder eine Reihe alternativer Sammlungen von Verweisen auf Arten von Beweismitteln"
           },
           "sh:name": {
             "de": "hat Eine Kombination aus Evidenztyp"
@@ -270,7 +342,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": "eine verwandte Anforderung"
+            "de": "[UPDATED] eine verwandte Anforderung"
           },
           "sh:name": {
             "de": "[UPDATED] hat Anforderung"
@@ -280,7 +352,7 @@
         {
           "sh:class": "http://data.europa.eu/m8g/cccev#Requirement",
           "sh:definition": {
-            "de": "eine verwandte Anforderung"
+            "de": "[UPDATED] eine verwandte Anforderung"
           },
           "sh:name": {
             "de": "[UPDATED] hat Anforderung"
@@ -318,6 +390,16 @@
           "sh:path": "http://data.europa.eu/m8g/cccev#isDerivedFrom"
         },
         {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#issuedBy"
+        },
+        {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:definition": {
             "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die dazu beitragen, das Verständnis der zu instanziierenden Anforderung zu klären."
@@ -328,6 +410,7 @@
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
           "sh:definition": {
             "de": "Ein eindeutiger Verweis"
           },
@@ -361,123 +444,53 @@
       "sh:targetClass": "http://data.europa.eu/m8g/cccev#Requirement"
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#ConceptShape",
+      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#cccev:SupportedValueShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://data.europa.eu/m8g/cccev#Constraint",
+          "sh:class": "http://data.europa.eu/m8g/cccev#Concept",
           "sh:definition": {
-            "de": "Die Beschränkungen, die einem Anforderungskonzept durch die Anforderung auferlegt werden, die Informationen über das Anforderungskonzept anfordert."
+            "de": "Enter your translation here"
           },
           "sh:name": {
-            "de": "hat Einschränkung"
+            "de": "Enter your translation here"
           },
-          "sh:path": "http://data.europa.eu/m8g/cccev#hasConstraint"
+          "sh:path": "http://data.europa.eu/m8g/cccev#providesValueFor"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
           "sh:definition": {
-            "de": "Eine kurze Erläuterung der Art, der Attribute, der Verwendungen oder anderer zusätzlicher Informationen, die das Verständnis des zu instanziierenden RequirementConcept verdeutlichen."
-          },
-          "sh:name": {
-            "de": "beschreibung"
-          },
-          "sh:path": "http://purl.org/dc/terms/description"
-        },
-        {
-          "sh:definition": {
-            "de": "Ein eindeutiger Verweis auf RequirementConcept"
-          },
-          "sh:name": {
-            "de": "bezeichner"
-          },
-          "sh:path": "http://purl.org/dc/terms/identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
-            "de": "Ein Name, um das RequirementConcept in einer gemeinsamen Sprache zu identifizieren"
-          },
-          "sh:name": {
-            "de": "name"
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
-        },
-        {
-          "sh:class": "http://fixme.com#Code",
-          "sh:definition": {
-            "de": "eine Klassifizierung des RequirementConcept"
+            "de": "Enter your translation here"
           },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
           "sh:name": {
-            "de": "typ"
+            "de": "Enter your translation here"
           },
-          "sh:path": "http://purl.org/dc/terms/type"
+          "sh:path": "http://data.europa.eu/m8g/cccev#query"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:definition": {
+            "de": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://data.europa.eu/m8g/cccev#value"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Concept"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#dataset-typeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#dataset-type"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#evidence-typesShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#evidence-types"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#StandardShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://purl.org/dc/terms/Standard"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#CodeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+      "sh:targetClass": "http://data.europa.eu/m8g/cccev#SupportedValue"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DatasetShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/dcat#Distribution",
-          "sh:definition": {
-            "de": "die Verteilung eines Datasets"
-          },
-          "sh:name": {
-            "de": "verteilung"
-          },
-          "sh:path": "http://www.w3.org/ns/dcat#distribution"
-        }
-      ],
+      "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/dcat#Dataset"
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#DistributionShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:maxCount": "1",
-          "sh:name": {
-            "de": "download-URL"
-          },
-          "sh:path": "http://www.w3.org/ns/dcat#downloadURL"
-        }
-      ],
-      "sh:targetClass": "http://www.w3.org/ns/dcat#Distribution"
     },
     {
       "@id": "https://duet.dev-vlaanderen.be/shacl/cccev-ap_de#AgentShape",

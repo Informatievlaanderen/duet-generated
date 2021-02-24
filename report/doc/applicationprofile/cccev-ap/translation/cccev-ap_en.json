@@ -2,6 +2,16 @@
   "baseURI": "http://data.europa.eu/m8g/cccev#",
   "classes": [
     {
+      "EA-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
+      "name": "Concept",
+      "label": {
+        "en": "Concept"
+      },
+      "definition": {
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+      }
+    },
+    {
       "EA-Guid": "{D5E840D1-63A4-42a8-B3B6-376316BF956F}",
       "name": "Constraint",
       "label": {
@@ -52,6 +62,12 @@
       "name": "Evidence Type List",
       "label": {
         "en": "Evidence Type List"
+      },
+      "definition": {
+        "en": "A combination of evidence types that must be satisfied all together."
+      },
+      "usage": {
+        "en": "NOTE: An evidence type list is satisfied iff for all evidence types an corresponding conformant evidence is supporting the requirement having this list."
       }
     },
     {
@@ -69,6 +85,9 @@
       "name": "Reference Framework",
       "label": {
         "en": "Reference Framework"
+      },
+      "definition": {
+        "en": "A source from where requirements are identified and drawn."
       }
     },
     {
@@ -79,6 +98,16 @@
       },
       "definition": {
         "en": "A condition demanded."
+      }
+    },
+    {
+      "EA-Guid": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
+      "name": "Supported Value",
+      "label": {
+        "en": "Supported Value"
+      },
+      "definition": {
+        "en": "A value for an information concept that is supported by an Evidence"
       }
     }
   ],
@@ -127,6 +156,26 @@
       }
     },
     {
+      "EA-Guid": "{F50D3CD0-C630-45b5-90FB-9CBE94D9A998}",
+      "name": "query",
+      "label": {
+        "en": "query"
+      },
+      "definition": {
+        "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+      }
+    },
+    {
+      "EA-Guid": "{24F245A1-73C9-4848-BCF0-8A06733D958A}",
+      "name": "value",
+      "label": {
+        "en": "value"
+      },
+      "definition": {
+        "en": "The value for the information concept that the evidence is supporting."
+      }
+    },
+    {
       "EA-Guid": "{9E15D586-5D1B-4852-99A7-32047A7EE928}",
       "name": "weight",
       "label": {
@@ -159,52 +208,13 @@
   ],
   "externals": [
     {
-      "EA-Guid": "{23EF31EA-2FE3-47d8-B5F4-7EEC6759C173}",
-      "name": "Concept",
-      "label": {
-        "en": "Concept"
-      },
-      "definition": {
-        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
-      }
-    },
-    {
-      "EA-Guid": "{67407808-47FE-4ea0-8E61-DF4A0788C7C2}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{A6C99A2D-6756-4da6-8AEB-C5B6E64FFBC4}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{59A1B70E-325F-46ee-9442-4F0E5C269AF5}",
-      "name": "Standard",
-      "label": {
-        "en": "Standard"
-      }
-    },
-    {
-      "EA-Guid": "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}",
-      "name": "Code",
-      "label": {
-        "en": "Code"
-      },
-      "definition": {
-        "en": "A concept in a codelist"
-      }
-    },
-    {
       "EA-Guid": "{53F59CE9-8044-4e39-A343-A35AAA542A46}",
       "name": "Dataset",
       "label": {
         "en": "Dataset"
-      }
-    },
-    {
-      "EA-Guid": "{029101E7-9C3C-45e7-8775-69B47010ADBA}",
-      "name": "Distribution",
-      "label": {
-        "en": "Distribution"
+      },
+      "definition": {
+        "en": "A collection of data"
       }
     },
     {
@@ -220,6 +230,16 @@
   ],
   "externalproperties": [
     {
+      "EA-Guid": "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}",
+      "name": "constraints",
+      "label": {
+        "en": "constraints"
+      },
+      "definition": {
+        "en": "the information concept which a Constaint expresses a limitation about"
+      }
+    },
+    {
       "EA-Guid": "{939FB7ED-5B1D-4ce8-98B6-D451CA7F40F3}",
       "name": "has concept",
       "label": {
@@ -230,26 +250,16 @@
       }
     },
     {
-      "EA-Guid": "{E31F1B11-78E4-4824-8A2B-C15EE1B388EC}",
-      "name": "has Constraint",
-      "label": {
-        "en": "has Constraint"
-      },
-      "definition": {
-        "en": "The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept."
-      }
-    },
-    {
       "EA-Guid": "{9017007F-FC42-48b2-8FE4-637F041B5403}",
       "name": "has evidence type combination",
       "label": {
         "en": "has evidence type combination"
       },
       "definition": {
-        "en": "A collection, or a set of alternative collections, of references to types of evidences"
+        "en": "A combination of types of evidences of which one of them must be satisfied by the response to the requirement"
       },
       "usage": {
-        "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type. Also the definition should be improved."
+        "en": "Note: The name/label of this property is not intuitive. Suggestion: Expected Evidence Type.  To satisfy this combination one of the Evidence Type lists must be satisfied: this is thus an OR condition"
       }
     },
     {
@@ -314,6 +324,9 @@
       "label": {
         "en": "is requirement of"
       },
+      "definition": {
+        "en": "A reference to the parent requirement a sub-requirement is part of."
+      },
       "usage": {
         "en": "NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."
       }
@@ -323,6 +336,32 @@
       "name": "is specified in",
       "label": {
         "en": "is specified in"
+      },
+      "definition": {
+        "en": "an evidence type list in which the evidence type participates"
+      }
+    },
+    {
+      "EA-Guid": "{EC3F97CA-851C-4c42-BE9B-B76B21220632}",
+      "name": "issued by",
+      "label": {
+        "en": "issued by"
+      },
+      "definition": {
+        "en": "This agent that has issued the requirement"
+      },
+      "usage": {
+        "en": "Note: Instead of creating a new URI in the cccev domain, dct:publisher could be considered."
+      }
+    },
+    {
+      "EA-Guid": "{DFE4231F-E6B4-497f-B735-2AE07EBAC4F9}",
+      "name": "provides value for",
+      "label": {
+        "en": "provides value for"
+      },
+      "definition": {
+        "en": "The information concept it is providing a value for."
       }
     },
     {
@@ -330,6 +369,9 @@
       "name": "specifies evidence type",
       "label": {
         "en": "specifies evidence type"
+      },
+      "definition": {
+        "en": "Indicates one type of evidence included in a list of evidence types."
       }
     },
     {
@@ -356,6 +398,13 @@
       },
       "usage": {
         "en": "Used to express details about the information requested by the requirement."
+      }
+    },
+    {
+      "EA-Guid": "{64815ED7-A5A0-425c-AB65-DAE0814AC7EE}",
+      "name": "",
+      "definition": {
+        "en": "the Supporting value for which an evidence has information"
       }
     },
     {
@@ -466,23 +515,6 @@
       },
       "definition": {
         "en": "A name to identify in common language the Requirement"
-      }
-    },
-    {
-      "EA-Guid": "{05643407-0900-4871-B74C-D6153627E30A}",
-      "name": "distribution",
-      "label": {
-        "en": "distribution"
-      },
-      "definition": {
-        "en": "the distribution of a dataset"
-      }
-    },
-    {
-      "EA-Guid": "{989BA056-7324-465d-B3A6-4109E12A35D4}",
-      "name": "download URL",
-      "label": {
-        "en": "download URL"
       }
     }
   ]

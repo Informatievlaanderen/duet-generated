@@ -57,6 +57,14 @@
   "publication-date": "TBD",
   "classes": [
     {
+      "@id": "http://data.europa.eu/m8g/cccev#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "parents": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "definition": {
@@ -98,13 +106,17 @@
       "definition": {
         "de": "Informationen über die Merkmale eines erwarteten Nachweises, z. B. den gewünschten Inhalt, das Format, die Quelle usw."
       },
-      "parents": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ]
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "usage": {
+        "de": "A translation has yet to be added"
+      },
       "parents": []
     },
     {
@@ -120,9 +132,10 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "parents": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ]
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -131,9 +144,22 @@
         "de": "Eine Bedingung gefordert."
       },
       "parents": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#SupportedValue",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "parents": []
     }
   ],
   "externals": [
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Concept",
+      "@type": "rdfs:Class"
+    },
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
@@ -172,6 +198,11 @@
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#SupportedValue",
       "@type": "rdfs:Class"
     }
   ],
@@ -248,6 +279,42 @@
       "generalization": []
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#query",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "de": "A translation has yet to be added"
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ],
+      "generalization": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "definition": {
@@ -317,6 +384,16 @@
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#query",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#value",
       "@type": "rdf:Property"
     },
     {

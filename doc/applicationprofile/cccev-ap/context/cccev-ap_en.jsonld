@@ -1,22 +1,16 @@
 {
   "@context": {
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
-    "Code": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Concept": "http://fixme.com#Concept",
+    "Concept": "http://data.europa.eu/m8g/cccev#Concept",
     "Concept.description": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/description",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "Concept.hasConstraint": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#hasConstraint",
-      "@type": "@id"
-    },
     "Concept.identifier": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Concept.name": {
       "@container": "@set",
@@ -28,6 +22,11 @@
       "@type": "@id"
     },
     "Constraint": "http://data.europa.eu/m8g/cccev#Constraint",
+    "Constraint.constraints": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#constraints",
+      "@type": "@id"
+    },
     "Criterion": "http://data.europa.eu/m8g/cccev#Criterion",
     "Criterion.bias": {
       "@container": "@set",
@@ -47,19 +46,12 @@
       "@type": "@id"
     },
     "Dataset": "http://www.w3.org/ns/dcat#Dataset",
-    "Dataset-type": "http://fixme.com#dataset-type",
-    "Dataset.distribution": {
+    "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
+    "Evidence.cccev:supportsValue": {
       "@container": "@set",
-      "@id": "http://www.w3.org/ns/dcat#distribution",
+      "@id": "http://data.europa.eu/m8g/cccev#supportsValue",
       "@type": "@id"
     },
-    "Distribution": "http://www.w3.org/ns/dcat#Distribution",
-    "Distribution.downloadUrl": {
-      "@id": "http://www.w3.org/ns/dcat#downloadURL",
-      "@type": ""
-    },
-    "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
-    "Evidence-types": "http://fixme.com#evidence-types",
     "Evidence.confidentialityLevelType": {
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "@type": "@id"
@@ -101,7 +93,7 @@
     },
     "EvidenceTypeList.identifier": {
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "EvidenceTypeList.name": {
       "@container": "@set",
@@ -129,7 +121,7 @@
     "Requirement.identifier": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Requirement.isDerivedFrom": {
       "@container": "@set",
@@ -139,6 +131,11 @@
     "Requirement.isRequirementOf": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#hasRequirement",
+      "@type": "@id"
+    },
+    "Requirement.issuedBy": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#issuedBy",
       "@type": "@id"
     },
     "Requirement.name": {
@@ -155,6 +152,19 @@
       "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
-    "Standard": "http://purl.org/dc/terms/Standard"
+    "SupportedValue": "http://data.europa.eu/m8g/cccev#SupportedValue",
+    "SupportedValue.providesValueFor": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#providesValueFor",
+      "@type": "@id"
+    },
+    "SupportedValue.query": {
+      "@id": "http://data.europa.eu/m8g/cccev#query",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "SupportedValue.value": {
+      "@id": "http://data.europa.eu/m8g/cccev#value",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    }
   }
 }

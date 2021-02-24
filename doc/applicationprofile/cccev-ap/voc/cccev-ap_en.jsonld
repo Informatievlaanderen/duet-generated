@@ -57,6 +57,14 @@
   "publication-date": "TBD",
   "classes": [
     {
+      "@id": "http://data.europa.eu/m8g/cccev#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement"
+      },
+      "parents": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "definition": {
@@ -98,13 +106,17 @@
       "definition": {
         "en": "Information about the characteristics of an expected evidence, such as the desired content, format, source, etc."
       },
-      "parents": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ]
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "A combination of evidence types that must be satisfied all together."
+      },
+      "usage": {
+        "en": "NOTE: An evidence type list is satisfied iff for all evidence types an corresponding conformant evidence is supporting the requirement having this list."
+      },
       "parents": []
     },
     {
@@ -120,9 +132,10 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#ReferenceFramework",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "parents": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ]
+      "definition": {
+        "en": "A source from where requirements are identified and drawn."
+      },
+      "parents": []
     },
     {
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
@@ -131,9 +144,22 @@
         "en": "A condition demanded."
       },
       "parents": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#SupportedValue",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "en": "A value for an information concept that is supported by an Evidence"
+      },
+      "parents": []
     }
   ],
   "externals": [
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#Concept",
+      "@type": "rdfs:Class"
+    },
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#Constraint",
@@ -172,6 +198,11 @@
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#Requirement",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#SupportedValue",
       "@type": "rdfs:Class"
     }
   ],
@@ -248,6 +279,42 @@
       "generalization": []
     },
     {
+      "@id": "http://data.europa.eu/m8g/cccev#query",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "en": "The query which which the value for the information concept can be retrieved. The query must be executed on the business data provided by the supporting evidence."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/cccev#value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "definition": {
+        "en": "The value for the information concept that the evidence is supporting."
+      },
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/cccev#SupportedValue"
+        }
+      ],
+      "range": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ],
+      "generalization": []
+    },
+    {
       "@id": "http://data.europa.eu/m8g/cccev#weight",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "definition": {
@@ -317,6 +384,16 @@
     {
       "name": null,
       "@id": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#query",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": null,
+      "@id": "http://data.europa.eu/m8g/cccev#value",
       "@type": "rdf:Property"
     },
     {
