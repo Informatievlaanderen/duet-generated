@@ -47,11 +47,6 @@
     },
     "Dataset": "http://www.w3.org/ns/dcat#Dataset",
     "Evidence": "http://data.europa.eu/m8g/cccev#Evidence",
-    "Evidence.cccev:supportsValue": {
-      "@container": "@set",
-      "@id": "http://data.europa.eu/m8g/cccev#supportsValue",
-      "@type": "@id"
-    },
     "Evidence.confidentialityLevelType": {
       "@id": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
       "@type": "@id"
@@ -69,6 +64,11 @@
     "Evidence.supportsConcept": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/cccev#supportsConcept",
+      "@type": "@id"
+    },
+    "Evidence.supportsValue": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/cccev#supportsValue",
       "@type": "@id"
     },
     "EvidenceType": "http://data.europa.eu/m8g/cccev#EvidenceType",

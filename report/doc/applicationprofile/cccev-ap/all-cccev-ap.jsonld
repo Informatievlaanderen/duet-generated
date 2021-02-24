@@ -3313,13 +3313,19 @@
     {
       "@id": "http://data.europa.eu/m8g/cccev#supportsValue",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "",
+      "name": "supports value",
       "inpackage": "UNKNOWN",
       "ap-definition-en": {
         "en": "the Supporting value for which an evidence has information"
       },
+      "ap-label-en": {
+        "en": "supports value"
+      },
       "definition": {
         "en": "the Supporting value for which an evidence has information"
+      },
+      "label": {
+        "en": "supports value"
       },
       "extra": {
         "EA-Name": "cccev:supportsValue",
@@ -3338,12 +3344,16 @@
         },
         "sourceRole": "null",
         "destRole": "null",
-        "label": "",
+        "label": {
+          "en": "supports value"
+        },
         "definition": {
           "en": "the Supporting value for which an evidence has information"
         },
         "usage": "",
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "supports value"
+        },
         "ap-definition-en": {
           "en": "the Supporting value for which an evidence has information"
         },
@@ -3358,6 +3368,11 @@
           {
             "key": "definition-en",
             "value": "the Supporting value for which an evidence has information",
+            "note": "null"
+          },
+          {
+            "key": "label-en",
+            "value": "supports value",
             "note": "null"
           }
         ],
@@ -4327,13 +4342,13 @@
     }
   ],
   "config": "config/config-ap.json",
-  "dummy": "10",
+  "dummy": "11",
   "urlref": "/doc/applicationprofile/cccev-ap",
   "repository": "https://github.com/AnnemarieWittig/englishworkspace",
   "branchtag": "main",
   "filename": "config/cccev-ap.json",
   "navigation": {},
-  "documentcommit": "adb8e0b97ccaa5c778b4af54d0821216e8736ab6",
-  "toolchaincommit": "9eccd2dda52f2f886f5a1ccb38301dd124f42c48",
+  "documentcommit": "4ccfb7395c7db3f6d9a3566382722ef098e530c8",
+  "toolchaincommit": "6db88df736a532709409017d56f477b06f632950",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

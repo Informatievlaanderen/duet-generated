@@ -11,8 +11,8 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/adb8e0b97ccaa5c778b4af54d0821216e8736ab6",
-    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/adb8e0b97ccaa5c778b4af54d0821216e8736ab6/CHANGELOG",
+    "repositoryurl": "https://github.com/AnnemarieWittig/englishworkspace/tree/4ccfb7395c7db3f6d9a3566382722ef098e530c8",
+    "changelogurl": "https://github.com/AnnemarieWittig/englishworkspace/blob/4ccfb7395c7db3f6d9a3566382722ef098e530c8/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "",
     "usesVocs": [],
@@ -582,9 +582,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/cccev#supportsValue",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "supports value",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "supports value"
+          },
           "description": {
             "de": "Enter your translation here",
             "en": "the Supporting value for which an evidence has information"

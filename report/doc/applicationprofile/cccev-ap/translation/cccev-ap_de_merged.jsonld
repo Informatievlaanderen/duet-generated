@@ -815,8 +815,8 @@
   "contributors-column": "CCCEV",
   "contributors-file": "stakeholders-cccev.csv",
   "diagram": "CCCEV_v3-overview-attributes",
-  "documentcommit": "adb8e0b97ccaa5c778b4af54d0821216e8736ab6",
-  "dummy": "10",
+  "documentcommit": "4ccfb7395c7db3f6d9a3566382722ef098e530c8",
+  "dummy": "11",
   "eap": "cccev.eap",
   "editors": [
     {
@@ -2514,6 +2514,9 @@
       "ap-definition-en": {
         "en": "the Supporting value for which an evidence has information"
       },
+      "ap-label-en": {
+        "en": "supports value"
+      },
       "codelist": [],
       "definition": {
         "de": "Enter your translation here",
@@ -2550,6 +2553,11 @@
             "key": "definition-en",
             "note": "null",
             "value": "the Supporting value for which an evidence has information"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "supports value"
           }
         ],
         "Scope": "NOTHING",
@@ -2557,22 +2565,30 @@
         "ap-definition-en": {
           "en": "the Supporting value for which an evidence has information"
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "supports value"
+        },
         "ap-usageNote-en": "",
         "definition": {
           "en": "the Supporting value for which an evidence has information"
         },
         "derived": "false",
         "destRole": "null",
-        "label": "",
+        "label": {
+          "en": "supports value"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "supports value"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "supports value",
       "range": [
         {
           "EA-GUID": "{C8C56DAC-1A06-4ad4-9ADE-DE143451B0F2}",
@@ -4456,7 +4472,7 @@
   "standaardregisterurl": "",
   "template": "cccev-ap_de.j2",
   "title": "TODO Core Criterion and Core Evidence Vocabulary",
-  "toolchaincommit": "9eccd2dda52f2f886f5a1ccb38301dd124f42c48",
+  "toolchaincommit": "6db88df736a532709409017d56f477b06f632950",
   "translation": [
     {
       "language": "en",
