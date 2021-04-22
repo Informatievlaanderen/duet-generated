@@ -1,0 +1,2578 @@
+{
+  "metadata": {
+    "title": "Adressenregister",
+    "uri": "https://data.vlaanderen.be/ns/adres",
+    "issued": "niet-bepaald",
+    "baseURI": "https://data.vlaanderen.be/ns/adres#",
+    "filename": "adressenregister",
+    "navigation": {
+      "self": "https://duet.dev-vlaanderen.be/doc/applicationprofile/addressregistry"
+    },
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "statuslabel": "Kandidaat Standaard",
+    "repositoryurl": "https://github.com/bertvannuffelen/OSLOthema-gebouwEnAdres/tree/b061241c1d7291ff8b5ad793f668c034cb704b47",
+    "changelogurl": "https://github.com/bertvannuffelen/OSLOthema-gebouwEnAdres/blob/b061241c1d7291ff8b5ad793f668c034cb704b47/CHANGELOG",
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-adresregister/applicatieprofiel-adresregister.html",
+    "dependencies": [
+      {
+        "package": "OSLO-Generiek",
+        "packagelabel": "Appplicatieprofiel Generiek-basis",
+        "packageurl": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/"
+      }
+    ],
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Adres",
+      "name": "Belgisch Adres",
+      "label": {
+        "en": "Belgisch Adres",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Adres.status",
+          "name": "status",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "status",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Statuswaarde",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Statuswaarde",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "Statuswaarde"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/StatusValue"
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#busnummer",
+          "name": "busnummer",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "busnummer",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#heeftGemeentenaam",
+          "name": "heeft gemeentenaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "heeft gemeentenaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Gemeentenaam",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Gemeentenaam"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+              "range_label": {
+                "en": "Gemeentenaam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#heeftPostinfo",
+          "name": "heeft postinfo",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "heeft postinfo",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Postinfo",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Postinfo"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Postinfo",
+              "range_label": {
+                "en": "Postinfo",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#heeftStraatnaam",
+          "name": "heeft straatnaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "heeft straatnaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Straatnaam",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+              "range_label": {
+                "en": "Straatnaam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#huisnummer",
+          "name": "huisnummer",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "huisnummer",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#isToegekendAan",
+          "name": "is toegekend aan",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "is toegekend aan",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "AdresseerbaarObject",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+              "range_label": {
+                "en": "Adresseerbaar Object",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#isVerrijktMet",
+          "name": "is verrijkt met",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "is verrijkt met",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Adresuitbreiding",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding",
+              "range_label": {
+                "en": "Adresuitbreiding",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#officieelToegekend",
+          "name": "officieel toegekend",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "officieel toegekend",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Boolean",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "range_label": {
+                "nl": "Boolean"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#positie",
+          "name": "positie",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "positie",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeografischePositie",
+              "range_uri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
+              "range_label": {
+                "en": "Geografische Positie",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/prov#wasAttributedTo",
+          "name": "toegeschreven aan",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "toegeschreven aan",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adres",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Gemeente",
+              "range_uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+              "range_label": {
+                "en": "Gemeente",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+      "name": "Adresseerbaar Object",
+      "label": {
+        "en": "Adresseerbaar Object",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding",
+      "name": "Adresuitbreiding",
+      "label": {
+        "en": "Adresuitbreiding",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#adresIsGelegenIn",
+          "name": "is gelegen in",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "is gelegen in",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresuitbreiding",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Plaats",
+              "range_uri": "http://purl.org/dc/terms/Location"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://purl.org/dc/terms/Location",
+              "range_label": {
+                "en": "Locatie",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#adreslocator",
+          "name": "adreslocator",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "adreslocator",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresuitbreiding",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Adreslocator",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Adreslocator"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Adreslocator",
+              "range_label": {
+                "en": "Adreslocator",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#volledigAdres",
+          "name": "volledig adres",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "volledig adres",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresuitbreiding",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+      "name": "Gemeentenaam",
+      "label": {
+        "en": "Gemeentenaam",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#isAfgeleidVan",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Gemeentenaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Gemeentenaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Gemeente",
+              "range_uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+              "range_label": {
+                "en": "Gemeente",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "name": "label",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "label",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Gemeentenaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Gemeentenaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeografischeNaam",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Geografische Naam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Ligplaats",
+      "name": "Ligplaats",
+      "label": {
+        "en": "Ligplaats",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        },
+        {
+          "label": "Adresseerbaar Object",
+          "name": "AdresseerbaarObject",
+          "package": "OSLO-Adres",
+          "uri": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+          "scoped_uri": "#Adresseerbaar Object"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Postinfo",
+      "name": "Postinfo",
+      "label": {
+        "en": "Postinfo",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#postcode",
+          "name": "postcode",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "postcode",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Postinfo",
+              "uri": "https://data.vlaanderen.be/ns/adres#Postinfo"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#postnaam",
+          "name": "postnaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "postnaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Postinfo",
+              "uri": "https://data.vlaanderen.be/ns/adres#Postinfo"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeografischeNaam",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Geografische Naam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Standplaats",
+      "name": "Standplaats",
+      "label": {
+        "en": "Standplaats",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        },
+        {
+          "label": "Adresseerbaar Object",
+          "name": "AdresseerbaarObject",
+          "package": "OSLO-Adres",
+          "uri": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+          "scoped_uri": "#Adresseerbaar Object"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+      "name": "Straatnaam",
+      "label": {
+        "en": "Straatnaam",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam.status",
+          "name": "status",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "status",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Straatnaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Statuswaarde",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Statuswaarde",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "Statuswaarde"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/StatusValue"
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#homoniemToevoeging",
+          "name": "homoniem toevoeging",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "homoniem toevoeging",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Straatnaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "name": "label",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "label",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Straatnaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeografischeNaam",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Geografische Naam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/prov#wasAttributedTo",
+          "name": "toegeschreven aan",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "toegeschreven aan",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Straatnaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Gemeente",
+              "range_uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+              "range_label": {
+                "en": "Gemeente",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://purl.org/dc/terms/Location",
+      "name": "Locatie",
+      "label": {
+        "en": "Locatie",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Plaats",
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "name": "label",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "label",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Plaats",
+              "uri": "http://purl.org/dc/terms/Location"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeografischeNaam",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Geografische Naam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#geometry",
+          "name": "Geometrie van de plaats of het gebied.",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "Geometrie van de plaats of het gebied.",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Plaats",
+              "uri": "http://purl.org/dc/terms/Location"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Geometrie",
+              "range_uri": "https://data.vlaanderen.be/ns/generiek#Geometrie"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Geometrie",
+              "range_puri": "https://data.vlaanderen.be/ns/generiek#Geometrie",
+              "range_label": {
+                "nl": "Geometrie"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+      "name": "Gemeente",
+      "label": {
+        "en": "Gemeente",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Gemeente",
+      "parents": [
+        {
+          "label": "Object",
+          "name": "Object",
+          "package": "OSLO-Generiek",
+          "uri": "http://data.europa.eu/m8g/Output",
+          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Object"
+        }
+      ],
+      "properties": []
+    }
+  ],
+  "properties": [
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Adres.status",
+      "name": {
+        "en": "status",
+        "nl": "Enter your translation here",
+        "undefined": "status"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.type",
+      "name": {
+        "en": "type",
+        "nl": "Enter your translation here",
+        "undefined": "type"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Locatienaam.type",
+      "name": {
+        "en": "type",
+        "nl": "Enter your translation here",
+        "undefined": "type"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam.status",
+      "name": {
+        "en": "status",
+        "nl": "Enter your translation here",
+        "undefined": "status"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#aanduiding",
+      "name": {
+        "en": "aanduiding",
+        "nl": "Enter your translation here",
+        "undefined": "aanduiding"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#adresIsGelegenIn",
+      "name": {
+        "en": "is gelegen in",
+        "nl": "Enter your translation here",
+        "undefined": "is gelegen in"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#adreslocator",
+      "name": {
+        "en": "adreslocator",
+        "nl": "Enter your translation here",
+        "undefined": "adreslocator"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+      "name": {
+        "en": "gemeentenaam",
+        "nl": "Enter your translation here",
+        "undefined": "gemeentenaam"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": [
+        "http://www.w3.org/ns/locn#postName"
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#heeftGemeentenaam",
+      "name": {
+        "en": "heeft gemeentenaam",
+        "nl": "Enter your translation here",
+        "undefined": "heeft gemeentenaam"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#heeftPostinfo",
+      "name": {
+        "en": "heeft postinfo",
+        "nl": "Enter your translation here",
+        "undefined": "heeft postinfo"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#heeftStraatnaam",
+      "name": {
+        "en": "heeft straatnaam",
+        "nl": "Enter your translation here",
+        "undefined": "heeft straatnaam"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#isAfgeleidVan",
+      "name": {
+        "undefined": ""
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#isToegekendAan",
+      "name": {
+        "en": "is toegekend aan",
+        "nl": "Enter your translation here",
+        "undefined": "is toegekend aan"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#isVerrijktMet",
+      "name": {
+        "en": "is verrijkt met",
+        "nl": "Enter your translation here",
+        "undefined": "is verrijkt met"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#land",
+      "name": {
+        "en": "land",
+        "nl": "Enter your translation here",
+        "undefined": "land"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": [
+        "http://www.w3.org/ns/locn#adminUnitL1"
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#naam",
+      "name": {
+        "en": "label",
+        "nl": "Enter your translation here",
+        "undefined": "label"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#niveau",
+      "name": {
+        "en": "niveau",
+        "nl": "Enter your translation here",
+        "undefined": "niveau"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#positie",
+      "name": {
+        "en": "positie",
+        "nl": "Enter your translation here",
+        "undefined": "positie"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": [
+        "http://www.w3.org/ns/locn#geometry"
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+      "name": {
+        "en": "verwijst naar",
+        "nl": "Enter your translation here",
+        "undefined": "verwijst naar"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#volledigAdres",
+      "name": {
+        "en": "volledig adres",
+        "nl": "Enter your translation here",
+        "undefined": "volledig adres"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "role": "A",
+      "first_name": "Veerle",
+      "last_name": "Beyaert",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "veerle.beyaert@kb.vlaanderen.be"
+    },
+    {
+      "role": "A",
+      "first_name": "Ruben",
+      "last_name": "Capiau",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "ruben.capiau@kb.vlaanderen.be"
+    },
+    {
+      "role": "A",
+      "first_name": "Jan",
+      "last_name": "Laporte",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "jan.laporte@kb.vlaanderen.be"
+    },
+    {
+      "role": "A",
+      "first_name": "Geert",
+      "last_name": "Thijs",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "geert.thijs@kb.vlaanderen.be"
+    },
+    {
+      "role": "A",
+      "first_name": "Ziggy",
+      "last_name": "Vanlishout",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "siegfried.vanlishout@kb.vlaanderen.be"
+    },
+    {
+      "role": "E",
+      "first_name": "Bert",
+      "last_name": "Van Nuffelen",
+      "affiliation": {
+        "name": "Tenforce",
+        "website": "http://tenforce.com"
+      },
+      "email": "bert.van.nuffelen@tenforce.com"
+    },
+    {
+      "role": "C",
+      "first_name": "Wout",
+      "last_name": "Groniger",
+      "affiliation": {
+        "name": "VMSW",
+        "website": "https://www.vmsw.be"
+      },
+      "email": "Wout.groniger@vmsw.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Christiaan",
+      "last_name": "Bos",
+      "affiliation": {
+        "name": "Stad Antwerpen",
+        "website": "https://www.antwerpen.be"
+      },
+      "email": "christiaan.bos@stad.antwerpen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Koen",
+      "last_name": "D'Haen",
+      "affiliation": {
+        "name": "Telenet",
+        "website": "https://www.telenet.be"
+      },
+      "email": "koen.dhaen1@staff.telenet.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Dieter",
+      "last_name": "De Paepe",
+      "affiliation": {
+        "name": "imec - UGent",
+        "website": "http://idlab.ugent.be"
+      },
+      "email": "dieter.depaepe@ugent.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Laurens",
+      "last_name": "De Vocht",
+      "affiliation": {
+        "name": "imec - UGent",
+        "website": "http://idlab.ugent.be"
+      },
+      "email": "laurens.devocht@ugent.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Diedrik",
+      "last_name": "Gaus",
+      "affiliation": {
+        "name": "Stad Gent",
+        "website": "https://stad.gent"
+      },
+      "email": "Diedrik.Gaus@stad.gent"
+    },
+    {
+      "role": "C",
+      "first_name": "Katrien",
+      "last_name": "Geerts",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "katrien.geerts@kb.vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Raf",
+      "last_name": "Buyle",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "raf.buyle@kb.vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Olivier",
+      "last_name": "Heyvaert",
+      "affiliation": {
+        "name": "Wonen-Vlaanderen",
+        "website": "https://www.wonenvlaanderen.be"
+      },
+      "email": "olivier.heyvaert@rwo.vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Ireen",
+      "last_name": "Librecht",
+      "affiliation": {
+        "name": "Provincie Vlaams-Brabant",
+        "website": "https://www.vlaamsbrabant.be"
+      },
+      "email": "ireen.librecht@vlaamsbrabant.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Erik",
+      "last_name": "Mannens",
+      "affiliation": {
+        "name": "imec - UGent",
+        "website": "http://idlab.ugent.be"
+      },
+      "email": "erik.mannens@ugent.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Katleen",
+      "last_name": "Miserez",
+      "affiliation": {
+        "name": "VMM",
+        "website": "https://www.vmm.be"
+      },
+      "email": "k.miserez@vmm.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Michaël",
+      "last_name": "Sibiet",
+      "affiliation": {
+        "name": "Stad Leuven",
+        "website": "https://www.leuven.be"
+      },
+      "email": "Michael.Sibiet@leuven.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Barbara",
+      "last_name": "Van Broeckhoven",
+      "affiliation": {
+        "name": "Informatie Vlaanderen",
+        "website": "https://overheid.vlaanderen.be/informatie-vlaanderen"
+      },
+      "email": "barbara.vanbroeckhoven@kb.vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Paul",
+      "last_name": "Verbeeck",
+      "affiliation": {
+        "name": "Fednot",
+        "website": "https://www.fednot.be"
+      },
+      "email": "Paul.Verbeeck@fednot.be"
+    }
+  ],
+  "datatypes": [
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Adreslocator",
+      "name": "Adreslocator",
+      "label": {
+        "en": "Adreslocator",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#aanduiding",
+          "name": "aanduiding",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "aanduiding",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adreslocator",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adreslocator"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locatieaanduiding",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding",
+              "range_label": {
+                "en": "Locatieaanduiding",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#naam",
+          "name": "label",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "label",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adreslocator",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adreslocator"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locatienaam",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Locatienaam"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Locatienaam",
+              "range_label": {
+                "en": "Locatienaam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#niveau",
+          "name": "niveau",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "niveau",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adreslocator",
+              "uri": "https://data.vlaanderen.be/ns/adres#Adreslocator"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locatorniveauwaarde",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Locatorniveauwaarde",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "Locatorniveauwaarde"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/LocatorLevelValue"
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding",
+      "name": "Locatieaanduiding",
+      "label": {
+        "en": "Locatieaanduiding",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.aanduiding",
+          "name": "aanduiding",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "aanduiding",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Locatieaanduiding",
+              "uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.type",
+          "name": "type",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "type",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Locatieaanduiding",
+              "uri": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locatieaanduidingtype",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Locatieaanduidingtype",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "Locatieaanduidingtype"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue"
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/adres#Locatienaam",
+      "name": "Locatienaam",
+      "label": {
+        "en": "Locatienaam",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Locatienaam.type",
+          "name": "type",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "type",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Locatienaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Locatienaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locatienaamtype",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Locatienaamtype",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "Locatienaamtype"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue"
+        },
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "name": "label",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "label",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Locatienaam",
+              "uri": "https://data.vlaanderen.be/ns/adres#Locatienaam"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeografischeNaam",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Geografische Naam",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "name": "Geografische Naam",
+      "label": {
+        "en": "Geografische Naam",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#GeografischeNaam",
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/ns/locn#Address",
+      "name": "Adresvoorstelling",
+      "label": {
+        "en": "Adresvoorstelling",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+          "name": "busnummer",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "busnummer",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+          "name": "huisnummer",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "huisnummer",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+          "name": "gemeentenaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "gemeentenaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#land",
+          "name": "land",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "land",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+          "name": "verwijst naar",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "verwijst naar",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Adres",
+              "range_uri": "https://data.vlaanderen.be/ns/adres#Adres"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "https://data.vlaanderen.be/ns/adres#Adres",
+              "range_label": {
+                "en": "Belgisch Adres",
+                "nl": "Enter your translation here"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#addressArea",
+          "name": "adresgebied",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "adresgebied",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#adminUnitL1",
+          "name": "administratieve eenheid niveau 1",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "administratieve eenheid niveau 1",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#adminUnitL2",
+          "name": "administratieve eenheid niveau 2",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "administratieve eenheid niveau 2",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#fullAddress",
+          "name": "volledig adres",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "volledig adres",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#locatorDesignator",
+          "name": "locatieaanduiding",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "locatieaanduiding",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#locatorName",
+          "name": "locatienaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "locatienaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#poBox",
+          "name": "postbus",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "postbus",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#postCode",
+          "name": "postcode",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "postcode",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#postName",
+          "name": "postnaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "postnaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/locn#thoroughfare",
+          "name": "straatnaam",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "straatnaam",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Taalstring",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Taalstring",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "Taalstring"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
+      "name": "Geografische Positie",
+      "label": {
+        "en": "Geografische Positie",
+        "nl": "Enter your translation here"
+      },
+      "sort": "Enter your translation here",
+      "description": {},
+      "usage": {},
+      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#GeografischePositie",
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/locn#geometry",
+          "name": "geometrie",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "geometrie",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "GeografischePositie",
+              "uri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Punt",
+              "range_uri": "http://www.opengis.net/ont/sf#Point"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpdocument/07-02-2018/#Punt",
+              "range_puri": "http://www.opengis.net/ont/sf#Point",
+              "range_label": {
+                "nl": "Punt"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/generiek#default",
+          "name": "default",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "default",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "GeografischePositie",
+              "uri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Boolean",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "range_label": {
+                "nl": "Boolean"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/generiek#methode",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "GeografischePositie",
+              "uri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeometrieMethodeWaarde",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#GeometrieMethodeWaarde",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "GeometrieMethodeWaarde"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/GeometryMethodValue"
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/generiek#specificatie",
+          "name": "specificatie",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "specificatie",
+            "nl": "Enter your translation here"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "GeografischePositie",
+              "uri": "https://data.vlaanderen.be/ns/generiek#GeografischePositie"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeometrieSpecificatieWaarde",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#GeometrieSpecificatieWaarde",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "GeometrieSpecificatieWaarde"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue"
+        }
+      ]
+    }
+  ],
+  "parents": [],
+  "documentroot": "/doc/applicationprofile/addressregistry"
+}

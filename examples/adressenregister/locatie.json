@@ -1,0 +1,9 @@
+{
+    "@context": "/doc/ap/adressenregister/locatie.jsonld",
+    "@type": "http://purl.org/dc/terms/Location",
+    "@id": "{{ID}}",
+    "label": {
+        "nl": "{{STRING}}"
+    },
+    "geometrieVanDePlaatsOfHetGebied": "{{VAL}}"
+}

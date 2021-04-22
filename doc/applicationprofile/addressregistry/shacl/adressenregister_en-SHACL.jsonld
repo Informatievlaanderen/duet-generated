@@ -1,0 +1,625 @@
+{
+  "@context": {
+    "@vocab": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:definition": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en",
+  "shapes": [
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#AdresShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "busnummer"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#busnummer"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "heeft gemeentenaam"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#heeftGemeentenaam"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Postinfo",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "heeft postinfo"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#heeftPostinfo"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "heeft straatnaam"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#heeftStraatnaam"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "huisnummer"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#huisnummer"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+          "sh:name": {
+            "en": "is toegekend aan"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#isToegekendAan"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "toegeschreven aan"
+          },
+          "sh:path": "http://www.w3.org/ns/prov#wasAttributedTo"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "is verrijkt met"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#isVerrijktMet"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "officieel toegekend"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#officieelToegekend"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "positie"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#positie"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "status"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Adres.status"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Adres"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#AdreslocatorShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding",
+          "sh:name": {
+            "en": "aanduiding"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#aanduiding"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Locatienaam",
+          "sh:name": {
+            "en": "label"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#naam"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "niveau"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#niveau"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Adreslocator"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#AdresseerbaarObjectShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#AdresuitbreidingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://purl.org/dc/terms/Location",
+          "sh:name": {
+            "en": "is gelegen in"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#adresIsGelegenIn"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Adreslocator",
+          "sh:name": {
+            "en": "adreslocator"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#adreslocator"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:name": {
+            "en": "volledig adres"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#volledigAdres"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GemeentenaamShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "label"
+          },
+          "sh:path": "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "https://data.vlaanderen.be/ns/adres#isAfgeleidVan"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Gemeentenaam"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#LigplaatsShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Ligplaats"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#LocatieaanduidingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "aanduiding"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.aanduiding"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.type"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#LocatienaamShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "label"
+          },
+          "sh:path": "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Locatienaam.type"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Locatienaam"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#PostinfoShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "postcode"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#postcode"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:name": {
+            "en": "postnaam"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#postnaam"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Postinfo"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#StandplaatsShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Standplaats"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#StraatnaamShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "homoniem toevoeging"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#homoniemToevoeging"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Gemeente",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "toegeschreven aan"
+          },
+          "sh:path": "http://www.w3.org/ns/prov#wasAttributedTo"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "status"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Straatnaam.status"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "label"
+          },
+          "sh:path": "http://www.w3.org/2000/01/rdf-schema#label"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#PlaatsShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Geometrie",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "Geometrie van de plaats of het gebied."
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "label"
+          },
+          "sh:path": "http://www.w3.org/2000/01/rdf-schema#label"
+        }
+      ],
+      "sh:targetClass": "http://purl.org/dc/terms/Location"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GeografischeNaamShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#TaalcodeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GeometrieSpecificatieWaardeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GeometrieMethodeWaardeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#LocatorniveauwaardeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#LocatienaamtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#LocatieaanduidingtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#StatuswaardeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#AdresvoorstellingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administratieve eenheid niveau 1"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administratieve eenheid niveau 2"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "adresgebied"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "busnummer"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "gemeentenaam"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "huisnummer"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "land"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#land"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:name": {
+            "en": "locatieaanduiding"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:name": {
+            "en": "locatienaam"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postbus"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postcode"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postnaam"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postName"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "straatnaam"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Adres",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "verwijst naar"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#verwijstNaar"
+        },
+        {
+          "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "volledig adres"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GebouweenheidstatusWaardeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/gebouw#GebouweenheidstatusWaarde"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GemeenteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Gemeente"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/adressenregister_en#GeografischePositieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "default"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/generiek#default"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometrie"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:path": "https://data.vlaanderen.be/ns/generiek#methode"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "specificatie"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/generiek#specificatie"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#GeografischePositie"
+    }
+  ]
+}

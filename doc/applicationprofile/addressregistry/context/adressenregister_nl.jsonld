@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "EnterYourTranslationHere": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
+    "EnterYourTranslationHere.enterYourTranslationHere": {
+      "@id": "https://data.vlaanderen.be/ns/generiek#specificatie",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.isAfgeleidVan": {
+      "@id": "https://data.vlaanderen.be/ns/adres#isAfgeleidVan",
+      "@type": "@id"
+    },
+    "EnterYourTranslationHere.methode": {
+      "@id": "https://data.vlaanderen.be/ns/generiek#methode",
+      "@type": "@id"
+    },
+    "GebouweenheidstatusWaarde": "https://data.vlaanderen.be/ns/gebouw#GebouweenheidstatusWaarde",
+    "GeometrieMethodeWaarde": "http://www.w3.org/2004/02/skos/core#Concept",
+    "GeometrieSpecificatieWaarde": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Locatieaanduidingtype": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Locatienaamtype": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Locatorniveauwaarde": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Statuswaarde": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Taalcode": "http://www.w3.org/2004/02/skos/core#Concept"
+  }
+}

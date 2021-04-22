@@ -1,0 +1,16 @@
+{
+    "@context": "/doc/ap/adressenregister/belgischAdres.jsonld",
+    "@type": "https://data.vlaanderen.be/ns/adres#Adres",
+    "@id": "{{ID}}",
+    "status": "{{VAL}}",
+    "busnummer": "{{STRING}}",
+    "heeftGemeentenaam": "{{VAL}}",
+    "heeftPostinfo": "{{VAL}}",
+    "heeftStraatnaam": "{{VAL}}",
+    "huisnummer": "{{STRING}}",
+    "isToegekendAan": "{{VAL}}",
+    "isVerrijktMet": "{{VAL}}",
+    "officieelToegekend": "{{BOOLEAN}}",
+    "positie": "{{VAL}}",
+    "toegeschrevenAan": "{{VAL}}"
+}

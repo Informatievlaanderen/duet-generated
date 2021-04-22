@@ -1,0 +1,38 @@
+{
+    "@context": "/doc/ap/adressenregister/adresvoorstelling.jsonld",
+    "@type": "http://www.w3.org/ns/locn#Address",
+    "@id": "{{ID}}",
+    "busnummer": "{{STRING}}",
+    "huisnummer": "{{STRING}}",
+    "gemeentenaam": {
+        "nl": "{{STRING}}"
+    },
+    "land": {
+        "nl": "{{STRING}}"
+    },
+    "verwijstNaar": "{{VAL}}",
+    "adresgebied": {
+        "nl": "{{STRING}}"
+    },
+    "administratieveEenheidNiveau1": {
+        "nl": "{{STRING}}"
+    },
+    "administratieveEenheidNiveau2": {
+        "nl": "{{STRING}}"
+    },
+    "volledigAdres": {
+        "nl": "{{STRING}}"
+    },
+    "locatieaanduiding": "{{STRING}}",
+    "locatienaam": {
+        "nl": "{{STRING}}"
+    },
+    "postbus": "{{STRING}}",
+    "postcode": "{{STRING}}",
+    "postnaam": {
+        "nl": "{{STRING}}"
+    },
+    "straatnaam": {
+        "nl": "{{STRING}}"
+    }
+}

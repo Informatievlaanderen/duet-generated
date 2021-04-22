@@ -1,0 +1,9 @@
+{
+    "@context": "/doc/ap/adressenregister/postinfo.jsonld",
+    "@type": "https://data.vlaanderen.be/ns/adres#Postinfo",
+    "@id": "{{ID}}",
+    "postcode": "{{STRING}}",
+    "postnaam": {
+        "nl": "{{STRING}}"
+    }
+}

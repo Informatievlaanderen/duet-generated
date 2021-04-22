@@ -1,0 +1,8 @@
+{
+    "@context": "/doc/ap/adressenregister/geografischePositie.jsonld",
+    "@type": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
+    "@id": "{{ID}}",
+    "geometrie": "{{VAL}}",
+    "default": "{{BOOLEAN}}",
+    "specificatie": "{{VAL}}"
+}
