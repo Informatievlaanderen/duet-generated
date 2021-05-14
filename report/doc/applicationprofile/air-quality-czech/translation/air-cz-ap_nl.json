@@ -76,50 +76,14 @@
       }
     },
     {
-      "EA-Guid": "{7DDB1404-71FC-412e-A177-20AEF0DC9476}",
-      "name": "code",
+      "EA-Guid": "{637C802C-9F4B-490c-95CE-81CAAD9865C8}",
+      "name": "component",
       "label": {
-        "en": "code",
+        "en": "component",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "the air quality component that is measured",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{449E71AB-D68A-42dc-843A-BF4D90B39FF7}",
-      "name": "code",
-      "label": {
-        "en": "code",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a notation identifying the entity",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{3F68E3E8-4B30-49c5-98DF-E0273C9AB400}",
-      "name": "code",
-      "label": {
-        "en": "code",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a notiation identifying the entity",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{7551E145-F9CC-4e40-88BB-8EF253682FFD}",
-      "name": "code",
-      "label": {
-        "en": "code",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a notation identifying the entity",
+        "en": "a measurement for an air quality component by the station",
         "nl": "Enter your translation here"
       }
     },
@@ -136,30 +100,26 @@
       }
     },
     {
-      "EA-Guid": "{637C802C-9F4B-490c-95CE-81CAAD9865C8}",
-      "name": "component",
+      "EA-Guid": "{088D2566-E56C-4ccc-9B2E-62F4A18D9BCF}",
+      "name": "name",
       "label": {
-        "en": "component",
+        "en": "name",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "a measurement for an air quality component by the station",
+        "en": "a unique short label given to an entity",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{DDF04D28-59AF-4d73-A30F-5F26A3FA149C}",
-      "name": "date from (UTC)",
+      "EA-Guid": "{7DDB1404-71FC-412e-A177-20AEF0DC9476}",
+      "name": "code",
       "label": {
-        "en": "date from (UTC)",
+        "en": "code",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "the measurement period start datetime in UTC",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "the value could be according to xsd:datetime but currently are not",
+        "en": "the air quality component that is measured",
         "nl": "Enter your translation here"
       }
     },
@@ -176,6 +136,22 @@
       },
       "usage": {
         "en": "A non standard notation combining start and end date time into one serialized value",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DDF04D28-59AF-4d73-A30F-5F26A3FA149C}",
+      "name": "date from (UTC)",
+      "label": {
+        "en": "date from (UTC)",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "the measurement period start datetime in UTC",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "the value could be according to xsd:datetime but currently are not",
         "nl": "Enter your translation here"
       }
     },
@@ -240,54 +216,6 @@
       }
     },
     {
-      "EA-Guid": "{116FB05F-9C1D-4741-A31F-08FF13AA67C2}",
-      "name": "name",
-      "label": {
-        "en": "name",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a unique short label given to an entity",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{FF6BE6A1-65BD-454a-AAFA-AD669DCAC965}",
-      "name": "name",
-      "label": {
-        "en": "name",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a unique short label given to an entity",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{199D0418-3EDE-4dc9-9415-56020B0474C0}",
-      "name": "name",
-      "label": {
-        "en": "name",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a unique short label given to an entity",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{088D2566-E56C-4ccc-9B2E-62F4A18D9BCF}",
-      "name": "name",
-      "label": {
-        "en": "name",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "a unique short label given to an entity",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{FCD725D8-EC79-482f-8069-B214A9B55E89}",
       "name": "owner",
       "label": {
@@ -312,6 +240,54 @@
       }
     },
     {
+      "EA-Guid": "{3F68E3E8-4B30-49c5-98DF-E0273C9AB400}",
+      "name": "code",
+      "label": {
+        "en": "code",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a notiation identifying the entity",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FF6BE6A1-65BD-454a-AAFA-AD669DCAC965}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a unique short label given to an entity",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{449E71AB-D68A-42dc-843A-BF4D90B39FF7}",
+      "name": "code",
+      "label": {
+        "en": "code",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a notation identifying the entity",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{116FB05F-9C1D-4741-A31F-08FF13AA67C2}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a unique short label given to an entity",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{E04CBA9E-A42F-483e-A5DE-2F341037042F}",
       "name": "station",
       "label": {
@@ -320,6 +296,30 @@
       },
       "definition": {
         "en": "a air quality sensor station located in the region",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7551E145-F9CC-4e40-88BB-8EF253682FFD}",
+      "name": "code",
+      "label": {
+        "en": "code",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a notation identifying the entity",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{199D0418-3EDE-4dc9-9415-56020B0474C0}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a unique short label given to an entity",
         "nl": "Enter your translation here"
       }
     },

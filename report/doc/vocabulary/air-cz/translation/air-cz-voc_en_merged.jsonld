@@ -409,7 +409,7 @@
   "contributors-column": "MijnKolom",
   "contributors-file": "stakeholders.csv",
   "diagram": "air-cz",
-  "documentcommit": "02e5f4fc66db68d3a4b41fe5b4925421abd8c575",
+  "documentcommit": "ee6cb02c249887c250657de4d3c743f9bc306277",
   "eap": "air-cz.eap",
   "editors": [
     {
@@ -534,426 +534,6 @@
       ]
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{7DDB1404-71FC-412e-A177-20AEF0DC9476}",
-      "codelist": [],
-      "definition": {
-        "en": "the air quality component that is measured"
-      },
-      "definition-en": {
-        "en": "the air quality component that is measured"
-      },
-      "domain": [
-        {
-          "EA-Name": "Component",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Component"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "note": "code",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "the air quality component that is measured",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Component",
-        "EA-Domain-Guid": "{4C3E533D-0698-427f-9369-46C9D45C0EE0}",
-        "EA-Guid": "{7DDB1404-71FC-412e-A177-20AEF0DC9476}",
-        "EA-Name": "code",
-        "EA-Package": "",
-        "EA-Range": "ComponentType",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
-          "EA-Name": "ComponentType",
-          "EA-Package": "air-cz",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "code",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "the air quality component that is measured",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "the air quality component that is measured"
-        },
-        "definition-en": {
-          "en": "the air quality component that is measured"
-        },
-        "derived": "false",
-        "destRole": "code",
-        "equivalent": "",
-        "label": {
-          "en": "code"
-        },
-        "label-en": {
-          "en": "code"
-        },
-        "sameAs": "",
-        "sourceRole": "null",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "code"
-      },
-      "label-en": {
-        "en": "code"
-      },
-      "name": "code",
-      "range": [
-        {
-          "EA-GUID": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
-          "EA-Name": "ComponentType",
-          "EA-Package": "air-cz",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{449E71AB-D68A-42dc-843A-BF4D90B39FF7}",
-      "codelist": [],
-      "definition": {
-        "en": "a notation identifying the entity"
-      },
-      "definition-en": {
-        "en": "a notation identifying the entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "State",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "State",
-        "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
-        "EA-Guid": "{449E71AB-D68A-42dc-843A-BF4D90B39FF7}",
-        "EA-Name": "code",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "code"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a notation identifying the entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a notation identifying the entity"
-        },
-        "definition-en": {
-          "en": "a notation identifying the entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "code"
-        },
-        "label-en": {
-          "en": "code"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "code"
-      },
-      "label-en": {
-        "en": "code"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "code",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{3F68E3E8-4B30-49c5-98DF-E0273C9AB400}",
-      "codelist": [],
-      "definition": {
-        "en": "a notiation identifying the entity"
-      },
-      "definition-en": {
-        "en": "a notiation identifying the entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "Region",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Region",
-        "EA-Domain-Guid": "{A68709B6-60A0-4d63-9F13-A40530C63F22}",
-        "EA-Guid": "{3F68E3E8-4B30-49c5-98DF-E0273C9AB400}",
-        "EA-Name": "code",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "code"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a notiation identifying the entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a notiation identifying the entity"
-        },
-        "definition-en": {
-          "en": "a notiation identifying the entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "code"
-        },
-        "label-en": {
-          "en": "code"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "code"
-      },
-      "label-en": {
-        "en": "code"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "code",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{7551E145-F9CC-4e40-88BB-8EF253682FFD}",
-      "codelist": [],
-      "definition": {
-        "en": "a notation identifying the entity"
-      },
-      "definition-en": {
-        "en": "a notation identifying the entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "Station",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Station",
-        "EA-Domain-Guid": "{FA14BC3D-F373-4e42-8D82-4E6CCE7F8138}",
-        "EA-Guid": "{7551E145-F9CC-4e40-88BB-8EF253682FFD}",
-        "EA-Name": "code",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "code"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a notation identifying the entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a notation identifying the entity"
-        },
-        "definition-en": {
-          "en": "a notation identifying the entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "code"
-        },
-        "label-en": {
-          "en": "code"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "code"
-      },
-      "label-en": {
-        "en": "code"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "code",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{57AD1620-A862-4d83-B23C-68B94DAAC4F2}",
-      "codelist": [],
-      "definition": {
-        "en": "a notation identifying the air quality component"
-      },
-      "definition-en": {
-        "en": "a notation identifying the air quality component"
-      },
-      "domain": [
-        {
-          "EA-Name": "ComponentType",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "ComponentType",
-        "EA-Domain-Guid": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
-        "EA-Guid": "{57AD1620-A862-4d83-B23C-68B94DAAC4F2}",
-        "EA-Name": "code",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "code"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a notation identifying the air quality component"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a notation identifying the air quality component"
-        },
-        "definition-en": {
-          "en": "a notation identifying the air quality component"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "code"
-        },
-        "label-en": {
-          "en": "code"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "code"
-      },
-      "label-en": {
-        "en": "code"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "code",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
       "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#component",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{637C802C-9F4B-490c-95CE-81CAAD9865C8}",
@@ -1050,27 +630,27 @@
       ]
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#date from UTC",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeCode",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{DDF04D28-59AF-4d73-A30F-5F26A3FA149C}",
+      "EA-Guid": "{57AD1620-A862-4d83-B23C-68B94DAAC4F2}",
       "codelist": [],
       "definition": {
-        "en": "the measurement period start datetime in UTC"
+        "en": "a notation identifying the air quality component"
       },
       "definition-en": {
-        "en": "the measurement period start datetime in UTC"
+        "en": "a notation identifying the air quality component"
       },
       "domain": [
         {
-          "EA-Name": "State",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+          "EA-Name": "ComponentType",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
         }
       ],
       "extra": {
-        "EA-Domain": "State",
-        "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
-        "EA-Guid": "{DDF04D28-59AF-4d73-A30F-5F26A3FA149C}",
-        "EA-Name": "date from UTC",
+        "EA-Domain": "ComponentType",
+        "EA-Domain-Guid": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
+        "EA-Guid": "{57AD1620-A862-4d83-B23C-68B94DAAC4F2}",
+        "EA-Name": "code",
         "EA-Package": "air-cz",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -1083,32 +663,32 @@
           {
             "key": "label-en",
             "note": "null",
-            "value": "date from (UTC)"
+            "value": "code"
           },
           {
             "key": "definition-en",
             "note": "null",
-            "value": "the measurement period start datetime in UTC"
+            "value": "a notation identifying the air quality component"
           },
           {
-            "key": "ap-usageNote-en",
+            "key": "name",
             "note": "null",
-            "value": "the value could be according to xsd:datetime but currently are not"
+            "value": "componentTypeCode"
           }
         ],
         "Scope": "FULL_DEFINITON",
         "definition": {
-          "en": "the measurement period start datetime in UTC"
+          "en": "a notation identifying the air quality component"
         },
         "definition-en": {
-          "en": "the measurement period start datetime in UTC"
+          "en": "a notation identifying the air quality component"
         },
         "equivalent": "",
         "label": {
-          "en": "date from (UTC)"
+          "en": "code"
         },
         "label-en": {
-          "en": "date from (UTC)"
+          "en": "code"
         },
         "sameAs": "",
         "subclass": "",
@@ -1119,14 +699,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "en": "date from (UTC)"
+        "en": "code"
       },
       "label-en": {
-        "en": "date from (UTC)"
+        "en": "code"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "date from (UTC)",
+      "name": "code",
       "range": [
         {
           "EA-Name": "String",
@@ -1136,7 +716,199 @@
       ]
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#date from-to",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{088D2566-E56C-4ccc-9B2E-62F4A18D9BCF}",
+      "codelist": [],
+      "definition": {
+        "en": "a unique short label given to an entity"
+      },
+      "definition-en": {
+        "en": "a unique short label given to an entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "ComponentType",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "ComponentType",
+        "EA-Domain-Guid": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
+        "EA-Guid": "{088D2566-E56C-4ccc-9B2E-62F4A18D9BCF}",
+        "EA-Name": "name",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a unique short label given to an entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "componentTypeName"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a unique short label given to an entity"
+        },
+        "definition-en": {
+          "en": "a unique short label given to an entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "name"
+        },
+        "label-en": {
+          "en": "name"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "name"
+      },
+      "label-en": {
+        "en": "name"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "name",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#componentcode",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{7DDB1404-71FC-412e-A177-20AEF0DC9476}",
+      "codelist": [],
+      "definition": {
+        "en": "the air quality component that is measured"
+      },
+      "definition-en": {
+        "en": "the air quality component that is measured"
+      },
+      "domain": [
+        {
+          "EA-Name": "Component",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Component"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "code",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "the air quality component that is measured",
+            "value": "NOTE"
+          },
+          {
+            "key": "name",
+            "note": "componentcode",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Component",
+        "EA-Domain-Guid": "{4C3E533D-0698-427f-9369-46C9D45C0EE0}",
+        "EA-Guid": "{7DDB1404-71FC-412e-A177-20AEF0DC9476}",
+        "EA-Name": "code",
+        "EA-Package": "",
+        "EA-Range": "ComponentType",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
+          "EA-Name": "ComponentType",
+          "EA-Package": "air-cz",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "code",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "the air quality component that is measured",
+            "value": "NOTE"
+          },
+          {
+            "key": "name",
+            "note": "componentcode",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "the air quality component that is measured"
+        },
+        "definition-en": {
+          "en": "the air quality component that is measured"
+        },
+        "derived": "false",
+        "destRole": "code",
+        "equivalent": "",
+        "label": {
+          "en": "code"
+        },
+        "label-en": {
+          "en": "code"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "code"
+      },
+      "label-en": {
+        "en": "code"
+      },
+      "name": "code",
+      "range": [
+        {
+          "EA-GUID": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
+          "EA-Name": "ComponentType",
+          "EA-Package": "air-cz",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#dateFromTo",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{403DEBD3-4A65-41e9-8D79-2EC47EBD6FDE}",
       "codelist": [],
@@ -1156,7 +928,7 @@
         "EA-Domain": "State",
         "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
         "EA-Guid": "{403DEBD3-4A65-41e9-8D79-2EC47EBD6FDE}",
-        "EA-Name": "date from-to",
+        "EA-Name": "dateFromTo",
         "EA-Package": "air-cz",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -1222,7 +994,93 @@
       ]
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#date to UTC",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#dateFromUTC",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{DDF04D28-59AF-4d73-A30F-5F26A3FA149C}",
+      "codelist": [],
+      "definition": {
+        "en": "the measurement period start datetime in UTC"
+      },
+      "definition-en": {
+        "en": "the measurement period start datetime in UTC"
+      },
+      "domain": [
+        {
+          "EA-Name": "State",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "State",
+        "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
+        "EA-Guid": "{DDF04D28-59AF-4d73-A30F-5F26A3FA149C}",
+        "EA-Name": "dateFromUTC",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "date from (UTC)"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "the measurement period start datetime in UTC"
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "the value could be according to xsd:datetime but currently are not"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "the measurement period start datetime in UTC"
+        },
+        "definition-en": {
+          "en": "the measurement period start datetime in UTC"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "date from (UTC)"
+        },
+        "label-en": {
+          "en": "date from (UTC)"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date from (UTC)"
+      },
+      "label-en": {
+        "en": "date from (UTC)"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "date from (UTC)",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#dateToUTC",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{32ECBB76-70B4-422b-97CC-8B9D101E9E67}",
       "codelist": [],
@@ -1242,7 +1100,7 @@
         "EA-Domain": "State",
         "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
         "EA-Guid": "{32ECBB76-70B4-422b-97CC-8B9D101E9E67}",
-        "EA-Name": "date to UTC",
+        "EA-Name": "dateToUTC",
         "EA-Package": "air-cz",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -1549,330 +1407,6 @@
       "range": []
     },
     {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{116FB05F-9C1D-4741-A31F-08FF13AA67C2}",
-      "codelist": [],
-      "definition": {
-        "en": "a unique short label given to an entity"
-      },
-      "definition-en": {
-        "en": "a unique short label given to an entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "State",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "State",
-        "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
-        "EA-Guid": "{116FB05F-9C1D-4741-A31F-08FF13AA67C2}",
-        "EA-Name": "name",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "name"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a unique short label given to an entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a unique short label given to an entity"
-        },
-        "definition-en": {
-          "en": "a unique short label given to an entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "name"
-        },
-        "label-en": {
-          "en": "name"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "name"
-      },
-      "label-en": {
-        "en": "name"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "name",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{FF6BE6A1-65BD-454a-AAFA-AD669DCAC965}",
-      "codelist": [],
-      "definition": {
-        "en": "a unique short label given to an entity"
-      },
-      "definition-en": {
-        "en": "a unique short label given to an entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "Region",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Region",
-        "EA-Domain-Guid": "{A68709B6-60A0-4d63-9F13-A40530C63F22}",
-        "EA-Guid": "{FF6BE6A1-65BD-454a-AAFA-AD669DCAC965}",
-        "EA-Name": "name",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "name"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a unique short label given to an entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a unique short label given to an entity"
-        },
-        "definition-en": {
-          "en": "a unique short label given to an entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "name"
-        },
-        "label-en": {
-          "en": "name"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "name"
-      },
-      "label-en": {
-        "en": "name"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "name",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{199D0418-3EDE-4dc9-9415-56020B0474C0}",
-      "codelist": [],
-      "definition": {
-        "en": "a unique short label given to an entity"
-      },
-      "definition-en": {
-        "en": "a unique short label given to an entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "Station",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Station",
-        "EA-Domain-Guid": "{FA14BC3D-F373-4e42-8D82-4E6CCE7F8138}",
-        "EA-Guid": "{199D0418-3EDE-4dc9-9415-56020B0474C0}",
-        "EA-Name": "name",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "name"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a unique short label given to an entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a unique short label given to an entity"
-        },
-        "definition-en": {
-          "en": "a unique short label given to an entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "name"
-        },
-        "label-en": {
-          "en": "name"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "name"
-      },
-      "label-en": {
-        "en": "name"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "name",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{088D2566-E56C-4ccc-9B2E-62F4A18D9BCF}",
-      "codelist": [],
-      "definition": {
-        "en": "a unique short label given to an entity"
-      },
-      "definition-en": {
-        "en": "a unique short label given to an entity"
-      },
-      "domain": [
-        {
-          "EA-Name": "ComponentType",
-          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "ComponentType",
-        "EA-Domain-Guid": "{EB1E1840-B006-4d7e-BAEE-879A2808A9B7}",
-        "EA-Guid": "{088D2566-E56C-4ccc-9B2E-62F4A18D9BCF}",
-        "EA-Name": "name",
-        "EA-Package": "air-cz",
-        "EA-Range": "String",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "name"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "a unique short label given to an entity"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "definition": {
-          "en": "a unique short label given to an entity"
-        },
-        "definition-en": {
-          "en": "a unique short label given to an entity"
-        },
-        "equivalent": "",
-        "label": {
-          "en": "name"
-        },
-        "label-en": {
-          "en": "name"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "name"
-      },
-      "label-en": {
-        "en": "name"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "name",
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ]
-    },
-    {
       "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#owner",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{FCD725D8-EC79-482f-8069-B214A9B55E89}",
@@ -2050,6 +1584,350 @@
       ]
     },
     {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#regionCode",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{3F68E3E8-4B30-49c5-98DF-E0273C9AB400}",
+      "codelist": [],
+      "definition": {
+        "en": "a notiation identifying the entity"
+      },
+      "definition-en": {
+        "en": "a notiation identifying the entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "Region",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Region",
+        "EA-Domain-Guid": "{A68709B6-60A0-4d63-9F13-A40530C63F22}",
+        "EA-Guid": "{3F68E3E8-4B30-49c5-98DF-E0273C9AB400}",
+        "EA-Name": "code",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "code"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a notiation identifying the entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "regionCode"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a notiation identifying the entity"
+        },
+        "definition-en": {
+          "en": "a notiation identifying the entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "code"
+        },
+        "label-en": {
+          "en": "code"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "code"
+      },
+      "label-en": {
+        "en": "code"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "code",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#regionName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{FF6BE6A1-65BD-454a-AAFA-AD669DCAC965}",
+      "codelist": [],
+      "definition": {
+        "en": "a unique short label given to an entity"
+      },
+      "definition-en": {
+        "en": "a unique short label given to an entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "Region",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Region",
+        "EA-Domain-Guid": "{A68709B6-60A0-4d63-9F13-A40530C63F22}",
+        "EA-Guid": "{FF6BE6A1-65BD-454a-AAFA-AD669DCAC965}",
+        "EA-Name": "name",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a unique short label given to an entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "regionName"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a unique short label given to an entity"
+        },
+        "definition-en": {
+          "en": "a unique short label given to an entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "name"
+        },
+        "label-en": {
+          "en": "name"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "name"
+      },
+      "label-en": {
+        "en": "name"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "name",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stateCode",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{449E71AB-D68A-42dc-843A-BF4D90B39FF7}",
+      "codelist": [],
+      "definition": {
+        "en": "a notation identifying the entity"
+      },
+      "definition-en": {
+        "en": "a notation identifying the entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "State",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "State",
+        "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
+        "EA-Guid": "{449E71AB-D68A-42dc-843A-BF4D90B39FF7}",
+        "EA-Name": "code",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "code"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a notation identifying the entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "stateCode"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a notation identifying the entity"
+        },
+        "definition-en": {
+          "en": "a notation identifying the entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "code"
+        },
+        "label-en": {
+          "en": "code"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "code"
+      },
+      "label-en": {
+        "en": "code"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "code",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stateName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{116FB05F-9C1D-4741-A31F-08FF13AA67C2}",
+      "codelist": [],
+      "definition": {
+        "en": "a unique short label given to an entity"
+      },
+      "definition-en": {
+        "en": "a unique short label given to an entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "State",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "State",
+        "EA-Domain-Guid": "{4344A269-222B-4457-91DD-C032A9123F44}",
+        "EA-Guid": "{116FB05F-9C1D-4741-A31F-08FF13AA67C2}",
+        "EA-Name": "name",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a unique short label given to an entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "stateName"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a unique short label given to an entity"
+        },
+        "definition-en": {
+          "en": "a unique short label given to an entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "name"
+        },
+        "label-en": {
+          "en": "name"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "name"
+      },
+      "label-en": {
+        "en": "name"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "name",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
       "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#station",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{E04CBA9E-A42F-483e-A5DE-2F341037042F}",
@@ -2142,6 +2020,178 @@
           "EA-Name": "Station",
           "EA-Package": "air-cz",
           "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stationCode",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{7551E145-F9CC-4e40-88BB-8EF253682FFD}",
+      "codelist": [],
+      "definition": {
+        "en": "a notation identifying the entity"
+      },
+      "definition-en": {
+        "en": "a notation identifying the entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "Station",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Station",
+        "EA-Domain-Guid": "{FA14BC3D-F373-4e42-8D82-4E6CCE7F8138}",
+        "EA-Guid": "{7551E145-F9CC-4e40-88BB-8EF253682FFD}",
+        "EA-Name": "code",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "code"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a notation identifying the entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "stationCode"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a notation identifying the entity"
+        },
+        "definition-en": {
+          "en": "a notation identifying the entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "code"
+        },
+        "label-en": {
+          "en": "code"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "code"
+      },
+      "label-en": {
+        "en": "code"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "code",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stationName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{199D0418-3EDE-4dc9-9415-56020B0474C0}",
+      "codelist": [],
+      "definition": {
+        "en": "a unique short label given to an entity"
+      },
+      "definition-en": {
+        "en": "a unique short label given to an entity"
+      },
+      "domain": [
+        {
+          "EA-Name": "Station",
+          "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Station",
+        "EA-Domain-Guid": "{FA14BC3D-F373-4e42-8D82-4E6CCE7F8138}",
+        "EA-Guid": "{199D0418-3EDE-4dc9-9415-56020B0474C0}",
+        "EA-Name": "name",
+        "EA-Package": "air-cz",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "a unique short label given to an entity"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "stationName"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "en": "a unique short label given to an entity"
+        },
+        "definition-en": {
+          "en": "a unique short label given to an entity"
+        },
+        "equivalent": "",
+        "label": {
+          "en": "name"
+        },
+        "label-en": {
+          "en": "name"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "name"
+      },
+      "label-en": {
+        "en": "name"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "name",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
         }
       ]
     },
@@ -2312,7 +2362,7 @@
   "title-en": {
     "en": "TODO"
   },
-  "toolchaincommit": "97691f2f794c6a2922396336cec096e262c046ce",
+  "toolchaincommit": "13abc949e36e3156d8b398d85c1e5fdaf9afeaa9",
   "translation": [
     {
       "language": "en",
@@ -2322,7 +2372,7 @@
       "translationjson": "air-cz-voc_en.json"
     }
   ],
-  "trigger": 2,
+  "trigger": 3,
   "type": "voc",
   "urlref": "/doc/vocabulary/air-cz"
 }

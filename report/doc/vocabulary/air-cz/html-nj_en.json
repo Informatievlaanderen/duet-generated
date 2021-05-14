@@ -10,8 +10,8 @@
     "license": "https://creativecommons.org/share-your-work/public-domain/cc0/",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/duet-vocabularies/tree/02e5f4fc66db68d3a4b41fe5b4925421abd8c575",
-    "changelogurl": "https://github.com/Informatievlaanderen/duet-vocabularies/blob/02e5f4fc66db68d3a4b41fe5b4925421abd8c575/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/duet-vocabularies/tree/ee6cb02c249887c250657de4d3c743f9bc306277",
+    "changelogurl": "https://github.com/Informatievlaanderen/duet-vocabularies/blob/ee6cb02c249887c250657de4d3c743f9bc306277/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/duet-vocabularies/issues",
     "standaardregisterurl": " ",
     "usesVocs": [],
@@ -110,101 +110,6 @@
       "parents": []
     },
     {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "name": "code",
-      "label": {
-        "en": "code"
-      },
-      "sort": "code",
-      "description": {
-        "en": "the air quality component that is measured"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#Component"
-      ],
-      "range": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "name": "code",
-      "label": {
-        "en": "code"
-      },
-      "sort": "code",
-      "description": {
-        "en": "a notation identifying the entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#State"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "name": "code",
-      "label": {
-        "en": "code"
-      },
-      "sort": "code",
-      "description": {
-        "en": "a notiation identifying the entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "name": "code",
-      "label": {
-        "en": "code"
-      },
-      "sort": "code",
-      "description": {
-        "en": "a notation identifying the entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
-      "name": "code",
-      "label": {
-        "en": "code"
-      },
-      "sort": "code",
-      "description": {
-        "en": "a notation identifying the air quality component"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
       "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#component",
       "name": "component",
       "label": {
@@ -224,18 +129,18 @@
       "parents": []
     },
     {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#date from UTC",
-      "name": "date from (UTC)",
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeCode",
+      "name": "code",
       "label": {
-        "en": "date from (UTC)"
+        "en": "code"
       },
-      "sort": "date from (UTC)",
+      "sort": "code",
       "description": {
-        "en": "the measurement period start datetime in UTC"
+        "en": "a notation identifying the air quality component"
       },
       "usage": {},
       "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+        "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#string"
@@ -243,7 +148,45 @@
       "parents": []
     },
     {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#date from-to",
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeName",
+      "name": "name",
+      "label": {
+        "en": "name"
+      },
+      "sort": "name",
+      "description": {
+        "en": "a unique short label given to an entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#componentcode",
+      "name": "code",
+      "label": {
+        "en": "code"
+      },
+      "sort": "code",
+      "description": {
+        "en": "the air quality component that is measured"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#Component"
+      ],
+      "range": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#dateFromTo",
       "name": "date from-to",
       "label": {
         "en": "date from-to"
@@ -262,7 +205,26 @@
       "parents": []
     },
     {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#date to UTC",
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#dateFromUTC",
+      "name": "date from (UTC)",
+      "label": {
+        "en": "date from (UTC)"
+      },
+      "sort": "date from (UTC)",
+      "description": {
+        "en": "the measurement period start datetime in UTC"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#dateToUTC",
       "name": "date to (UTC)",
       "label": {
         "en": "date to (UTC)"
@@ -334,82 +296,6 @@
       "parents": []
     },
     {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "name": "name",
-      "label": {
-        "en": "name"
-      },
-      "sort": "name",
-      "description": {
-        "en": "a unique short label given to an entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#State"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "name": "name",
-      "label": {
-        "en": "name"
-      },
-      "sort": "name",
-      "description": {
-        "en": "a unique short label given to an entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "name": "name",
-      "label": {
-        "en": "name"
-      },
-      "sort": "name",
-      "description": {
-        "en": "a unique short label given to an entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
-      "name": "name",
-      "label": {
-        "en": "name"
-      },
-      "sort": "name",
-      "description": {
-        "en": "a unique short label given to an entity"
-      },
-      "usage": {},
-      "domain": [
-        "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
-      ],
-      "parents": []
-    },
-    {
       "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#owner",
       "name": "owner",
       "label": {
@@ -448,6 +334,82 @@
       "parents": []
     },
     {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#regionCode",
+      "name": "code",
+      "label": {
+        "en": "code"
+      },
+      "sort": "code",
+      "description": {
+        "en": "a notiation identifying the entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#regionName",
+      "name": "name",
+      "label": {
+        "en": "name"
+      },
+      "sort": "name",
+      "description": {
+        "en": "a unique short label given to an entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#stateCode",
+      "name": "code",
+      "label": {
+        "en": "code"
+      },
+      "sort": "code",
+      "description": {
+        "en": "a notation identifying the entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#stateName",
+      "name": "name",
+      "label": {
+        "en": "name"
+      },
+      "sort": "name",
+      "description": {
+        "en": "a unique short label given to an entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#station",
       "name": "station",
       "label": {
@@ -463,6 +425,44 @@
       ],
       "range": [
         "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#stationCode",
+      "name": "code",
+      "label": {
+        "en": "code"
+      },
+      "sort": "code",
+      "description": {
+        "en": "a notation identifying the entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://duet.dev-vlaanderen.be/ns/air-cz#stationName",
+      "name": "name",
+      "label": {
+        "en": "name"
+      },
+      "sort": "name",
+      "description": {
+        "en": "a unique short label given to an entity"
+      },
+      "usage": {},
+      "domain": [
+        "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
       ],
       "parents": []
     },

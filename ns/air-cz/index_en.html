@@ -123,8 +123,8 @@
                 </div>
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Source</dt><dd><a href="https://github.com/Informatievlaanderen/duet-vocabularies/tree/02e5f4fc66db68d3a4b41fe5b4925421abd8c575">https://github.com/Informatievlaanderen/duet-vocabularies/tree/02e5f4fc66db68d3a4b41fe5b4925421abd8c575</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/duet-vocabularies/blob/02e5f4fc66db68d3a4b41fe5b4925421abd8c575/CHANGELOG">https://github.com/Informatievlaanderen/duet-vocabularies/blob/02e5f4fc66db68d3a4b41fe5b4925421abd8c575/CHANGELOG</a></dd>
+              <dt>Source</dt><dd><a href="https://github.com/Informatievlaanderen/duet-vocabularies/tree/ee6cb02c249887c250657de4d3c743f9bc306277">https://github.com/Informatievlaanderen/duet-vocabularies/tree/ee6cb02c249887c250657de4d3c743f9bc306277</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/duet-vocabularies/blob/ee6cb02c249887c250657de4d3c743f9bc306277/CHANGELOG">https://github.com/Informatievlaanderen/duet-vocabularies/blob/ee6cb02c249887c250657de4d3c743f9bc306277/CHANGELOG</a></dd>
               <dt id="feedbackurl">Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/duet-vocabularies/issues">https://github.com/Informatievlaanderen/duet-vocabularies/issues</a></dd>
               <dt>Registry of standards</dt><dd><a href=" "> </a></dd>
 
@@ -240,23 +240,23 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                             
                                             <a href="#classification" rel="property">classification</a> |
                                             
-                                            <a href="#code" rel="property">code</a> |
+                                            <a href="#stationCode" rel="property">code</a> |
                                             
-                                            <a href="#code" rel="property">code</a> |
+                                            <a href="#stateCode" rel="property">code</a> |
                                             
-                                            <a href="#code" rel="property">code</a> |
+                                            <a href="#componentcode" rel="property">code</a> |
                                             
-                                            <a href="#code" rel="property">code</a> |
+                                            <a href="#regionCode" rel="property">code</a> |
                                             
-                                            <a href="#code" rel="property">code</a> |
+                                            <a href="#componentTypeCode" rel="property">code</a> |
                                             
                                             <a href="#component" rel="property">component</a> |
                                             
-                                            <a href="#date from UTC" rel="property">date from (UTC)</a> |
+                                            <a href="#dateFromUTC" rel="property">date from (UTC)</a> |
                                             
-                                            <a href="#date from-to" rel="property">date from-to</a> |
+                                            <a href="#dateFromTo" rel="property">date from-to</a> |
                                             
-                                            <a href="#date to UTC" rel="property">date to (UTC)</a> |
+                                            <a href="#dateToUTC" rel="property">date to (UTC)</a> |
                                             
                                             <a href="#interval" rel="property">interval</a> |
                                             
@@ -264,13 +264,13 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                             
                                             <a href="#longitude" rel="property">longitude</a> |
                                             
-                                            <a href="#name" rel="property">name</a> |
+                                            <a href="#regionName" rel="property">name</a> |
                                             
-                                            <a href="#name" rel="property">name</a> |
+                                            <a href="#componentTypeName" rel="property">name</a> |
                                             
-                                            <a href="#name" rel="property">name</a> |
+                                            <a href="#stateName" rel="property">name</a> |
                                             
-                                            <a href="#name" rel="property">name</a> |
+                                            <a href="#stationName" rel="property">name</a> |
                                             
                                             <a href="#owner" rel="property">owner</a> |
                                             
@@ -507,7 +507,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="code">Property <em>code</em></h3>
+                                    <h3 class="h3"  id="stationCode">Property <em>code</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -516,91 +516,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#code</code></td>
-                                          </tr>
-                                           
-                                          <tr>
-                                            <th>Domain</th>
-                                            <td><code>
-                                                
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#Component 
-                                                
-                                            </code></td>
-                                          </tr>
-                                           
-                                          
-                                          <tr>
-                                            <th>Range</th>
-                                            <td><code>
-                                                
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType 
-                                                
-                                            </code></td>
-                                          </tr>
-                                          
-                                          
-                                          <tr>
-                                            <th>Definition</th>
-                                            <td>the air quality component that is measured</td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                    </table>
-                                </div>
-                                
-                                <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="code">Property <em>code</em></h3>
-                                    <table class="definition">
-                                        <tbody>
-                                          <tr>
-                                            <th>Type</th>
-                                            <td>Property</td>
-                                          </tr>
-                                          <tr>
-                                            <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#code</code></td>
-                                          </tr>
-                                           
-                                          <tr>
-                                            <th>Domain</th>
-                                            <td><code>
-                                                
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#Region 
-                                                
-                                            </code></td>
-                                          </tr>
-                                           
-                                          
-                                          <tr>
-                                            <th>Range</th>
-                                            <td><code>
-                                                
-                                                  http://www.w3.org/2001/XMLSchema#string 
-                                                
-                                            </code></td>
-                                          </tr>
-                                          
-                                          
-                                          <tr>
-                                            <th>Definition</th>
-                                            <td>a notiation identifying the entity</td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                    </table>
-                                </div>
-                                
-                                <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="code">Property <em>code</em></h3>
-                                    <table class="definition">
-                                        <tbody>
-                                          <tr>
-                                            <th>Type</th>
-                                            <td>Property</td>
-                                          </tr>
-                                          <tr>
-                                            <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#code</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#stationCode</code></td>
                                           </tr>
                                            
                                           <tr>
@@ -633,7 +549,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="code">Property <em>code</em></h3>
+                                    <h3 class="h3"  id="stateCode">Property <em>code</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -642,49 +558,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#code</code></td>
-                                          </tr>
-                                           
-                                          <tr>
-                                            <th>Domain</th>
-                                            <td><code>
-                                                
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType 
-                                                
-                                            </code></td>
-                                          </tr>
-                                           
-                                          
-                                          <tr>
-                                            <th>Range</th>
-                                            <td><code>
-                                                
-                                                  http://www.w3.org/2001/XMLSchema#string 
-                                                
-                                            </code></td>
-                                          </tr>
-                                          
-                                          
-                                          <tr>
-                                            <th>Definition</th>
-                                            <td>a notation identifying the air quality component</td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                    </table>
-                                </div>
-                                
-                                <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="code">Property <em>code</em></h3>
-                                    <table class="definition">
-                                        <tbody>
-                                          <tr>
-                                            <th>Type</th>
-                                            <td>Property</td>
-                                          </tr>
-                                          <tr>
-                                            <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#code</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#stateCode</code></td>
                                           </tr>
                                            
                                           <tr>
@@ -710,6 +584,132 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           <tr>
                                             <th>Definition</th>
                                             <td>a notation identifying the entity</td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div class="region region--no-space-top">
+                                    <h3 class="h3"  id="componentcode">Property <em>code</em></h3>
+                                    <table class="definition">
+                                        <tbody>
+                                          <tr>
+                                            <th>Type</th>
+                                            <td>Property</td>
+                                          </tr>
+                                          <tr>
+                                            <th>URI</th>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#componentcode</code></td>
+                                          </tr>
+                                           
+                                          <tr>
+                                            <th>Domain</th>
+                                            <td><code>
+                                                
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#Component 
+                                                
+                                            </code></td>
+                                          </tr>
+                                           
+                                          
+                                          <tr>
+                                            <th>Range</th>
+                                            <td><code>
+                                                
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType 
+                                                
+                                            </code></td>
+                                          </tr>
+                                          
+                                          
+                                          <tr>
+                                            <th>Definition</th>
+                                            <td>the air quality component that is measured</td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div class="region region--no-space-top">
+                                    <h3 class="h3"  id="regionCode">Property <em>code</em></h3>
+                                    <table class="definition">
+                                        <tbody>
+                                          <tr>
+                                            <th>Type</th>
+                                            <td>Property</td>
+                                          </tr>
+                                          <tr>
+                                            <th>URI</th>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#regionCode</code></td>
+                                          </tr>
+                                           
+                                          <tr>
+                                            <th>Domain</th>
+                                            <td><code>
+                                                
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#Region 
+                                                
+                                            </code></td>
+                                          </tr>
+                                           
+                                          
+                                          <tr>
+                                            <th>Range</th>
+                                            <td><code>
+                                                
+                                                  http://www.w3.org/2001/XMLSchema#string 
+                                                
+                                            </code></td>
+                                          </tr>
+                                          
+                                          
+                                          <tr>
+                                            <th>Definition</th>
+                                            <td>a notiation identifying the entity</td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div class="region region--no-space-top">
+                                    <h3 class="h3"  id="componentTypeCode">Property <em>code</em></h3>
+                                    <table class="definition">
+                                        <tbody>
+                                          <tr>
+                                            <th>Type</th>
+                                            <td>Property</td>
+                                          </tr>
+                                          <tr>
+                                            <th>URI</th>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeCode</code></td>
+                                          </tr>
+                                           
+                                          <tr>
+                                            <th>Domain</th>
+                                            <td><code>
+                                                
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType 
+                                                
+                                            </code></td>
+                                          </tr>
+                                           
+                                          
+                                          <tr>
+                                            <th>Range</th>
+                                            <td><code>
+                                                
+                                                  http://www.w3.org/2001/XMLSchema#string 
+                                                
+                                            </code></td>
+                                          </tr>
+                                          
+                                          
+                                          <tr>
+                                            <th>Definition</th>
+                                            <td>a notation identifying the air quality component</td>
                                           </tr>
                                           
                                         </tbody>
@@ -759,7 +759,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="date from UTC">Property <em>date from (UTC)</em></h3>
+                                    <h3 class="h3"  id="dateFromUTC">Property <em>date from (UTC)</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -768,7 +768,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#date from UTC</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#dateFromUTC</code></td>
                                           </tr>
                                            
                                           <tr>
@@ -801,7 +801,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="date from-to">Property <em>date from-to</em></h3>
+                                    <h3 class="h3"  id="dateFromTo">Property <em>date from-to</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -810,7 +810,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#date from-to</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#dateFromTo</code></td>
                                           </tr>
                                            
                                           <tr>
@@ -843,7 +843,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="date to UTC">Property <em>date to (UTC)</em></h3>
+                                    <h3 class="h3"  id="dateToUTC">Property <em>date to (UTC)</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -852,7 +852,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#date to UTC</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#dateToUTC</code></td>
                                           </tr>
                                            
                                           <tr>
@@ -993,7 +993,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="name">Property <em>name</em></h3>
+                                    <h3 class="h3"  id="regionName">Property <em>name</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -1002,49 +1002,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#name</code></td>
-                                          </tr>
-                                           
-                                          <tr>
-                                            <th>Domain</th>
-                                            <td><code>
-                                                
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#State 
-                                                
-                                            </code></td>
-                                          </tr>
-                                           
-                                          
-                                          <tr>
-                                            <th>Range</th>
-                                            <td><code>
-                                                
-                                                  http://www.w3.org/2001/XMLSchema#string 
-                                                
-                                            </code></td>
-                                          </tr>
-                                          
-                                          
-                                          <tr>
-                                            <th>Definition</th>
-                                            <td>a unique short label given to an entity</td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                    </table>
-                                </div>
-                                
-                                <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="name">Property <em>name</em></h3>
-                                    <table class="definition">
-                                        <tbody>
-                                          <tr>
-                                            <th>Type</th>
-                                            <td>Property</td>
-                                          </tr>
-                                          <tr>
-                                            <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#name</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#regionName</code></td>
                                           </tr>
                                            
                                           <tr>
@@ -1077,7 +1035,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="name">Property <em>name</em></h3>
+                                    <h3 class="h3"  id="componentTypeName">Property <em>name</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -1086,14 +1044,14 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#name</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeName</code></td>
                                           </tr>
                                            
                                           <tr>
                                             <th>Domain</th>
                                             <td><code>
                                                 
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#Station 
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType 
                                                 
                                             </code></td>
                                           </tr>
@@ -1119,7 +1077,7 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                 </div>
                                 
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="name">Property <em>name</em></h3>
+                                    <h3 class="h3"  id="stateName">Property <em>name</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>
@@ -1128,14 +1086,56 @@ This vocabulary supports the air quality data disclosed in the <a href="https://
                                           </tr>
                                           <tr>
                                             <th>URI</th>
-                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#name</code></td>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#stateName</code></td>
                                           </tr>
                                            
                                           <tr>
                                             <th>Domain</th>
                                             <td><code>
                                                 
-                                                  https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType 
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#State 
+                                                
+                                            </code></td>
+                                          </tr>
+                                           
+                                          
+                                          <tr>
+                                            <th>Range</th>
+                                            <td><code>
+                                                
+                                                  http://www.w3.org/2001/XMLSchema#string 
+                                                
+                                            </code></td>
+                                          </tr>
+                                          
+                                          
+                                          <tr>
+                                            <th>Definition</th>
+                                            <td>a unique short label given to an entity</td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div class="region region--no-space-top">
+                                    <h3 class="h3"  id="stationName">Property <em>name</em></h3>
+                                    <table class="definition">
+                                        <tbody>
+                                          <tr>
+                                            <th>Type</th>
+                                            <td>Property</td>
+                                          </tr>
+                                          <tr>
+                                            <th>URI</th>
+                                            <td><code>https://duet.dev-vlaanderen.be/ns/air-cz#stationName</code></td>
+                                          </tr>
+                                           
+                                          <tr>
+                                            <th>Domain</th>
+                                            <td><code>
+                                                
+                                                  https://duet.dev-vlaanderen.be/ns/air-cz#Station 
                                                 
                                             </code></td>
                                           </tr>

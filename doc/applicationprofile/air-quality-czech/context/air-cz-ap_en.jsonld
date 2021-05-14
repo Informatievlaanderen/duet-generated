@@ -3,7 +3,7 @@
     "Component": "https://duet.dev-vlaanderen.be/ns/air-cz#Component",
     "Component.code": {
       "@container": "@set",
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#componentcode",
       "@type": "@id"
     },
     "Component.interval": {
@@ -16,11 +16,11 @@
     },
     "ComponentType": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType",
     "ComponentType.code": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeCode",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "ComponentType.name": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#componentTypeName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "ComponentType.unit": {
@@ -29,11 +29,11 @@
     },
     "Region": "https://duet.dev-vlaanderen.be/ns/air-cz#Region",
     "Region.code": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#regionCode",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Region.name": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#regionName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Region.station": {
@@ -43,23 +43,23 @@
     },
     "State": "https://duet.dev-vlaanderen.be/ns/air-cz#State",
     "State.code": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stateCode",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "State.dateFrom (utc)": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#date from UTC",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#dateFromUTC",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "State.dateFromTo": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#date from-to",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#dateFromTo",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "State.dateTo (utc)": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#date to UTC",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#dateToUTC",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "State.name": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stateName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "State.region": {
@@ -73,7 +73,7 @@
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Station.code": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#code",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stationCode",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Station.component": {
@@ -90,7 +90,7 @@
       "@type": ""
     },
     "Station.name": {
-      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#name",
+      "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#stationName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Station.owner": {
