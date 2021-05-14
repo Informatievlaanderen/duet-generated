@@ -3,387 +3,387 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "air-cz".
-09:59:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#name): air-cz.air-cz:ComponentType:name, air-cz.air-cz:Station:name, air-cz.air-cz:State:name, air-cz.air-cz:Region:name
-09:59:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#code): air-cz.air-cz:ComponentType:code, air-cz.air-cz:Region:code, air-cz.air-cz:State:code, air-cz.air-cz:Station:code
-09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
-09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
-09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
-09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
-09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "State" .
-09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Region" .
-09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Station" .
-09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Component" .
-09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ComponentType" .
-09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:State:region" belongs to package "air-cz" based on source and target definition.
-09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Station:component" belongs to package "air-cz" based on source and target definition.
-09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Region:station" belongs to package "air-cz" based on source and target definition.
-09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Component:code" belongs to package "air-cz" based on source and target definition.
-09:59:52 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:latitude".
-09:59:52 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:longitude".
-09:59:52 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Component:value".
+10:25:47 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "air-cz".
+10:25:47 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#name): air-cz.air-cz:ComponentType:name, air-cz.air-cz:Station:name, air-cz.air-cz:State:name, air-cz.air-cz:Region:name
+10:25:47 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#code): air-cz.air-cz:ComponentType:code, air-cz.air-cz:Region:code, air-cz.air-cz:State:code, air-cz.air-cz:Station:code
+10:25:47 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
+10:25:47 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
+10:25:47 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
+10:25:47 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
+10:25:47 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "State" .
+10:25:47 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Region" .
+10:25:47 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Station" .
+10:25:47 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Component" .
+10:25:47 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ComponentType" .
+10:25:47 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:State:region" belongs to package "air-cz" based on source and target definition.
+10:25:47 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Station:component" belongs to package "air-cz" based on source and target definition.
+10:25:47 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Region:station" belongs to package "air-cz" based on source and target definition.
+10:25:47 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Component:code" belongs to package "air-cz" based on source and target definition.
+10:25:47 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:latitude".
+10:25:47 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:longitude".
+10:25:47 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Component:value".
 /tmp/workspace/src/doc/vocabulary/air-quality-czech
 Load mapping config:config/config-voc.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "air-cz".
-09:59:54 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#name): air-cz.air-cz:ComponentType:name, air-cz.air-cz:Station:name, air-cz.air-cz:State:name, air-cz.air-cz:Region:name
-09:59:54 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#code): air-cz.air-cz:ComponentType:code, air-cz.air-cz:Region:code, air-cz.air-cz:State:code, air-cz.air-cz:Station:code
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
-09:59:54 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
-09:59:54 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "State" .
-09:59:55 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Region" .
-09:59:55 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Station" .
-09:59:55 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Component" .
-09:59:55 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ComponentType" .
-09:59:55 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:State:region" belongs to package "air-cz" based on source and target definition.
-09:59:55 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Station:component" belongs to package "air-cz" based on source and target definition.
-09:59:55 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Region:station" belongs to package "air-cz" based on source and target definition.
-09:59:55 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Component:code" belongs to package "air-cz" based on source and target definition.
-09:59:55 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:latitude".
-09:59:55 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:longitude".
-09:59:55 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Component:value".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "air-cz".
+10:25:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#name): air-cz.air-cz:ComponentType:name, air-cz.air-cz:Station:name, air-cz.air-cz:State:name, air-cz.air-cz:Region:name
+10:25:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#code): air-cz.air-cz:ComponentType:code, air-cz.air-cz:Region:code, air-cz.air-cz:State:code, air-cz.air-cz:Station:code
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "title-en" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
+10:25:50 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
+10:25:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "State" .
+10:25:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Region" .
+10:25:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Station" .
+10:25:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Component" .
+10:25:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ComponentType" .
+10:25:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:State:region" belongs to package "air-cz" based on source and target definition.
+10:25:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Station:component" belongs to package "air-cz" based on source and target definition.
+10:25:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Region:station" belongs to package "air-cz" based on source and target definition.
+10:25:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Component:code" belongs to package "air-cz" based on source and target definition.
+10:25:50 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:latitude".
+10:25:50 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:longitude".
+10:25:50 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Component:value".
 /tmp/workspace/src/doc/applicationprofile/addressregistry
 Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister".
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.OSLO²_applicatieprofiel_Adres_adresregister
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:FunctieWaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:NACE, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:CriteriumVereisteType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:KanaalType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdministratiefNiveau, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:COFOG, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaatscode, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:ParticipatieRol, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:OutputType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:BewijsType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Code, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:NAL_currency, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:ADMSStatusVocabularium, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:GebeurtenisType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouwstatusWaarde
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Output): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Agent): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Agent, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Agent
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalstring, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#status): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:status, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:status
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:taal, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Richtlijn:taal, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:taal
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/hoursAvailable): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:ContactInfo:beschikbaarheid, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kanaal:beschikbaarheid
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Richtlijn:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Gebeurtenis:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Participatie:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kost:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:PubliekeOrganisatie:beschrijving
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Gebeurtenis:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:CriteriumVereiste:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kanaal:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:type
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/page): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:documentatie, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:ContactInfo:website
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:CriteriumVereiste:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Agent:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Gebeurtenis:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Richtlijn:naam
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#prefLabel): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Bestuur:Bestuursorgaan:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Organisatie:voorkeursnaam
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/persoon#burgerlijkeStaat): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Persoon:BurgerlijkeStaat:burgerlijkeStaat, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Persoon:BurgerlijkeStaatInfo:burgerlijkeStaat
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://www.w3.org/ns/org#role): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Lidmaatschap:rol, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Functie:rol
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#notation): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Identificator:identificator, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Organisatie:code
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:PubliekeOrganisatie:werkingsgebied, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:toepassingsgebied
-09:59:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/openingHours): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kanaal:openingsuren, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:ContactInfo:openingsuren
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gemeente" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
-09:59:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GebouweenheidstatusWaarde" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GebouweenheidstatusWaarde without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.Converter - Skipping class "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:Gebouweenheid" since it is marked as ignored.
-09:59:57 INFO  c.g.i.o.c.Converter - Skipping class "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:Gebouw" since it is marked as ignored.
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plaats" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
-09:59:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Taalcode" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Taalcode without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeometrieSpecificatieWaarde" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GeometrieSpecificatieWaarde without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeometrieMethodeWaarde" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GeometrieMethodeWaarde without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeografischeNaam" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeografischePositie" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatorniveauwaarde" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatorniveauwaarde without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adreslocator" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatienaamtype" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatienaamtype without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatieaanduidingtype" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatieaanduidingtype without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Statuswaarde" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Statuswaarde without label, further processing this class will be incoherent
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatienaam" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatieaanduiding" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gemeentenaam" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
-09:59:57 INFO  c.g.i.o.c.Converter - Skipping class "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Perceel:Perceel" since it is marked as ignored.
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Ligplaats" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Ligplaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Ligplaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Ligplaats".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Standplaats" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Standplaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Standplaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Standplaats".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Postinfo" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresuitbreiding" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Straatnaam" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "AdresseerbaarObject" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
-09:59:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adres" .
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
-09:59:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet" belongs to package "OSLO-Adres" based on source and target definition.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:isAfgeleidVan".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:isAfgeleidVan".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:isAfgeleidVan".
-09:59:57 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property isAfgeleidVan without name, further processing this property will be incoherent
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adresIsGelegenIn".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adresIsGelegenIn".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adresIsGelegenIn".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendDoor".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendDoor".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendDoor".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isToegekendDoor".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isToegekendDoor".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isToegekendDoor".
-09:59:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar" belongs to package "OSLO-Adres" based on source and target definition.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar".
-09:59:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo" belongs to package "OSLO-Adres" based on source and target definition.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo".
-09:59:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam" belongs to package "OSLO-Adres" based on source and target definition.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam".
-09:59:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam" belongs to package "OSLO-Adres" based on source and target definition.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam".
-09:59:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan" belongs to package "OSLO-Adres" based on source and target definition.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam".
-09:59:57 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam:spelling" since it is marked as ignored.
-09:59:57 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam:taal" since it is marked as ignored.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:default".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:default".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:default".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:methode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:methode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:methode".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property methode without name, further processing this property will be incoherent
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:specificatie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:specificatie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:specificatie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:aanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:aanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:aanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:naam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:naam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:naam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:niveau".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:niveau".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:niveau".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:type".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:type".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:type".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:aanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:aanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:aanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:type".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:type".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:type".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:adresgebied".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:adresgebied".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:adresgebied".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:busnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:busnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:busnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:huisnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:huisnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:huisnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:land".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:land".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:land".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatieaanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatieaanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatieaanduiding".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatienaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatienaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatienaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postbus".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postbus".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postbus".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:volledigAdres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:volledigAdres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:volledigAdres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postcode".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adreslocator".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adreslocator".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adreslocator".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:volledigAdres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:volledigAdres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:volledigAdres".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:homoniemToevoeging".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:homoniemToevoeging".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:homoniemToevoeging".
-09:59:57 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isAdresGebied" since it is marked as ignored.
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:status".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:status".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:status".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:busnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:busnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:busnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:huisnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:huisnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:huisnummer".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:officieelToegekend".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:officieelToegekend".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:officieelToegekend".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:positie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:positie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:positie".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:status".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:status".
-09:59:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:status".
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Perceel - {7E074E42-881F-4e8a-B25D-1E46BBBBC135}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Gemeente - {2A307EFC-E7D5-4915-B26E-B092136AD674}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Straat - {9577126B-C1C6-405b-9920-27C6A71BD376}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Lot - {45A4FCBD-5D93-4b0a-8DB3-B38754CD1721}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Standplaats - {CF0420D3-B63E-4f41-A88E-CE6C0CACB221}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Ingang - {84138174-A1E2-41d5-A27F-AC99D3A6DA87}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Ligplaats - {81F0856B-D208-4fd3-9B5B-370633D1AFB0}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Gebouw - {706A8C5F-32D1-48fd-9FBA-F87B26C65EA2}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Gebouweenheid - {CAFEC549-4AEA-4590-BFBB-81FDCF7D316C}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Brievenbus - {8F739055-8938-4519-8CC2-C594C1FC2E9B}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Postkanton - {D0C6CEF9-EA09-42ef-A842-DC3921AF216E}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Wegsegment - {25C4FCB3-6857-474e-86B4-C259260D2B22}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Straattoegang - {BDE23FB1-0452-4a4f-AC88-FBF185969651}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Aansluitpunt - {5E76BA3C-B80A-4fea-A30D-F3F516B55803}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: AangeduidDoorBeheerder - {008FF920-E723-4df5-A0A8-07EC8FB8C889}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: AfgeleidVanObject - {301E1B1B-0BDE-4a4e-8DF6-8240270E6C45}
-09:59:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: AangeduidDoorDerde - {89DE5657-6081-44fb-B9AE-AD035F01CEDB}
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister".
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.OSLO²_applicatieprofiel_Adres_adresregister
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:FunctieWaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:NACE, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:CriteriumVereisteType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:KanaalType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdministratiefNiveau, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:COFOG, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaatscode, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:ParticipatieRol, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:OutputType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:BewijsType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Code, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:NAL_currency, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:ADMSStatusVocabularium, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:GebeurtenisType, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouwstatusWaarde
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Output): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Agent): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Agent, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Agent
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalstring, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#status): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:status, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:status
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:taal, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Richtlijn:taal, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:taal
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/hoursAvailable): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:ContactInfo:beschikbaarheid, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kanaal:beschikbaarheid
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Richtlijn:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Gebeurtenis:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Participatie:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kost:beschrijving, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:PubliekeOrganisatie:beschrijving
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Gebeurtenis:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:CriteriumVereiste:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kanaal:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:type, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:type
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/page): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:documentatie, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:ContactInfo:website
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Output:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:FormeelKader:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:CriteriumVereiste:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Agent:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Gebeurtenis:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Bewijs:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Richtlijn:naam
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#prefLabel): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Bestuur:Bestuursorgaan:naam, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Organisatie:voorkeursnaam
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/persoon#burgerlijkeStaat): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Persoon:BurgerlijkeStaat:burgerlijkeStaat, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Persoon:BurgerlijkeStaatInfo:burgerlijkeStaat
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://www.w3.org/ns/org#role): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Lidmaatschap:rol, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Functie:rol
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#notation): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Identificator:identificator, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:Organisatie:code
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Organisatie:PubliekeOrganisatie:werkingsgebied, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:PubliekeDienstverlening:toepassingsgebied
+10:25:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/openingHours): Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Dienst:Kanaal:openingsuren, Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:ContactInfo:openingsuren
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gemeente" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
+10:25:52 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GebouweenheidstatusWaarde" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:GebouweenheidstatusWaarde".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GebouweenheidstatusWaarde without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.Converter - Skipping class "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:Gebouweenheid" since it is marked as ignored.
+10:25:52 INFO  c.g.i.o.c.Converter - Skipping class "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Gebouw:Gebouw" since it is marked as ignored.
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plaats" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
+10:25:52 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Taalcode" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Taalcode".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Taalcode without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeometrieSpecificatieWaarde" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieSpecificatieWaarde".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GeometrieSpecificatieWaarde without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeometrieMethodeWaarde" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeometrieMethodeWaarde".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GeometrieMethodeWaarde without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeografischeNaam" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeografischePositie" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatorniveauwaarde" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatorniveauwaarde".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatorniveauwaarde without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adreslocator" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatienaamtype" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaamtype".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatienaamtype without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatieaanduidingtype" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduidingtype".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatieaanduidingtype without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Statuswaarde" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Statuswaarde".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Statuswaarde without label, further processing this class will be incoherent
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatienaam" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatieaanduiding" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Gemeentenaam" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
+10:25:52 INFO  c.g.i.o.c.Converter - Skipping class "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Perceel:Perceel" since it is marked as ignored.
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Ligplaats" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Ligplaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Ligplaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Ligplaats".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Standplaats" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Standplaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Standplaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Standplaats".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Postinfo" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresuitbreiding" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Straatnaam" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "AdresseerbaarObject" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
+10:25:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adres" .
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Object".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
+10:25:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet" belongs to package "OSLO-Adres" based on source and target definition.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isVerrijktMet".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:isAfgeleidVan".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:isAfgeleidVan".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:isAfgeleidVan".
+10:25:52 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property isAfgeleidVan without name, further processing this property will be incoherent
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adresIsGelegenIn".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adresIsGelegenIn".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adresIsGelegenIn".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendDoor".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendDoor".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendDoor".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isToegekendDoor".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isToegekendDoor".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Gemeente".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isToegekendDoor".
+10:25:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar" belongs to package "OSLO-Adres" based on source and target definition.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:verwijstNaar".
+10:25:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo" belongs to package "OSLO-Adres" based on source and target definition.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftPostinfo".
+10:25:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam" belongs to package "OSLO-Adres" based on source and target definition.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftGemeentenaam".
+10:25:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam" belongs to package "OSLO-Adres" based on source and target definition.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:heeftStraatnaam".
+10:25:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan" belongs to package "OSLO-Adres" based on source and target definition.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:AdresseerbaarObject".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:isToegekendAan".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:geometrie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:Plaats:plaatsnaam".
+10:25:52 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam:spelling" since it is marked as ignored.
+10:25:52 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischeNaam:taal" since it is marked as ignored.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:default".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:default".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:default".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:geometrie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:methode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:methode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:methode".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property methode without name, further processing this property will be incoherent
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:specificatie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:specificatie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Generiek:GeografischePositie:specificatie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:aanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:aanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:aanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:naam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:naam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:naam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:niveau".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:niveau".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adreslocator:niveau".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:naam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:type".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:type".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatienaam:type".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:aanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:aanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:aanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:type".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:type".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Locatieaanduiding:type".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau1".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:administratieveEenheidNiveau2".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:adresgebied".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:adresgebied".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:adresgebied".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:busnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:busnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:busnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:huisnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:huisnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:huisnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:land".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:land".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:land".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatieaanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatieaanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatieaanduiding".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatienaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatienaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:locatienaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postbus".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postbus".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postbus".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:postnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:volledigAdres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:volledigAdres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresvoorstelling:volledigAdres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Gemeentenaam:gemeentenaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postcode".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Postinfo:postnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adreslocator".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adreslocator".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:adreslocator".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:volledigAdres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:volledigAdres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adresuitbreiding:volledigAdres".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:homoniemToevoeging".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:homoniemToevoeging".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:homoniemToevoeging".
+10:25:52 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:isAdresGebied" since it is marked as ignored.
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:status".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:status".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:status".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Straatnaam:straatnaam".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:busnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:busnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:busnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:huisnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:huisnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:huisnummer".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:officieelToegekend".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:officieelToegekend".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:officieelToegekend".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:positie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:positie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:positie".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:status".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:status".
+10:25:52 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.OSLO²_applicatieprofiel_Adres_adresregister.OSLO-Adres:Adres:status".
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Perceel - {7E074E42-881F-4e8a-B25D-1E46BBBBC135}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Gemeente - {2A307EFC-E7D5-4915-B26E-B092136AD674}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Straat - {9577126B-C1C6-405b-9920-27C6A71BD376}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Lot - {45A4FCBD-5D93-4b0a-8DB3-B38754CD1721}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Standplaats - {CF0420D3-B63E-4f41-A88E-CE6C0CACB221}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Ingang - {84138174-A1E2-41d5-A27F-AC99D3A6DA87}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Ligplaats - {81F0856B-D208-4fd3-9B5B-370633D1AFB0}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Gebouw - {706A8C5F-32D1-48fd-9FBA-F87B26C65EA2}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Gebouweenheid - {CAFEC549-4AEA-4590-BFBB-81FDCF7D316C}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Brievenbus - {8F739055-8938-4519-8CC2-C594C1FC2E9B}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Postkanton - {D0C6CEF9-EA09-42ef-A842-DC3921AF216E}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Wegsegment - {25C4FCB3-6857-474e-86B4-C259260D2B22}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Straattoegang - {BDE23FB1-0452-4a4f-AC88-FBF185969651}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Aansluitpunt - {5E76BA3C-B80A-4fea-A30D-F3F516B55803}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: AangeduidDoorBeheerder - {008FF920-E723-4df5-A0A8-07EC8FB8C889}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: AfgeleidVanObject - {301E1B1B-0BDE-4a4e-8DF6-8240270E6C45}
+10:25:52 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: AangeduidDoorDerde - {89DE5657-6081-44fb-B9AE-AD035F01CEDB}

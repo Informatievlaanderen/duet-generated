@@ -2,11 +2,11 @@
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en> <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#ComponentTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StateShape>,
+<https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en> <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StationShape>,
+    <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#ComponentTypeShape>,
     <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#ComponentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StationShape>,
-    <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#RegionShape> .
+    <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#RegionShape>,
+    <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StateShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#ComponentShape> a shacl:NodeShape;
   shacl:closed false;
@@ -35,18 +35,18 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
-    shacl:definition "the unit of measurement for the air quality component"@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "unit"@en;
-    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#unit>
-  ], [
-    shacl:datatype xsd:string;
     shacl:definition "a notation identifying the air quality component"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "code"@en;
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#code>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition "the unit of measurement for the air quality component"@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "unit"@en;
+    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#unit>
   ], [
     shacl:datatype xsd:string;
     shacl:definition "a unique short label given to an entity"@en;
@@ -61,11 +61,11 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
-    shacl:definition "a unique short label given to an entity"@en;
+    shacl:definition "a notiation identifying the entity"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "name"@en;
-    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#name>
+    shacl:name "code"@en;
+    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#code>
   ], [
     shacl:class <https://duet.dev-vlaanderen.be/ns/air-cz#Station>;
     shacl:definition "a air quality sensor station located in the region"@en;
@@ -73,11 +73,11 @@
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#station>
   ], [
     shacl:datatype xsd:string;
-    shacl:definition "a notiation identifying the entity"@en;
+    shacl:definition "a unique short label given to an entity"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "code"@en;
-    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#code>
+    shacl:name "name"@en;
+    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#name>
   ];
   shacl:targetClass <https://duet.dev-vlaanderen.be/ns/air-cz#Region> .
 
@@ -90,17 +90,23 @@
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#region>
   ], [
     shacl:datatype xsd:string;
+    shacl:definition "the measurement period in the default timezone of the Czech republic"@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "date from-to"@en
+  ], [
+    shacl:datatype xsd:string;
+    shacl:definition "the measurement period start datetime in UTC"@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "date from (UTC)"@en
+  ], [
+    shacl:datatype xsd:string;
     shacl:definition "a unique short label given to an entity"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "name"@en;
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#name>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "the measurement period end datetime in UTC"@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "date to (UTC)"@en
   ], [
     shacl:datatype xsd:string;
     shacl:definition "a notation identifying the entity"@en;
@@ -110,32 +116,22 @@
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#code>
   ], [
     shacl:datatype xsd:string;
-    shacl:definition "the measurement period start datetime in UTC"@en;
+    shacl:definition "the measurement period end datetime in UTC"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "date from (UTC)"@en
-  ], [
-    shacl:datatype xsd:string;
-    shacl:definition "the measurement period in the default timezone of the Czech republic"@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "date from-to"@en
+    shacl:name "date to (UTC)"@en
   ];
   shacl:targetClass <https://duet.dev-vlaanderen.be/ns/air-cz#State> .
 
 <https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:definition "the longituge position of the station"@en;
+    shacl:datatype xsd:string;
+    shacl:definition "a classification of the station"@en;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "longitude"@en;
-    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#longitude>
-  ], [
-    shacl:class <https://duet.dev-vlaanderen.be/ns/air-cz#Component>;
-    shacl:definition "a measurement for an air quality component by the station"@en;
-    shacl:name "component"@en;
-    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#component>
+    shacl:name "classification"@en;
+    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#classification>
   ], [
     shacl:datatype xsd:string;
     shacl:definition "a unique short label given to an entity"@en;
@@ -149,6 +145,12 @@
     shacl:minCount 1;
     shacl:name "latitude"@en;
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#latitude>
+  ], [
+    shacl:definition "the longituge position of the station"@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "longitude"@en;
+    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#longitude>
   ], [
     shacl:datatype xsd:string;
     shacl:definition "a notation identifying the entity"@en;
@@ -164,11 +166,9 @@
     shacl:name "owner"@en;
     shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#owner>
   ], [
-    shacl:datatype xsd:string;
-    shacl:definition "a classification of the station"@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "classification"@en;
-    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#classification>
+    shacl:class <https://duet.dev-vlaanderen.be/ns/air-cz#Component>;
+    shacl:definition "a measurement for an air quality component by the station"@en;
+    shacl:name "component"@en;
+    shacl:path <https://duet.dev-vlaanderen.be/ns/air-cz#component>
   ];
   shacl:targetClass <https://duet.dev-vlaanderen.be/ns/air-cz#Station> .
