@@ -6,43 +6,73 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/adressenregister_nl> <https://duet.dev-vlaanderen.be/shacl/adressenregister_nlshapes> <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GemeentenaamShape>,
+<https://duet.dev-vlaanderen.be/shacl/adressenregister_nl> <https://duet.dev-vlaanderen.be/shacl/adressenregister_nlshapes> <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#TaalcodeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GemeentenaamShape>,
     <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatieaanduidingShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#StandplaatsShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#PlaatsShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresseerbaarObjectShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresuitbreidingShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatienaamtypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#StraatnaamShape>,
     <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdreslocatorShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeografischeNaamShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatorniveauwaardeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#PostinfoShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatienaamShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GemeenteShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeografischePositieShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeometrieSpecificatieWaardeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LigplaatsShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeometrieMethodeWaardeShape>,
     <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatieaanduidingtypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#PlaatsShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresvoorstellingShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#PostinfoShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresuitbreidingShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeografischePositieShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#StandplaatsShape>,
     <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GebouweenheidstatusWaardeShape>,
     <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#StatuswaardeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#StraatnaamShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresvoorstellingShape>,
-    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#TaalcodeShape> .
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatienaamShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LigplaatsShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresseerbaarObjectShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatorniveauwaardeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatienaamtypeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeometrieMethodeWaardeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeografischeNaamShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GeometrieSpecificatieWaardeShape>,
+    <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GemeenteShape> .
 
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:string;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#busnummer>
+  ], [
     shacl:class <https://data.vlaanderen.be/ns/adres#Gemeentenaam>;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#heeftGemeentenaam>
   ], [
-    shacl:class <https://data.vlaanderen.be/ns/adres#AdresseerbaarObject>;
+    shacl:class <https://data.vlaanderen.be/ns/adres#Adresuitbreiding>;
+    shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#isToegekendAan>
+    shacl:path <https://data.vlaanderen.be/ns/adres#isVerrijktMet>
+  ], [
+    shacl:class skos:Concept;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#Adres.status>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/generiek#Gemeente>;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path prov:wasAttributedTo
+  ], [
+    shacl:datatype xsd:boolean;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#officieelToegekend>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/generiek#GeografischePositie>;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#positie>
   ], [
     shacl:class <https://data.vlaanderen.be/ns/adres#Postinfo>;
     shacl:maxCount 1;
@@ -52,49 +82,19 @@
   ], [
     shacl:datatype xsd:string;
     shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#busnummer>
-  ], [
-    shacl:class <https://data.vlaanderen.be/ns/adres#Adresuitbreiding>;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#isVerrijktMet>
-  ], [
-    shacl:datatype xsd:boolean;
-    shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#officieelToegekend>
+    shacl:path <https://data.vlaanderen.be/ns/adres#huisnummer>
   ], [
-    shacl:class skos:Concept;
-    shacl:maxCount 1;
-    shacl:minCount 1;
+    shacl:class <https://data.vlaanderen.be/ns/adres#AdresseerbaarObject>;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#Adres.status>
+    shacl:path <https://data.vlaanderen.be/ns/adres#isToegekendAan>
   ], [
     shacl:class <https://data.vlaanderen.be/ns/adres#Straatnaam>;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#heeftStraatnaam>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#huisnummer>
-  ], [
-    shacl:class <https://data.vlaanderen.be/ns/generiek#Gemeente>;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path prov:wasAttributedTo
-  ], [
-    shacl:class <https://data.vlaanderen.be/ns/generiek#GeografischePositie>;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#positie>
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Adres> .
 
@@ -105,15 +105,15 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#naam>
   ], [
+    shacl:class <https://data.vlaanderen.be/ns/adres#Locatieaanduiding>;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#aanduiding>
+  ], [
     shacl:class skos:Concept;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#niveau>
-  ], [
-    shacl:class <https://data.vlaanderen.be/ns/adres#Locatieaanduiding>;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#aanduiding>
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Adreslocator> .
 
@@ -124,10 +124,6 @@
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresuitbreidingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://data.vlaanderen.be/ns/adres#Adreslocator>;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#adreslocator>
-  ], [
     shacl:class dc:Location;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#adresIsGelegenIn>
@@ -135,21 +131,48 @@
     shacl:class rdf:langString;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#volledigAdres>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/adres#Adreslocator>;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#adreslocator>
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Adresuitbreiding> .
 
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#AdresvoorstellingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class rdf:langString;
+    shacl:datatype xsd:string;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#land>
+    shacl:path <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>
   ], [
     shacl:class rdf:langString;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#adminUnitL2>
+    shacl:path <http://www.w3.org/ns/locn#adminUnitL1>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#locatorDesignator>
+  ], [
+    shacl:class rdf:langString;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#thoroughfare>
+  ], [
+    shacl:class rdf:langString;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#gemeentenaam>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#postCode>
+  ], [
+    shacl:class rdf:langString;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#locatorName>
   ], [
     shacl:datatype xsd:string;
     shacl:maxCount 1;
@@ -159,26 +182,12 @@
     shacl:class rdf:langString;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#postName>
+    shacl:path <http://www.w3.org/ns/locn#fullAddress>
   ], [
     shacl:class rdf:langString;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#locatorName>
-  ], [
-    shacl:class <https://data.vlaanderen.be/ns/adres#Adres>;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#verwijstNaar>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#poBox>
+    shacl:path <http://www.w3.org/ns/locn#adminUnitL2>
   ], [
     shacl:class rdf:langString;
     shacl:maxCount 1;
@@ -188,31 +197,22 @@
     shacl:class rdf:langString;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#gemeentenaam>
+    shacl:path <http://www.w3.org/ns/locn#postName>
   ], [
     shacl:class rdf:langString;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#adminUnitL1>
+    shacl:path <https://data.vlaanderen.be/ns/adres#land>
   ], [
     shacl:datatype xsd:string;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#postCode>
+    shacl:path <http://www.w3.org/ns/locn#poBox>
   ], [
-    shacl:class rdf:langString;
+    shacl:class <https://data.vlaanderen.be/ns/adres#Adres>;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#thoroughfare>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#locatorDesignator>
-  ], [
-    shacl:class rdf:langString;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#fullAddress>
+    shacl:path <https://data.vlaanderen.be/ns/adres#verwijstNaar>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
 
@@ -227,15 +227,15 @@
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#GemeentenaamShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype rdf:langString;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path rdfs:label
-  ], [
     shacl:class <https://data.vlaanderen.be/ns/generiek#Gemeente>;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:path <https://data.vlaanderen.be/ns/adres#isAfgeleidVan>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path rdfs:label
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Gemeentenaam> .
 
@@ -250,16 +250,16 @@
     shacl:maxCount 1;
     shacl:path <https://data.vlaanderen.be/ns/generiek#methode>
   ], [
+    shacl:class skos:Concept;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/generiek#specificatie>
+  ], [
     shacl:datatype xsd:boolean;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/generiek#default>
-  ], [
-    shacl:class skos:Concept;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/generiek#specificatie>
   ], [
     shacl:class <http://www.opengis.net/ont/sf#Point>;
     shacl:maxCount 1;
@@ -305,16 +305,16 @@
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#LocatienaamShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path rdfs:label
+  ], [
     shacl:class skos:Concept;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#Locatienaam.type>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path rdfs:label
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Locatienaam> .
 
@@ -329,30 +329,30 @@
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#PlaatsShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://data.vlaanderen.be/ns/generiek#Geometrie>;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#geometry>
-  ], [
     shacl:datatype rdf:langString;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path rdfs:label
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/generiek#Geometrie>;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#geometry>
   ];
   shacl:targetClass dc:Location .
 
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#PostinfoShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://data.vlaanderen.be/ns/adres#postnaam>
+  ], [
     shacl:datatype xsd:string;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#postcode>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#postnaam>
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Postinfo> .
 
@@ -367,11 +367,6 @@
 <https://duet.dev-vlaanderen.be/shacl/adressenregister_nl#StraatnaamShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype rdf:langString;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path rdfs:label
-  ], [
     shacl:datatype xsd:string;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
@@ -388,6 +383,11 @@
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#Straatnaam.status>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path rdfs:label
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/adres#Straatnaam> .
 

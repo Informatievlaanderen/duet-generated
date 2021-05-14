@@ -79,16 +79,18 @@
     "@id": "https://duet.dev-vlaanderen.be/ns/air-cz",
     "@type": "http://www.w3.org/2002/07/owl#Ontology",
     "label": {
-        "nl": "air-cz-ap",
-        "en": "air-cz-ap"
+        "nl": "air-cz-voc",
+        "en": "air-cz-voc"
     },
-    "baseURI": "https://duet.dev-vlaanderen.be/ns/air-cz#",
     "issued": "TODO",
     "license": "https://creativecommons.org/share-your-work/public-domain/cc0/",
+    "title-en": {
+        "en": "TODO"
+    },
     "extra": {
         "EA-Name": "air-cz",
         "EA-Guid": "{DF094DED-0FE6-4fd6-9214-4A1BF2C0A1BB}",
-        "baseURI": "https://duet.dev-vlaanderen.be/ns/air-cz#",
+        "title-en": "TODO",
         "issued": "TODO",
         "license": "TODO",
         "RawTags": [
@@ -139,11 +141,11 @@
         {
             "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#Component",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "ap-definition-en": {
-                "en": "A measurement for an air quality component"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "Component"
+            },
+            "definition-en": {
+                "en": "A measurement for an air quality component"
             },
             "definition": {
                 "en": "A measurement for an air quality component"
@@ -166,14 +168,17 @@
                     "en": "A measurement for an air quality component"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "Component"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "A measurement for an air quality component"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -195,11 +200,11 @@
         {
             "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "ap-definition-en": {
-                "en": "the kind of air quality component"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "Component Type"
+            },
+            "definition-en": {
+                "en": "the kind of air quality component"
             },
             "definition": {
                 "en": "the kind of air quality component"
@@ -222,14 +227,17 @@
                     "en": "the kind of air quality component"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "Component Type"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the kind of air quality component"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -251,11 +259,11 @@
         {
             "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#Region",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "ap-definition-en": {
-                "en": "a subdivision of the state"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "Region"
+            },
+            "definition-en": {
+                "en": "a subdivision of the state"
             },
             "definition": {
                 "en": "a subdivision of the state"
@@ -278,14 +286,17 @@
                     "en": "a subdivision of the state"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "Region"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a subdivision of the state"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -307,11 +318,11 @@
         {
             "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#State",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "ap-definition-en": {
-                "en": "A country"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "State"
+            },
+            "definition-en": {
+                "en": "A country"
             },
             "definition": {
                 "en": "A country"
@@ -334,14 +345,17 @@
                     "en": "A country"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "State"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "A country"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -363,11 +377,11 @@
         {
             "@id": "https://duet.dev-vlaanderen.be/ns/air-cz#Station",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "ap-definition-en": {
-                "en": "an air quality sensor station"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "Station"
+            },
+            "definition-en": {
+                "en": "an air quality sensor station"
             },
             "definition": {
                 "en": "an air quality sensor station"
@@ -390,14 +404,17 @@
                     "en": "an air quality sensor station"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "Station"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "an air quality sensor station"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -423,11 +440,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "classification",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a classification of the station"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "classification"
+            },
+            "definition-en": {
+                "en": "a classification of the station"
             },
             "definition": {
                 "en": "a classification of the station"
@@ -455,14 +472,17 @@
                     "en": "a classification of the station"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "classification"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a classification of the station"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -500,11 +520,11 @@
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "code",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the air quality component that is measured"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "code"
+            },
+            "definition-en": {
+                "en": "the air quality component that is measured"
             },
             "definition": {
                 "en": "the air quality component that is measured"
@@ -536,14 +556,17 @@
                     "en": "the air quality component that is measured"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "code"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the air quality component that is measured"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -592,11 +615,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "code",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a notation identifying the entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "code"
+            },
+            "definition-en": {
+                "en": "a notation identifying the entity"
             },
             "definition": {
                 "en": "a notation identifying the entity"
@@ -624,14 +647,17 @@
                     "en": "a notation identifying the entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "code"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a notation identifying the entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -669,11 +695,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "code",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a notiation identifying the entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "code"
+            },
+            "definition-en": {
+                "en": "a notiation identifying the entity"
             },
             "definition": {
                 "en": "a notiation identifying the entity"
@@ -701,14 +727,17 @@
                     "en": "a notiation identifying the entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "code"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a notiation identifying the entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -746,11 +775,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "code",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a notation identifying the entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "code"
+            },
+            "definition-en": {
+                "en": "a notation identifying the entity"
             },
             "definition": {
                 "en": "a notation identifying the entity"
@@ -778,14 +807,17 @@
                     "en": "a notation identifying the entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "code"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a notation identifying the entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -823,11 +855,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "code",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a notation identifying the air quality component"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "code"
+            },
+            "definition-en": {
+                "en": "a notation identifying the air quality component"
             },
             "definition": {
                 "en": "a notation identifying the air quality component"
@@ -855,14 +887,17 @@
                     "en": "a notation identifying the air quality component"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "code"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a notation identifying the air quality component"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -900,11 +935,11 @@
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "component",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a measurement for an air quality component by the station"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "component"
+            },
+            "definition-en": {
+                "en": "a measurement for an air quality component by the station"
             },
             "definition": {
                 "en": "a measurement for an air quality component by the station"
@@ -936,14 +971,17 @@
                     "en": "a measurement for an air quality component by the station"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "component"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a measurement for an air quality component by the station"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -992,17 +1030,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "date from (UTC)",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the measurement period start datetime in UTC"
-            },
-            "ap-usageNote-en": {
-                "en": "the value could be according to xsd:datetime but currently are not"
-            },
-            "usage": {
-                "en": "the value could be according to xsd:datetime but currently are not"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "date from (UTC)"
+            },
+            "definition-en": {
+                "en": "the measurement period start datetime in UTC"
             },
             "definition": {
                 "en": "the measurement period start datetime in UTC"
@@ -1029,19 +1061,18 @@
                 "definition": {
                     "en": "the measurement period start datetime in UTC"
                 },
-                "usage": {
-                    "en": "the value could be according to xsd:datetime but currently are not"
-                },
-                "ap-label-en": {
+                "usage": "",
+                "label-en": {
                     "en": "date from (UTC)"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the measurement period start datetime in UTC"
                 },
-                "ap-usageNote-en": {
-                    "en": "the value could be according to xsd:datetime but currently are not"
-                },
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1084,17 +1115,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "date from-to",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the measurement period in the default timezone of the Czech republic"
-            },
-            "ap-usageNote-en": {
-                "en": "A non standard notation combining start and end date time into one serialized value"
-            },
-            "usage": {
-                "en": "A non standard notation combining start and end date time into one serialized value"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "date from-to"
+            },
+            "definition-en": {
+                "en": "the measurement period in the default timezone of the Czech republic"
             },
             "definition": {
                 "en": "the measurement period in the default timezone of the Czech republic"
@@ -1121,19 +1146,18 @@
                 "definition": {
                     "en": "the measurement period in the default timezone of the Czech republic"
                 },
-                "usage": {
-                    "en": "A non standard notation combining start and end date time into one serialized value"
-                },
-                "ap-label-en": {
+                "usage": "",
+                "label-en": {
                     "en": "date from-to"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the measurement period in the default timezone of the Czech republic"
                 },
-                "ap-usageNote-en": {
-                    "en": "A non standard notation combining start and end date time into one serialized value"
-                },
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1176,17 +1200,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "date to (UTC)",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the measurement period end datetime in UTC"
-            },
-            "ap-usageNote-en": {
-                "en": "the value could be according to xsd:datetime but currently are not"
-            },
-            "usage": {
-                "en": "the value could be according to xsd:datetime but currently are not"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "date to (UTC)"
+            },
+            "definition-en": {
+                "en": "the measurement period end datetime in UTC"
             },
             "definition": {
                 "en": "the measurement period end datetime in UTC"
@@ -1213,19 +1231,18 @@
                 "definition": {
                     "en": "the measurement period end datetime in UTC"
                 },
-                "usage": {
-                    "en": "the value could be according to xsd:datetime but currently are not"
-                },
-                "ap-label-en": {
+                "usage": "",
+                "label-en": {
                     "en": "date to (UTC)"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the measurement period end datetime in UTC"
                 },
-                "ap-usageNote-en": {
-                    "en": "the value could be according to xsd:datetime but currently are not"
-                },
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1268,11 +1285,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "interval",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the interval between measurements"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "interval"
+            },
+            "definition-en": {
+                "en": "the interval between measurements"
             },
             "definition": {
                 "en": "the interval between measurements"
@@ -1300,14 +1317,17 @@
                     "en": "the interval between measurements"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "interval"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the interval between measurements"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1345,17 +1365,11 @@
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
             "name": "latitude",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the latitude position of the station"
-            },
-            "ap-usageNote-en": {
-                "en": "The CRS is wgs84"
-            },
-            "usage": {
-                "en": "The CRS is wgs84"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "latitude"
+            },
+            "definition-en": {
+                "en": "the latitude position of the station"
             },
             "definition": {
                 "en": "the latitude position of the station"
@@ -1382,19 +1396,18 @@
                 "definition": {
                     "en": "the latitude position of the station"
                 },
-                "usage": {
-                    "en": "The CRS is wgs84"
-                },
-                "ap-label-en": {
+                "usage": "",
+                "label-en": {
                     "en": "latitude"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the latitude position of the station"
                 },
-                "ap-usageNote-en": {
-                    "en": "The CRS is wgs84"
-                },
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1431,17 +1444,11 @@
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
             "name": "longitude",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the longituge position of the station"
-            },
-            "ap-usageNote-en": {
-                "en": "The CRS is wgs84"
-            },
-            "usage": {
-                "en": "The CRS is wgs84"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "longitude"
+            },
+            "definition-en": {
+                "en": "the longituge position of the station"
             },
             "definition": {
                 "en": "the longituge position of the station"
@@ -1468,19 +1475,18 @@
                 "definition": {
                     "en": "the longituge position of the station"
                 },
-                "usage": {
-                    "en": "The CRS is wgs84"
-                },
-                "ap-label-en": {
+                "usage": "",
+                "label-en": {
                     "en": "longitude"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the longituge position of the station"
                 },
-                "ap-usageNote-en": {
-                    "en": "The CRS is wgs84"
-                },
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1517,11 +1523,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "name",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a unique short label given to an entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "name"
+            },
+            "definition-en": {
+                "en": "a unique short label given to an entity"
             },
             "definition": {
                 "en": "a unique short label given to an entity"
@@ -1549,14 +1555,17 @@
                     "en": "a unique short label given to an entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "name"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a unique short label given to an entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1594,11 +1603,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "name",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a unique short label given to an entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "name"
+            },
+            "definition-en": {
+                "en": "a unique short label given to an entity"
             },
             "definition": {
                 "en": "a unique short label given to an entity"
@@ -1626,14 +1635,17 @@
                     "en": "a unique short label given to an entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "name"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a unique short label given to an entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1671,11 +1683,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "name",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a unique short label given to an entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "name"
+            },
+            "definition-en": {
+                "en": "a unique short label given to an entity"
             },
             "definition": {
                 "en": "a unique short label given to an entity"
@@ -1703,14 +1715,17 @@
                     "en": "a unique short label given to an entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "name"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a unique short label given to an entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1748,11 +1763,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "name",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a unique short label given to an entity"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "name"
+            },
+            "definition-en": {
+                "en": "a unique short label given to an entity"
             },
             "definition": {
                 "en": "a unique short label given to an entity"
@@ -1780,14 +1795,17 @@
                     "en": "a unique short label given to an entity"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "name"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a unique short label given to an entity"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1825,11 +1843,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "owner",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the agent that is responsible for the station"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "owner"
+            },
+            "definition-en": {
+                "en": "the agent that is responsible for the station"
             },
             "definition": {
                 "en": "the agent that is responsible for the station"
@@ -1857,14 +1875,17 @@
                     "en": "the agent that is responsible for the station"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "owner"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the agent that is responsible for the station"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -1902,11 +1923,11 @@
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "region",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a region of the state"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "region"
+            },
+            "definition-en": {
+                "en": "a region of the state"
             },
             "definition": {
                 "en": "a region of the state"
@@ -1938,14 +1959,17 @@
                     "en": "a region of the state"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "region"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a region of the state"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "definition-en",
@@ -1994,11 +2018,11 @@
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "station",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "a air quality sensor station located in the region"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "station"
+            },
+            "definition-en": {
+                "en": "a air quality sensor station located in the region"
             },
             "definition": {
                 "en": "a air quality sensor station located in the region"
@@ -2030,14 +2054,17 @@
                     "en": "a air quality sensor station located in the region"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "station"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "a air quality sensor station located in the region"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -2086,11 +2113,11 @@
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "unit",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the unit of measurement for the air quality component"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "unit"
+            },
+            "definition-en": {
+                "en": "the unit of measurement for the air quality component"
             },
             "definition": {
                 "en": "the unit of measurement for the air quality component"
@@ -2118,14 +2145,17 @@
                     "en": "the unit of measurement for the air quality component"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "unit"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the unit of measurement for the air quality component"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -2163,11 +2193,11 @@
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
             "name": "value",
             "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "the value measured in the interval"
-            },
-            "ap-label-en": {
+            "label-en": {
                 "en": "value"
+            },
+            "definition-en": {
+                "en": "the value measured in the interval"
             },
             "definition": {
                 "en": "the value measured in the interval"
@@ -2195,14 +2225,17 @@
                     "en": "the value measured in the interval"
                 },
                 "usage": "",
-                "ap-label-en": {
+                "label-en": {
                     "en": "value"
                 },
-                "ap-definition-en": {
+                "definition-en": {
                     "en": "the value measured in the interval"
                 },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
                 "RawTags": [
                     {
                         "key": "label-en",
@@ -2232,34 +2265,34 @@
     ],
     "externals": [],
     "externalproperties": [],
-    "name": "air-cz-ap",
-    "type": "ap",
+    "name": "air-cz-voc",
+    "type": "voc",
     "eap": "air-cz.eap",
     "diagram": "air-cz",
-    "template": "air-cz-ap_en.j2",
+    "template": "air-cz-voc_en.j2",
     "title": "Czech Air Quality",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2021-05-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
-    "site": "site-skeleton/air-cz-ap",
+    "site": "site-skeleton/air-cz-voc",
     "feedbackurl": "https://github.com/Informatievlaanderen/duet-vocabularies/issues",
     "standaardregisterurl": " ",
     "translation": [
         {
             "language": "en",
-            "template": "air-cz-ap_en.j2",
+            "template": "air-cz-voc_en.j2",
             "title": "Czech Air Quality",
-            "translationjson": "air-cz-ap_en.json",
-            "mergefile": "air-cz-ap_en_merged.jsonld"
+            "translationjson": "air-cz-voc_en.json",
+            "mergefile": "air-cz-voc_en_merged.jsonld"
         }
     ],
-    "config": "config/config-ap.json",
+    "config": "config/config-voc.json",
     "trigger": 2,
-    "urlref": "/doc/applicationprofile/air-quality-czech",
+    "urlref": "/doc/vocabulary/air-quality-czech",
     "repository": "https://github.com/Informatievlaanderen/duet-vocabularies",
     "branchtag": "master",
-    "filename": "config/air-cz-ap.json",
+    "filename": "config/air-cz-voc.json",
     "examples": false,
     "navigation": {},
     "documentcommit": "276f2a676322a269ee79ef377e32dbe5e19cceba",

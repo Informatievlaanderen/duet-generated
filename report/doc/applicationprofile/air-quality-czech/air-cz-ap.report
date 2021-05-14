@@ -2,22 +2,22 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-09:39:31 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "air-cz".
-09:39:31 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#name): air-cz.air-cz:ComponentType:name, air-cz.air-cz:Station:name, air-cz.air-cz:State:name, air-cz.air-cz:Region:name
-09:39:31 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#code): air-cz.air-cz:ComponentType:code, air-cz.air-cz:Region:code, air-cz.air-cz:State:code, air-cz.air-cz:Station:code
-09:39:31 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
-09:39:31 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
-09:39:31 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
-09:39:31 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
-09:39:31 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "State" .
-09:39:31 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Region" .
-09:39:31 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Station" .
-09:39:31 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Component" .
-09:39:31 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ComponentType" .
-09:39:31 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:State:region" belongs to package "air-cz" based on source and target definition.
-09:39:31 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Station:component" belongs to package "air-cz" based on source and target definition.
-09:39:31 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Region:station" belongs to package "air-cz" based on source and target definition.
-09:39:31 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Component:code" belongs to package "air-cz" based on source and target definition.
-09:39:31 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:latitude".
-09:39:31 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:longitude".
-09:39:31 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Component:value".
+09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "air-cz".
+09:59:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#name): air-cz.air-cz:ComponentType:name, air-cz.air-cz:Station:name, air-cz.air-cz:State:name, air-cz.air-cz:Region:name
+09:59:52 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://duet.dev-vlaanderen.be/ns/air-cz#code): air-cz.air-cz:ComponentType:code, air-cz.air-cz:Region:code, air-cz.air-cz:State:code, air-cz.air-cz:Station:code
+09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
+09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
+09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "air-cz.air-cz".
+09:59:52 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "air-cz.air-cz".
+09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "State" .
+09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Region" .
+09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Station" .
+09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Component" .
+09:59:52 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ComponentType" .
+09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:State:region" belongs to package "air-cz" based on source and target definition.
+09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Station:component" belongs to package "air-cz" based on source and target definition.
+09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Region:station" belongs to package "air-cz" based on source and target definition.
+09:59:52 INFO  c.g.i.o.c.UriAssigner - Assuming connector "air-cz.air-cz:Component:code" belongs to package "air-cz" based on source and target definition.
+09:59:52 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:latitude".
+09:59:52 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Station:longitude".
+09:59:52 WARN  c.g.i.o.c.Converter - Missing data type for attribute "air-cz.air-cz:Component:value".
