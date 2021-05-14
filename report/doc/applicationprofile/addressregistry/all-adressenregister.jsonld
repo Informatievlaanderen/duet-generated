@@ -5735,109 +5735,6 @@
       },
       "extra": {
         "EA-Name": "isToegekendDoor",
-        "EA-Guid": "{414C3BBA-B264-4eb8-A764-0A2DD78279BA}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Adres",
-        "EA-Domain-Guid": "{8F99766F-3674-46d6-9FE3-05FC60253B4E}",
-        "EA-Range": "Gemeente",
-        "RangeData": {
-          "EA-Name": "Gemeente",
-          "EA-GUID": "{D519E707-8EDF-4a01-A06D-7449665101A8}",
-          "EA-Package": "OSLO-Generiek",
-          "uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "en": "toegeschreven aan"
-        },
-        "definition": "",
-        "usage": "",
-        "ap-label-en": {
-          "en": "toegeschreven aan"
-        },
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "value": "toegeschreven aan",
-            "note": "null"
-          },
-          {
-            "key": "ap-usageNote-nl",
-            "value": "In België is dit de gemeente.",
-            "note": " "
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Agent die het adres heeft toegekend.",
-            "note": " "
-          },
-          {
-            "key": "ap-label-nl",
-            "value": "is toegekend door",
-            "note": "null"
-          },
-          {
-            "key": "package",
-            "value": "OSLO-Adres",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://www.w3.org/ns/prov#wasAttributedTo",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "toegeschreven aan",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#Adres",
-          "EA-Name": "Adres"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Gemeente",
-          "EA-GUID": "{D519E707-8EDF-4a01-A06D-7449665101A8}",
-          "EA-Package": "OSLO-Generiek",
-          "uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://www.w3.org/ns/prov#wasAttributedTo",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "toegeschreven aan",
-      "inpackage": "ACTIVE_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "toegeschreven aan"
-      },
-      "label": {
-        "en": "toegeschreven aan"
-      },
-      "extra": {
-        "EA-Name": "isToegekendDoor",
         "EA-Guid": "{070A936F-A6C1-43ac-A5A0-A3E5650BE6F2}",
         "derived": "false",
         "EA-Package": "",
@@ -5911,6 +5808,109 @@
         {
           "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam",
           "EA-Name": "Straatnaam"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Gemeente",
+          "EA-GUID": "{D519E707-8EDF-4a01-A06D-7449665101A8}",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/ns/prov#wasAttributedTo",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "toegeschreven aan",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "toegeschreven aan"
+      },
+      "label": {
+        "en": "toegeschreven aan"
+      },
+      "extra": {
+        "EA-Name": "isToegekendDoor",
+        "EA-Guid": "{414C3BBA-B264-4eb8-A764-0A2DD78279BA}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Adres",
+        "EA-Domain-Guid": "{8F99766F-3674-46d6-9FE3-05FC60253B4E}",
+        "EA-Range": "Gemeente",
+        "RangeData": {
+          "EA-Name": "Gemeente",
+          "EA-GUID": "{D519E707-8EDF-4a01-A06D-7449665101A8}",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://data.vlaanderen.be/ns/generiek#Gemeente"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "en": "toegeschreven aan"
+        },
+        "definition": "",
+        "usage": "",
+        "ap-label-en": {
+          "en": "toegeschreven aan"
+        },
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "toegeschreven aan",
+            "note": "null"
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "value": "In België is dit de gemeente.",
+            "note": " "
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Agent die het adres heeft toegekend.",
+            "note": " "
+          },
+          {
+            "key": "ap-label-nl",
+            "value": "is toegekend door",
+            "note": "null"
+          },
+          {
+            "key": "package",
+            "value": "OSLO-Adres",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/ns/prov#wasAttributedTo",
+            "note": "null"
+          },
+          {
+            "key": "label-en",
+            "value": "toegeschreven aan",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Adres",
+          "EA-Name": "Adres"
         }
       ],
       "range": [
@@ -6206,6 +6206,6 @@
   "examples": true,
   "navigation": {},
   "documentcommit": "b061241c1d7291ff8b5ad793f668c034cb704b47",
-  "toolchaincommit": "17eea8e5e7d3aa9fb3f19c9371c57b102846b732",
+  "toolchaincommit": "da8ee9369b27fcc7a453beac681740048b27cea2",
   "hostname": "https://duet.dev-vlaanderen.be"
 }

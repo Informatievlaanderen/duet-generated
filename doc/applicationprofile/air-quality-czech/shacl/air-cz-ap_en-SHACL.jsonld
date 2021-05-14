@@ -1,0 +1,336 @@
+{
+  "@context": {
+    "@vocab": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:definition": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en",
+  "shapes": [
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#ComponentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType",
+          "sh:definition": {
+            "en": "the air quality component that is measured"
+          },
+          "sh:name": {
+            "en": "code"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#code"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the interval between measurements"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "interval"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#interval"
+        },
+        {
+          "sh:definition": {
+            "en": "the value measured in the interval"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#value"
+        }
+      ],
+      "sh:targetClass": "https://duet.dev-vlaanderen.be/ns/air-cz#Component"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#ComponentTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a notation identifying the air quality component"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "code"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#code"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a unique short label given to an entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the unit of measurement for the air quality component"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "unit"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#unit"
+        }
+      ],
+      "sh:targetClass": "https://duet.dev-vlaanderen.be/ns/air-cz#ComponentType"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#RegionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a notiation identifying the entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "code"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#code"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a unique short label given to an entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#name"
+        },
+        {
+          "sh:class": "https://duet.dev-vlaanderen.be/ns/air-cz#Station",
+          "sh:definition": {
+            "en": "a air quality sensor station located in the region"
+          },
+          "sh:name": {
+            "en": "station"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#station"
+        }
+      ],
+      "sh:targetClass": "https://duet.dev-vlaanderen.be/ns/air-cz#Region"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StateShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a notation identifying the entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "code"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#code"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the measurement period start datetime in UTC"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "date from (UTC)"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#date from UTC"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the measurement period in the default timezone of the Czech republic"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "date from-to"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#date from-to"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the measurement period end datetime in UTC"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "date to (UTC)"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#date to UTC"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a unique short label given to an entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#name"
+        },
+        {
+          "sh:class": "https://duet.dev-vlaanderen.be/ns/air-cz#Region",
+          "sh:definition": {
+            "en": "a region of the state"
+          },
+          "sh:name": {
+            "en": "region"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#region"
+        }
+      ],
+      "sh:targetClass": "https://duet.dev-vlaanderen.be/ns/air-cz#State"
+    },
+    {
+      "@id": "https://duet.dev-vlaanderen.be/shacl/air-cz-ap_en#StationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a classification of the station"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "classification"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#classification"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a notation identifying the entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "code"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#code"
+        },
+        {
+          "sh:class": "https://duet.dev-vlaanderen.be/ns/air-cz#Component",
+          "sh:definition": {
+            "en": "a measurement for an air quality component by the station"
+          },
+          "sh:name": {
+            "en": "component"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#component"
+        },
+        {
+          "sh:definition": {
+            "en": "the latitude position of the station"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "latitude"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#latitude"
+        },
+        {
+          "sh:definition": {
+            "en": "the longituge position of the station"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "longitude"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#longitude"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "a unique short label given to an entity"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:definition": {
+            "en": "the agent that is responsible for the station"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "owner"
+          },
+          "sh:path": "https://duet.dev-vlaanderen.be/ns/air-cz#owner"
+        }
+      ],
+      "sh:targetClass": "https://duet.dev-vlaanderen.be/ns/air-cz#Station"
+    }
+  ]
+}
